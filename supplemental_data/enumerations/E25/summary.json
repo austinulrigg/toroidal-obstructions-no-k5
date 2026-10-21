@@ -1,0 +1,17 @@
+{
+ "item": "E25",
+ "where": "Proposition 6.11",
+ "candidates": 216,
+ "verdicts": {
+  "K5 minor": 32,
+  "cut of at most two vertices": 28,
+  "proper nontoroidal minor": 156
+ },
+ "isomorphic to T_i (copies)": {},
+ "graphs T_i not excluded by a hypothesis of the case": [],
+ "also excluded by a hypothesis of the case": {
+  "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)": 205,
+  "two twin triples are disjoint": 3,
+  "two twin triples share two vertices": 4
+ }
+}

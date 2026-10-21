@@ -1,0 +1,7163 @@
+{
+ "item": "E16",
+ "verdicts": [
+  {
+   "id": "21-altB-0000",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0001",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "c",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u5"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0002",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0003",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0004",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0005",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0006",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0007",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0008",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "u6"
+     ],
+     [
+      "u5",
+      "w"
+     ],
+     [
+      "u6",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0009",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0010",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "c",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "u6"
+     ],
+     [
+      "u6",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0011",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0012",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0013",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0014",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "c",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0015",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u4"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "w"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0016",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0017",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0018",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0019",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0020",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0021",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0022",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0023",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0024",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0025",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0026",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "u5"
+     ],
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0027",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "u5"
+     ],
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ],
+     [
+      "u3",
+      "u5"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0028",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "w"
+     ],
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0029",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0030",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0031",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "c",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u0"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0032",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0033",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0034",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "c",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u0"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0035",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u0"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0036",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u0"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0037",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "c",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u0"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0038",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u0"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0039",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u0"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "w"
+     ],
+     [
+      "u4",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0040",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0041",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0042",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0043",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "w"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0044",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0045",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0046",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "w"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0047",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0048",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0049",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "w"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0050",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0051",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0052",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0053",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0054",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0055",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0056",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0057",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u0"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u3",
+      "w"
+     ],
+     [
+      "u4",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0058",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u0"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3",
+      "w"
+     ],
+     [
+      "u4",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0059",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u0"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u3",
+      "u4"
+     ],
+     [
+      "u4",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0060",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "w"
+     ],
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u0"
+     ],
+     [
+      "c",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u3",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0061",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0062",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0063",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0064",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0065",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0066",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0067",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u3",
+      "u4"
+     ],
+     [
+      "u4",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0068",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0069",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p'",
+      "p",
+      "q",
+      "zD"
+     ],
+     [
+      "b",
+      "d",
+      "u3",
+      "r",
+      "z"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0070",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0071",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0072",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "c",
+      "u3"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u4",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0073",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "c",
+      "u3"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0074",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "c",
+      "u3"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0075",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "c",
+      "q'"
+     ],
+     [
+      "c",
+      "u2"
+     ],
+     [
+      "c",
+      "u3"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0076",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altB-0077",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0000",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0001",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0002",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0003",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0004",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0005",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "u6"
+     ],
+     [
+      "u5",
+      "w"
+     ],
+     [
+      "u6",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0006",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0007",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "u6"
+     ],
+     [
+      "u6",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0008",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0009",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0010",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0011",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0012",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0013",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0014",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0015",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0016",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "w"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0017",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "u1",
+      "q"
+     ],
+     [
+      "b",
+      "c",
+      "p'",
+      "q'",
+      "w",
+      "p",
+      "zB"
+     ],
+     [
+      "d",
+      "u5",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0018",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0019",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u0"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0020",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0021",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0022",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u0"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0023",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u0"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0024",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "w"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0025",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u0"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0026",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u0"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0027",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u0"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "w"
+     ],
+     [
+      "u4",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0028",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0029",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q'",
+      "r"
+     ],
+     [
+      "b",
+      "c",
+      "p'",
+      "w",
+      "p",
+      "q",
+      "zB"
+     ],
+     [
+      "d",
+      "u1",
+      "z"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0030",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0031",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0032",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0033",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0034",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0035",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0036",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0037",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0038",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0039",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ],
+     [
+      "u3",
+      "u5"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0040",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "w"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0041",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0042",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0043",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "w"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ],
+     [
+      "u5",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0044",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0045",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0046",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "w"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0047",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0048",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0049",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "w"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0050",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0051",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0052",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0053",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0054",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0055",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0056",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0057",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0058",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u4",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0059",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u4",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0060",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "p'",
+      "q'",
+      "p",
+      "q",
+      "zB"
+     ],
+     [
+      "d",
+      "u4",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u4",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0061",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "w"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0062",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "d",
+      "p",
+      "r",
+      "z",
+      "zB"
+     ],
+     [
+      "c",
+      "p'",
+      "q'",
+      "w",
+      "q"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0063",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u4",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0064",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0065",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0066",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "q'"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "q'",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0067",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0068",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0069",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0070",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0071",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0072",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0073",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "w"
+     ],
+     [
+      "u3",
+      "u4"
+     ],
+     [
+      "u4",
+      "w"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0074",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0075",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "q'",
+      "p",
+      "q",
+      "z"
+     ],
+     [
+      "b",
+      "p'",
+      "w",
+      "zB"
+     ],
+     [
+      "d",
+      "r"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0076",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  },
+  {
+   "id": "21-altD-0077",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   }
+  }
+ ]
+}

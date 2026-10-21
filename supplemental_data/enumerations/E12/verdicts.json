@@ -1,0 +1,2334 @@
+{
+ "item": "E12",
+ "verdicts": [
+  {
+   "id": "E01-001",
+   "verdict": "isomorphic to T73",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T73",
+    "map": {
+     "a": 12,
+     "b": 13,
+     "c": 9,
+     "d": 10,
+     "p'": 0,
+     "p": 6,
+     "q": 7,
+     "q'": 1,
+     "r": 4,
+     "z": 5,
+     "u": 8,
+     "v": 11,
+     "m1": 2,
+     "m2": 3
+    }
+   }
+  },
+  {
+   "id": "E01-002",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "m1"
+    ],
+    "why the minor is nontoroidal": {
+     "reason": "B' = B - cm1 still satisfies the hypotheses of Lemma 5.3 and all four tests for (n_c, n_d) = (2, 2) are nonplanar",
+     "tests": [
+      {
+       "test": "B' + ac + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "c"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "d"
+        ],
+        [
+         "b",
+         "u"
+        ],
+        [
+         "c",
+         "m2"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ad + bc",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "d"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "c"
+        ],
+        [
+         "b",
+         "u"
+        ],
+        [
+         "c",
+         "m2"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + ac + ad",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "b"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "u"
+        ],
+        [
+         "b",
+         "m1"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m1"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + bc + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "b"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "d"
+        ],
+        [
+         "b",
+         "u"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E01-003",
+   "verdict": "isomorphic to T56",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T56",
+    "map": {
+     "a": 12,
+     "b": 11,
+     "c": 2,
+     "d": 1,
+     "p'": 9,
+     "p": 6,
+     "q": 5,
+     "q'": 8,
+     "r": 4,
+     "z": 3,
+     "u": 7,
+     "v": 0,
+     "m": 10
+    }
+   }
+  },
+  {
+   "id": "E01-004",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "d",
+     "m1"
+    ],
+    "why the minor is nontoroidal": {
+     "reason": "B' = B - dm1 still satisfies the hypotheses of Lemma 5.3 and all four tests for (n_c, n_d) = (2, 2) are nonplanar",
+     "tests": [
+      {
+       "test": "B' + ac + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "c"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "d"
+        ],
+        [
+         "b",
+         "u"
+        ],
+        [
+         "c",
+         "m2"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ad + bc",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "d"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "c"
+        ],
+        [
+         "b",
+         "u"
+        ],
+        [
+         "c",
+         "m2"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + ac + ad",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "b"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "u"
+        ],
+        [
+         "b",
+         "m1"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m1"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + bc + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "b"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "d"
+        ],
+        [
+         "b",
+         "u"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E01-005",
+   "verdict": "isomorphic to T73",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T73",
+    "map": {
+     "a": 12,
+     "b": 13,
+     "c": 9,
+     "d": 10,
+     "p'": 0,
+     "p": 6,
+     "q": 7,
+     "q'": 1,
+     "r": 4,
+     "z": 5,
+     "u": 11,
+     "v": 8,
+     "m1": 2,
+     "m2": 3
+    }
+   }
+  },
+  {
+   "id": "E01-006",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p'",
+      "q",
+      "q'",
+      "z"
+     ],
+     [
+      "b",
+      "p",
+      "r",
+      "v"
+     ],
+     [
+      "c"
+     ],
+     [
+      "d",
+      "m2"
+     ],
+     [
+      "u",
+      "m1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E01-007",
+   "verdict": "isomorphic to T56",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T56",
+    "map": {
+     "a": 12,
+     "b": 11,
+     "c": 2,
+     "d": 1,
+     "p'": 9,
+     "p": 6,
+     "q": 5,
+     "q'": 8,
+     "r": 4,
+     "z": 3,
+     "u": 0,
+     "v": 7,
+     "m": 10
+    }
+   }
+  },
+  {
+   "id": "E01-008",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p'",
+      "p",
+      "r",
+      "v"
+     ],
+     [
+      "b",
+      "q"
+     ],
+     [
+      "c",
+      "m2"
+     ],
+     [
+      "d",
+      "z"
+     ],
+     [
+      "q'",
+      "u",
+      "m1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E01-009",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "m1"
+    ],
+    "why the minor is nontoroidal": {
+     "reason": "B' = B - bm1 still satisfies the hypotheses of Lemma 5.3 and all four tests for (n_c, n_d) = (2, 2) are nonplanar",
+     "tests": [
+      {
+       "test": "B' + ac + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "c"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "c",
+         "u"
+        ],
+        [
+         "c",
+         "m1"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m1"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ad + bc",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "d"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "c"
+        ],
+        [
+         "b",
+         "m2"
+        ],
+        [
+         "c",
+         "u"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + ac + ad",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "c"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "c",
+         "u"
+        ],
+        [
+         "c",
+         "m1"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m1"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + bc + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "b"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "c"
+        ],
+        [
+         "c",
+         "u"
+        ],
+        [
+         "c",
+         "m1"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m1"
+        ]
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E01-010",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "m1"
+    ],
+    "why the minor is nontoroidal": {
+     "reason": "B' = B - bm1 still satisfies the hypotheses of Lemma 5.3 and all four tests for (n_c, n_d) = (2, 2) are nonplanar",
+     "tests": [
+      {
+       "test": "B' + ac + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "c"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "c",
+         "v"
+        ],
+        [
+         "c",
+         "m1"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "u",
+         "m1"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ad + bc",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "d"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "c"
+        ],
+        [
+         "b",
+         "m2"
+        ],
+        [
+         "c",
+         "v"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "u",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + ac + ad",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "c"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "c",
+         "v"
+        ],
+        [
+         "c",
+         "m1"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "u",
+         "m1"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + bc + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "b"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "c"
+        ],
+        [
+         "c",
+         "v"
+        ],
+        [
+         "c",
+         "m1"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "u",
+         "m1"
+        ]
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E01-011",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "m2"
+    ],
+    "why the minor is nontoroidal": {
+     "reason": "B' = B - bm2 still satisfies the hypotheses of Lemma 5.3 and all four tests for (n_c, n_d) = (2, 2) are nonplanar",
+     "tests": [
+      {
+       "test": "B' + ac + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "c"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "d"
+        ],
+        [
+         "b",
+         "m1"
+        ],
+        [
+         "c",
+         "m1"
+        ],
+        [
+         "d",
+         "u"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m1"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ad + bc",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "d"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "d",
+         "u"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + ac + ad",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "d"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "d",
+         "u"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + bc + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "b"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "d"
+        ],
+        [
+         "d",
+         "u"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E01-012",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "m2"
+    ],
+    "why the minor is nontoroidal": {
+     "reason": "B' = B - bm2 still satisfies the hypotheses of Lemma 5.3 and all four tests for (n_c, n_d) = (2, 2) are nonplanar",
+     "tests": [
+      {
+       "test": "B' + ac + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "c"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "d"
+        ],
+        [
+         "b",
+         "m1"
+        ],
+        [
+         "c",
+         "m1"
+        ],
+        [
+         "d",
+         "v"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "u",
+         "m1"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ad + bc",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "d"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "d",
+         "v"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "u",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + ac + ad",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "d"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "d",
+         "v"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "u",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + bc + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "b"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "d"
+        ],
+        [
+         "d",
+         "v"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "u",
+         "m2"
+        ]
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E01-013",
+   "verdict": "isomorphic to T53",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T53",
+    "map": {
+     "a": 13,
+     "b": 12,
+     "c": 0,
+     "d": 1,
+     "p'": 6,
+     "p": 9,
+     "q": 8,
+     "q'": 7,
+     "r": 11,
+     "z": 10,
+     "u": 3,
+     "v": 2,
+     "m1": 4,
+     "m2": 5
+    }
+   }
+  },
+  {
+   "id": "E01-014",
+   "verdict": "isomorphic to T53",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T53",
+    "map": {
+     "a": 13,
+     "b": 12,
+     "c": 0,
+     "d": 1,
+     "p'": 6,
+     "p": 9,
+     "q": 8,
+     "q'": 7,
+     "r": 11,
+     "z": 10,
+     "u": 2,
+     "v": 3,
+     "m1": 4,
+     "m2": 5
+    }
+   }
+  },
+  {
+   "id": "E01-015",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p",
+      "r"
+     ],
+     [
+      "b"
+     ],
+     [
+      "c",
+      "q",
+      "u"
+     ],
+     [
+      "d",
+      "z",
+      "m2"
+     ],
+     [
+      "p'",
+      "q'",
+      "v",
+      "m1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E01-016",
+   "verdict": "isomorphic to T40",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T40",
+    "map": {
+     "a": 12,
+     "b": 11,
+     "c": 10,
+     "d": 6,
+     "p'": 2,
+     "p": 5,
+     "q": 4,
+     "q'": 3,
+     "r": 0,
+     "z": 1,
+     "u": 7,
+     "v": 8,
+     "m": 9
+    }
+   }
+  },
+  {
+   "id": "E01-017",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "d",
+     "m1"
+    ],
+    "why the minor is nontoroidal": {
+     "reason": "B' = B - dm1 still satisfies the hypotheses of Lemma 5.3 and all four tests for (n_c, n_d) = (2, 2) are nonplanar",
+     "tests": [
+      {
+       "test": "B' + ac + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "c"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "c",
+         "u"
+        ],
+        [
+         "c",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ad + bc",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "d"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "c",
+         "u"
+        ],
+        [
+         "c",
+         "m2"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + ac + ad",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "d"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "c",
+         "u"
+        ],
+        [
+         "c",
+         "m2"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + bc + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "b"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "d"
+        ],
+        [
+         "c",
+         "u"
+        ],
+        [
+         "c",
+         "m2"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E01-018",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p'",
+      "p"
+     ],
+     [
+      "b",
+      "q",
+      "r"
+     ],
+     [
+      "c"
+     ],
+     [
+      "d",
+      "z",
+      "m2"
+     ],
+     [
+      "q'",
+      "u",
+      "v",
+      "m1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E01-019",
+   "verdict": "isomorphic to T40",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T40",
+    "map": {
+     "a": 12,
+     "b": 11,
+     "c": 10,
+     "d": 6,
+     "p'": 2,
+     "p": 5,
+     "q": 4,
+     "q'": 3,
+     "r": 0,
+     "z": 1,
+     "u": 8,
+     "v": 7,
+     "m": 9
+    }
+   }
+  },
+  {
+   "id": "E01-020",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p'",
+      "q"
+     ],
+     [
+      "b",
+      "z"
+     ],
+     [
+      "c",
+      "p",
+      "v",
+      "m2"
+     ],
+     [
+      "d",
+      "r"
+     ],
+     [
+      "q'",
+      "u",
+      "m1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E01-021",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "m1"
+    ],
+    "why the minor is nontoroidal": {
+     "reason": "B' = B - cm1 still satisfies the hypotheses of Lemma 5.3 and all four tests for (n_c, n_d) = (2, 2) are nonplanar",
+     "tests": [
+      {
+       "test": "B' + ac + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "c"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "c",
+         "m2"
+        ],
+        [
+         "d",
+         "u"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ad + bc",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "d"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "d",
+         "u"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + ac + ad",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "d"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "d",
+         "u"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      },
+      {
+       "test": "B' + ab + bc + bd",
+       "Kuratowski subgraph": [
+        [
+         "a",
+         "b"
+        ],
+        [
+         "a",
+         "p'"
+        ],
+        [
+         "a",
+         "q'"
+        ],
+        [
+         "b",
+         "d"
+        ],
+        [
+         "d",
+         "u"
+        ],
+        [
+         "d",
+         "m2"
+        ],
+        [
+         "p'",
+         "u"
+        ],
+        [
+         "p'",
+         "v"
+        ],
+        [
+         "q'",
+         "u"
+        ],
+        [
+         "q'",
+         "v"
+        ],
+        [
+         "v",
+         "m2"
+        ]
+       ]
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "E01-022",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q"
+     ],
+     [
+      "b",
+      "r",
+      "z"
+     ],
+     [
+      "c",
+      "p"
+     ],
+     [
+      "d",
+      "q'",
+      "v",
+      "m2"
+     ],
+     [
+      "p'",
+      "u",
+      "m1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E01-023",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q"
+     ],
+     [
+      "b"
+     ],
+     [
+      "c",
+      "p"
+     ],
+     [
+      "d",
+      "q'",
+      "r",
+      "z",
+      "v",
+      "m2"
+     ],
+     [
+      "p'",
+      "u",
+      "m1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E01-024",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q"
+     ],
+     [
+      "b"
+     ],
+     [
+      "c",
+      "p"
+     ],
+     [
+      "d",
+      "p'",
+      "r",
+      "z",
+      "u",
+      "m2"
+     ],
+     [
+      "q'",
+      "v",
+      "m1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E01-025",
+   "verdict": "isomorphic to T40",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T40",
+    "map": {
+     "a": 12,
+     "b": 11,
+     "c": 6,
+     "d": 10,
+     "p'": 2,
+     "p": 0,
+     "q": 1,
+     "q'": 3,
+     "r": 4,
+     "z": 5,
+     "u": 7,
+     "v": 8,
+     "m": 9
+    }
+   }
+  },
+  {
+   "id": "E01-026",
+   "verdict": "isomorphic to T40",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T40",
+    "map": {
+     "a": 12,
+     "b": 11,
+     "c": 6,
+     "d": 10,
+     "p'": 2,
+     "p": 0,
+     "q": 1,
+     "q'": 3,
+     "r": 4,
+     "z": 5,
+     "u": 8,
+     "v": 7,
+     "m": 9
+    }
+   }
+  },
+  {
+   "id": "E01-027",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "m"
+    ]
+   }
+  },
+  {
+   "id": "E01-028",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q'",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "m1"
+     ],
+     [
+      "c",
+      "p",
+      "q",
+      "m2"
+     ],
+     [
+      "d",
+      "u"
+     ],
+     [
+      "p'",
+      "v"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E01-029",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p'",
+      "p",
+      "r"
+     ],
+     [
+      "b"
+     ],
+     [
+      "c",
+      "q",
+      "m2"
+     ],
+     [
+      "d",
+      "z",
+      "v"
+     ],
+     [
+      "q'",
+      "u",
+      "m1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E01-030",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "q'",
+      "z"
+     ],
+     [
+      "b",
+      "r"
+     ],
+     [
+      "c",
+      "p'",
+      "p",
+      "v",
+      "m2"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u",
+      "m1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E01-031",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p",
+      "z"
+     ],
+     [
+      "b",
+      "q"
+     ],
+     [
+      "c",
+      "m2"
+     ],
+     [
+      "d",
+      "r"
+     ],
+     [
+      "p'",
+      "q'",
+      "u",
+      "v",
+      "m1"
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "item": "E3",
+ "where": "Proposition 4.22",
+ "candidates": 15626,
+ "verdicts": {
+  "proper nontoroidal minor": 15626
+ },
+ "one-edge minors": {
+  "contract": 1732,
+  "delete": 13894
+ },
+ "why nontoroidal": {
+  "a minor model of T25 in the minor": 46,
+  "an allowed reduction keeping B + ac + cd + bd nonplanar": 15545,
+  "the minor fails all twelve choices of Lemma 4.3": 32,
+  "a genus computation": 3
+ },
+ "remaining": 0
+}

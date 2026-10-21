@@ -1,0 +1,464 @@
+{
+ "item": "E8",
+ "where": "Lemma 4.30 and Proposition 4.31",
+ "paper text": [
+  {
+   "line": 5075,
+   "text": "\nWe now determine the possible forms of $B$.\nLemma~\\ref{core:retained-subdivision} applies with $B$,\n$\\{a,b,c,d\\}$ and $\\{ac,cd,db\\}$ in the roles of $B$,\n$A$ and $E$. The graph $B+ac+cd+db$ is a nonplanar,\n$K_5$-minor-free minor of $G$, using the paths through\n$p,q,r,z$ and $P_x$. Every $K_{3,3}$ subdivision in it uses\n$cd$, since $B+ac+bd$ is planar. The retained minor is $B$\nitself, since every allowed operation makes $B+ac+cd+db$ planar.\nShortening $P_w$ to $ef$ also gives a minor of $G$, so the resulting\ngraph consisting of $\\Psi_1$ and $B$ has no $K_5$ minor.\nWith these conditions, three-connectivity of $B\\cup K_4[\\{a,b,c,d\\}]$\nand the minimality conditions above,\nConstruction~\\ref{common:marked-construction} leaves\nnine labeled bridges, five up to interchanging $A_1$ and $A_2$~\\supp{E8}."
+  },
+  {
+   "line": 5296,
+   "text": "\\begin{proposition}\\label{dis:type-b-reduction}\nIf $G$ has a bridge of type (b) with at least two interior\nvertices, then $G\\cong\\mathfrak{T}_{66}$, or there are two\ntwin pairs with disjoint neighborhoods and connecting paths\nof minimum total length for which one of the following holds.\nThe bridges and their types are defined using these twins and paths.\n\\begin{enumerate}[label=\\textup{(\\roman*)}]\n\\item All three paths are edges.\n\\item There is a bridge of type (c) with at least two interior vertices.\n\\item Every bridge with nonempty interior has three attachments.\n\\end{enumerate}\n\\end{proposition}\n\\begin{proof}\nUse Lemma~\\ref{dis:type-b-forms}. The two single-edge exterior\nalternatives give only $\\mathfrak{T}_{66}$ in the enumeration~\\supp{E8}. It remains to treat"
+  }
+ ],
+ "attachments": [
+  "a",
+  "b",
+  "c",
+  "d"
+ ],
+ "test graphs": {
+  "B + ac + cd + db": {
+   "added edges": [
+    [
+     "a",
+     "c"
+    ],
+    [
+     "c",
+     "d"
+    ],
+    [
+     "d",
+     "b"
+    ]
+   ],
+   "meaning": "B + ac + cd + db"
+  },
+  "B + ac + bd": {
+   "added edges": [
+    [
+     "a",
+     "c"
+    ],
+    [
+     "b",
+     "d"
+    ]
+   ],
+   "meaning": "B + ac + bd"
+  },
+  "B + K4[a,b,c,d]": {
+   "added edges": [
+    [
+     "a",
+     "b"
+    ],
+    [
+     "a",
+     "c"
+    ],
+    [
+     "a",
+     "d"
+    ],
+    [
+     "b",
+     "c"
+    ],
+    [
+     "b",
+     "d"
+    ],
+    [
+     "c",
+     "d"
+    ]
+   ],
+   "meaning": "B plus all six edges among a, b, c, d"
+  },
+  "B + cd": {
+   "added edges": [
+    [
+     "c",
+     "d"
+    ]
+   ],
+   "meaning": "B + cd, a subgraph of G since P_x = cd"
+  },
+  "Psi1 + B": {
+   "added edges": [
+    [
+     "p",
+     "a"
+    ],
+    [
+     "p",
+     "c"
+    ],
+    [
+     "p",
+     "e"
+    ],
+    [
+     "q",
+     "a"
+    ],
+    [
+     "q",
+     "c"
+    ],
+    [
+     "q",
+     "e"
+    ],
+    [
+     "r",
+     "b"
+    ],
+    [
+     "r",
+     "d"
+    ],
+    [
+     "r",
+     "f"
+    ],
+    [
+     "z",
+     "b"
+    ],
+    [
+     "z",
+     "d"
+    ],
+    [
+     "z",
+     "f"
+    ],
+    [
+     "c",
+     "d"
+    ],
+    [
+     "e",
+     "f"
+    ]
+   ],
+   "meaning": "the graph consisting of Psi_1 and B, with P_x = cd and P_w shortened to ef: twins p, q on {a, c, e} and r, z on {b, d, f}, where e = s_w, f = t_w"
+  }
+ },
+ "vertex names": "the attachments a = s_m, b = t_m, c = s_x, d = t_x of B; interior vertices of B are u0, u1, ...; for the bridges that pass, the paper's names are given with the verdict",
+ "verdicts": {
+  "excluded by a hypothesis of the case": [
+   {
+    "fact": "an interior vertex of degree three has two adjacent neighbours",
+    "why it excludes the bridge": "Lemma 3.3(a); the edges added in the test graph are edges of G."
+   },
+   {
+    "fact": "B + ac + bd is nonplanar",
+    "why it excludes the bridge": "The proof shows: \"The graph B + ac + bd is planar.\""
+   },
+   {
+    "fact": "B plus all edges among a, b, c, d has a cut of at most two vertices",
+    "why it excludes the bridge": "Three-connectivity of B ∪ K_4[{a,b,c,d}], used with Construction 3.16."
+   }
+  ],
+  "K5 minor": "a K5 minor in the named graph, which is a minor of G",
+  "proper nontoroidal minor": "an allowed reduction of B (Section 3) after which the named test graph is still nonplanar; the proof shows that this gives a proper nontoroidal minor of G",
+  "isomorphic to a bridge given in the text": "B passes every test of the case and is isomorphic to a bridge given in the text (listed under \"bridges given in the text\"); the record that it passes the tests is kept with the verdict"
+ },
+ "whole graphs": "For each bridge that passes, the two graphs of Lemma 4.30(i): G = (Psi_1 ∪ B) + eb and G = (Psi_1 ∪ B) + af, with P_x = cd and P_w = ef. Proposition 4.31 cites this part for the claim that these give only T66. The exterior formed by a bridge uv on {c,d,e,f} is treated in the paper by argument, so it is not included here.",
+ "specification": {
+  "roots": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ],
+  "outside": {},
+  "C edges within R": [
+   [
+    "a",
+    "c"
+   ],
+   [
+    "b",
+    "d"
+   ],
+   [
+    "c",
+    "d"
+   ]
+  ],
+  "required edges of K'": [
+   [
+    "c",
+    "d"
+   ]
+  ]
+ },
+ "generation": {
+  "root placements": 72109,
+  "root placement classes": 1392,
+  "full placements": 1392,
+  "valid retained subdivisions": 344,
+  "recipes": 3380,
+  "parts up to rooted isomorphism": 2104
+ },
+ "bridges given in the text": {
+  "B1": {
+   "vertices": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "p'",
+    "q'",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "a",
+     "p'"
+    ],
+    [
+     "a",
+     "q'"
+    ],
+    [
+     "a",
+     "u"
+    ],
+    [
+     "b",
+     "u"
+    ],
+    [
+     "c",
+     "p'"
+    ],
+    [
+     "c",
+     "q'"
+    ],
+    [
+     "d",
+     "u"
+    ],
+    [
+     "p'",
+     "v"
+    ],
+    [
+     "q'",
+     "v"
+    ],
+    [
+     "u",
+     "v"
+    ]
+   ]
+  },
+  "B2": {
+   "vertices": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "p'",
+    "q'",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "a",
+     "p'"
+    ],
+    [
+     "a",
+     "q'"
+    ],
+    [
+     "a",
+     "u"
+    ],
+    [
+     "b",
+     "u"
+    ],
+    [
+     "c",
+     "p'"
+    ],
+    [
+     "c",
+     "q'"
+    ],
+    [
+     "d",
+     "v"
+    ],
+    [
+     "p'",
+     "v"
+    ],
+    [
+     "q'",
+     "v"
+    ],
+    [
+     "u",
+     "v"
+    ]
+   ]
+  },
+  "B3": {
+   "vertices": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "p'",
+    "q'",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "a",
+     "p'"
+    ],
+    [
+     "a",
+     "q'"
+    ],
+    [
+     "b",
+     "v"
+    ],
+    [
+     "c",
+     "u"
+    ],
+    [
+     "d",
+     "v"
+    ],
+    [
+     "p'",
+     "u"
+    ],
+    [
+     "p'",
+     "v"
+    ],
+    [
+     "q'",
+     "u"
+    ],
+    [
+     "q'",
+     "v"
+    ]
+   ]
+  },
+  "B4": {
+   "vertices": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "p'",
+    "q'",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "a",
+     "v"
+    ],
+    [
+     "b",
+     "v"
+    ],
+    [
+     "c",
+     "u"
+    ],
+    [
+     "d",
+     "p'"
+    ],
+    [
+     "d",
+     "q'"
+    ],
+    [
+     "p'",
+     "u"
+    ],
+    [
+     "p'",
+     "v"
+    ],
+    [
+     "q'",
+     "u"
+    ],
+    [
+     "q'",
+     "v"
+    ]
+   ]
+  },
+  "B5": {
+   "vertices": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "p'",
+    "q'",
+    "v"
+   ],
+   "edges": [
+    [
+     "a",
+     "p'"
+    ],
+    [
+     "a",
+     "q'"
+    ],
+    [
+     "b",
+     "p'"
+    ],
+    [
+     "b",
+     "q'"
+    ],
+    [
+     "c",
+     "v"
+    ],
+    [
+     "d",
+     "v"
+    ],
+    [
+     "p'",
+     "v"
+    ],
+    [
+     "q'",
+     "v"
+    ]
+   ]
+  }
+ }
+}

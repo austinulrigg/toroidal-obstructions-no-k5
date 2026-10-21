@@ -1,0 +1,51 @@
+{
+ "item": "E10",
+ "where": "Proposition 5.10",
+ "paper text": [
+  {
+   "line": 7000,
+   "text": "the retained $K_{3,3}$ subdivision, so both tests remain\nnonplanar. By Lemma~\\ref{r2:four-tests}, replacing $B$ by a\nproper $B'$ would give a proper nontoroidal minor of $G$.\nThus $B$ already has one of these reduced forms.\n\nConstruction~\\ref{common:marked-construction}, with attachments\n$x,c,d$ and added edges $xc,xd$, lists the reduced bridges\nbefore $x$ is separated. For each, replace every edge $xv$\nby $av$ or $bv$ in every possible way, and give $a$ or $b$\none interior neighbor when needed, again trying every choice.\nThis includes every reduction just described.\nAdjoin three vertices with neighborhood $\\{a,b,c\\}$ and\ntwo with neighborhood $\\{a,b,d\\}$.\n\nThe enumeration~\\supp{E10} gives"
+  }
+ ],
+ "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ...",
+ "cases of the construction": {
+  "lifts": {
+   "specification": {
+    "quotient roots": [
+     "r",
+     "c",
+     "d"
+    ],
+    "added edges": [
+     [
+      "r",
+      "c"
+     ],
+     [
+      "r",
+      "d"
+     ]
+    ],
+    "lifted roots": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ]
+   },
+   "root placements": 4270,
+   "root placement classes": 115,
+   "full placements": 115,
+   "valid retained subdivisions": 115,
+   "recipes": 861,
+   "parts up to rooted isomorphism": 2953,
+   "quotient parts": 349,
+   "lifts": 4428,
+   "outcomes": {
+    "cut of order at most two": 92,
+    "proper nontoroidal minor": 702,
+    "K5 minor": 2159
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "item": "E23",
+ "where": "Lemma 6.9",
+ "candidates": 26633,
+ "verdicts": {
+  "K5 minor": 92,
+  "isomorphic to T54": 4,
+  "proper nontoroidal minor": 26531,
+  "toroidal": 6
+ },
+ "isomorphic to T_i (copies)": {
+  "T54": 4
+ },
+ "graphs T_i not excluded by a hypothesis of the case": [
+  "T54"
+ ],
+ "also excluded by a hypothesis of the case": {
+  "a choice of twin pairs leaves a component adjacent to all five of their attachments": 340,
+  "two twin triples are disjoint": 10123,
+  "two twin triples share two vertices": 90
+ }
+}

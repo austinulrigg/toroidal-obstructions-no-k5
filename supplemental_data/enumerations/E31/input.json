@@ -1,0 +1,67 @@
+{
+ "item": "E31",
+ "where": "Lemma 6.16",
+ "paper text": [
+  {
+   "line": 10352,
+   "text": "join the $bc$ and $ad$ faces of a planar rotation by a cylinder.\nLemma~\\ref{lem:annulus-embedding} places $B$ in the resulting\nannulus. This proves the equivalence.\n\nThe outside $c$--$e$ path contracts to $ce$, so the retained\ngraph is a nontoroidal minor and minimality gives\n$G=(\\Psi_3\\cup B)+ce$. Since $B+bc$ is nonplanar and $K_5$-minor-free,\nkeep a $K_{3,3}$ subdivision and apply\nLemma~\\ref{core:retained-subdivision}. The reduction preserves\nall three attachments, connected interior and the failed test,\nso minimality leaves $B$ unchanged.\nConstruction~\\ref{common:marked-construction}, with added\nedge $bc$, gives $563$ bridges. Every resulting graph has a\nproper nontoroidal minor except one copy of $\\mathfrak T_{41}$,\nwhose completion $B+bd+cd$ is planar~\\supp{E31}. This contradicts our assumption."
+  }
+ ],
+ "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
+ "cases of the construction": {
+  "U_on_bcd": {
+   "specification": {
+    "roots": [
+     "b",
+     "c",
+     "d"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "b",
+      "c"
+     ]
+    ],
+    "required edges of K'": []
+   },
+   "root placements": 4270,
+   "root placement classes": 115,
+   "full placements": 115,
+   "valid retained subdivisions": 115,
+   "recipes": 1227,
+   "parts up to rooted isomorphism": 563,
+   "outcomes": {
+    "proper nontoroidal minor": 562,
+    "catalogue graph": 1
+   }
+  },
+  "U_on_cde": {
+   "specification": {
+    "roots": [
+     "c",
+     "d",
+     "e"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "d",
+      "e"
+     ]
+    ],
+    "required edges of K'": []
+   },
+   "root placements": 4270,
+   "root placement classes": 115,
+   "full placements": 115,
+   "valid retained subdivisions": 115,
+   "recipes": 1227,
+   "parts up to rooted isomorphism": 563,
+   "outcomes": {
+    "proper nontoroidal minor": 562,
+    "catalogue graph": 1
+   }
+  }
+ }
+}

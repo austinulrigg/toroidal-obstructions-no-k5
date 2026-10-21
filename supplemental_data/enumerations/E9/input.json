@@ -1,0 +1,76 @@
+{
+ "item": "E9",
+ "where": "Proposition 5.9",
+ "paper text": [
+  {
+   "line": 6506,
+   "text": "Construction~\\ref{common:marked-construction}, with attachments\n$a,b,c,d$, the above set $E$, no outside vertices and no\nfurther interior components. Place each attachment at a\nbranch vertex, inside a branch path or outside the subdivision,\nin every possible way and order, and shorten the segments\nas in Lemma~\\ref{core:retained-subdivision}.\nRemove the added edges, join the interior pieces by every\nminimal choice of interior edges, and give each attachment\nwithout an interior neighbor one such neighbor in every\npossible way. The preceding reduction shows that $B$ occurs\namong these candidates. Adjoin two vertices with each of\nthe neighborhoods $\\{a,b,c\\}$ and $\\{a,b,d\\}$ in the first\ncase, and three and two, respectively, in the second.\n\nThe records in~\\supp{E9} identify the"
+  }
+ ],
+ "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ...",
+ "cases of the construction": {
+  "A": {
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "outside": {},
+    "C edges within R": [],
+    "required edges of K'": []
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 1392,
+   "recipes": 96151,
+   "parts up to rooted isomorphism": 57479,
+   "outcomes": {
+    "cut of order at most two": 3291,
+    "K5 minor": 134715,
+    "proper nontoroidal minor": 34388,
+    "catalogue graph": 43
+   }
+  },
+  "B": {
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "c"
+     ],
+     [
+      "b",
+      "c"
+     ]
+    ],
+    "required edges of K'": []
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 1392,
+   "recipes": 27241,
+   "parts up to rooted isomorphism": 14638,
+   "outcomes": {
+    "cut of order at most two": 285,
+    "K5 minor": 11453,
+    "proper nontoroidal minor": 2898,
+    "catalogue graph": 2
+   }
+  }
+ }
+}

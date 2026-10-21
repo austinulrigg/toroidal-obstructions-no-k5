@@ -1,0 +1,23 @@
+{
+ "item": "E18",
+ "where": "Lemma 5.15",
+ "candidates": 252,
+ "verdicts": {
+  "cut of at most two vertices": 21,
+  "isomorphic to T10": 6,
+  "isomorphic to T16": 2,
+  "isomorphic to T9": 6,
+  "proper nontoroidal minor": 145,
+  "toroidal": 72
+ },
+ "isomorphic to T_i (copies)": {
+  "T9": 6,
+  "T10": 6,
+  "T16": 2
+ },
+ "graphs T_i not excluded by a hypothesis of the case": [
+  "T9",
+  "T10",
+  "T16"
+ ]
+}

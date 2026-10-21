@@ -1,0 +1,81 @@
+{
+ "item": "E17",
+ "where": "Proposition 5.14",
+ "paper text": [
+  {
+   "line": 7824,
+   "text": "\\end{equation}\nOnly $bw,dw$ are possible edges between the attachments.\nThree tests have three bridges adjacent to all of $X$.\nBy Lemma~\\ref{core:assembly-general}(ii), the remaining test $B+ac+bd$ is planar precisely when $H_1+bd+cw$ is planar.\nThis completion is a $K_5$-minor-free minor of $G$, using $brd$ and $cp'w$, and is nonplanar. Its base $H_1+cw$ is planar.\n\nRetain a $K_{3,3}$ subdivision of $H_1+bd+cw$, which must use $bd$.\nApply Construction~\\ref{common:marked-construction} with attachments $b,c,d,w$, added edges $bd,cw$, and original edges $bw,dw$ permitted on the subdivision.\nIts pieces may belong to different components of $H_1-\\{b,c,d,w\\}$.\nEach such component is adjacent to $w$ and at least one of $b,d$.\nBy Lemma~\\ref{r2:retained-components}, at most one further component is needed to retain a $b$--$d$ path avoiding $c,w$, and at most one to retain a neighbor of $c$.\nContract each further component to a single vertex, and retain a minimal set of attaching edges satisfying \\eqref{r2:cross-connectivity}.\nThe fourth test still contains the subdivision, and the other three tests still fail. These connectivity conditions also keep the interior of $B$ connected and all four attachments present. Minimality therefore forces equality with a reduced graph.\n\nThe enumeration~\\supp{E17} considers every partition of the retained subdivision pieces into interior components, every minimal choice of edges joining each component, and at most two further singleton components with the required attachments."
+  }
+ ],
+ "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ... Twins p', q' have neighbourhood {a,c,w}, as in Proposition 5.14.",
+ "cases of the construction": {
+  "R_bd": {
+   "specification": {
+    "roots": [
+     "b",
+     "c",
+     "d",
+     "w"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "b",
+      "d"
+     ],
+     [
+      "c",
+      "w"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "b",
+      "d"
+     ]
+    ],
+    "permitted original edges": [
+     [
+      "b",
+      "w"
+     ],
+     [
+      "d",
+      "w"
+     ]
+    ],
+    "further components": "at most two single vertices, N(s) one of bw, dw, bdw, bcw, cdw, bcdw",
+    "requirements": "K[{b,d} u I] connected, K[{w} u I] connected, c has a neighbor in I",
+    "interior components": "every partition of the pieces of K' - R, each joined by every tree"
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "valid retained subdivisions": 480,
+   "recipes": 9316,
+   "parts up to rooted isomorphism": 5819,
+   "outcomes": {
+    "proper nontoroidal minor": 551,
+    "K5 minor": 1663,
+    "cut of order at most two": 169,
+    "excluded: P nonplanar": 3436
+   }
+  }
+ },
+ "hypotheses of the case used for exclusions": {
+  "P nonplanar": {
+   "remove vertices": [
+    "p",
+    "q",
+    "r",
+    "z"
+   ],
+   "remove edges within": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "meaning": "P = G minus the four twins, with no edges among a,b,c,d; Section 5.4 assumes P planar"
+  }
+ }
+}

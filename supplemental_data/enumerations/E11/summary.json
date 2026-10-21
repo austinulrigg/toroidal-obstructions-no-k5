@@ -1,0 +1,39 @@
+{
+ "item": "E11",
+ "where": "Proposition 5.12",
+ "forms": {
+  "B_0": 11,
+  "D_c": 33,
+  "D_1": 54
+ },
+ "assembled graphs (with repetitions)": 49059,
+ "candidates (up to isomorphism)": 12645,
+ "with B planar": 1471,
+ "verdicts": {
+  "K5 minor": 2573,
+  "cut of at most two vertices": 2656,
+  "isomorphic to T17": 1,
+  "isomorphic to T19": 1,
+  "isomorphic to T24": 1,
+  "isomorphic to T34": 1,
+  "isomorphic to T56": 1,
+  "isomorphic to T72": 1,
+  "isomorphic to T73": 1,
+  "isomorphic to T74": 1,
+  "proper nontoroidal minor": 7189,
+  "toroidal": 219
+ },
+ "T_i with B planar": [
+  "T56",
+  "T72",
+  "T73"
+ ],
+ "subcase of those": "all (a), one component D_0",
+ "T_i with B nonplanar (handled by Proposition 5.9, E9)": [
+  "T17",
+  "T19",
+  "T24",
+  "T34",
+  "T74"
+ ]
+}

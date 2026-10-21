@@ -1,0 +1,49 @@
+{
+ "item": "E20",
+ "where": "Proposition 5.20",
+ "candidates": 2174,
+ "verdicts": {
+  "cut of at most two vertices": 504,
+  "isomorphic to T15": 4,
+  "proper nontoroidal minor": 902,
+  "toroidal": 764
+ },
+ "isomorphic to T_i (copies)": {
+  "T15": 4
+ },
+ "graphs T_i not excluded by a hypothesis of the case": [
+  "T15"
+ ],
+ "also excluded by a hypothesis of the case": {
+  "a choice of twin pairs leaves a component adjacent to all four of their attachments": 175,
+  "three twin triples share a pair of vertices": 186,
+  "two twin triples are disjoint": 307
+ },
+ "by case": {
+  "size 1": {
+   "candidates": 112,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  },
+  "size 2": {
+   "candidates": 1142,
+   "graphs T_i not excluded by a hypothesis of the case": [
+    "T15"
+   ]
+  },
+  "size 3": {
+   "candidates": 836,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  },
+  "size 4": {
+   "candidates": 84,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  }
+ },
+ "combinations": {
+  "in the domain": 3163020,
+  "recorded": 2174,
+  "excluded through a recorded smaller combination with a violation or nontoroidal status": 3160846,
+  "recorded stars-only combinations used only for these exclusions": 111,
+  "checked": "every combination of the domain is recorded or contains a recorded smaller one with a violation or nontoroidal status"
+ }
+}

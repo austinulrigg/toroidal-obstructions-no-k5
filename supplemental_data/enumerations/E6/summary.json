@@ -1,0 +1,50 @@
+{
+ "item": "E6",
+ "where": "Proposition 4.26",
+ "candidates": 1586,
+ "verdicts": {
+  "K5 minor": 776,
+  "cut of at most two vertices": 91,
+  "isomorphic to T21": 1,
+  "isomorphic to T63": 1,
+  "proper nontoroidal minor": 717
+ },
+ "isomorphic to T_i (copies)": {
+  "T21": 1,
+  "T63": 1
+ },
+ "graphs T_i not excluded by a hypothesis of the case": [
+  "T21",
+  "T63"
+ ],
+ "by case": {
+  "Z0": {
+   "candidates": 230,
+   "graphs T_i not excluded by a hypothesis of the case": [
+    "T63"
+   ]
+  },
+  "Z_ad": {
+   "candidates": 331,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  },
+  "Z_ad_bc": {
+   "candidates": 266,
+   "graphs T_i not excluded by a hypothesis of the case": [
+    "T21"
+   ]
+  },
+  "Z_ad_hB": {
+   "candidates": 412,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  },
+  "Z_hA": {
+   "candidates": 344,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  },
+  "Z_hA_hB": {
+   "candidates": 3,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  }
+ }
+}

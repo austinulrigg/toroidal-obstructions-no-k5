@@ -1,0 +1,134 @@
+{
+ "item": "W15",
+ "where": "Proposition 6.6",
+ "claim": "Psi_3, two components with neighbourhood {a,b,d} contracted to k1, k2, and Int(B) contracted to w (neighbourhood {a,b,c,d,e}): this is T22.",
+ "graph": {
+  "vertices": [
+   "p",
+   "a",
+   "b",
+   "c",
+   "q",
+   "r",
+   "d",
+   "e",
+   "z",
+   "k1",
+   "k2",
+   "w"
+  ],
+  "edges": [
+   [
+    "a",
+    "k1"
+   ],
+   [
+    "a",
+    "k2"
+   ],
+   [
+    "a",
+    "p"
+   ],
+   [
+    "a",
+    "q"
+   ],
+   [
+    "a",
+    "r"
+   ],
+   [
+    "a",
+    "w"
+   ],
+   [
+    "a",
+    "z"
+   ],
+   [
+    "b",
+    "k1"
+   ],
+   [
+    "b",
+    "k2"
+   ],
+   [
+    "b",
+    "p"
+   ],
+   [
+    "b",
+    "q"
+   ],
+   [
+    "b",
+    "w"
+   ],
+   [
+    "c",
+    "p"
+   ],
+   [
+    "c",
+    "q"
+   ],
+   [
+    "c",
+    "w"
+   ],
+   [
+    "d",
+    "k1"
+   ],
+   [
+    "d",
+    "k2"
+   ],
+   [
+    "d",
+    "r"
+   ],
+   [
+    "d",
+    "w"
+   ],
+   [
+    "d",
+    "z"
+   ],
+   [
+    "e",
+    "r"
+   ],
+   [
+    "e",
+    "w"
+   ],
+   [
+    "e",
+    "z"
+   ]
+  ]
+ },
+ "witness": {
+  "type": "isomorphism",
+  "onto": "T22",
+  "map": {
+   "p": 3,
+   "a": 11,
+   "b": 8,
+   "c": 0,
+   "q": 2,
+   "r": 4,
+   "d": 9,
+   "e": 1,
+   "z": 5,
+   "k1": 6,
+   "k2": 7,
+   "w": 10
+  }
+ },
+ "note on T_i": "T_i vertex numbers are those of O1."
+}

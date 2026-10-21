@@ -1,0 +1,112 @@
+{
+ "item": "W2",
+ "where": "Lemma 4.4",
+ "claim": "Psi_1 with P_1 = s_1 u t_1, the other paths edges, and edges u s_2, u s_3 is isomorphic to T4.",
+ "graph": {
+  "vertices": [
+   "p",
+   "q",
+   "r",
+   "s1",
+   "s2",
+   "s3",
+   "t1",
+   "t2",
+   "t3",
+   "u",
+   "z"
+  ],
+  "edges": [
+   [
+    "p",
+    "s1"
+   ],
+   [
+    "q",
+    "s1"
+   ],
+   [
+    "r",
+    "t1"
+   ],
+   [
+    "z",
+    "t1"
+   ],
+   [
+    "p",
+    "s2"
+   ],
+   [
+    "q",
+    "s2"
+   ],
+   [
+    "r",
+    "t2"
+   ],
+   [
+    "z",
+    "t2"
+   ],
+   [
+    "s2",
+    "t2"
+   ],
+   [
+    "p",
+    "s3"
+   ],
+   [
+    "q",
+    "s3"
+   ],
+   [
+    "r",
+    "t3"
+   ],
+   [
+    "z",
+    "t3"
+   ],
+   [
+    "s3",
+    "t3"
+   ],
+   [
+    "s1",
+    "u"
+   ],
+   [
+    "u",
+    "t1"
+   ],
+   [
+    "u",
+    "s2"
+   ],
+   [
+    "u",
+    "s3"
+   ]
+  ]
+ },
+ "witness": {
+  "type": "isomorphism",
+  "onto": "T4",
+  "map": {
+   "r": 0,
+   "t1": 2,
+   "z": 1,
+   "t2": 4,
+   "t3": 5,
+   "s2": 8,
+   "q": 6,
+   "s1": 3,
+   "p": 7,
+   "s3": 9,
+   "u": 10
+  }
+ },
+ "note on T_i": "T_i vertex numbers are those of O1."
+}

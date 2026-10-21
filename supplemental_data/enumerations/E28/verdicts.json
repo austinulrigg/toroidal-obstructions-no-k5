@@ -1,0 +1,5605 @@
+{
+ "item": "E28",
+ "verdicts": [
+  {
+   "id": "33-C_on_abd-0000",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0001",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0002",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0003",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0004",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0005",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0006",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0007",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0008",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0009",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0010",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0011",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0012",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0013",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0014",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0015",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0016",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0017",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0018",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0019",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0020",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0021",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0022",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0023",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0024",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0025",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0026",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0027",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0028",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0029",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0030",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0031",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0032",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0033",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0034",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0035",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0036",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0037",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0038",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0039",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0040",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0041",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0042",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0043",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0044",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0045",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0046",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0047",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0048",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0049",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "b",
+      "p",
+      "q"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u6"
+     ],
+     [
+      "u1",
+      "u2",
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0050",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0051",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0052",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0053",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0054",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0055",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0056",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0057",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "d",
+      "e",
+      "q",
+      "r",
+      "z",
+      "u6",
+      "w"
+     ],
+     [
+      "b",
+      "p",
+      "u2",
+      "u4"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0058",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0059",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0060",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0061",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0062",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0063",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0064",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0065",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0066",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0067",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0068",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0069",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0070",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0071",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "u3"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0072",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0073",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0074",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0075",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0076",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0077",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "u5"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0078",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0079",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0080",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0081",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0082",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0083",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0084",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0085",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0086",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0087",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0088",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0089",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0090",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0091",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0092",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "z",
+      "u4"
+     ],
+     [
+      "b",
+      "u6"
+     ],
+     [
+      "d",
+      "r",
+      "u2",
+      "u3",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0093",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0094",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0095",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "u1",
+      "u5"
+     ],
+     [
+      "d",
+      "r",
+      "u6"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0096",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0097",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0098",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0099",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0100",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0101",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0102",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0103",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0104",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0105",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0106",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u1",
+      "u5",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0107",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0108",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4",
+      "u5"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0109",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4",
+      "u5"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0110",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z",
+      "u5"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0111",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0112",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0113",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "q",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "p",
+      "u4"
+     ],
+     [
+      "d",
+      "r",
+      "u2"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0114",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0115",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "d",
+      "u6"
+     ],
+     [
+      "u0",
+      "u4",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0116",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0117",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0118",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0119",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q",
+      "u1"
+     ],
+     [
+      "b",
+      "u6"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u0",
+      "u4",
+      "w"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0120",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u5"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0121",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0122",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u2",
+      "w"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0123",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "p",
+      "u2"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0124",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q",
+      "r"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "d",
+      "e",
+      "z",
+      "u4",
+      "w"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0125",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0126",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0127",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "d",
+      "e",
+      "p",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "c",
+      "q",
+      "u5"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0128",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0129",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0130",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0131",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "q",
+      "r",
+      "z",
+      "u3"
+     ],
+     [
+      "b",
+      "p"
+     ],
+     [
+      "c",
+      "d",
+      "u2",
+      "w"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0132",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0133",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0134",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0135",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0136",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0137",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0138",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0139",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0140",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0141",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0142",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0143",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0144",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0145",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0146",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0147",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0148",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0149",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0150",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0151",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0152",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0153",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0154",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0155",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0156",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "q",
+      "z",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "u1",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0157",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0158",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0159",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0160",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0161",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0162",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0163",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0164",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0165",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0166",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0167",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0168",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0169",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u3"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0170",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "z",
+      "u1"
+     ],
+     [
+      "b",
+      "p"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "r",
+      "u0",
+      "u4",
+      "w"
+     ],
+     [
+      "u2"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0171",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u1",
+      "u3"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0172",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0173",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0174",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0175",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0176",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "r"
+     ],
+     [
+      "b"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "p",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0177",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0178",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0179",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0180",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0181",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0182",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0183",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0184",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0185",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0186",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0187",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0188",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0189",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0190",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0191",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0192",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "u5",
+      "w"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0193",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0194",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0195",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0196",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0197",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0198",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "d",
+      "e",
+      "q",
+      "r",
+      "z",
+      "u5",
+      "w"
+     ],
+     [
+      "b",
+      "p",
+      "u1"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0199",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0200",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0201",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0202",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0203",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0204",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0205",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0206",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0207",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0208",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0209",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "d",
+      "r",
+      "u5"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0210",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0211",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0212",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "w"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u0"
+     ],
+     [
+      "d",
+      "z",
+      "u5"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0213",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0214",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0215",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0216",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0217",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0218",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0219",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0220",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0221",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "z",
+      "w"
+     ],
+     [
+      "d",
+      "r"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0222",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0223",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0224",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0225",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0226",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0227",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0228",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "u5"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0229",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "p",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "q"
+     ],
+     [
+      "d",
+      "u5",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0230",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0231",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0232",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0233",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0234",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0235",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0236",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0237",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0238",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0239",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0240",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0241",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0242",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0243",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0244",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0245",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0246",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0247",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0248",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0249",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0250",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0251",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0252",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0253",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0254",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0255",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0256",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0257",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0258",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0259",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0260",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0261",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0262",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0263",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0264",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0265",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u4"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0266",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "u4",
+      "w"
+     ],
+     [
+      "b",
+      "u5"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0267",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0268",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0269",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0270",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0271",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0272",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0273",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0274",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0275",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0276",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0277",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0278",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "u1",
+      "u4"
+     ],
+     [
+      "d",
+      "u0",
+      "w"
+     ],
+     [
+      "u2"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0279",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0280",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0281",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "q",
+      "r",
+      "z",
+      "u4",
+      "w"
+     ],
+     [
+      "b",
+      "p",
+      "u5"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0282",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "w"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u1",
+      "u5"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0283",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "b",
+      "p"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "q",
+      "r",
+      "z",
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0284",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "b",
+      "u5"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0285",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0286",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u4"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0287",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0288",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0289",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0290",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d",
+      "u2",
+      "u4"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0291",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0292",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0293",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0294",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0295",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "u0"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u1"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u2"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0296",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0297",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0298",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p"
+     ],
+     [
+      "b",
+      "q"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "r",
+      "z",
+      "u1",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0299",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0300",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0301",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0302",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z",
+      "u1"
+     ],
+     [
+      "b",
+      "p",
+      "u3"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "q",
+      "r",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0303",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "r",
+      "u0"
+     ],
+     [
+      "b",
+      "p"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "q",
+      "z",
+      "u1",
+      "w"
+     ],
+     [
+      "u2"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0304",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0305",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0306",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0307",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0308",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "r",
+      "z",
+      "u3",
+      "w"
+     ],
+     [
+      "b",
+      "q",
+      "u1"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0309",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "q",
+      "u0"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u2"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0310",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0311",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0312",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0313",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0314",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0315",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0316",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0317",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0318",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0319",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0320",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0321",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0322",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0323",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0324",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0325",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0326",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0327",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0328",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0329",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0330",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0331",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u4",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0332",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0333",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0334",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0335",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0336",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0337",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "q",
+      "z",
+      "u3",
+      "w"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "u4"
+     ],
+     [
+      "d",
+      "r"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0338",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0339",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0340",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0341",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0342",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0343",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "q",
+      "z",
+      "u1",
+      "w"
+     ],
+     [
+      "b",
+      "p"
+     ],
+     [
+      "d",
+      "r",
+      "u4"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0344",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0345",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0346",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0347",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "z",
+      "w"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d",
+      "r",
+      "u3"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "33-C_on_abd-0348",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  }
+ ]
+}

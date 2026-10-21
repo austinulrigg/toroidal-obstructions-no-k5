@@ -1,0 +1,14 @@
+{
+ "item": "E2",
+ "where": "Proposition 4.22",
+ "graphs": 48,
+ "by kind": {
+  "another three-attachment component": 32,
+  "a four-attachment component without the disk drawing": 8,
+  "edges s_i t_j on both index pairs {1,3} and {2,3}": 8
+ },
+ "verdicts": {
+  "proper nontoroidal minor": 48
+ },
+ "remaining": 0
+}

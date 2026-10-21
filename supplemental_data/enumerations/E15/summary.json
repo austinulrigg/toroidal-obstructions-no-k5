@@ -1,0 +1,11 @@
+{
+ "item": "E15",
+ "where": "Proposition 5.14",
+ "candidates": 24,
+ "verdicts": {
+  "cut of at most two vertices": 6,
+  "proper nontoroidal minor": 18
+ },
+ "isomorphic to T_i (copies)": {},
+ "graphs T_i not excluded by a hypothesis of the case": []
+}

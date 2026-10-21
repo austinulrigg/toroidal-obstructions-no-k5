@@ -1,0 +1,12 @@
+{
+ "item": "E28",
+ "where": "Lemma 6.12",
+ "candidates": 349,
+ "verdicts": {
+  "K5 minor": 65,
+  "cut of at most two vertices": 46,
+  "proper nontoroidal minor": 238
+ },
+ "isomorphic to T_i (copies)": {},
+ "graphs T_i not excluded by a hypothesis of the case": []
+}

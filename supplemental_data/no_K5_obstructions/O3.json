@@ -1,0 +1,2223 @@
+{
+ "item": "O3",
+ "what": "The 68 graphs of connectivity two in the Myrvold-Woodcock collection of torus obstructions (entry numbers and vertex numbers refer to the collection in O4). For each, K5 branch sets, or an isomorphism onto one of T1,...,T74 (O1). Mohar and Skoda show there are exactly 68 torus obstructions of connectivity two, as cited in the proof of Theorem 1.1.",
+ "graphs": [
+  {
+   "entry": 31,
+   "graph6": "HwCW~bn",
+   "n": 9,
+   "m": 20,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3,
+      4,
+      5,
+      6,
+      8
+     ],
+     [
+      7
+     ]
+    ]
+   },
+   "canonical graph6": "HwC^?~|"
+  },
+  {
+   "entry": 42,
+   "graph6": "H~?G[|n",
+   "n": 9,
+   "m": 20,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      8
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ]
+    ]
+   },
+   "canonical graph6": "H~?G[|n"
+  },
+  {
+   "entry": 188,
+   "graph6": "IFw?GMFXw",
+   "n": 10,
+   "m": 19,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4,
+      9
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ]
+    ]
+   },
+   "canonical graph6": "IFw?GKfpw"
+  },
+  {
+   "entry": 283,
+   "graph6": "I]K?GKNro",
+   "n": 10,
+   "m": 19,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "I]?GX_Nro"
+  },
+  {
+   "entry": 323,
+   "graph6": "I`?G^b~~o",
+   "n": 10,
+   "m": 25,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      7,
+      9
+     ],
+     [
+      2,
+      3,
+      8
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ]
+    ]
+   },
+   "canonical graph6": "I`?G^b~~o"
+  },
+  {
+   "entry": 435,
+   "graph6": "Ir?GW]RZG",
+   "n": 10,
+   "m": 19,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      8,
+      9
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ]
+    ]
+   },
+   "canonical graph6": "I]?GW^KKw"
+  },
+  {
+   "entry": 436,
+   "graph6": "IqK?GN~~w",
+   "n": 10,
+   "m": 25,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5,
+      6,
+      7,
+      8
+     ],
+     [
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "IoCY@F~~w"
+  },
+  {
+   "entry": 441,
+   "graph6": "IwC?g^~~o",
+   "n": 10,
+   "m": 25,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     [
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "IwC?g^~~o"
+  },
+  {
+   "entry": 478,
+   "graph6": "Is?GW\\x\\_",
+   "n": 10,
+   "m": 19,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      8,
+      9
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ]
+    ]
+   },
+   "canonical graph6": "Is?GW\\x\\_"
+  },
+  {
+   "entry": 484,
+   "graph6": "Is[?GKN\\o",
+   "n": 10,
+   "m": 19,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4,
+      8
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "IF?GW^`z_"
+  },
+  {
+   "entry": 504,
+   "graph6": "J???GNw~v}?",
+   "n": 11,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      8,
+      9
+     ],
+     [
+      3,
+      4,
+      10
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ]
+    ]
+   },
+   "canonical graph6": "J???GNw~v}?"
+  },
+  {
+   "entry": 508,
+   "graph6": "J???wz_{FW?",
+   "n": 11,
+   "m": 18,
+   "verdict": "isomorphic to T3",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T3",
+    "map": {
+     "0": 0,
+     "1": 2,
+     "2": 1,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10
+    }
+   },
+   "canonical graph6": "J?B_ooBwNo?"
+  },
+  {
+   "entry": 653,
+   "graph6": "JBW?CMEw?{_",
+   "n": 11,
+   "m": 18,
+   "verdict": "isomorphic to T6",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T6",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 6,
+     "7": 8,
+     "8": 7,
+     "9": 9,
+     "10": 10
+    }
+   },
+   "canonical graph6": "J?BMP_oA^__"
+  },
+  {
+   "entry": 1684,
+   "graph6": "JXGW?CBv}~?",
+   "n": 11,
+   "m": 25,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      4
+     ],
+     [
+      3
+     ],
+     [
+      5
+     ],
+     [
+      6,
+      7,
+      10
+     ],
+     [
+      8,
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "J??GXbo~v}?"
+  },
+  {
+   "entry": 1713,
+   "graph6": "JWC?GNWN}}?",
+   "n": 11,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      3,
+      4,
+      8,
+      10
+     ],
+     [
+      2,
+      9
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ]
+    ]
+   },
+   "canonical graph6": "JWC?GNWN}}?"
+  },
+  {
+   "entry": 2278,
+   "graph6": "JiGW?CBn|~?",
+   "n": 11,
+   "m": 25,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      4
+     ],
+     [
+      3
+     ],
+     [
+      5
+     ],
+     [
+      6,
+      7,
+      9
+     ],
+     [
+      8,
+      10
+     ]
+    ]
+   },
+   "canonical graph6": "J`K?IHAn|~?"
+  },
+  {
+   "entry": 2768,
+   "graph6": "J`dg?CBdzV?",
+   "n": 11,
+   "m": 22,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      3,
+      4,
+      5,
+      9
+     ],
+     [
+      2,
+      10
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ]
+    ]
+   },
+   "canonical graph6": "J`?G[``fj]?"
+  },
+  {
+   "entry": 3004,
+   "graph6": "JoCWACb^c~?",
+   "n": 11,
+   "m": 23,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2
+     ],
+     [
+      3,
+      4,
+      5,
+      10
+     ],
+     [
+      6,
+      9
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ]
+    ]
+   },
+   "canonical graph6": "JoCWACb^c~?"
+  },
+  {
+   "entry": 3091,
+   "graph6": "JqGW?CBezN_",
+   "n": 11,
+   "m": 22,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      6,
+      7,
+      8,
+      9
+     ],
+     [
+      10
+     ]
+    ]
+   },
+   "canonical graph6": "JoSo?CBbzf_"
+  },
+  {
+   "entry": 3094,
+   "graph6": "Jr??GWJfz^?",
+   "n": 11,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      9
+     ],
+     [
+      1,
+      2,
+      3,
+      5,
+      6,
+      10
+     ],
+     [
+      4
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ]
+    ]
+   },
+   "canonical graph6": "Jr??GWJfz^?"
+  },
+  {
+   "entry": 3095,
+   "graph6": "Jr?G?CNfz^?",
+   "n": 11,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      10
+     ],
+     [
+      3,
+      4,
+      9
+     ],
+     [
+      5,
+      8
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ]
+    ]
+   },
+   "canonical graph6": "Jr?G?CNfz^?"
+  },
+  {
+   "entry": 3096,
+   "graph6": "Jr?GOGBfz^_",
+   "n": 11,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      9
+     ],
+     [
+      4
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      6,
+      8
+     ],
+     [
+      10
+     ]
+    ]
+   },
+   "canonical graph6": "Jr?GOGBfz^_"
+  },
+  {
+   "entry": 3110,
+   "graph6": "JwCW?CB~~~?",
+   "n": 11,
+   "m": 27,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3,
+      5,
+      9
+     ],
+     [
+      4,
+      6,
+      7,
+      8,
+      10
+     ]
+    ]
+   },
+   "canonical graph6": "JwCW?CB~~~?"
+  },
+  {
+   "entry": 3122,
+   "graph6": "JoC?GMW^z~?",
+   "n": 11,
+   "m": 25,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      2,
+      3,
+      4,
+      8,
+      9
+     ],
+     [
+      1,
+      10
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ]
+    ]
+   },
+   "canonical graph6": "JoC?GMW^z~?"
+  },
+  {
+   "entry": 3297,
+   "graph6": "Js?G?CN^z~?",
+   "n": 11,
+   "m": 25,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      2,
+      3,
+      4,
+      5,
+      9
+     ],
+     [
+      1,
+      10
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ]
+    ]
+   },
+   "canonical graph6": "Js?G?CN^z~?"
+  },
+  {
+   "entry": 3298,
+   "graph6": "Js?GOGB^z~?",
+   "n": 11,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      2,
+      9
+     ],
+     [
+      1,
+      3,
+      10
+     ],
+     [
+      4,
+      6,
+      8
+     ],
+     [
+      5
+     ],
+     [
+      7
+     ]
+    ]
+   },
+   "canonical graph6": "JF?GOGBz~^?"
+  },
+  {
+   "entry": 3344,
+   "graph6": "K???GGB}Fx^W",
+   "n": 12,
+   "m": 23,
+   "verdict": "isomorphic to T12",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T12",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 8,
+     "6": 6,
+     "7": 7,
+     "8": 5,
+     "9": 9,
+     "10": 10,
+     "11": 11
+    }
+   },
+   "canonical graph6": "K???GGB}Fx^W"
+  },
+  {
+   "entry": 3345,
+   "graph6": "K???GGC}Fv^[",
+   "n": 12,
+   "m": 24,
+   "verdict": "isomorphic to T13",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T13",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 8,
+     "7": 6,
+     "8": 7,
+     "9": 9,
+     "10": 10,
+     "11": 11
+    }
+   },
+   "canonical graph6": "K???GGC}Fv^["
+  },
+  {
+   "entry": 3930,
+   "graph6": "KIGO[A?_AZe]",
+   "n": 12,
+   "m": 21,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      7,
+      10
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      8,
+      9,
+      11
+     ]
+    ]
+   },
+   "canonical graph6": "KI?gsA?_ANfM"
+  },
+  {
+   "entry": 4184,
+   "graph6": "K@J?w?@?]r{]",
+   "n": 12,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      10
+     ],
+     [
+      2,
+      3,
+      4,
+      5,
+      6,
+      11
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "K@J?w?@?]r{]"
+  },
+  {
+   "entry": 4238,
+   "graph6": "K?B@o?@oXz~K",
+   "n": 12,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      11
+     ],
+     [
+      3,
+      10
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "K??}??@oXv~K"
+  },
+  {
+   "entry": 4474,
+   "graph6": "KIMC??@_Y^e}",
+   "n": 12,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      6,
+      9
+     ],
+     [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      10
+     ]
+    ]
+   },
+   "canonical graph6": "KoCOW?@_Zflm"
+  },
+  {
+   "entry": 4475,
+   "graph6": "KIQC??@_X~f}",
+   "n": 12,
+   "m": 25,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      3,
+      5,
+      10
+     ],
+     [
+      2,
+      4,
+      6,
+      11
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "KoCO_?@_Z^l}"
+  },
+  {
+   "entry": 4500,
+   "graph6": "K?d_W?@?^f}]",
+   "n": 12,
+   "m": 25,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      11
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ]
+    ]
+   },
+   "canonical graph6": "K?d_W?@?^f}]"
+  },
+  {
+   "entry": 4586,
+   "graph6": "K?d_?CB{?^}[",
+   "n": 12,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      2,
+      3,
+      9,
+      11
+     ],
+     [
+      1,
+      4,
+      5,
+      10
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ]
+    ]
+   },
+   "canonical graph6": "K?d_?CB{?^}["
+  },
+  {
+   "entry": 4961,
+   "graph6": "K?ur_?@?^B`}",
+   "n": 12,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      3,
+      5
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      7,
+      10
+     ],
+     [
+      6
+     ],
+     [
+      8,
+      9,
+      11
+     ]
+    ]
+   },
+   "canonical graph6": "K??G]ao[?^|o"
+  },
+  {
+   "entry": 6131,
+   "graph6": "KW?Wo?@oXrw{",
+   "n": 12,
+   "m": 23,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      9
+     ],
+     [
+      3,
+      6,
+      10
+     ],
+     [
+      4,
+      5,
+      11
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ]
+    ]
+   },
+   "canonical graph6": "K?Ku??@oW^}K"
+  },
+  {
+   "entry": 7144,
+   "graph6": "KSP@w?@?[ZmM",
+   "n": 12,
+   "m": 23,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      5,
+      10
+     ],
+     [
+      1,
+      2,
+      3,
+      4,
+      6,
+      11
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "KSP@w?@?[ZmM"
+  },
+  {
+   "entry": 7175,
+   "graph6": "K]?GO?D?}MFM",
+   "n": 12,
+   "m": 22,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      11
+     ],
+     [
+      4,
+      5,
+      6,
+      10
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "KC`b??PAW}[M"
+  },
+  {
+   "entry": 9372,
+   "graph6": "Kq?@w?@?[zlm",
+   "n": 12,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      10
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      11
+     ]
+    ]
+   },
+   "canonical graph6": "K_`@w?@?\\jnM"
+  },
+  {
+   "entry": 9390,
+   "graph6": "KqGW??B?spkx",
+   "n": 12,
+   "m": 21,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      6,
+      7,
+      8,
+      9,
+      11
+     ],
+     [
+      10
+     ]
+    ]
+   },
+   "canonical graph6": "Ko??ogKWCFn`"
+  },
+  {
+   "entry": 9396,
+   "graph6": "Kr??WCA?[zlm",
+   "n": 12,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      10
+     ],
+     [
+      4,
+      11
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8,
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "Kr????BBs~L{"
+  },
+  {
+   "entry": 9397,
+   "graph6": "Kr??OGBBKelc",
+   "n": 12,
+   "m": 21,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      6,
+      10
+     ],
+     [
+      4,
+      9
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      8
+     ],
+     [
+      11
+     ]
+    ]
+   },
+   "canonical graph6": "K]??OGBBMXEY"
+  },
+  {
+   "entry": 9398,
+   "graph6": "Kr?GGGA?[vl]",
+   "n": 12,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      11
+     ],
+     [
+      4,
+      10
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      7,
+      9
+     ],
+     [
+      8
+     ]
+    ]
+   },
+   "canonical graph6": "KIM?GGA?]Vu]"
+  },
+  {
+   "entry": 9399,
+   "graph6": "Kr?GW?@?[~l}",
+   "n": 12,
+   "m": 26,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      10
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      11
+     ]
+    ]
+   },
+   "canonical graph6": "Kr?GW?@?[~l}"
+  },
+  {
+   "entry": 9761,
+   "graph6": "Ks??WCA?Zznm",
+   "n": 12,
+   "m": 25,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      3,
+      4,
+      10
+     ],
+     [
+      1,
+      2,
+      11
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8,
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "Ks????BBr~N{"
+  },
+  {
+   "entry": 9762,
+   "graph6": "Ks?GW?@?Z~n}",
+   "n": 12,
+   "m": 27,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      2,
+      3,
+      7,
+      8,
+      9,
+      10
+     ],
+     [
+      1,
+      11
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ]
+    ]
+   },
+   "canonical graph6": "KF?GW?@?^^|}"
+  },
+  {
+   "entry": 10106,
+   "graph6": "L@G??B?@v?B|vo",
+   "n": 13,
+   "m": 24,
+   "verdict": "isomorphic to T36",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T36",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12
+    }
+   },
+   "canonical graph6": "L@G??B?@v?B|vo"
+  },
+  {
+   "entry": 10200,
+   "graph6": "L???C`_Bf_@|~_",
+   "n": 13,
+   "m": 24,
+   "verdict": "isomorphic to T60",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T60",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 5,
+     "5": 4,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12
+    }
+   },
+   "canonical graph6": "L???C`_Bf_@|~_"
+  },
+  {
+   "entry": 10274,
+   "graph6": "L??CzW??G@~F|M",
+   "n": 13,
+   "m": 27,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      2,
+      4,
+      7,
+      11
+     ],
+     [
+      3,
+      5,
+      6,
+      12
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ]
+    ]
+   },
+   "canonical graph6": "L??CzW??G@~F|M"
+  },
+  {
+   "entry": 10463,
+   "graph6": "L??EE?cE?Ff`~?",
+   "n": 13,
+   "m": 23,
+   "verdict": "isomorphic to T44",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T44",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12
+    }
+   },
+   "canonical graph6": "L??Cb?KBF_?^~?"
+  },
+  {
+   "entry": 10481,
+   "graph6": "L@G[C@?OE?C~E}",
+   "n": 13,
+   "m": 24,
+   "verdict": "isomorphic to T46",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T46",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 4,
+     "4": 3,
+     "5": 5,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12
+    }
+   },
+   "canonical graph6": "L@G[C@?OE?C~E}"
+  },
+  {
+   "entry": 10482,
+   "graph6": "L@GcC@?OE?B~F}",
+   "n": 13,
+   "m": 25,
+   "verdict": "isomorphic to T47",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T47",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 5,
+     "4": 3,
+     "5": 4,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12
+    }
+   },
+   "canonical graph6": "L@GcC@?OE?B~F}"
+  },
+  {
+   "entry": 10628,
+   "graph6": "L@J???B?v?BxuK",
+   "n": 13,
+   "m": 23,
+   "verdict": "isomorphic to T27",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T27",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12
+    }
+   },
+   "canonical graph6": "L@G?E?E@f?BNv_"
+  },
+  {
+   "entry": 10662,
+   "graph6": "L?AAGOGAF_U]\\[",
+   "n": 13,
+   "m": 24,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      5
+     ],
+     [
+      1,
+      6
+     ],
+     [
+      2,
+      3,
+      10
+     ],
+     [
+      4,
+      7,
+      8,
+      9,
+      11
+     ],
+     [
+      12
+     ]
+    ]
+   },
+   "canonical graph6": "L?AAGOGAF_U]\\["
+  },
+  {
+   "entry": 10666,
+   "graph6": "L?AR?OGAF_Q]X[",
+   "n": 13,
+   "m": 23,
+   "verdict": "isomorphic to T28",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T28",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 6,
+     "7": 8,
+     "8": 9,
+     "9": 7,
+     "10": 10,
+     "11": 11,
+     "12": 12
+    }
+   },
+   "canonical graph6": "L?AR?OGAF_Q]X["
+  },
+  {
+   "entry": 10873,
+   "graph6": "LIMCC???G@h~L}",
+   "n": 13,
+   "m": 26,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      7,
+      12
+     ],
+     [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      11
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ]
+    ]
+   },
+   "canonical graph6": "LIMCC???G@h~L}"
+  },
+  {
+   "entry": 11112,
+   "graph6": "L?`G??B?v_Ue]o",
+   "n": 13,
+   "m": 23,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      4
+     ],
+     [
+      1,
+      5
+     ],
+     [
+      2,
+      6,
+      7,
+      8,
+      9,
+      11
+     ],
+     [
+      3,
+      10
+     ],
+     [
+      12
+     ]
+    ]
+   },
+   "canonical graph6": "L???WX?_N_Vc[s"
+  },
+  {
+   "entry": 11115,
+   "graph6": "L?d_??B?v_QeYo",
+   "n": 13,
+   "m": 22,
+   "verdict": "isomorphic to T31",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T31",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12
+    }
+   },
+   "canonical graph6": "L???WWooF_XcKs"
+  },
+  {
+   "entry": 13494,
+   "graph6": "L]????LAoMXoKM",
+   "n": 13,
+   "m": 23,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      1,
+      3,
+      5,
+      6,
+      11
+     ],
+     [
+      2,
+      12
+     ],
+     [
+      4,
+      8
+     ],
+     [
+      7,
+      10
+     ],
+     [
+      9
+     ]
+    ]
+   },
+   "canonical graph6": "L]????LAoMFooM"
+  },
+  {
+   "entry": 13601,
+   "graph6": "LS`AA???G@f~N}",
+   "n": 13,
+   "m": 27,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      2,
+      3,
+      4,
+      7,
+      12
+     ],
+     [
+      1,
+      5,
+      6,
+      11
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ]
+    ]
+   },
+   "canonical graph6": "LS`AA???G@f~N}"
+  },
+  {
+   "entry": 15017,
+   "graph6": "Lr??WW??G@q^ZM",
+   "n": 13,
+   "m": 25,
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      0,
+      3,
+      7,
+      11
+     ],
+     [
+      1,
+      2,
+      4,
+      5,
+      6,
+      12
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ]
+    ]
+   },
+   "canonical graph6": "Lo?Wr???G@o~]M"
+  },
+  {
+   "entry": 15406,
+   "graph6": "MIK??KE_C?O?Q^Lf?",
+   "n": 14,
+   "m": 25,
+   "verdict": "isomorphic to T71",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T71",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12,
+     "13": 13
+    }
+   },
+   "canonical graph6": "MI??WWo_C?O?O~NF?"
+  },
+  {
+   "entry": 15586,
+   "graph6": "M@G[CA?OA?G?H~E~?",
+   "n": 14,
+   "m": 26,
+   "verdict": "isomorphic to T50",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T50",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 8,
+     "7": 6,
+     "8": 7,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12,
+     "13": 13
+    }
+   },
+   "canonical graph6": "M@G[CA?OA?G?H~E~?"
+  },
+  {
+   "entry": 16221,
+   "graph6": "MCaAA@?G@?C?F~F~?",
+   "n": 14,
+   "m": 27,
+   "verdict": "isomorphic to T42",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T42",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12,
+     "13": 13
+    }
+   },
+   "canonical graph6": "MCaAA@?G@?C?F~F~?"
+  },
+  {
+   "entry": 17040,
+   "graph6": "Mr???????R_ufsZw?",
+   "n": 14,
+   "m": 26,
+   "verdict": "isomorphic to T64",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T64",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12,
+     "13": 13
+    }
+   },
+   "canonical graph6": "M]???????R_urwNs?"
+  },
+  {
+   "entry": 17041,
+   "graph6": "Mr????KB?E?WcNZo?",
+   "n": 14,
+   "m": 24,
+   "verdict": "isomorphic to T65",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T65",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12,
+     "13": 13
+    }
+   },
+   "canonical graph6": "Mo???oW@_KK?_^^_?"
+  },
+  {
+   "entry": 17156,
+   "graph6": "Ms???????R_u^w^s?",
+   "n": 14,
+   "m": 27,
+   "verdict": "isomorphic to T62",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T62",
+    "map": {
+     "0": 0,
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5,
+     "6": 6,
+     "7": 7,
+     "8": 8,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 12,
+     "13": 13
+    }
+   },
+   "canonical graph6": "Ms???????R_u^w^s?"
+  }
+ ],
+ "canonical forms": {
+  "program": "nauty 2.8.8, labelg (graph6 of the canonically labelled graph)",
+  "all 68 distinct": true
+ },
+ "source of the count": {
+  "paper": "B. Mohar and P. Skoda, Obstructions of connectivity two for embedding graphs into the torus, Canad. J. Math. 66 (2014), no. 6, 1327-1357",
+  "statements": "Theorem 8.10 (pp. 1354-1355) describes every torus obstruction of connectivity two as an xy-sum, and Corollary 8.11 (p. 1355) gives their number, 68, as cited in the paper.",
+  "arXiv version": "arXiv:1207.6126v1, where these are Theorem 39 and Corollary 40; Corollary 40 reads: \"There are 68 obstructions for the torus of connectivity 2.\"",
+  "check": "The 68 graphs listed here are pairwise nonisomorphic (distinct canonical forms), so they are all of them."
+ }
+}

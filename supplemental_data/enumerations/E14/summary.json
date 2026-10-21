@@ -1,0 +1,29 @@
+{
+ "item": "E14",
+ "where": "Proposition 5.13, the case of two components",
+ "forms of D_1": {
+  "P1": 274,
+  "P2": 117
+ },
+ "forms of D_2": {
+  "P1": 11,
+  "P2": 11
+ },
+ "assembled graphs (with repetitions)": 2751,
+ "candidates (up to isomorphism)": 1229,
+ "verdicts": {
+  "K5 minor": 294,
+  "cut of at most two vertices": 321,
+  "proper nontoroidal minor": 565,
+  "toroidal": 49
+ },
+ "candidates by row of the table": {
+  "1": 99,
+  "2": 487,
+  "3": 43,
+  "4": 380,
+  "5": 50,
+  "6": 170
+ },
+ "obstructions": "none"
+}

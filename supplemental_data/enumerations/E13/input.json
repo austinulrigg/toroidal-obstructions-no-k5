@@ -1,0 +1,3887 @@
+{
+ "item": "E13",
+ "where": "Proposition 5.13",
+ "paper text": [
+  {
+   "line": 7513,
+   "text": "the other. For the path, $m_1,m_2$ meet different vertices of\n$\\{u,v\\}$, or both meet one and a vertex of $\\{b,c,d\\}$ meets the other.\nThe $31$ forms in~\\supp{E12} leave exactly\n$\\mathfrak T_{40},\\mathfrak T_{53},\\mathfrak T_{56},\\mathfrak T_{73}$.\n\nNext suppose that three components contain $b,c,d$.\nWrite $D_g$ for the component containing $g\\in\\{b,c,d\\}$.\nA singleton neighborhood forces $V(D_g)=\\{g\\}$ by three-connectivity.\nOtherwise write $N_B(D_g)=\\{s,t\\}$.\nEvery component of $D_g-g$ has neighborhood $\\{g,s,t\\}$\nby three-connectivity.\nThere are at most two by planarity, and if two, both are singletons\nby Lemmas~\\ref{core:assembly-general}(ii) and~\\ref{lem:flat-replacement}.\n\nFor connected nonempty $D_g-g$, let $B_g$ be its bridge on\n$\\{g,s,t\\}$, keeping original edges $gs,gt$ separately.\nIts four relevant completions are\n$B_g+st+E$, $E\\subseteq\\{gs,gt\\}$:\nthe outside path $sp't$ supplies $st$, and\nLemma~\\ref{core:assembly-general}(ii),(iii) gives these tests.\nIn particular, $B_g+st$ is planar.\nIts triangle completion is three-connected by\nLemma~\\ref{lem:triangle-completion} and is a minor of $H_0$.\nIndeed, choose $y=b$ for $g=c,d$ and $y=c$ for $g=b$,\ntake a $y$--$h$ path $P$ through $D_y$ to $h\\in\\{u,v\\}$,\nand let $w$ be the other vertex. The cycle\n$gap'wq'hPyg$ in $H_0$, disjoint from $\\operatorname{Int}(B_g)$,\ncontains $g,s,t$ and supplies their triangle.\nA planar triangle completion gives one vertex by\nLemma~\\ref{lem:flat-replacement}. Otherwise minimality and\nProposition~\\ref{prop:three-root-disjoint} give\n$T(g),T(s),T(t),S(s;t),S(t;s),Q(g;s,t)$ or the two four-cycle\nforms of Lemma~\\ref{core:two-cap-critical}: nine forms in all.\n\nEach replacement keeps the interior of $B$ connected and all four\nattachments. For each $g$, combine one of these nine bridges,\ntwo singleton interiors, or an empty interior, with $st=au,av,uv$ and permitted original\nedges $gs,gt$, excluding $ag$. For empty interior, join $g$ to\n$u$, $v$, or both.\nEvery combination is a subgraph of a recorded toroidal graph\nor contains a recorded nontoroidal subgraph~\\supp{E13}.\nA DRAT proof in the same item certifies completeness."
+  }
+ ],
+ "the base graph": {
+  "edges": [
+   [
+    "a",
+    "p"
+   ],
+   [
+    "a",
+    "p'"
+   ],
+   [
+    "a",
+    "q"
+   ],
+   [
+    "a",
+    "q'"
+   ],
+   [
+    "a",
+    "r"
+   ],
+   [
+    "a",
+    "z"
+   ],
+   [
+    "b",
+    "p"
+   ],
+   [
+    "b",
+    "q"
+   ],
+   [
+    "b",
+    "r"
+   ],
+   [
+    "b",
+    "z"
+   ],
+   [
+    "c",
+    "p"
+   ],
+   [
+    "c",
+    "q"
+   ],
+   [
+    "d",
+    "r"
+   ],
+   [
+    "d",
+    "z"
+   ],
+   [
+    "p'",
+    "u"
+   ],
+   [
+    "p'",
+    "v"
+   ],
+   [
+    "q'",
+    "u"
+   ],
+   [
+    "q'",
+    "v"
+   ]
+  ]
+ },
+ "atoms": [
+  {
+   "id": "A1",
+   "is": "one vertex on {b, a, u}",
+   "attachments": [
+    "a",
+    "b",
+    "u"
+   ],
+   "edges": [
+    [
+     "@h",
+     "a"
+    ],
+    [
+     "@h",
+     "u"
+    ],
+    [
+     "@h",
+     "b"
+    ]
+   ],
+   "most copies": 2,
+   "variables": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "A2",
+   "is": "T(a) on {b, a, u}",
+   "attachments": [
+    "a",
+    "b",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "b"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "b"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "a"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    3
+   ]
+  },
+  {
+   "id": "A3",
+   "is": "T(u) on {b, a, u}",
+   "attachments": [
+    "a",
+    "b",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "b"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "b"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    4
+   ]
+  },
+  {
+   "id": "A4",
+   "is": "T(b) on {b, a, u}",
+   "attachments": [
+    "a",
+    "b",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "b"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    5
+   ]
+  },
+  {
+   "id": "A5",
+   "is": "S(a;u) on {b, a, u}",
+   "attachments": [
+    "a",
+    "b",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "a"
+    ],
+    [
+     "@f",
+     "b"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    6
+   ]
+  },
+  {
+   "id": "A6",
+   "is": "S(u;a) on {b, a, u}",
+   "attachments": [
+    "a",
+    "b",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "u"
+    ],
+    [
+     "@f",
+     "b"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    7
+   ]
+  },
+  {
+   "id": "A7",
+   "is": "Q(b;a,u) on {b, a, u}",
+   "attachments": [
+    "a",
+    "b",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "b"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "@v"
+    ],
+    [
+     "@d2",
+     "b"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "@v"
+    ],
+    [
+     "@u",
+     "a"
+    ],
+    [
+     "@v",
+     "u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    8
+   ]
+  },
+  {
+   "id": "A8",
+   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (a,u,b) on {b, a, u}",
+   "attachments": [
+    "a",
+    "b",
+    "u"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "b",
+     "@a1"
+    ],
+    [
+     "b",
+     "@a2"
+    ],
+    [
+     "u",
+     "@b1"
+    ],
+    [
+     "u",
+     "@b2"
+    ],
+    [
+     "a",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    9
+   ]
+  },
+  {
+   "id": "A9",
+   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (a,u,b) on {b, a, u}",
+   "attachments": [
+    "a",
+    "b",
+    "u"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "b",
+     "@a1"
+    ],
+    [
+     "b",
+     "@a2"
+    ],
+    [
+     "a",
+     "@b1"
+    ],
+    [
+     "a",
+     "@b2"
+    ],
+    [
+     "u",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    10
+   ]
+  },
+  {
+   "id": "A10",
+   "is": "one vertex on {b, a, v}",
+   "attachments": [
+    "a",
+    "b",
+    "v"
+   ],
+   "edges": [
+    [
+     "@h",
+     "a"
+    ],
+    [
+     "@h",
+     "v"
+    ],
+    [
+     "@h",
+     "b"
+    ]
+   ],
+   "most copies": 2,
+   "variables": [
+    11,
+    12
+   ]
+  },
+  {
+   "id": "A11",
+   "is": "T(a) on {b, a, v}",
+   "attachments": [
+    "a",
+    "b",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "b"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "b"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "a"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    13
+   ]
+  },
+  {
+   "id": "A12",
+   "is": "T(v) on {b, a, v}",
+   "attachments": [
+    "a",
+    "b",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "b"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "b"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    14
+   ]
+  },
+  {
+   "id": "A13",
+   "is": "T(b) on {b, a, v}",
+   "attachments": [
+    "a",
+    "b",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "b"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    15
+   ]
+  },
+  {
+   "id": "A14",
+   "is": "S(a;v) on {b, a, v}",
+   "attachments": [
+    "a",
+    "b",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "a"
+    ],
+    [
+     "@f",
+     "b"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    16
+   ]
+  },
+  {
+   "id": "A15",
+   "is": "S(v;a) on {b, a, v}",
+   "attachments": [
+    "a",
+    "b",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "v"
+    ],
+    [
+     "@f",
+     "b"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    17
+   ]
+  },
+  {
+   "id": "A16",
+   "is": "Q(b;a,v) on {b, a, v}",
+   "attachments": [
+    "a",
+    "b",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "b"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "@v"
+    ],
+    [
+     "@d2",
+     "b"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "@v"
+    ],
+    [
+     "@u",
+     "a"
+    ],
+    [
+     "@v",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    18
+   ]
+  },
+  {
+   "id": "A17",
+   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (a,v,b) on {b, a, v}",
+   "attachments": [
+    "a",
+    "b",
+    "v"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "b",
+     "@a1"
+    ],
+    [
+     "b",
+     "@a2"
+    ],
+    [
+     "v",
+     "@b1"
+    ],
+    [
+     "v",
+     "@b2"
+    ],
+    [
+     "a",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    19
+   ]
+  },
+  {
+   "id": "A18",
+   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (a,v,b) on {b, a, v}",
+   "attachments": [
+    "a",
+    "b",
+    "v"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "b",
+     "@a1"
+    ],
+    [
+     "b",
+     "@a2"
+    ],
+    [
+     "a",
+     "@b1"
+    ],
+    [
+     "a",
+     "@b2"
+    ],
+    [
+     "v",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    20
+   ]
+  },
+  {
+   "id": "A19",
+   "is": "one vertex on {b, u, v}",
+   "attachments": [
+    "b",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@h",
+     "u"
+    ],
+    [
+     "@h",
+     "v"
+    ],
+    [
+     "@h",
+     "b"
+    ]
+   ],
+   "most copies": 2,
+   "variables": [
+    21,
+    22
+   ]
+  },
+  {
+   "id": "A20",
+   "is": "T(u) on {b, u, v}",
+   "attachments": [
+    "b",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "b"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "b"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    23
+   ]
+  },
+  {
+   "id": "A21",
+   "is": "T(v) on {b, u, v}",
+   "attachments": [
+    "b",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "b"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "b"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    24
+   ]
+  },
+  {
+   "id": "A22",
+   "is": "T(b) on {b, u, v}",
+   "attachments": [
+    "b",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "b"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    25
+   ]
+  },
+  {
+   "id": "A23",
+   "is": "S(u;v) on {b, u, v}",
+   "attachments": [
+    "b",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "u"
+    ],
+    [
+     "@f",
+     "b"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    26
+   ]
+  },
+  {
+   "id": "A24",
+   "is": "S(v;u) on {b, u, v}",
+   "attachments": [
+    "b",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "v"
+    ],
+    [
+     "@f",
+     "b"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    27
+   ]
+  },
+  {
+   "id": "A25",
+   "is": "Q(b;u,v) on {b, u, v}",
+   "attachments": [
+    "b",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "b"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "@v"
+    ],
+    [
+     "@d2",
+     "b"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "@v"
+    ],
+    [
+     "@u",
+     "u"
+    ],
+    [
+     "@v",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    28
+   ]
+  },
+  {
+   "id": "A26",
+   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (u,v,b) on {b, u, v}",
+   "attachments": [
+    "b",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "b",
+     "@a1"
+    ],
+    [
+     "b",
+     "@a2"
+    ],
+    [
+     "v",
+     "@b1"
+    ],
+    [
+     "v",
+     "@b2"
+    ],
+    [
+     "u",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    29
+   ]
+  },
+  {
+   "id": "A27",
+   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (u,v,b) on {b, u, v}",
+   "attachments": [
+    "b",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "b",
+     "@a1"
+    ],
+    [
+     "b",
+     "@a2"
+    ],
+    [
+     "u",
+     "@b1"
+    ],
+    [
+     "u",
+     "@b2"
+    ],
+    [
+     "v",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    30
+   ]
+  },
+  {
+   "id": "A28",
+   "is": "the edge bu",
+   "attachments": [
+    "b",
+    "u"
+   ],
+   "edges": [
+    [
+     "b",
+     "u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    31
+   ]
+  },
+  {
+   "id": "A29",
+   "is": "the edge bv",
+   "attachments": [
+    "b",
+    "v"
+   ],
+   "edges": [
+    [
+     "b",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    32
+   ]
+  },
+  {
+   "id": "A30",
+   "is": "one vertex on {c, a, u}",
+   "attachments": [
+    "a",
+    "c",
+    "u"
+   ],
+   "edges": [
+    [
+     "@h",
+     "a"
+    ],
+    [
+     "@h",
+     "u"
+    ],
+    [
+     "@h",
+     "c"
+    ]
+   ],
+   "most copies": 2,
+   "variables": [
+    33,
+    34
+   ]
+  },
+  {
+   "id": "A31",
+   "is": "T(a) on {c, a, u}",
+   "attachments": [
+    "a",
+    "c",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "c"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "c"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "a"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    35
+   ]
+  },
+  {
+   "id": "A32",
+   "is": "T(u) on {c, a, u}",
+   "attachments": [
+    "a",
+    "c",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "c"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "c"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    36
+   ]
+  },
+  {
+   "id": "A33",
+   "is": "T(c) on {c, a, u}",
+   "attachments": [
+    "a",
+    "c",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "c"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    37
+   ]
+  },
+  {
+   "id": "A34",
+   "is": "S(a;u) on {c, a, u}",
+   "attachments": [
+    "a",
+    "c",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "a"
+    ],
+    [
+     "@f",
+     "c"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    38
+   ]
+  },
+  {
+   "id": "A35",
+   "is": "S(u;a) on {c, a, u}",
+   "attachments": [
+    "a",
+    "c",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "u"
+    ],
+    [
+     "@f",
+     "c"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    39
+   ]
+  },
+  {
+   "id": "A36",
+   "is": "Q(c;a,u) on {c, a, u}",
+   "attachments": [
+    "a",
+    "c",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "c"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "@v"
+    ],
+    [
+     "@d2",
+     "c"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "@v"
+    ],
+    [
+     "@u",
+     "a"
+    ],
+    [
+     "@v",
+     "u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    40
+   ]
+  },
+  {
+   "id": "A37",
+   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (a,u,c) on {c, a, u}",
+   "attachments": [
+    "a",
+    "c",
+    "u"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "c",
+     "@a1"
+    ],
+    [
+     "c",
+     "@a2"
+    ],
+    [
+     "u",
+     "@b1"
+    ],
+    [
+     "u",
+     "@b2"
+    ],
+    [
+     "a",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    41
+   ]
+  },
+  {
+   "id": "A38",
+   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (a,u,c) on {c, a, u}",
+   "attachments": [
+    "a",
+    "c",
+    "u"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "c",
+     "@a1"
+    ],
+    [
+     "c",
+     "@a2"
+    ],
+    [
+     "a",
+     "@b1"
+    ],
+    [
+     "a",
+     "@b2"
+    ],
+    [
+     "u",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    42
+   ]
+  },
+  {
+   "id": "A39",
+   "is": "one vertex on {c, a, v}",
+   "attachments": [
+    "a",
+    "c",
+    "v"
+   ],
+   "edges": [
+    [
+     "@h",
+     "a"
+    ],
+    [
+     "@h",
+     "v"
+    ],
+    [
+     "@h",
+     "c"
+    ]
+   ],
+   "most copies": 2,
+   "variables": [
+    43,
+    44
+   ]
+  },
+  {
+   "id": "A40",
+   "is": "T(a) on {c, a, v}",
+   "attachments": [
+    "a",
+    "c",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "c"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "c"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "a"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    45
+   ]
+  },
+  {
+   "id": "A41",
+   "is": "T(v) on {c, a, v}",
+   "attachments": [
+    "a",
+    "c",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "c"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "c"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    46
+   ]
+  },
+  {
+   "id": "A42",
+   "is": "T(c) on {c, a, v}",
+   "attachments": [
+    "a",
+    "c",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "c"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    47
+   ]
+  },
+  {
+   "id": "A43",
+   "is": "S(a;v) on {c, a, v}",
+   "attachments": [
+    "a",
+    "c",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "a"
+    ],
+    [
+     "@f",
+     "c"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    48
+   ]
+  },
+  {
+   "id": "A44",
+   "is": "S(v;a) on {c, a, v}",
+   "attachments": [
+    "a",
+    "c",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "v"
+    ],
+    [
+     "@f",
+     "c"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    49
+   ]
+  },
+  {
+   "id": "A45",
+   "is": "Q(c;a,v) on {c, a, v}",
+   "attachments": [
+    "a",
+    "c",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "c"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "@v"
+    ],
+    [
+     "@d2",
+     "c"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "@v"
+    ],
+    [
+     "@u",
+     "a"
+    ],
+    [
+     "@v",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    50
+   ]
+  },
+  {
+   "id": "A46",
+   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (a,v,c) on {c, a, v}",
+   "attachments": [
+    "a",
+    "c",
+    "v"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "c",
+     "@a1"
+    ],
+    [
+     "c",
+     "@a2"
+    ],
+    [
+     "v",
+     "@b1"
+    ],
+    [
+     "v",
+     "@b2"
+    ],
+    [
+     "a",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    51
+   ]
+  },
+  {
+   "id": "A47",
+   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (a,v,c) on {c, a, v}",
+   "attachments": [
+    "a",
+    "c",
+    "v"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "c",
+     "@a1"
+    ],
+    [
+     "c",
+     "@a2"
+    ],
+    [
+     "a",
+     "@b1"
+    ],
+    [
+     "a",
+     "@b2"
+    ],
+    [
+     "v",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    52
+   ]
+  },
+  {
+   "id": "A48",
+   "is": "one vertex on {c, u, v}",
+   "attachments": [
+    "c",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@h",
+     "u"
+    ],
+    [
+     "@h",
+     "v"
+    ],
+    [
+     "@h",
+     "c"
+    ]
+   ],
+   "most copies": 2,
+   "variables": [
+    53,
+    54
+   ]
+  },
+  {
+   "id": "A49",
+   "is": "T(u) on {c, u, v}",
+   "attachments": [
+    "c",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "c"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "c"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    55
+   ]
+  },
+  {
+   "id": "A50",
+   "is": "T(v) on {c, u, v}",
+   "attachments": [
+    "c",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "c"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "c"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    56
+   ]
+  },
+  {
+   "id": "A51",
+   "is": "T(c) on {c, u, v}",
+   "attachments": [
+    "c",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "c"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    57
+   ]
+  },
+  {
+   "id": "A52",
+   "is": "S(u;v) on {c, u, v}",
+   "attachments": [
+    "c",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "u"
+    ],
+    [
+     "@f",
+     "c"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    58
+   ]
+  },
+  {
+   "id": "A53",
+   "is": "S(v;u) on {c, u, v}",
+   "attachments": [
+    "c",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "v"
+    ],
+    [
+     "@f",
+     "c"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    59
+   ]
+  },
+  {
+   "id": "A54",
+   "is": "Q(c;u,v) on {c, u, v}",
+   "attachments": [
+    "c",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "c"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "@v"
+    ],
+    [
+     "@d2",
+     "c"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "@v"
+    ],
+    [
+     "@u",
+     "u"
+    ],
+    [
+     "@v",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    60
+   ]
+  },
+  {
+   "id": "A55",
+   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (u,v,c) on {c, u, v}",
+   "attachments": [
+    "c",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "c",
+     "@a1"
+    ],
+    [
+     "c",
+     "@a2"
+    ],
+    [
+     "v",
+     "@b1"
+    ],
+    [
+     "v",
+     "@b2"
+    ],
+    [
+     "u",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    61
+   ]
+  },
+  {
+   "id": "A56",
+   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (u,v,c) on {c, u, v}",
+   "attachments": [
+    "c",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "c",
+     "@a1"
+    ],
+    [
+     "c",
+     "@a2"
+    ],
+    [
+     "u",
+     "@b1"
+    ],
+    [
+     "u",
+     "@b2"
+    ],
+    [
+     "v",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    62
+   ]
+  },
+  {
+   "id": "A57",
+   "is": "the edge cu",
+   "attachments": [
+    "c",
+    "u"
+   ],
+   "edges": [
+    [
+     "c",
+     "u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    63
+   ]
+  },
+  {
+   "id": "A58",
+   "is": "the edge cv",
+   "attachments": [
+    "c",
+    "v"
+   ],
+   "edges": [
+    [
+     "c",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    64
+   ]
+  },
+  {
+   "id": "A59",
+   "is": "one vertex on {d, a, u}",
+   "attachments": [
+    "a",
+    "d",
+    "u"
+   ],
+   "edges": [
+    [
+     "@h",
+     "a"
+    ],
+    [
+     "@h",
+     "u"
+    ],
+    [
+     "@h",
+     "d"
+    ]
+   ],
+   "most copies": 2,
+   "variables": [
+    65,
+    66
+   ]
+  },
+  {
+   "id": "A60",
+   "is": "T(a) on {d, a, u}",
+   "attachments": [
+    "a",
+    "d",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "d"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "d"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "a"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    67
+   ]
+  },
+  {
+   "id": "A61",
+   "is": "T(u) on {d, a, u}",
+   "attachments": [
+    "a",
+    "d",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "d"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "d"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    68
+   ]
+  },
+  {
+   "id": "A62",
+   "is": "T(d) on {d, a, u}",
+   "attachments": [
+    "a",
+    "d",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "d"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    69
+   ]
+  },
+  {
+   "id": "A63",
+   "is": "S(a;u) on {d, a, u}",
+   "attachments": [
+    "a",
+    "d",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "a"
+    ],
+    [
+     "@f",
+     "d"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    70
+   ]
+  },
+  {
+   "id": "A64",
+   "is": "S(u;a) on {d, a, u}",
+   "attachments": [
+    "a",
+    "d",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "u"
+    ],
+    [
+     "@f",
+     "d"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    71
+   ]
+  },
+  {
+   "id": "A65",
+   "is": "Q(d;a,u) on {d, a, u}",
+   "attachments": [
+    "a",
+    "d",
+    "u"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "d"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "@v"
+    ],
+    [
+     "@d2",
+     "d"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "@v"
+    ],
+    [
+     "@u",
+     "a"
+    ],
+    [
+     "@v",
+     "u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    72
+   ]
+  },
+  {
+   "id": "A66",
+   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (a,u,d) on {d, a, u}",
+   "attachments": [
+    "a",
+    "d",
+    "u"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "d",
+     "@a1"
+    ],
+    [
+     "d",
+     "@a2"
+    ],
+    [
+     "u",
+     "@b1"
+    ],
+    [
+     "u",
+     "@b2"
+    ],
+    [
+     "a",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    73
+   ]
+  },
+  {
+   "id": "A67",
+   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (a,u,d) on {d, a, u}",
+   "attachments": [
+    "a",
+    "d",
+    "u"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "d",
+     "@a1"
+    ],
+    [
+     "d",
+     "@a2"
+    ],
+    [
+     "a",
+     "@b1"
+    ],
+    [
+     "a",
+     "@b2"
+    ],
+    [
+     "u",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    74
+   ]
+  },
+  {
+   "id": "A68",
+   "is": "one vertex on {d, a, v}",
+   "attachments": [
+    "a",
+    "d",
+    "v"
+   ],
+   "edges": [
+    [
+     "@h",
+     "a"
+    ],
+    [
+     "@h",
+     "v"
+    ],
+    [
+     "@h",
+     "d"
+    ]
+   ],
+   "most copies": 2,
+   "variables": [
+    75,
+    76
+   ]
+  },
+  {
+   "id": "A69",
+   "is": "T(a) on {d, a, v}",
+   "attachments": [
+    "a",
+    "d",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "d"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "d"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "a"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    77
+   ]
+  },
+  {
+   "id": "A70",
+   "is": "T(v) on {d, a, v}",
+   "attachments": [
+    "a",
+    "d",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "d"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "d"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    78
+   ]
+  },
+  {
+   "id": "A71",
+   "is": "T(d) on {d, a, v}",
+   "attachments": [
+    "a",
+    "d",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "d"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    79
+   ]
+  },
+  {
+   "id": "A72",
+   "is": "S(a;v) on {d, a, v}",
+   "attachments": [
+    "a",
+    "d",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "a"
+    ],
+    [
+     "@f",
+     "d"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    80
+   ]
+  },
+  {
+   "id": "A73",
+   "is": "S(v;a) on {d, a, v}",
+   "attachments": [
+    "a",
+    "d",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "a"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "a"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "v"
+    ],
+    [
+     "@f",
+     "d"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    81
+   ]
+  },
+  {
+   "id": "A74",
+   "is": "Q(d;a,v) on {d, a, v}",
+   "attachments": [
+    "a",
+    "d",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "d"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "@v"
+    ],
+    [
+     "@d2",
+     "d"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "@v"
+    ],
+    [
+     "@u",
+     "a"
+    ],
+    [
+     "@v",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    82
+   ]
+  },
+  {
+   "id": "A75",
+   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (a,v,d) on {d, a, v}",
+   "attachments": [
+    "a",
+    "d",
+    "v"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "d",
+     "@a1"
+    ],
+    [
+     "d",
+     "@a2"
+    ],
+    [
+     "v",
+     "@b1"
+    ],
+    [
+     "v",
+     "@b2"
+    ],
+    [
+     "a",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    83
+   ]
+  },
+  {
+   "id": "A76",
+   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (a,v,d) on {d, a, v}",
+   "attachments": [
+    "a",
+    "d",
+    "v"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "d",
+     "@a1"
+    ],
+    [
+     "d",
+     "@a2"
+    ],
+    [
+     "a",
+     "@b1"
+    ],
+    [
+     "a",
+     "@b2"
+    ],
+    [
+     "v",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    84
+   ]
+  },
+  {
+   "id": "A77",
+   "is": "one vertex on {d, u, v}",
+   "attachments": [
+    "d",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@h",
+     "u"
+    ],
+    [
+     "@h",
+     "v"
+    ],
+    [
+     "@h",
+     "d"
+    ]
+   ],
+   "most copies": 2,
+   "variables": [
+    85,
+    86
+   ]
+  },
+  {
+   "id": "A78",
+   "is": "T(u) on {d, u, v}",
+   "attachments": [
+    "d",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "d"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "d"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    87
+   ]
+  },
+  {
+   "id": "A79",
+   "is": "T(v) on {d, u, v}",
+   "attachments": [
+    "d",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "d"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "d"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    88
+   ]
+  },
+  {
+   "id": "A80",
+   "is": "T(d) on {d, u, v}",
+   "attachments": [
+    "d",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@u",
+     "d"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    89
+   ]
+  },
+  {
+   "id": "A81",
+   "is": "S(u;v) on {d, u, v}",
+   "attachments": [
+    "d",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "u"
+    ],
+    [
+     "@f",
+     "d"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    90
+   ]
+  },
+  {
+   "id": "A82",
+   "is": "S(v;u) on {d, u, v}",
+   "attachments": [
+    "d",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "v"
+    ],
+    [
+     "@d1",
+     "u"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d2",
+     "v"
+    ],
+    [
+     "@d2",
+     "u"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@f",
+     "v"
+    ],
+    [
+     "@f",
+     "d"
+    ],
+    [
+     "@f",
+     "@u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    91
+   ]
+  },
+  {
+   "id": "A83",
+   "is": "Q(d;u,v) on {d, u, v}",
+   "attachments": [
+    "d",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "d"
+    ],
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "@v"
+    ],
+    [
+     "@d2",
+     "d"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "@v"
+    ],
+    [
+     "@u",
+     "u"
+    ],
+    [
+     "@v",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    92
+   ]
+  },
+  {
+   "id": "A84",
+   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (u,v,d) on {d, u, v}",
+   "attachments": [
+    "d",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "d",
+     "@a1"
+    ],
+    [
+     "d",
+     "@a2"
+    ],
+    [
+     "v",
+     "@b1"
+    ],
+    [
+     "v",
+     "@b2"
+    ],
+    [
+     "u",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    93
+   ]
+  },
+  {
+   "id": "A85",
+   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (u,v,d) on {d, u, v}",
+   "attachments": [
+    "d",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "@a1",
+     "@b1"
+    ],
+    [
+     "@b1",
+     "@a2"
+    ],
+    [
+     "@a2",
+     "@b2"
+    ],
+    [
+     "@b2",
+     "@a1"
+    ],
+    [
+     "d",
+     "@a1"
+    ],
+    [
+     "d",
+     "@a2"
+    ],
+    [
+     "u",
+     "@b1"
+    ],
+    [
+     "u",
+     "@b2"
+    ],
+    [
+     "v",
+     "@a2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    94
+   ]
+  },
+  {
+   "id": "A86",
+   "is": "the edge du",
+   "attachments": [
+    "d",
+    "u"
+   ],
+   "edges": [
+    [
+     "d",
+     "u"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    95
+   ]
+  },
+  {
+   "id": "A87",
+   "is": "the edge dv",
+   "attachments": [
+    "d",
+    "v"
+   ],
+   "edges": [
+    [
+     "d",
+     "v"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    96
+   ]
+  }
+ ],
+ "the formula": {
+  "variables": "Variable vj of atom A<i> (its list [v1, ..., vm]) means \"at least j copies of A<i>\". Variables after 96 are auxiliary (cardinality counters).",
+  "base clauses": "1119 clauses: v(j+1) implies vj for each atom, then the constraints of the case listed below.",
+  "one clause per recorded graph": "For a toroidal graph with n_i copies of A<i>: the clause that some atom has more copies than in it. For a nontoroidal graph: the clause that some atom in it has fewer copies.",
+  "clause count": 10997,
+  "files": {
+   "cover.cnf": "cover.cnf",
+   "cover.drat": "cover.drat"
+  },
+  "DRAT check": "drat-trim verifies that cover.cnf is unsatisfiable: c 10803 of 10997 clauses in core                            ; c 2796 of 3117 lemmas in core using 106300 resolution steps; c 0 RAT lemmas in core; 1536 redundant literals in core lemmas; c verification time: 0.166 seconds"
+ },
+ "what this shows": "Every assembly allowed by the base clauses either lies inside a recorded toroidal graph, so it is toroidal, or contains a recorded nontoroidal graph. An obstruction of the case therefore equals a recorded nontoroidal graph in the family, and the verdicts of those give the stated list.",
+ "not in this item": "The recorded nontoroidal graphs come with no certificate of nontoroidality here; their genus computations are part of the table of genus computations cited in Appendix A.",
+ "vertex names": "Psi_2 with twins p, q on {a, b, c} and r, z on {a, b, d}; the twins p', q' of B have neighbourhood X = {a, u, v}. Interior vertices of copy k of atom A<i> are named A<i>#k@<role>.",
+ "constraints of the case (the base clauses)": [
+  "For each g in {b, c, d}: at most one form, on one pair st in {au, av, uv} (two singleton interiors are two copies of the one-vertex atom).",
+  "A form on {g, s, t} allows only the original edges gs, gt; the edge ag is never an atom.",
+  "Some atom is present for each g: a form, or for an empty interior an edge gu or gv."
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "item": "E23",
+ "where": "Lemma 6.9",
+ "paper text": [
+  {
+   "line": 9342,
+   "text": "Lemma~\\ref{r1:matching-test} makes $B+ab+ac+ad+ae$ nonplanar\nas well. Thus $\\Psi_3\\cup B$ fails both tests of\nLemma~\\ref{r1:missing-a-criterion}, and minimality gives\n$G=\\Psi_3\\cup B$.\n\nThe graph $H_2$ is a $K_5$-minor-free minor of $G$, so it contains\na $K_{3,3}$ subdivision. Apply Lemma~\\ref{core:retained-subdivision}\nwith attachments $b,c,d,e$ and added edges $bc,de$.\nThe reduction keeps the interior connected, all four attachments,\nand $H_2$ nonplanar. The preceding argument therefore keeps both\ntests failing, so minimality leaves $B$ unchanged.\nConstruction~\\ref{common:marked-construction} gives $26{,}633$\npossibilities for $B$. Each resulting graph $\\Psi_3\\cup B$\nis toroidal, has a $K_5$ minor or a proper nontoroidal minor,\nor is isomorphic to $\\mathfrak T_{54}$~\\supp{E23}."
+  }
+ ],
+ "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
+ "cases of the construction": {
+  "W_bcde": {
+   "specification": {
+    "roots": [
+     "b",
+     "c",
+     "d",
+     "e"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "e"
+     ]
+    ],
+    "required edges of K'": [],
+    "completions": "no cross edge"
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 1392,
+   "recipes": 44479,
+   "parts up to rooted isomorphism": 26633,
+   "outcomes": {
+    "excluded: disjoint twin triples": 10123,
+    "proper nontoroidal minor": 15978,
+    "K5 minor": 92,
+    "toroidal": 6,
+    "excluded: two twin triples share two vertices": 90,
+    "excluded: component adjacent to all five attachments": 340,
+    "catalogue graph": 4
+   }
+  }
+ },
+ "hypotheses of the case used for exclusions": {
+  "disjoint twin triples": {
+   "meaning": "Section 6 assumes any two twin triples share exactly one vertex"
+  },
+  "two twin triples share two vertices": {
+   "meaning": "such graphs belong to Section 5"
+  },
+  "component adjacent to all five attachments": {
+   "meaning": "such graphs belong to Section 6.2"
+  }
+ }
+}

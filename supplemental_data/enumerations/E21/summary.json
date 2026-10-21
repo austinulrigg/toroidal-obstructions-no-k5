@@ -1,0 +1,16 @@
+{
+ "item": "E21",
+ "where": "Proposition 6.6",
+ "candidates": 432,
+ "verdicts": {
+  "K5 minor": 72,
+  "cut of at most two vertices": 56,
+  "proper nontoroidal minor": 304
+ },
+ "isomorphic to T_i (copies)": {},
+ "graphs T_i not excluded by a hypothesis of the case": [],
+ "also excluded by a hypothesis of the case": {
+  "two twin triples are disjoint": 246,
+  "two twin triples share two vertices": 24
+ }
+}

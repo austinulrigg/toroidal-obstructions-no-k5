@@ -1,0 +1,22 @@
+{
+ "item": "E26",
+ "where": "Proposition 6.11",
+ "candidates": 432,
+ "verdicts": {
+  "K5 minor": 85,
+  "cut of at most two vertices": 56,
+  "proper nontoroidal minor": 291
+ },
+ "isomorphic to T_i (copies)": {},
+ "graphs T_i not excluded by a hypothesis of the case": [],
+ "by case": {
+  "C_on_abd": {
+   "candidates": 216,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  },
+  "C_on_ace": {
+   "candidates": 216,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  }
+ }
+}

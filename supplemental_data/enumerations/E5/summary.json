@@ -1,0 +1,59 @@
+{
+ "item": "E5",
+ "where": "Proposition 4.25",
+ "recorded graphs": 315099,
+ "toroidal, maximal": 22113,
+ "nontoroidal, minimal": 292986,
+ "nontoroidal, minimal, in the family": 147216,
+ "nontoroidal, minimal, outside the family (used only for the covering)": 145770,
+ "verdicts": {
+  "K5 minor": 24282,
+  "cut of at most two vertices": 1794,
+  "isomorphic to T32": 6,
+  "isomorphic to T38": 12,
+  "isomorphic to T43": 4,
+  "isomorphic to T45": 12,
+  "isomorphic to T48": 24,
+  "isomorphic to T58": 12,
+  "isomorphic to T61": 12,
+  "isomorphic to T66": 24,
+  "isomorphic to T67": 12,
+  "proper nontoroidal minor": 121022,
+  "toroidal": 22113
+ },
+ "isomorphic to T_i (copies)": {
+  "T32": 6,
+  "T38": 12,
+  "T43": 4,
+  "T45": 12,
+  "T48": 24,
+  "T58": 12,
+  "T61": 12,
+  "T66": 24,
+  "T67": 12
+ },
+ "formula": {
+  "variables": 3030,
+  "clauses": 321582,
+  "base clauses": 6483,
+  "DRAT": "verified by drat-trim"
+ },
+ "T_i by part": {
+  "(a)": {
+   "T32": 6,
+   "T43": 4,
+   "T61": 12
+  },
+  "(b)": {
+   "T38": 12,
+   "T45": 12,
+   "T48": 12,
+   "T66": 24,
+   "T67": 12
+  },
+  "all three edges s_m t_m present": {
+   "T48": 12,
+   "T58": 12
+  }
+ }
+}

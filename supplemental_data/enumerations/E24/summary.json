@@ -1,0 +1,27 @@
+{
+ "item": "E24",
+ "where": "Proposition 6.11",
+ "candidates": 565,
+ "verdicts": {
+  "K5 minor": 103,
+  "cut of at most two vertices": 74,
+  "proper nontoroidal minor": 388
+ },
+ "isomorphic to T_i (copies)": {},
+ "graphs T_i not excluded by a hypothesis of the case": [],
+ "also excluded by a hypothesis of the case": {
+  "a choice of twin pairs leaves a component adjacent to all five of their attachments": 44,
+  "two twin triples are disjoint": 330,
+  "two twin triples share two vertices": 26
+ },
+ "by case": {
+  "one_bridge": {
+   "candidates": 349,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  },
+  "two_bridges": {
+   "candidates": 216,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  }
+ }
+}

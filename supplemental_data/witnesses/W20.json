@@ -1,0 +1,329 @@
+{
+ "item": "W20",
+ "where": "Lemma 6.12",
+ "claim": "B has attachments {a,c,d,e}, Int(B) contracted to w. Another component with neighbourhood {a,b,c}, {b,c,d} or {a,b,c,d}, contracted to u, after deleting aw, cw, or au and cw respectively: each is T3.",
+ "graphs": [
+  {
+   "case": "N(u) = {a,b,c}, aw deleted",
+   "vertices": [
+    "p",
+    "a",
+    "b",
+    "c",
+    "q",
+    "r",
+    "d",
+    "e",
+    "z",
+    "u",
+    "w"
+   ],
+   "edges": [
+    [
+     "a",
+     "p"
+    ],
+    [
+     "a",
+     "q"
+    ],
+    [
+     "a",
+     "r"
+    ],
+    [
+     "a",
+     "u"
+    ],
+    [
+     "a",
+     "z"
+    ],
+    [
+     "b",
+     "p"
+    ],
+    [
+     "b",
+     "q"
+    ],
+    [
+     "b",
+     "u"
+    ],
+    [
+     "c",
+     "p"
+    ],
+    [
+     "c",
+     "q"
+    ],
+    [
+     "c",
+     "u"
+    ],
+    [
+     "c",
+     "w"
+    ],
+    [
+     "d",
+     "r"
+    ],
+    [
+     "d",
+     "w"
+    ],
+    [
+     "d",
+     "z"
+    ],
+    [
+     "e",
+     "r"
+    ],
+    [
+     "e",
+     "w"
+    ],
+    [
+     "e",
+     "z"
+    ]
+   ],
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T3",
+    "map": {
+     "p": 0,
+     "a": 10,
+     "b": 8,
+     "c": 9,
+     "q": 2,
+     "r": 5,
+     "d": 7,
+     "e": 6,
+     "z": 4,
+     "u": 1,
+     "w": 3
+    }
+   }
+  },
+  {
+   "case": "N(u) = {b,c,d}, cw deleted",
+   "vertices": [
+    "p",
+    "a",
+    "b",
+    "c",
+    "q",
+    "r",
+    "d",
+    "e",
+    "z",
+    "u",
+    "w"
+   ],
+   "edges": [
+    [
+     "a",
+     "p"
+    ],
+    [
+     "a",
+     "q"
+    ],
+    [
+     "a",
+     "r"
+    ],
+    [
+     "a",
+     "w"
+    ],
+    [
+     "a",
+     "z"
+    ],
+    [
+     "b",
+     "p"
+    ],
+    [
+     "b",
+     "q"
+    ],
+    [
+     "b",
+     "u"
+    ],
+    [
+     "c",
+     "p"
+    ],
+    [
+     "c",
+     "q"
+    ],
+    [
+     "c",
+     "u"
+    ],
+    [
+     "d",
+     "r"
+    ],
+    [
+     "d",
+     "u"
+    ],
+    [
+     "d",
+     "w"
+    ],
+    [
+     "d",
+     "z"
+    ],
+    [
+     "e",
+     "r"
+    ],
+    [
+     "e",
+     "w"
+    ],
+    [
+     "e",
+     "z"
+    ]
+   ],
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T3",
+    "map": {
+     "p": 5,
+     "a": 10,
+     "b": 6,
+     "c": 7,
+     "q": 4,
+     "r": 0,
+     "d": 9,
+     "e": 8,
+     "z": 2,
+     "u": 3,
+     "w": 1
+    }
+   }
+  },
+  {
+   "case": "N(u) = {a,b,c,d}, au and cw deleted",
+   "vertices": [
+    "p",
+    "a",
+    "b",
+    "c",
+    "q",
+    "r",
+    "d",
+    "e",
+    "z",
+    "u",
+    "w"
+   ],
+   "edges": [
+    [
+     "a",
+     "p"
+    ],
+    [
+     "a",
+     "q"
+    ],
+    [
+     "a",
+     "r"
+    ],
+    [
+     "a",
+     "w"
+    ],
+    [
+     "a",
+     "z"
+    ],
+    [
+     "b",
+     "p"
+    ],
+    [
+     "b",
+     "q"
+    ],
+    [
+     "b",
+     "u"
+    ],
+    [
+     "c",
+     "p"
+    ],
+    [
+     "c",
+     "q"
+    ],
+    [
+     "c",
+     "u"
+    ],
+    [
+     "d",
+     "r"
+    ],
+    [
+     "d",
+     "u"
+    ],
+    [
+     "d",
+     "w"
+    ],
+    [
+     "d",
+     "z"
+    ],
+    [
+     "e",
+     "r"
+    ],
+    [
+     "e",
+     "w"
+    ],
+    [
+     "e",
+     "z"
+    ]
+   ],
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T3",
+    "map": {
+     "p": 5,
+     "a": 10,
+     "b": 6,
+     "c": 7,
+     "q": 4,
+     "r": 0,
+     "d": 9,
+     "e": 8,
+     "z": 2,
+     "u": 3,
+     "w": 1
+    }
+   }
+  }
+ ],
+ "note on T_i": "T_i vertex numbers are those of O1."
+}

@@ -1,0 +1,64 @@
+{
+ "item": "E21",
+ "where": "Proposition 6.6",
+ "paper text": [
+  {
+   "line": 9084,
+   "text": "\nThus $B'$ has nonplanar triangle completion. Contracting\n$\\operatorname{Int}(B)$ keeps $H$ nonplanar, so the same criterion\nand minimality make $\\operatorname{Int}(B)$ a single vertex.\nA $b$--$d$ path with interior in $\\operatorname{Int}(B)$ shows\nthat the triangle completion of $B'$ is a minor of $H$, so it\ncontains a $K_{3,3}$ subdivision.\nAn allowed reduction of $B'$ keeping this subdivision keeps $H$\nnonplanar and would again give a proper nontoroidal minor.\nThus Lemma~\\ref{core:retained-subdivision} and\nConstruction~\\ref{common:marked-construction}, with attachments\n$a,b,d$ and the added triangle, give every possible $B'$.\nThe $216$ forms, with $bd$ absent or present, give $432$ graphs.\nEach has a $K_5$ minor, a cut of at most two vertices, or a proper\nnontoroidal minor~\\supp{E21}."
+  }
+ ],
+ "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
+ "cases of the construction": {
+  "C_on_abd": {
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "d"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "d"
+     ]
+    ],
+    "required edges of K'": [],
+    "W": "one vertex w, N(w)=abcde",
+    "bd": "absent or present"
+   },
+   "root placements": 4270,
+   "root placement classes": 115,
+   "full placements": 115,
+   "valid retained subdivisions": 115,
+   "recipes": 687,
+   "parts up to rooted isomorphism": 216,
+   "outcomes": {
+    "excluded: disjoint twin triples": 246,
+    "K5 minor": 58,
+    "proper nontoroidal minor": 102,
+    "cut of order at most two": 2,
+    "excluded: two twin triples share two vertices": 24
+   }
+  }
+ },
+ "hypotheses of the case used for exclusions": {
+  "disjoint twin triples": {
+   "meaning": "Section 6 assumes any two twin triples share exactly one vertex"
+  },
+  "two twin triples share two vertices": {
+   "meaning": "such graphs belong to Section 5"
+  },
+  "component adjacent to all five attachments": {
+   "meaning": "such graphs belong to Section 6.2"
+  }
+ }
+}

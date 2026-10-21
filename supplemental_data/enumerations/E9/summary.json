@@ -1,0 +1,86 @@
+{
+ "item": "E9",
+ "where": "Proposition 5.9",
+ "candidates": 187075,
+ "verdicts": {
+  "K5 minor": 146168,
+  "cut of at most two vertices": 3576,
+  "isomorphic to T11": 2,
+  "isomorphic to T17": 1,
+  "isomorphic to T18": 4,
+  "isomorphic to T19": 1,
+  "isomorphic to T22": 4,
+  "isomorphic to T24": 2,
+  "isomorphic to T26": 4,
+  "isomorphic to T30": 4,
+  "isomorphic to T34": 2,
+  "isomorphic to T39": 4,
+  "isomorphic to T48": 4,
+  "isomorphic to T52": 4,
+  "isomorphic to T57": 4,
+  "isomorphic to T66": 4,
+  "isomorphic to T74": 1,
+  "proper nontoroidal minor": 37286
+ },
+ "isomorphic to T_i (copies)": {
+  "T11": 2,
+  "T17": 1,
+  "T18": 4,
+  "T19": 1,
+  "T22": 4,
+  "T24": 2,
+  "T26": 4,
+  "T30": 4,
+  "T34": 2,
+  "T39": 4,
+  "T48": 4,
+  "T52": 4,
+  "T57": 4,
+  "T66": 4,
+  "T74": 1
+ },
+ "graphs T_i not excluded by a hypothesis of the case": [
+  "T11",
+  "T17",
+  "T18",
+  "T19",
+  "T22",
+  "T24",
+  "T26",
+  "T30",
+  "T34",
+  "T39",
+  "T48",
+  "T52",
+  "T57",
+  "T66",
+  "T74"
+ ],
+ "by case": {
+  "A": {
+   "candidates": 172437,
+   "graphs T_i not excluded by a hypothesis of the case": [
+    "T17",
+    "T18",
+    "T19",
+    "T22",
+    "T24",
+    "T26",
+    "T30",
+    "T34",
+    "T39",
+    "T48",
+    "T52",
+    "T57",
+    "T66",
+    "T74"
+   ]
+  },
+  "B": {
+   "candidates": 14638,
+   "graphs T_i not excluded by a hypothesis of the case": [
+    "T11"
+   ]
+  }
+ }
+}

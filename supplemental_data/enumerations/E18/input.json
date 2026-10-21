@@ -1,0 +1,26 @@
+{
+ "item": "E18",
+ "where": "Lemma 5.15",
+ "paper text": [
+  {
+   "line": 7879,
+   "text": "of vertices. If there were more than nine components, deleting\nthe others would make this minor proper. If there were nine and\none were not a singleton, contracting that component would make\nit proper. Thus there are at most nine components in total,\nor eight if one is not a singleton.\n\nA component with nonplanar triangle completion is not a singleton,\nso the latter bound leaves at most four components besides the\nchosen twins. Otherwise, Lemma~\\ref{lem:flat-replacement} makes\nevery component a singleton. The graph is then determined by the\nnumbers of vertices with neighborhoods $\\{a,b,c\\},\\{a,b,d\\},\\{a,c,d\\},\\{b,c,d\\}$, with\nat least two having each of the first two neighborhoods, at most\nnine in total, and $cd$ absent or present.\n\nThese are the $252$ choices checked in~\\supp{E18}. Each graph has a cut of at most"
+  }
+ ],
+ "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ... Here the other vertices with a given neighbourhood are named by it, as abc2, abd2, acd0, bcd0, ....",
+ "cases of the construction": {
+  "singletons": {
+   "specification": {
+    "vertices": "a,b,c,d; vertex 'Ti' is the i-th singleton on triple T",
+    "domain": "n_abc>=2, n_abd>=2, n_acd>=0, n_bcd>=0, total<=9; cd absent or present"
+   },
+   "count vectors with cd absent or present": 252,
+   "outcomes": {
+    "cut of order at most two": 21,
+    "toroidal": 72,
+    "proper nontoroidal minor": 145,
+    "catalogue graph": 14
+   }
+  }
+ }
+}

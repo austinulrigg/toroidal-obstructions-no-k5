@@ -1,0 +1,254 @@
+{
+ "item": "W12",
+ "where": "Lemma 5.2",
+ "claim": "At least four vertices with the same neighbourhood {a,b,c} or {a,b,d}, with Psi_2 and Int(B) contracted to w (neighbourhood {a,b,c,d}), give T2.",
+ "graphs": [
+  {
+   "case": "four vertices on {a,b,c}: p, q, p3, p4",
+   "vertices": [
+    "p",
+    "a",
+    "b",
+    "c",
+    "q",
+    "r",
+    "d",
+    "z",
+    "p3",
+    "p4",
+    "w"
+   ],
+   "edges": [
+    [
+     "a",
+     "p"
+    ],
+    [
+     "a",
+     "p3"
+    ],
+    [
+     "a",
+     "p4"
+    ],
+    [
+     "a",
+     "q"
+    ],
+    [
+     "a",
+     "r"
+    ],
+    [
+     "a",
+     "w"
+    ],
+    [
+     "a",
+     "z"
+    ],
+    [
+     "b",
+     "p"
+    ],
+    [
+     "b",
+     "p3"
+    ],
+    [
+     "b",
+     "p4"
+    ],
+    [
+     "b",
+     "q"
+    ],
+    [
+     "b",
+     "r"
+    ],
+    [
+     "b",
+     "w"
+    ],
+    [
+     "b",
+     "z"
+    ],
+    [
+     "c",
+     "p"
+    ],
+    [
+     "c",
+     "p3"
+    ],
+    [
+     "c",
+     "p4"
+    ],
+    [
+     "c",
+     "q"
+    ],
+    [
+     "c",
+     "w"
+    ],
+    [
+     "d",
+     "r"
+    ],
+    [
+     "d",
+     "w"
+    ],
+    [
+     "d",
+     "z"
+    ]
+   ],
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T2",
+    "map": {
+     "p": 3,
+     "a": 9,
+     "b": 10,
+     "c": 8,
+     "q": 4,
+     "r": 5,
+     "d": 0,
+     "z": 6,
+     "p3": 2,
+     "p4": 1,
+     "w": 7
+    }
+   }
+  },
+  {
+   "case": "four vertices on {a,b,d}: r, z, r3, r4",
+   "vertices": [
+    "p",
+    "a",
+    "b",
+    "c",
+    "q",
+    "r",
+    "d",
+    "z",
+    "r3",
+    "r4",
+    "w"
+   ],
+   "edges": [
+    [
+     "a",
+     "p"
+    ],
+    [
+     "a",
+     "q"
+    ],
+    [
+     "a",
+     "r"
+    ],
+    [
+     "a",
+     "r3"
+    ],
+    [
+     "a",
+     "r4"
+    ],
+    [
+     "a",
+     "w"
+    ],
+    [
+     "a",
+     "z"
+    ],
+    [
+     "b",
+     "p"
+    ],
+    [
+     "b",
+     "q"
+    ],
+    [
+     "b",
+     "r"
+    ],
+    [
+     "b",
+     "r3"
+    ],
+    [
+     "b",
+     "r4"
+    ],
+    [
+     "b",
+     "w"
+    ],
+    [
+     "b",
+     "z"
+    ],
+    [
+     "c",
+     "p"
+    ],
+    [
+     "c",
+     "q"
+    ],
+    [
+     "c",
+     "w"
+    ],
+    [
+     "d",
+     "r"
+    ],
+    [
+     "d",
+     "r3"
+    ],
+    [
+     "d",
+     "r4"
+    ],
+    [
+     "d",
+     "w"
+    ],
+    [
+     "d",
+     "z"
+    ]
+   ],
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T2",
+    "map": {
+     "p": 6,
+     "a": 9,
+     "b": 10,
+     "c": 0,
+     "q": 5,
+     "r": 2,
+     "d": 8,
+     "z": 3,
+     "r3": 4,
+     "r4": 1,
+     "w": 7
+    }
+   }
+  }
+ ],
+ "note on T_i": "T_i vertex numbers are those of O1."
+}

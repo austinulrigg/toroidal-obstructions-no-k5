@@ -1,0 +1,12 @@
+{
+ "item": "E27",
+ "where": "Lemma 6.12",
+ "paper text": [
+  {
+   "line": 9875,
+   "text": "For $\\{a,d,e\\}$, contract $\\Psi_3$ to triangles.\nFor $\\{a,c,d\\}$, also contract $\\operatorname{Int}(B)$ into $d$.\nFor $\\{a,b,d\\}$, additionally contract $c$ into $d$.\n\nSuppose such a bridge $B_1$ has nonplanar triangle completion\nbut a planar two-edge completion. Halin's theorem and\nLemma~\\ref{core:three-root-cut} give twins in $G$ and an\nallowed minor of one of the forms $T,S,Q$.\nThe twins' neighborhood must meet each of $\\{a,b,c\\},\\{a,d,e\\}$ once.\nFor the three possible attachment triples, this leaves nine forms.\nContract $\\operatorname{Int}(B)$ to $w$. If $B_1$ does not attach\nat both $b,d$, the outside path avoids its interior and can be\ncontracted to $bd$. Retain only this exterior and the allowed\nminor of $B_1$. Eight of the nine resulting graphs have a proper\nnontoroidal minor~\\supp{E27}."
+  }
+ ],
+ "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ... The vertices of the form are Ud1, Ud2, Uf, Uu, Uv.",
+ "cases of the construction": {}
+}

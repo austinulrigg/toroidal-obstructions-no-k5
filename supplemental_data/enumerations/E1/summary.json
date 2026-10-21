@@ -1,0 +1,23 @@
+{
+ "item": "E1",
+ "where": "Lemma 4.11",
+ "candidates": 26633,
+ "verdicts": {
+  "K5 minor": 48,
+  "cut of at most two vertices": 23,
+  "excluded by a hypothesis of the case": 14,
+  "proper nontoroidal minor": 26548
+ },
+ "proper minors that are T_i (copies)": {
+  "T3": 4,
+  "T15": 2,
+  "T41": 4,
+  "T43": 2,
+  "T54": 2
+ },
+ "remaining": 0,
+ "one-edge minors of G with a minor model of some T_i": {
+  "contract": 8,
+  "delete": 6
+ }
+}

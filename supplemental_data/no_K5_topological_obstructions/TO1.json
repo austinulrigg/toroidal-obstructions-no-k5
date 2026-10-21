@@ -1,0 +1,1995 @@
+{
+ "item": "TO1",
+ "what": "The 381 topological obstructions for the torus with no K5 minor (Theorem 8.2), as graph6 strings. The 74 that are T1,...,T74 are named.",
+ "orders": {
+  "10": 1,
+  "11": 9,
+  "12": 43,
+  "13": 111,
+  "14": 151,
+  "15": 58,
+  "16": 7,
+  "17": 1
+ },
+ "graphs": [
+  {
+   "graph6": "I???F~}~_",
+   "n": 10,
+   "m": 21,
+   "is": "T1"
+  },
+  {
+   "graph6": "J????^p~f{?",
+   "n": 11,
+   "m": 22
+  },
+  {
+   "graph6": "J???WZp{vw?",
+   "n": 11,
+   "m": 21,
+   "is": "T7"
+  },
+  {
+   "graph6": "J??CCB{^r}?",
+   "n": 11,
+   "m": 22
+  },
+  {
+   "graph6": "J??FF?[FFw?",
+   "n": 11,
+   "m": 18,
+   "is": "T8"
+  },
+  {
+   "graph6": "J??GORp|vm?",
+   "n": 11,
+   "m": 22,
+   "is": "T2"
+  },
+  {
+   "graph6": "J?BMP_oA^__",
+   "n": 11,
+   "m": 18,
+   "is": "T6"
+  },
+  {
+   "graph6": "J?B_ooBwNo?",
+   "n": 11,
+   "m": 18,
+   "is": "T3"
+  },
+  {
+   "graph6": "JEr@@?J@p`_",
+   "n": 11,
+   "m": 18,
+   "is": "T4"
+  },
+  {
+   "graph6": "J]o???fDo]?",
+   "n": 11,
+   "m": 18,
+   "is": "T5"
+  },
+  {
+   "graph6": "K????AN[vw^w",
+   "n": 12,
+   "m": 24,
+   "is": "T9"
+  },
+  {
+   "graph6": "K????BB~D}Nw",
+   "n": 12,
+   "m": 24,
+   "is": "T16"
+  },
+  {
+   "graph6": "K????Bpfr]^o",
+   "n": 12,
+   "m": 24,
+   "is": "T10"
+  },
+  {
+   "graph6": "K????KE}Vp^o",
+   "n": 12,
+   "m": 23
+  },
+  {
+   "graph6": "K????cK{nY^o",
+   "n": 12,
+   "m": 23
+  },
+  {
+   "graph6": "K???C@FMV{^o",
+   "n": 12,
+   "m": 23
+  },
+  {
+   "graph6": "K???E?FMN{^o",
+   "n": 12,
+   "m": 23
+  },
+  {
+   "graph6": "K???E?pNe\\^o",
+   "n": 12,
+   "m": 23,
+   "is": "T11"
+  },
+  {
+   "graph6": "K???E?wph}^o",
+   "n": 12,
+   "m": 23
+  },
+  {
+   "graph6": "K???E?xph{^o",
+   "n": 12,
+   "m": 23,
+   "is": "T18"
+  },
+  {
+   "graph6": "K???GGB}Fx^W",
+   "n": 12,
+   "m": 23,
+   "is": "T12"
+  },
+  {
+   "graph6": "K???GGC}Fv^[",
+   "n": 12,
+   "m": 24,
+   "is": "T13"
+  },
+  {
+   "graph6": "K???GGZ}FE^_",
+   "n": 12,
+   "m": 22,
+   "is": "T15"
+  },
+  {
+   "graph6": "K???X_A{MZ^c",
+   "n": 12,
+   "m": 23
+  },
+  {
+   "graph6": "K??@GoBxMp^c",
+   "n": 12,
+   "m": 23,
+   "is": "T22"
+  },
+  {
+   "graph6": "K??@_WorMF^_",
+   "n": 12,
+   "m": 22
+  },
+  {
+   "graph6": "K??CGGC}Bv^K",
+   "n": 12,
+   "m": 23
+  },
+  {
+   "graph6": "K??CJC[FF?^?",
+   "n": 12,
+   "m": 19
+  },
+  {
+   "graph6": "K??GP_E{MM^C",
+   "n": 12,
+   "m": 22
+  },
+  {
+   "graph6": "K??GUGqKeG^?",
+   "n": 12,
+   "m": 19
+  },
+  {
+   "graph6": "K?@AC?FMT{^C",
+   "n": 12,
+   "m": 22
+  },
+  {
+   "graph6": "K?@_s?D?vp~E",
+   "n": 12,
+   "m": 23,
+   "is": "T19"
+  },
+  {
+   "graph6": "K?A?GGB}FpNW",
+   "n": 12,
+   "m": 22
+  },
+  {
+   "graph6": "K?AC?GC}BvN[",
+   "n": 12,
+   "m": 23
+  },
+  {
+   "graph6": "K?ACA@?}@~F{",
+   "n": 12,
+   "m": 23
+  },
+  {
+   "graph6": "K?ACALEM@o^?",
+   "n": 12,
+   "m": 19
+  },
+  {
+   "graph6": "K?B@@?BFMu^C",
+   "n": 12,
+   "m": 22
+  },
+  {
+   "graph6": "K?CRC?BBVX]E",
+   "n": 12,
+   "m": 22,
+   "is": "T14"
+  },
+  {
+   "graph6": "K?K?E?@Bnl]s",
+   "n": 12,
+   "m": 23
+  },
+  {
+   "graph6": "K?r@`b?K?P_x",
+   "n": 12,
+   "m": 19
+  },
+  {
+   "graph6": "KAGaC?RBS{[E",
+   "n": 12,
+   "m": 21,
+   "is": "T20"
+  },
+  {
+   "graph6": "KAGaC?RBTcxc",
+   "n": 12,
+   "m": 21,
+   "is": "T21"
+  },
+  {
+   "graph6": "KB??C?NCV[|q",
+   "n": 12,
+   "m": 23
+  },
+  {
+   "graph6": "KBAKS`_W?Q_t",
+   "n": 12,
+   "m": 19
+  },
+  {
+   "graph6": "KBX_sA?_?J_]",
+   "n": 12,
+   "m": 19
+  },
+  {
+   "graph6": "KC_ZB@__?JbQ",
+   "n": 12,
+   "m": 19
+  },
+  {
+   "graph6": "KC`A@?_w?~b}",
+   "n": 12,
+   "m": 23,
+   "is": "T17"
+  },
+  {
+   "graph6": "KIKqCE?_?J`U",
+   "n": 12,
+   "m": 19
+  },
+  {
+   "graph6": "KQQ???fEpwWX",
+   "n": 12,
+   "m": 21,
+   "is": "T23"
+  },
+  {
+   "graph6": "K]??WZ?K?F@b",
+   "n": 12,
+   "m": 19
+  },
+  {
+   "graph6": "Ko?Wr@__?q_u",
+   "n": 12,
+   "m": 19
+  },
+  {
+   "graph6": "KpGWq@?_?J_]",
+   "n": 12,
+   "m": 19
+  },
+  {
+   "graph6": "Ks?GOOF@r_M?",
+   "n": 12,
+   "m": 18,
+   "is": "T25"
+  },
+  {
+   "graph6": "L?????E]VBRw~_",
+   "n": 13,
+   "m": 25
+  },
+  {
+   "graph6": "L?????EqP}]K~_",
+   "n": 13,
+   "m": 25
+  },
+  {
+   "graph6": "L?????FEFo[y~o",
+   "n": 13,
+   "m": 25
+  },
+  {
+   "graph6": "L????@bFCE~o~O",
+   "n": 13,
+   "m": 25
+  },
+  {
+   "graph6": "L????ATYc]MW~?",
+   "n": 13,
+   "m": 24,
+   "is": "T35"
+  },
+  {
+   "graph6": "L????B?MMMFw~o",
+   "n": 13,
+   "m": 25
+  },
+  {
+   "graph6": "L????CMKFaXi~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????FaJOyYO~?",
+   "n": 13,
+   "m": 23,
+   "is": "T55"
+  },
+  {
+   "graph6": "L????KEEFA~C~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????KEEFo[M~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????KEENo[I~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????KEMEA~C~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????KW@nA^A~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????KW@no[I~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????KWWNKRI~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????KWoNAFq~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????KWw?q{s~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????KWwG{[H~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????KWwJKRH~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????KwGUowq~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????KwqEKEJ~_",
+   "n": 13,
+   "m": 24,
+   "is": "T30"
+  },
+  {
+   "graph6": "L????cKWFBRq~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????cKw?{{K~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????cKwEBFp~_",
+   "n": 13,
+   "m": 24,
+   "is": "T34"
+  },
+  {
+   "graph6": "L????oE?^o[q~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L????oE_ZK~?~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L???@KY?^GzA~_",
+   "n": 13,
+   "m": 25,
+   "is": "T26"
+  },
+  {
+   "graph6": "L???@_ABN`Xw~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L???@_G@noW{~_",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L???@ckoF?Brv_",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L???ACdE^KZOn?",
+   "n": 13,
+   "m": 24,
+   "is": "T29"
+  },
+  {
+   "graph6": "L???AowpdK?{}?",
+   "n": 13,
+   "m": 23,
+   "is": "T61"
+  },
+  {
+   "graph6": "L???C`_Bf_@|~_",
+   "n": 13,
+   "m": 24,
+   "is": "T60"
+  },
+  {
+   "graph6": "L???GG?}FhR[Yw",
+   "n": 13,
+   "m": 25
+  },
+  {
+   "graph6": "L???GGW?~o[W~?",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L???GGWWsF^?~?",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L???GGW]FEO]~?",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L???GGWwGu[W~?",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L???GGWwMEFW~?",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L???OkUbBO[?{?",
+   "n": 13,
+   "m": 20
+  },
+  {
+   "graph6": "L???WW?{EXUS[W",
+   "n": 13,
+   "m": 23,
+   "is": "T32"
+  },
+  {
+   "graph6": "L???WWo?MC}I~C",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L???WWoKECwM~?",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L???WWooF_XcKs",
+   "n": 13,
+   "m": 22,
+   "is": "T31"
+  },
+  {
+   "graph6": "L???X_?BN`W[~?",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L???X_KoGE}@~?",
+   "n": 13,
+   "m": 23,
+   "is": "T40"
+  },
+  {
+   "graph6": "L???]?o?MCfi~C",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L??@Go??~HZC~C",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L??@Gr??HwwY~C",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L??@_GCA^oW[~?",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L??@_Z??XwWR~C",
+   "n": 13,
+   "m": 24,
+   "is": "T39"
+  },
+  {
+   "graph6": "L??@_Z??]CFb~C",
+   "n": 13,
+   "m": 24,
+   "is": "T57"
+  },
+  {
+   "graph6": "L??@_Z?BECeM~?",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L??@_Z?BHaWR~?",
+   "n": 13,
+   "m": 23,
+   "is": "T59"
+  },
+  {
+   "graph6": "L??@e?KB_B}@~A",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L??CATIb@gE_{?",
+   "n": 13,
+   "m": 20
+  },
+  {
+   "graph6": "L??CCXKR@cEO{?",
+   "n": 13,
+   "m": 20
+  },
+  {
+   "graph6": "L??CSG[FBCKG{?",
+   "n": 13,
+   "m": 20
+  },
+  {
+   "graph6": "L??Cb?KB?F}A~?",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L??Cb?KBF_?^~?",
+   "n": 13,
+   "m": 23,
+   "is": "T44"
+  },
+  {
+   "graph6": "L??E?GCLFoF[q[",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L??E@_oBO\\X_{C",
+   "n": 13,
+   "m": 22,
+   "is": "T38"
+  },
+  {
+   "graph6": "L??GOM?_F_NM\\k",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L??GOkUaB?{?{?",
+   "n": 13,
+   "m": 20
+  },
+  {
+   "graph6": "L??GPb?@oL]@}E",
+   "n": 13,
+   "m": 24,
+   "is": "T48"
+  },
+  {
+   "graph6": "L??GPb?KMK?y}@",
+   "n": 13,
+   "m": 23,
+   "is": "T45"
+  },
+  {
+   "graph6": "L??GS`_@_N]A}C",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L??H?cdDeOX?{?",
+   "n": 13,
+   "m": 20
+  },
+  {
+   "graph6": "L??H?kUIE?x?{?",
+   "n": 13,
+   "m": 20
+  },
+  {
+   "graph6": "L??W?B_WouOw}?",
+   "n": 13,
+   "m": 22
+  },
+  {
+   "graph6": "L??oOOo?uGw[}C",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L??oOR??uGe[}C",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L??oOR??}GEX}C",
+   "n": 13,
+   "m": 23,
+   "is": "T58"
+  },
+  {
+   "graph6": "L??o]?GAF_EMok",
+   "n": 13,
+   "m": 22,
+   "is": "T41"
+  },
+  {
+   "graph6": "L??wOOBoF_EEop",
+   "n": 13,
+   "m": 22
+  },
+  {
+   "graph6": "L?@A@?_eF?B|fw",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L?@KC?GAF_E}[{",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L?A?GG?[NoR[Yw",
+   "n": 13,
+   "m": 24,
+   "is": "T33"
+  },
+  {
+   "graph6": "L?A?[?GAF_Mm[{",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L?AC???W^oJ{Nw",
+   "n": 13,
+   "m": 25
+  },
+  {
+   "graph6": "L?AC?OGAF_M}\\{",
+   "n": 13,
+   "m": 25
+  },
+  {
+   "graph6": "L?AGOOB_F_Me[s",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L?AR?OGAF_Q]X[",
+   "n": 13,
+   "m": 23,
+   "is": "T28"
+  },
+  {
+   "graph6": "L?B???Z@@E~Q}S",
+   "n": 13,
+   "m": 25,
+   "is": "T24"
+  },
+  {
+   "graph6": "L?OGOM?_F_MMLk",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L?_GQ@?_F_E}L{",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L?_K?OC@F_M][{",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L?a???rBAEng{c",
+   "n": 13,
+   "m": 24,
+   "is": "T37"
+  },
+  {
+   "graph6": "L?a?OOC@F_M][{",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L?aAA?_GF_B}F{",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L?aAA?bCpWB_{?",
+   "n": 13,
+   "m": 20
+  },
+  {
+   "graph6": "L?aAA?bGowB_{?",
+   "n": 13,
+   "m": 20
+  },
+  {
+   "graph6": "L?d_???{?^Q[Ww",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L@??@OFoF?Brv_",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L@??@OMoF?Azv_",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L@?@?[KoF?AVv?",
+   "n": 13,
+   "m": 22
+  },
+  {
+   "graph6": "L@G??B?@v?B|vo",
+   "n": 13,
+   "m": 24,
+   "is": "T36"
+  },
+  {
+   "graph6": "L@G??R?@v?A|v_",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L@G?E?E@f?BNv_",
+   "n": 13,
+   "m": 23,
+   "is": "T27"
+  },
+  {
+   "graph6": "L@G?GGJoF?AZv?",
+   "n": 13,
+   "m": 22
+  },
+  {
+   "graph6": "L@G[C@?OE?C~E}",
+   "n": 13,
+   "m": 24,
+   "is": "T46"
+  },
+  {
+   "graph6": "L@G\\A@?_E??~E]",
+   "n": 13,
+   "m": 23
+  },
+  {
+   "graph6": "L@GcC@?OE?B~F}",
+   "n": 13,
+   "m": 25,
+   "is": "T47"
+  },
+  {
+   "graph6": "L@ICA@?EF??~Fw",
+   "n": 13,
+   "m": 23,
+   "is": "T56"
+  },
+  {
+   "graph6": "L@c`A@?_E?@~D}",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "LC`A@?_?CNjMNc",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "LDC`A@?_E?@~B}",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "LF`@@@?_?X`Y@w",
+   "n": 13,
+   "m": 21,
+   "is": "T54"
+  },
+  {
+   "graph6": "LIG__a?_E?@~B}",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L]?GO???ERc}D{",
+   "n": 13,
+   "m": 24
+  },
+  {
+   "graph6": "L]o__O???L_m?{",
+   "n": 13,
+   "m": 21,
+   "is": "T43"
+  },
+  {
+   "graph6": "M??????gYk^?fwZw?",
+   "n": 14,
+   "m": 27,
+   "is": "T74"
+  },
+  {
+   "graph6": "M?????@Hgt[guO~_?",
+   "n": 14,
+   "m": 26
+  },
+  {
+   "graph6": "M?????B?ow[C~C~o?",
+   "n": 14,
+   "m": 26
+  },
+  {
+   "graph6": "M?????B?v@Ba~?~o?",
+   "n": 14,
+   "m": 26
+  },
+  {
+   "graph6": "M?????E@fARK]S~_?",
+   "n": 14,
+   "m": 26
+  },
+  {
+   "graph6": "M?????E@faXKMS~_?",
+   "n": 14,
+   "m": 26
+  },
+  {
+   "graph6": "M?????EEFARKXs~_?",
+   "n": 14,
+   "m": 26
+  },
+  {
+   "graph6": "M?????EMEQEKpo~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M?????EoHqXGLs~_?",
+   "n": 14,
+   "m": 26,
+   "is": "T52"
+  },
+  {
+   "graph6": "M?????MKUCWGNB~o?",
+   "n": 14,
+   "m": 26,
+   "is": "T51"
+  },
+  {
+   "graph6": "M????B?J?e]?Bx~o?",
+   "n": 14,
+   "m": 26,
+   "is": "T72"
+  },
+  {
+   "graph6": "M????CAdBOPk[W~_?",
+   "n": 14,
+   "m": 25,
+   "is": "T70"
+  },
+  {
+   "graph6": "M????CAkAWWKNW~_?",
+   "n": 14,
+   "m": 25,
+   "is": "T73"
+  },
+  {
+   "graph6": "M????CcEECFgo[~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????FAB@_EIrQ~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????KEA@_wI}G~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????KEE?@{@}O~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????KEE?@{G}A~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????KEE?@~?wQ~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????KEEE?{GMI~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????KEEF?BHwK~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????KEEF?bGwH~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????KEEF?wGMH~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????KEEF@BGwD~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????KEG?o{GuK~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????KXo@oCqp_}??",
+   "n": 14,
+   "m": 23
+  },
+  {
+   "graph6": "M????KpKEO@qp_}??",
+   "n": 14,
+   "m": 23
+  },
+  {
+   "graph6": "M????Kw@f?WGEF~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????MEEF?KIF_}??",
+   "n": 14,
+   "m": 23
+  },
+  {
+   "graph6": "M????OE@`oWK{S~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????Wq?e?f_oT~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????ZA?`_f_oT~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????[o?e?wCND~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????[oo?C`d{A~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????cKGE?bqwW~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????cKGE?foo[~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????oE@f?FAoX~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????oEW?@rowQ~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????oEW?@{Gfa~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????oEW?ooLx_~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????oEWCooKX`~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????oEo@@bowP~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????oW@_K[GwM~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????oW@_K[HwK~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????p_@_K[IeI~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M????r_??KwINc~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???@KWo@o?up_}??",
+   "n": 14,
+   "m": 23
+  },
+  {
+   "graph6": "M???@_Ko?DwWN_~A?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???@b??_WwINg~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???@b??_WwWNK~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???@cK??D}ArC~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???@cK?e?eCrD~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???B?W@c@bGx`~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???CHAOcG^?MqNK?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???E?w@_KWAMR~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???ECoB?C`d{A~_?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???GGGAF_W]mo\\K?",
+   "n": 14,
+   "m": 26
+  },
+  {
+   "graph6": "M???GGWEB?{W_y~??",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???GGWEF?kW_w~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M???GGWWCEn?_x~??",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???GGWWCokW_w~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M???GGoqE@@XKo~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M???GIWW?EoW]@~A?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???OOoLEG?{oo}??",
+   "n": 14,
+   "m": 23
+  },
+  {
+   "graph6": "M???W?KK?BwW{O~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M???WWoo?@wOKR~A?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???WZ?K??wPKY~A?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???WZCo@_EA?r}?_",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M???Xb?BGWEPoQ{C?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M???]?KK?@wOKR~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M???oGC?^?n?_x~??",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M???oGCE?B{OwW~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M???oGCW?Bo[}?~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M???oGCW?B{OeW~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M???ooC@@@{Oo[~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M???r?C@C@{OE[~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M???v?C@?@wPMK~??",
+   "n": 14,
+   "m": 24,
+   "is": "T67"
+  },
+  {
+   "graph6": "M??@GocEE??XoL~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??@GocEE?wC?r~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??@_Z?B?@_X{@~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??@_Z?B?@wOKR~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??@`_K??WwQo[~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??@`_KBE?WO?^~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??@e?K??WwQK[~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??@eOC@?PwOKL~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??AP_C@C@_]}?~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??CKGoOA?^?A}NE?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M??Cb?K??W_]{C~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??Cb?KBC_kC?r~?_",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M??E?GCAXo?[{@~@?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M??E?WKK?@w@Kp~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??E?Wo?EA`eKc~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??E?Wo?W[@a{@{E?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M??E?WoB@_wC?r~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??E?WoBE?EB?y~??",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??E@_KKM?@`Bo{@?",
+   "n": 14,
+   "m": 23
+  },
+  {
+   "graph6": "M??F?_OB?WOMWY~??",
+   "n": 14,
+   "m": 24,
+   "is": "T68"
+  },
+  {
+   "graph6": "M??GP_oo?KwC@p}A?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??GPb?K?KWB@w}A?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??GUB?K@_?x@k}??",
+   "n": 14,
+   "m": 23,
+   "is": "T69"
+  },
+  {
+   "graph6": "M??Z???_WFN?`X}A?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M??o??J@uO?X{@}C?",
+   "n": 14,
+   "m": 25,
+   "is": "T66"
+  },
+  {
+   "graph6": "M??paPGoC?O?BfKZ?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M??pcA?OA?^?B]A}?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M??u?OG?WC}?@Z}A?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M?@HcA??_G^?Q]K]?",
+   "n": 14,
+   "m": 25,
+   "is": "T49"
+  },
+  {
+   "graph6": "M?COBA?_?F`e{_Z_?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M?HQcR?G@?O?C^Bf?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M?K@e????B_urK|A?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M?KsAE?_A?G?B^Kn?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M?TU@?_GC?O?C~B^?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M?`Q`R?G@?O?C^Bf?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M?d``a?_A?G?BN?~?",
+   "n": 14,
+   "m": 24,
+   "is": "T53"
+  },
+  {
+   "graph6": "M@?WuA_gA?G?AN@r?",
+   "n": 14,
+   "m": 23
+  },
+  {
+   "graph6": "M@G[CA?OA?G?H~E~?",
+   "n": 14,
+   "m": 26,
+   "is": "T50"
+  },
+  {
+   "graph6": "M@II`A?_A?G?E^@~?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M@IQP@?OC?O?B^C~?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M@dSC@?O@?C?@~A~?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "M@s`?a?_A?G?@~@~?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "MAMCC@?O@?C?B~D~?",
+   "n": 14,
+   "m": 26
+  },
+  {
+   "graph6": "MBECC@?O@?C?B~B~?",
+   "n": 14,
+   "m": 26
+  },
+  {
+   "graph6": "MBEKC@?O@?C?@~A~?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "MB`GcA?G@?G?@~A~?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "MCaAA@?G@?C?F~F~?",
+   "n": 14,
+   "m": 27,
+   "is": "T42"
+  },
+  {
+   "graph6": "MDW_Oa?_A?G?@~@~?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "MEG_?CAo?B`oFWwB?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "MEg?AGaGaGO?ArDL?",
+   "n": 14,
+   "m": 23
+  },
+  {
+   "graph6": "MEg?AHCG`CO??^F`?",
+   "n": 14,
+   "m": 23
+  },
+  {
+   "graph6": "MF?CQHCa@?C?@fAZ?",
+   "n": 14,
+   "m": 23,
+   "is": "T63"
+  },
+  {
+   "graph6": "MG@PPPO_C?O?BNCv?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "MI??WWo_C?O?O~NF?",
+   "n": 14,
+   "m": 25,
+   "is": "T71"
+  },
+  {
+   "graph6": "MPG?A@?@_Bbo`wuA?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "MQ?CSPCP@_E??{BB_",
+   "n": 14,
+   "m": 23
+  },
+  {
+   "graph6": "MW??@_???F`evgvc?",
+   "n": 14,
+   "m": 26
+  },
+  {
+   "graph6": "MWCOXA?_A?G?C~B^?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "MWKO_M?_A?G?A^@n?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "MX???_???F`evcrw?",
+   "n": 14,
+   "m": 26
+  },
+  {
+   "graph6": "M]???????R_urwNs?",
+   "n": 14,
+   "m": 26,
+   "is": "T64"
+  },
+  {
+   "graph6": "M_Ko?AAOQAOOBXKe?",
+   "n": 14,
+   "m": 23
+  },
+  {
+   "graph6": "M_hQd?????@N@mKM?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "M`P@OgSIC?O??f?Z?",
+   "n": 14,
+   "m": 22
+  },
+  {
+   "graph6": "MaWO_M?_@?C?A^@n?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "Mo???oW@_KK?_^^_?",
+   "n": 14,
+   "m": 24,
+   "is": "T65"
+  },
+  {
+   "graph6": "MoKO_K_OA?O?A^@n?",
+   "n": 14,
+   "m": 24
+  },
+  {
+   "graph6": "Mr???_???F`eZcbw?",
+   "n": 14,
+   "m": 25
+  },
+  {
+   "graph6": "Ms???????R_u^w^s?",
+   "n": 14,
+   "m": 27,
+   "is": "T62"
+  },
+  {
+   "graph6": "Ms???@KR@SCgCoCo?",
+   "n": 14,
+   "m": 21
+  },
+  {
+   "graph6": "Ms???@KR@WAWCoGo?",
+   "n": 14,
+   "m": 21
+  },
+  {
+   "graph6": "Ms???KEA_RH_KC[??",
+   "n": 14,
+   "m": 21
+  },
+  {
+   "graph6": "Ms???[_CHCaSR?R??",
+   "n": 14,
+   "m": 21
+  },
+  {
+   "graph6": "Ms??OKEB?_aKY?WA?",
+   "n": 14,
+   "m": 21
+  },
+  {
+   "graph6": "N?????BKeA@oBO{G^_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N?????EM?K[GEQoW^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N?????MKO?WPoQNA^w?",
+   "n": 15,
+   "m": 27
+  },
+  {
+   "graph6": "N????AoR???XNAoq^w?",
+   "n": 15,
+   "m": 27
+  },
+  {
+   "graph6": "N????B?KOYEOo_Bw^_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N????CAAWJF?p?{_^_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N????CcE@IBGo_ok^_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N????CoB?YEOo_o[^_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N????KEEB@BGw?`c^??",
+   "n": 15,
+   "m": 24
+  },
+  {
+   "graph6": "N????KEGWoBOw?pA^??",
+   "n": 15,
+   "m": 24
+  },
+  {
+   "graph6": "N????KEW?o?BwOeH^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N????KEW?oOBWOeG~o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N????KWE?K?BwOwH^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N????MEW?oBGw?@e^??",
+   "n": 15,
+   "m": 24
+  },
+  {
+   "graph6": "N????SIKECW_L?@[^??",
+   "n": 15,
+   "m": 24
+  },
+  {
+   "graph6": "N????Wq?E??RoSNC^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N????ZA?@_?RoSNC^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N????cKC_W?Bw@wW^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N????cKw?c@_?BwW~o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N????r_@_KOGWBED^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???@KYH?oW?o??f~_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N???B?W@_KB@wC_X^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???Cpc?_C?b_E]?~o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???D`K?_C?BoEN@^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???E?E@_OE@oIMS^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???E?E@`?B@wGEU^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???E?GM?K?ooIKX^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???EOE@`_@@KGoD~o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???EOE@`_@@oGKD~o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???F?E@_?B@oIME^o?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???GSIcB?Q_X??]^??",
+   "n": 15,
+   "m": 24
+  },
+  {
+   "graph6": "N???]?oK?W?BoG?p~_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N???oGCWC?_L]?_w~_?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???ooC@?@{@o_G[~_?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???ooC@B??FwO_k^_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N???or_@?G?BWP_e^_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N???r?W@?G?BwH_u^_?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???rG??C@_e]?_k~_?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N???v?C@?o?FW__K~_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N??@GocE???FoQoa^_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N??@Gr?H?o?Bo@?w~_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N??@_WoBE??BoG?p~_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N??@_Z?B??E@oE?y^_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N??@`bG@?G@BoO?e~_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N??@eOC@?O?F{??m~_?",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N??B?oC@?o?FwO_k^_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N??B?oW@?GOBwG?u^_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N??Cb??B?W?[cIWK^__",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N??E?WoB???FKaoQ^_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N??E@GWo@GB??b?[~_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N??G??JLE??X@o{?~?_",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N??G??w@u??X@o{?~?_",
+   "n": 15,
+   "m": 26
+  },
+  {
+   "graph6": "N??GGGoo@o?YAooG}?_",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N??GOKEAC_kAcGWO]??",
+   "n": 15,
+   "m": 23
+  },
+  {
+   "graph6": "N?AAAA?E?o?{HIGs^??",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N?WJ??D@S?O?{?CrAF_",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N@G?GCAEE??Mw?@Yz_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "N@G?GG?EM??[w??yz_?",
+   "n": 15,
+   "m": 25
+  },
+  {
+   "graph6": "O?????Bo@a@gB_o_EEFw?",
+   "n": 16,
+   "m": 26
+  },
+  {
+   "graph6": "O?????cE@IBOoOo_?]Fw?",
+   "n": 16,
+   "m": 26
+  },
+  {
+   "graph6": "O????CcEE?CgEOo_?VFw?",
+   "n": 16,
+   "m": 26
+  },
+  {
+   "graph6": "O???EOE@`_??ABoDECf{?",
+   "n": 16,
+   "m": 27
+  },
+  {
+   "graph6": "O???KHAOcGB?E?GQcEfo?",
+   "n": 16,
+   "m": 26
+  },
+  {
+   "graph6": "Oo@_??QAOQAO??f?cKqCs",
+   "n": 16,
+   "m": 27
+  },
+  {
+   "graph6": "Os?G??I@OI@OCHCEKGBC?",
+   "n": 16,
+   "m": 24
+  },
+  {
+   "graph6": "P???????}CEOKGBG@gEA?~??",
+   "n": 17,
+   "m": 27
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "item": "E16",
+ "where": "Proposition 5.14",
+ "candidates": 156,
+ "verdicts": {
+  "K5 minor": 6,
+  "cut of at most two vertices": 28,
+  "proper nontoroidal minor": 122
+ },
+ "isomorphic to T_i (copies)": {},
+ "graphs T_i not excluded by a hypothesis of the case": [],
+ "also excluded by a hypothesis of the case": {
+  "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)": 80
+ },
+ "by case": {
+  "altB": {
+   "candidates": 78,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  },
+  "altD": {
+   "candidates": 78,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  }
+ }
+}

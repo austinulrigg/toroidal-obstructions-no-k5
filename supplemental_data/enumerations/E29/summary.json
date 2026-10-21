@@ -1,0 +1,20 @@
+{
+ "item": "E29",
+ "where": "Lemma 6.13",
+ "candidates": 18094,
+ "verdicts": {
+  "proper nontoroidal minor": 18094
+ },
+ "isomorphic to T_i (copies)": {},
+ "graphs T_i not excluded by a hypothesis of the case": [],
+ "by case": {
+  "no_cd": {
+   "candidates": 9127,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  },
+  "with_cd": {
+   "candidates": 8967,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  }
+ }
+}

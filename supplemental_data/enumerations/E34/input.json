@@ -1,0 +1,12 @@
+{
+ "item": "E34",
+ "where": "Proposition 6.21",
+ "paper text": [
+  {
+   "line": 10725,
+   "text": "or if some choice of twin pairs leaves a component with four or\nfive neighbors. The recorded witnesses use degree-three vertices\noutside $\\{a,b,c,d,e\\}$, so their neighborhoods do not change\nwhen further vertices with neighborhood $\\{a,b,c\\}$ or $\\{a,d,e\\}$ are added.\nThus a forbidden adjacency remains. For the second exclusion,\nthe chosen $\\Psi_3$ remains unchanged, and the old component lies\nin a component still meeting at least four of its attachments.\nBoth exclusions therefore remain valid for all five choices\nof $(n_c,n_e)$.\n\nThese exclusions leave $193$ graphs, giving $965$ graphs after\nthe five choices of $(n_c,n_e)$ are made.\nOf these, $172$ are toroidal, $782$ have a proper nontoroidal\nminor, and the remaining $11$ are copies of the five graphs\nin the statement~\\supp{E34}."
+  }
+ ],
+ "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ... Vertices of the forms are B<k>_<x>; added single vertices are v_<neighbourhood>.",
+ "cases of the construction": {}
+}

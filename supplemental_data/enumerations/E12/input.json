@@ -1,0 +1,13 @@
+{
+ "item": "E12",
+ "where": "Proposition 5.13",
+ "paper text": [
+  {
+   "line": 7475,
+   "text": "\\mathfrak T_{56},\\mathfrak T_{72},\\mathfrak T_{73}$.\n\\end{proposition}\n\\begin{proof}\nLet $N(p')=N(q')=X$, which is independent by\nLemma~\\ref{lem:independent-neighborhood}(a).\nEvery other component of $B-X$ contains a vertex of $\\{b,c,d\\}$\nand has a neighbor in $\\{u,v\\}$. None has neighborhood $X$,\nby planarity of $B$.\nThere are therefore one, two or three such components.\nWe use the replacement argument and certificate checks preceding\nProposition~\\ref{r2:ab-cut-outcome}.\n\nSuppose first that one component contains $b,c,d$.\nThis component $D$ meets both $u,v$, since otherwise one has degree\ntwo, and hence $N_B(D)=\\{u,v\\}$. Each test adds an edge from $a$ to $D$,\ngiving three bridges adjacent to all of $X$.\nContract the components of $D-\\{b,c,d\\}$ to a set $M$, retain a\nspanning tree of $D$, and keep a minimal set of edges joining every\n$m\\in M$ to $\\{u,v\\}$ and $D$ to both $u,v$.\nThese operations preserve the connected interior and all four failures,\nso minimality makes the reduction trivial.\nA vertex of $M$ with only one tree neighbor would need both $u,v$.\nAnother vertex of $M$ supplies one of these adjacencies, making an\nedge redundant. Thus the bipartite tree satisfies\n$2|M|\\le |M|+2$.\nIt is a star whose center is joined to $b,c,d$, or a path\n$g_1m_1g_2m_2g_3$ with $\\{g_1,g_2,g_3\\}=\\{b,c,d\\}$.\nFor the star, its center meets both $u,v$, or one and a vertex of $\\{b,c,d\\}$ meets\nthe other. For the path, $m_1,m_2$ meet different vertices of\n$\\{u,v\\}$, or both meet one and a vertex of $\\{b,c,d\\}$ meets the other.\nThe $31$ forms in~\\supp{E12} leave exactly\n$\\mathfrak T_{40},\\mathfrak T_{53},\\mathfrak T_{56},\\mathfrak T_{73}$."
+  }
+ ],
+ "vertex names": "Psi_2 with twins p, q on {a, b, c} and r, z on {a, b, d}, as in Section 5. The bridge B has attachments a, b, c, d and contains u, v and the twins p', q' with neighbourhood X = {a, u, v}. The vertices of M are m (star) or m1, m2 (path g1 m1 g2 m2 g3).",
+ "the forms": "One component D of B - X contains b, c, d, with N_B(D) = {u, v}. Its bipartite tree is a star whose centre m is joined to b, c, d, or a path g1 m1 g2 m2 g3 with {g1, g2, g3} = {b, c, d}. For the star, m meets both u, v, or one of them and a vertex of {b, c, d} meets the other. For the path, m1, m2 meet different vertices of {u, v}, or both meet one and a vertex of {b, c, d} meets the other. Up to symmetry this gives 31 forms.",
+ "the four tests": "Lemma 5.3 with (n_c, n_d) = (2, 2): G is toroidal if and only if one of B + ac + bd, B + ad + bc, B + ab + ac + ad, B + ab + bc + bd is planar."
+}

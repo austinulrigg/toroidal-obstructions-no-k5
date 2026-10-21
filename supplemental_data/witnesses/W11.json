@@ -1,0 +1,128 @@
+{
+ "item": "W11",
+ "where": "Lemma 5.2",
+ "claim": "Four vertices with neighbourhood {a,b,c} (p, q and the two from contracting ut), r, z with neighbourhood {a,b,d}, and Int(B) contracted to w on {a,b,c,d}: this is T2.",
+ "graph": {
+  "vertices": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "p",
+   "q",
+   "p3",
+   "p4",
+   "r",
+   "z",
+   "w"
+  ],
+  "edges": [
+   [
+    "p",
+    "a"
+   ],
+   [
+    "p",
+    "b"
+   ],
+   [
+    "p",
+    "c"
+   ],
+   [
+    "q",
+    "a"
+   ],
+   [
+    "q",
+    "b"
+   ],
+   [
+    "q",
+    "c"
+   ],
+   [
+    "p3",
+    "a"
+   ],
+   [
+    "p3",
+    "b"
+   ],
+   [
+    "p3",
+    "c"
+   ],
+   [
+    "p4",
+    "a"
+   ],
+   [
+    "p4",
+    "b"
+   ],
+   [
+    "p4",
+    "c"
+   ],
+   [
+    "r",
+    "a"
+   ],
+   [
+    "r",
+    "b"
+   ],
+   [
+    "r",
+    "d"
+   ],
+   [
+    "z",
+    "a"
+   ],
+   [
+    "z",
+    "b"
+   ],
+   [
+    "z",
+    "d"
+   ],
+   [
+    "w",
+    "a"
+   ],
+   [
+    "w",
+    "b"
+   ],
+   [
+    "w",
+    "c"
+   ],
+   [
+    "w",
+    "d"
+   ]
+  ]
+ },
+ "witness": {
+  "type": "isomorphism",
+  "onto": "T2",
+  "map": {
+   "d": 0,
+   "z": 5,
+   "r": 6,
+   "w": 7,
+   "c": 8,
+   "p3": 1,
+   "p4": 2,
+   "p": 3,
+   "q": 4,
+   "a": 9,
+   "b": 10
+  }
+ },
+ "note on T_i": "T_i vertex numbers are those of O1."
+}

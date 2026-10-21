@@ -1,0 +1,20 @@
+{
+ "item": "E12",
+ "where": "Proposition 5.13",
+ "forms": 31,
+ "verdicts": {
+  "K5 minor": 12,
+  "cut of at most two vertices": 1,
+  "isomorphic to T40": 4,
+  "isomorphic to T53": 2,
+  "isomorphic to T56": 2,
+  "isomorphic to T73": 2,
+  "proper nontoroidal minor": 8
+ },
+ "isomorphic to T_i (copies)": {
+  "T40": 4,
+  "T53": 2,
+  "T56": 2,
+  "T73": 2
+ }
+}

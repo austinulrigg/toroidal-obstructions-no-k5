@@ -1,0 +1,50 @@
+{
+ "item": "E15",
+ "where": "Proposition 5.14",
+ "paper text": [
+  {
+   "line": 7783,
+   "text": "By Lemma~\\ref{core:assembly-general}(ii), the other two tests are planar precisely when $H_b+cw+bw$ and $H_b+cw+bc$, respectively, are planar. Hence both are nonplanar, while $H_b+cw$ is planar, using the path $cp'w$ in $B$.\nEvery component of $H_b-\\{b,c,w\\}$ has neighborhood $\\{b,c,w\\}$ by three-connectivity of $G$.\nIf there were two, planarity and Lemmas~\\ref{core:assembly-general}(ii) and~\\ref{lem:flat-replacement} would make both single vertices, making both tests planar. Thus this interior is connected.\n\nThe triangle completion of $H_b$ is a minor of $G$, using the internally disjoint paths $bpc$, $bqap'w$, and $cq'w$ for $bc,bw,cw$.\nLemma~\\ref{r2:planar-splitting} therefore gives a nonplanar, $K_5$-minor-free graph\n\\[\n(H_b+cw+bc+bw)/cw=(H_b+cw+bc)/cw=(H_b+cw+bw)/cw.\n\\]\nWrite $x$ for the contracted vertex. Retain a $K_{3,3}$ subdivision using Construction~\\ref{common:marked-construction}, with attachments $b,x$ and added edge $bx$.\nThe subdivision uses $bx$, since $(H_b+cw)/cw$ is planar.\nSeparate $x$ back into $c,w$, keeping each retained incident edge at its original end and one interior neighbor at each attachment.\nBoth tests still have the retained subdivision as a minor after contracting $cw$, and the other two tests still have three bridges adjacent to $X$.\nThus a proper reduction would give a proper nontoroidal minor of $G$.\nThe enumeration~\\supp{E15} lists all reduced subdivisions and all assignments of the edges at $x$ back to $c,w$."
+  }
+ ],
+ "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ... Twins p', q' have neighbourhood {a,c,w}, as in Proposition 5.14.",
+ "cases of the construction": {
+  "lifts": {
+   "specification": {
+    "quotient roots": [
+     "b",
+     "r"
+    ],
+    "added edges": [
+     [
+      "b",
+      "r"
+     ]
+    ],
+    "required edges": [
+     [
+      "b",
+      "r"
+     ]
+    ],
+    "lifted roots": [
+     "b",
+     "c",
+     "w"
+    ]
+   },
+   "root placements": 259,
+   "root placement classes": 14,
+   "full placements": 14,
+   "valid retained subdivisions": 4,
+   "recipes": 4,
+   "parts up to rooted isomorphism": 24,
+   "quotient parts": 4,
+   "lifts": 44,
+   "outcomes": {
+    "proper nontoroidal minor": 18,
+    "cut of order at most two": 6
+   }
+  }
+ }
+}

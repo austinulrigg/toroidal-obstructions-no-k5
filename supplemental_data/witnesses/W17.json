@@ -1,0 +1,112 @@
+{
+ "item": "W17",
+ "where": "Lemma 6.9",
+ "claim": "B has attachments {b,c,d,e}. Psi_3, another component on {a,b,c} contracted to u, and Int(B) contracted to w, then bw deleted (so N(w) = {c,d,e}): this is T3.",
+ "graph": {
+  "vertices": [
+   "p",
+   "a",
+   "b",
+   "c",
+   "q",
+   "r",
+   "d",
+   "e",
+   "z",
+   "u",
+   "w"
+  ],
+  "edges": [
+   [
+    "a",
+    "p"
+   ],
+   [
+    "a",
+    "q"
+   ],
+   [
+    "a",
+    "r"
+   ],
+   [
+    "a",
+    "u"
+   ],
+   [
+    "a",
+    "z"
+   ],
+   [
+    "b",
+    "p"
+   ],
+   [
+    "b",
+    "q"
+   ],
+   [
+    "b",
+    "u"
+   ],
+   [
+    "c",
+    "p"
+   ],
+   [
+    "c",
+    "q"
+   ],
+   [
+    "c",
+    "u"
+   ],
+   [
+    "c",
+    "w"
+   ],
+   [
+    "d",
+    "r"
+   ],
+   [
+    "d",
+    "w"
+   ],
+   [
+    "d",
+    "z"
+   ],
+   [
+    "e",
+    "r"
+   ],
+   [
+    "e",
+    "w"
+   ],
+   [
+    "e",
+    "z"
+   ]
+  ]
+ },
+ "witness": {
+  "type": "isomorphism",
+  "onto": "T3",
+  "map": {
+   "p": 0,
+   "a": 10,
+   "b": 8,
+   "c": 9,
+   "q": 2,
+   "r": 5,
+   "d": 7,
+   "e": 6,
+   "z": 4,
+   "u": 1,
+   "w": 3
+  }
+ },
+ "note on T_i": "T_i vertex numbers are those of O1."
+}

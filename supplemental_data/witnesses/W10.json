@@ -1,0 +1,112 @@
+{
+ "item": "W10",
+ "where": "Lemma 5.2",
+ "claim": "A c-d path outside Int(B), internally avoiding a, b, p, q, r, z, gives a K5 minor. Contracting Int(B) to w and the path to the edge cd gives this graph.",
+ "graph": {
+  "vertices": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "p",
+   "q",
+   "r",
+   "z",
+   "w"
+  ],
+  "edges": [
+   [
+    "p",
+    "a"
+   ],
+   [
+    "p",
+    "b"
+   ],
+   [
+    "p",
+    "c"
+   ],
+   [
+    "q",
+    "a"
+   ],
+   [
+    "q",
+    "b"
+   ],
+   [
+    "q",
+    "c"
+   ],
+   [
+    "r",
+    "a"
+   ],
+   [
+    "r",
+    "b"
+   ],
+   [
+    "r",
+    "d"
+   ],
+   [
+    "z",
+    "a"
+   ],
+   [
+    "z",
+    "b"
+   ],
+   [
+    "z",
+    "d"
+   ],
+   [
+    "w",
+    "a"
+   ],
+   [
+    "w",
+    "b"
+   ],
+   [
+    "w",
+    "c"
+   ],
+   [
+    "w",
+    "d"
+   ],
+   [
+    "c",
+    "d"
+   ]
+  ]
+ },
+ "witness": {
+  "type": "K5 branch sets",
+  "branch sets": [
+   [
+    "a"
+   ],
+   [
+    "b",
+    "p",
+    "r"
+   ],
+   [
+    "c",
+    "q"
+   ],
+   [
+    "d",
+    "z"
+   ],
+   [
+    "w"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "item": "E4",
+ "where": "Theorem 4.23",
+ "recorded graphs": 2310,
+ "toroidal, maximal": 233,
+ "nontoroidal, minimal": 2077,
+ "verdicts": {
+  "isomorphic to T48": 12,
+  "isomorphic to T58": 12,
+  "proper nontoroidal minor": 2053,
+  "toroidal": 233
+ },
+ "isomorphic to T_i (copies)": {
+  "T48": 12,
+  "T58": 12
+ },
+ "four-attachment bridges in the copies of T48 and T58": 0,
+ "one-edge minors failing all twelve choices": {
+  "delete": 1723,
+  "contract": 114
+ },
+ "formula": {
+  "variables": 1295,
+  "clauses": 6822,
+  "DRAT": "verified by drat-trim"
+ },
+ "one-edge minors with a minor model of some T_i": {
+  "contract": 42,
+  "delete": 174
+ }
+}

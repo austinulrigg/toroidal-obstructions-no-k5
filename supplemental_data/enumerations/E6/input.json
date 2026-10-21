@@ -1,0 +1,321 @@
+{
+ "item": "E6",
+ "where": "Proposition 4.26",
+ "paper text": [
+  {
+   "line": 4569,
+   "text": "its drawing lies in this region, and $h_a,ad$ fit no other face.\nIn the annular case, the drawing of $P_1$ lies inside the annulus except at its ends,\nand the two boundary walks offer only the appearances $a,c$ and $b,d$.\nSo Lemmas~\\ref{lem:annulus-embedding} and~\\ref{lem:embedding-extension},\napplied to the annulus or the first disk, would make $H_1$ planar.\nThe last disk makes $(B\\cup H_{\\mathrm{ext}})+ca+cb+cd$ planar, hence also $H_1-bd$.\nSo every $K_{3,3}$ subdivision of $H_1$ uses $bd$.\nContracting $ed$ gives the symmetric assertion.\n\nDeleting $h_ac$ must make $H_1-h_a+ad$ planar, as the remaining path\n$ah_ad$ fits only $H_{\\mathrm{rep}}$, and deleting $h_bd$ must make\n$H_1-h_b+bc$ planar.\n\nConstruction~\\ref{common:marked-construction}\nwith these conditions leaves only $\\mathfrak{T}_{21},\\mathfrak{T}_{63}$~\\supp{E6}."
+  }
+ ],
+ "vertex names": "Section 4.6, type (c): a = s1, b = t1, c = s2, d = t3, e = s3, f = t2; twins p, q with neighbourhood {a,c,e} and r, z with {b,d,f}.",
+ "cases of the construction": {
+  "Z0": {
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "b",
+      "d"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "b",
+      "d"
+     ]
+    ]
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 96,
+   "recipes": 298,
+   "parts up to rooted isomorphism": 230,
+   "outcomes": {
+    "proper nontoroidal minor": 108,
+    "cut of order at most two": 16,
+    "K5 minor": 105,
+    "catalogue graph": 1
+   }
+  },
+  "Z_ad": {
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "d"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "d"
+     ]
+    ]
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 68,
+   "recipes": 586,
+   "parts up to rooted isomorphism": 331,
+   "outcomes": {
+    "K5 minor": 153,
+    "proper nontoroidal minor": 159,
+    "cut of order at most two": 19
+   }
+  },
+  "Z_hA": {
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "outside": {
+     "hA": [
+      "a",
+      "c",
+      "d"
+     ]
+    },
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "b",
+      "d"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "b",
+      "d"
+     ],
+     [
+      "c",
+      "hA"
+     ],
+     [
+      "d",
+      "hA"
+     ]
+    ]
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 22572,
+   "valid retained subdivisions": 86,
+   "recipes": 630,
+   "parts up to rooted isomorphism": 344,
+   "outcomes": {
+    "proper nontoroidal minor": 137,
+    "K5 minor": 190,
+    "cut of order at most two": 17
+   }
+  },
+  "Z_ad_bc": {
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "c"
+     ],
+     [
+      "b",
+      "d"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "c"
+     ]
+    ]
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 96,
+   "recipes": 441,
+   "parts up to rooted isomorphism": 266,
+   "outcomes": {
+    "proper nontoroidal minor": 132,
+    "K5 minor": 115,
+    "cut of order at most two": 18,
+    "catalogue graph": 1
+   }
+  },
+  "Z_ad_hB": {
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "outside": {
+     "hB": [
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "d"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "c",
+      "hB"
+     ],
+     [
+      "d",
+      "hB"
+     ]
+    ]
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 22572,
+   "valid retained subdivisions": 86,
+   "recipes": 723,
+   "parts up to rooted isomorphism": 412,
+   "outcomes": {
+    "proper nontoroidal minor": 180,
+    "K5 minor": 211,
+    "cut of order at most two": 21
+   }
+  },
+  "Z_hA_hB": {
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ],
+    "outside": {
+     "hA": [
+      "a",
+      "c",
+      "d"
+     ],
+     "hB": [
+      "b",
+      "c",
+      "d"
+     ]
+    },
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "b",
+      "d"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "c",
+      "hA"
+     ],
+     [
+      "c",
+      "hB"
+     ],
+     [
+      "d",
+      "hA"
+     ],
+     [
+      "d",
+      "hB"
+     ]
+    ]
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 379744,
+   "valid retained subdivisions": 5,
+   "recipes": 5,
+   "parts up to rooted isomorphism": 3,
+   "outcomes": {
+    "proper nontoroidal minor": 1,
+    "K5 minor": 2
+   }
+  }
+ }
+}

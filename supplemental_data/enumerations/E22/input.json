@@ -1,0 +1,131 @@
+{
+ "item": "E22",
+ "where": "Proposition 6.6",
+ "paper text": [
+  {
+   "line": 9101,
+   "text": "The nonplanar, $K_5$-minor-free graph $H$ contains a $K_{3,3}$\nsubdivision. If $bd$ is present, $G-bd$ is toroidal, so\n$H-bd$ is planar by Corollary~\\ref{r1:five-criterion} and the\nsubdivision must use $bd$.\nApply Lemma~\\ref{core:retained-subdivision} with the five\nattachments and added edges $ab,ac,ad,ae$, also including $bd$\nwhen present. Its reduction keeps the interior connected,\nall five attachments, and the completion nonplanar.\nBy Corollary~\\ref{r1:five-criterion}, minimality therefore leaves\n$B$ unchanged, so Construction~\\ref{common:marked-construction}\nlists every possibility.\nOf its $217{,}376$ candidates, all except\n$\\mathfrak T_{20},\\mathfrak T_{23}$ have a $K_5$ minor, a proper\nnontoroidal minor, or two twin triples meeting in zero or two\nvertices~\\supp{E22}. Both remaining graphs"
+  }
+ ],
+ "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
+ "cases of the construction": {
+  "with_bd": {
+   "valid retained subdivisions": 2285,
+   "recipes": 55881,
+   "parts up to label-preserving isomorphism": 34303,
+   "root placements": 1253116,
+   "root placement classes (K3,3)": 20631,
+   "classes up to K3,3 and the symmetries of Psi3 and D": 10459,
+   "symmetry group order": 2,
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "c",
+     "d",
+     "e"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "c"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "e"
+     ],
+     [
+      "b",
+      "d"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "b",
+      "d"
+     ]
+    ]
+   },
+   "folders": [
+    "with_bd_01",
+    "with_bd_02"
+   ],
+   "excluded by an allowed operation on P": 34231,
+   "classified as whole graphs": 72,
+   "seconds": 87.7
+  },
+  "without_bd": {
+   "valid retained subdivisions": 2837,
+   "recipes": 277277,
+   "parts up to label-preserving isomorphism": 183073,
+   "root placements": 1253116,
+   "root placement classes (K3,3)": 20631,
+   "classes up to K3,3 and the symmetries of Psi3 and D": 2837,
+   "symmetry group order": 8,
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "c",
+     "d",
+     "e"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "c"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "e"
+     ]
+    ],
+    "required edges of K'": []
+   },
+   "folders": [
+    "without_bd_01",
+    "without_bd_02",
+    "without_bd_03",
+    "without_bd_04",
+    "without_bd_05",
+    "without_bd_06",
+    "without_bd_07",
+    "without_bd_08",
+    "without_bd_09",
+    "without_bd_10"
+   ],
+   "excluded by an allowed operation on P": 182977,
+   "classified as whole graphs": 96,
+   "seconds": 383.3
+  }
+ },
+ "hypotheses of the case used for exclusions": {
+  "disjoint twin triples": {
+   "meaning": "Section 6 assumes any two twin triples share exactly one vertex"
+  },
+  "two twin triples share two vertices": {
+   "meaning": "such graphs belong to Section 5"
+  },
+  "component adjacent to all five attachments": {
+   "meaning": "such graphs belong to Section 6.2"
+  }
+ }
+}

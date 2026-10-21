@@ -1,0 +1,13473 @@
+{
+ "item": "E21",
+ "verdicts": [
+  {
+   "id": "26-C_on_abd-0000-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0000-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0001-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0001-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0002-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0002-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0003-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0003-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0004-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u1"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0004-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u1"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0005-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0005-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0006-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0006-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0007-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0007-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0008-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0008-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0009-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u3"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0009-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u3"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0010-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0010-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0011-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0011-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0012-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0012-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0013-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0013-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0014-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "d",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0014-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0015-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0015-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0016-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0016-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0017-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0017-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0018-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0018-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0019-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0019-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0020-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0020-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0021-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0021-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0022-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0022-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0023-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0023-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0024-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0024-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0025-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0025-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0026-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0026-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0027-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0027-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0028-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0028-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0029-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0029-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0030-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0030-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0031-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0031-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0032-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0032-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0033-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0033-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0034-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0034-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0035-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0035-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0036-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0036-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0037-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0037-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0038-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0038-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0039-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0039-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0040-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0040-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0041-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0041-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0042-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0042-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0043-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0043-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0044-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0044-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0045-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0045-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0046-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0046-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0047-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "u4"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "z",
+      "u0"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0047-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0048-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0048-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0049-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0049-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0050-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0050-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0051-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0051-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0052-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0052-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0053-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "b",
+      "u0",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u5"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0053-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0054-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0054-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0055-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0055-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0056-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0056-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0057-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0057-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0058-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0058-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0059-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0059-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0060-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0060-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0061-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u4"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0061-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0062-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0062-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0063-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0063-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0064-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0064-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0065-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0065-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0066-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0066-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0067-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0067-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0068-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0068-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z",
+      "u3"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u1",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0069-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "u0",
+      "u4"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0069-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u5"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0070-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0070-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "w"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "z"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4",
+      "u5"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0071-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "p",
+      "r"
+     ],
+     [
+      "b"
+     ],
+     [
+      "c",
+      "d",
+      "q",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4",
+      "u5"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0071-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "p"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4",
+      "u5"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0072-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0072-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0073-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0073-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0074-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0074-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0075-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0075-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0076-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "u0",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0076-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0077-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0077-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0078-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0078-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0079-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0079-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "p",
+      "u2"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0080-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0080-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "q",
+      "z",
+      "u1"
+     ],
+     [
+      "b",
+      "p",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0081-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "q"
+     ],
+     [
+      "d",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0081-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0082-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0082-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q",
+      "r",
+      "u1"
+     ],
+     [
+      "b",
+      "u5"
+     ],
+     [
+      "d",
+      "e",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0083-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0083-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0084-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0084-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "z",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "u4"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0085-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0085-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "u1"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "u5",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0086-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0086-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0087-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u4",
+      "u5"
+     ],
+     [
+      "u1",
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0087-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0088-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p",
+      "u3"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "q",
+      "r",
+      "u1",
+      "w"
+     ],
+     [
+      "d",
+      "z"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0088-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u4"
+     ],
+     [
+      "u0",
+      "u2",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0089-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0089-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "p",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "q"
+     ],
+     [
+      "d",
+      "r",
+      "w"
+     ],
+     [
+      "u0",
+      "u2",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0090-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "u2",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0090-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p",
+      "r"
+     ],
+     [
+      "b",
+      "c",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "z"
+     ],
+     [
+      "u0",
+      "u2",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0091-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0091-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0092-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0092-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0093-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0093-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0094-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0094-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0095-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0095-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0096-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0096-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0097-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0097-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0098-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0098-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0099-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0099-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0100-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0100-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0101-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0101-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0102-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "d",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0102-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0103-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0103-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0104-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0104-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0105-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0105-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0106-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0106-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0107-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0107-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0108-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0108-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0109-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0109-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0110-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0110-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0111-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0111-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0112-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0112-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0113-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0113-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0114-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "p",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "q",
+      "u3",
+      "w"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0114-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "w"
+     ],
+     [
+      "b",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u4"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0115-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0115-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "z",
+      "u1"
+     ],
+     [
+      "b"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "p",
+      "r",
+      "w"
+     ],
+     [
+      "u0",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0116-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0116-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "q",
+      "r",
+      "u1"
+     ],
+     [
+      "b",
+      "p",
+      "u0",
+      "u3"
+     ],
+     [
+      "d",
+      "e",
+      "z",
+      "w"
+     ],
+     [
+      "u2"
+     ],
+     [
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0117-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0117-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0118-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0118-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "p",
+      "q",
+      "u1"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0119-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0119-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0120-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0120-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0121-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0121-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0122-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0122-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0123-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0123-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0124-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0124-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0125-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0125-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0126-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u3"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0126-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u3"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0127-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0127-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0128-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0128-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0129-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0129-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0130-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0130-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0131-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0131-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0132-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0132-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0133-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0133-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "r"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "z",
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0134-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0134-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0135-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0135-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0136-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0136-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0137-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0137-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0138-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0138-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0139-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0139-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "u0",
+      "w"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0140-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0140-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0141-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0141-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0142-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0142-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0143-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0143-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0144-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0144-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0145-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "u1",
+      "u3"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0145-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q",
+      "z"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0146-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "u0",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0146-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0147-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "z",
+      "u3"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "p",
+      "r",
+      "w"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0147-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0148-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0148-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "u1"
+     ],
+     [
+      "b",
+      "c",
+      "p"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0149-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0149-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0150-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0150-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p"
+     ],
+     [
+      "b",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0151-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0151-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0152-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0152-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0153-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0153-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0154-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0154-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0155-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0155-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0156-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u3"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0156-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u3"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0157-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0157-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0158-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0158-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0159-nobd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0159-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0160-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0160-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0161-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0161-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0162-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0162-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0163-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "z"
+     ],
+     [
+      "b",
+      "q",
+      "u0"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "w"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0163-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0164-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0164-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0165-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0165-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0166-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0166-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0167-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0167-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0168-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0168-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0169-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "e",
+      "p",
+      "q",
+      "z"
+     ],
+     [
+      "c",
+      "d",
+      "r",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0169-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0170-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0170-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0171-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0171-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0172-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0172-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0173-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0173-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0174-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0174-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0175-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p",
+      "q",
+      "z"
+     ],
+     [
+      "b"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "r",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0175-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0176-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "q",
+      "u4"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0176-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p"
+     ],
+     [
+      "b",
+      "q",
+      "u1",
+      "u4"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "r",
+      "z",
+      "u0",
+      "w"
+     ],
+     [
+      "u2"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0177-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "z",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0177-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0178-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0178-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0179-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "d",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0179-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0180-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0180-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "p",
+      "z",
+      "u1"
+     ],
+     [
+      "b"
+     ],
+     [
+      "c",
+      "d",
+      "q",
+      "r",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0181-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "u1"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0181-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0182-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0182-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0183-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0183-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0184-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0184-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0185-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0185-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0186-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "u1"
+     ],
+     [
+      "b",
+      "e",
+      "q",
+      "r",
+      "w"
+     ],
+     [
+      "d",
+      "z",
+      "u3"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0186-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p"
+     ],
+     [
+      "b",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0187-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u1",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0187-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p",
+      "r",
+      "z",
+      "u0"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "q",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0188-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0188-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0189-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0189-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0190-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0190-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0191-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0191-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0192-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u1",
+      "u3"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0192-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "p",
+      "q",
+      "r"
+     ],
+     [
+      "b"
+     ],
+     [
+      "c",
+      "d",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0193-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d",
+      "u0",
+      "w"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0193-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "z",
+      "u1",
+      "w"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d",
+      "r"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0194-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0194-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0195-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0195-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0196-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0196-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0197-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0197-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0198-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "r",
+      "z",
+      "u3",
+      "w"
+     ],
+     [
+      "b",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0198-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "q",
+      "w"
+     ],
+     [
+      "b",
+      "p"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0199-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u1"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u0",
+      "w"
+     ],
+     [
+      "u2"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0199-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "u0",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "u1"
+     ],
+     [
+      "u2"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0200-nobd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0200-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "p",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "r"
+     ],
+     [
+      "u0",
+      "u1"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0201-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0201-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0202-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0202-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0203-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0203-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0204-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "contract",
+    "edge": [
+     "b",
+     "u0"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0204-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0205-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0205-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r"
+     ],
+     [
+      "b",
+      "w"
+     ],
+     [
+      "d",
+      "z"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0206-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0206-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0207-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0207-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0208-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0208-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0209-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0209-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "q",
+      "z"
+     ],
+     [
+      "b",
+      "p",
+      "w"
+     ],
+     [
+      "d",
+      "r"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0210-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0210-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0211-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0211-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0212-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0212-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0213-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0213-bd",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "p"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0214-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "contract",
+    "edge": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0214-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "d"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0215-nobd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "contract",
+    "edge": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "26-C_on_abd-0215-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "d"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  }
+ ]
+}

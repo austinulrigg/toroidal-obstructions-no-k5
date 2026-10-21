@@ -1,0 +1,210 @@
+{
+ "item": "E7",
+ "where": "Proposition 4.29",
+ "paper text": [
+  {
+   "line": 4969,
+   "text": "\nThe graph $B\\cup C$ is a $K_5$-minor-free minor of $G$, using\n$P_x,P_y,s_xps_y,t_xrt_y$. It is nonplanar, so it contains\na $K_{3,3}$ subdivision. Every such subdivision uses $s_yt_y$,\nsince deleting that edge gives the planar\n$B\\cup s_ys_xt_xt_y$. Apply Lemma~\\ref{core:retained-subdivision}\nwith $B$, $\\{s_x,t_x,s_y,t_y\\}$ and $E(C)$ in the roles of\n$B$, $A$ and $E$. Since every allowed operation makes the cycle\ncompletion planar, the retained minor is $B$ itself.\nWith $s_yt_y$ required, three-connectivity\nof $B\\cup K_4[\\{s_x,t_x,s_y,t_y\\}]$, the absence of disjoint\n$s_x$--$t_y$ and $s_y$--$t_x$ paths, and\nLemma~\\ref{lem:independent-neighborhood}(a), Construction~\\ref{common:marked-construction} leaves, up to interchanging\n$A_1,A_2$, twins $p',q'$ on $\\{s_x,s_y,v\\}$, with $v$ also\nadjacent to $t_x,t_y$~\\supp{E7}."
+  }
+ ],
+ "attachments": [
+  "sx",
+  "tx",
+  "sy",
+  "ty"
+ ],
+ "test graphs": {
+  "B + C": {
+   "added edges": [
+    [
+     "sx",
+     "tx"
+    ],
+    [
+     "tx",
+     "ty"
+    ],
+    [
+     "ty",
+     "sy"
+    ],
+    [
+     "sy",
+     "sx"
+    ]
+   ],
+   "meaning": "B + s_x t_x + t_x t_y + t_y s_y + s_y s_x, the cycle completion B ∪ C"
+  },
+  "B + sy sx + sx tx + tx ty": {
+   "added edges": [
+    [
+     "sy",
+     "sx"
+    ],
+    [
+     "sx",
+     "tx"
+    ],
+    [
+     "tx",
+     "ty"
+    ]
+   ],
+   "meaning": "B + s_y s_x + s_x t_x + t_x t_y, the path completion B ∪ s_y s_x t_x t_y"
+  },
+  "B + K4[sx,tx,sy,ty]": {
+   "added edges": [
+    [
+     "sx",
+     "tx"
+    ],
+    [
+     "sx",
+     "sy"
+    ],
+    [
+     "sx",
+     "ty"
+    ],
+    [
+     "tx",
+     "sy"
+    ],
+    [
+     "tx",
+     "ty"
+    ],
+    [
+     "sy",
+     "ty"
+    ]
+   ],
+   "meaning": "B plus all six edges among s_x, t_x, s_y, t_y"
+  },
+  "B + sx tx + sy ty": {
+   "added edges": [
+    [
+     "sx",
+     "tx"
+    ],
+    [
+     "sy",
+     "ty"
+    ]
+   ],
+   "meaning": "B + s_x t_x + s_y t_y, a subgraph of G once P_x, P_y are edges"
+  }
+ },
+ "vertex names": "the attachments s_x, t_x, s_y, t_y of B, written sx, tx, sy, ty; interior vertices of B are u0, u1, ...; for the bridges that pass, the paper's names are given with the verdict",
+ "verdicts": {
+  "excluded by a hypothesis of the case": [
+   {
+    "fact": "the path completion B + s_y s_x + s_x t_x + t_x t_y is nonplanar",
+    "why it excludes the bridge": "The proof chooses the planar path completion: \"Some path completion of B is planar, say B ∪ s_y s_x t_x t_y.\""
+   },
+   {
+    "fact": "B has disjoint s_x-t_y and s_y-t_x paths",
+    "why it excludes the bridge": "The proof shows: \"Also, B has no disjoint s_x–t_y and s_y–t_x paths.\""
+   },
+   {
+    "fact": "an interior vertex of degree three has two adjacent neighbours",
+    "why it excludes the bridge": "Lemma 3.3(a); the edges added in the test graph are edges of G."
+   },
+   {
+    "fact": "B plus all edges among its four attachments has a cut of at most two vertices",
+    "why it excludes the bridge": "Three-connectivity of B ∪ K_4[attachments], used with Construction 3.16."
+   }
+  ],
+  "K5 minor": "a K5 minor in the named graph, which is a minor of G",
+  "proper nontoroidal minor": "an allowed reduction of B (Section 3) after which the named test graph is still nonplanar; the proof shows that this gives a proper nontoroidal minor of G",
+  "isomorphic to a bridge given in the text": "B passes every test of the case and is isomorphic to a bridge given in the text (listed under \"bridges given in the text\"); the record that it passes the tests is kept with the verdict"
+ },
+ "specification": {
+  "roots": [
+   "sx",
+   "tx",
+   "sy",
+   "ty"
+  ],
+  "outside": {},
+  "C edges within R": [
+   [
+    "sx",
+    "sy"
+   ],
+   [
+    "sx",
+    "tx"
+   ],
+   [
+    "sy",
+    "ty"
+   ],
+   [
+    "tx",
+    "ty"
+   ]
+  ],
+  "required edges of K'": [
+   [
+    "sy",
+    "ty"
+   ]
+  ]
+ },
+ "generation": {
+  "root placements": 72109,
+  "root placement classes": 1392,
+  "full placements": 1392,
+  "valid retained subdivisions": 344,
+  "recipes": 2361,
+  "parts up to rooted isomorphism": 1378
+ },
+ "bridges given in the text": {
+  "the form of Proposition 4.29": {
+   "vertices": [
+    "p'",
+    "q'",
+    "sx",
+    "sy",
+    "tx",
+    "ty",
+    "v"
+   ],
+   "edges": [
+    [
+     "p'",
+     "sx"
+    ],
+    [
+     "p'",
+     "sy"
+    ],
+    [
+     "p'",
+     "v"
+    ],
+    [
+     "q'",
+     "sx"
+    ],
+    [
+     "q'",
+     "sy"
+    ],
+    [
+     "q'",
+     "v"
+    ],
+    [
+     "tx",
+     "v"
+    ],
+    [
+     "ty",
+     "v"
+    ]
+   ]
+  }
+ }
+}

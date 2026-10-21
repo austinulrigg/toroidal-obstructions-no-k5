@@ -1,0 +1,25 @@
+{
+ "item": "E27",
+ "where": "Lemma 6.12",
+ "candidates": 9,
+ "verdicts": {
+  "proper nontoroidal minor": 8,
+  "toroidal": 1
+ },
+ "isomorphic to T_i (copies)": {},
+ "graphs T_i not excluded by a hypothesis of the case": [],
+ "by case": {
+  "abd": {
+   "candidates": 4,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  },
+  "acd": {
+   "candidates": 4,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  },
+  "ade": {
+   "candidates": 1,
+   "graphs T_i not excluded by a hypothesis of the case": []
+  }
+ }
+}

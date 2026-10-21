@@ -1,0 +1,85 @@
+{
+ "item": "E26",
+ "where": "Proposition 6.11",
+ "paper text": [
+  {
+   "line": 9524,
+   "text": "with $\\Psi_3$, deleting every other bridge and cross edge.\nContract the component with neighborhood $\\{a,c,e\\}$ to $v$ and\n$\\operatorname{Int}(B)$ to $w$, keeping\n$N(v)=\\{a,c,e\\}$ and $N(w)=\\{b,c,d,e\\}$.\nIn the retained graph, $H$ contains that triangle completion as a minor,\nusing $ab,ad$ and the path $bwd$.\nThe annular condition fails because the other bridges have\ntwo different attachment triples. Minimality therefore makes\n$G$ this retained graph. Keeping the triangle completion\nnonplanar preserves both failures, so\nLemma~\\ref{core:retained-subdivision} and\nConstruction~\\ref{common:marked-construction} give $216$ forms.\nThe case of a bridge with attachments $\\{a,c,e\\}$ is symmetric.\nAll $432$ graphs have a $K_5$ minor, a cut of at most two\nvertices, or a proper nontoroidal minor~\\supp{E26}."
+  }
+ ],
+ "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
+ "cases of the construction": {
+  "C_on_abd": {
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "d"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "d"
+     ]
+    ],
+    "required edges of K'": []
+   },
+   "root placements": 4270,
+   "root placement classes": 115,
+   "full placements": 115,
+   "valid retained subdivisions": 115,
+   "recipes": 687,
+   "parts up to rooted isomorphism": 216,
+   "outcomes": {
+    "cut of order at most two": 28,
+    "proper nontoroidal minor": 145,
+    "K5 minor": 43
+   }
+  },
+  "C_on_ace": {
+   "specification": {
+    "roots": [
+     "a",
+     "c",
+     "e"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "a",
+      "e"
+     ],
+     [
+      "c",
+      "e"
+     ]
+    ],
+    "required edges of K'": []
+   },
+   "root placements": 4270,
+   "root placement classes": 115,
+   "full placements": 115,
+   "valid retained subdivisions": 115,
+   "recipes": 687,
+   "parts up to rooted isomorphism": 216,
+   "outcomes": {
+    "cut of order at most two": 28,
+    "proper nontoroidal minor": 146,
+    "K5 minor": 42
+   }
+  }
+ }
+}

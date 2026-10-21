@@ -1,0 +1,7562 @@
+{
+ "item": "E18",
+ "verdicts": [
+  {
+   "id": "23-singletons-0000",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0001",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "q",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "r",
+      "z",
+      "q"
+     ],
+     "c": [
+      "p",
+      "q",
+      "d"
+     ],
+     "d": [
+      "r",
+      "z",
+      "c"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0002",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "q",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "r",
+      "bcd0",
+      "z",
+      "q"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "q",
+      "bcd0"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0003",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "r",
+      "q",
+      "z"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "z",
+      "bcd0",
+      "r",
+      "q"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "q",
+      "bcd0",
+      "d"
+     ],
+     "d": [
+      "r",
+      "c",
+      "bcd0",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0004",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "q",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "r",
+      "bcd1",
+      "q",
+      "z",
+      "bcd0"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "bcd0",
+      "q",
+      "bcd1"
+     ],
+     "d": [
+      "r",
+      "bcd0",
+      "z",
+      "bcd1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0005",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "r",
+      "q"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "q",
+      "bcd1",
+      "r",
+      "z",
+      "bcd0"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "bcd0",
+      "bcd1",
+      "q",
+      "d"
+     ],
+     "d": [
+      "r",
+      "bcd1",
+      "bcd0",
+      "z",
+      "c"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0006",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "r",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "bcd0",
+      "q",
+      "r",
+      "bcd1",
+      "bcd2",
+      "z"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd2": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "q",
+      "bcd0",
+      "bcd2",
+      "bcd1"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd2",
+      "bcd0",
+      "bcd1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0007",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "q",
+      "z",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "r",
+      "bcd2",
+      "z",
+      "q",
+      "bcd1",
+      "bcd0"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "bcd2": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "bcd0",
+      "d",
+      "bcd2",
+      "bcd1",
+      "q"
+     ],
+     "d": [
+      "r",
+      "z",
+      "c",
+      "bcd0",
+      "bcd1",
+      "bcd2"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0008",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "q",
+      "z",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "r",
+      "bcd3",
+      "bcd1",
+      "z",
+      "q",
+      "bcd2",
+      "bcd0"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "bcd2": [
+      "b",
+      "c",
+      "d"
+     ],
+     "bcd3": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "bcd0",
+      "bcd1",
+      "bcd3",
+      "bcd2",
+      "q"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd1",
+      "bcd0",
+      "bcd2",
+      "bcd3"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0009",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "q",
+      "z",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "r",
+      "bcd0",
+      "bcd1",
+      "z",
+      "q",
+      "bcd2",
+      "bcd3"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "bcd2": [
+      "b",
+      "c",
+      "d"
+     ],
+     "bcd3": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "bcd3",
+      "bcd1",
+      "bcd0",
+      "d",
+      "bcd2",
+      "q"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd1",
+      "bcd3",
+      "bcd2",
+      "c",
+      "bcd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0010",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0011",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0012",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "acd0",
+      "q",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "r",
+      "z",
+      "q"
+     ],
+     "c": [
+      "p",
+      "q",
+      "acd0"
+     ],
+     "d": [
+      "r",
+      "z",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0013",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "r",
+      "acd0",
+      "q",
+      "z"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "z",
+      "r",
+      "q"
+     ],
+     "c": [
+      "p",
+      "q",
+      "acd0",
+      "d"
+     ],
+     "d": [
+      "r",
+      "c",
+      "acd0",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0014",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "r",
+      "acd0",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "r",
+      "bcd0",
+      "q",
+      "z"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "q",
+      "bcd0",
+      "acd0"
+     ],
+     "d": [
+      "r",
+      "z",
+      "acd0",
+      "bcd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0015",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "acd0",
+      "r",
+      "q",
+      "z"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "z",
+      "bcd0",
+      "q",
+      "r"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "d",
+      "q",
+      "bcd0",
+      "acd0"
+     ],
+     "d": [
+      "r",
+      "acd0",
+      "bcd0",
+      "z",
+      "c"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0016",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "q",
+      "acd0",
+      "z",
+      "r"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "bcd1",
+      "r",
+      "z",
+      "bcd0",
+      "q"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "q",
+      "bcd0",
+      "bcd1"
+     ],
+     "d": [
+      "r",
+      "bcd1",
+      "bcd0",
+      "z",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0017",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "q",
+      "z",
+      "r",
+      "acd0"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "bcd1",
+      "r",
+      "z",
+      "bcd0",
+      "q"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "d",
+      "q",
+      "bcd0",
+      "bcd1"
+     ],
+     "d": [
+      "r",
+      "bcd1",
+      "bcd0",
+      "z",
+      "c",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0018",
+   "verdict": "isomorphic to T10",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T10",
+    "map": {
+     "p": 0,
+     "a": 8,
+     "r": 1,
+     "z": 2,
+     "q": 3,
+     "acd0": 4,
+     "c": 9,
+     "bcd0": 5,
+     "bcd1": 6,
+     "bcd2": 7,
+     "d": 10,
+     "b": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0019",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0020",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0021",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0022",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "acd1",
+      "z",
+      "q",
+      "acd0",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "c",
+      "d"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "r",
+      "q",
+      "z"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "q",
+      "acd1"
+     ],
+     "d": [
+      "r",
+      "acd0",
+      "z",
+      "acd1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0023",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "acd1",
+      "r",
+      "z",
+      "acd0",
+      "q"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "q",
+      "z",
+      "r"
+     ],
+     "c": [
+      "p",
+      "d",
+      "q",
+      "acd0",
+      "acd1"
+     ],
+     "d": [
+      "r",
+      "acd1",
+      "acd0",
+      "z",
+      "c"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0024",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "acd0",
+      "q",
+      "r",
+      "acd1"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "r",
+      "q",
+      "bcd0",
+      "z"
+     ],
+     "bcd0": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "acd1",
+      "bcd0",
+      "q",
+      "acd0"
+     ],
+     "d": [
+      "r",
+      "acd0",
+      "z",
+      "bcd0",
+      "acd1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0025",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "acd1",
+      "r",
+      "z",
+      "acd0",
+      "q"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "q",
+      "z",
+      "r",
+      "bcd0"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "bcd0",
+      "d",
+      "q",
+      "acd0",
+      "acd1"
+     ],
+     "d": [
+      "r",
+      "acd1",
+      "acd0",
+      "z",
+      "c",
+      "bcd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0026",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "acd1",
+      "z",
+      "r",
+      "acd0",
+      "q"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "q",
+      "bcd1",
+      "r",
+      "z",
+      "bcd0"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "bcd0",
+      "bcd1",
+      "q",
+      "acd0",
+      "acd1"
+     ],
+     "d": [
+      "r",
+      "bcd1",
+      "bcd0",
+      "z",
+      "acd1",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0027",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "acd1",
+      "q",
+      "r",
+      "acd0"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "bcd0",
+      "r",
+      "q",
+      "bcd1",
+      "z"
+     ],
+     "bcd0": [
+      "b",
+      "c",
+      "d"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "d",
+      "bcd1",
+      "q",
+      "acd1",
+      "bcd0"
+     ],
+     "d": [
+      "r",
+      "bcd0",
+      "acd1",
+      "z",
+      "bcd1",
+      "c",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0028",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0029",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0030",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "acd2",
+      "acd0",
+      "r",
+      "q",
+      "acd1"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "c",
+      "d"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "acd2": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "acd2",
+      "acd1",
+      "q"
+     ],
+     "d": [
+      "r",
+      "acd0",
+      "acd1",
+      "acd2",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0031",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "acd1",
+      "acd0",
+      "q",
+      "z",
+      "acd2",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "acd2": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "r",
+      "z",
+      "q"
+     ],
+     "c": [
+      "p",
+      "q",
+      "acd0",
+      "d",
+      "acd2",
+      "acd1"
+     ],
+     "d": [
+      "r",
+      "c",
+      "acd0",
+      "acd1",
+      "acd2",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0032",
+   "verdict": "isomorphic to T10",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T10",
+    "map": {
+     "p": 0,
+     "b": 8,
+     "r": 1,
+     "z": 2,
+     "q": 3,
+     "bcd0": 4,
+     "c": 9,
+     "acd1": 5,
+     "acd0": 6,
+     "acd2": 7,
+     "d": 10,
+     "a": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0033",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0034",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0035",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0036",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "acd2",
+      "acd0",
+      "q",
+      "z",
+      "acd3",
+      "acd1",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "acd2": [
+      "a",
+      "c",
+      "d"
+     ],
+     "acd3": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "r",
+      "z",
+      "q"
+     ],
+     "c": [
+      "p",
+      "q",
+      "acd0",
+      "acd1",
+      "acd3",
+      "acd2"
+     ],
+     "d": [
+      "r",
+      "acd1",
+      "acd0",
+      "acd2",
+      "acd3",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0037",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "acd2",
+      "acd3",
+      "q",
+      "z",
+      "acd0",
+      "acd1",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "acd2": [
+      "a",
+      "c",
+      "d"
+     ],
+     "acd3": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "r",
+      "z",
+      "q"
+     ],
+     "c": [
+      "p",
+      "q",
+      "acd3",
+      "acd1",
+      "acd0",
+      "d",
+      "acd2"
+     ],
+     "d": [
+      "r",
+      "acd1",
+      "acd3",
+      "acd2",
+      "c",
+      "acd0",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0038",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0039",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0040",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0041",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0042",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0043",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd2",
+      "q",
+      "z",
+      "r"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "q",
+      "abd2",
+      "r",
+      "z"
+     ],
+     "c": [
+      "p",
+      "d",
+      "q"
+     ],
+     "d": [
+      "r",
+      "abd2",
+      "z",
+      "c"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0044",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd2",
+      "r",
+      "z",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "bcd0",
+      "z",
+      "r",
+      "q",
+      "abd2"
+     ],
+     "bcd0": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "q",
+      "bcd0"
+     ],
+     "d": [
+      "r",
+      "abd2",
+      "z",
+      "bcd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0045",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "abd2",
+      "q",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "r",
+      "z",
+      "q",
+      "abd2",
+      "bcd0"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "bcd0",
+      "d",
+      "q"
+     ],
+     "d": [
+      "r",
+      "c",
+      "bcd0",
+      "abd2",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0046",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "q",
+      "r",
+      "abd2",
+      "z"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "r",
+      "q",
+      "bcd1",
+      "z",
+      "abd2",
+      "bcd0"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "bcd0",
+      "bcd1",
+      "q"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd1",
+      "bcd0",
+      "abd2"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0047",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "q",
+      "z",
+      "abd2",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "r",
+      "z",
+      "q",
+      "bcd1",
+      "abd2",
+      "bcd0"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "bcd0",
+      "d",
+      "bcd1",
+      "q"
+     ],
+     "d": [
+      "r",
+      "bcd1",
+      "c",
+      "bcd0",
+      "abd2",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0048",
+   "verdict": "isomorphic to T9",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T9",
+    "map": {
+     "r": 0,
+     "a": 8,
+     "z": 4,
+     "abd2": 5,
+     "q": 6,
+     "p": 7,
+     "c": 9,
+     "bcd0": 1,
+     "bcd1": 2,
+     "bcd2": 3,
+     "d": 10,
+     "b": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0049",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0050",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0051",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0052",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd2",
+      "r",
+      "acd0",
+      "z",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "abd2": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "r",
+      "q",
+      "z",
+      "abd2"
+     ],
+     "c": [
+      "p",
+      "q",
+      "acd0"
+     ],
+     "d": [
+      "r",
+      "abd2",
+      "z",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0053",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd2",
+      "q",
+      "r",
+      "z",
+      "acd0"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "q",
+      "abd2",
+      "z",
+      "r"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "d",
+      "q"
+     ],
+     "d": [
+      "r",
+      "c",
+      "acd0",
+      "z",
+      "abd2"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0054",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "acd0",
+      "q",
+      "abd2",
+      "r"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "bcd0",
+      "abd2",
+      "q",
+      "r",
+      "z"
+     ],
+     "bcd0": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "q",
+      "acd0",
+      "bcd0"
+     ],
+     "d": [
+      "r",
+      "abd2",
+      "bcd0",
+      "acd0",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0055",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd2",
+      "z",
+      "q",
+      "r",
+      "acd0"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "abd2": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "q",
+      "z",
+      "r",
+      "bcd0",
+      "abd2"
+     ],
+     "bcd0": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "d",
+      "bcd0",
+      "q"
+     ],
+     "d": [
+      "r",
+      "z",
+      "abd2",
+      "bcd0",
+      "c",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0056",
+   "verdict": "isomorphic to T10",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T10",
+    "map": {
+     "p": 0,
+     "c": 8,
+     "bcd0": 1,
+     "bcd1": 2,
+     "q": 3,
+     "acd0": 4,
+     "a": 9,
+     "r": 5,
+     "abd2": 6,
+     "z": 7,
+     "d": 10,
+     "b": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0057",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0058",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0059",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0060",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "acd1",
+      "abd2",
+      "r",
+      "acd0",
+      "q",
+      "z"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "r",
+      "abd2",
+      "z",
+      "q"
+     ],
+     "c": [
+      "p",
+      "q",
+      "acd0",
+      "acd1"
+     ],
+     "d": [
+      "r",
+      "z",
+      "abd2",
+      "acd1",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0061",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "r",
+      "q",
+      "acd1",
+      "abd2",
+      "acd0"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "q",
+      "r",
+      "abd2",
+      "z"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "d",
+      "acd1",
+      "q"
+     ],
+     "d": [
+      "r",
+      "z",
+      "abd2",
+      "acd1",
+      "c",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0062",
+   "verdict": "isomorphic to T10",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T10",
+    "map": {
+     "p": 0,
+     "c": 8,
+     "acd1": 1,
+     "acd0": 2,
+     "q": 3,
+     "bcd0": 4,
+     "b": 9,
+     "r": 5,
+     "abd2": 6,
+     "z": 7,
+     "d": 10,
+     "a": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0063",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0064",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0065",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0066",
+   "verdict": "isomorphic to T9",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T9",
+    "map": {
+     "r": 0,
+     "b": 8,
+     "z": 4,
+     "abd2": 5,
+     "q": 6,
+     "p": 7,
+     "c": 9,
+     "acd1": 1,
+     "acd0": 2,
+     "acd2": 3,
+     "d": 10,
+     "a": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0067",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0068",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0069",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0070",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0071",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0072",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0073",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd3",
+      "z",
+      "q",
+      "abd2",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd3": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "r",
+      "z",
+      "abd3",
+      "abd2",
+      "q"
+     ],
+     "c": [
+      "p",
+      "q",
+      "d"
+     ],
+     "d": [
+      "r",
+      "abd2",
+      "abd3",
+      "c",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0074",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd3",
+      "abd2",
+      "r",
+      "z",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "abd3": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "r",
+      "abd2",
+      "bcd0",
+      "q",
+      "z",
+      "abd3"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "q",
+      "bcd0"
+     ],
+     "d": [
+      "r",
+      "bcd0",
+      "abd2",
+      "abd3",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0075",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd3",
+      "abd2",
+      "z",
+      "r",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "abd3": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "z",
+      "abd2",
+      "bcd0",
+      "q",
+      "r",
+      "abd3"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "q",
+      "bcd0",
+      "d"
+     ],
+     "d": [
+      "r",
+      "z",
+      "c",
+      "bcd0",
+      "abd2",
+      "abd3"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0076",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd2",
+      "abd3",
+      "z",
+      "r",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd3": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "bcd0",
+      "z",
+      "abd3",
+      "bcd1",
+      "q",
+      "r",
+      "abd2"
+     ],
+     "bcd0": [
+      "b",
+      "c",
+      "d"
+     ],
+     "bcd1": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "q",
+      "bcd1",
+      "bcd0"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd0",
+      "bcd1",
+      "abd3",
+      "abd2"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0077",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd2",
+      "abd3",
+      "z",
+      "r",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd3": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "bcd1",
+      "z",
+      "abd3",
+      "bcd0",
+      "q",
+      "r",
+      "abd2"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "q",
+      "bcd0",
+      "d",
+      "bcd1"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd1",
+      "c",
+      "bcd0",
+      "abd3",
+      "abd2"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0078",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0079",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0080",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd3",
+      "z",
+      "q",
+      "acd0",
+      "abd2",
+      "r"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "abd3": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "q",
+      "z",
+      "r",
+      "abd2",
+      "abd3"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "q"
+     ],
+     "d": [
+      "r",
+      "z",
+      "abd3",
+      "abd2",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0081",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd3",
+      "z",
+      "q",
+      "abd2",
+      "r",
+      "acd0"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "abd3": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "q",
+      "z",
+      "r",
+      "abd2",
+      "abd3"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "d",
+      "q"
+     ],
+     "d": [
+      "r",
+      "z",
+      "abd3",
+      "abd2",
+      "c",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0082",
+   "verdict": "isomorphic to T16",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T16",
+    "map": {
+     "acd0": 0,
+     "c": 8,
+     "bcd0": 1,
+     "q": 2,
+     "p": 3,
+     "d": 9,
+     "r": 4,
+     "abd3": 5,
+     "abd2": 6,
+     "z": 7,
+     "a": 10,
+     "b": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0083",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0084",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0085",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0086",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd2",
+      "r",
+      "q",
+      "acd1",
+      "abd3",
+      "z",
+      "acd0"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd3": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "abd3",
+      "abd2"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "acd1",
+      "q"
+     ],
+     "d": [
+      "r",
+      "abd2",
+      "abd3",
+      "acd1",
+      "acd0",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0087",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd2",
+      "r",
+      "q",
+      "acd1",
+      "abd3",
+      "z",
+      "acd0"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd3": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "abd3",
+      "abd2"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "d",
+      "acd1",
+      "q"
+     ],
+     "d": [
+      "r",
+      "abd2",
+      "abd3",
+      "acd1",
+      "c",
+      "acd0",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0088",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0089",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0090",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0091",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0092",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0093",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "contract",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0094",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "bcd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0095",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "bcd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0096",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0097",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0098",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "acd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0099",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "acd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0100",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0101",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0102",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0103",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0104",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0105",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0106",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0107",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0108",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0109",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0110",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0111",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0112",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0113",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "q",
+      "z",
+      "abc2",
+      "r"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "z",
+      "r",
+      "abc2",
+      "q"
+     ],
+     "c": [
+      "p",
+      "d",
+      "q",
+      "abc2"
+     ],
+     "d": [
+      "r",
+      "z",
+      "c"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0114",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "q",
+      "z",
+      "r",
+      "abc2"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "z",
+      "abc2",
+      "r",
+      "bcd0",
+      "q"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "abc2",
+      "q",
+      "bcd0"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0115",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "abc2",
+      "q",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "r",
+      "bcd0",
+      "abc2",
+      "z",
+      "q"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "q",
+      "abc2",
+      "bcd0",
+      "d"
+     ],
+     "d": [
+      "r",
+      "z",
+      "c",
+      "bcd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0116",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abc2",
+      "z",
+      "r",
+      "q"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "bcd0",
+      "z",
+      "abc2",
+      "q",
+      "r",
+      "bcd1"
+     ],
+     "bcd0": [
+      "b",
+      "c",
+      "d"
+     ],
+     "bcd1": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "bcd1",
+      "bcd0",
+      "q",
+      "abc2"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd0",
+      "bcd1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0117",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "r",
+      "q",
+      "abc2"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "q",
+      "r",
+      "bcd0",
+      "abc2",
+      "bcd1",
+      "z"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "bcd0",
+      "d",
+      "bcd1",
+      "abc2",
+      "q"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd1",
+      "c",
+      "bcd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0118",
+   "verdict": "isomorphic to T9",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T9",
+    "map": {
+     "p": 0,
+     "a": 8,
+     "q": 4,
+     "abc2": 5,
+     "r": 6,
+     "z": 7,
+     "d": 9,
+     "bcd0": 1,
+     "bcd1": 2,
+     "bcd2": 3,
+     "c": 10,
+     "b": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0119",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0120",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0121",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0122",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "acd0",
+      "abc2",
+      "z",
+      "r",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "z",
+      "abc2",
+      "q",
+      "r"
+     ],
+     "c": [
+      "p",
+      "q",
+      "abc2",
+      "acd0"
+     ],
+     "d": [
+      "r",
+      "z",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0123",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "abc2",
+      "r",
+      "acd0",
+      "q"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "q",
+      "abc2",
+      "z",
+      "r"
+     ],
+     "c": [
+      "p",
+      "abc2",
+      "q",
+      "acd0",
+      "d"
+     ],
+     "d": [
+      "r",
+      "z",
+      "c",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0124",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abc2",
+      "r",
+      "acd0",
+      "q",
+      "z"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "abc2": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "r",
+      "abc2",
+      "bcd0",
+      "z",
+      "q"
+     ],
+     "bcd0": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "q",
+      "acd0",
+      "bcd0",
+      "abc2"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd0",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0125",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "q",
+      "abc2",
+      "r",
+      "acd0"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "q",
+      "z",
+      "r",
+      "abc2",
+      "bcd0"
+     ],
+     "bcd0": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "d",
+      "bcd0",
+      "abc2",
+      "q"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd0",
+      "c",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0126",
+   "verdict": "isomorphic to T10",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T10",
+    "map": {
+     "r": 0,
+     "d": 8,
+     "bcd0": 1,
+     "bcd1": 2,
+     "z": 3,
+     "acd0": 4,
+     "a": 9,
+     "q": 5,
+     "abc2": 6,
+     "p": 7,
+     "c": 10,
+     "b": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0127",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0128",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0129",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0130",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "acd1",
+      "r",
+      "q",
+      "abc2",
+      "z",
+      "acd0"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "abc2"
+     ],
+     "c": [
+      "p",
+      "abc2",
+      "q",
+      "acd0",
+      "acd1"
+     ],
+     "d": [
+      "r",
+      "acd1",
+      "acd0",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0131",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "r",
+      "acd0",
+      "abc2",
+      "acd1",
+      "z",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "abc2",
+      "q",
+      "z",
+      "r"
+     ],
+     "c": [
+      "p",
+      "q",
+      "abc2",
+      "acd0",
+      "d",
+      "acd1"
+     ],
+     "d": [
+      "r",
+      "z",
+      "acd1",
+      "c",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0132",
+   "verdict": "isomorphic to T10",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T10",
+    "map": {
+     "r": 0,
+     "d": 8,
+     "acd1": 1,
+     "acd0": 2,
+     "z": 3,
+     "bcd0": 4,
+     "b": 9,
+     "q": 5,
+     "abc2": 6,
+     "p": 7,
+     "c": 10,
+     "a": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0133",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0134",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0135",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0136",
+   "verdict": "isomorphic to T9",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T9",
+    "map": {
+     "p": 0,
+     "b": 8,
+     "q": 4,
+     "abc2": 5,
+     "r": 6,
+     "z": 7,
+     "d": 9,
+     "acd1": 1,
+     "acd0": 2,
+     "acd2": 3,
+     "c": 10,
+     "a": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0137",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0138",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0139",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0140",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0141",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0142",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0143",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd2",
+      "abc2",
+      "q",
+      "z",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "r",
+      "abc2",
+      "abd2",
+      "z",
+      "q"
+     ],
+     "c": [
+      "p",
+      "q",
+      "abc2",
+      "d"
+     ],
+     "d": [
+      "r",
+      "z",
+      "abd2",
+      "c"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0144",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "abd2",
+      "abc2",
+      "q",
+      "r"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "abc2",
+      "abd2",
+      "r",
+      "q",
+      "bcd0",
+      "z"
+     ],
+     "bcd0": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "bcd0",
+      "q",
+      "abc2"
+     ],
+     "d": [
+      "r",
+      "abd2",
+      "z",
+      "bcd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0145",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abd2",
+      "z",
+      "abc2",
+      "r",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "abd2": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "abc2",
+      "z",
+      "bcd0",
+      "q",
+      "r",
+      "abd2"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "q",
+      "bcd0",
+      "d",
+      "abc2"
+     ],
+     "d": [
+      "r",
+      "c",
+      "bcd0",
+      "z",
+      "abd2"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0146",
+   "verdict": "isomorphic to T9",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T9",
+    "map": {
+     "p": 0,
+     "c": 8,
+     "q": 4,
+     "abc2": 5,
+     "bcd0": 6,
+     "bcd1": 7,
+     "d": 9,
+     "r": 1,
+     "abd2": 2,
+     "z": 3,
+     "a": 10,
+     "b": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0147",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0148",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0149",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0150",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "acd0",
+      "q",
+      "r",
+      "abd2",
+      "abc2"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "r",
+      "q",
+      "abc2",
+      "abd2",
+      "z"
+     ],
+     "c": [
+      "p",
+      "abc2",
+      "q",
+      "acd0"
+     ],
+     "d": [
+      "r",
+      "acd0",
+      "z",
+      "abd2"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0151",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "acd0",
+      "abc2",
+      "r",
+      "abd2",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "r",
+      "abc2",
+      "q",
+      "abd2",
+      "z"
+     ],
+     "c": [
+      "p",
+      "q",
+      "abc2",
+      "acd0",
+      "d"
+     ],
+     "d": [
+      "r",
+      "c",
+      "acd0",
+      "z",
+      "abd2"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0152",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "acd0",
+      "z",
+      "q",
+      "abc2",
+      "abd2",
+      "r"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "abd2": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "r",
+      "bcd0",
+      "q",
+      "z",
+      "abd2",
+      "abc2"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "abc2",
+      "q",
+      "bcd0",
+      "acd0"
+     ],
+     "d": [
+      "r",
+      "abd2",
+      "z",
+      "acd0",
+      "bcd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0153",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "abd2",
+      "abc2",
+      "q",
+      "r",
+      "acd0"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "abd2": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "abc2",
+      "abd2",
+      "r",
+      "q",
+      "bcd0",
+      "z"
+     ],
+     "bcd0": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "d",
+      "bcd0",
+      "q",
+      "abc2"
+     ],
+     "d": [
+      "r",
+      "abd2",
+      "z",
+      "bcd0",
+      "c",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0154",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0155",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0156",
+   "verdict": "isomorphic to T9",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T9",
+    "map": {
+     "p": 0,
+     "c": 8,
+     "q": 4,
+     "abc2": 5,
+     "acd1": 6,
+     "acd0": 7,
+     "d": 9,
+     "r": 1,
+     "abd2": 2,
+     "z": 3,
+     "b": 10,
+     "a": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0157",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0158",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0159",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0160",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0161",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0162",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0163",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "contract",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0164",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "bcd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0165",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "bcd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0166",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0167",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0168",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "acd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0169",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "acd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0170",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0171",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0172",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0173",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0174",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0175",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0176",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0177",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0178",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0179",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0180",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0181",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0182",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0183",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "abc3",
+      "abc2",
+      "r",
+      "q"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "abc2": [
+      "a",
+      "c",
+      "b"
+     ],
+     "abc3": [
+      "a",
+      "b",
+      "c"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "q",
+      "abc3",
+      "z",
+      "r",
+      "abc2"
+     ],
+     "c": [
+      "p",
+      "abc2",
+      "abc3",
+      "q",
+      "d"
+     ],
+     "d": [
+      "r",
+      "z",
+      "c"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0184",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abc2",
+      "abc3",
+      "r",
+      "z",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc3": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "r",
+      "abc3",
+      "q",
+      "z",
+      "bcd0",
+      "abc2"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "q",
+      "abc3",
+      "abc2",
+      "bcd0"
+     ],
+     "d": [
+      "r",
+      "bcd0",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0185",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abc3",
+      "abc2",
+      "q",
+      "r",
+      "z"
+     ],
+     "p": [
+      "a",
+      "b",
+      "c"
+     ],
+     "q": [
+      "a",
+      "c",
+      "b"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc3": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "b": [
+      "p",
+      "z",
+      "bcd0",
+      "abc2",
+      "abc3",
+      "r",
+      "q"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "c": [
+      "p",
+      "q",
+      "abc2",
+      "bcd0",
+      "d",
+      "abc3"
+     ],
+     "d": [
+      "r",
+      "c",
+      "bcd0",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0186",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "r",
+      "abc2",
+      "abc3",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc3": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "abc2",
+      "r",
+      "bcd0",
+      "q",
+      "abc3",
+      "bcd1",
+      "z"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "q",
+      "bcd0",
+      "bcd1",
+      "abc3",
+      "abc2"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd1",
+      "bcd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0187",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "r",
+      "abc2",
+      "abc3",
+      "q"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc3": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "b": [
+      "p",
+      "abc2",
+      "r",
+      "bcd0",
+      "q",
+      "abc3",
+      "bcd1",
+      "z"
+     ],
+     "bcd0": [
+      "b",
+      "d",
+      "c"
+     ],
+     "bcd1": [
+      "b",
+      "c",
+      "d"
+     ],
+     "c": [
+      "p",
+      "q",
+      "bcd0",
+      "d",
+      "bcd1",
+      "abc3",
+      "abc2"
+     ],
+     "d": [
+      "r",
+      "z",
+      "bcd1",
+      "c",
+      "bcd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0188",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0189",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0190",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "abc2",
+      "acd0",
+      "z",
+      "q",
+      "abc3",
+      "r"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc3": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "q",
+      "z",
+      "r",
+      "abc3",
+      "abc2"
+     ],
+     "c": [
+      "p",
+      "acd0",
+      "abc2",
+      "abc3",
+      "q"
+     ],
+     "d": [
+      "r",
+      "z",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0191",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "r",
+      "acd0",
+      "abc3",
+      "q",
+      "z",
+      "abc2"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc3": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "b",
+      "d"
+     ],
+     "z": [
+      "a",
+      "d",
+      "b"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "q",
+      "abc3",
+      "abc2",
+      "z",
+      "r"
+     ],
+     "c": [
+      "p",
+      "abc2",
+      "abc3",
+      "acd0",
+      "d",
+      "q"
+     ],
+     "d": [
+      "r",
+      "z",
+      "c",
+      "acd0"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0192",
+   "verdict": "isomorphic to T16",
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T16",
+    "map": {
+     "acd0": 0,
+     "d": 8,
+     "bcd0": 1,
+     "r": 2,
+     "z": 3,
+     "c": 9,
+     "q": 4,
+     "abc2": 5,
+     "abc3": 6,
+     "p": 7,
+     "a": 10,
+     "b": 11
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0193",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0194",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0195",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0196",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "acd1",
+      "abc3",
+      "q",
+      "acd0",
+      "r",
+      "abc2"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc3": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "c",
+      "d"
+     ],
+     "acd1": [
+      "a",
+      "d",
+      "c"
+     ],
+     "b": [
+      "p",
+      "q",
+      "abc3",
+      "abc2",
+      "r",
+      "z"
+     ],
+     "c": [
+      "p",
+      "abc2",
+      "abc3",
+      "acd1",
+      "acd0",
+      "q"
+     ],
+     "d": [
+      "r",
+      "acd0",
+      "acd1",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0197",
+   "verdict": "toroidal",
+   "witness": {
+    "type": "embedding",
+    "genus": 1,
+    "rotation": {
+     "a": [
+      "p",
+      "z",
+      "acd0",
+      "abc3",
+      "q",
+      "acd1",
+      "r",
+      "abc2"
+     ],
+     "p": [
+      "a",
+      "c",
+      "b"
+     ],
+     "q": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc2": [
+      "a",
+      "b",
+      "c"
+     ],
+     "abc3": [
+      "a",
+      "c",
+      "b"
+     ],
+     "r": [
+      "a",
+      "d",
+      "b"
+     ],
+     "z": [
+      "a",
+      "b",
+      "d"
+     ],
+     "acd0": [
+      "a",
+      "d",
+      "c"
+     ],
+     "acd1": [
+      "a",
+      "c",
+      "d"
+     ],
+     "b": [
+      "p",
+      "q",
+      "abc3",
+      "abc2",
+      "r",
+      "z"
+     ],
+     "c": [
+      "p",
+      "abc2",
+      "abc3",
+      "acd0",
+      "d",
+      "acd1",
+      "q"
+     ],
+     "d": [
+      "r",
+      "acd1",
+      "c",
+      "acd0",
+      "z"
+     ]
+    }
+   }
+  },
+  {
+   "id": "23-singletons-0198",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0199",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0200",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0201",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0202",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0203",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "contract",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0204",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "bcd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0205",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "bcd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0206",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0207",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0208",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "acd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0209",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "acd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0210",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0211",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0212",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0213",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0214",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0215",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0216",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0217",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0218",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0219",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0220",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0221",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0222",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0223",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "contract",
+    "edge": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0224",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "bcd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0225",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "bcd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0226",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0227",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0228",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "acd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0229",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "acd0"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0230",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0231",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0232",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0233",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0234",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0235",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0236",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0237",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0238",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0239",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0240",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0241",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0242",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0243",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0244",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0245",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0246",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0247",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0248",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0249",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0250",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "b"
+    ]
+   }
+  },
+  {
+   "id": "23-singletons-0251",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  }
+ ]
+}

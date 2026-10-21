@@ -1,0 +1,136 @@
+{
+ "item": "W19",
+ "where": "Proposition 6.11",
+ "claim": "Psi_3, u with neighbourhood {a,b,d}, v with neighbourhood {a,c,e}, and y, t with edges by, cy, yt, dt, et: this is T55.",
+ "graph": {
+  "vertices": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "p",
+   "q",
+   "r",
+   "z",
+   "u",
+   "v",
+   "y",
+   "t"
+  ],
+  "edges": [
+   [
+    "p",
+    "a"
+   ],
+   [
+    "p",
+    "b"
+   ],
+   [
+    "p",
+    "c"
+   ],
+   [
+    "q",
+    "a"
+   ],
+   [
+    "q",
+    "b"
+   ],
+   [
+    "q",
+    "c"
+   ],
+   [
+    "r",
+    "a"
+   ],
+   [
+    "r",
+    "d"
+   ],
+   [
+    "r",
+    "e"
+   ],
+   [
+    "z",
+    "a"
+   ],
+   [
+    "z",
+    "d"
+   ],
+   [
+    "z",
+    "e"
+   ],
+   [
+    "u",
+    "a"
+   ],
+   [
+    "u",
+    "b"
+   ],
+   [
+    "u",
+    "d"
+   ],
+   [
+    "v",
+    "a"
+   ],
+   [
+    "v",
+    "c"
+   ],
+   [
+    "v",
+    "e"
+   ],
+   [
+    "b",
+    "y"
+   ],
+   [
+    "c",
+    "y"
+   ],
+   [
+    "y",
+    "t"
+   ],
+   [
+    "d",
+    "t"
+   ],
+   [
+    "e",
+    "t"
+   ]
+  ]
+ },
+ "witness": {
+  "type": "isomorphism",
+  "onto": "T55",
+  "map": {
+   "p": 0,
+   "b": 8,
+   "q": 1,
+   "u": 2,
+   "y": 6,
+   "t": 7,
+   "c": 9,
+   "v": 3,
+   "d": 10,
+   "z": 4,
+   "r": 5,
+   "e": 11,
+   "a": 12
+  }
+ },
+ "note on T_i": "T_i vertex numbers are those of O1."
+}

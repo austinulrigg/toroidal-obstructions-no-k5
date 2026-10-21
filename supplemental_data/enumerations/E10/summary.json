@@ -1,0 +1,12 @@
+{
+ "item": "E10",
+ "where": "Proposition 5.10",
+ "candidates": 2953,
+ "verdicts": {
+  "K5 minor": 2159,
+  "cut of at most two vertices": 92,
+  "proper nontoroidal minor": 702
+ },
+ "isomorphic to T_i (copies)": {},
+ "graphs T_i not excluded by a hypothesis of the case": []
+}

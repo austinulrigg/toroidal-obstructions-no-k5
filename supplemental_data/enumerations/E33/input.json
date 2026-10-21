@@ -1,0 +1,67 @@
+{
+ "item": "E33",
+ "where": "Lemma 6.16",
+ "paper text": [
+  {
+   "line": 10410,
+   "text": " B+ab+ad\\text{ is planar or }B+ad+bd\\text{ is planar}.\n\\end{equation}\nBoth tests fail, so minimality gives $G=H_0$.\n\nIf $B+ad$ is nonplanar, retain its $K_{3,3}$ subdivision and\napply Lemma~\\ref{core:retained-subdivision}. This keeps both\ntests nonplanar, so minimality again leaves $B$ unchanged.\nConstruction~\\ref{common:marked-construction}, with added\nedge $ad$, gives $563$ bridges for each exterior.\nEvery resulting graph has a $K_5$ minor or a proper\nnontoroidal minor except four in the $cd$ case, isomorphic\nto $\\mathfrak T_{52},\\mathfrak T_{57},\\mathfrak T_{58},\\mathfrak T_{59}$.\nIn the first three, two twin triples meet twice or not at all.\nIn the last, some choice of twin pairs leaves a component\nwith four neighbors~\\supp{E33}."
+  }
+ ],
+ "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
+ "cases of the construction": {
+  "t_on_bcd": {
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "d"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "d"
+     ]
+    ],
+    "required edges of K'": []
+   },
+   "root placements": 4270,
+   "root placement classes": 115,
+   "full placements": 115,
+   "valid retained subdivisions": 115,
+   "recipes": 1227,
+   "parts up to rooted isomorphism": 563,
+   "outcomes": {
+    "proper nontoroidal minor": 563
+   }
+  },
+  "edge_cd": {
+   "specification": {
+    "roots": [
+     "a",
+     "b",
+     "d"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "d"
+     ]
+    ],
+    "required edges of K'": []
+   },
+   "root placements": 4270,
+   "root placement classes": 115,
+   "full placements": 115,
+   "valid retained subdivisions": 115,
+   "recipes": 1227,
+   "parts up to rooted isomorphism": 563,
+   "outcomes": {
+    "proper nontoroidal minor": 558,
+    "catalogue graph": 4,
+    "K5 minor": 1
+   }
+  }
+ }
+}

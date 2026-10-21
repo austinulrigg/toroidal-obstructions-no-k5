@@ -1,0 +1,431 @@
+{
+ "item": "E15",
+ "verdicts": [
+  {
+   "id": "20-lifts-0000",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0001",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "c",
+     "u2"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": false,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": false
+   }
+  },
+  {
+   "id": "20-lifts-0002",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0003",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u5"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0004",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0005",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": false,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": false
+   }
+  },
+  {
+   "id": "20-lifts-0006",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0007",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0008",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0009",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0010",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0011",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0012",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0013",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "c",
+     "u2"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": false,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": false
+   }
+  },
+  {
+   "id": "20-lifts-0014",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0015",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0016",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0017",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "w"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": false,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": false
+   }
+  },
+  {
+   "id": "20-lifts-0018",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0019",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0020",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0021",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0022",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  },
+  {
+   "id": "20-lifts-0023",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p'"
+    ]
+   },
+   "case flags": {
+    "U+cw planar": true,
+    "U+cw+bw planar": false,
+    "U+cw+bc planar": false,
+    "in the item's case": true
+   }
+  }
+ ]
+}

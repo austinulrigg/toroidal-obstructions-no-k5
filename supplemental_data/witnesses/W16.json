@@ -1,0 +1,222 @@
+{
+ "item": "W16",
+ "where": "Proposition 6.6",
+ "claim": "Psi_3 with u, v from the two disjoint paths: edges ub, uc, uv, vd, ve and one of au, av. Both choices give T6.",
+ "graphs": [
+  {
+   "case": "keeping au",
+   "vertices": [
+    "p",
+    "a",
+    "b",
+    "c",
+    "q",
+    "r",
+    "d",
+    "e",
+    "z",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "a",
+     "p"
+    ],
+    [
+     "a",
+     "q"
+    ],
+    [
+     "a",
+     "r"
+    ],
+    [
+     "a",
+     "u"
+    ],
+    [
+     "a",
+     "z"
+    ],
+    [
+     "b",
+     "p"
+    ],
+    [
+     "b",
+     "q"
+    ],
+    [
+     "b",
+     "u"
+    ],
+    [
+     "c",
+     "p"
+    ],
+    [
+     "c",
+     "q"
+    ],
+    [
+     "c",
+     "u"
+    ],
+    [
+     "d",
+     "r"
+    ],
+    [
+     "d",
+     "v"
+    ],
+    [
+     "d",
+     "z"
+    ],
+    [
+     "e",
+     "r"
+    ],
+    [
+     "e",
+     "v"
+    ],
+    [
+     "e",
+     "z"
+    ],
+    [
+     "u",
+     "v"
+    ]
+   ],
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T6",
+    "map": {
+     "p": 4,
+     "a": 10,
+     "b": 1,
+     "c": 2,
+     "q": 3,
+     "r": 6,
+     "d": 8,
+     "e": 7,
+     "z": 5,
+     "u": 9,
+     "v": 0
+    }
+   }
+  },
+  {
+   "case": "keeping av",
+   "vertices": [
+    "p",
+    "a",
+    "b",
+    "c",
+    "q",
+    "r",
+    "d",
+    "e",
+    "z",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "a",
+     "p"
+    ],
+    [
+     "a",
+     "q"
+    ],
+    [
+     "a",
+     "r"
+    ],
+    [
+     "a",
+     "v"
+    ],
+    [
+     "a",
+     "z"
+    ],
+    [
+     "b",
+     "p"
+    ],
+    [
+     "b",
+     "q"
+    ],
+    [
+     "b",
+     "u"
+    ],
+    [
+     "c",
+     "p"
+    ],
+    [
+     "c",
+     "q"
+    ],
+    [
+     "c",
+     "u"
+    ],
+    [
+     "d",
+     "r"
+    ],
+    [
+     "d",
+     "v"
+    ],
+    [
+     "d",
+     "z"
+    ],
+    [
+     "e",
+     "r"
+    ],
+    [
+     "e",
+     "v"
+    ],
+    [
+     "e",
+     "z"
+    ],
+    [
+     "u",
+     "v"
+    ]
+   ],
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T6",
+    "map": {
+     "p": 6,
+     "a": 10,
+     "b": 7,
+     "c": 8,
+     "q": 5,
+     "r": 4,
+     "d": 2,
+     "e": 1,
+     "z": 3,
+     "u": 0,
+     "v": 9
+    }
+   }
+  }
+ ],
+ "note on T_i": "T_i vertex numbers are those of O1."
+}

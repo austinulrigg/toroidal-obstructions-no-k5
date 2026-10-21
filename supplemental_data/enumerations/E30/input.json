@@ -1,0 +1,157 @@
+{
+ "item": "E30",
+ "where": "Proposition 6.14",
+ "paper text": [
+  {
+   "line": 10092,
+   "text": "Thus $H_2'-de+ad+ae$ is still nonplanar, and both tests in\n\\eqref{r1:c1-caps} still fail for $B'$.\nIn the nonplanar case, $H_2'$ lies in their common subgraph,\nso again both tests fail.\n\nThe reduction keeps all four attachments and a connected interior\nwith at most nine vertices. Therefore\n$G'=(\\Psi_3\\cup B')+bd+E$ is a nontoroidal minor with at most\n$18$ vertices, and minimality gives $G'=G$.\nConstruction~\\ref{common:marked-construction}, using $E'$ and\nrequiring $de$ when $H_0$ is planar, therefore includes every\npossibility. The two choices of $E$ and the two subdivision\ncases give $66{,}384$ candidates.\nEvery resulting graph is toroidal, has a $K_5$ minor or a proper\nnontoroidal minor, or is one of thirteen graphs $\\mathfrak T_i$~\\supp{E30}."
+  }
+ ],
+ "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
+ "cases of the construction": {
+  "U_planar_cd": {
+   "specification": {
+    "roots": [
+     "a",
+     "c",
+     "d",
+     "e"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "c",
+      "d"
+     ],
+     [
+      "d",
+      "e"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "d",
+      "e"
+     ]
+    ]
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 344,
+   "recipes": 2638,
+   "parts up to rooted isomorphism": 1676,
+   "outcomes": {
+    "proper nontoroidal minor": 1506,
+    "K5 minor": 123,
+    "toroidal": 44,
+    "catalogue graph": 3
+   }
+  },
+  "U_planar_no_cd": {
+   "specification": {
+    "roots": [
+     "a",
+     "c",
+     "d",
+     "e"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "d",
+      "e"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "d",
+      "e"
+     ]
+    ]
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 344,
+   "recipes": 2989,
+   "parts up to rooted isomorphism": 2015,
+   "outcomes": {
+    "proper nontoroidal minor": 1652,
+    "K5 minor": 269,
+    "toroidal": 91,
+    "catalogue graph": 3
+   }
+  },
+  "U_nonplanar_cd": {
+   "specification": {
+    "roots": [
+     "a",
+     "c",
+     "d",
+     "e"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "c",
+      "d"
+     ]
+    ],
+    "required edges of K'": []
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 1392,
+   "recipes": 41280,
+   "parts up to rooted isomorphism": 24153,
+   "outcomes": {
+    "proper nontoroidal minor": 24145,
+    "K5 minor": 3,
+    "catalogue graph": 5
+   }
+  },
+  "U_nonplanar_no_cd": {
+   "specification": {
+    "roots": [
+     "a",
+     "c",
+     "d",
+     "e"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ]
+    ],
+    "required edges of K'": []
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 1392,
+   "recipes": 64250,
+   "parts up to rooted isomorphism": 38540,
+   "outcomes": {
+    "proper nontoroidal minor": 38530,
+    "catalogue graph": 5,
+    "K5 minor": 5
+   }
+  }
+ }
+}

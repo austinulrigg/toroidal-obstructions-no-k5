@@ -1,0 +1,112 @@
+{
+ "item": "W14",
+ "where": "Proposition 6.6",
+ "claim": "Psi_3, another bridge on {a,b,c} contracted to h, and Int(B) contracted to w with its edges to b, c deleted (so N(w) = {a,d,e}): this is T8, with cut vertex a.",
+ "graph": {
+  "vertices": [
+   "p",
+   "a",
+   "b",
+   "c",
+   "q",
+   "r",
+   "d",
+   "e",
+   "z",
+   "h",
+   "w"
+  ],
+  "edges": [
+   [
+    "a",
+    "h"
+   ],
+   [
+    "a",
+    "p"
+   ],
+   [
+    "a",
+    "q"
+   ],
+   [
+    "a",
+    "r"
+   ],
+   [
+    "a",
+    "w"
+   ],
+   [
+    "a",
+    "z"
+   ],
+   [
+    "b",
+    "h"
+   ],
+   [
+    "b",
+    "p"
+   ],
+   [
+    "b",
+    "q"
+   ],
+   [
+    "c",
+    "h"
+   ],
+   [
+    "c",
+    "p"
+   ],
+   [
+    "c",
+    "q"
+   ],
+   [
+    "d",
+    "r"
+   ],
+   [
+    "d",
+    "w"
+   ],
+   [
+    "d",
+    "z"
+   ],
+   [
+    "e",
+    "r"
+   ],
+   [
+    "e",
+    "w"
+   ],
+   [
+    "e",
+    "z"
+   ]
+  ]
+ },
+ "witness": {
+  "type": "isomorphism",
+  "onto": "T8",
+  "map": {
+   "p": 0,
+   "a": 10,
+   "b": 6,
+   "c": 7,
+   "q": 2,
+   "r": 4,
+   "d": 9,
+   "e": 8,
+   "z": 5,
+   "h": 1,
+   "w": 3
+  }
+ },
+ "note on T_i": "T_i vertex numbers are those of O1."
+}
