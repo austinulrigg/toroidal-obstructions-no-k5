@@ -7254,7 +7254,7 @@
    "cover.cnf": "cover.cnf",
    "cover.drat": "cover.drat.gz"
   },
-  "DRAT check": "drat-trim verifies that cover.cnf is unsatisfiable: c 262093 of 321582 clauses in core                            ; c 99215 of 119930 lemmas in core using 7239287 resolution steps; c 0 RAT lemmas in core; 48700 redundant literals in core lemmas; c verification time: 49.069 seconds"
+  "DRAT check": "drat-trim verifies that cover.cnf is unsatisfiable, with the proof cover.drat; the checker of this repository runs it"
  },
  "what this shows": "Every assembly allowed by the base clauses either lies inside a recorded toroidal graph, so it is toroidal, or contains a recorded nontoroidal graph. An obstruction of the case therefore equals a recorded nontoroidal graph in the family, and the verdicts of those give the stated list.",
  "not in this item": "The recorded nontoroidal graphs come with no certificate of nontoroidality here; their genus computations are part of the table of genus computations cited in Appendix A.",

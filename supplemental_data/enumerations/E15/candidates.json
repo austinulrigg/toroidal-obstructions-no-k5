@@ -2,7 +2,7 @@
  "item": "E15",
  "candidates": [
   {
-   "id": "20-lifts-0000",
+   "id": "E15-lifts-0000",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -209,7 +209,7 @@
    }
   },
   {
-   "id": "20-lifts-0001",
+   "id": "E15-lifts-0001",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -416,7 +416,7 @@
    }
   },
   {
-   "id": "20-lifts-0002",
+   "id": "E15-lifts-0002",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -623,7 +623,7 @@
    }
   },
   {
-   "id": "20-lifts-0003",
+   "id": "E15-lifts-0003",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -830,7 +830,7 @@
    }
   },
   {
-   "id": "20-lifts-0004",
+   "id": "E15-lifts-0004",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -1037,7 +1037,7 @@
    }
   },
   {
-   "id": "20-lifts-0005",
+   "id": "E15-lifts-0005",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -1244,7 +1244,7 @@
    }
   },
   {
-   "id": "20-lifts-0006",
+   "id": "E15-lifts-0006",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -1451,7 +1451,7 @@
    }
   },
   {
-   "id": "20-lifts-0007",
+   "id": "E15-lifts-0007",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -1648,7 +1648,7 @@
    }
   },
   {
-   "id": "20-lifts-0008",
+   "id": "E15-lifts-0008",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -1845,7 +1845,7 @@
    }
   },
   {
-   "id": "20-lifts-0009",
+   "id": "E15-lifts-0009",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -2042,7 +2042,7 @@
    }
   },
   {
-   "id": "20-lifts-0010",
+   "id": "E15-lifts-0010",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -2239,7 +2239,7 @@
    }
   },
   {
-   "id": "20-lifts-0011",
+   "id": "E15-lifts-0011",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -2436,7 +2436,7 @@
    }
   },
   {
-   "id": "20-lifts-0012",
+   "id": "E15-lifts-0012",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -2633,7 +2633,7 @@
    }
   },
   {
-   "id": "20-lifts-0013",
+   "id": "E15-lifts-0013",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -2830,7 +2830,7 @@
    }
   },
   {
-   "id": "20-lifts-0014",
+   "id": "E15-lifts-0014",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -3027,7 +3027,7 @@
    }
   },
   {
-   "id": "20-lifts-0015",
+   "id": "E15-lifts-0015",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -3216,7 +3216,7 @@
    }
   },
   {
-   "id": "20-lifts-0016",
+   "id": "E15-lifts-0016",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -3413,7 +3413,7 @@
    }
   },
   {
-   "id": "20-lifts-0017",
+   "id": "E15-lifts-0017",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -3610,7 +3610,7 @@
    }
   },
   {
-   "id": "20-lifts-0018",
+   "id": "E15-lifts-0018",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -3807,7 +3807,7 @@
    }
   },
   {
-   "id": "20-lifts-0019",
+   "id": "E15-lifts-0019",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -3994,7 +3994,7 @@
    }
   },
   {
-   "id": "20-lifts-0020",
+   "id": "E15-lifts-0020",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -4181,7 +4181,7 @@
    }
   },
   {
-   "id": "20-lifts-0021",
+   "id": "E15-lifts-0021",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -4360,7 +4360,7 @@
    }
   },
   {
-   "id": "20-lifts-0022",
+   "id": "E15-lifts-0022",
    "case": "lifts",
    "graph": {
     "vertices": [
@@ -4547,7 +4547,7 @@
    }
   },
   {
-   "id": "20-lifts-0023",
+   "id": "E15-lifts-0023",
    "case": "lifts",
    "graph": {
     "vertices": [

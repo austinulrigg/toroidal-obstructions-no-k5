@@ -2,7 +2,7 @@
  "item": "E27",
  "candidates": [
   {
-   "id": "32-ade-Q(a;d,e)",
+   "id": "E27-ade-Q(a;d,e)",
    "case": "ade",
    "graph": {
     "vertices": [
@@ -174,7 +174,7 @@
    "bd added": true
   },
   {
-   "id": "32-abd-Q(a;b,d)",
+   "id": "E27-abd-Q(a;b,d)",
    "case": "abd",
    "graph": {
     "vertices": [
@@ -342,7 +342,7 @@
    "bd added": false
   },
   {
-   "id": "32-abd-S(b;d)",
+   "id": "E27-abd-S(b;d)",
    "case": "abd",
    "graph": {
     "vertices": [
@@ -518,7 +518,7 @@
    "bd added": false
   },
   {
-   "id": "32-abd-S(d;b)",
+   "id": "E27-abd-S(d;b)",
    "case": "abd",
    "graph": {
     "vertices": [
@@ -694,7 +694,7 @@
    "bd added": false
   },
   {
-   "id": "32-abd-T(a)",
+   "id": "E27-abd-T(a)",
    "case": "abd",
    "graph": {
     "vertices": [
@@ -852,7 +852,7 @@
    "bd added": false
   },
   {
-   "id": "32-acd-Q(a;c,d)",
+   "id": "E27-acd-Q(a;c,d)",
    "case": "acd",
    "graph": {
     "vertices": [
@@ -1024,7 +1024,7 @@
    "bd added": true
   },
   {
-   "id": "32-acd-S(c;d)",
+   "id": "E27-acd-S(c;d)",
    "case": "acd",
    "graph": {
     "vertices": [
@@ -1204,7 +1204,7 @@
    "bd added": true
   },
   {
-   "id": "32-acd-S(d;c)",
+   "id": "E27-acd-S(d;c)",
    "case": "acd",
    "graph": {
     "vertices": [
@@ -1384,7 +1384,7 @@
    "bd added": true
   },
   {
-   "id": "32-acd-T(a)",
+   "id": "E27-acd-T(a)",
    "case": "acd",
    "graph": {
     "vertices": [

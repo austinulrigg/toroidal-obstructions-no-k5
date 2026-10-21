@@ -2,7 +2,7 @@
  "item": "E18",
  "verdicts": [
   {
-   "id": "23-singletons-0000",
+   "id": "E18-singletons-0000",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -13,7 +13,7 @@
    }
   },
   {
-   "id": "23-singletons-0001",
+   "id": "E18-singletons-0001",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -65,7 +65,7 @@
    }
   },
   {
-   "id": "23-singletons-0002",
+   "id": "E18-singletons-0002",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -123,7 +123,7 @@
    }
   },
   {
-   "id": "23-singletons-0003",
+   "id": "E18-singletons-0003",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -183,7 +183,7 @@
    }
   },
   {
-   "id": "23-singletons-0004",
+   "id": "E18-singletons-0004",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -249,7 +249,7 @@
    }
   },
   {
-   "id": "23-singletons-0005",
+   "id": "E18-singletons-0005",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -317,7 +317,7 @@
    }
   },
   {
-   "id": "23-singletons-0006",
+   "id": "E18-singletons-0006",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -391,7 +391,7 @@
    }
   },
   {
-   "id": "23-singletons-0007",
+   "id": "E18-singletons-0007",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -467,7 +467,7 @@
    }
   },
   {
-   "id": "23-singletons-0008",
+   "id": "E18-singletons-0008",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -549,7 +549,7 @@
    }
   },
   {
-   "id": "23-singletons-0009",
+   "id": "E18-singletons-0009",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -633,7 +633,7 @@
    }
   },
   {
-   "id": "23-singletons-0010",
+   "id": "E18-singletons-0010",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -645,7 +645,7 @@
    }
   },
   {
-   "id": "23-singletons-0011",
+   "id": "E18-singletons-0011",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -657,7 +657,7 @@
    }
   },
   {
-   "id": "23-singletons-0012",
+   "id": "E18-singletons-0012",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -715,7 +715,7 @@
    }
   },
   {
-   "id": "23-singletons-0013",
+   "id": "E18-singletons-0013",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -775,7 +775,7 @@
    }
   },
   {
-   "id": "23-singletons-0014",
+   "id": "E18-singletons-0014",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -841,7 +841,7 @@
    }
   },
   {
-   "id": "23-singletons-0015",
+   "id": "E18-singletons-0015",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -909,7 +909,7 @@
    }
   },
   {
-   "id": "23-singletons-0016",
+   "id": "E18-singletons-0016",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -983,7 +983,7 @@
    }
   },
   {
-   "id": "23-singletons-0017",
+   "id": "E18-singletons-0017",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1059,29 +1059,29 @@
    }
   },
   {
-   "id": "23-singletons-0018",
+   "id": "E18-singletons-0018",
    "verdict": "isomorphic to T10",
    "witness": {
     "type": "isomorphism",
     "onto": "T10",
     "map": {
-     "p": 0,
      "a": 8,
-     "r": 1,
-     "z": 2,
-     "q": 3,
      "acd0": 4,
-     "c": 9,
+     "b": 11,
      "bcd0": 5,
      "bcd1": 6,
      "bcd2": 7,
+     "c": 9,
      "d": 10,
-     "b": 11
+     "p": 0,
+     "q": 3,
+     "r": 1,
+     "z": 2
     }
    }
   },
   {
-   "id": "23-singletons-0019",
+   "id": "E18-singletons-0019",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1093,7 +1093,7 @@
    }
   },
   {
-   "id": "23-singletons-0020",
+   "id": "E18-singletons-0020",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1105,7 +1105,7 @@
    }
   },
   {
-   "id": "23-singletons-0021",
+   "id": "E18-singletons-0021",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1117,7 +1117,7 @@
    }
   },
   {
-   "id": "23-singletons-0022",
+   "id": "E18-singletons-0022",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1183,7 +1183,7 @@
    }
   },
   {
-   "id": "23-singletons-0023",
+   "id": "E18-singletons-0023",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1251,7 +1251,7 @@
    }
   },
   {
-   "id": "23-singletons-0024",
+   "id": "E18-singletons-0024",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1325,7 +1325,7 @@
    }
   },
   {
-   "id": "23-singletons-0025",
+   "id": "E18-singletons-0025",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1401,7 +1401,7 @@
    }
   },
   {
-   "id": "23-singletons-0026",
+   "id": "E18-singletons-0026",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1483,7 +1483,7 @@
    }
   },
   {
-   "id": "23-singletons-0027",
+   "id": "E18-singletons-0027",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1567,7 +1567,7 @@
    }
   },
   {
-   "id": "23-singletons-0028",
+   "id": "E18-singletons-0028",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1579,7 +1579,7 @@
    }
   },
   {
-   "id": "23-singletons-0029",
+   "id": "E18-singletons-0029",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1591,7 +1591,7 @@
    }
   },
   {
-   "id": "23-singletons-0030",
+   "id": "E18-singletons-0030",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1665,7 +1665,7 @@
    }
   },
   {
-   "id": "23-singletons-0031",
+   "id": "E18-singletons-0031",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1741,29 +1741,29 @@
    }
   },
   {
-   "id": "23-singletons-0032",
+   "id": "E18-singletons-0032",
    "verdict": "isomorphic to T10",
    "witness": {
     "type": "isomorphism",
     "onto": "T10",
     "map": {
-     "p": 0,
+     "a": 11,
+     "acd0": 5,
+     "acd1": 6,
+     "acd2": 7,
      "b": 8,
-     "r": 1,
-     "z": 2,
-     "q": 3,
      "bcd0": 4,
      "c": 9,
-     "acd1": 5,
-     "acd0": 6,
-     "acd2": 7,
      "d": 10,
-     "a": 11
+     "p": 0,
+     "q": 3,
+     "r": 1,
+     "z": 2
     }
    }
   },
   {
-   "id": "23-singletons-0033",
+   "id": "E18-singletons-0033",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1775,7 +1775,7 @@
    }
   },
   {
-   "id": "23-singletons-0034",
+   "id": "E18-singletons-0034",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1787,7 +1787,7 @@
    }
   },
   {
-   "id": "23-singletons-0035",
+   "id": "E18-singletons-0035",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1799,7 +1799,7 @@
    }
   },
   {
-   "id": "23-singletons-0036",
+   "id": "E18-singletons-0036",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1881,7 +1881,7 @@
    }
   },
   {
-   "id": "23-singletons-0037",
+   "id": "E18-singletons-0037",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1965,7 +1965,7 @@
    }
   },
   {
-   "id": "23-singletons-0038",
+   "id": "E18-singletons-0038",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1977,7 +1977,7 @@
    }
   },
   {
-   "id": "23-singletons-0039",
+   "id": "E18-singletons-0039",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1989,7 +1989,7 @@
    }
   },
   {
-   "id": "23-singletons-0040",
+   "id": "E18-singletons-0040",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2001,7 +2001,7 @@
    }
   },
   {
-   "id": "23-singletons-0041",
+   "id": "E18-singletons-0041",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2013,7 +2013,7 @@
    }
   },
   {
-   "id": "23-singletons-0042",
+   "id": "E18-singletons-0042",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2024,7 +2024,7 @@
    }
   },
   {
-   "id": "23-singletons-0043",
+   "id": "E18-singletons-0043",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2084,7 +2084,7 @@
    }
   },
   {
-   "id": "23-singletons-0044",
+   "id": "E18-singletons-0044",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2150,7 +2150,7 @@
    }
   },
   {
-   "id": "23-singletons-0045",
+   "id": "E18-singletons-0045",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2218,7 +2218,7 @@
    }
   },
   {
-   "id": "23-singletons-0046",
+   "id": "E18-singletons-0046",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2292,7 +2292,7 @@
    }
   },
   {
-   "id": "23-singletons-0047",
+   "id": "E18-singletons-0047",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2368,29 +2368,29 @@
    }
   },
   {
-   "id": "23-singletons-0048",
+   "id": "E18-singletons-0048",
    "verdict": "isomorphic to T9",
    "witness": {
     "type": "isomorphism",
     "onto": "T9",
     "map": {
-     "r": 0,
      "a": 8,
-     "z": 4,
-     "abd2": 5,
-     "q": 6,
-     "p": 7,
-     "c": 9,
+     "abd2": 0,
+     "b": 11,
      "bcd0": 1,
      "bcd1": 2,
      "bcd2": 3,
+     "c": 9,
      "d": 10,
-     "b": 11
+     "p": 6,
+     "q": 7,
+     "r": 4,
+     "z": 5
     }
    }
   },
   {
-   "id": "23-singletons-0049",
+   "id": "E18-singletons-0049",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2402,7 +2402,7 @@
    }
   },
   {
-   "id": "23-singletons-0050",
+   "id": "E18-singletons-0050",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2414,7 +2414,7 @@
    }
   },
   {
-   "id": "23-singletons-0051",
+   "id": "E18-singletons-0051",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2426,7 +2426,7 @@
    }
   },
   {
-   "id": "23-singletons-0052",
+   "id": "E18-singletons-0052",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2492,7 +2492,7 @@
    }
   },
   {
-   "id": "23-singletons-0053",
+   "id": "E18-singletons-0053",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2560,7 +2560,7 @@
    }
   },
   {
-   "id": "23-singletons-0054",
+   "id": "E18-singletons-0054",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2634,7 +2634,7 @@
    }
   },
   {
-   "id": "23-singletons-0055",
+   "id": "E18-singletons-0055",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2710,29 +2710,29 @@
    }
   },
   {
-   "id": "23-singletons-0056",
+   "id": "E18-singletons-0056",
    "verdict": "isomorphic to T10",
    "witness": {
     "type": "isomorphism",
     "onto": "T10",
     "map": {
-     "p": 0,
-     "c": 8,
+     "a": 9,
+     "abd2": 5,
+     "acd0": 4,
+     "b": 11,
      "bcd0": 1,
      "bcd1": 2,
-     "q": 3,
-     "acd0": 4,
-     "a": 9,
-     "r": 5,
-     "abd2": 6,
-     "z": 7,
+     "c": 8,
      "d": 10,
-     "b": 11
+     "p": 0,
+     "q": 3,
+     "r": 6,
+     "z": 7
     }
    }
   },
   {
-   "id": "23-singletons-0057",
+   "id": "E18-singletons-0057",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2744,7 +2744,7 @@
    }
   },
   {
-   "id": "23-singletons-0058",
+   "id": "E18-singletons-0058",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2756,7 +2756,7 @@
    }
   },
   {
-   "id": "23-singletons-0059",
+   "id": "E18-singletons-0059",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2768,7 +2768,7 @@
    }
   },
   {
-   "id": "23-singletons-0060",
+   "id": "E18-singletons-0060",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2842,7 +2842,7 @@
    }
   },
   {
-   "id": "23-singletons-0061",
+   "id": "E18-singletons-0061",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2918,29 +2918,29 @@
    }
   },
   {
-   "id": "23-singletons-0062",
+   "id": "E18-singletons-0062",
    "verdict": "isomorphic to T10",
    "witness": {
     "type": "isomorphism",
     "onto": "T10",
     "map": {
-     "p": 0,
-     "c": 8,
-     "acd1": 1,
-     "acd0": 2,
-     "q": 3,
+     "a": 11,
+     "abd2": 5,
+     "acd0": 0,
+     "acd1": 3,
+     "b": 10,
      "bcd0": 4,
-     "b": 9,
-     "r": 5,
-     "abd2": 6,
-     "z": 7,
-     "d": 10,
-     "a": 11
+     "c": 8,
+     "d": 9,
+     "p": 1,
+     "q": 2,
+     "r": 6,
+     "z": 7
     }
    }
   },
   {
-   "id": "23-singletons-0063",
+   "id": "E18-singletons-0063",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2952,7 +2952,7 @@
    }
   },
   {
-   "id": "23-singletons-0064",
+   "id": "E18-singletons-0064",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2964,7 +2964,7 @@
    }
   },
   {
-   "id": "23-singletons-0065",
+   "id": "E18-singletons-0065",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2976,29 +2976,29 @@
    }
   },
   {
-   "id": "23-singletons-0066",
+   "id": "E18-singletons-0066",
    "verdict": "isomorphic to T9",
    "witness": {
     "type": "isomorphism",
     "onto": "T9",
     "map": {
-     "r": 0,
-     "b": 8,
-     "z": 4,
-     "abd2": 5,
-     "q": 6,
-     "p": 7,
-     "c": 9,
-     "acd1": 1,
-     "acd0": 2,
+     "a": 11,
+     "abd2": 0,
+     "acd0": 1,
+     "acd1": 2,
      "acd2": 3,
+     "b": 8,
+     "c": 9,
      "d": 10,
-     "a": 11
+     "p": 6,
+     "q": 7,
+     "r": 4,
+     "z": 5
     }
    }
   },
   {
-   "id": "23-singletons-0067",
+   "id": "E18-singletons-0067",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3010,7 +3010,7 @@
    }
   },
   {
-   "id": "23-singletons-0068",
+   "id": "E18-singletons-0068",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3022,7 +3022,7 @@
    }
   },
   {
-   "id": "23-singletons-0069",
+   "id": "E18-singletons-0069",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3034,7 +3034,7 @@
    }
   },
   {
-   "id": "23-singletons-0070",
+   "id": "E18-singletons-0070",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3046,7 +3046,7 @@
    }
   },
   {
-   "id": "23-singletons-0071",
+   "id": "E18-singletons-0071",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3058,7 +3058,7 @@
    }
   },
   {
-   "id": "23-singletons-0072",
+   "id": "E18-singletons-0072",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3069,7 +3069,7 @@
    }
   },
   {
-   "id": "23-singletons-0073",
+   "id": "E18-singletons-0073",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3137,7 +3137,7 @@
    }
   },
   {
-   "id": "23-singletons-0074",
+   "id": "E18-singletons-0074",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3211,7 +3211,7 @@
    }
   },
   {
-   "id": "23-singletons-0075",
+   "id": "E18-singletons-0075",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3287,7 +3287,7 @@
    }
   },
   {
-   "id": "23-singletons-0076",
+   "id": "E18-singletons-0076",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3369,7 +3369,7 @@
    }
   },
   {
-   "id": "23-singletons-0077",
+   "id": "E18-singletons-0077",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3453,7 +3453,7 @@
    }
   },
   {
-   "id": "23-singletons-0078",
+   "id": "E18-singletons-0078",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3465,7 +3465,7 @@
    }
   },
   {
-   "id": "23-singletons-0079",
+   "id": "E18-singletons-0079",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3477,7 +3477,7 @@
    }
   },
   {
-   "id": "23-singletons-0080",
+   "id": "E18-singletons-0080",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3551,7 +3551,7 @@
    }
   },
   {
-   "id": "23-singletons-0081",
+   "id": "E18-singletons-0081",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3627,29 +3627,29 @@
    }
   },
   {
-   "id": "23-singletons-0082",
+   "id": "E18-singletons-0082",
    "verdict": "isomorphic to T16",
    "witness": {
     "type": "isomorphism",
     "onto": "T16",
     "map": {
-     "acd0": 0,
-     "c": 8,
-     "bcd0": 1,
-     "q": 2,
-     "p": 3,
-     "d": 9,
-     "r": 4,
-     "abd3": 5,
-     "abd2": 6,
-     "z": 7,
      "a": 10,
-     "b": 11
+     "abd2": 4,
+     "abd3": 5,
+     "acd0": 0,
+     "b": 11,
+     "bcd0": 1,
+     "c": 8,
+     "d": 9,
+     "p": 2,
+     "q": 3,
+     "r": 6,
+     "z": 7
     }
    }
   },
   {
-   "id": "23-singletons-0083",
+   "id": "E18-singletons-0083",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3661,7 +3661,7 @@
    }
   },
   {
-   "id": "23-singletons-0084",
+   "id": "E18-singletons-0084",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3673,7 +3673,7 @@
    }
   },
   {
-   "id": "23-singletons-0085",
+   "id": "E18-singletons-0085",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3685,7 +3685,7 @@
    }
   },
   {
-   "id": "23-singletons-0086",
+   "id": "E18-singletons-0086",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3767,7 +3767,7 @@
    }
   },
   {
-   "id": "23-singletons-0087",
+   "id": "E18-singletons-0087",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3851,7 +3851,7 @@
    }
   },
   {
-   "id": "23-singletons-0088",
+   "id": "E18-singletons-0088",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3863,7 +3863,7 @@
    }
   },
   {
-   "id": "23-singletons-0089",
+   "id": "E18-singletons-0089",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3875,7 +3875,7 @@
    }
   },
   {
-   "id": "23-singletons-0090",
+   "id": "E18-singletons-0090",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3887,7 +3887,7 @@
    }
   },
   {
-   "id": "23-singletons-0091",
+   "id": "E18-singletons-0091",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3899,7 +3899,7 @@
    }
   },
   {
-   "id": "23-singletons-0092",
+   "id": "E18-singletons-0092",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3910,7 +3910,7 @@
    }
   },
   {
-   "id": "23-singletons-0093",
+   "id": "E18-singletons-0093",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3922,7 +3922,7 @@
    }
   },
   {
-   "id": "23-singletons-0094",
+   "id": "E18-singletons-0094",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3934,7 +3934,7 @@
    }
   },
   {
-   "id": "23-singletons-0095",
+   "id": "E18-singletons-0095",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3946,7 +3946,7 @@
    }
   },
   {
-   "id": "23-singletons-0096",
+   "id": "E18-singletons-0096",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3958,7 +3958,7 @@
    }
   },
   {
-   "id": "23-singletons-0097",
+   "id": "E18-singletons-0097",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3970,7 +3970,7 @@
    }
   },
   {
-   "id": "23-singletons-0098",
+   "id": "E18-singletons-0098",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3982,7 +3982,7 @@
    }
   },
   {
-   "id": "23-singletons-0099",
+   "id": "E18-singletons-0099",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3994,7 +3994,7 @@
    }
   },
   {
-   "id": "23-singletons-0100",
+   "id": "E18-singletons-0100",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4006,7 +4006,7 @@
    }
   },
   {
-   "id": "23-singletons-0101",
+   "id": "E18-singletons-0101",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4018,7 +4018,7 @@
    }
   },
   {
-   "id": "23-singletons-0102",
+   "id": "E18-singletons-0102",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4030,7 +4030,7 @@
    }
   },
   {
-   "id": "23-singletons-0103",
+   "id": "E18-singletons-0103",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4042,7 +4042,7 @@
    }
   },
   {
-   "id": "23-singletons-0104",
+   "id": "E18-singletons-0104",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4053,7 +4053,7 @@
    }
   },
   {
-   "id": "23-singletons-0105",
+   "id": "E18-singletons-0105",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4065,7 +4065,7 @@
    }
   },
   {
-   "id": "23-singletons-0106",
+   "id": "E18-singletons-0106",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4077,7 +4077,7 @@
    }
   },
   {
-   "id": "23-singletons-0107",
+   "id": "E18-singletons-0107",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4089,7 +4089,7 @@
    }
   },
   {
-   "id": "23-singletons-0108",
+   "id": "E18-singletons-0108",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4101,7 +4101,7 @@
    }
   },
   {
-   "id": "23-singletons-0109",
+   "id": "E18-singletons-0109",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4113,7 +4113,7 @@
    }
   },
   {
-   "id": "23-singletons-0110",
+   "id": "E18-singletons-0110",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4124,7 +4124,7 @@
    }
   },
   {
-   "id": "23-singletons-0111",
+   "id": "E18-singletons-0111",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4136,7 +4136,7 @@
    }
   },
   {
-   "id": "23-singletons-0112",
+   "id": "E18-singletons-0112",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4147,7 +4147,7 @@
    }
   },
   {
-   "id": "23-singletons-0113",
+   "id": "E18-singletons-0113",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4207,7 +4207,7 @@
    }
   },
   {
-   "id": "23-singletons-0114",
+   "id": "E18-singletons-0114",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4273,7 +4273,7 @@
    }
   },
   {
-   "id": "23-singletons-0115",
+   "id": "E18-singletons-0115",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4341,7 +4341,7 @@
    }
   },
   {
-   "id": "23-singletons-0116",
+   "id": "E18-singletons-0116",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4415,7 +4415,7 @@
    }
   },
   {
-   "id": "23-singletons-0117",
+   "id": "E18-singletons-0117",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4491,29 +4491,29 @@
    }
   },
   {
-   "id": "23-singletons-0118",
+   "id": "E18-singletons-0118",
    "verdict": "isomorphic to T9",
    "witness": {
     "type": "isomorphism",
     "onto": "T9",
     "map": {
-     "p": 0,
      "a": 8,
-     "q": 4,
-     "abc2": 5,
-     "r": 6,
-     "z": 7,
-     "d": 9,
+     "abc2": 0,
+     "b": 11,
      "bcd0": 1,
      "bcd1": 2,
      "bcd2": 3,
      "c": 10,
-     "b": 11
+     "d": 9,
+     "p": 4,
+     "q": 5,
+     "r": 6,
+     "z": 7
     }
    }
   },
   {
-   "id": "23-singletons-0119",
+   "id": "E18-singletons-0119",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4525,7 +4525,7 @@
    }
   },
   {
-   "id": "23-singletons-0120",
+   "id": "E18-singletons-0120",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4537,7 +4537,7 @@
    }
   },
   {
-   "id": "23-singletons-0121",
+   "id": "E18-singletons-0121",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4549,7 +4549,7 @@
    }
   },
   {
-   "id": "23-singletons-0122",
+   "id": "E18-singletons-0122",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4615,7 +4615,7 @@
    }
   },
   {
-   "id": "23-singletons-0123",
+   "id": "E18-singletons-0123",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4683,7 +4683,7 @@
    }
   },
   {
-   "id": "23-singletons-0124",
+   "id": "E18-singletons-0124",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4757,7 +4757,7 @@
    }
   },
   {
-   "id": "23-singletons-0125",
+   "id": "E18-singletons-0125",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4833,29 +4833,29 @@
    }
   },
   {
-   "id": "23-singletons-0126",
+   "id": "E18-singletons-0126",
    "verdict": "isomorphic to T10",
    "witness": {
     "type": "isomorphism",
     "onto": "T10",
     "map": {
-     "r": 0,
-     "d": 8,
+     "a": 9,
+     "abc2": 5,
+     "acd0": 4,
+     "b": 11,
      "bcd0": 1,
      "bcd1": 2,
-     "z": 3,
-     "acd0": 4,
-     "a": 9,
-     "q": 5,
-     "abc2": 6,
-     "p": 7,
      "c": 10,
-     "b": 11
+     "d": 8,
+     "p": 6,
+     "q": 7,
+     "r": 0,
+     "z": 3
     }
    }
   },
   {
-   "id": "23-singletons-0127",
+   "id": "E18-singletons-0127",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4867,7 +4867,7 @@
    }
   },
   {
-   "id": "23-singletons-0128",
+   "id": "E18-singletons-0128",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4879,7 +4879,7 @@
    }
   },
   {
-   "id": "23-singletons-0129",
+   "id": "E18-singletons-0129",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4891,7 +4891,7 @@
    }
   },
   {
-   "id": "23-singletons-0130",
+   "id": "E18-singletons-0130",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4965,7 +4965,7 @@
    }
   },
   {
-   "id": "23-singletons-0131",
+   "id": "E18-singletons-0131",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5041,29 +5041,29 @@
    }
   },
   {
-   "id": "23-singletons-0132",
+   "id": "E18-singletons-0132",
    "verdict": "isomorphic to T10",
    "witness": {
     "type": "isomorphism",
     "onto": "T10",
     "map": {
-     "r": 0,
-     "d": 8,
-     "acd1": 1,
-     "acd0": 2,
-     "z": 3,
+     "a": 11,
+     "abc2": 5,
+     "acd0": 0,
+     "acd1": 3,
+     "b": 10,
      "bcd0": 4,
-     "b": 9,
-     "q": 5,
-     "abc2": 6,
-     "p": 7,
-     "c": 10,
-     "a": 11
+     "c": 9,
+     "d": 8,
+     "p": 6,
+     "q": 7,
+     "r": 1,
+     "z": 2
     }
    }
   },
   {
-   "id": "23-singletons-0133",
+   "id": "E18-singletons-0133",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5075,7 +5075,7 @@
    }
   },
   {
-   "id": "23-singletons-0134",
+   "id": "E18-singletons-0134",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5087,7 +5087,7 @@
    }
   },
   {
-   "id": "23-singletons-0135",
+   "id": "E18-singletons-0135",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5099,29 +5099,29 @@
    }
   },
   {
-   "id": "23-singletons-0136",
+   "id": "E18-singletons-0136",
    "verdict": "isomorphic to T9",
    "witness": {
     "type": "isomorphism",
     "onto": "T9",
     "map": {
-     "p": 0,
-     "b": 8,
-     "q": 4,
-     "abc2": 5,
-     "r": 6,
-     "z": 7,
-     "d": 9,
-     "acd1": 1,
-     "acd0": 2,
+     "a": 11,
+     "abc2": 0,
+     "acd0": 1,
+     "acd1": 2,
      "acd2": 3,
+     "b": 8,
      "c": 10,
-     "a": 11
+     "d": 9,
+     "p": 4,
+     "q": 5,
+     "r": 6,
+     "z": 7
     }
    }
   },
   {
-   "id": "23-singletons-0137",
+   "id": "E18-singletons-0137",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5133,7 +5133,7 @@
    }
   },
   {
-   "id": "23-singletons-0138",
+   "id": "E18-singletons-0138",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5145,7 +5145,7 @@
    }
   },
   {
-   "id": "23-singletons-0139",
+   "id": "E18-singletons-0139",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5157,7 +5157,7 @@
    }
   },
   {
-   "id": "23-singletons-0140",
+   "id": "E18-singletons-0140",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5169,7 +5169,7 @@
    }
   },
   {
-   "id": "23-singletons-0141",
+   "id": "E18-singletons-0141",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5181,7 +5181,7 @@
    }
   },
   {
-   "id": "23-singletons-0142",
+   "id": "E18-singletons-0142",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -5192,7 +5192,7 @@
    }
   },
   {
-   "id": "23-singletons-0143",
+   "id": "E18-singletons-0143",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5260,7 +5260,7 @@
    }
   },
   {
-   "id": "23-singletons-0144",
+   "id": "E18-singletons-0144",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5334,7 +5334,7 @@
    }
   },
   {
-   "id": "23-singletons-0145",
+   "id": "E18-singletons-0145",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5410,29 +5410,29 @@
    }
   },
   {
-   "id": "23-singletons-0146",
+   "id": "E18-singletons-0146",
    "verdict": "isomorphic to T9",
    "witness": {
     "type": "isomorphism",
     "onto": "T9",
     "map": {
-     "p": 0,
-     "c": 8,
-     "q": 4,
-     "abc2": 5,
+     "a": 10,
+     "abc2": 0,
+     "abd2": 1,
+     "b": 11,
      "bcd0": 6,
      "bcd1": 7,
+     "c": 8,
      "d": 9,
-     "r": 1,
-     "abd2": 2,
-     "z": 3,
-     "a": 10,
-     "b": 11
+     "p": 4,
+     "q": 5,
+     "r": 2,
+     "z": 3
     }
    }
   },
   {
-   "id": "23-singletons-0147",
+   "id": "E18-singletons-0147",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5444,7 +5444,7 @@
    }
   },
   {
-   "id": "23-singletons-0148",
+   "id": "E18-singletons-0148",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5456,7 +5456,7 @@
    }
   },
   {
-   "id": "23-singletons-0149",
+   "id": "E18-singletons-0149",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5468,7 +5468,7 @@
    }
   },
   {
-   "id": "23-singletons-0150",
+   "id": "E18-singletons-0150",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5542,7 +5542,7 @@
    }
   },
   {
-   "id": "23-singletons-0151",
+   "id": "E18-singletons-0151",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5618,7 +5618,7 @@
    }
   },
   {
-   "id": "23-singletons-0152",
+   "id": "E18-singletons-0152",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5700,7 +5700,7 @@
    }
   },
   {
-   "id": "23-singletons-0153",
+   "id": "E18-singletons-0153",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5784,7 +5784,7 @@
    }
   },
   {
-   "id": "23-singletons-0154",
+   "id": "E18-singletons-0154",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5796,7 +5796,7 @@
    }
   },
   {
-   "id": "23-singletons-0155",
+   "id": "E18-singletons-0155",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5808,29 +5808,29 @@
    }
   },
   {
-   "id": "23-singletons-0156",
+   "id": "E18-singletons-0156",
    "verdict": "isomorphic to T9",
    "witness": {
     "type": "isomorphism",
     "onto": "T9",
     "map": {
-     "p": 0,
-     "c": 8,
-     "q": 4,
-     "abc2": 5,
-     "acd1": 6,
-     "acd0": 7,
-     "d": 9,
-     "r": 1,
-     "abd2": 2,
-     "z": 3,
+     "a": 11,
+     "abc2": 0,
+     "abd2": 1,
+     "acd0": 6,
+     "acd1": 7,
      "b": 10,
-     "a": 11
+     "c": 8,
+     "d": 9,
+     "p": 4,
+     "q": 5,
+     "r": 2,
+     "z": 3
     }
    }
   },
   {
-   "id": "23-singletons-0157",
+   "id": "E18-singletons-0157",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5842,7 +5842,7 @@
    }
   },
   {
-   "id": "23-singletons-0158",
+   "id": "E18-singletons-0158",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5854,7 +5854,7 @@
    }
   },
   {
-   "id": "23-singletons-0159",
+   "id": "E18-singletons-0159",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5866,7 +5866,7 @@
    }
   },
   {
-   "id": "23-singletons-0160",
+   "id": "E18-singletons-0160",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5878,7 +5878,7 @@
    }
   },
   {
-   "id": "23-singletons-0161",
+   "id": "E18-singletons-0161",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5890,7 +5890,7 @@
    }
   },
   {
-   "id": "23-singletons-0162",
+   "id": "E18-singletons-0162",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -5901,7 +5901,7 @@
    }
   },
   {
-   "id": "23-singletons-0163",
+   "id": "E18-singletons-0163",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5913,7 +5913,7 @@
    }
   },
   {
-   "id": "23-singletons-0164",
+   "id": "E18-singletons-0164",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5925,7 +5925,7 @@
    }
   },
   {
-   "id": "23-singletons-0165",
+   "id": "E18-singletons-0165",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5937,7 +5937,7 @@
    }
   },
   {
-   "id": "23-singletons-0166",
+   "id": "E18-singletons-0166",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5949,7 +5949,7 @@
    }
   },
   {
-   "id": "23-singletons-0167",
+   "id": "E18-singletons-0167",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5961,7 +5961,7 @@
    }
   },
   {
-   "id": "23-singletons-0168",
+   "id": "E18-singletons-0168",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5973,7 +5973,7 @@
    }
   },
   {
-   "id": "23-singletons-0169",
+   "id": "E18-singletons-0169",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5985,7 +5985,7 @@
    }
   },
   {
-   "id": "23-singletons-0170",
+   "id": "E18-singletons-0170",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5997,7 +5997,7 @@
    }
   },
   {
-   "id": "23-singletons-0171",
+   "id": "E18-singletons-0171",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6009,7 +6009,7 @@
    }
   },
   {
-   "id": "23-singletons-0172",
+   "id": "E18-singletons-0172",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6021,7 +6021,7 @@
    }
   },
   {
-   "id": "23-singletons-0173",
+   "id": "E18-singletons-0173",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6033,7 +6033,7 @@
    }
   },
   {
-   "id": "23-singletons-0174",
+   "id": "E18-singletons-0174",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6044,7 +6044,7 @@
    }
   },
   {
-   "id": "23-singletons-0175",
+   "id": "E18-singletons-0175",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6056,7 +6056,7 @@
    }
   },
   {
-   "id": "23-singletons-0176",
+   "id": "E18-singletons-0176",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6068,7 +6068,7 @@
    }
   },
   {
-   "id": "23-singletons-0177",
+   "id": "E18-singletons-0177",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6080,7 +6080,7 @@
    }
   },
   {
-   "id": "23-singletons-0178",
+   "id": "E18-singletons-0178",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6092,7 +6092,7 @@
    }
   },
   {
-   "id": "23-singletons-0179",
+   "id": "E18-singletons-0179",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6104,7 +6104,7 @@
    }
   },
   {
-   "id": "23-singletons-0180",
+   "id": "E18-singletons-0180",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6115,7 +6115,7 @@
    }
   },
   {
-   "id": "23-singletons-0181",
+   "id": "E18-singletons-0181",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6127,7 +6127,7 @@
    }
   },
   {
-   "id": "23-singletons-0182",
+   "id": "E18-singletons-0182",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6138,7 +6138,7 @@
    }
   },
   {
-   "id": "23-singletons-0183",
+   "id": "E18-singletons-0183",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6206,7 +6206,7 @@
    }
   },
   {
-   "id": "23-singletons-0184",
+   "id": "E18-singletons-0184",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6280,7 +6280,7 @@
    }
   },
   {
-   "id": "23-singletons-0185",
+   "id": "E18-singletons-0185",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6356,7 +6356,7 @@
    }
   },
   {
-   "id": "23-singletons-0186",
+   "id": "E18-singletons-0186",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6438,7 +6438,7 @@
    }
   },
   {
-   "id": "23-singletons-0187",
+   "id": "E18-singletons-0187",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6522,7 +6522,7 @@
    }
   },
   {
-   "id": "23-singletons-0188",
+   "id": "E18-singletons-0188",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6534,7 +6534,7 @@
    }
   },
   {
-   "id": "23-singletons-0189",
+   "id": "E18-singletons-0189",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6546,7 +6546,7 @@
    }
   },
   {
-   "id": "23-singletons-0190",
+   "id": "E18-singletons-0190",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6620,7 +6620,7 @@
    }
   },
   {
-   "id": "23-singletons-0191",
+   "id": "E18-singletons-0191",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6696,29 +6696,29 @@
    }
   },
   {
-   "id": "23-singletons-0192",
+   "id": "E18-singletons-0192",
    "verdict": "isomorphic to T16",
    "witness": {
     "type": "isomorphism",
     "onto": "T16",
     "map": {
-     "acd0": 0,
-     "d": 8,
-     "bcd0": 1,
-     "r": 2,
-     "z": 3,
-     "c": 9,
-     "q": 4,
-     "abc2": 5,
-     "abc3": 6,
-     "p": 7,
      "a": 10,
-     "b": 11
+     "abc2": 4,
+     "abc3": 5,
+     "acd0": 0,
+     "b": 11,
+     "bcd0": 1,
+     "c": 9,
+     "d": 8,
+     "p": 6,
+     "q": 7,
+     "r": 2,
+     "z": 3
     }
    }
   },
   {
-   "id": "23-singletons-0193",
+   "id": "E18-singletons-0193",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6730,7 +6730,7 @@
    }
   },
   {
-   "id": "23-singletons-0194",
+   "id": "E18-singletons-0194",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6742,7 +6742,7 @@
    }
   },
   {
-   "id": "23-singletons-0195",
+   "id": "E18-singletons-0195",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6754,7 +6754,7 @@
    }
   },
   {
-   "id": "23-singletons-0196",
+   "id": "E18-singletons-0196",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6836,7 +6836,7 @@
    }
   },
   {
-   "id": "23-singletons-0197",
+   "id": "E18-singletons-0197",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6920,7 +6920,7 @@
    }
   },
   {
-   "id": "23-singletons-0198",
+   "id": "E18-singletons-0198",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6932,7 +6932,7 @@
    }
   },
   {
-   "id": "23-singletons-0199",
+   "id": "E18-singletons-0199",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6944,7 +6944,7 @@
    }
   },
   {
-   "id": "23-singletons-0200",
+   "id": "E18-singletons-0200",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6956,7 +6956,7 @@
    }
   },
   {
-   "id": "23-singletons-0201",
+   "id": "E18-singletons-0201",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6968,7 +6968,7 @@
    }
   },
   {
-   "id": "23-singletons-0202",
+   "id": "E18-singletons-0202",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6979,7 +6979,7 @@
    }
   },
   {
-   "id": "23-singletons-0203",
+   "id": "E18-singletons-0203",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6991,7 +6991,7 @@
    }
   },
   {
-   "id": "23-singletons-0204",
+   "id": "E18-singletons-0204",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7003,7 +7003,7 @@
    }
   },
   {
-   "id": "23-singletons-0205",
+   "id": "E18-singletons-0205",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7015,7 +7015,7 @@
    }
   },
   {
-   "id": "23-singletons-0206",
+   "id": "E18-singletons-0206",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7027,7 +7027,7 @@
    }
   },
   {
-   "id": "23-singletons-0207",
+   "id": "E18-singletons-0207",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7039,7 +7039,7 @@
    }
   },
   {
-   "id": "23-singletons-0208",
+   "id": "E18-singletons-0208",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7051,7 +7051,7 @@
    }
   },
   {
-   "id": "23-singletons-0209",
+   "id": "E18-singletons-0209",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7063,7 +7063,7 @@
    }
   },
   {
-   "id": "23-singletons-0210",
+   "id": "E18-singletons-0210",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7075,7 +7075,7 @@
    }
   },
   {
-   "id": "23-singletons-0211",
+   "id": "E18-singletons-0211",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7087,7 +7087,7 @@
    }
   },
   {
-   "id": "23-singletons-0212",
+   "id": "E18-singletons-0212",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7099,7 +7099,7 @@
    }
   },
   {
-   "id": "23-singletons-0213",
+   "id": "E18-singletons-0213",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7111,7 +7111,7 @@
    }
   },
   {
-   "id": "23-singletons-0214",
+   "id": "E18-singletons-0214",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7122,7 +7122,7 @@
    }
   },
   {
-   "id": "23-singletons-0215",
+   "id": "E18-singletons-0215",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7134,7 +7134,7 @@
    }
   },
   {
-   "id": "23-singletons-0216",
+   "id": "E18-singletons-0216",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7146,7 +7146,7 @@
    }
   },
   {
-   "id": "23-singletons-0217",
+   "id": "E18-singletons-0217",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7158,7 +7158,7 @@
    }
   },
   {
-   "id": "23-singletons-0218",
+   "id": "E18-singletons-0218",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7170,7 +7170,7 @@
    }
   },
   {
-   "id": "23-singletons-0219",
+   "id": "E18-singletons-0219",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7182,7 +7182,7 @@
    }
   },
   {
-   "id": "23-singletons-0220",
+   "id": "E18-singletons-0220",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7193,7 +7193,7 @@
    }
   },
   {
-   "id": "23-singletons-0221",
+   "id": "E18-singletons-0221",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7205,7 +7205,7 @@
    }
   },
   {
-   "id": "23-singletons-0222",
+   "id": "E18-singletons-0222",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7216,7 +7216,7 @@
    }
   },
   {
-   "id": "23-singletons-0223",
+   "id": "E18-singletons-0223",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7228,7 +7228,7 @@
    }
   },
   {
-   "id": "23-singletons-0224",
+   "id": "E18-singletons-0224",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7240,7 +7240,7 @@
    }
   },
   {
-   "id": "23-singletons-0225",
+   "id": "E18-singletons-0225",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7252,7 +7252,7 @@
    }
   },
   {
-   "id": "23-singletons-0226",
+   "id": "E18-singletons-0226",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7264,7 +7264,7 @@
    }
   },
   {
-   "id": "23-singletons-0227",
+   "id": "E18-singletons-0227",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7276,7 +7276,7 @@
    }
   },
   {
-   "id": "23-singletons-0228",
+   "id": "E18-singletons-0228",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7288,7 +7288,7 @@
    }
   },
   {
-   "id": "23-singletons-0229",
+   "id": "E18-singletons-0229",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7300,7 +7300,7 @@
    }
   },
   {
-   "id": "23-singletons-0230",
+   "id": "E18-singletons-0230",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7312,7 +7312,7 @@
    }
   },
   {
-   "id": "23-singletons-0231",
+   "id": "E18-singletons-0231",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7324,7 +7324,7 @@
    }
   },
   {
-   "id": "23-singletons-0232",
+   "id": "E18-singletons-0232",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7336,7 +7336,7 @@
    }
   },
   {
-   "id": "23-singletons-0233",
+   "id": "E18-singletons-0233",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7348,7 +7348,7 @@
    }
   },
   {
-   "id": "23-singletons-0234",
+   "id": "E18-singletons-0234",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7359,7 +7359,7 @@
    }
   },
   {
-   "id": "23-singletons-0235",
+   "id": "E18-singletons-0235",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7371,7 +7371,7 @@
    }
   },
   {
-   "id": "23-singletons-0236",
+   "id": "E18-singletons-0236",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7383,7 +7383,7 @@
    }
   },
   {
-   "id": "23-singletons-0237",
+   "id": "E18-singletons-0237",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7395,7 +7395,7 @@
    }
   },
   {
-   "id": "23-singletons-0238",
+   "id": "E18-singletons-0238",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7407,7 +7407,7 @@
    }
   },
   {
-   "id": "23-singletons-0239",
+   "id": "E18-singletons-0239",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7419,7 +7419,7 @@
    }
   },
   {
-   "id": "23-singletons-0240",
+   "id": "E18-singletons-0240",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7430,7 +7430,7 @@
    }
   },
   {
-   "id": "23-singletons-0241",
+   "id": "E18-singletons-0241",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7442,7 +7442,7 @@
    }
   },
   {
-   "id": "23-singletons-0242",
+   "id": "E18-singletons-0242",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7453,7 +7453,7 @@
    }
   },
   {
-   "id": "23-singletons-0243",
+   "id": "E18-singletons-0243",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7465,7 +7465,7 @@
    }
   },
   {
-   "id": "23-singletons-0244",
+   "id": "E18-singletons-0244",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7477,7 +7477,7 @@
    }
   },
   {
-   "id": "23-singletons-0245",
+   "id": "E18-singletons-0245",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7489,7 +7489,7 @@
    }
   },
   {
-   "id": "23-singletons-0246",
+   "id": "E18-singletons-0246",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7501,7 +7501,7 @@
    }
   },
   {
-   "id": "23-singletons-0247",
+   "id": "E18-singletons-0247",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7513,7 +7513,7 @@
    }
   },
   {
-   "id": "23-singletons-0248",
+   "id": "E18-singletons-0248",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7524,7 +7524,7 @@
    }
   },
   {
-   "id": "23-singletons-0249",
+   "id": "E18-singletons-0249",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7536,7 +7536,7 @@
    }
   },
   {
-   "id": "23-singletons-0250",
+   "id": "E18-singletons-0250",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7547,7 +7547,7 @@
    }
   },
   {
-   "id": "23-singletons-0251",
+   "id": "E18-singletons-0251",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",

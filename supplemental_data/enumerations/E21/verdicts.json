@@ -2,7 +2,7 @@
  "item": "E21",
  "verdicts": [
   {
-   "id": "26-C_on_abd-0000-nobd",
+   "id": "E21-C_on_abd-0000-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -37,7 +37,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0000-bd",
+   "id": "E21-C_on_abd-0000-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -72,7 +72,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0001-nobd",
+   "id": "E21-C_on_abd-0001-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -108,7 +108,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0001-bd",
+   "id": "E21-C_on_abd-0001-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -144,43 +144,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0002-nobd",
-   "verdict": "cut of at most two vertices",
-   "witness": {
-    "type": "cut",
-    "vertices": [
-     "d",
-     "u0"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u0",
-      "u1",
-      "u2"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u4",
-      "u5"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "26-C_on_abd-0002-bd",
+   "id": "E21-C_on_abd-0002-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -216,7 +180,43 @@
    }
   },
   {
-   "id": "26-C_on_abd-0003-nobd",
+   "id": "E21-C_on_abd-0002-bd",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E21-C_on_abd-0003-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -252,7 +252,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0003-bd",
+   "id": "E21-C_on_abd-0003-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -288,7 +288,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0004-nobd",
+   "id": "E21-C_on_abd-0004-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -324,7 +324,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0004-bd",
+   "id": "E21-C_on_abd-0004-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -360,7 +360,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0005-nobd",
+   "id": "E21-C_on_abd-0005-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -397,7 +397,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0005-bd",
+   "id": "E21-C_on_abd-0005-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -434,7 +434,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0006-nobd",
+   "id": "E21-C_on_abd-0006-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -471,7 +471,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0006-bd",
+   "id": "E21-C_on_abd-0006-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -508,7 +508,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0007-nobd",
+   "id": "E21-C_on_abd-0007-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -544,7 +544,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0007-bd",
+   "id": "E21-C_on_abd-0007-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -580,7 +580,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0008-nobd",
+   "id": "E21-C_on_abd-0008-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -617,7 +617,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0008-bd",
+   "id": "E21-C_on_abd-0008-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -654,7 +654,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0009-nobd",
+   "id": "E21-C_on_abd-0009-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -690,7 +690,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0009-bd",
+   "id": "E21-C_on_abd-0009-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -726,7 +726,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0010-nobd",
+   "id": "E21-C_on_abd-0010-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -763,7 +763,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0010-bd",
+   "id": "E21-C_on_abd-0010-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -800,7 +800,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0011-nobd",
+   "id": "E21-C_on_abd-0011-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -836,7 +836,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0011-bd",
+   "id": "E21-C_on_abd-0011-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -872,7 +872,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0012-nobd",
+   "id": "E21-C_on_abd-0012-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -909,7 +909,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0012-bd",
+   "id": "E21-C_on_abd-0012-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -946,7 +946,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0013-nobd",
+   "id": "E21-C_on_abd-0013-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -983,7 +983,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0013-bd",
+   "id": "E21-C_on_abd-0013-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1020,7 +1020,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0014-nobd",
+   "id": "E21-C_on_abd-0014-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -1055,7 +1055,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0014-bd",
+   "id": "E21-C_on_abd-0014-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -1090,7 +1090,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0015-nobd",
+   "id": "E21-C_on_abd-0015-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1127,7 +1127,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0015-bd",
+   "id": "E21-C_on_abd-0015-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1164,7 +1164,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0016-nobd",
+   "id": "E21-C_on_abd-0016-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1201,7 +1201,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0016-bd",
+   "id": "E21-C_on_abd-0016-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1238,7 +1238,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0017-nobd",
+   "id": "E21-C_on_abd-0017-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1274,7 +1274,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0017-bd",
+   "id": "E21-C_on_abd-0017-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1310,7 +1310,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0018-nobd",
+   "id": "E21-C_on_abd-0018-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1347,7 +1347,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0018-bd",
+   "id": "E21-C_on_abd-0018-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1384,7 +1384,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0019-nobd",
+   "id": "E21-C_on_abd-0019-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1420,7 +1420,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0019-bd",
+   "id": "E21-C_on_abd-0019-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1456,7 +1456,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0020-nobd",
+   "id": "E21-C_on_abd-0020-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1493,7 +1493,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0020-bd",
+   "id": "E21-C_on_abd-0020-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1530,7 +1530,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0021-nobd",
+   "id": "E21-C_on_abd-0021-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1566,7 +1566,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0021-bd",
+   "id": "E21-C_on_abd-0021-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1602,7 +1602,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0022-nobd",
+   "id": "E21-C_on_abd-0022-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1639,7 +1639,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0022-bd",
+   "id": "E21-C_on_abd-0022-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1676,7 +1676,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0023-nobd",
+   "id": "E21-C_on_abd-0023-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1712,7 +1712,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0023-bd",
+   "id": "E21-C_on_abd-0023-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1748,7 +1748,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0024-nobd",
+   "id": "E21-C_on_abd-0024-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1785,7 +1785,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0024-bd",
+   "id": "E21-C_on_abd-0024-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1822,7 +1822,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0025-nobd",
+   "id": "E21-C_on_abd-0025-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1858,7 +1858,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0025-bd",
+   "id": "E21-C_on_abd-0025-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1894,7 +1894,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0026-nobd",
+   "id": "E21-C_on_abd-0026-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1931,7 +1931,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0026-bd",
+   "id": "E21-C_on_abd-0026-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1968,7 +1968,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0027-nobd",
+   "id": "E21-C_on_abd-0027-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2004,7 +2004,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0027-bd",
+   "id": "E21-C_on_abd-0027-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2040,7 +2040,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0028-nobd",
+   "id": "E21-C_on_abd-0028-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2077,7 +2077,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0028-bd",
+   "id": "E21-C_on_abd-0028-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2114,7 +2114,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0029-nobd",
+   "id": "E21-C_on_abd-0029-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2151,7 +2151,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0029-bd",
+   "id": "E21-C_on_abd-0029-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2188,7 +2188,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0030-nobd",
+   "id": "E21-C_on_abd-0030-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2200,7 +2200,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0030-bd",
+   "id": "E21-C_on_abd-0030-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -2235,7 +2235,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0031-nobd",
+   "id": "E21-C_on_abd-0031-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2272,7 +2272,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0031-bd",
+   "id": "E21-C_on_abd-0031-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2309,7 +2309,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0032-nobd",
+   "id": "E21-C_on_abd-0032-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2346,7 +2346,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0032-bd",
+   "id": "E21-C_on_abd-0032-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2383,7 +2383,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0033-nobd",
+   "id": "E21-C_on_abd-0033-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2419,7 +2419,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0033-bd",
+   "id": "E21-C_on_abd-0033-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2455,7 +2455,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0034-nobd",
+   "id": "E21-C_on_abd-0034-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2492,7 +2492,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0034-bd",
+   "id": "E21-C_on_abd-0034-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2529,7 +2529,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0035-nobd",
+   "id": "E21-C_on_abd-0035-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2565,7 +2565,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0035-bd",
+   "id": "E21-C_on_abd-0035-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2601,7 +2601,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0036-nobd",
+   "id": "E21-C_on_abd-0036-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2638,7 +2638,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0036-bd",
+   "id": "E21-C_on_abd-0036-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2675,7 +2675,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0037-nobd",
+   "id": "E21-C_on_abd-0037-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2712,7 +2712,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0037-bd",
+   "id": "E21-C_on_abd-0037-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2749,7 +2749,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0038-nobd",
+   "id": "E21-C_on_abd-0038-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2785,7 +2785,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0038-bd",
+   "id": "E21-C_on_abd-0038-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2821,7 +2821,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0039-nobd",
+   "id": "E21-C_on_abd-0039-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2858,7 +2858,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0039-bd",
+   "id": "E21-C_on_abd-0039-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2895,7 +2895,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0040-nobd",
+   "id": "E21-C_on_abd-0040-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2932,7 +2932,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0040-bd",
+   "id": "E21-C_on_abd-0040-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2969,7 +2969,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0041-nobd",
+   "id": "E21-C_on_abd-0041-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -3004,7 +3004,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0041-bd",
+   "id": "E21-C_on_abd-0041-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3016,44 +3016,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0042-nobd",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u0",
-      "u1",
-      "u2"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u3",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "26-C_on_abd-0042-bd",
+   "id": "E21-C_on_abd-0042-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3090,7 +3053,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0043-nobd",
+   "id": "E21-C_on_abd-0042-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3127,7 +3090,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0043-bd",
+   "id": "E21-C_on_abd-0043-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3164,7 +3127,44 @@
    }
   },
   {
-   "id": "26-C_on_abd-0044-nobd",
+   "id": "E21-C_on_abd-0043-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E21-C_on_abd-0044-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3200,7 +3200,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0044-bd",
+   "id": "E21-C_on_abd-0044-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3236,7 +3236,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0045-nobd",
+   "id": "E21-C_on_abd-0045-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3273,7 +3273,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0045-bd",
+   "id": "E21-C_on_abd-0045-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3310,7 +3310,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0046-nobd",
+   "id": "E21-C_on_abd-0046-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3346,7 +3346,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0046-bd",
+   "id": "E21-C_on_abd-0046-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3382,7 +3382,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0047-nobd",
+   "id": "E21-C_on_abd-0047-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -3417,7 +3417,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0047-bd",
+   "id": "E21-C_on_abd-0047-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3429,44 +3429,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0048-nobd",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u3",
-      "u4",
-      "u5"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "26-C_on_abd-0048-bd",
+   "id": "E21-C_on_abd-0048-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3503,7 +3466,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0049-nobd",
+   "id": "E21-C_on_abd-0048-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3540,7 +3503,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0049-bd",
+   "id": "E21-C_on_abd-0049-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3577,7 +3540,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0050-nobd",
+   "id": "E21-C_on_abd-0049-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3614,7 +3577,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0050-bd",
+   "id": "E21-C_on_abd-0050-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3651,7 +3614,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0051-nobd",
+   "id": "E21-C_on_abd-0050-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3688,7 +3651,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0051-bd",
+   "id": "E21-C_on_abd-0051-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3725,7 +3688,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0052-nobd",
+   "id": "E21-C_on_abd-0051-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3762,7 +3725,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0052-bd",
+   "id": "E21-C_on_abd-0052-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3799,7 +3762,44 @@
    }
   },
   {
-   "id": "26-C_on_abd-0053-nobd",
+   "id": "E21-C_on_abd-0052-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E21-C_on_abd-0053-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -3834,7 +3834,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0053-bd",
+   "id": "E21-C_on_abd-0053-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3846,44 +3846,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0054-nobd",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u3",
-      "u4",
-      "u5"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "26-C_on_abd-0054-bd",
+   "id": "E21-C_on_abd-0054-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3920,7 +3883,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0055-nobd",
+   "id": "E21-C_on_abd-0054-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3957,7 +3920,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0055-bd",
+   "id": "E21-C_on_abd-0055-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3994,7 +3957,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0056-nobd",
+   "id": "E21-C_on_abd-0055-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4031,7 +3994,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0056-bd",
+   "id": "E21-C_on_abd-0056-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4068,7 +4031,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0057-nobd",
+   "id": "E21-C_on_abd-0056-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4105,7 +4068,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0057-bd",
+   "id": "E21-C_on_abd-0057-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4142,7 +4105,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0058-nobd",
+   "id": "E21-C_on_abd-0057-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4179,7 +4142,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0058-bd",
+   "id": "E21-C_on_abd-0058-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4216,7 +4179,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0059-nobd",
+   "id": "E21-C_on_abd-0058-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4253,7 +4216,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0059-bd",
+   "id": "E21-C_on_abd-0059-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4290,7 +4253,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0060-nobd",
+   "id": "E21-C_on_abd-0059-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4327,7 +4290,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0060-bd",
+   "id": "E21-C_on_abd-0060-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4364,7 +4327,44 @@
    }
   },
   {
-   "id": "26-C_on_abd-0061-nobd",
+   "id": "E21-C_on_abd-0060-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E21-C_on_abd-0061-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4399,7 +4399,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0061-bd",
+   "id": "E21-C_on_abd-0061-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4411,44 +4411,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0062-nobd",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u3",
-      "u4",
-      "u5"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "26-C_on_abd-0062-bd",
+   "id": "E21-C_on_abd-0062-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4485,7 +4448,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0063-nobd",
+   "id": "E21-C_on_abd-0062-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4522,7 +4485,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0063-bd",
+   "id": "E21-C_on_abd-0063-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4559,7 +4522,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0064-nobd",
+   "id": "E21-C_on_abd-0063-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4596,7 +4559,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0064-bd",
+   "id": "E21-C_on_abd-0064-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4633,7 +4596,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0065-nobd",
+   "id": "E21-C_on_abd-0064-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4670,7 +4633,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0065-bd",
+   "id": "E21-C_on_abd-0065-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4707,7 +4670,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0066-nobd",
+   "id": "E21-C_on_abd-0065-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4744,7 +4707,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0066-bd",
+   "id": "E21-C_on_abd-0066-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4781,7 +4744,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0067-nobd",
+   "id": "E21-C_on_abd-0066-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4818,7 +4781,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0067-bd",
+   "id": "E21-C_on_abd-0067-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4855,7 +4818,44 @@
    }
   },
   {
-   "id": "26-C_on_abd-0068-nobd",
+   "id": "E21-C_on_abd-0067-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E21-C_on_abd-0068-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4867,7 +4867,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0068-bd",
+   "id": "E21-C_on_abd-0068-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4902,7 +4902,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0069-nobd",
+   "id": "E21-C_on_abd-0069-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4962,7 +4962,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0069-bd",
+   "id": "E21-C_on_abd-0069-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5022,7 +5022,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0070-nobd",
+   "id": "E21-C_on_abd-0070-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5059,7 +5059,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0070-bd",
+   "id": "E21-C_on_abd-0070-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5119,7 +5119,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0071-nobd",
+   "id": "E21-C_on_abd-0071-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5179,7 +5179,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0071-bd",
+   "id": "E21-C_on_abd-0071-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5239,7 +5239,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0072-nobd",
+   "id": "E21-C_on_abd-0072-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5274,7 +5274,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0072-bd",
+   "id": "E21-C_on_abd-0072-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5286,7 +5286,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0073-nobd",
+   "id": "E21-C_on_abd-0073-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5298,7 +5298,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0073-bd",
+   "id": "E21-C_on_abd-0073-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5310,7 +5310,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0074-nobd",
+   "id": "E21-C_on_abd-0074-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5322,7 +5322,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0074-bd",
+   "id": "E21-C_on_abd-0074-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5334,7 +5334,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0075-nobd",
+   "id": "E21-C_on_abd-0075-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5346,7 +5346,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0075-bd",
+   "id": "E21-C_on_abd-0075-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5358,7 +5358,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0076-nobd",
+   "id": "E21-C_on_abd-0076-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5370,7 +5370,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0076-bd",
+   "id": "E21-C_on_abd-0076-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5382,7 +5382,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0077-nobd",
+   "id": "E21-C_on_abd-0077-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5394,7 +5394,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0077-bd",
+   "id": "E21-C_on_abd-0077-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5406,7 +5406,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0078-nobd",
+   "id": "E21-C_on_abd-0078-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5418,7 +5418,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0078-bd",
+   "id": "E21-C_on_abd-0078-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5430,7 +5430,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0079-nobd",
+   "id": "E21-C_on_abd-0079-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5442,7 +5442,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0079-bd",
+   "id": "E21-C_on_abd-0079-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5477,7 +5477,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0080-nobd",
+   "id": "E21-C_on_abd-0080-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5489,7 +5489,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0080-bd",
+   "id": "E21-C_on_abd-0080-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5524,7 +5524,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0081-nobd",
+   "id": "E21-C_on_abd-0081-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5559,7 +5559,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0081-bd",
+   "id": "E21-C_on_abd-0081-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5571,7 +5571,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0082-nobd",
+   "id": "E21-C_on_abd-0082-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5583,7 +5583,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0082-bd",
+   "id": "E21-C_on_abd-0082-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5618,7 +5618,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0083-nobd",
+   "id": "E21-C_on_abd-0083-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5630,7 +5630,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0083-bd",
+   "id": "E21-C_on_abd-0083-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5642,7 +5642,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0084-nobd",
+   "id": "E21-C_on_abd-0084-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5654,7 +5654,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0084-bd",
+   "id": "E21-C_on_abd-0084-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5689,7 +5689,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0085-nobd",
+   "id": "E21-C_on_abd-0085-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5701,7 +5701,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0085-bd",
+   "id": "E21-C_on_abd-0085-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5736,7 +5736,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0086-nobd",
+   "id": "E21-C_on_abd-0086-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5748,7 +5748,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0086-bd",
+   "id": "E21-C_on_abd-0086-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5760,7 +5760,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0087-nobd",
+   "id": "E21-C_on_abd-0087-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5795,7 +5795,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0087-bd",
+   "id": "E21-C_on_abd-0087-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5807,7 +5807,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0088-nobd",
+   "id": "E21-C_on_abd-0088-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5842,7 +5842,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0088-bd",
+   "id": "E21-C_on_abd-0088-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5877,7 +5877,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0089-nobd",
+   "id": "E21-C_on_abd-0089-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5912,7 +5912,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0089-bd",
+   "id": "E21-C_on_abd-0089-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5947,7 +5947,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0090-nobd",
+   "id": "E21-C_on_abd-0090-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5982,7 +5982,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0090-bd",
+   "id": "E21-C_on_abd-0090-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6017,7 +6017,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0091-nobd",
+   "id": "E21-C_on_abd-0091-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6053,7 +6053,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0091-bd",
+   "id": "E21-C_on_abd-0091-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6089,7 +6089,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0092-nobd",
+   "id": "E21-C_on_abd-0092-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6126,7 +6126,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0092-bd",
+   "id": "E21-C_on_abd-0092-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6163,7 +6163,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0093-nobd",
+   "id": "E21-C_on_abd-0093-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6175,7 +6175,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0093-bd",
+   "id": "E21-C_on_abd-0093-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6187,7 +6187,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0094-nobd",
+   "id": "E21-C_on_abd-0094-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6199,7 +6199,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0094-bd",
+   "id": "E21-C_on_abd-0094-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6211,7 +6211,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0095-nobd",
+   "id": "E21-C_on_abd-0095-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6222,7 +6222,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0095-bd",
+   "id": "E21-C_on_abd-0095-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6233,7 +6233,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0096-nobd",
+   "id": "E21-C_on_abd-0096-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6245,7 +6245,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0096-bd",
+   "id": "E21-C_on_abd-0096-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6257,44 +6257,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0097-nobd",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u0",
-      "u1",
-      "u2"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u3",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "26-C_on_abd-0097-bd",
+   "id": "E21-C_on_abd-0097-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6331,7 +6294,44 @@
    }
   },
   {
-   "id": "26-C_on_abd-0098-nobd",
+   "id": "E21-C_on_abd-0097-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E21-C_on_abd-0098-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6367,7 +6367,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0098-bd",
+   "id": "E21-C_on_abd-0098-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6403,7 +6403,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0099-nobd",
+   "id": "E21-C_on_abd-0099-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6415,7 +6415,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0099-bd",
+   "id": "E21-C_on_abd-0099-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6427,44 +6427,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0100-nobd",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u0",
-      "u1",
-      "u2"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u3",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "26-C_on_abd-0100-bd",
+   "id": "E21-C_on_abd-0100-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6501,7 +6464,44 @@
    }
   },
   {
-   "id": "26-C_on_abd-0101-nobd",
+   "id": "E21-C_on_abd-0100-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E21-C_on_abd-0101-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6513,7 +6513,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0101-bd",
+   "id": "E21-C_on_abd-0101-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6525,7 +6525,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0102-nobd",
+   "id": "E21-C_on_abd-0102-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6559,7 +6559,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0102-bd",
+   "id": "E21-C_on_abd-0102-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6571,7 +6571,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0103-nobd",
+   "id": "E21-C_on_abd-0103-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6583,7 +6583,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0103-bd",
+   "id": "E21-C_on_abd-0103-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6595,7 +6595,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0104-nobd",
+   "id": "E21-C_on_abd-0104-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6607,7 +6607,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0104-bd",
+   "id": "E21-C_on_abd-0104-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6619,7 +6619,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0105-nobd",
+   "id": "E21-C_on_abd-0105-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6631,7 +6631,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0105-bd",
+   "id": "E21-C_on_abd-0105-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6643,7 +6643,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0106-nobd",
+   "id": "E21-C_on_abd-0106-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6655,7 +6655,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0106-bd",
+   "id": "E21-C_on_abd-0106-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6667,7 +6667,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0107-nobd",
+   "id": "E21-C_on_abd-0107-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6679,7 +6679,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0107-bd",
+   "id": "E21-C_on_abd-0107-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6691,7 +6691,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0108-nobd",
+   "id": "E21-C_on_abd-0108-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6703,7 +6703,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0108-bd",
+   "id": "E21-C_on_abd-0108-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6715,7 +6715,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0109-nobd",
+   "id": "E21-C_on_abd-0109-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6727,7 +6727,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0109-bd",
+   "id": "E21-C_on_abd-0109-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6739,7 +6739,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0110-nobd",
+   "id": "E21-C_on_abd-0110-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6751,7 +6751,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0110-bd",
+   "id": "E21-C_on_abd-0110-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6763,7 +6763,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0111-nobd",
+   "id": "E21-C_on_abd-0111-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6775,7 +6775,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0111-bd",
+   "id": "E21-C_on_abd-0111-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6787,7 +6787,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0112-nobd",
+   "id": "E21-C_on_abd-0112-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6799,7 +6799,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0112-bd",
+   "id": "E21-C_on_abd-0112-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6811,7 +6811,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0113-nobd",
+   "id": "E21-C_on_abd-0113-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6823,7 +6823,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0113-bd",
+   "id": "E21-C_on_abd-0113-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6835,7 +6835,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0114-nobd",
+   "id": "E21-C_on_abd-0114-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6869,7 +6869,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0114-bd",
+   "id": "E21-C_on_abd-0114-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6903,7 +6903,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0115-nobd",
+   "id": "E21-C_on_abd-0115-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6915,7 +6915,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0115-bd",
+   "id": "E21-C_on_abd-0115-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6949,7 +6949,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0116-nobd",
+   "id": "E21-C_on_abd-0116-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6983,7 +6983,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0116-bd",
+   "id": "E21-C_on_abd-0116-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -7017,7 +7017,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0117-nobd",
+   "id": "E21-C_on_abd-0117-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7054,7 +7054,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0117-bd",
+   "id": "E21-C_on_abd-0117-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7091,7 +7091,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0118-nobd",
+   "id": "E21-C_on_abd-0118-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7103,7 +7103,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0118-bd",
+   "id": "E21-C_on_abd-0118-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -7137,7 +7137,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0119-nobd",
+   "id": "E21-C_on_abd-0119-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7149,7 +7149,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0119-bd",
+   "id": "E21-C_on_abd-0119-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7161,7 +7161,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0120-nobd",
+   "id": "E21-C_on_abd-0120-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7173,7 +7173,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0120-bd",
+   "id": "E21-C_on_abd-0120-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7185,7 +7185,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0121-nobd",
+   "id": "E21-C_on_abd-0121-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -7219,7 +7219,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0121-bd",
+   "id": "E21-C_on_abd-0121-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7231,7 +7231,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0122-nobd",
+   "id": "E21-C_on_abd-0122-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7267,7 +7267,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0122-bd",
+   "id": "E21-C_on_abd-0122-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7303,7 +7303,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0123-nobd",
+   "id": "E21-C_on_abd-0123-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7340,7 +7340,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0123-bd",
+   "id": "E21-C_on_abd-0123-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7377,7 +7377,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0124-nobd",
+   "id": "E21-C_on_abd-0124-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7414,7 +7414,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0124-bd",
+   "id": "E21-C_on_abd-0124-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7451,7 +7451,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0125-nobd",
+   "id": "E21-C_on_abd-0125-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7488,7 +7488,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0125-bd",
+   "id": "E21-C_on_abd-0125-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7525,7 +7525,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0126-nobd",
+   "id": "E21-C_on_abd-0126-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7561,7 +7561,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0126-bd",
+   "id": "E21-C_on_abd-0126-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7597,7 +7597,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0127-nobd",
+   "id": "E21-C_on_abd-0127-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7634,7 +7634,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0127-bd",
+   "id": "E21-C_on_abd-0127-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7671,7 +7671,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0128-nobd",
+   "id": "E21-C_on_abd-0128-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7708,7 +7708,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0128-bd",
+   "id": "E21-C_on_abd-0128-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7745,7 +7745,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0129-nobd",
+   "id": "E21-C_on_abd-0129-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7781,7 +7781,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0129-bd",
+   "id": "E21-C_on_abd-0129-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -7817,7 +7817,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0130-nobd",
+   "id": "E21-C_on_abd-0130-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7854,7 +7854,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0130-bd",
+   "id": "E21-C_on_abd-0130-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7891,7 +7891,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0131-nobd",
+   "id": "E21-C_on_abd-0131-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7928,7 +7928,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0131-bd",
+   "id": "E21-C_on_abd-0131-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7965,7 +7965,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0132-nobd",
+   "id": "E21-C_on_abd-0132-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8002,7 +8002,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0132-bd",
+   "id": "E21-C_on_abd-0132-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8039,7 +8039,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0133-nobd",
+   "id": "E21-C_on_abd-0133-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8073,7 +8073,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0133-bd",
+   "id": "E21-C_on_abd-0133-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8107,7 +8107,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0134-nobd",
+   "id": "E21-C_on_abd-0134-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8144,7 +8144,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0134-bd",
+   "id": "E21-C_on_abd-0134-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8181,7 +8181,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0135-nobd",
+   "id": "E21-C_on_abd-0135-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8218,7 +8218,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0135-bd",
+   "id": "E21-C_on_abd-0135-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8255,7 +8255,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0136-nobd",
+   "id": "E21-C_on_abd-0136-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8292,7 +8292,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0136-bd",
+   "id": "E21-C_on_abd-0136-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8329,7 +8329,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0137-nobd",
+   "id": "E21-C_on_abd-0137-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8366,7 +8366,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0137-bd",
+   "id": "E21-C_on_abd-0137-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8403,7 +8403,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0138-nobd",
+   "id": "E21-C_on_abd-0138-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8440,7 +8440,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0138-bd",
+   "id": "E21-C_on_abd-0138-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8477,7 +8477,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0139-nobd",
+   "id": "E21-C_on_abd-0139-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8489,7 +8489,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0139-bd",
+   "id": "E21-C_on_abd-0139-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8523,7 +8523,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0140-nobd",
+   "id": "E21-C_on_abd-0140-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8560,7 +8560,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0140-bd",
+   "id": "E21-C_on_abd-0140-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8597,7 +8597,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0141-nobd",
+   "id": "E21-C_on_abd-0141-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8634,7 +8634,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0141-bd",
+   "id": "E21-C_on_abd-0141-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8671,7 +8671,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0142-nobd",
+   "id": "E21-C_on_abd-0142-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8708,7 +8708,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0142-bd",
+   "id": "E21-C_on_abd-0142-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8745,7 +8745,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0143-nobd",
+   "id": "E21-C_on_abd-0143-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8782,7 +8782,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0143-bd",
+   "id": "E21-C_on_abd-0143-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8819,7 +8819,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0144-nobd",
+   "id": "E21-C_on_abd-0144-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8856,7 +8856,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0144-bd",
+   "id": "E21-C_on_abd-0144-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8893,7 +8893,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0145-nobd",
+   "id": "E21-C_on_abd-0145-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8927,7 +8927,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0145-bd",
+   "id": "E21-C_on_abd-0145-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8961,7 +8961,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0146-nobd",
+   "id": "E21-C_on_abd-0146-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9020,7 +9020,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0146-bd",
+   "id": "E21-C_on_abd-0146-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9057,7 +9057,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0147-nobd",
+   "id": "E21-C_on_abd-0147-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9116,7 +9116,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0147-bd",
+   "id": "E21-C_on_abd-0147-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9153,7 +9153,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0148-nobd",
+   "id": "E21-C_on_abd-0148-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9165,7 +9165,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0148-bd",
+   "id": "E21-C_on_abd-0148-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9199,7 +9199,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0149-nobd",
+   "id": "E21-C_on_abd-0149-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9211,7 +9211,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0149-bd",
+   "id": "E21-C_on_abd-0149-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9223,7 +9223,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0150-nobd",
+   "id": "E21-C_on_abd-0150-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9257,7 +9257,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0150-bd",
+   "id": "E21-C_on_abd-0150-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9291,7 +9291,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0151-nobd",
+   "id": "E21-C_on_abd-0151-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9303,7 +9303,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0151-bd",
+   "id": "E21-C_on_abd-0151-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9315,7 +9315,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0152-nobd",
+   "id": "E21-C_on_abd-0152-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -9351,7 +9351,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0152-bd",
+   "id": "E21-C_on_abd-0152-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -9387,7 +9387,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0153-nobd",
+   "id": "E21-C_on_abd-0153-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9424,7 +9424,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0153-bd",
+   "id": "E21-C_on_abd-0153-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9461,7 +9461,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0154-nobd",
+   "id": "E21-C_on_abd-0154-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9498,7 +9498,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0154-bd",
+   "id": "E21-C_on_abd-0154-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9535,7 +9535,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0155-nobd",
+   "id": "E21-C_on_abd-0155-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9572,7 +9572,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0155-bd",
+   "id": "E21-C_on_abd-0155-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9609,7 +9609,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0156-nobd",
+   "id": "E21-C_on_abd-0156-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -9645,7 +9645,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0156-bd",
+   "id": "E21-C_on_abd-0156-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -9681,7 +9681,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0157-nobd",
+   "id": "E21-C_on_abd-0157-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9718,7 +9718,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0157-bd",
+   "id": "E21-C_on_abd-0157-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9755,7 +9755,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0158-nobd",
+   "id": "E21-C_on_abd-0158-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9792,7 +9792,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0158-bd",
+   "id": "E21-C_on_abd-0158-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9829,7 +9829,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0159-nobd",
+   "id": "E21-C_on_abd-0159-nobd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -9865,7 +9865,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0159-bd",
+   "id": "E21-C_on_abd-0159-bd",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -9901,7 +9901,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0160-nobd",
+   "id": "E21-C_on_abd-0160-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9938,7 +9938,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0160-bd",
+   "id": "E21-C_on_abd-0160-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9975,44 +9975,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0161-nobd",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u0",
-      "u1",
-      "u2"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u3",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "26-C_on_abd-0161-bd",
+   "id": "E21-C_on_abd-0161-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10049,7 +10012,44 @@
    }
   },
   {
-   "id": "26-C_on_abd-0162-nobd",
+   "id": "E21-C_on_abd-0161-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E21-C_on_abd-0162-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10086,7 +10086,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0162-bd",
+   "id": "E21-C_on_abd-0162-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10123,7 +10123,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0163-nobd",
+   "id": "E21-C_on_abd-0163-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10157,7 +10157,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0163-bd",
+   "id": "E21-C_on_abd-0163-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10169,44 +10169,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0164-nobd",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "r"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "d",
-      "u3",
-      "u4"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "26-C_on_abd-0164-bd",
+   "id": "E21-C_on_abd-0164-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10243,7 +10206,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0165-nobd",
+   "id": "E21-C_on_abd-0164-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10280,7 +10243,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0165-bd",
+   "id": "E21-C_on_abd-0165-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10317,7 +10280,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0166-nobd",
+   "id": "E21-C_on_abd-0165-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10354,7 +10317,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0166-bd",
+   "id": "E21-C_on_abd-0166-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10391,7 +10354,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0167-nobd",
+   "id": "E21-C_on_abd-0166-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10428,7 +10391,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0167-bd",
+   "id": "E21-C_on_abd-0167-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10465,7 +10428,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0168-nobd",
+   "id": "E21-C_on_abd-0167-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10502,7 +10465,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0168-bd",
+   "id": "E21-C_on_abd-0168-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10539,7 +10502,44 @@
    }
   },
   {
-   "id": "26-C_on_abd-0169-nobd",
+   "id": "E21-C_on_abd-0168-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E21-C_on_abd-0169-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10573,7 +10573,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0169-bd",
+   "id": "E21-C_on_abd-0169-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10585,44 +10585,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0170-nobd",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "d",
-      "u3",
-      "u4"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "26-C_on_abd-0170-bd",
+   "id": "E21-C_on_abd-0170-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10659,7 +10622,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0171-nobd",
+   "id": "E21-C_on_abd-0170-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10696,7 +10659,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0171-bd",
+   "id": "E21-C_on_abd-0171-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10733,7 +10696,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0172-nobd",
+   "id": "E21-C_on_abd-0171-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10770,7 +10733,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0172-bd",
+   "id": "E21-C_on_abd-0172-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10807,7 +10770,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0173-nobd",
+   "id": "E21-C_on_abd-0172-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10844,7 +10807,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0173-bd",
+   "id": "E21-C_on_abd-0173-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10881,7 +10844,44 @@
    }
   },
   {
-   "id": "26-C_on_abd-0174-nobd",
+   "id": "E21-C_on_abd-0173-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E21-C_on_abd-0174-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10918,7 +10918,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0174-bd",
+   "id": "E21-C_on_abd-0174-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10955,7 +10955,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0175-nobd",
+   "id": "E21-C_on_abd-0175-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10989,7 +10989,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0175-bd",
+   "id": "E21-C_on_abd-0175-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11023,7 +11023,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0176-nobd",
+   "id": "E21-C_on_abd-0176-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11082,7 +11082,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0176-bd",
+   "id": "E21-C_on_abd-0176-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11141,7 +11141,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0177-nobd",
+   "id": "E21-C_on_abd-0177-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11200,7 +11200,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0177-bd",
+   "id": "E21-C_on_abd-0177-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11237,7 +11237,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0178-nobd",
+   "id": "E21-C_on_abd-0178-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11249,7 +11249,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0178-bd",
+   "id": "E21-C_on_abd-0178-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11261,7 +11261,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0179-nobd",
+   "id": "E21-C_on_abd-0179-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11273,7 +11273,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0179-bd",
+   "id": "E21-C_on_abd-0179-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11285,7 +11285,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0180-nobd",
+   "id": "E21-C_on_abd-0180-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11319,7 +11319,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0180-bd",
+   "id": "E21-C_on_abd-0180-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11353,7 +11353,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0181-nobd",
+   "id": "E21-C_on_abd-0181-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11387,7 +11387,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0181-bd",
+   "id": "E21-C_on_abd-0181-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11399,7 +11399,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0182-nobd",
+   "id": "E21-C_on_abd-0182-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11436,7 +11436,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0182-bd",
+   "id": "E21-C_on_abd-0182-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11473,7 +11473,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0183-nobd",
+   "id": "E21-C_on_abd-0183-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11510,7 +11510,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0183-bd",
+   "id": "E21-C_on_abd-0183-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11547,7 +11547,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0184-nobd",
+   "id": "E21-C_on_abd-0184-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11584,7 +11584,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0184-bd",
+   "id": "E21-C_on_abd-0184-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11621,7 +11621,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0185-nobd",
+   "id": "E21-C_on_abd-0185-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11658,7 +11658,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0185-bd",
+   "id": "E21-C_on_abd-0185-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11695,7 +11695,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0186-nobd",
+   "id": "E21-C_on_abd-0186-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11728,7 +11728,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0186-bd",
+   "id": "E21-C_on_abd-0186-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11761,7 +11761,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0187-nobd",
+   "id": "E21-C_on_abd-0187-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11819,7 +11819,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0187-bd",
+   "id": "E21-C_on_abd-0187-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11877,7 +11877,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0188-nobd",
+   "id": "E21-C_on_abd-0188-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11914,7 +11914,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0188-bd",
+   "id": "E21-C_on_abd-0188-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11951,7 +11951,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0189-nobd",
+   "id": "E21-C_on_abd-0189-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11988,7 +11988,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0189-bd",
+   "id": "E21-C_on_abd-0189-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12025,7 +12025,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0190-nobd",
+   "id": "E21-C_on_abd-0190-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12062,7 +12062,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0190-bd",
+   "id": "E21-C_on_abd-0190-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12099,7 +12099,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0191-nobd",
+   "id": "E21-C_on_abd-0191-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12136,7 +12136,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0191-bd",
+   "id": "E21-C_on_abd-0191-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12173,7 +12173,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0192-nobd",
+   "id": "E21-C_on_abd-0192-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -12206,7 +12206,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0192-bd",
+   "id": "E21-C_on_abd-0192-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -12239,7 +12239,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0193-nobd",
+   "id": "E21-C_on_abd-0193-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -12297,7 +12297,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0193-bd",
+   "id": "E21-C_on_abd-0193-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -12355,7 +12355,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0194-nobd",
+   "id": "E21-C_on_abd-0194-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12367,7 +12367,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0194-bd",
+   "id": "E21-C_on_abd-0194-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12379,7 +12379,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0195-nobd",
+   "id": "E21-C_on_abd-0195-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12391,7 +12391,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0195-bd",
+   "id": "E21-C_on_abd-0195-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12403,7 +12403,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0196-nobd",
+   "id": "E21-C_on_abd-0196-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12415,7 +12415,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0196-bd",
+   "id": "E21-C_on_abd-0196-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12427,7 +12427,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0197-nobd",
+   "id": "E21-C_on_abd-0197-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12439,7 +12439,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0197-bd",
+   "id": "E21-C_on_abd-0197-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12451,7 +12451,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0198-nobd",
+   "id": "E21-C_on_abd-0198-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -12484,7 +12484,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0198-bd",
+   "id": "E21-C_on_abd-0198-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -12517,7 +12517,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0199-nobd",
+   "id": "E21-C_on_abd-0199-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -12550,7 +12550,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0199-bd",
+   "id": "E21-C_on_abd-0199-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -12583,7 +12583,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0200-nobd",
+   "id": "E21-C_on_abd-0200-nobd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -12615,7 +12615,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0200-bd",
+   "id": "E21-C_on_abd-0200-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -12647,7 +12647,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0201-nobd",
+   "id": "E21-C_on_abd-0201-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12659,7 +12659,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0201-bd",
+   "id": "E21-C_on_abd-0201-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12671,44 +12671,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0202-nobd",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "d",
-      "e"
-     ],
-     [
-      "b",
-      "u2",
-      "u3"
-     ]
-    ],
-    "twins": [
-     [
-      "r",
-      "z"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "26-C_on_abd-0202-bd",
+   "id": "E21-C_on_abd-0202-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12745,7 +12708,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0203-nobd",
+   "id": "E21-C_on_abd-0202-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12782,7 +12745,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0203-bd",
+   "id": "E21-C_on_abd-0203-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12819,7 +12782,44 @@
    }
   },
   {
-   "id": "26-C_on_abd-0204-nobd",
+   "id": "E21-C_on_abd-0203-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E21-C_on_abd-0204-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12831,7 +12831,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0204-bd",
+   "id": "E21-C_on_abd-0204-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12843,7 +12843,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0205-nobd",
+   "id": "E21-C_on_abd-0205-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12855,7 +12855,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0205-bd",
+   "id": "E21-C_on_abd-0205-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -12888,7 +12888,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0206-nobd",
+   "id": "E21-C_on_abd-0206-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12900,7 +12900,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0206-bd",
+   "id": "E21-C_on_abd-0206-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12912,44 +12912,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0207-nobd",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "r"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "d",
-      "u2",
-      "u3"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "26-C_on_abd-0207-bd",
+   "id": "E21-C_on_abd-0207-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12986,7 +12949,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0208-nobd",
+   "id": "E21-C_on_abd-0207-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13023,7 +12986,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0208-bd",
+   "id": "E21-C_on_abd-0208-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13060,7 +13023,44 @@
    }
   },
   {
-   "id": "26-C_on_abd-0209-nobd",
+   "id": "E21-C_on_abd-0208-bd",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E21-C_on_abd-0209-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13072,7 +13072,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0209-bd",
+   "id": "E21-C_on_abd-0209-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -13105,7 +13105,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0210-nobd",
+   "id": "E21-C_on_abd-0210-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13117,7 +13117,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0210-bd",
+   "id": "E21-C_on_abd-0210-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13129,7 +13129,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0211-nobd",
+   "id": "E21-C_on_abd-0211-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13166,7 +13166,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0211-bd",
+   "id": "E21-C_on_abd-0211-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13203,7 +13203,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0212-nobd",
+   "id": "E21-C_on_abd-0212-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13240,7 +13240,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0212-bd",
+   "id": "E21-C_on_abd-0212-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13277,7 +13277,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0213-nobd",
+   "id": "E21-C_on_abd-0213-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13289,7 +13289,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0213-bd",
+   "id": "E21-C_on_abd-0213-bd",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -13322,7 +13322,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0214-nobd",
+   "id": "E21-C_on_abd-0214-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13359,7 +13359,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0214-bd",
+   "id": "E21-C_on_abd-0214-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13396,7 +13396,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0215-nobd",
+   "id": "E21-C_on_abd-0215-nobd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13433,7 +13433,7 @@
    }
   },
   {
-   "id": "26-C_on_abd-0215-bd",
+   "id": "E21-C_on_abd-0215-bd",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",

@@ -7,7 +7,7 @@
    "text": "Suppose next that $B$ is planar, and write $x,y,t$ for its\nattachments. First suppose its three single-edge completions are\nplanar. Its triangle completion contains the nonplanar two-edge\ncompletions, so it is nonplanar. It is not $V_8$, as it contains a triangle. Halin's theorem and\nLemma~\\ref{core:three-root-setup} give a three-cut $X$ of the\ntriangle completion and two vertices of $\\operatorname{Int}(B)$\nwith neighborhood $X$.\nBy observation (a) in the proof of\nLemma~\\ref{r2:three-mark-entrance}, adding an edge between\nattachments in $X$ does not change planarity, so two attachments\nin $X$ would give a planar two-edge completion.\nIf $X$ contains exactly one attachment, say $x$, and $y,t$ lie in\none component of $B-X$, that component is already adjacent in $B$\nto both vertices of $X-\\{x\\}$: its neighborhood in the triangle\ncompletion is $X$, and the added triangle edges leaving it\ncan only end at $x$. Adding $xy$ therefore makes it adjacent\nto all of $X$, contradicting planarity. If they lie separately, $xy,xt$\naffect different bridges, so their separate planarity makes\n$B+xy+xt$ planar. Thus $X\\subseteq\\operatorname{Int}(B)$, and\n$X$ is a twin triple disjoint from $\\{a,b,c\\}$, contrary to the\nassumption of this section.\n\nSo some single-edge completion, say $B+xy$, is nonplanar.\nLemma~\\ref{r2:three-mark-entrance} gives a\n$K_{3,3}$ subdivision $H\\subseteq B+xy$ with $H-xy+xt+yt$\nnonplanar. Apply Lemma~\\ref{core:retained-subdivision} with\n$E=\\{xy\\}$. It gives a shortened subdivision $H'$ with the same\nattachment positions, so $H'-xy+xt+yt$ remains nonplanar by\nLemma~\\ref{r2:position-of-third}. The other two completions\ncontain $H'$. Thus $B$ equals this allowed minor.\n\nConstruction~\\ref{common:marked-construction} lists the nonplanar\nforms by placing the three attachments on or outside the\nsubdivision, shortening its paths, and adding the edges required\nto connect its interior and give every attachment an interior\nneighbor. It lists the planar forms in the same way with the\nadded edge $xy$, taking each pair of attachments as $x,y$, and we\nkeep those whose three two-edge completions are nonplanar. Combine each form with\n$\\Psi_2$ and a vertex $v$, taking each of the three other triples\nas $N(v)$ in turn. These six choices give $5{,}934$ graphs,\nrecorded in~\\supp{E19}.\nFor each graph the record gives a cut of at most two vertices,\nfive branch sets giving a $K_5$ minor, or an edge deletion or\ncontraction giving a nontoroidal proper minor.\nEach outcome contradicts a defining property of $G$.\n\\end{proof}\n\n"
   }
  ],
- "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with {a,b,d}; v is the contracted other component. Interior vertices of U are u0, u1, ... (nonplanar U: i0, ...).",
+ "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with {a,b,d}; v is the contracted other component. Interior vertices of U are u0, u1, ....",
  "cases": "U on T = {a,c,d} or {b,c,d}, and N(v) each of the three other triples: six cases.",
  "nonplanar U": {
   "construction": "Construction 3.16 with attachments T and no added edges",
@@ -22,8 +22,7 @@
     "outside": {},
     "C edges within R": [],
     "required edges of K'": [],
-    "exterior": "v_on_abc",
-    "U": "nonplanar, Construction 3.16"
+    "exterior": "v on abc"
    },
    "root placements": 4270,
    "root placement classes": 115,

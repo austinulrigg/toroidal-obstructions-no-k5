@@ -1,6 +1,6 @@
 {
  "item": "W20",
- "where": "Lemma 6.12",
+ "where": "Lemma 6.13",
  "claim": "B has attachments {a,c,d,e}, Int(B) contracted to w. Another component with neighbourhood {a,b,c}, {b,c,d} or {a,b,c,d}, contracted to u, after deleting aw, cw, or au and cw respectively: each is T3.",
  "graphs": [
   {

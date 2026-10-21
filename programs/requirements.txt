@@ -1,0 +1,3 @@
+graph-genus==0.1.3
+networkx==3.6.1
+python-sat==1.9.dev17

@@ -1,6 +1,6 @@
 {
  "item": "W17",
- "where": "Lemma 6.9",
+ "where": "Lemma 6.10",
  "claim": "B has attachments {b,c,d,e}. Psi_3, another component on {a,b,c} contracted to u, and Int(B) contracted to w, then bw deleted (so N(w) = {c,d,e}): this is T3.",
  "graph": {
   "vertices": [

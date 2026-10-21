@@ -2,7 +2,7 @@
  "item": "E27",
  "verdicts": [
   {
-   "id": "32-ade-Q(a;d,e)",
+   "id": "E27-ade-Q(a;d,e)",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -44,23 +44,23 @@
      ],
      "onto": "T7",
      "map": {
-      "p": 0,
-      "b": 6,
-      "q": 1,
-      "c": 7,
-      "e": 8,
-      "z": 2,
+      "Ud1": 2,
       "Ud2": 3,
-      "Ud1": 4,
-      "r": 5,
+      "a": 10,
+      "b": 6,
+      "c": 7,
       "d": 9,
-      "a": 10
+      "e": 8,
+      "p": 0,
+      "q": 1,
+      "r": 4,
+      "z": 5
      }
     }
    }
   },
   {
-   "id": "32-abd-Q(a;b,d)",
+   "id": "E27-abd-Q(a;b,d)",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -146,14 +146,14 @@
    }
   },
   {
-   "id": "32-abd-S(b;d)",
+   "id": "E27-abd-S(b;d)",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
     "operation": "delete",
     "edge": [
-     "Uf",
-     "b"
+     "p",
+     "c"
     ],
     "minor of T_i": {
      "steps": [
@@ -209,23 +209,23 @@
      ],
      "onto": "T3",
      "map": {
-      "r": 0,
-      "e": 8,
-      "w": 1,
-      "z": 2,
-      "a": 9,
+      "Ud1": 4,
+      "Ud2": 5,
       "Uf": 3,
-      "b": 6,
-      "Ud2": 4,
-      "Ud1": 5,
-      "Uu": 7,
-      "d": 10
+      "Uu": 6,
+      "a": 9,
+      "b": 7,
+      "d": 10,
+      "e": 8,
+      "r": 0,
+      "w": 1,
+      "z": 2
      }
     }
    }
   },
   {
-   "id": "32-abd-S(d;b)",
+   "id": "E27-abd-S(d;b)",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -261,24 +261,24 @@
      "onto": "T41",
      "map": {
       "Ud1": 0,
-      "Uu": 6,
       "Ud2": 1,
-      "b": 10,
-      "q": 2,
-      "p": 3,
-      "c": 4,
-      "w": 7,
-      "e": 5,
-      "z": 8,
-      "r": 9,
+      "Uu": 6,
       "a": 11,
-      "d": 12
+      "b": 10,
+      "c": 4,
+      "d": 12,
+      "e": 5,
+      "p": 2,
+      "q": 3,
+      "r": 8,
+      "w": 7,
+      "z": 9
      }
     }
    }
   },
   {
-   "id": "32-abd-T(a)",
+   "id": "E27-abd-T(a)",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -300,24 +300,24 @@
      "onto": "T41",
      "map": {
       "Ud1": 0,
-      "Uu": 6,
       "Ud2": 1,
-      "b": 10,
-      "q": 2,
-      "p": 3,
-      "c": 4,
-      "w": 7,
-      "e": 5,
-      "z": 8,
-      "r": 9,
+      "Uu": 6,
       "a": 11,
-      "d": 12
+      "b": 10,
+      "c": 4,
+      "d": 12,
+      "e": 5,
+      "p": 2,
+      "q": 3,
+      "r": 8,
+      "w": 7,
+      "z": 9
      }
     }
    }
   },
   {
-   "id": "32-acd-Q(a;c,d)",
+   "id": "E27-acd-Q(a;c,d)",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -352,30 +352,30 @@
      ],
      "onto": "T2",
      "map": {
-      "e": 0,
-      "z": 5,
-      "r": 6,
-      "w": 7,
-      "c": 8,
-      "p": 1,
+      "Ud1": 1,
       "Ud2": 2,
-      "q": 3,
-      "Ud1": 4,
       "a": 9,
-      "b": 10
+      "b": 10,
+      "c": 8,
+      "e": 0,
+      "p": 3,
+      "q": 4,
+      "r": 5,
+      "w": 7,
+      "z": 6
      }
     }
    }
   },
   {
-   "id": "32-acd-S(c;d)",
+   "id": "E27-acd-S(c;d)",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
     "operation": "delete",
     "edge": [
-     "Uf",
-     "c"
+     "p",
+     "a"
     ],
     "minor of T_i": {
      "steps": [
@@ -438,23 +438,23 @@
      ],
      "onto": "T3",
      "map": {
-      "r": 0,
-      "e": 8,
-      "w": 1,
-      "z": 2,
-      "a": 9,
+      "Ud1": 4,
+      "Ud2": 5,
       "Uf": 3,
       "Uu": 6,
-      "Ud2": 4,
-      "Ud1": 5,
+      "a": 9,
       "c": 7,
-      "d": 10
+      "d": 10,
+      "e": 8,
+      "r": 0,
+      "w": 1,
+      "z": 2
      }
     }
    }
   },
   {
-   "id": "32-acd-S(d;c)",
+   "id": "E27-acd-S(d;c)",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -489,25 +489,25 @@
      ],
      "onto": "T28",
      "map": {
-      "p": 0,
-      "b": 5,
-      "q": 3,
+      "Ud1": 0,
+      "Ud2": 3,
+      "Uu": 5,
+      "a": 12,
+      "b": 6,
       "c": 10,
-      "Ud2": 1,
-      "Ud1": 2,
-      "Uu": 6,
-      "a": 11,
-      "z": 7,
+      "d": 11,
       "e": 4,
+      "p": 1,
+      "q": 2,
+      "r": 7,
       "w": 8,
-      "r": 9,
-      "d": 12
+      "z": 9
      }
     }
    }
   },
   {
-   "id": "32-acd-T(a)",
+   "id": "E27-acd-T(a)",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -528,19 +528,19 @@
      ],
      "onto": "T28",
      "map": {
-      "p": 0,
-      "b": 5,
-      "q": 3,
+      "Ud1": 0,
+      "Ud2": 3,
+      "Uu": 5,
+      "a": 12,
+      "b": 6,
       "c": 10,
-      "Ud2": 1,
-      "Ud1": 2,
-      "Uu": 6,
-      "a": 11,
-      "z": 7,
+      "d": 11,
       "e": 4,
+      "p": 1,
+      "q": 2,
+      "r": 7,
       "w": 8,
-      "r": 9,
-      "d": 12
+      "z": 9
      }
     }
    }

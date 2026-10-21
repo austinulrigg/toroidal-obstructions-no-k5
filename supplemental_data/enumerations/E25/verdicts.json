@@ -2,7 +2,7 @@
  "item": "E25",
  "verdicts": [
   {
-   "id": "30-C_on_abd-0000",
+   "id": "E25-C_on_abd-0000",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -81,87 +81,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0001",
-   "verdict": "cut of at most two vertices",
-   "witness": {
-    "type": "cut",
-    "vertices": [
-     "d",
-     "u0"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ],
-     [
-      "u2",
-      "u4"
-     ],
-     [
-      "u2",
-      "u5"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0002",
+   "id": "E25-C_on_abd-0001",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -241,7 +161,87 @@
    }
   },
   {
-   "id": "30-C_on_abd-0003",
+   "id": "E25-C_on_abd-0002",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0003",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -321,7 +321,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0004",
+   "id": "E25-C_on_abd-0004",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -401,7 +401,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0005",
+   "id": "E25-C_on_abd-0005",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -482,7 +482,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0006",
+   "id": "E25-C_on_abd-0006",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -563,7 +563,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0007",
+   "id": "E25-C_on_abd-0007",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -643,7 +643,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0008",
+   "id": "E25-C_on_abd-0008",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -724,7 +724,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0009",
+   "id": "E25-C_on_abd-0009",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -804,7 +804,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0010",
+   "id": "E25-C_on_abd-0010",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -885,7 +885,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0011",
+   "id": "E25-C_on_abd-0011",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -969,7 +969,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0012",
+   "id": "E25-C_on_abd-0012",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1058,7 +1058,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0013",
+   "id": "E25-C_on_abd-0013",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1147,7 +1147,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0014",
+   "id": "E25-C_on_abd-0014",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -1257,7 +1257,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0015",
+   "id": "E25-C_on_abd-0015",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1346,7 +1346,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0016",
+   "id": "E25-C_on_abd-0016",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1435,7 +1435,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0017",
+   "id": "E25-C_on_abd-0017",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1523,7 +1523,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0018",
+   "id": "E25-C_on_abd-0018",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1612,7 +1612,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0019",
+   "id": "E25-C_on_abd-0019",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1704,7 +1704,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0020",
+   "id": "E25-C_on_abd-0020",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1793,7 +1793,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0021",
+   "id": "E25-C_on_abd-0021",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1885,7 +1885,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0022",
+   "id": "E25-C_on_abd-0022",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1974,7 +1974,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0023",
+   "id": "E25-C_on_abd-0023",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2062,7 +2062,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0024",
+   "id": "E25-C_on_abd-0024",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2151,7 +2151,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0025",
+   "id": "E25-C_on_abd-0025",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2243,7 +2243,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0026",
+   "id": "E25-C_on_abd-0026",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2332,7 +2332,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0027",
+   "id": "E25-C_on_abd-0027",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2416,7 +2416,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0028",
+   "id": "E25-C_on_abd-0028",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2501,7 +2501,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0029",
+   "id": "E25-C_on_abd-0029",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2586,7 +2586,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0030",
+   "id": "E25-C_on_abd-0030",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2671,7 +2671,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0031",
+   "id": "E25-C_on_abd-0031",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2756,7 +2756,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0032",
+   "id": "E25-C_on_abd-0032",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2841,7 +2841,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0033",
+   "id": "E25-C_on_abd-0033",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2925,7 +2925,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0034",
+   "id": "E25-C_on_abd-0034",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3010,7 +3010,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0035",
+   "id": "E25-C_on_abd-0035",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3094,7 +3094,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0036",
+   "id": "E25-C_on_abd-0036",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3187,7 +3187,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0037",
+   "id": "E25-C_on_abd-0037",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3280,7 +3280,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0038",
+   "id": "E25-C_on_abd-0038",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3364,7 +3364,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0039",
+   "id": "E25-C_on_abd-0039",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3449,7 +3449,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0040",
+   "id": "E25-C_on_abd-0040",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3534,7 +3534,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0041",
+   "id": "E25-C_on_abd-0041",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -3644,7 +3644,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0042",
+   "id": "E25-C_on_abd-0042",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3729,7 +3729,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0043",
+   "id": "E25-C_on_abd-0043",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3814,7 +3814,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0044",
+   "id": "E25-C_on_abd-0044",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3898,7 +3898,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0045",
+   "id": "E25-C_on_abd-0045",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3983,7 +3983,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0046",
+   "id": "E25-C_on_abd-0046",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4067,7 +4067,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0047",
+   "id": "E25-C_on_abd-0047",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4156,7 +4156,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0048",
+   "id": "E25-C_on_abd-0048",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4249,189 +4249,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0049",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "b",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0050",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "b",
-      "u5"
-     ],
-     [
-      "d",
-      "u4"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0051",
+   "id": "E25-C_on_abd-0049",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4520,735 +4338,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0052",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "d",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0053",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0054",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0055",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0056",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "b",
-      "u4"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0057",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0058",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "b",
-      "u5"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0059",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "b",
-      "u4"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0060",
+   "id": "E25-C_on_abd-0050",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5341,452 +4431,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0061",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "b",
-      "u4"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0062",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "b",
-      "u4"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0063",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "b",
-      "u4"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0064",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "b",
-      "u4"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0065",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "b",
-      "u4"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u5"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u1",
-      "u5"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0066",
+   "id": "E25-C_on_abd-0051",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5829,23 +4474,19 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
+      "b"
      ],
      [
       "a",
-      "u5"
-     ],
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "b",
       "u4"
      ],
      [
-      "d",
+      "b",
       "u2"
+     ],
+     [
+      "b",
+      "u5"
      ],
      [
       "u0",
@@ -5879,7 +4520,100 @@
    }
   },
   {
-   "id": "30-C_on_abd-0067",
+   "id": "E25-C_on_abd-0052",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0053",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5968,7 +4702,1273 @@
    }
   },
   {
-   "id": "30-C_on_abd-0068",
+   "id": "E25-C_on_abd-0054",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0055",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0056",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0057",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0058",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "b",
+      "u5"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0059",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0060",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u5"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0061",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0062",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0063",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0064",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0065",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0066",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u5"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0067",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0068",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6086,7 +6086,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0069",
+   "id": "E25-C_on_abd-0069",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6175,7 +6175,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0070",
+   "id": "E25-C_on_abd-0070",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6289,7 +6289,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0071",
+   "id": "E25-C_on_abd-0071",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6407,7 +6407,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0072",
+   "id": "E25-C_on_abd-0072",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6525,7 +6525,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0073",
+   "id": "E25-C_on_abd-0073",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6618,7 +6618,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0074",
+   "id": "E25-C_on_abd-0074",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6707,7 +6707,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0075",
+   "id": "E25-C_on_abd-0075",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6800,7 +6800,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0076",
+   "id": "E25-C_on_abd-0076",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6812,7 +6812,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0077",
+   "id": "E25-C_on_abd-0077",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6905,7 +6905,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0078",
+   "id": "E25-C_on_abd-0078",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6998,7 +6998,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0079",
+   "id": "E25-C_on_abd-0079",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7087,7 +7087,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0080",
+   "id": "E25-C_on_abd-0080",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -7205,7 +7205,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0081",
+   "id": "E25-C_on_abd-0081",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7298,7 +7298,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0082",
+   "id": "E25-C_on_abd-0082",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7391,7 +7391,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0083",
+   "id": "E25-C_on_abd-0083",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7484,7 +7484,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0084",
+   "id": "E25-C_on_abd-0084",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7573,7 +7573,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0085",
+   "id": "E25-C_on_abd-0085",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7662,7 +7662,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0086",
+   "id": "E25-C_on_abd-0086",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7751,193 +7751,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0087",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "b",
-      "u1"
-     ],
-     [
-      "b",
-      "u5"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u4"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0088",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u3"
-     ],
-     [
-      "b",
-      "u1"
-     ],
-     [
-      "b",
-      "u5"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u4"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u0",
-      "u5"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u5"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0089",
+   "id": "E25-C_on_abd-0087",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7984,6 +7798,192 @@
      ],
      [
       "a",
+      "d"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "b",
+      "u5"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0088",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "b",
+      "u5"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0089",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
       "u3"
      ],
      [
@@ -8030,7 +8030,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0090",
+   "id": "E25-C_on_abd-0090",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8148,7 +8148,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0091",
+   "id": "E25-C_on_abd-0091",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -8190,92 +8190,11 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "u0"
+      "d"
      ],
      [
       "a",
       "u1"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ],
-     [
-      "u2",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0092",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u0"
      ],
      [
       "a",
@@ -8283,7 +8202,7 @@
      ],
      [
       "d",
-      "u1"
+      "u0"
      ],
      [
       "u0",
@@ -8313,7 +8232,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0093",
+   "id": "E25-C_on_abd-0092",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8356,7 +8275,7 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "u0"
+      "b"
      ],
      [
       "a",
@@ -8365,6 +8284,10 @@
      [
       "a",
       "u2"
+     ],
+     [
+      "b",
+      "u0"
      ],
      [
       "u0",
@@ -8394,7 +8317,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0094",
+   "id": "E25-C_on_abd-0093",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8437,7 +8360,7 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "u0"
+      "b"
      ],
      [
       "a",
@@ -8446,6 +8369,10 @@
      [
       "a",
       "u2"
+     ],
+     [
+      "b",
+      "u0"
      ],
      [
       "u0",
@@ -8475,7 +8402,92 @@
    }
   },
   {
-   "id": "30-C_on_abd-0095",
+   "id": "E25-C_on_abd-0094",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0095",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -8555,7 +8567,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0096",
+   "id": "E25-C_on_abd-0096",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8636,7 +8648,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0097",
+   "id": "E25-C_on_abd-0097",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8683,7 +8695,7 @@
      ],
      [
       "a",
-      "u0"
+      "d"
      ],
      [
       "a",
@@ -8692,6 +8704,10 @@
      [
       "b",
       "u2"
+     ],
+     [
+      "d",
+      "u0"
      ],
      [
       "u0",
@@ -8721,7 +8737,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0098",
+   "id": "E25-C_on_abd-0098",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -8763,7 +8779,7 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
+      "b"
      ],
      [
       "a",
@@ -8774,7 +8790,7 @@
       "u1"
      ],
      [
-      "d",
+      "b",
       "u2"
      ],
      [
@@ -8805,7 +8821,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0099",
+   "id": "E25-C_on_abd-0099",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8890,7 +8906,96 @@
    }
   },
   {
-   "id": "30-C_on_abd-0100",
+   "id": "E25-C_on_abd-0100",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0101",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8975,92 +9080,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0101",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u0"
-     ],
-     [
-      "a",
-      "u1"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ],
-     [
-      "u2",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0102",
+   "id": "E25-C_on_abd-0102",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9127,96 +9147,11 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "u0"
+      "b"
      ],
-     [
-      "a",
-      "u1"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "b",
-      "u4"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0103",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
      [
       "a",
       "d"
-     ],
-     [
-      "a",
-      "u0"
      ],
      [
       "a",
@@ -9232,7 +9167,7 @@
      ],
      [
       "d",
-      "u2"
+      "u0"
      ],
      [
       "u0",
@@ -9258,7 +9193,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0104",
+   "id": "E25-C_on_abd-0103",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9301,15 +9236,15 @@
     "Kuratowski subgraph": [
      [
       "a",
+      "b"
+     ],
+     [
+      "a",
       "u0"
      ],
      [
       "a",
       "u1"
-     ],
-     [
-      "a",
-      "u2"
      ],
      [
       "b",
@@ -9343,7 +9278,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0105",
+   "id": "E25-C_on_abd-0104",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9386,15 +9321,15 @@
     "Kuratowski subgraph": [
      [
       "a",
+      "b"
+     ],
+     [
+      "a",
       "u0"
      ],
      [
       "a",
       "u1"
-     ],
-     [
-      "a",
-      "u2"
      ],
      [
       "b",
@@ -9428,7 +9363,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0106",
+   "id": "E25-C_on_abd-0105",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9471,7 +9406,7 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
+      "b"
      ],
      [
       "a",
@@ -9488,10 +9423,6 @@
      [
       "b",
       "u4"
-     ],
-     [
-      "d",
-      "u2"
      ],
      [
       "u0",
@@ -9517,7 +9448,92 @@
    }
   },
   {
-   "id": "30-C_on_abd-0107",
+   "id": "E25-C_on_abd-0106",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "u0"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0107",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9554,7 +9570,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0108",
+   "id": "E25-C_on_abd-0108",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9621,15 +9637,19 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
-     ],
-     [
-      "a",
-      "u0"
+      "b"
      ],
      [
       "a",
       "u1"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "b",
+      "u0"
      ],
      [
       "d",
@@ -9663,7 +9683,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0109",
+   "id": "E25-C_on_abd-0109",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9706,7 +9726,7 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
+      "b"
      ],
      [
       "a",
@@ -9715,6 +9735,10 @@
      [
       "a",
       "u1"
+     ],
+     [
+      "b",
+      "u2"
      ],
      [
       "d",
@@ -9748,7 +9772,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0110",
+   "id": "E25-C_on_abd-0110",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9791,15 +9815,15 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
-     ],
-     [
-      "a",
       "u0"
      ],
      [
       "a",
       "u1"
+     ],
+     [
+      "a",
+      "u2"
      ],
      [
       "d",
@@ -9833,7 +9857,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0111",
+   "id": "E25-C_on_abd-0111",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9876,15 +9900,15 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
-     ],
-     [
-      "a",
       "u0"
      ],
      [
       "a",
       "u1"
+     ],
+     [
+      "a",
+      "u2"
      ],
      [
       "d",
@@ -9918,7 +9942,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0112",
+   "id": "E25-C_on_abd-0112",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9961,7 +9985,7 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
+      "b"
      ],
      [
       "a",
@@ -9970,6 +9994,10 @@
      [
       "a",
       "u1"
+     ],
+     [
+      "b",
+      "u2"
      ],
      [
       "d",
@@ -10003,7 +10031,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0113",
+   "id": "E25-C_on_abd-0113",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10040,7 +10068,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0114",
+   "id": "E25-C_on_abd-0114",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10139,7 +10167,7 @@
      ],
      [
       "u0",
-      "u3"
+      "u4"
      ],
      [
       "u1",
@@ -10153,7 +10181,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0115",
+   "id": "E25-C_on_abd-0115",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10220,7 +10248,7 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
+      "b"
      ],
      [
       "a",
@@ -10229,6 +10257,10 @@
      [
       "a",
       "u1"
+     ],
+     [
+      "b",
+      "u2"
      ],
      [
       "d",
@@ -10262,7 +10294,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0116",
+   "id": "E25-C_on_abd-0116",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10329,7 +10361,7 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
+      "b"
      ],
      [
       "a",
@@ -10346,10 +10378,6 @@
      [
       "b",
       "u3"
-     ],
-     [
-      "d",
-      "u2"
      ],
      [
       "u0",
@@ -10375,7 +10403,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0117",
+   "id": "E25-C_on_abd-0117",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10464,7 +10492,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0118",
+   "id": "E25-C_on_abd-0118",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10535,11 +10563,11 @@
      ],
      [
       "a",
-      "d"
+      "u0"
      ],
      [
       "a",
-      "u0"
+      "u2"
      ],
      [
       "b",
@@ -10577,7 +10605,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0119",
+   "id": "E25-C_on_abd-0119",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10644,15 +10672,15 @@
     "Kuratowski subgraph": [
      [
       "a",
+      "b"
+     ],
+     [
+      "a",
       "d"
      ],
      [
       "a",
       "u0"
-     ],
-     [
-      "a",
-      "u2"
      ],
      [
       "b",
@@ -10690,7 +10718,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0120",
+   "id": "E25-C_on_abd-0120",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10733,7 +10761,7 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
+      "b"
      ],
      [
       "a",
@@ -10741,7 +10769,7 @@
      ],
      [
       "a",
-      "u1"
+      "u2"
      ],
      [
       "b",
@@ -10779,7 +10807,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0121",
+   "id": "E25-C_on_abd-0121",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10846,7 +10874,7 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
+      "b"
      ],
      [
       "a",
@@ -10854,7 +10882,7 @@
      ],
      [
       "a",
-      "u1"
+      "u2"
      ],
      [
       "b",
@@ -10892,7 +10920,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0122",
+   "id": "E25-C_on_abd-0122",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -10938,6 +10966,95 @@
      ],
      [
       "a",
+      "d"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0123",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
       "u0"
      ],
      [
@@ -10976,7 +11093,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0123",
+   "id": "E25-C_on_abd-0124",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11031,95 +11148,6 @@
      ],
      [
       "b",
-      "u2"
-     ],
-     [
-      "d",
-      "u1"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ],
-     [
-      "u2",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0124",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u0"
-     ],
-     [
-      "b",
       "u1"
      ],
      [
@@ -11154,7 +11182,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0125",
+   "id": "E25-C_on_abd-0125",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11243,7 +11271,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0126",
+   "id": "E25-C_on_abd-0126",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -11323,7 +11351,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0127",
+   "id": "E25-C_on_abd-0127",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11408,7 +11436,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0128",
+   "id": "E25-C_on_abd-0128",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11497,7 +11525,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0129",
+   "id": "E25-C_on_abd-0129",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -11543,7 +11571,7 @@
      ],
      [
       "a",
-      "d"
+      "u2"
      ],
      [
       "b",
@@ -11552,10 +11580,6 @@
      [
       "b",
       "u1"
-     ],
-     [
-      "d",
-      "u2"
      ],
      [
       "u0",
@@ -11585,7 +11609,92 @@
    }
   },
   {
-   "id": "30-C_on_abd-0130",
+   "id": "E25-C_on_abd-0130",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0131",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11636,10 +11745,6 @@
      ],
      [
       "a",
-      "u2"
-     ],
-     [
-      "b",
       "u0"
      ],
      [
@@ -11648,7 +11753,7 @@
      ],
      [
       "d",
-      "u3"
+      "u2"
      ],
      [
       "u0",
@@ -11668,13 +11773,17 @@
      ],
      [
       "u2",
+      "u3"
+     ],
+     [
+      "u2",
       "u4"
      ]
     ]
    }
   },
   {
-   "id": "30-C_on_abd-0131",
+   "id": "E25-C_on_abd-0132",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11724,7 +11833,7 @@
       "d"
      ],
      [
-      "a",
+      "b",
       "u0"
      ],
      [
@@ -11763,7 +11872,351 @@
    }
   },
   {
-   "id": "30-C_on_abd-0132",
+   "id": "E25-C_on_abd-0133",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0134",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0135",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0136",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0137",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11810,11 +12263,11 @@
      ],
      [
       "a",
-      "d"
+      "u2"
      ],
      [
       "a",
-      "u3"
+      "u4"
      ],
      [
       "b",
@@ -11823,10 +12276,6 @@
      [
       "b",
       "u1"
-     ],
-     [
-      "d",
-      "u2"
      ],
      [
       "u0",
@@ -11846,13 +12295,13 @@
      ],
      [
       "u2",
-      "u4"
+      "u3"
      ]
     ]
    }
   },
   {
-   "id": "30-C_on_abd-0133",
+   "id": "E25-C_on_abd-0138",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11902,10 +12351,6 @@
       "u2"
      ],
      [
-      "a",
-      "u4"
-     ],
-     [
       "b",
       "u0"
      ],
@@ -11916,265 +12361,6 @@
      [
       "b",
       "u2"
-     ],
-     [
-      "d",
-      "u0"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0134",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "b",
-      "u0"
-     ],
-     [
-      "b",
-      "u1"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0135",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "b",
-      "u0"
-     ],
-     [
-      "b",
-      "u1"
-     ],
-     [
-      "d",
-      "u3"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0136",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "b",
-      "u0"
-     ],
-     [
-      "b",
-      "u1"
      ],
      [
       "d",
@@ -12204,185 +12390,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0137",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "b",
-      "u0"
-     ],
-     [
-      "b",
-      "u1"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0138",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "b",
-      "u0"
-     ],
-     [
-      "b",
-      "u1"
-     ],
-     [
-      "d",
-      "u4"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0139",
+   "id": "E25-C_on_abd-0139",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12471,7 +12479,270 @@
    }
   },
   {
-   "id": "30-C_on_abd-0140",
+   "id": "E25-C_on_abd-0140",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0141",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0142",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0143",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12560,7 +12831,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0141",
+   "id": "E25-C_on_abd-0144",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12601,95 +12872,6 @@
      ]
     },
     "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u3"
-     ],
-     [
-      "b",
-      "u1"
-     ],
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "d",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0142",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
      [
       "a",
       "d"
@@ -12707,182 +12889,8 @@
       "u1"
      ],
      [
-      "d",
+      "b",
       "u2"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0143",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "b",
-      "u0"
-     ],
-     [
-      "b",
-      "u1"
-     ],
-     [
-      "d",
-      "u4"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0144",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "b",
-      "u0"
-     ],
-     [
-      "b",
-      "u1"
      ],
      [
       "d",
@@ -12912,7 +12920,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0145",
+   "id": "E25-C_on_abd-0145",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -13025,7 +13033,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0146",
+   "id": "E25-C_on_abd-0146",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -13134,7 +13142,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0147",
+   "id": "E25-C_on_abd-0147",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -13201,11 +13209,7 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
+      "u2"
      ],
      [
       "a",
@@ -13220,7 +13224,7 @@
       "u1"
      ],
      [
-      "d",
+      "b",
       "u2"
      ],
      [
@@ -13247,7 +13251,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0148",
+   "id": "E25-C_on_abd-0148",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13318,15 +13322,15 @@
      ],
      [
       "u0",
-      "u3"
-     ],
-     [
-      "u0",
       "u4"
      ],
      [
       "u1",
       "u3"
+     ],
+     [
+      "u1",
+      "u4"
      ],
      [
       "u2",
@@ -13336,7 +13340,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0149",
+   "id": "E25-C_on_abd-0149",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13348,7 +13352,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0150",
+   "id": "E25-C_on_abd-0150",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -13415,10 +13419,6 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "b"
-     ],
-     [
-      "a",
       "d"
      ],
      [
@@ -13426,20 +13426,24 @@
       "u1"
      ],
      [
+      "a",
+      "u4"
+     ],
+     [
       "b",
       "u0"
      ],
      [
       "b",
+      "u1"
+     ],
+     [
+      "b",
       "u2"
      ],
      [
       "d",
       "u2"
-     ],
-     [
-      "d",
-      "u4"
      ],
      [
       "u0",
@@ -13461,7 +13465,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0151",
+   "id": "E25-C_on_abd-0151",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13504,19 +13508,15 @@
     "Kuratowski subgraph": [
      [
       "a",
+      "b"
+     ],
+     [
+      "a",
       "d"
      ],
      [
       "a",
-      "u1"
-     ],
-     [
-      "a",
       "u4"
-     ],
-     [
-      "b",
-      "u0"
      ],
      [
       "b",
@@ -13545,12 +13545,16 @@
      [
       "u1",
       "u3"
+     ],
+     [
+      "u2",
+      "u4"
      ]
     ]
    }
   },
   {
-   "id": "30-C_on_abd-0152",
+   "id": "E25-C_on_abd-0152",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -13592,10 +13596,14 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
+      "b"
      ],
      [
       "a",
+      "d"
+     ],
+     [
+      "b",
       "u0"
      ],
      [
@@ -13634,7 +13642,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0153",
+   "id": "E25-C_on_abd-0153",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13677,6 +13685,10 @@
     "Kuratowski subgraph": [
      [
       "a",
+      "b"
+     ],
+     [
+      "a",
       "d"
      ],
      [
@@ -13684,7 +13696,7 @@
       "u0"
      ],
      [
-      "d",
+      "b",
       "u1"
      ],
      [
@@ -13719,7 +13731,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0154",
+   "id": "E25-C_on_abd-0154",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13808,7 +13820,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0155",
+   "id": "E25-C_on_abd-0155",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13897,7 +13909,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0156",
+   "id": "E25-C_on_abd-0156",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -13977,7 +13989,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0157",
+   "id": "E25-C_on_abd-0157",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14062,7 +14074,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0158",
+   "id": "E25-C_on_abd-0158",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14105,6 +14117,10 @@
     "Kuratowski subgraph": [
      [
       "a",
+      "b"
+     ],
+     [
+      "a",
       "d"
      ],
      [
@@ -14112,7 +14128,7 @@
       "u2"
      ],
      [
-      "d",
+      "b",
       "u0"
      ],
      [
@@ -14147,7 +14163,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0159",
+   "id": "E25-C_on_abd-0159",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -14189,91 +14205,6 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "d",
-      "u0"
-     ],
-     [
-      "d",
-      "u1"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ],
-     [
-      "u2",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0160",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
       "b"
      ],
      [
@@ -14281,101 +14212,12 @@
       "d"
      ],
      [
-      "a",
-      "u2"
-     ],
-     [
       "b",
-      "u3"
+      "u2"
      ],
      [
       "d",
       "u0"
-     ],
-     [
-      "d",
-      "u1"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0161",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u0"
-     ],
-     [
-      "b",
-      "u2"
      ],
      [
       "d",
@@ -14409,185 +14251,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0162",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u3"
-     ],
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "d",
-      "u0"
-     ],
-     [
-      "d",
-      "u1"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0163",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "b",
-      "u0"
-     ],
-     [
-      "d",
-      "u0"
-     ],
-     [
-      "d",
-      "u1"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0164",
+   "id": "E25-C_on_abd-0160",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14637,10 +14301,6 @@
       "u2"
      ],
      [
-      "a",
-      "u4"
-     ],
-     [
       "d",
       "u0"
      ],
@@ -14667,360 +14327,16 @@
      [
       "u2",
       "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0165",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "b",
-      "u3"
-     ],
-     [
-      "d",
-      "u0"
-     ],
-     [
-      "d",
-      "u1"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0166",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "b",
-      "u4"
-     ],
-     [
-      "d",
-      "u0"
-     ],
-     [
-      "d",
-      "u1"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
      ],
      [
       "u2",
-      "u3"
+      "u4"
      ]
     ]
    }
   },
   {
-   "id": "30-C_on_abd-0167",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "a",
-      "u4"
-     ],
-     [
-      "d",
-      "u0"
-     ],
-     [
-      "d",
-      "u1"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0168",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "b",
-      "u4"
-     ],
-     [
-      "d",
-      "u0"
-     ],
-     [
-      "d",
-      "u1"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u0",
-      "u4"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u1",
-      "u4"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0169",
+   "id": "E25-C_on_abd-0161",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15078,20 +14394,16 @@
       "u2"
      ],
      [
-      "b",
-      "u4"
-     ],
-     [
       "d",
       "u1"
      ],
      [
-      "d",
-      "u2"
+      "u0",
+      "u3"
      ],
      [
       "u0",
-      "u3"
+      "u4"
      ],
      [
       "u1",
@@ -15104,12 +14416,16 @@
      [
       "u2",
       "u3"
+     ],
+     [
+      "u2",
+      "u4"
      ]
     ]
    }
   },
   {
-   "id": "30-C_on_abd-0170",
+   "id": "E25-C_on_abd-0162",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15159,12 +14475,8 @@
       "d"
      ],
      [
-      "a",
-      "u2"
-     ],
-     [
       "b",
-      "u4"
+      "u2"
      ],
      [
       "d",
@@ -15193,12 +14505,16 @@
      [
       "u2",
       "u3"
+     ],
+     [
+      "u2",
+      "u4"
      ]
     ]
    }
   },
   {
-   "id": "30-C_on_abd-0171",
+   "id": "E25-C_on_abd-0163",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15245,19 +14561,19 @@
      ],
      [
       "a",
-      "d"
-     ],
-     [
-      "a",
-      "u3"
-     ],
-     [
-      "b",
       "u2"
      ],
      [
-      "b",
+      "a",
       "u4"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "d",
+      "u0"
      ],
      [
       "d",
@@ -15266,6 +14582,10 @@
      [
       "d",
       "u2"
+     ],
+     [
+      "u0",
+      "u3"
      ],
      [
       "u1",
@@ -15283,7 +14603,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0172",
+   "id": "E25-C_on_abd-0164",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15372,7 +14692,92 @@
    }
   },
   {
-   "id": "30-C_on_abd-0173",
+   "id": "E25-C_on_abd-0165",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "b",
+      "u3"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0166",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15461,7 +14866,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0174",
+   "id": "E25-C_on_abd-0167",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15550,7 +14955,626 @@
    }
   },
   {
-   "id": "30-C_on_abd-0175",
+   "id": "E25-C_on_abd-0168",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0169",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u0"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0170",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0171",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "d",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0172",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0173",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0174",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u4"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0175",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -15617,11 +15641,11 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
+      "b"
      ],
      [
       "a",
-      "u2"
+      "d"
      ],
      [
       "a",
@@ -15637,11 +15661,11 @@
      ],
      [
       "d",
-      "u0"
+      "u1"
      ],
      [
       "d",
-      "u1"
+      "u2"
      ],
      [
       "u0",
@@ -15663,7 +15687,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0176",
+   "id": "E25-C_on_abd-0176",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -15772,7 +15796,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0177",
+   "id": "E25-C_on_abd-0177",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -15839,15 +15863,19 @@
     "Kuratowski subgraph": [
      [
       "a",
+      "b"
+     ],
+     [
+      "a",
       "d"
      ],
      [
       "a",
-      "u2"
+      "u3"
      ],
      [
-      "a",
-      "u3"
+      "b",
+      "u2"
      ],
      [
       "d",
@@ -15881,7 +15909,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0178",
+   "id": "E25-C_on_abd-0178",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -15976,15 +16004,15 @@
      ],
      [
       "u0",
-      "u3"
-     ],
-     [
-      "u0",
       "u4"
      ],
      [
       "u1",
       "u3"
+     ],
+     [
+      "u1",
+      "u4"
      ],
      [
       "u2",
@@ -15994,7 +16022,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0179",
+   "id": "E25-C_on_abd-0179",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -16030,7 +16058,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0180",
+   "id": "E25-C_on_abd-0180",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16119,7 +16147,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0181",
+   "id": "E25-C_on_abd-0181",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16182,10 +16210,6 @@
      ],
      [
       "d",
-      "u0"
-     ],
-     [
-      "d",
       "u1"
      ],
      [
@@ -16203,12 +16227,101 @@
      [
       "u1",
       "u3"
+     ],
+     [
+      "u2",
+      "u4"
      ]
     ]
    }
   },
   {
-   "id": "30-C_on_abd-0182",
+   "id": "E25-C_on_abd-0182",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0183",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16289,88 +16402,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0183",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "u0"
-     ],
-     [
-      "a",
-      "u1"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "b",
-      "u0"
-     ],
-     [
-      "b",
-      "u1"
-     ],
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0184",
+   "id": "E25-C_on_abd-0184",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16407,7 +16439,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0185",
+   "id": "E25-C_on_abd-0185",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16492,7 +16524,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0186",
+   "id": "E25-C_on_abd-0186",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -16558,15 +16590,15 @@
     "Kuratowski subgraph": [
      [
       "a",
+      "b"
+     ],
+     [
+      "a",
       "d"
      ],
      [
       "a",
       "u0"
-     ],
-     [
-      "a",
-      "u1"
      ],
      [
       "b",
@@ -16600,7 +16632,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0187",
+   "id": "E25-C_on_abd-0187",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -16666,15 +16698,15 @@
     "Kuratowski subgraph": [
      [
       "a",
-      "d"
-     ],
-     [
-      "a",
       "u0"
      ],
      [
       "a",
       "u1"
+     ],
+     [
+      "a",
+      "u2"
      ],
      [
       "b",
@@ -16687,6 +16719,87 @@
      [
       "b",
       "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0188",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "u1"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u1"
      ],
      [
       "d",
@@ -16708,7 +16821,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0188",
+   "id": "E25-C_on_abd-0189",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16789,88 +16902,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0189",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "u0"
-     ],
-     [
-      "a",
-      "u1"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "d",
-      "u0"
-     ],
-     [
-      "d",
-      "u1"
-     ],
-     [
-      "d",
-      "u2"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0190",
+   "id": "E25-C_on_abd-0190",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16907,7 +16939,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0191",
+   "id": "E25-C_on_abd-0191",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16992,7 +17024,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0192",
+   "id": "E25-C_on_abd-0192",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17035,15 +17067,15 @@
     "Kuratowski subgraph": [
      [
       "a",
+      "b"
+     ],
+     [
+      "a",
       "u0"
      ],
      [
       "a",
       "u1"
-     ],
-     [
-      "a",
-      "u2"
      ],
      [
       "b",
@@ -17055,14 +17087,14 @@
      ],
      [
       "d",
-      "u0"
-     ],
-     [
-      "d",
       "u1"
      ],
      [
       "d",
+      "u2"
+     ],
+     [
+      "u0",
       "u2"
      ],
      [
@@ -17077,7 +17109,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0193",
+   "id": "E25-C_on_abd-0193",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17120,6 +17152,10 @@
     "Kuratowski subgraph": [
      [
       "a",
+      "b"
+     ],
+     [
+      "a",
       "u0"
      ],
      [
@@ -17127,7 +17163,7 @@
       "u1"
      ],
      [
-      "a",
+      "b",
       "u2"
      ],
      [
@@ -17158,7 +17194,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0194",
+   "id": "E25-C_on_abd-0194",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17243,7 +17279,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0195",
+   "id": "E25-C_on_abd-0195",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17324,7 +17360,92 @@
    }
   },
   {
-   "id": "30-C_on_abd-0196",
+   "id": "E25-C_on_abd-0196",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "b",
+      "u0"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0197",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17409,92 +17530,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0197",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
-      "b",
-      "u0"
-     ],
-     [
-      "b",
-      "u1"
-     ],
-     [
-      "d",
-      "u0"
-     ],
-     [
-      "d",
-      "u1"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u1",
-      "u3"
-     ],
-     [
-      "u2",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0198",
+   "id": "E25-C_on_abd-0198",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -17568,27 +17604,15 @@
      ],
      [
       "a",
-      "u2"
-     ],
-     [
-      "a",
       "u3"
      ],
      [
       "b",
-      "u0"
-     ],
-     [
-      "b",
       "u1"
      ],
      [
       "b",
       "u2"
-     ],
-     [
-      "d",
-      "u0"
      ],
      [
       "d",
@@ -17604,13 +17628,17 @@
      ],
      [
       "u0",
+      "u3"
+     ],
+     [
+      "u1",
       "u3"
      ]
     ]
    }
   },
   {
-   "id": "30-C_on_abd-0199",
+   "id": "E25-C_on_abd-0199",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -17714,7 +17742,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0200",
+   "id": "E25-C_on_abd-0200",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -17779,6 +17807,10 @@
     "Kuratowski subgraph": [
      [
       "a",
+      "b"
+     ],
+     [
+      "a",
       "d"
      ],
      [
@@ -17786,24 +17818,12 @@
       "u0"
      ],
      [
-      "a",
-      "u1"
-     ],
-     [
-      "a",
-      "u2"
-     ],
-     [
       "b",
       "u1"
      ],
      [
       "b",
       "u2"
-     ],
-     [
-      "d",
-      "u0"
      ],
      [
       "d",
@@ -17825,7 +17845,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0201",
+   "id": "E25-C_on_abd-0201",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17906,7 +17926,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0202",
+   "id": "E25-C_on_abd-0202",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17953,7 +17973,7 @@
      ],
      [
       "a",
-      "d"
+      "u2"
      ],
      [
       "a",
@@ -17966,10 +17986,6 @@
      [
       "b",
       "u1"
-     ],
-     [
-      "d",
-      "u2"
      ],
      [
       "u0",
@@ -17991,7 +18007,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0203",
+   "id": "E25-C_on_abd-0203",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18076,7 +18092,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0204",
+   "id": "E25-C_on_abd-0204",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18113,7 +18129,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0205",
+   "id": "E25-C_on_abd-0205",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18183,11 +18199,11 @@
      ],
      [
       "a",
-      "d"
+      "u2"
      ],
      [
       "a",
-      "u2"
+      "u3"
      ],
      [
       "b",
@@ -18221,7 +18237,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0206",
+   "id": "E25-C_on_abd-0206",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18302,92 +18318,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0207",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
-    "subgraph": {
-     "remove vertices": [
-      "p",
-      "q",
-      "r",
-      "z",
-      "c",
-      "e",
-      "w",
-      "h1",
-      "h2"
-     ],
-     "remove edges within": [
-      "a",
-      "b",
-      "d"
-     ],
-     "add edges": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    "Kuratowski subgraph": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "u3"
-     ],
-     [
-      "b",
-      "u2"
-     ],
-     [
-      "d",
-      "u0"
-     ],
-     [
-      "d",
-      "u1"
-     ],
-     [
-      "u0",
-      "u2"
-     ],
-     [
-      "u0",
-      "u3"
-     ],
-     [
-      "u1",
-      "u2"
-     ],
-     [
-      "u1",
-      "u3"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "30-C_on_abd-0208",
+   "id": "E25-C_on_abd-0207",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18438,6 +18369,91 @@
      ],
      [
       "a",
+      "u3"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E25-C_on_abd-0208",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)",
+    "subgraph": {
+     "remove vertices": [
+      "p",
+      "q",
+      "r",
+      "z",
+      "c",
+      "e",
+      "w",
+      "h1",
+      "h2"
+     ],
+     "remove edges within": [
+      "a",
+      "b",
+      "d"
+     ],
+     "add edges": [
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    "Kuratowski subgraph": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
       "u2"
      ],
      [
@@ -18472,7 +18488,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0209",
+   "id": "E25-C_on_abd-0209",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18580,7 +18596,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0210",
+   "id": "E25-C_on_abd-0210",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18661,7 +18677,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0211",
+   "id": "E25-C_on_abd-0211",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18746,7 +18762,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0212",
+   "id": "E25-C_on_abd-0212",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18796,7 +18812,7 @@
       "d"
      ],
      [
-      "a",
+      "b",
       "u2"
      ],
      [
@@ -18831,7 +18847,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0213",
+   "id": "E25-C_on_abd-0213",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18843,7 +18859,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0214",
+   "id": "E25-C_on_abd-0214",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18880,7 +18896,7 @@
    }
   },
   {
-   "id": "30-C_on_abd-0215",
+   "id": "E25-C_on_abd-0215",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",

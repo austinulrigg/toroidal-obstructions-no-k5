@@ -2,7 +2,7 @@
  "item": "E16",
  "verdicts": [
   {
-   "id": "21-altB-0000",
+   "id": "E16-altB-0000",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14,7 +14,7 @@
    }
   },
   {
-   "id": "21-altB-0001",
+   "id": "E16-altB-0001",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -92,7 +92,7 @@
    }
   },
   {
-   "id": "21-altB-0002",
+   "id": "E16-altB-0002",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -104,7 +104,7 @@
    }
   },
   {
-   "id": "21-altB-0003",
+   "id": "E16-altB-0003",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -115,7 +115,7 @@
    }
   },
   {
-   "id": "21-altB-0004",
+   "id": "E16-altB-0004",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -127,7 +127,7 @@
    }
   },
   {
-   "id": "21-altB-0005",
+   "id": "E16-altB-0005",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -205,7 +205,7 @@
    }
   },
   {
-   "id": "21-altB-0006",
+   "id": "E16-altB-0006",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -217,7 +217,7 @@
    }
   },
   {
-   "id": "21-altB-0007",
+   "id": "E16-altB-0007",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -296,7 +296,7 @@
    }
   },
   {
-   "id": "21-altB-0008",
+   "id": "E16-altB-0008",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -370,7 +370,7 @@
    }
   },
   {
-   "id": "21-altB-0009",
+   "id": "E16-altB-0009",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -449,7 +449,7 @@
    }
   },
   {
-   "id": "21-altB-0010",
+   "id": "E16-altB-0010",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -531,7 +531,7 @@
    }
   },
   {
-   "id": "21-altB-0011",
+   "id": "E16-altB-0011",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -610,7 +610,7 @@
    }
   },
   {
-   "id": "21-altB-0012",
+   "id": "E16-altB-0012",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -688,7 +688,7 @@
    }
   },
   {
-   "id": "21-altB-0013",
+   "id": "E16-altB-0013",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -767,7 +767,7 @@
    }
   },
   {
-   "id": "21-altB-0014",
+   "id": "E16-altB-0014",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -845,7 +845,7 @@
    }
   },
   {
-   "id": "21-altB-0015",
+   "id": "E16-altB-0015",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -924,7 +924,7 @@
    }
   },
   {
-   "id": "21-altB-0016",
+   "id": "E16-altB-0016",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -936,7 +936,7 @@
    }
   },
   {
-   "id": "21-altB-0017",
+   "id": "E16-altB-0017",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -948,7 +948,7 @@
    }
   },
   {
-   "id": "21-altB-0018",
+   "id": "E16-altB-0018",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -960,7 +960,7 @@
    }
   },
   {
-   "id": "21-altB-0019",
+   "id": "E16-altB-0019",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -971,7 +971,7 @@
    }
   },
   {
-   "id": "21-altB-0020",
+   "id": "E16-altB-0020",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -983,7 +983,7 @@
    }
   },
   {
-   "id": "21-altB-0021",
+   "id": "E16-altB-0021",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -995,7 +995,7 @@
    }
   },
   {
-   "id": "21-altB-0022",
+   "id": "E16-altB-0022",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1007,7 +1007,7 @@
    }
   },
   {
-   "id": "21-altB-0023",
+   "id": "E16-altB-0023",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1019,7 +1019,7 @@
    }
   },
   {
-   "id": "21-altB-0024",
+   "id": "E16-altB-0024",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1098,7 +1098,7 @@
    }
   },
   {
-   "id": "21-altB-0025",
+   "id": "E16-altB-0025",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1173,7 +1173,7 @@
    }
   },
   {
-   "id": "21-altB-0026",
+   "id": "E16-altB-0026",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1256,7 +1256,7 @@
    }
   },
   {
-   "id": "21-altB-0027",
+   "id": "E16-altB-0027",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1339,7 +1339,7 @@
    }
   },
   {
-   "id": "21-altB-0028",
+   "id": "E16-altB-0028",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1418,7 +1418,7 @@
    }
   },
   {
-   "id": "21-altB-0029",
+   "id": "E16-altB-0029",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1430,7 +1430,7 @@
    }
   },
   {
-   "id": "21-altB-0030",
+   "id": "E16-altB-0030",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1442,7 +1442,7 @@
    }
   },
   {
-   "id": "21-altB-0031",
+   "id": "E16-altB-0031",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1516,7 +1516,7 @@
    }
   },
   {
-   "id": "21-altB-0032",
+   "id": "E16-altB-0032",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1528,7 +1528,7 @@
    }
   },
   {
-   "id": "21-altB-0033",
+   "id": "E16-altB-0033",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1607,7 +1607,7 @@
    }
   },
   {
-   "id": "21-altB-0034",
+   "id": "E16-altB-0034",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1685,7 +1685,7 @@
    }
   },
   {
-   "id": "21-altB-0035",
+   "id": "E16-altB-0035",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1760,7 +1760,7 @@
    }
   },
   {
-   "id": "21-altB-0036",
+   "id": "E16-altB-0036",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1835,7 +1835,7 @@
    }
   },
   {
-   "id": "21-altB-0037",
+   "id": "E16-altB-0037",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1909,7 +1909,7 @@
    }
   },
   {
-   "id": "21-altB-0038",
+   "id": "E16-altB-0038",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1984,7 +1984,7 @@
    }
   },
   {
-   "id": "21-altB-0039",
+   "id": "E16-altB-0039",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2059,7 +2059,7 @@
    }
   },
   {
-   "id": "21-altB-0040",
+   "id": "E16-altB-0040",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2071,7 +2071,7 @@
    }
   },
   {
-   "id": "21-altB-0041",
+   "id": "E16-altB-0041",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2083,7 +2083,7 @@
    }
   },
   {
-   "id": "21-altB-0042",
+   "id": "E16-altB-0042",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2095,7 +2095,7 @@
    }
   },
   {
-   "id": "21-altB-0043",
+   "id": "E16-altB-0043",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2169,7 +2169,7 @@
    }
   },
   {
-   "id": "21-altB-0044",
+   "id": "E16-altB-0044",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2181,7 +2181,7 @@
    }
   },
   {
-   "id": "21-altB-0045",
+   "id": "E16-altB-0045",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2260,7 +2260,7 @@
    }
   },
   {
-   "id": "21-altB-0046",
+   "id": "E16-altB-0046",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2330,7 +2330,7 @@
    }
   },
   {
-   "id": "21-altB-0047",
+   "id": "E16-altB-0047",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2405,7 +2405,7 @@
    }
   },
   {
-   "id": "21-altB-0048",
+   "id": "E16-altB-0048",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2480,7 +2480,7 @@
    }
   },
   {
-   "id": "21-altB-0049",
+   "id": "E16-altB-0049",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2554,7 +2554,7 @@
    }
   },
   {
-   "id": "21-altB-0050",
+   "id": "E16-altB-0050",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2629,7 +2629,7 @@
    }
   },
   {
-   "id": "21-altB-0051",
+   "id": "E16-altB-0051",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2641,7 +2641,7 @@
    }
   },
   {
-   "id": "21-altB-0052",
+   "id": "E16-altB-0052",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2653,7 +2653,7 @@
    }
   },
   {
-   "id": "21-altB-0053",
+   "id": "E16-altB-0053",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2665,7 +2665,7 @@
    }
   },
   {
-   "id": "21-altB-0054",
+   "id": "E16-altB-0054",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2677,7 +2677,7 @@
    }
   },
   {
-   "id": "21-altB-0055",
+   "id": "E16-altB-0055",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2689,7 +2689,7 @@
    }
   },
   {
-   "id": "21-altB-0056",
+   "id": "E16-altB-0056",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2701,7 +2701,7 @@
    }
   },
   {
-   "id": "21-altB-0057",
+   "id": "E16-altB-0057",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2780,7 +2780,7 @@
    }
   },
   {
-   "id": "21-altB-0058",
+   "id": "E16-altB-0058",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2855,7 +2855,7 @@
    }
   },
   {
-   "id": "21-altB-0059",
+   "id": "E16-altB-0059",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2934,7 +2934,7 @@
    }
   },
   {
-   "id": "21-altB-0060",
+   "id": "E16-altB-0060",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3009,7 +3009,7 @@
    }
   },
   {
-   "id": "21-altB-0061",
+   "id": "E16-altB-0061",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3021,7 +3021,7 @@
    }
   },
   {
-   "id": "21-altB-0062",
+   "id": "E16-altB-0062",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3033,7 +3033,7 @@
    }
   },
   {
-   "id": "21-altB-0063",
+   "id": "E16-altB-0063",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3045,7 +3045,7 @@
    }
   },
   {
-   "id": "21-altB-0064",
+   "id": "E16-altB-0064",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3057,7 +3057,7 @@
    }
   },
   {
-   "id": "21-altB-0065",
+   "id": "E16-altB-0065",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3069,7 +3069,7 @@
    }
   },
   {
-   "id": "21-altB-0066",
+   "id": "E16-altB-0066",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3081,7 +3081,7 @@
    }
   },
   {
-   "id": "21-altB-0067",
+   "id": "E16-altB-0067",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3152,7 +3152,7 @@
    }
   },
   {
-   "id": "21-altB-0068",
+   "id": "E16-altB-0068",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3164,7 +3164,7 @@
    }
   },
   {
-   "id": "21-altB-0069",
+   "id": "E16-altB-0069",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -3199,7 +3199,7 @@
    }
   },
   {
-   "id": "21-altB-0070",
+   "id": "E16-altB-0070",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3211,7 +3211,7 @@
    }
   },
   {
-   "id": "21-altB-0071",
+   "id": "E16-altB-0071",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3223,7 +3223,7 @@
    }
   },
   {
-   "id": "21-altB-0072",
+   "id": "E16-altB-0072",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3298,7 +3298,7 @@
    }
   },
   {
-   "id": "21-altB-0073",
+   "id": "E16-altB-0073",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3369,7 +3369,7 @@
    }
   },
   {
-   "id": "21-altB-0074",
+   "id": "E16-altB-0074",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3440,7 +3440,7 @@
    }
   },
   {
-   "id": "21-altB-0075",
+   "id": "E16-altB-0075",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3511,7 +3511,7 @@
    }
   },
   {
-   "id": "21-altB-0076",
+   "id": "E16-altB-0076",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3523,7 +3523,7 @@
    }
   },
   {
-   "id": "21-altB-0077",
+   "id": "E16-altB-0077",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3535,7 +3535,7 @@
    }
   },
   {
-   "id": "21-altD-0000",
+   "id": "E16-altD-0000",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3547,7 +3547,7 @@
    }
   },
   {
-   "id": "21-altD-0001",
+   "id": "E16-altD-0001",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3558,7 +3558,7 @@
    }
   },
   {
-   "id": "21-altD-0002",
+   "id": "E16-altD-0002",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3570,7 +3570,7 @@
    }
   },
   {
-   "id": "21-altD-0003",
+   "id": "E16-altD-0003",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3648,7 +3648,7 @@
    }
   },
   {
-   "id": "21-altD-0004",
+   "id": "E16-altD-0004",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3727,7 +3727,7 @@
    }
   },
   {
-   "id": "21-altD-0005",
+   "id": "E16-altD-0005",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3801,7 +3801,7 @@
    }
   },
   {
-   "id": "21-altD-0006",
+   "id": "E16-altD-0006",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3880,7 +3880,7 @@
    }
   },
   {
-   "id": "21-altD-0007",
+   "id": "E16-altD-0007",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -3962,7 +3962,7 @@
    }
   },
   {
-   "id": "21-altD-0008",
+   "id": "E16-altD-0008",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4041,7 +4041,7 @@
    }
   },
   {
-   "id": "21-altD-0009",
+   "id": "E16-altD-0009",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4115,7 +4115,7 @@
    }
   },
   {
-   "id": "21-altD-0010",
+   "id": "E16-altD-0010",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4194,7 +4194,7 @@
    }
   },
   {
-   "id": "21-altD-0011",
+   "id": "E16-altD-0011",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4272,7 +4272,7 @@
    }
   },
   {
-   "id": "21-altD-0012",
+   "id": "E16-altD-0012",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4284,7 +4284,7 @@
    }
   },
   {
-   "id": "21-altD-0013",
+   "id": "E16-altD-0013",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4362,7 +4362,7 @@
    }
   },
   {
-   "id": "21-altD-0014",
+   "id": "E16-altD-0014",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4374,7 +4374,7 @@
    }
   },
   {
-   "id": "21-altD-0015",
+   "id": "E16-altD-0015",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4386,7 +4386,7 @@
    }
   },
   {
-   "id": "21-altD-0016",
+   "id": "E16-altD-0016",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4465,7 +4465,7 @@
    }
   },
   {
-   "id": "21-altD-0017",
+   "id": "E16-altD-0017",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4502,7 +4502,7 @@
    }
   },
   {
-   "id": "21-altD-0018",
+   "id": "E16-altD-0018",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4514,7 +4514,7 @@
    }
   },
   {
-   "id": "21-altD-0019",
+   "id": "E16-altD-0019",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4588,7 +4588,7 @@
    }
   },
   {
-   "id": "21-altD-0020",
+   "id": "E16-altD-0020",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4600,7 +4600,7 @@
    }
   },
   {
-   "id": "21-altD-0021",
+   "id": "E16-altD-0021",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4679,7 +4679,7 @@
    }
   },
   {
-   "id": "21-altD-0022",
+   "id": "E16-altD-0022",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4757,7 +4757,7 @@
    }
   },
   {
-   "id": "21-altD-0023",
+   "id": "E16-altD-0023",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4832,7 +4832,7 @@
    }
   },
   {
-   "id": "21-altD-0024",
+   "id": "E16-altD-0024",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4911,7 +4911,7 @@
    }
   },
   {
-   "id": "21-altD-0025",
+   "id": "E16-altD-0025",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4985,7 +4985,7 @@
    }
   },
   {
-   "id": "21-altD-0026",
+   "id": "E16-altD-0026",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5060,7 +5060,7 @@
    }
   },
   {
-   "id": "21-altD-0027",
+   "id": "E16-altD-0027",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5135,7 +5135,7 @@
    }
   },
   {
-   "id": "21-altD-0028",
+   "id": "E16-altD-0028",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5147,7 +5147,7 @@
    }
   },
   {
-   "id": "21-altD-0029",
+   "id": "E16-altD-0029",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5183,7 +5183,7 @@
    }
   },
   {
-   "id": "21-altD-0030",
+   "id": "E16-altD-0030",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5195,7 +5195,7 @@
    }
   },
   {
-   "id": "21-altD-0031",
+   "id": "E16-altD-0031",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -5206,7 +5206,7 @@
    }
   },
   {
-   "id": "21-altD-0032",
+   "id": "E16-altD-0032",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5218,7 +5218,7 @@
    }
   },
   {
-   "id": "21-altD-0033",
+   "id": "E16-altD-0033",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5230,7 +5230,7 @@
    }
   },
   {
-   "id": "21-altD-0034",
+   "id": "E16-altD-0034",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5242,7 +5242,7 @@
    }
   },
   {
-   "id": "21-altD-0035",
+   "id": "E16-altD-0035",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5254,7 +5254,7 @@
    }
   },
   {
-   "id": "21-altD-0036",
+   "id": "E16-altD-0036",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5333,7 +5333,7 @@
    }
   },
   {
-   "id": "21-altD-0037",
+   "id": "E16-altD-0037",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5408,7 +5408,7 @@
    }
   },
   {
-   "id": "21-altD-0038",
+   "id": "E16-altD-0038",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5491,7 +5491,7 @@
    }
   },
   {
-   "id": "21-altD-0039",
+   "id": "E16-altD-0039",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5574,7 +5574,7 @@
    }
   },
   {
-   "id": "21-altD-0040",
+   "id": "E16-altD-0040",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5653,7 +5653,7 @@
    }
   },
   {
-   "id": "21-altD-0041",
+   "id": "E16-altD-0041",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5665,7 +5665,7 @@
    }
   },
   {
-   "id": "21-altD-0042",
+   "id": "E16-altD-0042",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5744,7 +5744,7 @@
    }
   },
   {
-   "id": "21-altD-0043",
+   "id": "E16-altD-0043",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -5814,7 +5814,7 @@
    }
   },
   {
-   "id": "21-altD-0044",
+   "id": "E16-altD-0044",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5889,7 +5889,7 @@
    }
   },
   {
-   "id": "21-altD-0045",
+   "id": "E16-altD-0045",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5964,7 +5964,7 @@
    }
   },
   {
-   "id": "21-altD-0046",
+   "id": "E16-altD-0046",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6034,7 +6034,7 @@
    }
   },
   {
-   "id": "21-altD-0047",
+   "id": "E16-altD-0047",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6109,7 +6109,7 @@
    }
   },
   {
-   "id": "21-altD-0048",
+   "id": "E16-altD-0048",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6121,7 +6121,7 @@
    }
   },
   {
-   "id": "21-altD-0049",
+   "id": "E16-altD-0049",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6195,7 +6195,7 @@
    }
   },
   {
-   "id": "21-altD-0050",
+   "id": "E16-altD-0050",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6207,7 +6207,7 @@
    }
   },
   {
-   "id": "21-altD-0051",
+   "id": "E16-altD-0051",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6219,7 +6219,7 @@
    }
   },
   {
-   "id": "21-altD-0052",
+   "id": "E16-altD-0052",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6231,7 +6231,7 @@
    }
   },
   {
-   "id": "21-altD-0053",
+   "id": "E16-altD-0053",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6243,7 +6243,7 @@
    }
   },
   {
-   "id": "21-altD-0054",
+   "id": "E16-altD-0054",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6255,7 +6255,7 @@
    }
   },
   {
-   "id": "21-altD-0055",
+   "id": "E16-altD-0055",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6267,7 +6267,7 @@
    }
   },
   {
-   "id": "21-altD-0056",
+   "id": "E16-altD-0056",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6279,7 +6279,7 @@
    }
   },
   {
-   "id": "21-altD-0057",
+   "id": "E16-altD-0057",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6291,7 +6291,7 @@
    }
   },
   {
-   "id": "21-altD-0058",
+   "id": "E16-altD-0058",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6366,7 +6366,7 @@
    }
   },
   {
-   "id": "21-altD-0059",
+   "id": "E16-altD-0059",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6445,7 +6445,7 @@
    }
   },
   {
-   "id": "21-altD-0060",
+   "id": "E16-altD-0060",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6548,7 +6548,7 @@
    }
   },
   {
-   "id": "21-altD-0061",
+   "id": "E16-altD-0061",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6623,7 +6623,7 @@
    }
   },
   {
-   "id": "21-altD-0062",
+   "id": "E16-altD-0062",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6658,7 +6658,7 @@
    }
   },
   {
-   "id": "21-altD-0063",
+   "id": "E16-altD-0063",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6733,7 +6733,7 @@
    }
   },
   {
-   "id": "21-altD-0064",
+   "id": "E16-altD-0064",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6804,7 +6804,7 @@
    }
   },
   {
-   "id": "21-altD-0065",
+   "id": "E16-altD-0065",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6875,7 +6875,7 @@
    }
   },
   {
-   "id": "21-altD-0066",
+   "id": "E16-altD-0066",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6946,7 +6946,7 @@
    }
   },
   {
-   "id": "21-altD-0067",
+   "id": "E16-altD-0067",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6958,7 +6958,7 @@
    }
   },
   {
-   "id": "21-altD-0068",
+   "id": "E16-altD-0068",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6970,7 +6970,7 @@
    }
   },
   {
-   "id": "21-altD-0069",
+   "id": "E16-altD-0069",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6982,7 +6982,7 @@
    }
   },
   {
-   "id": "21-altD-0070",
+   "id": "E16-altD-0070",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6994,7 +6994,7 @@
    }
   },
   {
-   "id": "21-altD-0071",
+   "id": "E16-altD-0071",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7006,7 +7006,7 @@
    }
   },
   {
-   "id": "21-altD-0072",
+   "id": "E16-altD-0072",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7018,7 +7018,7 @@
    }
   },
   {
-   "id": "21-altD-0073",
+   "id": "E16-altD-0073",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7089,7 +7089,7 @@
    }
   },
   {
-   "id": "21-altD-0074",
+   "id": "E16-altD-0074",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7101,7 +7101,7 @@
    }
   },
   {
-   "id": "21-altD-0075",
+   "id": "E16-altD-0075",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -7136,7 +7136,7 @@
    }
   },
   {
-   "id": "21-altD-0076",
+   "id": "E16-altD-0076",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7148,7 +7148,7 @@
    }
   },
   {
-   "id": "21-altD-0077",
+   "id": "E16-altD-0077",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",

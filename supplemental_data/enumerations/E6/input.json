@@ -7,7 +7,7 @@
    "text": "its drawing lies in this region, and $h_a,ad$ fit no other face.\nIn the annular case, the drawing of $P_1$ lies inside the annulus except at its ends,\nand the two boundary walks offer only the appearances $a,c$ and $b,d$.\nSo Lemmas~\\ref{lem:annulus-embedding} and~\\ref{lem:embedding-extension},\napplied to the annulus or the first disk, would make $H_1$ planar.\nThe last disk makes $(B\\cup H_{\\mathrm{ext}})+ca+cb+cd$ planar, hence also $H_1-bd$.\nSo every $K_{3,3}$ subdivision of $H_1$ uses $bd$.\nContracting $ed$ gives the symmetric assertion.\n\nDeleting $h_ac$ must make $H_1-h_a+ad$ planar, as the remaining path\n$ah_ad$ fits only $H_{\\mathrm{rep}}$, and deleting $h_bd$ must make\n$H_1-h_b+bc$ planar.\n\nConstruction~\\ref{common:marked-construction}\nwith these conditions leaves only $\\mathfrak{T}_{21},\\mathfrak{T}_{63}$~\\supp{E6}."
   }
  ],
- "vertex names": "Section 4.6, type (c): a = s1, b = t1, c = s2, d = t3, e = s3, f = t2; twins p, q with neighbourhood {a,c,e} and r, z with {b,d,f}.",
+ "vertex names": "Section 4.7, type (c): a = s1, b = t1, c = s2, d = t3, e = s3, f = t2; twins p, q with neighbourhood {a,c,e} and r, z with {b,d,f}.",
  "cases of the construction": {
   "Z0": {
    "specification": {

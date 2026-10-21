@@ -1,6 +1,6 @@
 {
  "item": "W21",
- "where": "Lemma 6.13",
+ "where": "Lemma 6.14",
  "claim": "After contracting the outside b-d path into d and Int(B) to w: p, q with neighbourhood {a,c,d}, four vertices r, z, r3, r4 with neighbourhood {a,d,e}, and w with neighbourhood {a,c,d,e}. This is T2.",
  "graph": {
   "vertices": [

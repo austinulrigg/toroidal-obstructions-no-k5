@@ -2,7 +2,7 @@
  "item": "E12",
  "verdicts": [
   {
-   "id": "E01-001",
+   "id": "E12-001",
    "verdict": "isomorphic to T73",
    "witness": {
     "type": "isomorphism",
@@ -12,21 +12,21 @@
      "b": 13,
      "c": 9,
      "d": 10,
-     "p'": 0,
+     "m1": 2,
+     "m2": 3,
      "p": 6,
+     "p'": 0,
      "q": 7,
      "q'": 1,
      "r": 4,
-     "z": 5,
      "u": 8,
      "v": 11,
-     "m1": 2,
-     "m2": 3
+     "z": 5
     }
    }
   },
   {
-   "id": "E01-002",
+   "id": "E12-002",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -243,7 +243,7 @@
    }
   },
   {
-   "id": "E01-003",
+   "id": "E12-003",
    "verdict": "isomorphic to T56",
    "witness": {
     "type": "isomorphism",
@@ -251,22 +251,22 @@
     "map": {
      "a": 12,
      "b": 11,
-     "c": 2,
-     "d": 1,
-     "p'": 9,
-     "p": 6,
-     "q": 5,
-     "q'": 8,
-     "r": 4,
-     "z": 3,
+     "c": 1,
+     "d": 2,
+     "m": 10,
+     "p": 3,
+     "p'": 8,
+     "q": 4,
+     "q'": 9,
+     "r": 5,
      "u": 7,
      "v": 0,
-     "m": 10
+     "z": 6
     }
    }
   },
   {
-   "id": "E01-004",
+   "id": "E12-004",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -483,7 +483,7 @@
    }
   },
   {
-   "id": "E01-005",
+   "id": "E12-005",
    "verdict": "isomorphic to T73",
    "witness": {
     "type": "isomorphism",
@@ -493,21 +493,21 @@
      "b": 13,
      "c": 9,
      "d": 10,
-     "p'": 0,
+     "m1": 2,
+     "m2": 3,
      "p": 6,
+     "p'": 0,
      "q": 7,
      "q'": 1,
      "r": 4,
-     "z": 5,
      "u": 11,
      "v": 8,
-     "m1": 2,
-     "m2": 3
+     "z": 5
     }
    }
   },
   {
-   "id": "E01-006",
+   "id": "E12-006",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -540,7 +540,7 @@
    }
   },
   {
-   "id": "E01-007",
+   "id": "E12-007",
    "verdict": "isomorphic to T56",
    "witness": {
     "type": "isomorphism",
@@ -548,22 +548,22 @@
     "map": {
      "a": 12,
      "b": 11,
-     "c": 2,
-     "d": 1,
-     "p'": 9,
-     "p": 6,
-     "q": 5,
-     "q'": 8,
-     "r": 4,
-     "z": 3,
+     "c": 1,
+     "d": 2,
+     "m": 10,
+     "p": 3,
+     "p'": 8,
+     "q": 4,
+     "q'": 9,
+     "r": 5,
      "u": 0,
      "v": 7,
-     "m": 10
+     "z": 6
     }
    }
   },
   {
-   "id": "E01-008",
+   "id": "E12-008",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -596,7 +596,7 @@
    }
   },
   {
-   "id": "E01-009",
+   "id": "E12-009",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -805,7 +805,7 @@
    }
   },
   {
-   "id": "E01-010",
+   "id": "E12-010",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1014,7 +1014,7 @@
    }
   },
   {
-   "id": "E01-011",
+   "id": "E12-011",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1223,7 +1223,7 @@
    }
   },
   {
-   "id": "E01-012",
+   "id": "E12-012",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1432,7 +1432,7 @@
    }
   },
   {
-   "id": "E01-013",
+   "id": "E12-013",
    "verdict": "isomorphic to T53",
    "witness": {
     "type": "isomorphism",
@@ -1442,21 +1442,21 @@
      "b": 12,
      "c": 0,
      "d": 1,
+     "m1": 4,
+     "m2": 5,
+     "p": 8,
      "p'": 6,
-     "p": 9,
-     "q": 8,
+     "q": 9,
      "q'": 7,
-     "r": 11,
-     "z": 10,
+     "r": 10,
      "u": 3,
      "v": 2,
-     "m1": 4,
-     "m2": 5
+     "z": 11
     }
    }
   },
   {
-   "id": "E01-014",
+   "id": "E12-014",
    "verdict": "isomorphic to T53",
    "witness": {
     "type": "isomorphism",
@@ -1466,21 +1466,21 @@
      "b": 12,
      "c": 0,
      "d": 1,
+     "m1": 4,
+     "m2": 5,
+     "p": 8,
      "p'": 6,
-     "p": 9,
-     "q": 8,
+     "q": 9,
      "q'": 7,
-     "r": 11,
-     "z": 10,
+     "r": 10,
      "u": 2,
      "v": 3,
-     "m1": 4,
-     "m2": 5
+     "z": 11
     }
    }
   },
   {
-   "id": "E01-015",
+   "id": "E12-015",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -1513,7 +1513,7 @@
    }
   },
   {
-   "id": "E01-016",
+   "id": "E12-016",
    "verdict": "isomorphic to T40",
    "witness": {
     "type": "isomorphism",
@@ -1523,20 +1523,20 @@
      "b": 11,
      "c": 10,
      "d": 6,
+     "m": 9,
+     "p": 4,
      "p'": 2,
-     "p": 5,
-     "q": 4,
+     "q": 5,
      "q'": 3,
      "r": 0,
-     "z": 1,
      "u": 7,
      "v": 8,
-     "m": 9
+     "z": 1
     }
    }
   },
   {
-   "id": "E01-017",
+   "id": "E12-017",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1749,7 +1749,7 @@
    }
   },
   {
-   "id": "E01-018",
+   "id": "E12-018",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -1782,7 +1782,7 @@
    }
   },
   {
-   "id": "E01-019",
+   "id": "E12-019",
    "verdict": "isomorphic to T40",
    "witness": {
     "type": "isomorphism",
@@ -1792,20 +1792,20 @@
      "b": 11,
      "c": 10,
      "d": 6,
+     "m": 9,
+     "p": 4,
      "p'": 2,
-     "p": 5,
-     "q": 4,
+     "q": 5,
      "q'": 3,
      "r": 0,
-     "z": 1,
      "u": 8,
      "v": 7,
-     "m": 9
+     "z": 1
     }
    }
   },
   {
-   "id": "E01-020",
+   "id": "E12-020",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -1838,7 +1838,7 @@
    }
   },
   {
-   "id": "E01-021",
+   "id": "E12-021",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2043,7 +2043,7 @@
    }
   },
   {
-   "id": "E01-022",
+   "id": "E12-022",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -2076,7 +2076,7 @@
    }
   },
   {
-   "id": "E01-023",
+   "id": "E12-023",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -2109,7 +2109,7 @@
    }
   },
   {
-   "id": "E01-024",
+   "id": "E12-024",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -2142,7 +2142,7 @@
    }
   },
   {
-   "id": "E01-025",
+   "id": "E12-025",
    "verdict": "isomorphic to T40",
    "witness": {
     "type": "isomorphism",
@@ -2152,20 +2152,20 @@
      "b": 11,
      "c": 6,
      "d": 10,
-     "p'": 2,
+     "m": 9,
      "p": 0,
+     "p'": 2,
      "q": 1,
      "q'": 3,
      "r": 4,
-     "z": 5,
      "u": 7,
      "v": 8,
-     "m": 9
+     "z": 5
     }
    }
   },
   {
-   "id": "E01-026",
+   "id": "E12-026",
    "verdict": "isomorphic to T40",
    "witness": {
     "type": "isomorphism",
@@ -2175,20 +2175,20 @@
      "b": 11,
      "c": 6,
      "d": 10,
-     "p'": 2,
+     "m": 9,
      "p": 0,
+     "p'": 2,
      "q": 1,
      "q'": 3,
      "r": 4,
-     "z": 5,
      "u": 8,
      "v": 7,
-     "m": 9
+     "z": 5
     }
    }
   },
   {
-   "id": "E01-027",
+   "id": "E12-027",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2199,7 +2199,7 @@
    }
   },
   {
-   "id": "E01-028",
+   "id": "E12-028",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -2232,7 +2232,7 @@
    }
   },
   {
-   "id": "E01-029",
+   "id": "E12-029",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -2265,7 +2265,7 @@
    }
   },
   {
-   "id": "E01-030",
+   "id": "E12-030",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -2298,7 +2298,7 @@
    }
   },
   {
-   "id": "E01-031",
+   "id": "E12-031",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",

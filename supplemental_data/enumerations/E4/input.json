@@ -3636,7 +3636,7 @@
    "cover.cnf": "cover.cnf",
    "cover.drat": "cover.drat"
   },
-  "DRAT check": "drat-trim verifies that cover.cnf is unsatisfiable: c 3459 of 6822 clauses in core                            ; c 296 of 336 lemmas in core using 8139 resolution steps; c 0 RAT lemmas in core; 114 redundant literals in core lemmas; c verification time: 0.101 seconds"
+  "DRAT check": "drat-trim verifies that cover.cnf is unsatisfiable, with the proof cover.drat; the checker of this repository runs it"
  },
  "what this shows": "Every assembly allowed by the base clauses either lies inside a recorded toroidal graph, so it is toroidal, or contains a recorded nontoroidal graph. An obstruction of this case therefore equals a recorded nontoroidal graph, and the verdicts of those leave only T48 and T58.",
  "how a choice fails or passes": "Faces of a choice (k,x,y) of Lemma 4.2: J is the pair of simple faces (attachments V(P_i) ∪ V(P_j); test graph with auxiliary edges s_i s_j, t_i t_j), W the repeated face (attachments V(P_k) ∪ {s_x, t_y}; auxiliary edges s_k s_x, t_k t_y), small_S and small_T the two faces of (iii) (attachments {s_k, s_x'} and {t_k, t_y'}; a bridge set fits such a disk exactly when it plus the edge between the two attachments is planar)."

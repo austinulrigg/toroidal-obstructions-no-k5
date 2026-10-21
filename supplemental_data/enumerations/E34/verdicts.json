@@ -2,7 +2,7 @@
  "item": "E34",
  "verdicts": [
   {
-   "id": "40-0000-k2l2",
+   "id": "E34-0000-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -58,7 +58,7 @@
    }
   },
   {
-   "id": "40-0000-k2l3",
+   "id": "E34-0000-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -122,7 +122,7 @@
    }
   },
   {
-   "id": "40-0000-k2l4",
+   "id": "E34-0000-k2l4",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -194,7 +194,7 @@
    }
   },
   {
-   "id": "40-0000-k3l2",
+   "id": "E34-0000-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -258,7 +258,7 @@
    }
   },
   {
-   "id": "40-0000-k4l2",
+   "id": "E34-0000-k4l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -330,7 +330,7 @@
    }
   },
   {
-   "id": "40-0001-k2l2",
+   "id": "E34-0001-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -392,7 +392,7 @@
    }
   },
   {
-   "id": "40-0001-k2l3",
+   "id": "E34-0001-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -462,7 +462,7 @@
    }
   },
   {
-   "id": "40-0001-k2l4",
+   "id": "E34-0001-k2l4",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -540,7 +540,7 @@
    }
   },
   {
-   "id": "40-0001-k3l2",
+   "id": "E34-0001-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -610,7 +610,7 @@
    }
   },
   {
-   "id": "40-0001-k4l2",
+   "id": "E34-0001-k4l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -688,7 +688,7 @@
    }
   },
   {
-   "id": "40-0003-k2l2",
+   "id": "E34-0003-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -750,7 +750,7 @@
    }
   },
   {
-   "id": "40-0003-k2l3",
+   "id": "E34-0003-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -820,7 +820,7 @@
    }
   },
   {
-   "id": "40-0003-k2l4",
+   "id": "E34-0003-k2l4",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -898,7 +898,7 @@
    }
   },
   {
-   "id": "40-0003-k3l2",
+   "id": "E34-0003-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -968,7 +968,7 @@
    }
   },
   {
-   "id": "40-0003-k4l2",
+   "id": "E34-0003-k4l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1046,7 +1046,7 @@
    }
   },
   {
-   "id": "40-0005-k2l2",
+   "id": "E34-0005-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1114,7 +1114,7 @@
    }
   },
   {
-   "id": "40-0005-k2l3",
+   "id": "E34-0005-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1190,7 +1190,7 @@
    }
   },
   {
-   "id": "40-0005-k2l4",
+   "id": "E34-0005-k2l4",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1274,7 +1274,7 @@
    }
   },
   {
-   "id": "40-0005-k3l2",
+   "id": "E34-0005-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1350,7 +1350,7 @@
    }
   },
   {
-   "id": "40-0005-k4l2",
+   "id": "E34-0005-k4l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1434,7 +1434,7 @@
    }
   },
   {
-   "id": "40-0009-k2l2",
+   "id": "E34-0009-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1512,7 +1512,7 @@
    }
   },
   {
-   "id": "40-0009-k2l3",
+   "id": "E34-0009-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1598,7 +1598,7 @@
    }
   },
   {
-   "id": "40-0009-k2l4",
+   "id": "E34-0009-k2l4",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1692,7 +1692,7 @@
    }
   },
   {
-   "id": "40-0009-k3l2",
+   "id": "E34-0009-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1778,7 +1778,7 @@
    }
   },
   {
-   "id": "40-0009-k4l2",
+   "id": "E34-0009-k4l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1872,7 +1872,7 @@
    }
   },
   {
-   "id": "40-0010-k2l2",
+   "id": "E34-0010-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -1956,7 +1956,7 @@
    }
   },
   {
-   "id": "40-0010-k2l3",
+   "id": "E34-0010-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2048,7 +2048,7 @@
    }
   },
   {
-   "id": "40-0010-k2l4",
+   "id": "E34-0010-k2l4",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2148,7 +2148,7 @@
    }
   },
   {
-   "id": "40-0010-k3l2",
+   "id": "E34-0010-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2240,7 +2240,7 @@
    }
   },
   {
-   "id": "40-0010-k4l2",
+   "id": "E34-0010-k4l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2340,7 +2340,7 @@
    }
   },
   {
-   "id": "40-0012-k2l2",
+   "id": "E34-0012-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2414,7 +2414,7 @@
    }
   },
   {
-   "id": "40-0012-k2l3",
+   "id": "E34-0012-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2426,7 +2426,7 @@
    }
   },
   {
-   "id": "40-0012-k2l4",
+   "id": "E34-0012-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2438,7 +2438,7 @@
    }
   },
   {
-   "id": "40-0012-k3l2",
+   "id": "E34-0012-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2450,7 +2450,7 @@
    }
   },
   {
-   "id": "40-0012-k4l2",
+   "id": "E34-0012-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2462,7 +2462,7 @@
    }
   },
   {
-   "id": "40-0014-k2l2",
+   "id": "E34-0014-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2542,7 +2542,7 @@
    }
   },
   {
-   "id": "40-0014-k2l3",
+   "id": "E34-0014-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2554,7 +2554,7 @@
    }
   },
   {
-   "id": "40-0014-k2l4",
+   "id": "E34-0014-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2566,7 +2566,7 @@
    }
   },
   {
-   "id": "40-0014-k3l2",
+   "id": "E34-0014-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2578,7 +2578,7 @@
    }
   },
   {
-   "id": "40-0014-k4l2",
+   "id": "E34-0014-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2590,7 +2590,7 @@
    }
   },
   {
-   "id": "40-0018-k2l2",
+   "id": "E34-0018-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2672,7 +2672,7 @@
    }
   },
   {
-   "id": "40-0018-k2l3",
+   "id": "E34-0018-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2684,7 +2684,7 @@
    }
   },
   {
-   "id": "40-0018-k2l4",
+   "id": "E34-0018-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2696,7 +2696,7 @@
    }
   },
   {
-   "id": "40-0018-k3l2",
+   "id": "E34-0018-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2708,7 +2708,7 @@
    }
   },
   {
-   "id": "40-0018-k4l2",
+   "id": "E34-0018-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2720,7 +2720,7 @@
    }
   },
   {
-   "id": "40-0020-k2l2",
+   "id": "E34-0020-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2808,7 +2808,7 @@
    }
   },
   {
-   "id": "40-0020-k2l3",
+   "id": "E34-0020-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2820,7 +2820,7 @@
    }
   },
   {
-   "id": "40-0020-k2l4",
+   "id": "E34-0020-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2832,7 +2832,7 @@
    }
   },
   {
-   "id": "40-0020-k3l2",
+   "id": "E34-0020-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2844,7 +2844,7 @@
    }
   },
   {
-   "id": "40-0020-k4l2",
+   "id": "E34-0020-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2856,7 +2856,7 @@
    }
   },
   {
-   "id": "40-0024-k2l2",
+   "id": "E34-0024-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -2936,7 +2936,7 @@
    }
   },
   {
-   "id": "40-0024-k2l3",
+   "id": "E34-0024-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2948,7 +2948,7 @@
    }
   },
   {
-   "id": "40-0024-k2l4",
+   "id": "E34-0024-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2960,7 +2960,7 @@
    }
   },
   {
-   "id": "40-0024-k3l2",
+   "id": "E34-0024-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2972,7 +2972,7 @@
    }
   },
   {
-   "id": "40-0024-k4l2",
+   "id": "E34-0024-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2984,7 +2984,7 @@
    }
   },
   {
-   "id": "40-0026-k2l2",
+   "id": "E34-0026-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3070,7 +3070,7 @@
    }
   },
   {
-   "id": "40-0026-k2l3",
+   "id": "E34-0026-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3082,7 +3082,7 @@
    }
   },
   {
-   "id": "40-0026-k2l4",
+   "id": "E34-0026-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3094,7 +3094,7 @@
    }
   },
   {
-   "id": "40-0026-k3l2",
+   "id": "E34-0026-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3106,7 +3106,7 @@
    }
   },
   {
-   "id": "40-0026-k4l2",
+   "id": "E34-0026-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3118,7 +3118,7 @@
    }
   },
   {
-   "id": "40-0030-k2l2",
+   "id": "E34-0030-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3206,7 +3206,7 @@
    }
   },
   {
-   "id": "40-0030-k2l3",
+   "id": "E34-0030-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3218,7 +3218,7 @@
    }
   },
   {
-   "id": "40-0030-k2l4",
+   "id": "E34-0030-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3230,7 +3230,7 @@
    }
   },
   {
-   "id": "40-0030-k3l2",
+   "id": "E34-0030-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3242,7 +3242,7 @@
    }
   },
   {
-   "id": "40-0030-k4l2",
+   "id": "E34-0030-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3254,7 +3254,7 @@
    }
   },
   {
-   "id": "40-0032-k2l2",
+   "id": "E34-0032-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3348,7 +3348,7 @@
    }
   },
   {
-   "id": "40-0032-k2l3",
+   "id": "E34-0032-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3360,7 +3360,7 @@
    }
   },
   {
-   "id": "40-0032-k2l4",
+   "id": "E34-0032-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3372,7 +3372,7 @@
    }
   },
   {
-   "id": "40-0032-k3l2",
+   "id": "E34-0032-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3384,7 +3384,7 @@
    }
   },
   {
-   "id": "40-0032-k4l2",
+   "id": "E34-0032-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3396,7 +3396,7 @@
    }
   },
   {
-   "id": "40-0036-k2l2",
+   "id": "E34-0036-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3476,7 +3476,7 @@
    }
   },
   {
-   "id": "40-0036-k2l3",
+   "id": "E34-0036-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3488,7 +3488,7 @@
    }
   },
   {
-   "id": "40-0036-k2l4",
+   "id": "E34-0036-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3500,7 +3500,7 @@
    }
   },
   {
-   "id": "40-0036-k3l2",
+   "id": "E34-0036-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3512,7 +3512,7 @@
    }
   },
   {
-   "id": "40-0036-k4l2",
+   "id": "E34-0036-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3524,7 +3524,7 @@
    }
   },
   {
-   "id": "40-0038-k2l2",
+   "id": "E34-0038-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3610,7 +3610,7 @@
    }
   },
   {
-   "id": "40-0038-k2l3",
+   "id": "E34-0038-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3622,7 +3622,7 @@
    }
   },
   {
-   "id": "40-0038-k2l4",
+   "id": "E34-0038-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3634,7 +3634,7 @@
    }
   },
   {
-   "id": "40-0038-k3l2",
+   "id": "E34-0038-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3646,7 +3646,7 @@
    }
   },
   {
-   "id": "40-0038-k4l2",
+   "id": "E34-0038-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3658,7 +3658,7 @@
    }
   },
   {
-   "id": "40-0042-k2l2",
+   "id": "E34-0042-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3746,7 +3746,7 @@
    }
   },
   {
-   "id": "40-0042-k2l3",
+   "id": "E34-0042-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3758,7 +3758,7 @@
    }
   },
   {
-   "id": "40-0042-k2l4",
+   "id": "E34-0042-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3770,7 +3770,7 @@
    }
   },
   {
-   "id": "40-0042-k3l2",
+   "id": "E34-0042-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3782,7 +3782,7 @@
    }
   },
   {
-   "id": "40-0042-k4l2",
+   "id": "E34-0042-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3794,7 +3794,7 @@
    }
   },
   {
-   "id": "40-0044-k2l2",
+   "id": "E34-0044-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -3888,7 +3888,7 @@
    }
   },
   {
-   "id": "40-0044-k2l3",
+   "id": "E34-0044-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3900,7 +3900,7 @@
    }
   },
   {
-   "id": "40-0044-k2l4",
+   "id": "E34-0044-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3912,7 +3912,7 @@
    }
   },
   {
-   "id": "40-0044-k3l2",
+   "id": "E34-0044-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3924,7 +3924,7 @@
    }
   },
   {
-   "id": "40-0044-k4l2",
+   "id": "E34-0044-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3936,7 +3936,7 @@
    }
   },
   {
-   "id": "40-0048-k2l2",
+   "id": "E34-0048-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4014,7 +4014,7 @@
    }
   },
   {
-   "id": "40-0048-k2l3",
+   "id": "E34-0048-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4100,7 +4100,7 @@
    }
   },
   {
-   "id": "40-0048-k2l4",
+   "id": "E34-0048-k2l4",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4194,7 +4194,7 @@
    }
   },
   {
-   "id": "40-0048-k3l2",
+   "id": "E34-0048-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4280,7 +4280,7 @@
    }
   },
   {
-   "id": "40-0048-k4l2",
+   "id": "E34-0048-k4l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4374,7 +4374,7 @@
    }
   },
   {
-   "id": "40-0049-k2l2",
+   "id": "E34-0049-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4458,7 +4458,7 @@
    }
   },
   {
-   "id": "40-0049-k2l3",
+   "id": "E34-0049-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4550,7 +4550,7 @@
    }
   },
   {
-   "id": "40-0049-k2l4",
+   "id": "E34-0049-k2l4",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4650,7 +4650,7 @@
    }
   },
   {
-   "id": "40-0049-k3l2",
+   "id": "E34-0049-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4742,7 +4742,7 @@
    }
   },
   {
-   "id": "40-0049-k4l2",
+   "id": "E34-0049-k4l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4842,7 +4842,7 @@
    }
   },
   {
-   "id": "40-0051-k2l2",
+   "id": "E34-0051-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -4916,7 +4916,7 @@
    }
   },
   {
-   "id": "40-0051-k2l3",
+   "id": "E34-0051-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4928,7 +4928,7 @@
    }
   },
   {
-   "id": "40-0051-k2l4",
+   "id": "E34-0051-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4940,7 +4940,7 @@
    }
   },
   {
-   "id": "40-0051-k3l2",
+   "id": "E34-0051-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4952,7 +4952,7 @@
    }
   },
   {
-   "id": "40-0051-k4l2",
+   "id": "E34-0051-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4964,7 +4964,7 @@
    }
   },
   {
-   "id": "40-0053-k2l2",
+   "id": "E34-0053-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5046,7 +5046,7 @@
    }
   },
   {
-   "id": "40-0053-k2l3",
+   "id": "E34-0053-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5058,7 +5058,7 @@
    }
   },
   {
-   "id": "40-0053-k2l4",
+   "id": "E34-0053-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5070,7 +5070,7 @@
    }
   },
   {
-   "id": "40-0053-k3l2",
+   "id": "E34-0053-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5082,7 +5082,7 @@
    }
   },
   {
-   "id": "40-0053-k4l2",
+   "id": "E34-0053-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5094,7 +5094,7 @@
    }
   },
   {
-   "id": "40-0055-k2l2",
+   "id": "E34-0055-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5174,7 +5174,7 @@
    }
   },
   {
-   "id": "40-0055-k2l3",
+   "id": "E34-0055-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5186,7 +5186,7 @@
    }
   },
   {
-   "id": "40-0055-k2l4",
+   "id": "E34-0055-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5198,7 +5198,7 @@
    }
   },
   {
-   "id": "40-0055-k3l2",
+   "id": "E34-0055-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5210,7 +5210,7 @@
    }
   },
   {
-   "id": "40-0055-k4l2",
+   "id": "E34-0055-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5222,7 +5222,7 @@
    }
   },
   {
-   "id": "40-0059-k2l2",
+   "id": "E34-0059-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5310,7 +5310,7 @@
    }
   },
   {
-   "id": "40-0059-k2l3",
+   "id": "E34-0059-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5322,7 +5322,7 @@
    }
   },
   {
-   "id": "40-0059-k2l4",
+   "id": "E34-0059-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5334,7 +5334,7 @@
    }
   },
   {
-   "id": "40-0059-k3l2",
+   "id": "E34-0059-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5346,7 +5346,7 @@
    }
   },
   {
-   "id": "40-0059-k4l2",
+   "id": "E34-0059-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5358,7 +5358,7 @@
    }
   },
   {
-   "id": "40-0063-k2l2",
+   "id": "E34-0063-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5438,7 +5438,7 @@
    }
   },
   {
-   "id": "40-0063-k2l3",
+   "id": "E34-0063-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5450,7 +5450,7 @@
    }
   },
   {
-   "id": "40-0063-k2l4",
+   "id": "E34-0063-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5462,7 +5462,7 @@
    }
   },
   {
-   "id": "40-0063-k3l2",
+   "id": "E34-0063-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5474,7 +5474,7 @@
    }
   },
   {
-   "id": "40-0063-k4l2",
+   "id": "E34-0063-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5486,7 +5486,7 @@
    }
   },
   {
-   "id": "40-0065-k2l2",
+   "id": "E34-0065-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5574,7 +5574,7 @@
    }
   },
   {
-   "id": "40-0065-k2l3",
+   "id": "E34-0065-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5586,7 +5586,7 @@
    }
   },
   {
-   "id": "40-0065-k2l4",
+   "id": "E34-0065-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5598,7 +5598,7 @@
    }
   },
   {
-   "id": "40-0065-k3l2",
+   "id": "E34-0065-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5610,7 +5610,7 @@
    }
   },
   {
-   "id": "40-0065-k4l2",
+   "id": "E34-0065-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5622,7 +5622,7 @@
    }
   },
   {
-   "id": "40-0067-k2l2",
+   "id": "E34-0067-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5708,7 +5708,7 @@
    }
   },
   {
-   "id": "40-0067-k2l3",
+   "id": "E34-0067-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5720,7 +5720,7 @@
    }
   },
   {
-   "id": "40-0067-k2l4",
+   "id": "E34-0067-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5732,7 +5732,7 @@
    }
   },
   {
-   "id": "40-0067-k3l2",
+   "id": "E34-0067-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5744,7 +5744,7 @@
    }
   },
   {
-   "id": "40-0067-k4l2",
+   "id": "E34-0067-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5756,7 +5756,7 @@
    }
   },
   {
-   "id": "40-0071-k2l2",
+   "id": "E34-0071-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5850,7 +5850,7 @@
    }
   },
   {
-   "id": "40-0071-k2l3",
+   "id": "E34-0071-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5862,7 +5862,7 @@
    }
   },
   {
-   "id": "40-0071-k2l4",
+   "id": "E34-0071-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5874,7 +5874,7 @@
    }
   },
   {
-   "id": "40-0071-k3l2",
+   "id": "E34-0071-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5886,7 +5886,7 @@
    }
   },
   {
-   "id": "40-0071-k4l2",
+   "id": "E34-0071-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5898,7 +5898,7 @@
    }
   },
   {
-   "id": "40-0075-k2l2",
+   "id": "E34-0075-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -5978,7 +5978,7 @@
    }
   },
   {
-   "id": "40-0075-k2l3",
+   "id": "E34-0075-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5990,7 +5990,7 @@
    }
   },
   {
-   "id": "40-0075-k2l4",
+   "id": "E34-0075-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6002,7 +6002,7 @@
    }
   },
   {
-   "id": "40-0075-k3l2",
+   "id": "E34-0075-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6014,7 +6014,7 @@
    }
   },
   {
-   "id": "40-0075-k4l2",
+   "id": "E34-0075-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6026,7 +6026,7 @@
    }
   },
   {
-   "id": "40-0077-k2l2",
+   "id": "E34-0077-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6114,7 +6114,7 @@
    }
   },
   {
-   "id": "40-0077-k2l3",
+   "id": "E34-0077-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6126,7 +6126,7 @@
    }
   },
   {
-   "id": "40-0077-k2l4",
+   "id": "E34-0077-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6138,7 +6138,7 @@
    }
   },
   {
-   "id": "40-0077-k3l2",
+   "id": "E34-0077-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6150,7 +6150,7 @@
    }
   },
   {
-   "id": "40-0077-k4l2",
+   "id": "E34-0077-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6162,7 +6162,7 @@
    }
   },
   {
-   "id": "40-0079-k2l2",
+   "id": "E34-0079-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6248,7 +6248,7 @@
    }
   },
   {
-   "id": "40-0079-k2l3",
+   "id": "E34-0079-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6260,7 +6260,7 @@
    }
   },
   {
-   "id": "40-0079-k2l4",
+   "id": "E34-0079-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6272,7 +6272,7 @@
    }
   },
   {
-   "id": "40-0079-k3l2",
+   "id": "E34-0079-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6284,7 +6284,7 @@
    }
   },
   {
-   "id": "40-0079-k4l2",
+   "id": "E34-0079-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6296,7 +6296,7 @@
    }
   },
   {
-   "id": "40-0083-k2l2",
+   "id": "E34-0083-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6390,7 +6390,7 @@
    }
   },
   {
-   "id": "40-0083-k2l3",
+   "id": "E34-0083-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6402,7 +6402,7 @@
    }
   },
   {
-   "id": "40-0083-k2l4",
+   "id": "E34-0083-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6414,7 +6414,7 @@
    }
   },
   {
-   "id": "40-0083-k3l2",
+   "id": "E34-0083-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6426,7 +6426,7 @@
    }
   },
   {
-   "id": "40-0083-k4l2",
+   "id": "E34-0083-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6438,7 +6438,7 @@
    }
   },
   {
-   "id": "40-0087-k2l2",
+   "id": "E34-0087-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6538,7 +6538,7 @@
    }
   },
   {
-   "id": "40-0087-k2l3",
+   "id": "E34-0087-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6646,7 +6646,7 @@
    }
   },
   {
-   "id": "40-0087-k2l4",
+   "id": "E34-0087-k2l4",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6762,7 +6762,7 @@
    }
   },
   {
-   "id": "40-0087-k3l2",
+   "id": "E34-0087-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6870,7 +6870,7 @@
    }
   },
   {
-   "id": "40-0087-k4l2",
+   "id": "E34-0087-k4l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -6986,7 +6986,7 @@
    }
   },
   {
-   "id": "40-0088-k2l2",
+   "id": "E34-0088-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -7044,7 +7044,7 @@
    }
   },
   {
-   "id": "40-0088-k2l3",
+   "id": "E34-0088-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -7110,28 +7110,28 @@
    }
   },
   {
-   "id": "40-0088-k2l4",
+   "id": "E34-0088-k2l4",
    "verdict": "isomorphic to T7",
    "witness": {
     "type": "isomorphism",
     "onto": "T7",
     "map": {
-     "p": 0,
+     "a": 10,
      "b": 6,
-     "q": 1,
      "c": 7,
-     "e": 8,
-     "r": 2,
-     "z": 3,
-     "r3": 4,
-     "r4": 5,
      "d": 9,
-     "a": 10
+     "e": 8,
+     "p": 0,
+     "q": 1,
+     "r": 2,
+     "r3": 3,
+     "r4": 4,
+     "z": 5
     }
    }
   },
   {
-   "id": "40-0088-k3l2",
+   "id": "E34-0088-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -7197,28 +7197,28 @@
    }
   },
   {
-   "id": "40-0088-k4l2",
+   "id": "E34-0088-k4l2",
    "verdict": "isomorphic to T7",
    "witness": {
     "type": "isomorphism",
     "onto": "T7",
     "map": {
-     "r": 0,
-     "e": 6,
-     "z": 1,
-     "d": 7,
+     "a": 10,
      "b": 8,
-     "p": 2,
-     "p4": 3,
-     "p3": 4,
-     "q": 5,
      "c": 9,
-     "a": 10
+     "d": 7,
+     "e": 6,
+     "p": 2,
+     "p3": 3,
+     "p4": 4,
+     "q": 5,
+     "r": 0,
+     "z": 1
     }
    }
   },
   {
-   "id": "40-0089-k2l2",
+   "id": "E34-0089-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -7280,7 +7280,7 @@
    }
   },
   {
-   "id": "40-0089-k2l3",
+   "id": "E34-0089-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -7350,7 +7350,7 @@
    }
   },
   {
-   "id": "40-0089-k2l4",
+   "id": "E34-0089-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7362,7 +7362,7 @@
    }
   },
   {
-   "id": "40-0089-k3l2",
+   "id": "E34-0089-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7374,7 +7374,7 @@
    }
   },
   {
-   "id": "40-0089-k4l2",
+   "id": "E34-0089-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7386,7 +7386,7 @@
    }
   },
   {
-   "id": "40-0093-k2l2",
+   "id": "E34-0093-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -7448,7 +7448,7 @@
    }
   },
   {
-   "id": "40-0093-k2l3",
+   "id": "E34-0093-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7460,7 +7460,7 @@
    }
   },
   {
-   "id": "40-0093-k2l4",
+   "id": "E34-0093-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7472,7 +7472,7 @@
    }
   },
   {
-   "id": "40-0093-k3l2",
+   "id": "E34-0093-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -7542,7 +7542,7 @@
    }
   },
   {
-   "id": "40-0093-k4l2",
+   "id": "E34-0093-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7554,7 +7554,7 @@
    }
   },
   {
-   "id": "40-0097-k2l2",
+   "id": "E34-0097-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -7622,7 +7622,7 @@
    }
   },
   {
-   "id": "40-0097-k2l3",
+   "id": "E34-0097-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7634,7 +7634,7 @@
    }
   },
   {
-   "id": "40-0097-k2l4",
+   "id": "E34-0097-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7646,7 +7646,7 @@
    }
   },
   {
-   "id": "40-0097-k3l2",
+   "id": "E34-0097-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7658,7 +7658,7 @@
    }
   },
   {
-   "id": "40-0097-k4l2",
+   "id": "E34-0097-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7670,7 +7670,7 @@
    }
   },
   {
-   "id": "40-0105-k2l2",
+   "id": "E34-0105-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -7734,7 +7734,7 @@
    }
   },
   {
-   "id": "40-0105-k2l3",
+   "id": "E34-0105-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -7806,7 +7806,7 @@
    }
   },
   {
-   "id": "40-0105-k2l4",
+   "id": "E34-0105-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7818,7 +7818,7 @@
    }
   },
   {
-   "id": "40-0105-k3l2",
+   "id": "E34-0105-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -7890,7 +7890,7 @@
    }
   },
   {
-   "id": "40-0105-k4l2",
+   "id": "E34-0105-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7902,7 +7902,7 @@
    }
   },
   {
-   "id": "40-0107-k2l2",
+   "id": "E34-0107-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -7972,7 +7972,7 @@
    }
   },
   {
-   "id": "40-0107-k2l3",
+   "id": "E34-0107-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -8050,7 +8050,7 @@
    }
   },
   {
-   "id": "40-0107-k2l4",
+   "id": "E34-0107-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8062,7 +8062,7 @@
    }
   },
   {
-   "id": "40-0107-k3l2",
+   "id": "E34-0107-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8074,7 +8074,7 @@
    }
   },
   {
-   "id": "40-0107-k4l2",
+   "id": "E34-0107-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8086,7 +8086,7 @@
    }
   },
   {
-   "id": "40-0111-k2l2",
+   "id": "E34-0111-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -8154,7 +8154,7 @@
    }
   },
   {
-   "id": "40-0111-k2l3",
+   "id": "E34-0111-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8166,7 +8166,7 @@
    }
   },
   {
-   "id": "40-0111-k2l4",
+   "id": "E34-0111-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8178,7 +8178,7 @@
    }
   },
   {
-   "id": "40-0111-k3l2",
+   "id": "E34-0111-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -8254,7 +8254,7 @@
    }
   },
   {
-   "id": "40-0111-k4l2",
+   "id": "E34-0111-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8266,7 +8266,7 @@
    }
   },
   {
-   "id": "40-0119-k2l2",
+   "id": "E34-0119-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -8342,7 +8342,7 @@
    }
   },
   {
-   "id": "40-0119-k2l3",
+   "id": "E34-0119-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8354,7 +8354,7 @@
    }
   },
   {
-   "id": "40-0119-k2l4",
+   "id": "E34-0119-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8366,7 +8366,7 @@
    }
   },
   {
-   "id": "40-0119-k3l2",
+   "id": "E34-0119-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8378,7 +8378,7 @@
    }
   },
   {
-   "id": "40-0119-k4l2",
+   "id": "E34-0119-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8390,7 +8390,7 @@
    }
   },
   {
-   "id": "40-0127-k2l2",
+   "id": "E34-0127-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -8454,7 +8454,7 @@
    }
   },
   {
-   "id": "40-0127-k2l3",
+   "id": "E34-0127-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -8526,7 +8526,7 @@
    }
   },
   {
-   "id": "40-0127-k2l4",
+   "id": "E34-0127-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8538,7 +8538,7 @@
    }
   },
   {
-   "id": "40-0127-k3l2",
+   "id": "E34-0127-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -8610,7 +8610,7 @@
    }
   },
   {
-   "id": "40-0127-k4l2",
+   "id": "E34-0127-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8622,7 +8622,7 @@
    }
   },
   {
-   "id": "40-0129-k2l2",
+   "id": "E34-0129-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -8692,7 +8692,7 @@
    }
   },
   {
-   "id": "40-0129-k2l3",
+   "id": "E34-0129-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -8770,7 +8770,7 @@
    }
   },
   {
-   "id": "40-0129-k2l4",
+   "id": "E34-0129-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8782,7 +8782,7 @@
    }
   },
   {
-   "id": "40-0129-k3l2",
+   "id": "E34-0129-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8794,7 +8794,7 @@
    }
   },
   {
-   "id": "40-0129-k4l2",
+   "id": "E34-0129-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8806,7 +8806,7 @@
    }
   },
   {
-   "id": "40-0133-k2l2",
+   "id": "E34-0133-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -8876,7 +8876,7 @@
    }
   },
   {
-   "id": "40-0133-k2l3",
+   "id": "E34-0133-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8888,7 +8888,7 @@
    }
   },
   {
-   "id": "40-0133-k2l4",
+   "id": "E34-0133-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8900,7 +8900,7 @@
    }
   },
   {
-   "id": "40-0133-k3l2",
+   "id": "E34-0133-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -8978,7 +8978,7 @@
    }
   },
   {
-   "id": "40-0133-k4l2",
+   "id": "E34-0133-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8990,7 +8990,7 @@
    }
   },
   {
-   "id": "40-0137-k2l2",
+   "id": "E34-0137-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -9066,7 +9066,7 @@
    }
   },
   {
-   "id": "40-0137-k2l3",
+   "id": "E34-0137-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9078,7 +9078,7 @@
    }
   },
   {
-   "id": "40-0137-k2l4",
+   "id": "E34-0137-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9090,7 +9090,7 @@
    }
   },
   {
-   "id": "40-0137-k3l2",
+   "id": "E34-0137-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9102,7 +9102,7 @@
    }
   },
   {
-   "id": "40-0137-k4l2",
+   "id": "E34-0137-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9114,7 +9114,7 @@
    }
   },
   {
-   "id": "40-0145-k2l2",
+   "id": "E34-0145-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -9184,7 +9184,7 @@
    }
   },
   {
-   "id": "40-0145-k2l3",
+   "id": "E34-0145-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -9262,7 +9262,7 @@
    }
   },
   {
-   "id": "40-0145-k2l4",
+   "id": "E34-0145-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9274,7 +9274,7 @@
    }
   },
   {
-   "id": "40-0145-k3l2",
+   "id": "E34-0145-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -9352,7 +9352,7 @@
    }
   },
   {
-   "id": "40-0145-k4l2",
+   "id": "E34-0145-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9364,7 +9364,7 @@
    }
   },
   {
-   "id": "40-0149-k2l2",
+   "id": "E34-0149-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -9442,7 +9442,7 @@
    }
   },
   {
-   "id": "40-0149-k2l3",
+   "id": "E34-0149-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -9528,7 +9528,7 @@
    }
   },
   {
-   "id": "40-0149-k2l4",
+   "id": "E34-0149-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9540,7 +9540,7 @@
    }
   },
   {
-   "id": "40-0149-k3l2",
+   "id": "E34-0149-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9552,7 +9552,7 @@
    }
   },
   {
-   "id": "40-0149-k4l2",
+   "id": "E34-0149-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9564,7 +9564,7 @@
    }
   },
   {
-   "id": "40-0153-k2l2",
+   "id": "E34-0153-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -9640,7 +9640,7 @@
    }
   },
   {
-   "id": "40-0153-k2l3",
+   "id": "E34-0153-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9652,7 +9652,7 @@
    }
   },
   {
-   "id": "40-0153-k2l4",
+   "id": "E34-0153-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9664,7 +9664,7 @@
    }
   },
   {
-   "id": "40-0153-k3l2",
+   "id": "E34-0153-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -9748,7 +9748,7 @@
    }
   },
   {
-   "id": "40-0153-k4l2",
+   "id": "E34-0153-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9760,30 +9760,30 @@
    }
   },
   {
-   "id": "40-0161-k2l2",
+   "id": "E34-0161-k2l2",
    "verdict": "isomorphic to T33",
    "witness": {
     "type": "isomorphism",
     "onto": "T33",
     "map": {
-     "r": 0,
-     "e": 9,
-     "z": 1,
-     "v_cde": 2,
-     "v_ace": 3,
-     "d": 10,
-     "v_bcd": 4,
-     "v_acd": 5,
+     "a": 12,
      "b": 6,
-     "q": 7,
-     "p": 8,
      "c": 11,
-     "a": 12
+     "d": 10,
+     "e": 9,
+     "p": 7,
+     "q": 8,
+     "r": 0,
+     "v_acd": 5,
+     "v_ace": 3,
+     "v_bcd": 4,
+     "v_cde": 2,
+     "z": 1
     }
    }
   },
   {
-   "id": "40-0161-k2l3",
+   "id": "E34-0161-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9795,7 +9795,7 @@
    }
   },
   {
-   "id": "40-0161-k2l4",
+   "id": "E34-0161-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9807,7 +9807,7 @@
    }
   },
   {
-   "id": "40-0161-k3l2",
+   "id": "E34-0161-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9819,7 +9819,7 @@
    }
   },
   {
-   "id": "40-0161-k4l2",
+   "id": "E34-0161-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9831,7 +9831,7 @@
    }
   },
   {
-   "id": "40-0169-k2l2",
+   "id": "E34-0169-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -9895,7 +9895,7 @@
    }
   },
   {
-   "id": "40-0169-k2l3",
+   "id": "E34-0169-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -9967,7 +9967,7 @@
    }
   },
   {
-   "id": "40-0169-k2l4",
+   "id": "E34-0169-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9979,7 +9979,7 @@
    }
   },
   {
-   "id": "40-0169-k3l2",
+   "id": "E34-0169-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -10051,7 +10051,7 @@
    }
   },
   {
-   "id": "40-0169-k4l2",
+   "id": "E34-0169-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10063,7 +10063,7 @@
    }
   },
   {
-   "id": "40-0171-k2l2",
+   "id": "E34-0171-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -10131,7 +10131,7 @@
    }
   },
   {
-   "id": "40-0171-k2l3",
+   "id": "E34-0171-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -10207,7 +10207,7 @@
    }
   },
   {
-   "id": "40-0171-k2l4",
+   "id": "E34-0171-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10219,7 +10219,7 @@
    }
   },
   {
-   "id": "40-0171-k3l2",
+   "id": "E34-0171-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10231,7 +10231,7 @@
    }
   },
   {
-   "id": "40-0171-k4l2",
+   "id": "E34-0171-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10243,7 +10243,7 @@
    }
   },
   {
-   "id": "40-0179-k2l2",
+   "id": "E34-0179-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -10313,7 +10313,7 @@
    }
   },
   {
-   "id": "40-0179-k2l3",
+   "id": "E34-0179-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10325,7 +10325,7 @@
    }
   },
   {
-   "id": "40-0179-k2l4",
+   "id": "E34-0179-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10337,7 +10337,7 @@
    }
   },
   {
-   "id": "40-0179-k3l2",
+   "id": "E34-0179-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -10415,7 +10415,7 @@
    }
   },
   {
-   "id": "40-0179-k4l2",
+   "id": "E34-0179-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10427,7 +10427,7 @@
    }
   },
   {
-   "id": "40-0183-k2l2",
+   "id": "E34-0183-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -10503,7 +10503,7 @@
    }
   },
   {
-   "id": "40-0183-k2l3",
+   "id": "E34-0183-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10515,7 +10515,7 @@
    }
   },
   {
-   "id": "40-0183-k2l4",
+   "id": "E34-0183-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10527,7 +10527,7 @@
    }
   },
   {
-   "id": "40-0183-k3l2",
+   "id": "E34-0183-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10539,7 +10539,7 @@
    }
   },
   {
-   "id": "40-0183-k4l2",
+   "id": "E34-0183-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10551,7 +10551,7 @@
    }
   },
   {
-   "id": "40-0191-k2l2",
+   "id": "E34-0191-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -10621,7 +10621,7 @@
    }
   },
   {
-   "id": "40-0191-k2l3",
+   "id": "E34-0191-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -10699,7 +10699,7 @@
    }
   },
   {
-   "id": "40-0191-k2l4",
+   "id": "E34-0191-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10711,7 +10711,7 @@
    }
   },
   {
-   "id": "40-0191-k3l2",
+   "id": "E34-0191-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -10789,7 +10789,7 @@
    }
   },
   {
-   "id": "40-0191-k4l2",
+   "id": "E34-0191-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10801,7 +10801,7 @@
    }
   },
   {
-   "id": "40-0195-k2l2",
+   "id": "E34-0195-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -10877,7 +10877,7 @@
    }
   },
   {
-   "id": "40-0195-k2l3",
+   "id": "E34-0195-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -10961,7 +10961,7 @@
    }
   },
   {
-   "id": "40-0195-k2l4",
+   "id": "E34-0195-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10973,7 +10973,7 @@
    }
   },
   {
-   "id": "40-0195-k3l2",
+   "id": "E34-0195-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10985,7 +10985,7 @@
    }
   },
   {
-   "id": "40-0195-k4l2",
+   "id": "E34-0195-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10997,7 +10997,7 @@
    }
   },
   {
-   "id": "40-0203-k2l2",
+   "id": "E34-0203-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -11073,7 +11073,7 @@
    }
   },
   {
-   "id": "40-0203-k2l3",
+   "id": "E34-0203-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11085,7 +11085,7 @@
    }
   },
   {
-   "id": "40-0203-k2l4",
+   "id": "E34-0203-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11097,7 +11097,7 @@
    }
   },
   {
-   "id": "40-0203-k3l2",
+   "id": "E34-0203-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -11181,7 +11181,7 @@
    }
   },
   {
-   "id": "40-0203-k4l2",
+   "id": "E34-0203-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11193,30 +11193,30 @@
    }
   },
   {
-   "id": "40-0211-k2l2",
+   "id": "E34-0211-k2l2",
    "verdict": "isomorphic to T35",
    "witness": {
     "type": "isomorphism",
     "onto": "T35",
     "map": {
-     "p": 0,
+     "a": 12,
      "b": 8,
-     "v_abd": 4,
-     "q": 5,
-     "v_bcd": 7,
      "c": 10,
-     "v_ace": 3,
-     "v_cde": 6,
-     "e": 9,
-     "z": 1,
-     "r": 2,
      "d": 11,
-     "a": 12
+     "e": 9,
+     "p": 0,
+     "q": 5,
+     "r": 1,
+     "v_abd": 4,
+     "v_ace": 3,
+     "v_bcd": 7,
+     "v_cde": 6,
+     "z": 2
     }
    }
   },
   {
-   "id": "40-0211-k2l3",
+   "id": "E34-0211-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11228,7 +11228,7 @@
    }
   },
   {
-   "id": "40-0211-k2l4",
+   "id": "E34-0211-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11240,7 +11240,7 @@
    }
   },
   {
-   "id": "40-0211-k3l2",
+   "id": "E34-0211-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11252,7 +11252,7 @@
    }
   },
   {
-   "id": "40-0211-k4l2",
+   "id": "E34-0211-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11264,7 +11264,7 @@
    }
   },
   {
-   "id": "40-0219-k2l2",
+   "id": "E34-0219-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -11334,7 +11334,7 @@
    }
   },
   {
-   "id": "40-0219-k2l3",
+   "id": "E34-0219-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -11412,7 +11412,7 @@
    }
   },
   {
-   "id": "40-0219-k2l4",
+   "id": "E34-0219-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11424,7 +11424,7 @@
    }
   },
   {
-   "id": "40-0219-k3l2",
+   "id": "E34-0219-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -11502,7 +11502,7 @@
    }
   },
   {
-   "id": "40-0219-k4l2",
+   "id": "E34-0219-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11514,7 +11514,7 @@
    }
   },
   {
-   "id": "40-0223-k2l2",
+   "id": "E34-0223-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -11590,7 +11590,7 @@
    }
   },
   {
-   "id": "40-0223-k2l3",
+   "id": "E34-0223-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -11674,7 +11674,7 @@
    }
   },
   {
-   "id": "40-0223-k2l4",
+   "id": "E34-0223-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11686,7 +11686,7 @@
    }
   },
   {
-   "id": "40-0223-k3l2",
+   "id": "E34-0223-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11698,7 +11698,7 @@
    }
   },
   {
-   "id": "40-0223-k4l2",
+   "id": "E34-0223-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11710,7 +11710,7 @@
    }
   },
   {
-   "id": "40-0231-k2l2",
+   "id": "E34-0231-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -11788,7 +11788,7 @@
    }
   },
   {
-   "id": "40-0231-k2l3",
+   "id": "E34-0231-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11800,7 +11800,7 @@
    }
   },
   {
-   "id": "40-0231-k2l4",
+   "id": "E34-0231-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11812,7 +11812,7 @@
    }
   },
   {
-   "id": "40-0231-k3l2",
+   "id": "E34-0231-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -11898,7 +11898,7 @@
    }
   },
   {
-   "id": "40-0231-k4l2",
+   "id": "E34-0231-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11910,30 +11910,30 @@
    }
   },
   {
-   "id": "40-0235-k2l2",
+   "id": "E34-0235-k2l2",
    "verdict": "isomorphic to T33",
    "witness": {
     "type": "isomorphism",
     "onto": "T33",
     "map": {
-     "p": 0,
+     "a": 12,
      "b": 9,
-     "q": 1,
-     "v_bcd": 2,
-     "v_abd": 3,
      "c": 10,
-     "v_cde": 4,
-     "v_acd": 5,
-     "e": 6,
-     "z": 7,
-     "r": 8,
      "d": 11,
-     "a": 12
+     "e": 6,
+     "p": 0,
+     "q": 1,
+     "r": 7,
+     "v_abd": 3,
+     "v_acd": 5,
+     "v_bcd": 2,
+     "v_cde": 4,
+     "z": 8
     }
    }
   },
   {
-   "id": "40-0235-k2l3",
+   "id": "E34-0235-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11945,7 +11945,7 @@
    }
   },
   {
-   "id": "40-0235-k2l4",
+   "id": "E34-0235-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11957,7 +11957,7 @@
    }
   },
   {
-   "id": "40-0235-k3l2",
+   "id": "E34-0235-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11969,7 +11969,7 @@
    }
   },
   {
-   "id": "40-0235-k4l2",
+   "id": "E34-0235-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11981,7 +11981,7 @@
    }
   },
   {
-   "id": "40-0243-k2l2",
+   "id": "E34-0243-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -12057,7 +12057,7 @@
    }
   },
   {
-   "id": "40-0243-k2l3",
+   "id": "E34-0243-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -12141,7 +12141,7 @@
    }
   },
   {
-   "id": "40-0243-k2l4",
+   "id": "E34-0243-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12153,7 +12153,7 @@
    }
   },
   {
-   "id": "40-0243-k3l2",
+   "id": "E34-0243-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -12237,7 +12237,7 @@
    }
   },
   {
-   "id": "40-0243-k4l2",
+   "id": "E34-0243-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12249,7 +12249,7 @@
    }
   },
   {
-   "id": "40-0251-k2l2",
+   "id": "E34-0251-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -12333,7 +12333,7 @@
    }
   },
   {
-   "id": "40-0251-k2l3",
+   "id": "E34-0251-k2l3",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -12425,7 +12425,7 @@
    }
   },
   {
-   "id": "40-0251-k2l4",
+   "id": "E34-0251-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12437,7 +12437,7 @@
    }
   },
   {
-   "id": "40-0251-k3l2",
+   "id": "E34-0251-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12449,7 +12449,7 @@
    }
   },
   {
-   "id": "40-0251-k4l2",
+   "id": "E34-0251-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12461,7 +12461,7 @@
    }
   },
   {
-   "id": "40-0259-k2l2",
+   "id": "E34-0259-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -12545,7 +12545,7 @@
    }
   },
   {
-   "id": "40-0259-k2l3",
+   "id": "E34-0259-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12557,7 +12557,7 @@
    }
   },
   {
-   "id": "40-0259-k2l4",
+   "id": "E34-0259-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12569,7 +12569,7 @@
    }
   },
   {
-   "id": "40-0259-k3l2",
+   "id": "E34-0259-k3l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -12661,7 +12661,7 @@
    }
   },
   {
-   "id": "40-0259-k4l2",
+   "id": "E34-0259-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12673,7 +12673,7 @@
    }
   },
   {
-   "id": "40-0267-k2l2",
+   "id": "E34-0267-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12685,7 +12685,7 @@
    }
   },
   {
-   "id": "40-0267-k2l3",
+   "id": "E34-0267-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12697,7 +12697,7 @@
    }
   },
   {
-   "id": "40-0267-k2l4",
+   "id": "E34-0267-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12709,7 +12709,7 @@
    }
   },
   {
-   "id": "40-0267-k3l2",
+   "id": "E34-0267-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12721,7 +12721,7 @@
    }
   },
   {
-   "id": "40-0267-k4l2",
+   "id": "E34-0267-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12733,7 +12733,7 @@
    }
   },
   {
-   "id": "40-0911-k2l2",
+   "id": "E34-0911-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -12809,7 +12809,7 @@
    }
   },
   {
-   "id": "40-0911-k2l3",
+   "id": "E34-0911-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12821,7 +12821,7 @@
    }
   },
   {
-   "id": "40-0911-k2l4",
+   "id": "E34-0911-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12833,7 +12833,7 @@
    }
   },
   {
-   "id": "40-0911-k3l2",
+   "id": "E34-0911-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12845,7 +12845,7 @@
    }
   },
   {
-   "id": "40-0911-k4l2",
+   "id": "E34-0911-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12857,7 +12857,7 @@
    }
   },
   {
-   "id": "40-0913-k2l2",
+   "id": "E34-0913-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -12939,7 +12939,7 @@
    }
   },
   {
-   "id": "40-0913-k2l3",
+   "id": "E34-0913-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12951,7 +12951,7 @@
    }
   },
   {
-   "id": "40-0913-k2l4",
+   "id": "E34-0913-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12963,7 +12963,7 @@
    }
   },
   {
-   "id": "40-0913-k3l2",
+   "id": "E34-0913-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12975,7 +12975,7 @@
    }
   },
   {
-   "id": "40-0913-k4l2",
+   "id": "E34-0913-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12987,7 +12987,7 @@
    }
   },
   {
-   "id": "40-0917-k2l2",
+   "id": "E34-0917-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -13069,7 +13069,7 @@
    }
   },
   {
-   "id": "40-0917-k2l3",
+   "id": "E34-0917-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13081,7 +13081,7 @@
    }
   },
   {
-   "id": "40-0917-k2l4",
+   "id": "E34-0917-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13093,7 +13093,7 @@
    }
   },
   {
-   "id": "40-0917-k3l2",
+   "id": "E34-0917-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13105,7 +13105,7 @@
    }
   },
   {
-   "id": "40-0917-k4l2",
+   "id": "E34-0917-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13117,31 +13117,31 @@
    }
   },
   {
-   "id": "40-0921-k2l2",
+   "id": "E34-0921-k2l2",
    "verdict": "isomorphic to T49",
    "witness": {
     "type": "isomorphism",
     "onto": "T49",
     "map": {
-     "B0_t": 0,
      "B0_p": 7,
      "B0_q": 8,
+     "B0_t": 0,
      "a": 11,
-     "p": 1,
-     "r": 2,
-     "z": 3,
-     "q": 4,
      "b": 5,
-     "e": 6,
-     "v_cde": 9,
-     "v_bcd": 10,
      "c": 12,
-     "d": 13
+     "d": 13,
+     "e": 6,
+     "p": 1,
+     "q": 4,
+     "r": 2,
+     "v_bcd": 10,
+     "v_cde": 9,
+     "z": 3
     }
    }
   },
   {
-   "id": "40-0921-k2l3",
+   "id": "E34-0921-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13153,7 +13153,7 @@
    }
   },
   {
-   "id": "40-0921-k2l4",
+   "id": "E34-0921-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13165,7 +13165,7 @@
    }
   },
   {
-   "id": "40-0921-k3l2",
+   "id": "E34-0921-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13177,7 +13177,7 @@
    }
   },
   {
-   "id": "40-0921-k4l2",
+   "id": "E34-0921-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13189,7 +13189,7 @@
    }
   },
   {
-   "id": "40-0929-k2l2",
+   "id": "E34-0929-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -13271,7 +13271,7 @@
    }
   },
   {
-   "id": "40-0929-k2l3",
+   "id": "E34-0929-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13283,7 +13283,7 @@
    }
   },
   {
-   "id": "40-0929-k2l4",
+   "id": "E34-0929-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13295,7 +13295,7 @@
    }
   },
   {
-   "id": "40-0929-k3l2",
+   "id": "E34-0929-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13307,7 +13307,7 @@
    }
   },
   {
-   "id": "40-0929-k4l2",
+   "id": "E34-0929-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13319,7 +13319,7 @@
    }
   },
   {
-   "id": "40-0933-k2l2",
+   "id": "E34-0933-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13331,7 +13331,7 @@
    }
   },
   {
-   "id": "40-0933-k2l3",
+   "id": "E34-0933-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13343,7 +13343,7 @@
    }
   },
   {
-   "id": "40-0933-k2l4",
+   "id": "E34-0933-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13355,7 +13355,7 @@
    }
   },
   {
-   "id": "40-0933-k3l2",
+   "id": "E34-0933-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13367,7 +13367,7 @@
    }
   },
   {
-   "id": "40-0933-k4l2",
+   "id": "E34-0933-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13379,7 +13379,7 @@
    }
   },
   {
-   "id": "40-0937-k2l2",
+   "id": "E34-0937-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -13467,7 +13467,7 @@
    }
   },
   {
-   "id": "40-0937-k2l3",
+   "id": "E34-0937-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13479,7 +13479,7 @@
    }
   },
   {
-   "id": "40-0937-k2l4",
+   "id": "E34-0937-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13491,7 +13491,7 @@
    }
   },
   {
-   "id": "40-0937-k3l2",
+   "id": "E34-0937-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13503,7 +13503,7 @@
    }
   },
   {
-   "id": "40-0937-k4l2",
+   "id": "E34-0937-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13515,7 +13515,7 @@
    }
   },
   {
-   "id": "40-0945-k2l2",
+   "id": "E34-0945-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13527,7 +13527,7 @@
    }
   },
   {
-   "id": "40-0945-k2l3",
+   "id": "E34-0945-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13539,7 +13539,7 @@
    }
   },
   {
-   "id": "40-0945-k2l4",
+   "id": "E34-0945-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13551,7 +13551,7 @@
    }
   },
   {
-   "id": "40-0945-k3l2",
+   "id": "E34-0945-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13563,7 +13563,7 @@
    }
   },
   {
-   "id": "40-0945-k4l2",
+   "id": "E34-0945-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13575,7 +13575,7 @@
    }
   },
   {
-   "id": "40-0953-k2l2",
+   "id": "E34-0953-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13587,7 +13587,7 @@
    }
   },
   {
-   "id": "40-0953-k2l3",
+   "id": "E34-0953-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13599,7 +13599,7 @@
    }
   },
   {
-   "id": "40-0953-k2l4",
+   "id": "E34-0953-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13611,7 +13611,7 @@
    }
   },
   {
-   "id": "40-0953-k3l2",
+   "id": "E34-0953-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13623,7 +13623,7 @@
    }
   },
   {
-   "id": "40-0953-k4l2",
+   "id": "E34-0953-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13635,7 +13635,7 @@
    }
   },
   {
-   "id": "40-0955-k2l2",
+   "id": "E34-0955-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13647,7 +13647,7 @@
    }
   },
   {
-   "id": "40-0955-k2l3",
+   "id": "E34-0955-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13659,7 +13659,7 @@
    }
   },
   {
-   "id": "40-0955-k2l4",
+   "id": "E34-0955-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13671,7 +13671,7 @@
    }
   },
   {
-   "id": "40-0955-k3l2",
+   "id": "E34-0955-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13683,7 +13683,7 @@
    }
   },
   {
-   "id": "40-0955-k4l2",
+   "id": "E34-0955-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13695,7 +13695,7 @@
    }
   },
   {
-   "id": "40-0959-k2l2",
+   "id": "E34-0959-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13707,7 +13707,7 @@
    }
   },
   {
-   "id": "40-0959-k2l3",
+   "id": "E34-0959-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13719,7 +13719,7 @@
    }
   },
   {
-   "id": "40-0959-k2l4",
+   "id": "E34-0959-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13731,7 +13731,7 @@
    }
   },
   {
-   "id": "40-0959-k3l2",
+   "id": "E34-0959-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13743,7 +13743,7 @@
    }
   },
   {
-   "id": "40-0959-k4l2",
+   "id": "E34-0959-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13755,7 +13755,7 @@
    }
   },
   {
-   "id": "40-0963-k2l2",
+   "id": "E34-0963-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13767,7 +13767,7 @@
    }
   },
   {
-   "id": "40-0963-k2l3",
+   "id": "E34-0963-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13779,7 +13779,7 @@
    }
   },
   {
-   "id": "40-0963-k2l4",
+   "id": "E34-0963-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13791,7 +13791,7 @@
    }
   },
   {
-   "id": "40-0963-k3l2",
+   "id": "E34-0963-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13803,7 +13803,7 @@
    }
   },
   {
-   "id": "40-0963-k4l2",
+   "id": "E34-0963-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13815,7 +13815,7 @@
    }
   },
   {
-   "id": "40-0971-k2l2",
+   "id": "E34-0971-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13827,7 +13827,7 @@
    }
   },
   {
-   "id": "40-0971-k2l3",
+   "id": "E34-0971-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13839,7 +13839,7 @@
    }
   },
   {
-   "id": "40-0971-k2l4",
+   "id": "E34-0971-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13851,7 +13851,7 @@
    }
   },
   {
-   "id": "40-0971-k3l2",
+   "id": "E34-0971-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13863,7 +13863,7 @@
    }
   },
   {
-   "id": "40-0971-k4l2",
+   "id": "E34-0971-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13875,7 +13875,7 @@
    }
   },
   {
-   "id": "40-0975-k2l2",
+   "id": "E34-0975-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13887,7 +13887,7 @@
    }
   },
   {
-   "id": "40-0975-k2l3",
+   "id": "E34-0975-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13899,7 +13899,7 @@
    }
   },
   {
-   "id": "40-0975-k2l4",
+   "id": "E34-0975-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13911,7 +13911,7 @@
    }
   },
   {
-   "id": "40-0975-k3l2",
+   "id": "E34-0975-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13923,7 +13923,7 @@
    }
   },
   {
-   "id": "40-0975-k4l2",
+   "id": "E34-0975-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13935,7 +13935,7 @@
    }
   },
   {
-   "id": "40-0979-k2l2",
+   "id": "E34-0979-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13947,7 +13947,7 @@
    }
   },
   {
-   "id": "40-0979-k2l3",
+   "id": "E34-0979-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13959,7 +13959,7 @@
    }
   },
   {
-   "id": "40-0979-k2l4",
+   "id": "E34-0979-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13971,7 +13971,7 @@
    }
   },
   {
-   "id": "40-0979-k3l2",
+   "id": "E34-0979-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13983,7 +13983,7 @@
    }
   },
   {
-   "id": "40-0979-k4l2",
+   "id": "E34-0979-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13995,7 +13995,7 @@
    }
   },
   {
-   "id": "40-0987-k2l2",
+   "id": "E34-0987-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14007,7 +14007,7 @@
    }
   },
   {
-   "id": "40-0987-k2l3",
+   "id": "E34-0987-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14019,7 +14019,7 @@
    }
   },
   {
-   "id": "40-0987-k2l4",
+   "id": "E34-0987-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14031,7 +14031,7 @@
    }
   },
   {
-   "id": "40-0987-k3l2",
+   "id": "E34-0987-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14043,7 +14043,7 @@
    }
   },
   {
-   "id": "40-0987-k4l2",
+   "id": "E34-0987-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14055,7 +14055,7 @@
    }
   },
   {
-   "id": "40-0995-k2l2",
+   "id": "E34-0995-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -14137,7 +14137,7 @@
    }
   },
   {
-   "id": "40-0995-k2l3",
+   "id": "E34-0995-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14149,7 +14149,7 @@
    }
   },
   {
-   "id": "40-0995-k2l4",
+   "id": "E34-0995-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14161,7 +14161,7 @@
    }
   },
   {
-   "id": "40-0995-k3l2",
+   "id": "E34-0995-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14173,7 +14173,7 @@
    }
   },
   {
-   "id": "40-0995-k4l2",
+   "id": "E34-0995-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14185,7 +14185,7 @@
    }
   },
   {
-   "id": "40-0999-k2l2",
+   "id": "E34-0999-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -14273,7 +14273,7 @@
    }
   },
   {
-   "id": "40-0999-k2l3",
+   "id": "E34-0999-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14285,7 +14285,7 @@
    }
   },
   {
-   "id": "40-0999-k2l4",
+   "id": "E34-0999-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14297,7 +14297,7 @@
    }
   },
   {
-   "id": "40-0999-k3l2",
+   "id": "E34-0999-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14309,7 +14309,7 @@
    }
   },
   {
-   "id": "40-0999-k4l2",
+   "id": "E34-0999-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14321,7 +14321,7 @@
    }
   },
   {
-   "id": "40-1007-k2l2",
+   "id": "E34-1007-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14333,7 +14333,7 @@
    }
   },
   {
-   "id": "40-1007-k2l3",
+   "id": "E34-1007-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14345,7 +14345,7 @@
    }
   },
   {
-   "id": "40-1007-k2l4",
+   "id": "E34-1007-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14357,7 +14357,7 @@
    }
   },
   {
-   "id": "40-1007-k3l2",
+   "id": "E34-1007-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14369,7 +14369,7 @@
    }
   },
   {
-   "id": "40-1007-k4l2",
+   "id": "E34-1007-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14381,7 +14381,7 @@
    }
   },
   {
-   "id": "40-1011-k2l2",
+   "id": "E34-1011-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14393,7 +14393,7 @@
    }
   },
   {
-   "id": "40-1011-k2l3",
+   "id": "E34-1011-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14405,7 +14405,7 @@
    }
   },
   {
-   "id": "40-1011-k2l4",
+   "id": "E34-1011-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14417,7 +14417,7 @@
    }
   },
   {
-   "id": "40-1011-k3l2",
+   "id": "E34-1011-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14429,7 +14429,7 @@
    }
   },
   {
-   "id": "40-1011-k4l2",
+   "id": "E34-1011-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14441,31 +14441,31 @@
    }
   },
   {
-   "id": "40-1019-k2l2",
+   "id": "E34-1019-k2l2",
    "verdict": "isomorphic to T70",
    "witness": {
     "type": "isomorphism",
     "onto": "T70",
     "map": {
-     "B0_t": 0,
      "B0_p": 9,
      "B0_q": 10,
-     "d": 11,
-     "r": 4,
-     "e": 1,
-     "v_ace": 3,
-     "z": 5,
-     "v_abd": 8,
-     "b": 2,
-     "q": 6,
-     "p": 7,
-     "c": 12,
-     "a": 13
+     "B0_t": 0,
+     "a": 13,
+     "b": 1,
+     "c": 11,
+     "d": 12,
+     "e": 2,
+     "p": 4,
+     "q": 5,
+     "r": 6,
+     "v_abd": 3,
+     "v_ace": 8,
+     "z": 7
     }
    }
   },
   {
-   "id": "40-1019-k2l3",
+   "id": "E34-1019-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14477,7 +14477,7 @@
    }
   },
   {
-   "id": "40-1019-k2l4",
+   "id": "E34-1019-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14489,7 +14489,7 @@
    }
   },
   {
-   "id": "40-1019-k3l2",
+   "id": "E34-1019-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14501,7 +14501,7 @@
    }
   },
   {
-   "id": "40-1019-k4l2",
+   "id": "E34-1019-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14513,7 +14513,7 @@
    }
   },
   {
-   "id": "40-1027-k2l2",
+   "id": "E34-1027-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14525,7 +14525,7 @@
    }
   },
   {
-   "id": "40-1027-k2l3",
+   "id": "E34-1027-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14537,7 +14537,7 @@
    }
   },
   {
-   "id": "40-1027-k2l4",
+   "id": "E34-1027-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14549,7 +14549,7 @@
    }
   },
   {
-   "id": "40-1027-k3l2",
+   "id": "E34-1027-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14561,7 +14561,7 @@
    }
   },
   {
-   "id": "40-1027-k4l2",
+   "id": "E34-1027-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14573,7 +14573,7 @@
    }
   },
   {
-   "id": "40-1035-k2l2",
+   "id": "E34-1035-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14585,7 +14585,7 @@
    }
   },
   {
-   "id": "40-1035-k2l3",
+   "id": "E34-1035-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14597,7 +14597,7 @@
    }
   },
   {
-   "id": "40-1035-k2l4",
+   "id": "E34-1035-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14609,7 +14609,7 @@
    }
   },
   {
-   "id": "40-1035-k3l2",
+   "id": "E34-1035-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14621,7 +14621,7 @@
    }
   },
   {
-   "id": "40-1035-k4l2",
+   "id": "E34-1035-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14633,7 +14633,7 @@
    }
   },
   {
-   "id": "40-1043-k2l2",
+   "id": "E34-1043-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14645,7 +14645,7 @@
    }
   },
   {
-   "id": "40-1043-k2l3",
+   "id": "E34-1043-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14657,7 +14657,7 @@
    }
   },
   {
-   "id": "40-1043-k2l4",
+   "id": "E34-1043-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14669,7 +14669,7 @@
    }
   },
   {
-   "id": "40-1043-k3l2",
+   "id": "E34-1043-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14681,7 +14681,7 @@
    }
   },
   {
-   "id": "40-1043-k4l2",
+   "id": "E34-1043-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14693,7 +14693,7 @@
    }
   },
   {
-   "id": "40-1051-k2l2",
+   "id": "E34-1051-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14705,7 +14705,7 @@
    }
   },
   {
-   "id": "40-1051-k2l3",
+   "id": "E34-1051-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14717,7 +14717,7 @@
    }
   },
   {
-   "id": "40-1051-k2l4",
+   "id": "E34-1051-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14729,7 +14729,7 @@
    }
   },
   {
-   "id": "40-1051-k3l2",
+   "id": "E34-1051-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14741,7 +14741,7 @@
    }
   },
   {
-   "id": "40-1051-k4l2",
+   "id": "E34-1051-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14753,7 +14753,7 @@
    }
   },
   {
-   "id": "40-1055-k2l2",
+   "id": "E34-1055-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14765,7 +14765,7 @@
    }
   },
   {
-   "id": "40-1055-k2l3",
+   "id": "E34-1055-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14777,7 +14777,7 @@
    }
   },
   {
-   "id": "40-1055-k2l4",
+   "id": "E34-1055-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14789,7 +14789,7 @@
    }
   },
   {
-   "id": "40-1055-k3l2",
+   "id": "E34-1055-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14801,7 +14801,7 @@
    }
   },
   {
-   "id": "40-1055-k4l2",
+   "id": "E34-1055-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14813,7 +14813,7 @@
    }
   },
   {
-   "id": "40-1063-k2l2",
+   "id": "E34-1063-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14825,7 +14825,7 @@
    }
   },
   {
-   "id": "40-1063-k2l3",
+   "id": "E34-1063-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14837,7 +14837,7 @@
    }
   },
   {
-   "id": "40-1063-k2l4",
+   "id": "E34-1063-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14849,7 +14849,7 @@
    }
   },
   {
-   "id": "40-1063-k3l2",
+   "id": "E34-1063-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14861,7 +14861,7 @@
    }
   },
   {
-   "id": "40-1063-k4l2",
+   "id": "E34-1063-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14873,7 +14873,7 @@
    }
   },
   {
-   "id": "40-1067-k2l2",
+   "id": "E34-1067-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14885,7 +14885,7 @@
    }
   },
   {
-   "id": "40-1067-k2l3",
+   "id": "E34-1067-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14897,7 +14897,7 @@
    }
   },
   {
-   "id": "40-1067-k2l4",
+   "id": "E34-1067-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14909,7 +14909,7 @@
    }
   },
   {
-   "id": "40-1067-k3l2",
+   "id": "E34-1067-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14921,7 +14921,7 @@
    }
   },
   {
-   "id": "40-1067-k4l2",
+   "id": "E34-1067-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14933,7 +14933,7 @@
    }
   },
   {
-   "id": "40-1075-k2l2",
+   "id": "E34-1075-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14945,7 +14945,7 @@
    }
   },
   {
-   "id": "40-1075-k2l3",
+   "id": "E34-1075-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14957,7 +14957,7 @@
    }
   },
   {
-   "id": "40-1075-k2l4",
+   "id": "E34-1075-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14969,7 +14969,7 @@
    }
   },
   {
-   "id": "40-1075-k3l2",
+   "id": "E34-1075-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14981,7 +14981,7 @@
    }
   },
   {
-   "id": "40-1075-k4l2",
+   "id": "E34-1075-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14993,7 +14993,7 @@
    }
   },
   {
-   "id": "40-1083-k2l2",
+   "id": "E34-1083-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15005,7 +15005,7 @@
    }
   },
   {
-   "id": "40-1083-k2l3",
+   "id": "E34-1083-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15017,7 +15017,7 @@
    }
   },
   {
-   "id": "40-1083-k2l4",
+   "id": "E34-1083-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15029,7 +15029,7 @@
    }
   },
   {
-   "id": "40-1083-k3l2",
+   "id": "E34-1083-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15041,7 +15041,7 @@
    }
   },
   {
-   "id": "40-1083-k4l2",
+   "id": "E34-1083-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15053,7 +15053,7 @@
    }
   },
   {
-   "id": "40-1091-k2l2",
+   "id": "E34-1091-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15065,7 +15065,7 @@
    }
   },
   {
-   "id": "40-1091-k2l3",
+   "id": "E34-1091-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15077,7 +15077,7 @@
    }
   },
   {
-   "id": "40-1091-k2l4",
+   "id": "E34-1091-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15089,7 +15089,7 @@
    }
   },
   {
-   "id": "40-1091-k3l2",
+   "id": "E34-1091-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15101,7 +15101,7 @@
    }
   },
   {
-   "id": "40-1091-k4l2",
+   "id": "E34-1091-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15113,7 +15113,7 @@
    }
   },
   {
-   "id": "40-1099-k2l2",
+   "id": "E34-1099-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15125,7 +15125,7 @@
    }
   },
   {
-   "id": "40-1099-k2l3",
+   "id": "E34-1099-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15137,7 +15137,7 @@
    }
   },
   {
-   "id": "40-1099-k2l4",
+   "id": "E34-1099-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15149,7 +15149,7 @@
    }
   },
   {
-   "id": "40-1099-k3l2",
+   "id": "E34-1099-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15161,7 +15161,7 @@
    }
   },
   {
-   "id": "40-1099-k4l2",
+   "id": "E34-1099-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15173,7 +15173,7 @@
    }
   },
   {
-   "id": "40-1107-k2l2",
+   "id": "E34-1107-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -15255,7 +15255,7 @@
    }
   },
   {
-   "id": "40-1107-k2l3",
+   "id": "E34-1107-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15267,7 +15267,7 @@
    }
   },
   {
-   "id": "40-1107-k2l4",
+   "id": "E34-1107-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15279,7 +15279,7 @@
    }
   },
   {
-   "id": "40-1107-k3l2",
+   "id": "E34-1107-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15291,7 +15291,7 @@
    }
   },
   {
-   "id": "40-1107-k4l2",
+   "id": "E34-1107-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15303,7 +15303,7 @@
    }
   },
   {
-   "id": "40-1109-k2l2",
+   "id": "E34-1109-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -15391,7 +15391,7 @@
    }
   },
   {
-   "id": "40-1109-k2l3",
+   "id": "E34-1109-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15403,7 +15403,7 @@
    }
   },
   {
-   "id": "40-1109-k2l4",
+   "id": "E34-1109-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15415,7 +15415,7 @@
    }
   },
   {
-   "id": "40-1109-k3l2",
+   "id": "E34-1109-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15427,7 +15427,7 @@
    }
   },
   {
-   "id": "40-1109-k4l2",
+   "id": "E34-1109-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15439,31 +15439,31 @@
    }
   },
   {
-   "id": "40-1113-k2l2",
+   "id": "E34-1113-k2l2",
    "verdict": "isomorphic to T70",
    "witness": {
     "type": "isomorphism",
     "onto": "T70",
     "map": {
-     "e": 0,
-     "z": 9,
-     "r": 10,
-     "d": 11,
-     "B0_p": 4,
-     "B0_t": 1,
      "B0_m": 3,
+     "B0_p": 4,
      "B0_q": 5,
-     "v_bcd": 8,
-     "b": 2,
-     "q": 6,
-     "p": 7,
+     "B0_t": 1,
      "a": 12,
-     "c": 13
+     "b": 2,
+     "c": 13,
+     "d": 11,
+     "e": 0,
+     "p": 6,
+     "q": 7,
+     "r": 9,
+     "v_bcd": 8,
+     "z": 10
     }
    }
   },
   {
-   "id": "40-1113-k2l3",
+   "id": "E34-1113-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15475,7 +15475,7 @@
    }
   },
   {
-   "id": "40-1113-k2l4",
+   "id": "E34-1113-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15487,7 +15487,7 @@
    }
   },
   {
-   "id": "40-1113-k3l2",
+   "id": "E34-1113-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15499,7 +15499,7 @@
    }
   },
   {
-   "id": "40-1113-k4l2",
+   "id": "E34-1113-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15511,7 +15511,7 @@
    }
   },
   {
-   "id": "40-1117-k2l2",
+   "id": "E34-1117-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15523,7 +15523,7 @@
    }
   },
   {
-   "id": "40-1117-k2l3",
+   "id": "E34-1117-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15535,7 +15535,7 @@
    }
   },
   {
-   "id": "40-1117-k2l4",
+   "id": "E34-1117-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15547,7 +15547,7 @@
    }
   },
   {
-   "id": "40-1117-k3l2",
+   "id": "E34-1117-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15559,7 +15559,7 @@
    }
   },
   {
-   "id": "40-1117-k4l2",
+   "id": "E34-1117-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15571,31 +15571,31 @@
    }
   },
   {
-   "id": "40-1125-k2l2",
+   "id": "E34-1125-k2l2",
    "verdict": "isomorphic to T49",
    "witness": {
     "type": "isomorphism",
     "onto": "T49",
     "map": {
-     "b": 0,
-     "q": 7,
-     "p": 8,
-     "d": 11,
-     "r": 1,
+     "B0_m": 9,
      "B0_p": 2,
      "B0_q": 3,
-     "z": 4,
-     "e": 5,
      "B0_t": 6,
-     "B0_m": 9,
-     "v_ace": 10,
      "a": 12,
-     "c": 13
+     "b": 0,
+     "c": 13,
+     "d": 11,
+     "e": 5,
+     "p": 7,
+     "q": 8,
+     "r": 1,
+     "v_ace": 10,
+     "z": 4
     }
    }
   },
   {
-   "id": "40-1125-k2l3",
+   "id": "E34-1125-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15607,7 +15607,7 @@
    }
   },
   {
-   "id": "40-1125-k2l4",
+   "id": "E34-1125-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15619,7 +15619,7 @@
    }
   },
   {
-   "id": "40-1125-k3l2",
+   "id": "E34-1125-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15631,7 +15631,7 @@
    }
   },
   {
-   "id": "40-1125-k4l2",
+   "id": "E34-1125-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15643,7 +15643,7 @@
    }
   },
   {
-   "id": "40-1129-k2l2",
+   "id": "E34-1129-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15655,7 +15655,7 @@
    }
   },
   {
-   "id": "40-1129-k2l3",
+   "id": "E34-1129-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15667,7 +15667,7 @@
    }
   },
   {
-   "id": "40-1129-k2l4",
+   "id": "E34-1129-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15679,7 +15679,7 @@
    }
   },
   {
-   "id": "40-1129-k3l2",
+   "id": "E34-1129-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15691,7 +15691,7 @@
    }
   },
   {
-   "id": "40-1129-k4l2",
+   "id": "E34-1129-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15703,7 +15703,7 @@
    }
   },
   {
-   "id": "40-1133-k2l2",
+   "id": "E34-1133-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15715,7 +15715,7 @@
    }
   },
   {
-   "id": "40-1133-k2l3",
+   "id": "E34-1133-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15727,7 +15727,7 @@
    }
   },
   {
-   "id": "40-1133-k2l4",
+   "id": "E34-1133-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15739,7 +15739,7 @@
    }
   },
   {
-   "id": "40-1133-k3l2",
+   "id": "E34-1133-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15751,7 +15751,7 @@
    }
   },
   {
-   "id": "40-1133-k4l2",
+   "id": "E34-1133-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15763,7 +15763,7 @@
    }
   },
   {
-   "id": "40-1141-k2l2",
+   "id": "E34-1141-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15775,7 +15775,7 @@
    }
   },
   {
-   "id": "40-1141-k2l3",
+   "id": "E34-1141-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15787,7 +15787,7 @@
    }
   },
   {
-   "id": "40-1141-k2l4",
+   "id": "E34-1141-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15799,7 +15799,7 @@
    }
   },
   {
-   "id": "40-1141-k3l2",
+   "id": "E34-1141-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15811,7 +15811,7 @@
    }
   },
   {
-   "id": "40-1141-k4l2",
+   "id": "E34-1141-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15823,7 +15823,7 @@
    }
   },
   {
-   "id": "40-1149-k2l2",
+   "id": "E34-1149-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15835,7 +15835,7 @@
    }
   },
   {
-   "id": "40-1149-k2l3",
+   "id": "E34-1149-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15847,7 +15847,7 @@
    }
   },
   {
-   "id": "40-1149-k2l4",
+   "id": "E34-1149-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15859,7 +15859,7 @@
    }
   },
   {
-   "id": "40-1149-k3l2",
+   "id": "E34-1149-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15871,7 +15871,7 @@
    }
   },
   {
-   "id": "40-1149-k4l2",
+   "id": "E34-1149-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15883,7 +15883,7 @@
    }
   },
   {
-   "id": "40-1151-k2l2",
+   "id": "E34-1151-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15895,7 +15895,7 @@
    }
   },
   {
-   "id": "40-1151-k2l3",
+   "id": "E34-1151-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15907,7 +15907,7 @@
    }
   },
   {
-   "id": "40-1151-k2l4",
+   "id": "E34-1151-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15919,7 +15919,7 @@
    }
   },
   {
-   "id": "40-1151-k3l2",
+   "id": "E34-1151-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15931,7 +15931,7 @@
    }
   },
   {
-   "id": "40-1151-k4l2",
+   "id": "E34-1151-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15943,7 +15943,7 @@
    }
   },
   {
-   "id": "40-1155-k2l2",
+   "id": "E34-1155-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15955,7 +15955,7 @@
    }
   },
   {
-   "id": "40-1155-k2l3",
+   "id": "E34-1155-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15967,7 +15967,7 @@
    }
   },
   {
-   "id": "40-1155-k2l4",
+   "id": "E34-1155-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15979,7 +15979,7 @@
    }
   },
   {
-   "id": "40-1155-k3l2",
+   "id": "E34-1155-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15991,7 +15991,7 @@
    }
   },
   {
-   "id": "40-1155-k4l2",
+   "id": "E34-1155-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16003,7 +16003,7 @@
    }
   },
   {
-   "id": "40-1159-k2l2",
+   "id": "E34-1159-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16015,7 +16015,7 @@
    }
   },
   {
-   "id": "40-1159-k2l3",
+   "id": "E34-1159-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16027,7 +16027,7 @@
    }
   },
   {
-   "id": "40-1159-k2l4",
+   "id": "E34-1159-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16039,7 +16039,7 @@
    }
   },
   {
-   "id": "40-1159-k3l2",
+   "id": "E34-1159-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16051,7 +16051,7 @@
    }
   },
   {
-   "id": "40-1159-k4l2",
+   "id": "E34-1159-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16063,7 +16063,7 @@
    }
   },
   {
-   "id": "40-1167-k2l2",
+   "id": "E34-1167-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16075,7 +16075,7 @@
    }
   },
   {
-   "id": "40-1167-k2l3",
+   "id": "E34-1167-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16087,7 +16087,7 @@
    }
   },
   {
-   "id": "40-1167-k2l4",
+   "id": "E34-1167-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16099,7 +16099,7 @@
    }
   },
   {
-   "id": "40-1167-k3l2",
+   "id": "E34-1167-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16111,7 +16111,7 @@
    }
   },
   {
-   "id": "40-1167-k4l2",
+   "id": "E34-1167-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16123,7 +16123,7 @@
    }
   },
   {
-   "id": "40-1171-k2l2",
+   "id": "E34-1171-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16135,7 +16135,7 @@
    }
   },
   {
-   "id": "40-1171-k2l3",
+   "id": "E34-1171-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16147,7 +16147,7 @@
    }
   },
   {
-   "id": "40-1171-k2l4",
+   "id": "E34-1171-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16159,7 +16159,7 @@
    }
   },
   {
-   "id": "40-1171-k3l2",
+   "id": "E34-1171-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16171,7 +16171,7 @@
    }
   },
   {
-   "id": "40-1171-k4l2",
+   "id": "E34-1171-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16183,7 +16183,7 @@
    }
   },
   {
-   "id": "40-1175-k2l2",
+   "id": "E34-1175-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16195,7 +16195,7 @@
    }
   },
   {
-   "id": "40-1175-k2l3",
+   "id": "E34-1175-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16207,7 +16207,7 @@
    }
   },
   {
-   "id": "40-1175-k2l4",
+   "id": "E34-1175-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16219,7 +16219,7 @@
    }
   },
   {
-   "id": "40-1175-k3l2",
+   "id": "E34-1175-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16231,7 +16231,7 @@
    }
   },
   {
-   "id": "40-1175-k4l2",
+   "id": "E34-1175-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16243,7 +16243,7 @@
    }
   },
   {
-   "id": "40-1183-k2l2",
+   "id": "E34-1183-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16255,7 +16255,7 @@
    }
   },
   {
-   "id": "40-1183-k2l3",
+   "id": "E34-1183-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16267,7 +16267,7 @@
    }
   },
   {
-   "id": "40-1183-k2l4",
+   "id": "E34-1183-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16279,7 +16279,7 @@
    }
   },
   {
-   "id": "40-1183-k3l2",
+   "id": "E34-1183-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16291,7 +16291,7 @@
    }
   },
   {
-   "id": "40-1183-k4l2",
+   "id": "E34-1183-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16303,7 +16303,7 @@
    }
   },
   {
-   "id": "40-1191-k2l2",
+   "id": "E34-1191-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -16391,7 +16391,7 @@
    }
   },
   {
-   "id": "40-1191-k2l3",
+   "id": "E34-1191-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16403,7 +16403,7 @@
    }
   },
   {
-   "id": "40-1191-k2l4",
+   "id": "E34-1191-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16415,7 +16415,7 @@
    }
   },
   {
-   "id": "40-1191-k3l2",
+   "id": "E34-1191-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16427,7 +16427,7 @@
    }
   },
   {
-   "id": "40-1191-k4l2",
+   "id": "E34-1191-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16439,7 +16439,7 @@
    }
   },
   {
-   "id": "40-1195-k2l2",
+   "id": "E34-1195-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -16533,7 +16533,7 @@
    }
   },
   {
-   "id": "40-1195-k2l3",
+   "id": "E34-1195-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16545,7 +16545,7 @@
    }
   },
   {
-   "id": "40-1195-k2l4",
+   "id": "E34-1195-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16557,7 +16557,7 @@
    }
   },
   {
-   "id": "40-1195-k3l2",
+   "id": "E34-1195-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16569,7 +16569,7 @@
    }
   },
   {
-   "id": "40-1195-k4l2",
+   "id": "E34-1195-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16581,7 +16581,7 @@
    }
   },
   {
-   "id": "40-1203-k2l2",
+   "id": "E34-1203-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16593,7 +16593,7 @@
    }
   },
   {
-   "id": "40-1203-k2l3",
+   "id": "E34-1203-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16605,7 +16605,7 @@
    }
   },
   {
-   "id": "40-1203-k2l4",
+   "id": "E34-1203-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16617,7 +16617,7 @@
    }
   },
   {
-   "id": "40-1203-k3l2",
+   "id": "E34-1203-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16629,7 +16629,7 @@
    }
   },
   {
-   "id": "40-1203-k4l2",
+   "id": "E34-1203-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16641,7 +16641,7 @@
    }
   },
   {
-   "id": "40-1207-k2l2",
+   "id": "E34-1207-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16653,7 +16653,7 @@
    }
   },
   {
-   "id": "40-1207-k2l3",
+   "id": "E34-1207-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16665,7 +16665,7 @@
    }
   },
   {
-   "id": "40-1207-k2l4",
+   "id": "E34-1207-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16677,7 +16677,7 @@
    }
   },
   {
-   "id": "40-1207-k3l2",
+   "id": "E34-1207-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16689,7 +16689,7 @@
    }
   },
   {
-   "id": "40-1207-k4l2",
+   "id": "E34-1207-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16701,7 +16701,7 @@
    }
   },
   {
-   "id": "40-1215-k2l2",
+   "id": "E34-1215-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16713,7 +16713,7 @@
    }
   },
   {
-   "id": "40-1215-k2l3",
+   "id": "E34-1215-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16725,7 +16725,7 @@
    }
   },
   {
-   "id": "40-1215-k2l4",
+   "id": "E34-1215-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16737,7 +16737,7 @@
    }
   },
   {
-   "id": "40-1215-k3l2",
+   "id": "E34-1215-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16749,7 +16749,7 @@
    }
   },
   {
-   "id": "40-1215-k4l2",
+   "id": "E34-1215-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16761,7 +16761,7 @@
    }
   },
   {
-   "id": "40-1223-k2l2",
+   "id": "E34-1223-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16773,7 +16773,7 @@
    }
   },
   {
-   "id": "40-1223-k2l3",
+   "id": "E34-1223-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16785,7 +16785,7 @@
    }
   },
   {
-   "id": "40-1223-k2l4",
+   "id": "E34-1223-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16797,7 +16797,7 @@
    }
   },
   {
-   "id": "40-1223-k3l2",
+   "id": "E34-1223-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16809,7 +16809,7 @@
    }
   },
   {
-   "id": "40-1223-k4l2",
+   "id": "E34-1223-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16821,7 +16821,7 @@
    }
   },
   {
-   "id": "40-1231-k2l2",
+   "id": "E34-1231-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16833,7 +16833,7 @@
    }
   },
   {
-   "id": "40-1231-k2l3",
+   "id": "E34-1231-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16845,7 +16845,7 @@
    }
   },
   {
-   "id": "40-1231-k2l4",
+   "id": "E34-1231-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16857,7 +16857,7 @@
    }
   },
   {
-   "id": "40-1231-k3l2",
+   "id": "E34-1231-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16869,7 +16869,7 @@
    }
   },
   {
-   "id": "40-1231-k4l2",
+   "id": "E34-1231-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16881,7 +16881,7 @@
    }
   },
   {
-   "id": "40-1239-k2l2",
+   "id": "E34-1239-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16893,7 +16893,7 @@
    }
   },
   {
-   "id": "40-1239-k2l3",
+   "id": "E34-1239-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16905,7 +16905,7 @@
    }
   },
   {
-   "id": "40-1239-k2l4",
+   "id": "E34-1239-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16917,7 +16917,7 @@
    }
   },
   {
-   "id": "40-1239-k3l2",
+   "id": "E34-1239-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16929,7 +16929,7 @@
    }
   },
   {
-   "id": "40-1239-k4l2",
+   "id": "E34-1239-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16941,7 +16941,7 @@
    }
   },
   {
-   "id": "40-1247-k2l2",
+   "id": "E34-1247-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16953,7 +16953,7 @@
    }
   },
   {
-   "id": "40-1247-k2l3",
+   "id": "E34-1247-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16965,7 +16965,7 @@
    }
   },
   {
-   "id": "40-1247-k2l4",
+   "id": "E34-1247-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16977,7 +16977,7 @@
    }
   },
   {
-   "id": "40-1247-k3l2",
+   "id": "E34-1247-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16989,7 +16989,7 @@
    }
   },
   {
-   "id": "40-1247-k4l2",
+   "id": "E34-1247-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17001,7 +17001,7 @@
    }
   },
   {
-   "id": "40-1251-k2l2",
+   "id": "E34-1251-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17013,7 +17013,7 @@
    }
   },
   {
-   "id": "40-1251-k2l3",
+   "id": "E34-1251-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17025,7 +17025,7 @@
    }
   },
   {
-   "id": "40-1251-k2l4",
+   "id": "E34-1251-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17037,7 +17037,7 @@
    }
   },
   {
-   "id": "40-1251-k3l2",
+   "id": "E34-1251-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17049,7 +17049,7 @@
    }
   },
   {
-   "id": "40-1251-k4l2",
+   "id": "E34-1251-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17061,7 +17061,7 @@
    }
   },
   {
-   "id": "40-1259-k2l2",
+   "id": "E34-1259-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17073,7 +17073,7 @@
    }
   },
   {
-   "id": "40-1259-k2l3",
+   "id": "E34-1259-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17085,7 +17085,7 @@
    }
   },
   {
-   "id": "40-1259-k2l4",
+   "id": "E34-1259-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17097,7 +17097,7 @@
    }
   },
   {
-   "id": "40-1259-k3l2",
+   "id": "E34-1259-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17109,7 +17109,7 @@
    }
   },
   {
-   "id": "40-1259-k4l2",
+   "id": "E34-1259-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17121,7 +17121,7 @@
    }
   },
   {
-   "id": "40-1263-k2l2",
+   "id": "E34-1263-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17133,7 +17133,7 @@
    }
   },
   {
-   "id": "40-1263-k2l3",
+   "id": "E34-1263-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17145,7 +17145,7 @@
    }
   },
   {
-   "id": "40-1263-k2l4",
+   "id": "E34-1263-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17157,7 +17157,7 @@
    }
   },
   {
-   "id": "40-1263-k3l2",
+   "id": "E34-1263-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17169,7 +17169,7 @@
    }
   },
   {
-   "id": "40-1263-k4l2",
+   "id": "E34-1263-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17181,7 +17181,7 @@
    }
   },
   {
-   "id": "40-1271-k2l2",
+   "id": "E34-1271-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17193,7 +17193,7 @@
    }
   },
   {
-   "id": "40-1271-k2l3",
+   "id": "E34-1271-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17205,7 +17205,7 @@
    }
   },
   {
-   "id": "40-1271-k2l4",
+   "id": "E34-1271-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17217,7 +17217,7 @@
    }
   },
   {
-   "id": "40-1271-k3l2",
+   "id": "E34-1271-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17229,7 +17229,7 @@
    }
   },
   {
-   "id": "40-1271-k4l2",
+   "id": "E34-1271-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17241,7 +17241,7 @@
    }
   },
   {
-   "id": "40-1279-k2l2",
+   "id": "E34-1279-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17253,7 +17253,7 @@
    }
   },
   {
-   "id": "40-1279-k2l3",
+   "id": "E34-1279-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17265,7 +17265,7 @@
    }
   },
   {
-   "id": "40-1279-k2l4",
+   "id": "E34-1279-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17277,7 +17277,7 @@
    }
   },
   {
-   "id": "40-1279-k3l2",
+   "id": "E34-1279-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17289,7 +17289,7 @@
    }
   },
   {
-   "id": "40-1279-k4l2",
+   "id": "E34-1279-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17301,7 +17301,7 @@
    }
   },
   {
-   "id": "40-1287-k2l2",
+   "id": "E34-1287-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17313,7 +17313,7 @@
    }
   },
   {
-   "id": "40-1287-k2l3",
+   "id": "E34-1287-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17325,7 +17325,7 @@
    }
   },
   {
-   "id": "40-1287-k2l4",
+   "id": "E34-1287-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17337,7 +17337,7 @@
    }
   },
   {
-   "id": "40-1287-k3l2",
+   "id": "E34-1287-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17349,7 +17349,7 @@
    }
   },
   {
-   "id": "40-1287-k4l2",
+   "id": "E34-1287-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17361,7 +17361,7 @@
    }
   },
   {
-   "id": "40-1295-k2l2",
+   "id": "E34-1295-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17373,7 +17373,7 @@
    }
   },
   {
-   "id": "40-1295-k2l3",
+   "id": "E34-1295-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17385,7 +17385,7 @@
    }
   },
   {
-   "id": "40-1295-k2l4",
+   "id": "E34-1295-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17397,7 +17397,7 @@
    }
   },
   {
-   "id": "40-1295-k3l2",
+   "id": "E34-1295-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17409,7 +17409,7 @@
    }
   },
   {
-   "id": "40-1295-k4l2",
+   "id": "E34-1295-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17421,7 +17421,7 @@
    }
   },
   {
-   "id": "40-1303-k2l2",
+   "id": "E34-1303-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -17503,7 +17503,7 @@
    }
   },
   {
-   "id": "40-1303-k2l3",
+   "id": "E34-1303-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17515,7 +17515,7 @@
    }
   },
   {
-   "id": "40-1303-k2l4",
+   "id": "E34-1303-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17527,7 +17527,7 @@
    }
   },
   {
-   "id": "40-1303-k3l2",
+   "id": "E34-1303-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17539,7 +17539,7 @@
    }
   },
   {
-   "id": "40-1303-k4l2",
+   "id": "E34-1303-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17551,31 +17551,31 @@
    }
   },
   {
-   "id": "40-1305-k2l2",
+   "id": "E34-1305-k2l2",
    "verdict": "isomorphic to T70",
    "witness": {
     "type": "isomorphism",
     "onto": "T70",
     "map": {
-     "b": 0,
-     "q": 9,
-     "p": 10,
-     "c": 11,
-     "B0_p": 4,
-     "B0_t": 1,
      "B0_m": 3,
+     "B0_p": 4,
      "B0_q": 5,
-     "v_cde": 8,
-     "e": 2,
-     "z": 6,
-     "r": 7,
+     "B0_t": 1,
      "a": 12,
-     "d": 13
+     "b": 0,
+     "c": 11,
+     "d": 13,
+     "e": 2,
+     "p": 9,
+     "q": 10,
+     "r": 6,
+     "v_cde": 8,
+     "z": 7
     }
    }
   },
   {
-   "id": "40-1305-k2l3",
+   "id": "E34-1305-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17587,7 +17587,7 @@
    }
   },
   {
-   "id": "40-1305-k2l4",
+   "id": "E34-1305-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17599,7 +17599,7 @@
    }
   },
   {
-   "id": "40-1305-k3l2",
+   "id": "E34-1305-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17611,7 +17611,7 @@
    }
   },
   {
-   "id": "40-1305-k4l2",
+   "id": "E34-1305-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17623,7 +17623,7 @@
    }
   },
   {
-   "id": "40-1309-k2l2",
+   "id": "E34-1309-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -17711,7 +17711,7 @@
    }
   },
   {
-   "id": "40-1309-k2l3",
+   "id": "E34-1309-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17723,7 +17723,7 @@
    }
   },
   {
-   "id": "40-1309-k2l4",
+   "id": "E34-1309-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17735,7 +17735,7 @@
    }
   },
   {
-   "id": "40-1309-k3l2",
+   "id": "E34-1309-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17747,7 +17747,7 @@
    }
   },
   {
-   "id": "40-1309-k4l2",
+   "id": "E34-1309-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17759,7 +17759,7 @@
    }
   },
   {
-   "id": "40-1313-k2l2",
+   "id": "E34-1313-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17771,7 +17771,7 @@
    }
   },
   {
-   "id": "40-1313-k2l3",
+   "id": "E34-1313-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17783,7 +17783,7 @@
    }
   },
   {
-   "id": "40-1313-k2l4",
+   "id": "E34-1313-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17795,7 +17795,7 @@
    }
   },
   {
-   "id": "40-1313-k3l2",
+   "id": "E34-1313-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17807,7 +17807,7 @@
    }
   },
   {
-   "id": "40-1313-k4l2",
+   "id": "E34-1313-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17819,7 +17819,7 @@
    }
   },
   {
-   "id": "40-1321-k2l2",
+   "id": "E34-1321-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -17907,7 +17907,7 @@
    }
   },
   {
-   "id": "40-1321-k2l3",
+   "id": "E34-1321-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17919,7 +17919,7 @@
    }
   },
   {
-   "id": "40-1321-k2l4",
+   "id": "E34-1321-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17931,7 +17931,7 @@
    }
   },
   {
-   "id": "40-1321-k3l2",
+   "id": "E34-1321-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17943,7 +17943,7 @@
    }
   },
   {
-   "id": "40-1321-k4l2",
+   "id": "E34-1321-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17955,7 +17955,7 @@
    }
   },
   {
-   "id": "40-1325-k2l2",
+   "id": "E34-1325-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17967,7 +17967,7 @@
    }
   },
   {
-   "id": "40-1325-k2l3",
+   "id": "E34-1325-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17979,7 +17979,7 @@
    }
   },
   {
-   "id": "40-1325-k2l4",
+   "id": "E34-1325-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17991,7 +17991,7 @@
    }
   },
   {
-   "id": "40-1325-k3l2",
+   "id": "E34-1325-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18003,7 +18003,7 @@
    }
   },
   {
-   "id": "40-1325-k4l2",
+   "id": "E34-1325-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18015,7 +18015,7 @@
    }
   },
   {
-   "id": "40-1329-k2l2",
+   "id": "E34-1329-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -18109,7 +18109,7 @@
    }
   },
   {
-   "id": "40-1329-k2l3",
+   "id": "E34-1329-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18121,7 +18121,7 @@
    }
   },
   {
-   "id": "40-1329-k2l4",
+   "id": "E34-1329-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18133,7 +18133,7 @@
    }
   },
   {
-   "id": "40-1329-k3l2",
+   "id": "E34-1329-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18145,7 +18145,7 @@
    }
   },
   {
-   "id": "40-1329-k4l2",
+   "id": "E34-1329-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18157,7 +18157,7 @@
    }
   },
   {
-   "id": "40-1337-k2l2",
+   "id": "E34-1337-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18169,7 +18169,7 @@
    }
   },
   {
-   "id": "40-1337-k2l3",
+   "id": "E34-1337-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18181,7 +18181,7 @@
    }
   },
   {
-   "id": "40-1337-k2l4",
+   "id": "E34-1337-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18193,7 +18193,7 @@
    }
   },
   {
-   "id": "40-1337-k3l2",
+   "id": "E34-1337-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18205,7 +18205,7 @@
    }
   },
   {
-   "id": "40-1337-k4l2",
+   "id": "E34-1337-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18217,7 +18217,7 @@
    }
   },
   {
-   "id": "40-1345-k2l2",
+   "id": "E34-1345-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18229,7 +18229,7 @@
    }
   },
   {
-   "id": "40-1345-k2l3",
+   "id": "E34-1345-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18241,7 +18241,7 @@
    }
   },
   {
-   "id": "40-1345-k2l4",
+   "id": "E34-1345-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18253,7 +18253,7 @@
    }
   },
   {
-   "id": "40-1345-k3l2",
+   "id": "E34-1345-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18265,7 +18265,7 @@
    }
   },
   {
-   "id": "40-1345-k4l2",
+   "id": "E34-1345-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18277,7 +18277,7 @@
    }
   },
   {
-   "id": "40-1347-k2l2",
+   "id": "E34-1347-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18289,7 +18289,7 @@
    }
   },
   {
-   "id": "40-1347-k2l3",
+   "id": "E34-1347-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18301,7 +18301,7 @@
    }
   },
   {
-   "id": "40-1347-k2l4",
+   "id": "E34-1347-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18313,7 +18313,7 @@
    }
   },
   {
-   "id": "40-1347-k3l2",
+   "id": "E34-1347-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18325,7 +18325,7 @@
    }
   },
   {
-   "id": "40-1347-k4l2",
+   "id": "E34-1347-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18337,7 +18337,7 @@
    }
   },
   {
-   "id": "40-1351-k2l2",
+   "id": "E34-1351-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18349,7 +18349,7 @@
    }
   },
   {
-   "id": "40-1351-k2l3",
+   "id": "E34-1351-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18361,7 +18361,7 @@
    }
   },
   {
-   "id": "40-1351-k2l4",
+   "id": "E34-1351-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18373,7 +18373,7 @@
    }
   },
   {
-   "id": "40-1351-k3l2",
+   "id": "E34-1351-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18385,7 +18385,7 @@
    }
   },
   {
-   "id": "40-1351-k4l2",
+   "id": "E34-1351-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18397,7 +18397,7 @@
    }
   },
   {
-   "id": "40-1355-k2l2",
+   "id": "E34-1355-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18409,7 +18409,7 @@
    }
   },
   {
-   "id": "40-1355-k2l3",
+   "id": "E34-1355-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18421,7 +18421,7 @@
    }
   },
   {
-   "id": "40-1355-k2l4",
+   "id": "E34-1355-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18433,7 +18433,7 @@
    }
   },
   {
-   "id": "40-1355-k3l2",
+   "id": "E34-1355-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18445,7 +18445,7 @@
    }
   },
   {
-   "id": "40-1355-k4l2",
+   "id": "E34-1355-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18457,7 +18457,7 @@
    }
   },
   {
-   "id": "40-1363-k2l2",
+   "id": "E34-1363-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18469,7 +18469,7 @@
    }
   },
   {
-   "id": "40-1363-k2l3",
+   "id": "E34-1363-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18481,7 +18481,7 @@
    }
   },
   {
-   "id": "40-1363-k2l4",
+   "id": "E34-1363-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18493,7 +18493,7 @@
    }
   },
   {
-   "id": "40-1363-k3l2",
+   "id": "E34-1363-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18505,7 +18505,7 @@
    }
   },
   {
-   "id": "40-1363-k4l2",
+   "id": "E34-1363-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18517,7 +18517,7 @@
    }
   },
   {
-   "id": "40-1367-k2l2",
+   "id": "E34-1367-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18529,7 +18529,7 @@
    }
   },
   {
-   "id": "40-1367-k2l3",
+   "id": "E34-1367-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18541,7 +18541,7 @@
    }
   },
   {
-   "id": "40-1367-k2l4",
+   "id": "E34-1367-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18553,7 +18553,7 @@
    }
   },
   {
-   "id": "40-1367-k3l2",
+   "id": "E34-1367-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18565,7 +18565,7 @@
    }
   },
   {
-   "id": "40-1367-k4l2",
+   "id": "E34-1367-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18577,7 +18577,7 @@
    }
   },
   {
-   "id": "40-1371-k2l2",
+   "id": "E34-1371-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18589,7 +18589,7 @@
    }
   },
   {
-   "id": "40-1371-k2l3",
+   "id": "E34-1371-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18601,7 +18601,7 @@
    }
   },
   {
-   "id": "40-1371-k2l4",
+   "id": "E34-1371-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18613,7 +18613,7 @@
    }
   },
   {
-   "id": "40-1371-k3l2",
+   "id": "E34-1371-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18625,7 +18625,7 @@
    }
   },
   {
-   "id": "40-1371-k4l2",
+   "id": "E34-1371-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18637,7 +18637,7 @@
    }
   },
   {
-   "id": "40-1379-k2l2",
+   "id": "E34-1379-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18649,7 +18649,7 @@
    }
   },
   {
-   "id": "40-1379-k2l3",
+   "id": "E34-1379-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18661,7 +18661,7 @@
    }
   },
   {
-   "id": "40-1379-k2l4",
+   "id": "E34-1379-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18673,7 +18673,7 @@
    }
   },
   {
-   "id": "40-1379-k3l2",
+   "id": "E34-1379-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18685,7 +18685,7 @@
    }
   },
   {
-   "id": "40-1379-k4l2",
+   "id": "E34-1379-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18697,31 +18697,31 @@
    }
   },
   {
-   "id": "40-1387-k2l2",
+   "id": "E34-1387-k2l2",
    "verdict": "isomorphic to T49",
    "witness": {
     "type": "isomorphism",
     "onto": "T49",
     "map": {
-     "e": 0,
-     "z": 7,
-     "r": 8,
-     "c": 11,
-     "p": 1,
+     "B0_m": 9,
      "B0_p": 2,
      "B0_q": 3,
-     "q": 4,
-     "b": 5,
      "B0_t": 6,
-     "B0_m": 9,
-     "v_abd": 10,
      "a": 12,
-     "d": 13
+     "b": 5,
+     "c": 11,
+     "d": 13,
+     "e": 0,
+     "p": 1,
+     "q": 4,
+     "r": 7,
+     "v_abd": 10,
+     "z": 8
     }
    }
   },
   {
-   "id": "40-1387-k2l3",
+   "id": "E34-1387-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18733,7 +18733,7 @@
    }
   },
   {
-   "id": "40-1387-k2l4",
+   "id": "E34-1387-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18745,7 +18745,7 @@
    }
   },
   {
-   "id": "40-1387-k3l2",
+   "id": "E34-1387-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18757,7 +18757,7 @@
    }
   },
   {
-   "id": "40-1387-k4l2",
+   "id": "E34-1387-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18769,7 +18769,7 @@
    }
   },
   {
-   "id": "40-1391-k2l2",
+   "id": "E34-1391-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18781,7 +18781,7 @@
    }
   },
   {
-   "id": "40-1391-k2l3",
+   "id": "E34-1391-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18793,7 +18793,7 @@
    }
   },
   {
-   "id": "40-1391-k2l4",
+   "id": "E34-1391-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18805,7 +18805,7 @@
    }
   },
   {
-   "id": "40-1391-k3l2",
+   "id": "E34-1391-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18817,7 +18817,7 @@
    }
   },
   {
-   "id": "40-1391-k4l2",
+   "id": "E34-1391-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18829,7 +18829,7 @@
    }
   },
   {
-   "id": "40-1399-k2l2",
+   "id": "E34-1399-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18841,7 +18841,7 @@
    }
   },
   {
-   "id": "40-1399-k2l3",
+   "id": "E34-1399-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18853,7 +18853,7 @@
    }
   },
   {
-   "id": "40-1399-k2l4",
+   "id": "E34-1399-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18865,7 +18865,7 @@
    }
   },
   {
-   "id": "40-1399-k3l2",
+   "id": "E34-1399-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18877,7 +18877,7 @@
    }
   },
   {
-   "id": "40-1399-k4l2",
+   "id": "E34-1399-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18889,7 +18889,7 @@
    }
   },
   {
-   "id": "40-1403-k2l2",
+   "id": "E34-1403-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18901,7 +18901,7 @@
    }
   },
   {
-   "id": "40-1403-k2l3",
+   "id": "E34-1403-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18913,7 +18913,7 @@
    }
   },
   {
-   "id": "40-1403-k2l4",
+   "id": "E34-1403-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18925,7 +18925,7 @@
    }
   },
   {
-   "id": "40-1403-k3l2",
+   "id": "E34-1403-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18937,7 +18937,7 @@
    }
   },
   {
-   "id": "40-1403-k4l2",
+   "id": "E34-1403-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18949,7 +18949,7 @@
    }
   },
   {
-   "id": "40-1411-k2l2",
+   "id": "E34-1411-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18961,7 +18961,7 @@
    }
   },
   {
-   "id": "40-1411-k2l3",
+   "id": "E34-1411-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18973,7 +18973,7 @@
    }
   },
   {
-   "id": "40-1411-k2l4",
+   "id": "E34-1411-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18985,7 +18985,7 @@
    }
   },
   {
-   "id": "40-1411-k3l2",
+   "id": "E34-1411-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18997,7 +18997,7 @@
    }
   },
   {
-   "id": "40-1411-k4l2",
+   "id": "E34-1411-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19009,7 +19009,7 @@
    }
   },
   {
-   "id": "40-1419-k2l2",
+   "id": "E34-1419-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19021,7 +19021,7 @@
    }
   },
   {
-   "id": "40-1419-k2l3",
+   "id": "E34-1419-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19033,7 +19033,7 @@
    }
   },
   {
-   "id": "40-1419-k2l4",
+   "id": "E34-1419-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19045,7 +19045,7 @@
    }
   },
   {
-   "id": "40-1419-k3l2",
+   "id": "E34-1419-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19057,7 +19057,7 @@
    }
   },
   {
-   "id": "40-1419-k4l2",
+   "id": "E34-1419-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19069,7 +19069,7 @@
    }
   },
   {
-   "id": "40-1427-k2l2",
+   "id": "E34-1427-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19081,7 +19081,7 @@
    }
   },
   {
-   "id": "40-1427-k2l3",
+   "id": "E34-1427-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19093,7 +19093,7 @@
    }
   },
   {
-   "id": "40-1427-k2l4",
+   "id": "E34-1427-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19105,7 +19105,7 @@
    }
   },
   {
-   "id": "40-1427-k3l2",
+   "id": "E34-1427-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19117,7 +19117,7 @@
    }
   },
   {
-   "id": "40-1427-k4l2",
+   "id": "E34-1427-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19129,7 +19129,7 @@
    }
   },
   {
-   "id": "40-1435-k2l2",
+   "id": "E34-1435-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19141,7 +19141,7 @@
    }
   },
   {
-   "id": "40-1435-k2l3",
+   "id": "E34-1435-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19153,7 +19153,7 @@
    }
   },
   {
-   "id": "40-1435-k2l4",
+   "id": "E34-1435-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19165,7 +19165,7 @@
    }
   },
   {
-   "id": "40-1435-k3l2",
+   "id": "E34-1435-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19177,7 +19177,7 @@
    }
   },
   {
-   "id": "40-1435-k4l2",
+   "id": "E34-1435-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19189,7 +19189,7 @@
    }
   },
   {
-   "id": "40-1443-k2l2",
+   "id": "E34-1443-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19201,7 +19201,7 @@
    }
   },
   {
-   "id": "40-1443-k2l3",
+   "id": "E34-1443-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19213,7 +19213,7 @@
    }
   },
   {
-   "id": "40-1443-k2l4",
+   "id": "E34-1443-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19225,7 +19225,7 @@
    }
   },
   {
-   "id": "40-1443-k3l2",
+   "id": "E34-1443-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19237,7 +19237,7 @@
    }
   },
   {
-   "id": "40-1443-k4l2",
+   "id": "E34-1443-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19249,7 +19249,7 @@
    }
   },
   {
-   "id": "40-1447-k2l2",
+   "id": "E34-1447-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19261,7 +19261,7 @@
    }
   },
   {
-   "id": "40-1447-k2l3",
+   "id": "E34-1447-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19273,7 +19273,7 @@
    }
   },
   {
-   "id": "40-1447-k2l4",
+   "id": "E34-1447-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19285,7 +19285,7 @@
    }
   },
   {
-   "id": "40-1447-k3l2",
+   "id": "E34-1447-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19297,7 +19297,7 @@
    }
   },
   {
-   "id": "40-1447-k4l2",
+   "id": "E34-1447-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19309,7 +19309,7 @@
    }
   },
   {
-   "id": "40-1455-k2l2",
+   "id": "E34-1455-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19321,7 +19321,7 @@
    }
   },
   {
-   "id": "40-1455-k2l3",
+   "id": "E34-1455-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19333,7 +19333,7 @@
    }
   },
   {
-   "id": "40-1455-k2l4",
+   "id": "E34-1455-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19345,7 +19345,7 @@
    }
   },
   {
-   "id": "40-1455-k3l2",
+   "id": "E34-1455-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19357,7 +19357,7 @@
    }
   },
   {
-   "id": "40-1455-k4l2",
+   "id": "E34-1455-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19369,7 +19369,7 @@
    }
   },
   {
-   "id": "40-1459-k2l2",
+   "id": "E34-1459-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19381,7 +19381,7 @@
    }
   },
   {
-   "id": "40-1459-k2l3",
+   "id": "E34-1459-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19393,7 +19393,7 @@
    }
   },
   {
-   "id": "40-1459-k2l4",
+   "id": "E34-1459-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19405,7 +19405,7 @@
    }
   },
   {
-   "id": "40-1459-k3l2",
+   "id": "E34-1459-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19417,7 +19417,7 @@
    }
   },
   {
-   "id": "40-1459-k4l2",
+   "id": "E34-1459-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19429,7 +19429,7 @@
    }
   },
   {
-   "id": "40-1467-k2l2",
+   "id": "E34-1467-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19441,7 +19441,7 @@
    }
   },
   {
-   "id": "40-1467-k2l3",
+   "id": "E34-1467-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19453,7 +19453,7 @@
    }
   },
   {
-   "id": "40-1467-k2l4",
+   "id": "E34-1467-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19465,7 +19465,7 @@
    }
   },
   {
-   "id": "40-1467-k3l2",
+   "id": "E34-1467-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19477,7 +19477,7 @@
    }
   },
   {
-   "id": "40-1467-k4l2",
+   "id": "E34-1467-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19489,7 +19489,7 @@
    }
   },
   {
-   "id": "40-1475-k2l2",
+   "id": "E34-1475-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19501,7 +19501,7 @@
    }
   },
   {
-   "id": "40-1475-k2l3",
+   "id": "E34-1475-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19513,7 +19513,7 @@
    }
   },
   {
-   "id": "40-1475-k2l4",
+   "id": "E34-1475-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19525,7 +19525,7 @@
    }
   },
   {
-   "id": "40-1475-k3l2",
+   "id": "E34-1475-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19537,7 +19537,7 @@
    }
   },
   {
-   "id": "40-1475-k4l2",
+   "id": "E34-1475-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19549,7 +19549,7 @@
    }
   },
   {
-   "id": "40-1483-k2l2",
+   "id": "E34-1483-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19561,7 +19561,7 @@
    }
   },
   {
-   "id": "40-1483-k2l3",
+   "id": "E34-1483-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19573,7 +19573,7 @@
    }
   },
   {
-   "id": "40-1483-k2l4",
+   "id": "E34-1483-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19585,7 +19585,7 @@
    }
   },
   {
-   "id": "40-1483-k3l2",
+   "id": "E34-1483-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19597,7 +19597,7 @@
    }
   },
   {
-   "id": "40-1483-k4l2",
+   "id": "E34-1483-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19609,7 +19609,7 @@
    }
   },
   {
-   "id": "40-1491-k2l2",
+   "id": "E34-1491-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19621,7 +19621,7 @@
    }
   },
   {
-   "id": "40-1491-k2l3",
+   "id": "E34-1491-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19633,7 +19633,7 @@
    }
   },
   {
-   "id": "40-1491-k2l4",
+   "id": "E34-1491-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19645,7 +19645,7 @@
    }
   },
   {
-   "id": "40-1491-k3l2",
+   "id": "E34-1491-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19657,7 +19657,7 @@
    }
   },
   {
-   "id": "40-1491-k4l2",
+   "id": "E34-1491-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19669,7 +19669,7 @@
    }
   },
   {
-   "id": "40-2583-k2l2",
+   "id": "E34-2583-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -19743,7 +19743,7 @@
    }
   },
   {
-   "id": "40-2583-k2l3",
+   "id": "E34-2583-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19755,7 +19755,7 @@
    }
   },
   {
-   "id": "40-2583-k2l4",
+   "id": "E34-2583-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19767,7 +19767,7 @@
    }
   },
   {
-   "id": "40-2583-k3l2",
+   "id": "E34-2583-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19779,7 +19779,7 @@
    }
   },
   {
-   "id": "40-2583-k4l2",
+   "id": "E34-2583-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19791,7 +19791,7 @@
    }
   },
   {
-   "id": "40-2587-k2l2",
+   "id": "E34-2587-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -19871,7 +19871,7 @@
    }
   },
   {
-   "id": "40-2587-k2l3",
+   "id": "E34-2587-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19883,7 +19883,7 @@
    }
   },
   {
-   "id": "40-2587-k2l4",
+   "id": "E34-2587-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19895,7 +19895,7 @@
    }
   },
   {
-   "id": "40-2587-k3l2",
+   "id": "E34-2587-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19907,7 +19907,7 @@
    }
   },
   {
-   "id": "40-2587-k4l2",
+   "id": "E34-2587-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19919,7 +19919,7 @@
    }
   },
   {
-   "id": "40-2607-k2l2",
+   "id": "E34-2607-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -19999,7 +19999,7 @@
    }
   },
   {
-   "id": "40-2607-k2l3",
+   "id": "E34-2607-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20011,7 +20011,7 @@
    }
   },
   {
-   "id": "40-2607-k2l4",
+   "id": "E34-2607-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20023,7 +20023,7 @@
    }
   },
   {
-   "id": "40-2607-k3l2",
+   "id": "E34-2607-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20035,7 +20035,7 @@
    }
   },
   {
-   "id": "40-2607-k4l2",
+   "id": "E34-2607-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20047,7 +20047,7 @@
    }
   },
   {
-   "id": "40-2615-k2l2",
+   "id": "E34-2615-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -20135,7 +20135,7 @@
    }
   },
   {
-   "id": "40-2615-k2l3",
+   "id": "E34-2615-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20147,7 +20147,7 @@
    }
   },
   {
-   "id": "40-2615-k2l4",
+   "id": "E34-2615-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20159,7 +20159,7 @@
    }
   },
   {
-   "id": "40-2615-k3l2",
+   "id": "E34-2615-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20171,7 +20171,7 @@
    }
   },
   {
-   "id": "40-2615-k4l2",
+   "id": "E34-2615-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20183,7 +20183,7 @@
    }
   },
   {
-   "id": "40-2639-k2l2",
+   "id": "E34-2639-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -20265,7 +20265,7 @@
    }
   },
   {
-   "id": "40-2639-k2l3",
+   "id": "E34-2639-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20277,7 +20277,7 @@
    }
   },
   {
-   "id": "40-2639-k2l4",
+   "id": "E34-2639-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20289,7 +20289,7 @@
    }
   },
   {
-   "id": "40-2639-k3l2",
+   "id": "E34-2639-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20301,7 +20301,7 @@
    }
   },
   {
-   "id": "40-2639-k4l2",
+   "id": "E34-2639-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20313,7 +20313,7 @@
    }
   },
   {
-   "id": "40-2643-k2l2",
+   "id": "E34-2643-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -20401,7 +20401,7 @@
    }
   },
   {
-   "id": "40-2643-k2l3",
+   "id": "E34-2643-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20413,7 +20413,7 @@
    }
   },
   {
-   "id": "40-2643-k2l4",
+   "id": "E34-2643-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20425,7 +20425,7 @@
    }
   },
   {
-   "id": "40-2643-k3l2",
+   "id": "E34-2643-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20437,7 +20437,7 @@
    }
   },
   {
-   "id": "40-2643-k4l2",
+   "id": "E34-2643-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20449,7 +20449,7 @@
    }
   },
   {
-   "id": "40-2663-k2l2",
+   "id": "E34-2663-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -20537,7 +20537,7 @@
    }
   },
   {
-   "id": "40-2663-k2l3",
+   "id": "E34-2663-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20549,7 +20549,7 @@
    }
   },
   {
-   "id": "40-2663-k2l4",
+   "id": "E34-2663-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20561,7 +20561,7 @@
    }
   },
   {
-   "id": "40-2663-k3l2",
+   "id": "E34-2663-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20573,7 +20573,7 @@
    }
   },
   {
-   "id": "40-2663-k4l2",
+   "id": "E34-2663-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20585,7 +20585,7 @@
    }
   },
   {
-   "id": "40-2671-k2l2",
+   "id": "E34-2671-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20597,7 +20597,7 @@
    }
   },
   {
-   "id": "40-2671-k2l3",
+   "id": "E34-2671-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20609,7 +20609,7 @@
    }
   },
   {
-   "id": "40-2671-k2l4",
+   "id": "E34-2671-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20621,7 +20621,7 @@
    }
   },
   {
-   "id": "40-2671-k3l2",
+   "id": "E34-2671-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20633,7 +20633,7 @@
    }
   },
   {
-   "id": "40-2671-k4l2",
+   "id": "E34-2671-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20645,7 +20645,7 @@
    }
   },
   {
-   "id": "40-2807-k2l2",
+   "id": "E34-2807-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -20725,7 +20725,7 @@
    }
   },
   {
-   "id": "40-2807-k2l3",
+   "id": "E34-2807-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20737,7 +20737,7 @@
    }
   },
   {
-   "id": "40-2807-k2l4",
+   "id": "E34-2807-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20749,7 +20749,7 @@
    }
   },
   {
-   "id": "40-2807-k3l2",
+   "id": "E34-2807-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20761,7 +20761,7 @@
    }
   },
   {
-   "id": "40-2807-k4l2",
+   "id": "E34-2807-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20773,7 +20773,7 @@
    }
   },
   {
-   "id": "40-2811-k2l2",
+   "id": "E34-2811-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -20859,7 +20859,7 @@
    }
   },
   {
-   "id": "40-2811-k2l3",
+   "id": "E34-2811-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20871,7 +20871,7 @@
    }
   },
   {
-   "id": "40-2811-k2l4",
+   "id": "E34-2811-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20883,7 +20883,7 @@
    }
   },
   {
-   "id": "40-2811-k3l2",
+   "id": "E34-2811-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20895,7 +20895,7 @@
    }
   },
   {
-   "id": "40-2811-k4l2",
+   "id": "E34-2811-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20907,7 +20907,7 @@
    }
   },
   {
-   "id": "40-2831-k2l2",
+   "id": "E34-2831-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -20993,7 +20993,7 @@
    }
   },
   {
-   "id": "40-2831-k2l3",
+   "id": "E34-2831-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21005,7 +21005,7 @@
    }
   },
   {
-   "id": "40-2831-k2l4",
+   "id": "E34-2831-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21017,7 +21017,7 @@
    }
   },
   {
-   "id": "40-2831-k3l2",
+   "id": "E34-2831-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21029,7 +21029,7 @@
    }
   },
   {
-   "id": "40-2831-k4l2",
+   "id": "E34-2831-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21041,7 +21041,7 @@
    }
   },
   {
-   "id": "40-2839-k2l2",
+   "id": "E34-2839-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -21135,7 +21135,7 @@
    }
   },
   {
-   "id": "40-2839-k2l3",
+   "id": "E34-2839-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21147,7 +21147,7 @@
    }
   },
   {
-   "id": "40-2839-k2l4",
+   "id": "E34-2839-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21159,7 +21159,7 @@
    }
   },
   {
-   "id": "40-2839-k3l2",
+   "id": "E34-2839-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21171,7 +21171,7 @@
    }
   },
   {
-   "id": "40-2839-k4l2",
+   "id": "E34-2839-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21183,7 +21183,7 @@
    }
   },
   {
-   "id": "40-2863-k2l2",
+   "id": "E34-2863-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -21271,7 +21271,7 @@
    }
   },
   {
-   "id": "40-2863-k2l3",
+   "id": "E34-2863-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21283,7 +21283,7 @@
    }
   },
   {
-   "id": "40-2863-k2l4",
+   "id": "E34-2863-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21295,7 +21295,7 @@
    }
   },
   {
-   "id": "40-2863-k3l2",
+   "id": "E34-2863-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21307,7 +21307,7 @@
    }
   },
   {
-   "id": "40-2863-k4l2",
+   "id": "E34-2863-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21319,7 +21319,7 @@
    }
   },
   {
-   "id": "40-2867-k2l2",
+   "id": "E34-2867-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -21413,7 +21413,7 @@
    }
   },
   {
-   "id": "40-2867-k2l3",
+   "id": "E34-2867-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21425,7 +21425,7 @@
    }
   },
   {
-   "id": "40-2867-k2l4",
+   "id": "E34-2867-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21437,7 +21437,7 @@
    }
   },
   {
-   "id": "40-2867-k3l2",
+   "id": "E34-2867-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21449,7 +21449,7 @@
    }
   },
   {
-   "id": "40-2867-k4l2",
+   "id": "E34-2867-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21461,7 +21461,7 @@
    }
   },
   {
-   "id": "40-2887-k2l2",
+   "id": "E34-2887-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -21555,7 +21555,7 @@
    }
   },
   {
-   "id": "40-2887-k2l3",
+   "id": "E34-2887-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21567,7 +21567,7 @@
    }
   },
   {
-   "id": "40-2887-k2l4",
+   "id": "E34-2887-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21579,7 +21579,7 @@
    }
   },
   {
-   "id": "40-2887-k3l2",
+   "id": "E34-2887-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21591,7 +21591,7 @@
    }
   },
   {
-   "id": "40-2887-k4l2",
+   "id": "E34-2887-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21603,7 +21603,7 @@
    }
   },
   {
-   "id": "40-2895-k2l2",
+   "id": "E34-2895-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21615,7 +21615,7 @@
    }
   },
   {
-   "id": "40-2895-k2l3",
+   "id": "E34-2895-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21627,7 +21627,7 @@
    }
   },
   {
-   "id": "40-2895-k2l4",
+   "id": "E34-2895-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21639,7 +21639,7 @@
    }
   },
   {
-   "id": "40-2895-k3l2",
+   "id": "E34-2895-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21651,7 +21651,7 @@
    }
   },
   {
-   "id": "40-2895-k4l2",
+   "id": "E34-2895-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21663,7 +21663,7 @@
    }
   },
   {
-   "id": "40-3927-k2l2",
+   "id": "E34-3927-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -21737,7 +21737,7 @@
    }
   },
   {
-   "id": "40-3927-k2l3",
+   "id": "E34-3927-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21749,7 +21749,7 @@
    }
   },
   {
-   "id": "40-3927-k2l4",
+   "id": "E34-3927-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21761,7 +21761,7 @@
    }
   },
   {
-   "id": "40-3927-k3l2",
+   "id": "E34-3927-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21773,7 +21773,7 @@
    }
   },
   {
-   "id": "40-3927-k4l2",
+   "id": "E34-3927-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21785,7 +21785,7 @@
    }
   },
   {
-   "id": "40-3935-k2l2",
+   "id": "E34-3935-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -21865,7 +21865,7 @@
    }
   },
   {
-   "id": "40-3935-k2l3",
+   "id": "E34-3935-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21877,7 +21877,7 @@
    }
   },
   {
-   "id": "40-3935-k2l4",
+   "id": "E34-3935-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21889,7 +21889,7 @@
    }
   },
   {
-   "id": "40-3935-k3l2",
+   "id": "E34-3935-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21901,7 +21901,7 @@
    }
   },
   {
-   "id": "40-3935-k4l2",
+   "id": "E34-3935-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -21913,7 +21913,7 @@
    }
   },
   {
-   "id": "40-3975-k2l2",
+   "id": "E34-3975-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -21995,7 +21995,7 @@
    }
   },
   {
-   "id": "40-3975-k2l3",
+   "id": "E34-3975-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22007,7 +22007,7 @@
    }
   },
   {
-   "id": "40-3975-k2l4",
+   "id": "E34-3975-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22019,7 +22019,7 @@
    }
   },
   {
-   "id": "40-3975-k3l2",
+   "id": "E34-3975-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22031,7 +22031,7 @@
    }
   },
   {
-   "id": "40-3975-k4l2",
+   "id": "E34-3975-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22043,7 +22043,7 @@
    }
   },
   {
-   "id": "40-3983-k2l2",
+   "id": "E34-3983-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -22131,7 +22131,7 @@
    }
   },
   {
-   "id": "40-3983-k2l3",
+   "id": "E34-3983-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22143,7 +22143,7 @@
    }
   },
   {
-   "id": "40-3983-k2l4",
+   "id": "E34-3983-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22155,7 +22155,7 @@
    }
   },
   {
-   "id": "40-3983-k3l2",
+   "id": "E34-3983-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22167,7 +22167,7 @@
    }
   },
   {
-   "id": "40-3983-k4l2",
+   "id": "E34-3983-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22179,7 +22179,7 @@
    }
   },
   {
-   "id": "40-4023-k2l2",
+   "id": "E34-4023-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -22259,7 +22259,7 @@
    }
   },
   {
-   "id": "40-4023-k2l3",
+   "id": "E34-4023-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22271,7 +22271,7 @@
    }
   },
   {
-   "id": "40-4023-k2l4",
+   "id": "E34-4023-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22283,7 +22283,7 @@
    }
   },
   {
-   "id": "40-4023-k3l2",
+   "id": "E34-4023-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22295,7 +22295,7 @@
    }
   },
   {
-   "id": "40-4023-k4l2",
+   "id": "E34-4023-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22307,7 +22307,7 @@
    }
   },
   {
-   "id": "40-4039-k2l2",
+   "id": "E34-4039-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -22395,7 +22395,7 @@
    }
   },
   {
-   "id": "40-4039-k2l3",
+   "id": "E34-4039-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22407,7 +22407,7 @@
    }
   },
   {
-   "id": "40-4039-k2l4",
+   "id": "E34-4039-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22419,7 +22419,7 @@
    }
   },
   {
-   "id": "40-4039-k3l2",
+   "id": "E34-4039-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22431,7 +22431,7 @@
    }
   },
   {
-   "id": "40-4039-k4l2",
+   "id": "E34-4039-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22443,7 +22443,7 @@
    }
   },
   {
-   "id": "40-4087-k2l2",
+   "id": "E34-4087-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -22531,7 +22531,7 @@
    }
   },
   {
-   "id": "40-4087-k2l3",
+   "id": "E34-4087-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22543,7 +22543,7 @@
    }
   },
   {
-   "id": "40-4087-k2l4",
+   "id": "E34-4087-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22555,7 +22555,7 @@
    }
   },
   {
-   "id": "40-4087-k3l2",
+   "id": "E34-4087-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22567,7 +22567,7 @@
    }
   },
   {
-   "id": "40-4087-k4l2",
+   "id": "E34-4087-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22579,7 +22579,7 @@
    }
   },
   {
-   "id": "40-4103-k2l2",
+   "id": "E34-4103-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22591,7 +22591,7 @@
    }
   },
   {
-   "id": "40-4103-k2l3",
+   "id": "E34-4103-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22603,7 +22603,7 @@
    }
   },
   {
-   "id": "40-4103-k2l4",
+   "id": "E34-4103-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22615,7 +22615,7 @@
    }
   },
   {
-   "id": "40-4103-k3l2",
+   "id": "E34-4103-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22627,7 +22627,7 @@
    }
   },
   {
-   "id": "40-4103-k4l2",
+   "id": "E34-4103-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22639,7 +22639,7 @@
    }
   },
   {
-   "id": "40-5271-k2l2",
+   "id": "E34-5271-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -22719,7 +22719,7 @@
    }
   },
   {
-   "id": "40-5271-k2l3",
+   "id": "E34-5271-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22731,7 +22731,7 @@
    }
   },
   {
-   "id": "40-5271-k2l4",
+   "id": "E34-5271-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22743,7 +22743,7 @@
    }
   },
   {
-   "id": "40-5271-k3l2",
+   "id": "E34-5271-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22755,7 +22755,7 @@
    }
   },
   {
-   "id": "40-5271-k4l2",
+   "id": "E34-5271-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22767,7 +22767,7 @@
    }
   },
   {
-   "id": "40-5279-k2l2",
+   "id": "E34-5279-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -22853,7 +22853,7 @@
    }
   },
   {
-   "id": "40-5279-k2l3",
+   "id": "E34-5279-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22865,7 +22865,7 @@
    }
   },
   {
-   "id": "40-5279-k2l4",
+   "id": "E34-5279-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22877,7 +22877,7 @@
    }
   },
   {
-   "id": "40-5279-k3l2",
+   "id": "E34-5279-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22889,7 +22889,7 @@
    }
   },
   {
-   "id": "40-5279-k4l2",
+   "id": "E34-5279-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -22901,7 +22901,7 @@
    }
   },
   {
-   "id": "40-5319-k2l2",
+   "id": "E34-5319-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -22989,7 +22989,7 @@
    }
   },
   {
-   "id": "40-5319-k2l3",
+   "id": "E34-5319-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23001,7 +23001,7 @@
    }
   },
   {
-   "id": "40-5319-k2l4",
+   "id": "E34-5319-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23013,7 +23013,7 @@
    }
   },
   {
-   "id": "40-5319-k3l2",
+   "id": "E34-5319-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23025,7 +23025,7 @@
    }
   },
   {
-   "id": "40-5319-k4l2",
+   "id": "E34-5319-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23037,7 +23037,7 @@
    }
   },
   {
-   "id": "40-5327-k2l2",
+   "id": "E34-5327-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -23131,7 +23131,7 @@
    }
   },
   {
-   "id": "40-5327-k2l3",
+   "id": "E34-5327-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23143,7 +23143,7 @@
    }
   },
   {
-   "id": "40-5327-k2l4",
+   "id": "E34-5327-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23155,7 +23155,7 @@
    }
   },
   {
-   "id": "40-5327-k3l2",
+   "id": "E34-5327-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23167,7 +23167,7 @@
    }
   },
   {
-   "id": "40-5327-k4l2",
+   "id": "E34-5327-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23179,7 +23179,7 @@
    }
   },
   {
-   "id": "40-5367-k2l2",
+   "id": "E34-5367-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -23265,7 +23265,7 @@
    }
   },
   {
-   "id": "40-5367-k2l3",
+   "id": "E34-5367-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23277,7 +23277,7 @@
    }
   },
   {
-   "id": "40-5367-k2l4",
+   "id": "E34-5367-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23289,7 +23289,7 @@
    }
   },
   {
-   "id": "40-5367-k3l2",
+   "id": "E34-5367-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23301,7 +23301,7 @@
    }
   },
   {
-   "id": "40-5367-k4l2",
+   "id": "E34-5367-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23313,7 +23313,7 @@
    }
   },
   {
-   "id": "40-5383-k2l2",
+   "id": "E34-5383-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -23407,7 +23407,7 @@
    }
   },
   {
-   "id": "40-5383-k2l3",
+   "id": "E34-5383-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23419,7 +23419,7 @@
    }
   },
   {
-   "id": "40-5383-k2l4",
+   "id": "E34-5383-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23431,7 +23431,7 @@
    }
   },
   {
-   "id": "40-5383-k3l2",
+   "id": "E34-5383-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23443,7 +23443,7 @@
    }
   },
   {
-   "id": "40-5383-k4l2",
+   "id": "E34-5383-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23455,7 +23455,7 @@
    }
   },
   {
-   "id": "40-5431-k2l2",
+   "id": "E34-5431-k2l2",
    "verdict": "toroidal",
    "witness": {
     "type": "embedding",
@@ -23549,7 +23549,7 @@
    }
   },
   {
-   "id": "40-5431-k2l3",
+   "id": "E34-5431-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23561,7 +23561,7 @@
    }
   },
   {
-   "id": "40-5431-k2l4",
+   "id": "E34-5431-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23573,7 +23573,7 @@
    }
   },
   {
-   "id": "40-5431-k3l2",
+   "id": "E34-5431-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23585,7 +23585,7 @@
    }
   },
   {
-   "id": "40-5431-k4l2",
+   "id": "E34-5431-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23597,7 +23597,7 @@
    }
   },
   {
-   "id": "40-5447-k2l2",
+   "id": "E34-5447-k2l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23609,7 +23609,7 @@
    }
   },
   {
-   "id": "40-5447-k2l3",
+   "id": "E34-5447-k2l3",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23621,7 +23621,7 @@
    }
   },
   {
-   "id": "40-5447-k2l4",
+   "id": "E34-5447-k2l4",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23633,7 +23633,7 @@
    }
   },
   {
-   "id": "40-5447-k3l2",
+   "id": "E34-5447-k3l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -23645,7 +23645,7 @@
    }
   },
   {
-   "id": "40-5447-k4l2",
+   "id": "E34-5447-k4l2",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",

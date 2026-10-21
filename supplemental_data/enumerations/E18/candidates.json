@@ -2,7 +2,7 @@
  "item": "E18",
  "candidates": [
   {
-   "id": "23-singletons-0000",
+   "id": "E18-singletons-0000",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -131,7 +131,7 @@
    }
   },
   {
-   "id": "23-singletons-0001",
+   "id": "E18-singletons-0001",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -268,7 +268,7 @@
    }
   },
   {
-   "id": "23-singletons-0002",
+   "id": "E18-singletons-0002",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -423,7 +423,7 @@
    }
   },
   {
-   "id": "23-singletons-0003",
+   "id": "E18-singletons-0003",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -586,7 +586,7 @@
    }
   },
   {
-   "id": "23-singletons-0004",
+   "id": "E18-singletons-0004",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -767,7 +767,7 @@
    }
   },
   {
-   "id": "23-singletons-0005",
+   "id": "E18-singletons-0005",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -956,7 +956,7 @@
    }
   },
   {
-   "id": "23-singletons-0006",
+   "id": "E18-singletons-0006",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -1163,7 +1163,7 @@
    }
   },
   {
-   "id": "23-singletons-0007",
+   "id": "E18-singletons-0007",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -1378,7 +1378,7 @@
    }
   },
   {
-   "id": "23-singletons-0008",
+   "id": "E18-singletons-0008",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -1611,7 +1611,7 @@
    }
   },
   {
-   "id": "23-singletons-0009",
+   "id": "E18-singletons-0009",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -1852,7 +1852,7 @@
    }
   },
   {
-   "id": "23-singletons-0010",
+   "id": "E18-singletons-0010",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -2111,7 +2111,7 @@
    }
   },
   {
-   "id": "23-singletons-0011",
+   "id": "E18-singletons-0011",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -2378,7 +2378,7 @@
    }
   },
   {
-   "id": "23-singletons-0012",
+   "id": "E18-singletons-0012",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -2533,7 +2533,7 @@
    }
   },
   {
-   "id": "23-singletons-0013",
+   "id": "E18-singletons-0013",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -2696,7 +2696,7 @@
    }
   },
   {
-   "id": "23-singletons-0014",
+   "id": "E18-singletons-0014",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -2877,7 +2877,7 @@
    }
   },
   {
-   "id": "23-singletons-0015",
+   "id": "E18-singletons-0015",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -3066,7 +3066,7 @@
    }
   },
   {
-   "id": "23-singletons-0016",
+   "id": "E18-singletons-0016",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -3273,7 +3273,7 @@
    }
   },
   {
-   "id": "23-singletons-0017",
+   "id": "E18-singletons-0017",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -3488,7 +3488,7 @@
    }
   },
   {
-   "id": "23-singletons-0018",
+   "id": "E18-singletons-0018",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -3721,7 +3721,7 @@
    }
   },
   {
-   "id": "23-singletons-0019",
+   "id": "E18-singletons-0019",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -3962,7 +3962,7 @@
    }
   },
   {
-   "id": "23-singletons-0020",
+   "id": "E18-singletons-0020",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -4221,7 +4221,7 @@
    }
   },
   {
-   "id": "23-singletons-0021",
+   "id": "E18-singletons-0021",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -4488,7 +4488,7 @@
    }
   },
   {
-   "id": "23-singletons-0022",
+   "id": "E18-singletons-0022",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -4669,7 +4669,7 @@
    }
   },
   {
-   "id": "23-singletons-0023",
+   "id": "E18-singletons-0023",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -4858,7 +4858,7 @@
    }
   },
   {
-   "id": "23-singletons-0024",
+   "id": "E18-singletons-0024",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -5065,7 +5065,7 @@
    }
   },
   {
-   "id": "23-singletons-0025",
+   "id": "E18-singletons-0025",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -5280,7 +5280,7 @@
    }
   },
   {
-   "id": "23-singletons-0026",
+   "id": "E18-singletons-0026",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -5513,7 +5513,7 @@
    }
   },
   {
-   "id": "23-singletons-0027",
+   "id": "E18-singletons-0027",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -5754,7 +5754,7 @@
    }
   },
   {
-   "id": "23-singletons-0028",
+   "id": "E18-singletons-0028",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -6013,7 +6013,7 @@
    }
   },
   {
-   "id": "23-singletons-0029",
+   "id": "E18-singletons-0029",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -6280,7 +6280,7 @@
    }
   },
   {
-   "id": "23-singletons-0030",
+   "id": "E18-singletons-0030",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -6487,7 +6487,7 @@
    }
   },
   {
-   "id": "23-singletons-0031",
+   "id": "E18-singletons-0031",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -6702,7 +6702,7 @@
    }
   },
   {
-   "id": "23-singletons-0032",
+   "id": "E18-singletons-0032",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -6935,7 +6935,7 @@
    }
   },
   {
-   "id": "23-singletons-0033",
+   "id": "E18-singletons-0033",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -7176,7 +7176,7 @@
    }
   },
   {
-   "id": "23-singletons-0034",
+   "id": "E18-singletons-0034",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -7435,7 +7435,7 @@
    }
   },
   {
-   "id": "23-singletons-0035",
+   "id": "E18-singletons-0035",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -7702,7 +7702,7 @@
    }
   },
   {
-   "id": "23-singletons-0036",
+   "id": "E18-singletons-0036",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -7935,7 +7935,7 @@
    }
   },
   {
-   "id": "23-singletons-0037",
+   "id": "E18-singletons-0037",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -8176,7 +8176,7 @@
    }
   },
   {
-   "id": "23-singletons-0038",
+   "id": "E18-singletons-0038",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -8435,7 +8435,7 @@
    }
   },
   {
-   "id": "23-singletons-0039",
+   "id": "E18-singletons-0039",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -8702,7 +8702,7 @@
    }
   },
   {
-   "id": "23-singletons-0040",
+   "id": "E18-singletons-0040",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -8961,7 +8961,7 @@
    }
   },
   {
-   "id": "23-singletons-0041",
+   "id": "E18-singletons-0041",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -9228,7 +9228,7 @@
    }
   },
   {
-   "id": "23-singletons-0042",
+   "id": "E18-singletons-0042",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -9383,7 +9383,7 @@
    }
   },
   {
-   "id": "23-singletons-0043",
+   "id": "E18-singletons-0043",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -9546,7 +9546,7 @@
    }
   },
   {
-   "id": "23-singletons-0044",
+   "id": "E18-singletons-0044",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -9727,7 +9727,7 @@
    }
   },
   {
-   "id": "23-singletons-0045",
+   "id": "E18-singletons-0045",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -9916,7 +9916,7 @@
    }
   },
   {
-   "id": "23-singletons-0046",
+   "id": "E18-singletons-0046",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -10123,7 +10123,7 @@
    }
   },
   {
-   "id": "23-singletons-0047",
+   "id": "E18-singletons-0047",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -10338,7 +10338,7 @@
    }
   },
   {
-   "id": "23-singletons-0048",
+   "id": "E18-singletons-0048",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -10571,7 +10571,7 @@
    }
   },
   {
-   "id": "23-singletons-0049",
+   "id": "E18-singletons-0049",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -10812,7 +10812,7 @@
    }
   },
   {
-   "id": "23-singletons-0050",
+   "id": "E18-singletons-0050",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -11071,7 +11071,7 @@
    }
   },
   {
-   "id": "23-singletons-0051",
+   "id": "E18-singletons-0051",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -11338,7 +11338,7 @@
    }
   },
   {
-   "id": "23-singletons-0052",
+   "id": "E18-singletons-0052",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -11519,7 +11519,7 @@
    }
   },
   {
-   "id": "23-singletons-0053",
+   "id": "E18-singletons-0053",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -11708,7 +11708,7 @@
    }
   },
   {
-   "id": "23-singletons-0054",
+   "id": "E18-singletons-0054",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -11915,7 +11915,7 @@
    }
   },
   {
-   "id": "23-singletons-0055",
+   "id": "E18-singletons-0055",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -12130,7 +12130,7 @@
    }
   },
   {
-   "id": "23-singletons-0056",
+   "id": "E18-singletons-0056",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -12363,7 +12363,7 @@
    }
   },
   {
-   "id": "23-singletons-0057",
+   "id": "E18-singletons-0057",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -12604,7 +12604,7 @@
    }
   },
   {
-   "id": "23-singletons-0058",
+   "id": "E18-singletons-0058",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -12863,7 +12863,7 @@
    }
   },
   {
-   "id": "23-singletons-0059",
+   "id": "E18-singletons-0059",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -13130,7 +13130,7 @@
    }
   },
   {
-   "id": "23-singletons-0060",
+   "id": "E18-singletons-0060",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -13337,7 +13337,7 @@
    }
   },
   {
-   "id": "23-singletons-0061",
+   "id": "E18-singletons-0061",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -13552,7 +13552,7 @@
    }
   },
   {
-   "id": "23-singletons-0062",
+   "id": "E18-singletons-0062",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -13785,7 +13785,7 @@
    }
   },
   {
-   "id": "23-singletons-0063",
+   "id": "E18-singletons-0063",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -14026,7 +14026,7 @@
    }
   },
   {
-   "id": "23-singletons-0064",
+   "id": "E18-singletons-0064",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -14285,7 +14285,7 @@
    }
   },
   {
-   "id": "23-singletons-0065",
+   "id": "E18-singletons-0065",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -14552,7 +14552,7 @@
    }
   },
   {
-   "id": "23-singletons-0066",
+   "id": "E18-singletons-0066",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -14785,7 +14785,7 @@
    }
   },
   {
-   "id": "23-singletons-0067",
+   "id": "E18-singletons-0067",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -15026,7 +15026,7 @@
    }
   },
   {
-   "id": "23-singletons-0068",
+   "id": "E18-singletons-0068",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -15285,7 +15285,7 @@
    }
   },
   {
-   "id": "23-singletons-0069",
+   "id": "E18-singletons-0069",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -15552,7 +15552,7 @@
    }
   },
   {
-   "id": "23-singletons-0070",
+   "id": "E18-singletons-0070",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -15811,7 +15811,7 @@
    }
   },
   {
-   "id": "23-singletons-0071",
+   "id": "E18-singletons-0071",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -16078,7 +16078,7 @@
    }
   },
   {
-   "id": "23-singletons-0072",
+   "id": "E18-singletons-0072",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -16259,7 +16259,7 @@
    }
   },
   {
-   "id": "23-singletons-0073",
+   "id": "E18-singletons-0073",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -16448,7 +16448,7 @@
    }
   },
   {
-   "id": "23-singletons-0074",
+   "id": "E18-singletons-0074",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -16655,7 +16655,7 @@
    }
   },
   {
-   "id": "23-singletons-0075",
+   "id": "E18-singletons-0075",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -16870,7 +16870,7 @@
    }
   },
   {
-   "id": "23-singletons-0076",
+   "id": "E18-singletons-0076",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -17103,7 +17103,7 @@
    }
   },
   {
-   "id": "23-singletons-0077",
+   "id": "E18-singletons-0077",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -17344,7 +17344,7 @@
    }
   },
   {
-   "id": "23-singletons-0078",
+   "id": "E18-singletons-0078",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -17603,7 +17603,7 @@
    }
   },
   {
-   "id": "23-singletons-0079",
+   "id": "E18-singletons-0079",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -17870,7 +17870,7 @@
    }
   },
   {
-   "id": "23-singletons-0080",
+   "id": "E18-singletons-0080",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -18077,7 +18077,7 @@
    }
   },
   {
-   "id": "23-singletons-0081",
+   "id": "E18-singletons-0081",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -18292,7 +18292,7 @@
    }
   },
   {
-   "id": "23-singletons-0082",
+   "id": "E18-singletons-0082",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -18525,7 +18525,7 @@
    }
   },
   {
-   "id": "23-singletons-0083",
+   "id": "E18-singletons-0083",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -18766,7 +18766,7 @@
    }
   },
   {
-   "id": "23-singletons-0084",
+   "id": "E18-singletons-0084",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -19025,7 +19025,7 @@
    }
   },
   {
-   "id": "23-singletons-0085",
+   "id": "E18-singletons-0085",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -19292,7 +19292,7 @@
    }
   },
   {
-   "id": "23-singletons-0086",
+   "id": "E18-singletons-0086",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -19525,7 +19525,7 @@
    }
   },
   {
-   "id": "23-singletons-0087",
+   "id": "E18-singletons-0087",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -19766,7 +19766,7 @@
    }
   },
   {
-   "id": "23-singletons-0088",
+   "id": "E18-singletons-0088",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -20025,7 +20025,7 @@
    }
   },
   {
-   "id": "23-singletons-0089",
+   "id": "E18-singletons-0089",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -20292,7 +20292,7 @@
    }
   },
   {
-   "id": "23-singletons-0090",
+   "id": "E18-singletons-0090",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -20551,7 +20551,7 @@
    }
   },
   {
-   "id": "23-singletons-0091",
+   "id": "E18-singletons-0091",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -20818,7 +20818,7 @@
    }
   },
   {
-   "id": "23-singletons-0092",
+   "id": "E18-singletons-0092",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -21025,7 +21025,7 @@
    }
   },
   {
-   "id": "23-singletons-0093",
+   "id": "E18-singletons-0093",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -21240,7 +21240,7 @@
    }
   },
   {
-   "id": "23-singletons-0094",
+   "id": "E18-singletons-0094",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -21473,7 +21473,7 @@
    }
   },
   {
-   "id": "23-singletons-0095",
+   "id": "E18-singletons-0095",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -21714,7 +21714,7 @@
    }
   },
   {
-   "id": "23-singletons-0096",
+   "id": "E18-singletons-0096",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -21973,7 +21973,7 @@
    }
   },
   {
-   "id": "23-singletons-0097",
+   "id": "E18-singletons-0097",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -22240,7 +22240,7 @@
    }
   },
   {
-   "id": "23-singletons-0098",
+   "id": "E18-singletons-0098",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -22473,7 +22473,7 @@
    }
   },
   {
-   "id": "23-singletons-0099",
+   "id": "E18-singletons-0099",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -22714,7 +22714,7 @@
    }
   },
   {
-   "id": "23-singletons-0100",
+   "id": "E18-singletons-0100",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -22973,7 +22973,7 @@
    }
   },
   {
-   "id": "23-singletons-0101",
+   "id": "E18-singletons-0101",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -23240,7 +23240,7 @@
    }
   },
   {
-   "id": "23-singletons-0102",
+   "id": "E18-singletons-0102",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -23499,7 +23499,7 @@
    }
   },
   {
-   "id": "23-singletons-0103",
+   "id": "E18-singletons-0103",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -23766,7 +23766,7 @@
    }
   },
   {
-   "id": "23-singletons-0104",
+   "id": "E18-singletons-0104",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -23999,7 +23999,7 @@
    }
   },
   {
-   "id": "23-singletons-0105",
+   "id": "E18-singletons-0105",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -24240,7 +24240,7 @@
    }
   },
   {
-   "id": "23-singletons-0106",
+   "id": "E18-singletons-0106",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -24499,7 +24499,7 @@
    }
   },
   {
-   "id": "23-singletons-0107",
+   "id": "E18-singletons-0107",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -24766,7 +24766,7 @@
    }
   },
   {
-   "id": "23-singletons-0108",
+   "id": "E18-singletons-0108",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -25025,7 +25025,7 @@
    }
   },
   {
-   "id": "23-singletons-0109",
+   "id": "E18-singletons-0109",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -25292,7 +25292,7 @@
    }
   },
   {
-   "id": "23-singletons-0110",
+   "id": "E18-singletons-0110",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -25551,7 +25551,7 @@
    }
   },
   {
-   "id": "23-singletons-0111",
+   "id": "E18-singletons-0111",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -25818,7 +25818,7 @@
    }
   },
   {
-   "id": "23-singletons-0112",
+   "id": "E18-singletons-0112",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -25973,7 +25973,7 @@
    }
   },
   {
-   "id": "23-singletons-0113",
+   "id": "E18-singletons-0113",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -26136,7 +26136,7 @@
    }
   },
   {
-   "id": "23-singletons-0114",
+   "id": "E18-singletons-0114",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -26317,7 +26317,7 @@
    }
   },
   {
-   "id": "23-singletons-0115",
+   "id": "E18-singletons-0115",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -26506,7 +26506,7 @@
    }
   },
   {
-   "id": "23-singletons-0116",
+   "id": "E18-singletons-0116",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -26713,7 +26713,7 @@
    }
   },
   {
-   "id": "23-singletons-0117",
+   "id": "E18-singletons-0117",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -26928,7 +26928,7 @@
    }
   },
   {
-   "id": "23-singletons-0118",
+   "id": "E18-singletons-0118",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -27161,7 +27161,7 @@
    }
   },
   {
-   "id": "23-singletons-0119",
+   "id": "E18-singletons-0119",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -27402,7 +27402,7 @@
    }
   },
   {
-   "id": "23-singletons-0120",
+   "id": "E18-singletons-0120",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -27661,7 +27661,7 @@
    }
   },
   {
-   "id": "23-singletons-0121",
+   "id": "E18-singletons-0121",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -27928,7 +27928,7 @@
    }
   },
   {
-   "id": "23-singletons-0122",
+   "id": "E18-singletons-0122",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -28109,7 +28109,7 @@
    }
   },
   {
-   "id": "23-singletons-0123",
+   "id": "E18-singletons-0123",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -28298,7 +28298,7 @@
    }
   },
   {
-   "id": "23-singletons-0124",
+   "id": "E18-singletons-0124",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -28505,7 +28505,7 @@
    }
   },
   {
-   "id": "23-singletons-0125",
+   "id": "E18-singletons-0125",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -28720,7 +28720,7 @@
    }
   },
   {
-   "id": "23-singletons-0126",
+   "id": "E18-singletons-0126",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -28953,7 +28953,7 @@
    }
   },
   {
-   "id": "23-singletons-0127",
+   "id": "E18-singletons-0127",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -29194,7 +29194,7 @@
    }
   },
   {
-   "id": "23-singletons-0128",
+   "id": "E18-singletons-0128",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -29453,7 +29453,7 @@
    }
   },
   {
-   "id": "23-singletons-0129",
+   "id": "E18-singletons-0129",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -29720,7 +29720,7 @@
    }
   },
   {
-   "id": "23-singletons-0130",
+   "id": "E18-singletons-0130",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -29927,7 +29927,7 @@
    }
   },
   {
-   "id": "23-singletons-0131",
+   "id": "E18-singletons-0131",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -30142,7 +30142,7 @@
    }
   },
   {
-   "id": "23-singletons-0132",
+   "id": "E18-singletons-0132",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -30375,7 +30375,7 @@
    }
   },
   {
-   "id": "23-singletons-0133",
+   "id": "E18-singletons-0133",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -30616,7 +30616,7 @@
    }
   },
   {
-   "id": "23-singletons-0134",
+   "id": "E18-singletons-0134",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -30875,7 +30875,7 @@
    }
   },
   {
-   "id": "23-singletons-0135",
+   "id": "E18-singletons-0135",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -31142,7 +31142,7 @@
    }
   },
   {
-   "id": "23-singletons-0136",
+   "id": "E18-singletons-0136",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -31375,7 +31375,7 @@
    }
   },
   {
-   "id": "23-singletons-0137",
+   "id": "E18-singletons-0137",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -31616,7 +31616,7 @@
    }
   },
   {
-   "id": "23-singletons-0138",
+   "id": "E18-singletons-0138",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -31875,7 +31875,7 @@
    }
   },
   {
-   "id": "23-singletons-0139",
+   "id": "E18-singletons-0139",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -32142,7 +32142,7 @@
    }
   },
   {
-   "id": "23-singletons-0140",
+   "id": "E18-singletons-0140",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -32401,7 +32401,7 @@
    }
   },
   {
-   "id": "23-singletons-0141",
+   "id": "E18-singletons-0141",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -32668,7 +32668,7 @@
    }
   },
   {
-   "id": "23-singletons-0142",
+   "id": "E18-singletons-0142",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -32849,7 +32849,7 @@
    }
   },
   {
-   "id": "23-singletons-0143",
+   "id": "E18-singletons-0143",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -33038,7 +33038,7 @@
    }
   },
   {
-   "id": "23-singletons-0144",
+   "id": "E18-singletons-0144",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -33245,7 +33245,7 @@
    }
   },
   {
-   "id": "23-singletons-0145",
+   "id": "E18-singletons-0145",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -33460,7 +33460,7 @@
    }
   },
   {
-   "id": "23-singletons-0146",
+   "id": "E18-singletons-0146",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -33693,7 +33693,7 @@
    }
   },
   {
-   "id": "23-singletons-0147",
+   "id": "E18-singletons-0147",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -33934,7 +33934,7 @@
    }
   },
   {
-   "id": "23-singletons-0148",
+   "id": "E18-singletons-0148",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -34193,7 +34193,7 @@
    }
   },
   {
-   "id": "23-singletons-0149",
+   "id": "E18-singletons-0149",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -34460,7 +34460,7 @@
    }
   },
   {
-   "id": "23-singletons-0150",
+   "id": "E18-singletons-0150",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -34667,7 +34667,7 @@
    }
   },
   {
-   "id": "23-singletons-0151",
+   "id": "E18-singletons-0151",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -34882,7 +34882,7 @@
    }
   },
   {
-   "id": "23-singletons-0152",
+   "id": "E18-singletons-0152",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -35115,7 +35115,7 @@
    }
   },
   {
-   "id": "23-singletons-0153",
+   "id": "E18-singletons-0153",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -35356,7 +35356,7 @@
    }
   },
   {
-   "id": "23-singletons-0154",
+   "id": "E18-singletons-0154",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -35615,7 +35615,7 @@
    }
   },
   {
-   "id": "23-singletons-0155",
+   "id": "E18-singletons-0155",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -35882,7 +35882,7 @@
    }
   },
   {
-   "id": "23-singletons-0156",
+   "id": "E18-singletons-0156",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -36115,7 +36115,7 @@
    }
   },
   {
-   "id": "23-singletons-0157",
+   "id": "E18-singletons-0157",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -36356,7 +36356,7 @@
    }
   },
   {
-   "id": "23-singletons-0158",
+   "id": "E18-singletons-0158",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -36615,7 +36615,7 @@
    }
   },
   {
-   "id": "23-singletons-0159",
+   "id": "E18-singletons-0159",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -36882,7 +36882,7 @@
    }
   },
   {
-   "id": "23-singletons-0160",
+   "id": "E18-singletons-0160",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -37141,7 +37141,7 @@
    }
   },
   {
-   "id": "23-singletons-0161",
+   "id": "E18-singletons-0161",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -37408,7 +37408,7 @@
    }
   },
   {
-   "id": "23-singletons-0162",
+   "id": "E18-singletons-0162",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -37615,7 +37615,7 @@
    }
   },
   {
-   "id": "23-singletons-0163",
+   "id": "E18-singletons-0163",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -37830,7 +37830,7 @@
    }
   },
   {
-   "id": "23-singletons-0164",
+   "id": "E18-singletons-0164",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -38063,7 +38063,7 @@
    }
   },
   {
-   "id": "23-singletons-0165",
+   "id": "E18-singletons-0165",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -38304,7 +38304,7 @@
    }
   },
   {
-   "id": "23-singletons-0166",
+   "id": "E18-singletons-0166",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -38563,7 +38563,7 @@
    }
   },
   {
-   "id": "23-singletons-0167",
+   "id": "E18-singletons-0167",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -38830,7 +38830,7 @@
    }
   },
   {
-   "id": "23-singletons-0168",
+   "id": "E18-singletons-0168",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -39063,7 +39063,7 @@
    }
   },
   {
-   "id": "23-singletons-0169",
+   "id": "E18-singletons-0169",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -39304,7 +39304,7 @@
    }
   },
   {
-   "id": "23-singletons-0170",
+   "id": "E18-singletons-0170",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -39563,7 +39563,7 @@
    }
   },
   {
-   "id": "23-singletons-0171",
+   "id": "E18-singletons-0171",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -39830,7 +39830,7 @@
    }
   },
   {
-   "id": "23-singletons-0172",
+   "id": "E18-singletons-0172",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -40089,7 +40089,7 @@
    }
   },
   {
-   "id": "23-singletons-0173",
+   "id": "E18-singletons-0173",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -40356,7 +40356,7 @@
    }
   },
   {
-   "id": "23-singletons-0174",
+   "id": "E18-singletons-0174",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -40589,7 +40589,7 @@
    }
   },
   {
-   "id": "23-singletons-0175",
+   "id": "E18-singletons-0175",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -40830,7 +40830,7 @@
    }
   },
   {
-   "id": "23-singletons-0176",
+   "id": "E18-singletons-0176",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -41089,7 +41089,7 @@
    }
   },
   {
-   "id": "23-singletons-0177",
+   "id": "E18-singletons-0177",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -41356,7 +41356,7 @@
    }
   },
   {
-   "id": "23-singletons-0178",
+   "id": "E18-singletons-0178",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -41615,7 +41615,7 @@
    }
   },
   {
-   "id": "23-singletons-0179",
+   "id": "E18-singletons-0179",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -41882,7 +41882,7 @@
    }
   },
   {
-   "id": "23-singletons-0180",
+   "id": "E18-singletons-0180",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -42141,7 +42141,7 @@
    }
   },
   {
-   "id": "23-singletons-0181",
+   "id": "E18-singletons-0181",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -42408,7 +42408,7 @@
    }
   },
   {
-   "id": "23-singletons-0182",
+   "id": "E18-singletons-0182",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -42589,7 +42589,7 @@
    }
   },
   {
-   "id": "23-singletons-0183",
+   "id": "E18-singletons-0183",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -42778,7 +42778,7 @@
    }
   },
   {
-   "id": "23-singletons-0184",
+   "id": "E18-singletons-0184",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -42985,7 +42985,7 @@
    }
   },
   {
-   "id": "23-singletons-0185",
+   "id": "E18-singletons-0185",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -43200,7 +43200,7 @@
    }
   },
   {
-   "id": "23-singletons-0186",
+   "id": "E18-singletons-0186",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -43433,7 +43433,7 @@
    }
   },
   {
-   "id": "23-singletons-0187",
+   "id": "E18-singletons-0187",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -43674,7 +43674,7 @@
    }
   },
   {
-   "id": "23-singletons-0188",
+   "id": "E18-singletons-0188",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -43933,7 +43933,7 @@
    }
   },
   {
-   "id": "23-singletons-0189",
+   "id": "E18-singletons-0189",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -44200,7 +44200,7 @@
    }
   },
   {
-   "id": "23-singletons-0190",
+   "id": "E18-singletons-0190",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -44407,7 +44407,7 @@
    }
   },
   {
-   "id": "23-singletons-0191",
+   "id": "E18-singletons-0191",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -44622,7 +44622,7 @@
    }
   },
   {
-   "id": "23-singletons-0192",
+   "id": "E18-singletons-0192",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -44855,7 +44855,7 @@
    }
   },
   {
-   "id": "23-singletons-0193",
+   "id": "E18-singletons-0193",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -45096,7 +45096,7 @@
    }
   },
   {
-   "id": "23-singletons-0194",
+   "id": "E18-singletons-0194",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -45355,7 +45355,7 @@
    }
   },
   {
-   "id": "23-singletons-0195",
+   "id": "E18-singletons-0195",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -45622,7 +45622,7 @@
    }
   },
   {
-   "id": "23-singletons-0196",
+   "id": "E18-singletons-0196",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -45855,7 +45855,7 @@
    }
   },
   {
-   "id": "23-singletons-0197",
+   "id": "E18-singletons-0197",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -46096,7 +46096,7 @@
    }
   },
   {
-   "id": "23-singletons-0198",
+   "id": "E18-singletons-0198",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -46355,7 +46355,7 @@
    }
   },
   {
-   "id": "23-singletons-0199",
+   "id": "E18-singletons-0199",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -46622,7 +46622,7 @@
    }
   },
   {
-   "id": "23-singletons-0200",
+   "id": "E18-singletons-0200",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -46881,7 +46881,7 @@
    }
   },
   {
-   "id": "23-singletons-0201",
+   "id": "E18-singletons-0201",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -47148,7 +47148,7 @@
    }
   },
   {
-   "id": "23-singletons-0202",
+   "id": "E18-singletons-0202",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -47355,7 +47355,7 @@
    }
   },
   {
-   "id": "23-singletons-0203",
+   "id": "E18-singletons-0203",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -47570,7 +47570,7 @@
    }
   },
   {
-   "id": "23-singletons-0204",
+   "id": "E18-singletons-0204",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -47803,7 +47803,7 @@
    }
   },
   {
-   "id": "23-singletons-0205",
+   "id": "E18-singletons-0205",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -48044,7 +48044,7 @@
    }
   },
   {
-   "id": "23-singletons-0206",
+   "id": "E18-singletons-0206",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -48303,7 +48303,7 @@
    }
   },
   {
-   "id": "23-singletons-0207",
+   "id": "E18-singletons-0207",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -48570,7 +48570,7 @@
    }
   },
   {
-   "id": "23-singletons-0208",
+   "id": "E18-singletons-0208",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -48803,7 +48803,7 @@
    }
   },
   {
-   "id": "23-singletons-0209",
+   "id": "E18-singletons-0209",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -49044,7 +49044,7 @@
    }
   },
   {
-   "id": "23-singletons-0210",
+   "id": "E18-singletons-0210",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -49303,7 +49303,7 @@
    }
   },
   {
-   "id": "23-singletons-0211",
+   "id": "E18-singletons-0211",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -49570,7 +49570,7 @@
    }
   },
   {
-   "id": "23-singletons-0212",
+   "id": "E18-singletons-0212",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -49829,7 +49829,7 @@
    }
   },
   {
-   "id": "23-singletons-0213",
+   "id": "E18-singletons-0213",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -50096,7 +50096,7 @@
    }
   },
   {
-   "id": "23-singletons-0214",
+   "id": "E18-singletons-0214",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -50329,7 +50329,7 @@
    }
   },
   {
-   "id": "23-singletons-0215",
+   "id": "E18-singletons-0215",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -50570,7 +50570,7 @@
    }
   },
   {
-   "id": "23-singletons-0216",
+   "id": "E18-singletons-0216",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -50829,7 +50829,7 @@
    }
   },
   {
-   "id": "23-singletons-0217",
+   "id": "E18-singletons-0217",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -51096,7 +51096,7 @@
    }
   },
   {
-   "id": "23-singletons-0218",
+   "id": "E18-singletons-0218",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -51355,7 +51355,7 @@
    }
   },
   {
-   "id": "23-singletons-0219",
+   "id": "E18-singletons-0219",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -51622,7 +51622,7 @@
    }
   },
   {
-   "id": "23-singletons-0220",
+   "id": "E18-singletons-0220",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -51881,7 +51881,7 @@
    }
   },
   {
-   "id": "23-singletons-0221",
+   "id": "E18-singletons-0221",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -52148,7 +52148,7 @@
    }
   },
   {
-   "id": "23-singletons-0222",
+   "id": "E18-singletons-0222",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -52355,7 +52355,7 @@
    }
   },
   {
-   "id": "23-singletons-0223",
+   "id": "E18-singletons-0223",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -52570,7 +52570,7 @@
    }
   },
   {
-   "id": "23-singletons-0224",
+   "id": "E18-singletons-0224",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -52803,7 +52803,7 @@
    }
   },
   {
-   "id": "23-singletons-0225",
+   "id": "E18-singletons-0225",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -53044,7 +53044,7 @@
    }
   },
   {
-   "id": "23-singletons-0226",
+   "id": "E18-singletons-0226",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -53303,7 +53303,7 @@
    }
   },
   {
-   "id": "23-singletons-0227",
+   "id": "E18-singletons-0227",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -53570,7 +53570,7 @@
    }
   },
   {
-   "id": "23-singletons-0228",
+   "id": "E18-singletons-0228",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -53803,7 +53803,7 @@
    }
   },
   {
-   "id": "23-singletons-0229",
+   "id": "E18-singletons-0229",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -54044,7 +54044,7 @@
    }
   },
   {
-   "id": "23-singletons-0230",
+   "id": "E18-singletons-0230",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -54303,7 +54303,7 @@
    }
   },
   {
-   "id": "23-singletons-0231",
+   "id": "E18-singletons-0231",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -54570,7 +54570,7 @@
    }
   },
   {
-   "id": "23-singletons-0232",
+   "id": "E18-singletons-0232",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -54829,7 +54829,7 @@
    }
   },
   {
-   "id": "23-singletons-0233",
+   "id": "E18-singletons-0233",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -55096,7 +55096,7 @@
    }
   },
   {
-   "id": "23-singletons-0234",
+   "id": "E18-singletons-0234",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -55329,7 +55329,7 @@
    }
   },
   {
-   "id": "23-singletons-0235",
+   "id": "E18-singletons-0235",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -55570,7 +55570,7 @@
    }
   },
   {
-   "id": "23-singletons-0236",
+   "id": "E18-singletons-0236",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -55829,7 +55829,7 @@
    }
   },
   {
-   "id": "23-singletons-0237",
+   "id": "E18-singletons-0237",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -56096,7 +56096,7 @@
    }
   },
   {
-   "id": "23-singletons-0238",
+   "id": "E18-singletons-0238",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -56355,7 +56355,7 @@
    }
   },
   {
-   "id": "23-singletons-0239",
+   "id": "E18-singletons-0239",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -56622,7 +56622,7 @@
    }
   },
   {
-   "id": "23-singletons-0240",
+   "id": "E18-singletons-0240",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -56881,7 +56881,7 @@
    }
   },
   {
-   "id": "23-singletons-0241",
+   "id": "E18-singletons-0241",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -57148,7 +57148,7 @@
    }
   },
   {
-   "id": "23-singletons-0242",
+   "id": "E18-singletons-0242",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -57381,7 +57381,7 @@
    }
   },
   {
-   "id": "23-singletons-0243",
+   "id": "E18-singletons-0243",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -57622,7 +57622,7 @@
    }
   },
   {
-   "id": "23-singletons-0244",
+   "id": "E18-singletons-0244",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -57881,7 +57881,7 @@
    }
   },
   {
-   "id": "23-singletons-0245",
+   "id": "E18-singletons-0245",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -58148,7 +58148,7 @@
    }
   },
   {
-   "id": "23-singletons-0246",
+   "id": "E18-singletons-0246",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -58407,7 +58407,7 @@
    }
   },
   {
-   "id": "23-singletons-0247",
+   "id": "E18-singletons-0247",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -58674,7 +58674,7 @@
    }
   },
   {
-   "id": "23-singletons-0248",
+   "id": "E18-singletons-0248",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -58933,7 +58933,7 @@
    }
   },
   {
-   "id": "23-singletons-0249",
+   "id": "E18-singletons-0249",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -59200,7 +59200,7 @@
    }
   },
   {
-   "id": "23-singletons-0250",
+   "id": "E18-singletons-0250",
    "case": "singletons",
    "graph": {
     "vertices": [
@@ -59459,7 +59459,7 @@
    }
   },
   {
-   "id": "23-singletons-0251",
+   "id": "E18-singletons-0251",
    "case": "singletons",
    "graph": {
     "vertices": [

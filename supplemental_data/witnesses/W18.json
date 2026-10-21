@@ -1,6 +1,6 @@
 {
  "item": "W18",
- "where": "Proposition 6.11",
+ "where": "Proposition 6.12",
  "claim": "Psi_3, twins p', q' with neighbourhood {b,d,w}, u with neighbourhood {a,b,d}, the edges cw, ew and the edge ce: this is T29.",
  "graph": {
   "vertices": [

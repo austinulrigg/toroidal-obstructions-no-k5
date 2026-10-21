@@ -25,7 +25,7 @@
   "DRAT": "verified by drat-trim"
  },
  "one-edge minors with a minor model of some T_i": {
-  "contract": 42,
-  "delete": 174
+  "delete": 174,
+  "contract": 42
  }
 }

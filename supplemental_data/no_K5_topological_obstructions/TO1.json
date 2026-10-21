@@ -1,6 +1,6 @@
 {
  "item": "TO1",
- "what": "The 381 topological obstructions for the torus with no K5 minor (Theorem 8.2), as graph6 strings. The 74 that are T1,...,T74 are named.",
+ "what": "The 381 topological obstructions for the torus with no K5 minor (Theorem 8.1), as graph6 strings. The 74 that are T1,...,T74 are named.",
  "orders": {
   "10": 1,
   "11": 9,

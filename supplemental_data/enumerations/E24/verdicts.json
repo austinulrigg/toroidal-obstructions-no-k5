@@ -2,7 +2,7 @@
  "item": "E24",
  "verdicts": [
   {
-   "id": "29-one_bridge-0000",
+   "id": "E24-one_bridge-0000",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -37,7 +37,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0001",
+   "id": "E24-one_bridge-0001",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -73,7 +73,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0002",
+   "id": "E24-one_bridge-0002",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -109,7 +109,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0003",
+   "id": "E24-one_bridge-0003",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -145,7 +145,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0004",
+   "id": "E24-one_bridge-0004",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -181,7 +181,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0005",
+   "id": "E24-one_bridge-0005",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -218,7 +218,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0006",
+   "id": "E24-one_bridge-0006",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -255,7 +255,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0007",
+   "id": "E24-one_bridge-0007",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -291,7 +291,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0008",
+   "id": "E24-one_bridge-0008",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -328,7 +328,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0009",
+   "id": "E24-one_bridge-0009",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -364,7 +364,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0010",
+   "id": "E24-one_bridge-0010",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -401,7 +401,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0011",
+   "id": "E24-one_bridge-0011",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -437,7 +437,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0012",
+   "id": "E24-one_bridge-0012",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -474,7 +474,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0013",
+   "id": "E24-one_bridge-0013",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -511,7 +511,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0014",
+   "id": "E24-one_bridge-0014",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -523,44 +523,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0015",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u0",
-      "u1",
-      "u2"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u3",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-one_bridge-0016",
+   "id": "E24-one_bridge-0015",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -597,7 +560,44 @@
    }
   },
   {
-   "id": "29-one_bridge-0017",
+   "id": "E24-one_bridge-0016",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-one_bridge-0017",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -633,7 +633,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0018",
+   "id": "E24-one_bridge-0018",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -670,7 +670,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0019",
+   "id": "E24-one_bridge-0019",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -706,7 +706,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0020",
+   "id": "E24-one_bridge-0020",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -743,7 +743,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0021",
+   "id": "E24-one_bridge-0021",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -779,7 +779,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0022",
+   "id": "E24-one_bridge-0022",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -816,7 +816,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0023",
+   "id": "E24-one_bridge-0023",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -852,7 +852,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0024",
+   "id": "E24-one_bridge-0024",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -889,7 +889,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0025",
+   "id": "E24-one_bridge-0025",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -925,7 +925,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0026",
+   "id": "E24-one_bridge-0026",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -962,7 +962,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0027",
+   "id": "E24-one_bridge-0027",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -998,7 +998,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0028",
+   "id": "E24-one_bridge-0028",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1035,7 +1035,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0029",
+   "id": "E24-one_bridge-0029",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1071,7 +1071,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0030",
+   "id": "E24-one_bridge-0030",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1108,7 +1108,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0031",
+   "id": "E24-one_bridge-0031",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1145,7 +1145,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0032",
+   "id": "E24-one_bridge-0032",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1181,7 +1181,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0033",
+   "id": "E24-one_bridge-0033",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1218,7 +1218,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0034",
+   "id": "E24-one_bridge-0034",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1254,7 +1254,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0035",
+   "id": "E24-one_bridge-0035",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1290,7 +1290,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0036",
+   "id": "E24-one_bridge-0036",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1327,7 +1327,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0037",
+   "id": "E24-one_bridge-0037",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1364,7 +1364,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0038",
+   "id": "E24-one_bridge-0038",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -1399,7 +1399,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0039",
+   "id": "E24-one_bridge-0039",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1436,7 +1436,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0040",
+   "id": "E24-one_bridge-0040",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1473,7 +1473,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0041",
+   "id": "E24-one_bridge-0041",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1509,7 +1509,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0042",
+   "id": "E24-one_bridge-0042",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1546,7 +1546,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0043",
+   "id": "E24-one_bridge-0043",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1582,7 +1582,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0044",
+   "id": "E24-one_bridge-0044",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1619,7 +1619,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0045",
+   "id": "E24-one_bridge-0045",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1656,7 +1656,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0046",
+   "id": "E24-one_bridge-0046",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1693,7 +1693,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0047",
+   "id": "E24-one_bridge-0047",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1730,7 +1730,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0048",
+   "id": "E24-one_bridge-0048",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1767,7 +1767,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0049",
+   "id": "E24-one_bridge-0049",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1779,44 +1779,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0050",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u0",
-      "u1",
-      "u2"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u3",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-one_bridge-0051",
+   "id": "E24-one_bridge-0050",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1853,7 +1816,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0052",
+   "id": "E24-one_bridge-0051",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1890,7 +1853,44 @@
    }
   },
   {
-   "id": "29-one_bridge-0053",
+   "id": "E24-one_bridge-0052",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-one_bridge-0053",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1926,7 +1926,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0054",
+   "id": "E24-one_bridge-0054",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -1963,7 +1963,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0055",
+   "id": "E24-one_bridge-0055",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -1999,7 +1999,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0056",
+   "id": "E24-one_bridge-0056",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2035,7 +2035,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0057",
+   "id": "E24-one_bridge-0057",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -2071,7 +2071,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0058",
+   "id": "E24-one_bridge-0058",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2108,7 +2108,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0059",
+   "id": "E24-one_bridge-0059",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2145,7 +2145,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0060",
+   "id": "E24-one_bridge-0060",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2182,7 +2182,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0061",
+   "id": "E24-one_bridge-0061",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2219,7 +2219,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0062",
+   "id": "E24-one_bridge-0062",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2256,7 +2256,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0063",
+   "id": "E24-one_bridge-0063",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2293,7 +2293,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0064",
+   "id": "E24-one_bridge-0064",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2329,7 +2329,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0065",
+   "id": "E24-one_bridge-0065",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2366,7 +2366,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0066",
+   "id": "E24-one_bridge-0066",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2402,7 +2402,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0067",
+   "id": "E24-one_bridge-0067",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2438,7 +2438,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0068",
+   "id": "E24-one_bridge-0068",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2474,7 +2474,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0069",
+   "id": "E24-one_bridge-0069",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2511,7 +2511,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0070",
+   "id": "E24-one_bridge-0070",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2548,7 +2548,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0071",
+   "id": "E24-one_bridge-0071",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -2583,7 +2583,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0072",
+   "id": "E24-one_bridge-0072",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2620,7 +2620,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0073",
+   "id": "E24-one_bridge-0073",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2657,7 +2657,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0074",
+   "id": "E24-one_bridge-0074",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2693,7 +2693,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0075",
+   "id": "E24-one_bridge-0075",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2730,7 +2730,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0076",
+   "id": "E24-one_bridge-0076",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -2766,7 +2766,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0077",
+   "id": "E24-one_bridge-0077",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -2801,7 +2801,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0078",
+   "id": "E24-one_bridge-0078",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2838,7 +2838,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0079",
+   "id": "E24-one_bridge-0079",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2875,7 +2875,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0080",
+   "id": "E24-one_bridge-0080",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2912,7 +2912,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0081",
+   "id": "E24-one_bridge-0081",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2949,7 +2949,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0082",
+   "id": "E24-one_bridge-0082",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -2961,44 +2961,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0083",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u3",
-      "u4",
-      "u5"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-one_bridge-0084",
+   "id": "E24-one_bridge-0083",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3035,7 +2998,44 @@
    }
   },
   {
-   "id": "29-one_bridge-0085",
+   "id": "E24-one_bridge-0084",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-one_bridge-0085",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -3096,7 +3096,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0086",
+   "id": "E24-one_bridge-0086",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3133,7 +3133,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0087",
+   "id": "E24-one_bridge-0087",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3145,44 +3145,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0088",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u3",
-      "u4",
-      "u5"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-one_bridge-0089",
+   "id": "E24-one_bridge-0088",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3219,7 +3182,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0090",
+   "id": "E24-one_bridge-0089",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3256,7 +3219,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0091",
+   "id": "E24-one_bridge-0090",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3293,7 +3256,44 @@
    }
   },
   {
-   "id": "29-one_bridge-0092",
+   "id": "E24-one_bridge-0091",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-one_bridge-0092",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -3329,7 +3329,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0093",
+   "id": "E24-one_bridge-0093",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3366,7 +3366,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0094",
+   "id": "E24-one_bridge-0094",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3403,7 +3403,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0095",
+   "id": "E24-one_bridge-0095",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3440,7 +3440,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0096",
+   "id": "E24-one_bridge-0096",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3477,7 +3477,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0097",
+   "id": "E24-one_bridge-0097",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3514,7 +3514,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0098",
+   "id": "E24-one_bridge-0098",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3551,7 +3551,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0099",
+   "id": "E24-one_bridge-0099",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3563,44 +3563,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0100",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u3",
-      "u4",
-      "u5"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-one_bridge-0101",
+   "id": "E24-one_bridge-0100",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3637,7 +3600,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0102",
+   "id": "E24-one_bridge-0101",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3674,7 +3637,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0103",
+   "id": "E24-one_bridge-0102",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3711,7 +3674,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0104",
+   "id": "E24-one_bridge-0103",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3748,7 +3711,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0105",
+   "id": "E24-one_bridge-0104",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -3785,7 +3748,44 @@
    }
   },
   {
-   "id": "29-one_bridge-0106",
+   "id": "E24-one_bridge-0105",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-one_bridge-0106",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -3820,7 +3820,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0107",
+   "id": "E24-one_bridge-0107",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -3880,7 +3880,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0108",
+   "id": "E24-one_bridge-0108",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -3940,7 +3940,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0109",
+   "id": "E24-one_bridge-0109",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4000,7 +4000,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0110",
+   "id": "E24-one_bridge-0110",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4035,7 +4035,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0111",
+   "id": "E24-one_bridge-0111",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4047,7 +4047,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0112",
+   "id": "E24-one_bridge-0112",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4059,7 +4059,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0113",
+   "id": "E24-one_bridge-0113",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4071,7 +4071,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0114",
+   "id": "E24-one_bridge-0114",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4083,7 +4083,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0115",
+   "id": "E24-one_bridge-0115",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4119,7 +4119,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0116",
+   "id": "E24-one_bridge-0116",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4131,7 +4131,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0117",
+   "id": "E24-one_bridge-0117",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4167,7 +4167,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0118",
+   "id": "E24-one_bridge-0118",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4203,7 +4203,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0119",
+   "id": "E24-one_bridge-0119",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4239,7 +4239,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0120",
+   "id": "E24-one_bridge-0120",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4251,7 +4251,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0121",
+   "id": "E24-one_bridge-0121",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4263,7 +4263,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0122",
+   "id": "E24-one_bridge-0122",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4275,7 +4275,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0123",
+   "id": "E24-one_bridge-0123",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4287,7 +4287,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0124",
+   "id": "E24-one_bridge-0124",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4322,7 +4322,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0125",
+   "id": "E24-one_bridge-0125",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4334,7 +4334,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0126",
+   "id": "E24-one_bridge-0126",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4346,7 +4346,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0127",
+   "id": "E24-one_bridge-0127",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4358,7 +4358,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0128",
+   "id": "E24-one_bridge-0128",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4370,7 +4370,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0129",
+   "id": "E24-one_bridge-0129",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4405,7 +4405,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0130",
+   "id": "E24-one_bridge-0130",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4417,7 +4417,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0131",
+   "id": "E24-one_bridge-0131",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4452,7 +4452,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0132",
+   "id": "E24-one_bridge-0132",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4487,7 +4487,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0133",
+   "id": "E24-one_bridge-0133",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -4522,7 +4522,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0134",
+   "id": "E24-one_bridge-0134",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4558,7 +4558,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0135",
+   "id": "E24-one_bridge-0135",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4595,7 +4595,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0136",
+   "id": "E24-one_bridge-0136",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4640,7 +4640,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0137",
+   "id": "E24-one_bridge-0137",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4685,7 +4685,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0138",
+   "id": "E24-one_bridge-0138",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4696,7 +4696,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0139",
+   "id": "E24-one_bridge-0139",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4708,7 +4708,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0140",
+   "id": "E24-one_bridge-0140",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4745,7 +4745,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0141",
+   "id": "E24-one_bridge-0141",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4781,7 +4781,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0142",
+   "id": "E24-one_bridge-0142",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4826,7 +4826,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0143",
+   "id": "E24-one_bridge-0143",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4863,7 +4863,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0144",
+   "id": "E24-one_bridge-0144",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -4899,7 +4899,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0145",
+   "id": "E24-one_bridge-0145",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4945,7 +4945,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0146",
+   "id": "E24-one_bridge-0146",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -4982,7 +4982,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0147",
+   "id": "E24-one_bridge-0147",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5027,7 +5027,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0148",
+   "id": "E24-one_bridge-0148",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5064,7 +5064,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0149",
+   "id": "E24-one_bridge-0149",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -5100,7 +5100,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0150",
+   "id": "E24-one_bridge-0150",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5146,7 +5146,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0151",
+   "id": "E24-one_bridge-0151",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5158,52 +5158,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0152",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
-    "triples": [
-     [
-      "a",
-      "d",
-      "e"
-     ],
-     [
-      "a",
-      "u3",
-      "u4"
-     ]
-    ],
-    "twins": [
-     [
-      "r",
-      "z"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ],
-    "component": [
-     "b",
-     "c",
-     "p",
-     "q",
-     "u2",
-     "w"
-    ]
-   }
-  },
-  {
-   "id": "29-one_bridge-0153",
+   "id": "E24-one_bridge-0152",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5248,7 +5203,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0154",
+   "id": "E24-one_bridge-0153",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5293,7 +5248,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0155",
+   "id": "E24-one_bridge-0154",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5338,7 +5293,52 @@
    }
   },
   {
-   "id": "29-one_bridge-0156",
+   "id": "E24-one_bridge-0155",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E24-one_bridge-0156",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5350,7 +5350,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0157",
+   "id": "E24-one_bridge-0157",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5396,7 +5396,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0158",
+   "id": "E24-one_bridge-0158",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5441,7 +5441,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0159",
+   "id": "E24-one_bridge-0159",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5487,7 +5487,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0160",
+   "id": "E24-one_bridge-0160",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5499,52 +5499,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0161",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "r"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "a",
-      "u3",
-      "u4"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ],
-    "component": [
-     "d",
-     "e",
-     "r",
-     "z",
-     "u2",
-     "w"
-    ]
-   }
-  },
-  {
-   "id": "29-one_bridge-0162",
+   "id": "E24-one_bridge-0161",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5589,7 +5544,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0163",
+   "id": "E24-one_bridge-0162",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5634,7 +5589,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0164",
+   "id": "E24-one_bridge-0163",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5679,7 +5634,52 @@
    }
   },
   {
-   "id": "29-one_bridge-0165",
+   "id": "E24-one_bridge-0164",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E24-one_bridge-0165",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5691,7 +5691,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0166",
+   "id": "E24-one_bridge-0166",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5737,7 +5737,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0167",
+   "id": "E24-one_bridge-0167",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5782,7 +5782,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0168",
+   "id": "E24-one_bridge-0168",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -5828,7 +5828,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0169",
+   "id": "E24-one_bridge-0169",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5862,7 +5862,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0170",
+   "id": "E24-one_bridge-0170",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5929,7 +5929,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0171",
+   "id": "E24-one_bridge-0171",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -5996,7 +5996,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0172",
+   "id": "E24-one_bridge-0172",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6033,7 +6033,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0173",
+   "id": "E24-one_bridge-0173",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6045,7 +6045,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0174",
+   "id": "E24-one_bridge-0174",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6079,7 +6079,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0175",
+   "id": "E24-one_bridge-0175",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6091,7 +6091,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0176",
+   "id": "E24-one_bridge-0176",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6125,7 +6125,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0177",
+   "id": "E24-one_bridge-0177",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6161,7 +6161,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0178",
+   "id": "E24-one_bridge-0178",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6198,7 +6198,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0179",
+   "id": "E24-one_bridge-0179",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6235,7 +6235,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0180",
+   "id": "E24-one_bridge-0180",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6272,7 +6272,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0181",
+   "id": "E24-one_bridge-0181",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6308,7 +6308,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0182",
+   "id": "E24-one_bridge-0182",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6345,7 +6345,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0183",
+   "id": "E24-one_bridge-0183",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6382,7 +6382,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0184",
+   "id": "E24-one_bridge-0184",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6418,7 +6418,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0185",
+   "id": "E24-one_bridge-0185",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6455,7 +6455,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0186",
+   "id": "E24-one_bridge-0186",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6492,7 +6492,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0187",
+   "id": "E24-one_bridge-0187",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6528,7 +6528,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0188",
+   "id": "E24-one_bridge-0188",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6565,7 +6565,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0189",
+   "id": "E24-one_bridge-0189",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6602,7 +6602,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0190",
+   "id": "E24-one_bridge-0190",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6639,7 +6639,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0191",
+   "id": "E24-one_bridge-0191",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6676,7 +6676,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0192",
+   "id": "E24-one_bridge-0192",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6711,7 +6711,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0193",
+   "id": "E24-one_bridge-0193",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6748,7 +6748,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0194",
+   "id": "E24-one_bridge-0194",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6785,7 +6785,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0195",
+   "id": "E24-one_bridge-0195",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6821,7 +6821,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0196",
+   "id": "E24-one_bridge-0196",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6858,7 +6858,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0197",
+   "id": "E24-one_bridge-0197",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -6894,7 +6894,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0198",
+   "id": "E24-one_bridge-0198",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -6929,7 +6929,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0199",
+   "id": "E24-one_bridge-0199",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -6966,7 +6966,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0200",
+   "id": "E24-one_bridge-0200",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7003,7 +7003,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0201",
+   "id": "E24-one_bridge-0201",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7040,7 +7040,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0202",
+   "id": "E24-one_bridge-0202",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7077,7 +7077,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0203",
+   "id": "E24-one_bridge-0203",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7114,7 +7114,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0204",
+   "id": "E24-one_bridge-0204",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7151,7 +7151,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0205",
+   "id": "E24-one_bridge-0205",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -7185,7 +7185,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0206",
+   "id": "E24-one_bridge-0206",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7222,7 +7222,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0207",
+   "id": "E24-one_bridge-0207",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7259,7 +7259,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0208",
+   "id": "E24-one_bridge-0208",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7296,7 +7296,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0209",
+   "id": "E24-one_bridge-0209",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -7331,7 +7331,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0210",
+   "id": "E24-one_bridge-0210",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7368,7 +7368,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0211",
+   "id": "E24-one_bridge-0211",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7405,7 +7405,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0212",
+   "id": "E24-one_bridge-0212",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -7465,7 +7465,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0213",
+   "id": "E24-one_bridge-0213",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7502,7 +7502,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0214",
+   "id": "E24-one_bridge-0214",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7514,44 +7514,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0215",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "d",
-      "e"
-     ],
-     [
-      "b",
-      "u3",
-      "u4"
-     ]
-    ],
-    "twins": [
-     [
-      "r",
-      "z"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-one_bridge-0216",
+   "id": "E24-one_bridge-0215",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7588,7 +7551,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0217",
+   "id": "E24-one_bridge-0216",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7625,7 +7588,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0218",
+   "id": "E24-one_bridge-0217",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7662,7 +7625,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0219",
+   "id": "E24-one_bridge-0218",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7699,7 +7662,44 @@
    }
   },
   {
-   "id": "29-one_bridge-0220",
+   "id": "E24-one_bridge-0219",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-one_bridge-0220",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -7733,7 +7733,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0221",
+   "id": "E24-one_bridge-0221",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -7792,7 +7792,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0222",
+   "id": "E24-one_bridge-0222",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -7851,7 +7851,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0223",
+   "id": "E24-one_bridge-0223",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7888,7 +7888,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0224",
+   "id": "E24-one_bridge-0224",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7925,7 +7925,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0225",
+   "id": "E24-one_bridge-0225",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -7937,7 +7937,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0226",
+   "id": "E24-one_bridge-0226",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -7971,7 +7971,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0227",
+   "id": "E24-one_bridge-0227",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8006,7 +8006,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0228",
+   "id": "E24-one_bridge-0228",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8041,7 +8041,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0229",
+   "id": "E24-one_bridge-0229",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8076,7 +8076,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0230",
+   "id": "E24-one_bridge-0230",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8111,7 +8111,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0231",
+   "id": "E24-one_bridge-0231",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8123,7 +8123,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0232",
+   "id": "E24-one_bridge-0232",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8135,7 +8135,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0233",
+   "id": "E24-one_bridge-0233",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8169,7 +8169,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0234",
+   "id": "E24-one_bridge-0234",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -8205,7 +8205,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0235",
+   "id": "E24-one_bridge-0235",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8242,7 +8242,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0236",
+   "id": "E24-one_bridge-0236",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8279,7 +8279,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0237",
+   "id": "E24-one_bridge-0237",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8316,7 +8316,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0238",
+   "id": "E24-one_bridge-0238",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -8352,7 +8352,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0239",
+   "id": "E24-one_bridge-0239",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8389,7 +8389,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0240",
+   "id": "E24-one_bridge-0240",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8426,7 +8426,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0241",
+   "id": "E24-one_bridge-0241",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -8462,7 +8462,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0242",
+   "id": "E24-one_bridge-0242",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8499,7 +8499,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0243",
+   "id": "E24-one_bridge-0243",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8536,7 +8536,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0244",
+   "id": "E24-one_bridge-0244",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -8572,7 +8572,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0245",
+   "id": "E24-one_bridge-0245",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8609,7 +8609,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0246",
+   "id": "E24-one_bridge-0246",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8646,7 +8646,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0247",
+   "id": "E24-one_bridge-0247",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8683,7 +8683,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0248",
+   "id": "E24-one_bridge-0248",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8720,7 +8720,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0249",
+   "id": "E24-one_bridge-0249",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8755,7 +8755,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0250",
+   "id": "E24-one_bridge-0250",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8792,7 +8792,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0251",
+   "id": "E24-one_bridge-0251",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8829,7 +8829,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0252",
+   "id": "E24-one_bridge-0252",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -8865,7 +8865,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0253",
+   "id": "E24-one_bridge-0253",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -8902,7 +8902,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0254",
+   "id": "E24-one_bridge-0254",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -8938,7 +8938,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0255",
+   "id": "E24-one_bridge-0255",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -8973,7 +8973,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0256",
+   "id": "E24-one_bridge-0256",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9010,7 +9010,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0257",
+   "id": "E24-one_bridge-0257",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9047,7 +9047,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0258",
+   "id": "E24-one_bridge-0258",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9084,7 +9084,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0259",
+   "id": "E24-one_bridge-0259",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9121,7 +9121,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0260",
+   "id": "E24-one_bridge-0260",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9158,7 +9158,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0261",
+   "id": "E24-one_bridge-0261",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9195,7 +9195,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0262",
+   "id": "E24-one_bridge-0262",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9207,44 +9207,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0263",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "r"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "d",
-      "u3",
-      "u4"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-one_bridge-0264",
+   "id": "E24-one_bridge-0263",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9281,7 +9244,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0265",
+   "id": "E24-one_bridge-0264",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9318,7 +9281,44 @@
    }
   },
   {
-   "id": "29-one_bridge-0266",
+   "id": "E24-one_bridge-0265",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-one_bridge-0266",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9353,7 +9353,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0267",
+   "id": "E24-one_bridge-0267",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9390,7 +9390,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0268",
+   "id": "E24-one_bridge-0268",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9427,7 +9427,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0269",
+   "id": "E24-one_bridge-0269",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9464,7 +9464,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0270",
+   "id": "E24-one_bridge-0270",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9501,7 +9501,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0271",
+   "id": "E24-one_bridge-0271",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9513,44 +9513,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0272",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "d",
-      "u3",
-      "u4"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-one_bridge-0273",
+   "id": "E24-one_bridge-0272",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9587,7 +9550,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0274",
+   "id": "E24-one_bridge-0273",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9624,7 +9587,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0275",
+   "id": "E24-one_bridge-0274",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9661,7 +9624,44 @@
    }
   },
   {
-   "id": "29-one_bridge-0276",
+   "id": "E24-one_bridge-0275",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-one_bridge-0276",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9698,7 +9698,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0277",
+   "id": "E24-one_bridge-0277",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9732,7 +9732,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0278",
+   "id": "E24-one_bridge-0278",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9791,7 +9791,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0279",
+   "id": "E24-one_bridge-0279",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9850,7 +9850,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0280",
+   "id": "E24-one_bridge-0280",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9862,7 +9862,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0281",
+   "id": "E24-one_bridge-0281",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9874,7 +9874,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0282",
+   "id": "E24-one_bridge-0282",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9909,7 +9909,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0283",
+   "id": "E24-one_bridge-0283",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9944,7 +9944,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0284",
+   "id": "E24-one_bridge-0284",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -9956,7 +9956,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0285",
+   "id": "E24-one_bridge-0285",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -9991,7 +9991,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0286",
+   "id": "E24-one_bridge-0286",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10025,7 +10025,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0287",
+   "id": "E24-one_bridge-0287",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10059,7 +10059,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0288",
+   "id": "E24-one_bridge-0288",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10096,7 +10096,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0289",
+   "id": "E24-one_bridge-0289",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10133,7 +10133,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0290",
+   "id": "E24-one_bridge-0290",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10167,7 +10167,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0291",
+   "id": "E24-one_bridge-0291",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10204,7 +10204,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0292",
+   "id": "E24-one_bridge-0292",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10241,7 +10241,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0293",
+   "id": "E24-one_bridge-0293",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10278,7 +10278,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0294",
+   "id": "E24-one_bridge-0294",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10311,7 +10311,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0295",
+   "id": "E24-one_bridge-0295",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10369,7 +10369,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0296",
+   "id": "E24-one_bridge-0296",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10406,7 +10406,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0297",
+   "id": "E24-one_bridge-0297",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10443,7 +10443,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0298",
+   "id": "E24-one_bridge-0298",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10455,7 +10455,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0299",
+   "id": "E24-one_bridge-0299",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10492,7 +10492,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0300",
+   "id": "E24-one_bridge-0300",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10529,7 +10529,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0301",
+   "id": "E24-one_bridge-0301",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10566,7 +10566,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0302",
+   "id": "E24-one_bridge-0302",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10599,7 +10599,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0303",
+   "id": "E24-one_bridge-0303",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10657,7 +10657,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0304",
+   "id": "E24-one_bridge-0304",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10669,7 +10669,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0305",
+   "id": "E24-one_bridge-0305",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10681,7 +10681,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0306",
+   "id": "E24-one_bridge-0306",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10693,7 +10693,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0307",
+   "id": "E24-one_bridge-0307",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10705,7 +10705,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0308",
+   "id": "E24-one_bridge-0308",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10738,7 +10738,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0309",
+   "id": "E24-one_bridge-0309",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10771,7 +10771,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0310",
+   "id": "E24-one_bridge-0310",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -10803,7 +10803,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0311",
+   "id": "E24-one_bridge-0311",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10847,7 +10847,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0312",
+   "id": "E24-one_bridge-0312",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10884,7 +10884,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0313",
+   "id": "E24-one_bridge-0313",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10929,7 +10929,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0314",
+   "id": "E24-one_bridge-0314",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -10966,7 +10966,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0315",
+   "id": "E24-one_bridge-0315",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11003,7 +11003,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0316",
+   "id": "E24-one_bridge-0316",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11048,7 +11048,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0317",
+   "id": "E24-one_bridge-0317",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11093,7 +11093,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0318",
+   "id": "E24-one_bridge-0318",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11127,7 +11127,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0319",
+   "id": "E24-one_bridge-0319",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11160,7 +11160,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0320",
+   "id": "E24-one_bridge-0320",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11204,7 +11204,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0321",
+   "id": "E24-one_bridge-0321",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11241,7 +11241,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0322",
+   "id": "E24-one_bridge-0322",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11286,7 +11286,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0323",
+   "id": "E24-one_bridge-0323",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11323,7 +11323,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0324",
+   "id": "E24-one_bridge-0324",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11360,7 +11360,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0325",
+   "id": "E24-one_bridge-0325",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11372,7 +11372,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0326",
+   "id": "E24-one_bridge-0326",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11384,7 +11384,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0327",
+   "id": "E24-one_bridge-0327",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11421,7 +11421,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0328",
+   "id": "E24-one_bridge-0328",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11458,7 +11458,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0329",
+   "id": "E24-one_bridge-0329",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11470,7 +11470,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0330",
+   "id": "E24-one_bridge-0330",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11507,7 +11507,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0331",
+   "id": "E24-one_bridge-0331",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11541,7 +11541,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0332",
+   "id": "E24-one_bridge-0332",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11578,7 +11578,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0333",
+   "id": "E24-one_bridge-0333",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11615,7 +11615,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0334",
+   "id": "E24-one_bridge-0334",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11652,7 +11652,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0335",
+   "id": "E24-one_bridge-0335",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11689,7 +11689,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0336",
+   "id": "E24-one_bridge-0336",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11726,7 +11726,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0337",
+   "id": "E24-one_bridge-0337",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11738,7 +11738,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0338",
+   "id": "E24-one_bridge-0338",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11775,7 +11775,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0339",
+   "id": "E24-one_bridge-0339",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11812,7 +11812,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0340",
+   "id": "E24-one_bridge-0340",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11846,7 +11846,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0341",
+   "id": "E24-one_bridge-0341",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -11858,7 +11858,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0342",
+   "id": "E24-one_bridge-0342",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11892,7 +11892,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0343",
+   "id": "E24-one_bridge-0343",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11926,7 +11926,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0344",
+   "id": "E24-one_bridge-0344",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11960,7 +11960,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0345",
+   "id": "E24-one_bridge-0345",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -11993,7 +11993,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0346",
+   "id": "E24-one_bridge-0346",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12030,7 +12030,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0347",
+   "id": "E24-one_bridge-0347",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -12063,7 +12063,7 @@
    }
   },
   {
-   "id": "29-one_bridge-0348",
+   "id": "E24-one_bridge-0348",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12100,7 +12100,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0000",
+   "id": "E24-two_bridges-0000",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -12135,7 +12135,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0001",
+   "id": "E24-two_bridges-0001",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -12171,7 +12171,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0002",
+   "id": "E24-two_bridges-0002",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -12207,7 +12207,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0003",
+   "id": "E24-two_bridges-0003",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -12243,7 +12243,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0004",
+   "id": "E24-two_bridges-0004",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -12279,7 +12279,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0005",
+   "id": "E24-two_bridges-0005",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12316,7 +12316,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0006",
+   "id": "E24-two_bridges-0006",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12353,7 +12353,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0007",
+   "id": "E24-two_bridges-0007",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -12389,7 +12389,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0008",
+   "id": "E24-two_bridges-0008",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12426,7 +12426,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0009",
+   "id": "E24-two_bridges-0009",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -12462,7 +12462,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0010",
+   "id": "E24-two_bridges-0010",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12499,7 +12499,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0011",
+   "id": "E24-two_bridges-0011",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -12535,7 +12535,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0012",
+   "id": "E24-two_bridges-0012",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12572,7 +12572,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0013",
+   "id": "E24-two_bridges-0013",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12609,7 +12609,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0014",
+   "id": "E24-two_bridges-0014",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12621,44 +12621,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0015",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u0",
-      "u1",
-      "u2"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u3",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-two_bridges-0016",
+   "id": "E24-two_bridges-0015",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12695,7 +12658,44 @@
    }
   },
   {
-   "id": "29-two_bridges-0017",
+   "id": "E24-two_bridges-0016",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-two_bridges-0017",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -12731,7 +12731,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0018",
+   "id": "E24-two_bridges-0018",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12768,7 +12768,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0019",
+   "id": "E24-two_bridges-0019",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -12804,7 +12804,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0020",
+   "id": "E24-two_bridges-0020",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12841,7 +12841,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0021",
+   "id": "E24-two_bridges-0021",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -12877,7 +12877,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0022",
+   "id": "E24-two_bridges-0022",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12914,7 +12914,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0023",
+   "id": "E24-two_bridges-0023",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -12950,7 +12950,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0024",
+   "id": "E24-two_bridges-0024",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -12987,7 +12987,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0025",
+   "id": "E24-two_bridges-0025",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -13023,7 +13023,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0026",
+   "id": "E24-two_bridges-0026",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13060,7 +13060,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0027",
+   "id": "E24-two_bridges-0027",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -13096,7 +13096,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0028",
+   "id": "E24-two_bridges-0028",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13133,7 +13133,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0029",
+   "id": "E24-two_bridges-0029",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13170,7 +13170,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0030",
+   "id": "E24-two_bridges-0030",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13182,44 +13182,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0031",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u0",
-      "u1",
-      "u2"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u3",
-      "u4"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-two_bridges-0032",
+   "id": "E24-two_bridges-0031",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13256,7 +13219,44 @@
    }
   },
   {
-   "id": "29-two_bridges-0033",
+   "id": "E24-two_bridges-0032",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-two_bridges-0033",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -13292,7 +13292,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0034",
+   "id": "E24-two_bridges-0034",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13329,7 +13329,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0035",
+   "id": "E24-two_bridges-0035",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -13365,7 +13365,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0036",
+   "id": "E24-two_bridges-0036",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13402,7 +13402,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0037",
+   "id": "E24-two_bridges-0037",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13439,7 +13439,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0038",
+   "id": "E24-two_bridges-0038",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -13475,7 +13475,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0039",
+   "id": "E24-two_bridges-0039",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13512,7 +13512,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0040",
+   "id": "E24-two_bridges-0040",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13549,7 +13549,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0041",
+   "id": "E24-two_bridges-0041",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -13585,7 +13585,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0042",
+   "id": "E24-two_bridges-0042",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13622,7 +13622,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0043",
+   "id": "E24-two_bridges-0043",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13659,7 +13659,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0044",
+   "id": "E24-two_bridges-0044",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -13695,7 +13695,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0045",
+   "id": "E24-two_bridges-0045",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13732,7 +13732,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0046",
+   "id": "E24-two_bridges-0046",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -13768,7 +13768,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0047",
+   "id": "E24-two_bridges-0047",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -13804,7 +13804,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0048",
+   "id": "E24-two_bridges-0048",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13841,7 +13841,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0049",
+   "id": "E24-two_bridges-0049",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13878,7 +13878,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0050",
+   "id": "E24-two_bridges-0050",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13915,7 +13915,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0051",
+   "id": "E24-two_bridges-0051",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13952,7 +13952,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0052",
+   "id": "E24-two_bridges-0052",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -13989,7 +13989,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0053",
+   "id": "E24-two_bridges-0053",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14001,44 +14001,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0054",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "u3",
-      "u4",
-      "u5"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-two_bridges-0055",
+   "id": "E24-two_bridges-0054",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14075,7 +14038,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0056",
+   "id": "E24-two_bridges-0055",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14112,7 +14075,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0057",
+   "id": "E24-two_bridges-0056",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14149,7 +14112,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0058",
+   "id": "E24-two_bridges-0057",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14186,7 +14149,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0059",
+   "id": "E24-two_bridges-0058",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14223,7 +14186,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0060",
+   "id": "E24-two_bridges-0059",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14260,7 +14223,44 @@
    }
   },
   {
-   "id": "29-two_bridges-0061",
+   "id": "E24-two_bridges-0060",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-two_bridges-0061",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -14296,7 +14296,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0062",
+   "id": "E24-two_bridges-0062",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14333,7 +14333,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0063",
+   "id": "E24-two_bridges-0063",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14370,7 +14370,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0064",
+   "id": "E24-two_bridges-0064",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14407,7 +14407,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0065",
+   "id": "E24-two_bridges-0065",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14444,7 +14444,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0066",
+   "id": "E24-two_bridges-0066",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14481,7 +14481,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0067",
+   "id": "E24-two_bridges-0067",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14518,7 +14518,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0068",
+   "id": "E24-two_bridges-0068",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -14554,7 +14554,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0069",
+   "id": "E24-two_bridges-0069",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -14615,7 +14615,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0070",
+   "id": "E24-two_bridges-0070",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -14676,7 +14676,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0071",
+   "id": "E24-two_bridges-0071",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -14737,7 +14737,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0072",
+   "id": "E24-two_bridges-0072",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14749,7 +14749,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0073",
+   "id": "E24-two_bridges-0073",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14761,7 +14761,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0074",
+   "id": "E24-two_bridges-0074",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -14797,7 +14797,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0075",
+   "id": "E24-two_bridges-0075",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14809,7 +14809,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0076",
+   "id": "E24-two_bridges-0076",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14821,7 +14821,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0077",
+   "id": "E24-two_bridges-0077",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14833,7 +14833,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0078",
+   "id": "E24-two_bridges-0078",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14845,7 +14845,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0079",
+   "id": "E24-two_bridges-0079",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -14881,7 +14881,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0080",
+   "id": "E24-two_bridges-0080",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14893,7 +14893,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0081",
+   "id": "E24-two_bridges-0081",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -14929,7 +14929,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0082",
+   "id": "E24-two_bridges-0082",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -14965,7 +14965,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0083",
+   "id": "E24-two_bridges-0083",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14977,7 +14977,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0084",
+   "id": "E24-two_bridges-0084",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -14989,7 +14989,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0085",
+   "id": "E24-two_bridges-0085",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15001,7 +15001,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0086",
+   "id": "E24-two_bridges-0086",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15013,7 +15013,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0087",
+   "id": "E24-two_bridges-0087",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15025,7 +15025,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0088",
+   "id": "E24-two_bridges-0088",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15037,7 +15037,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0089",
+   "id": "E24-two_bridges-0089",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -15073,7 +15073,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0090",
+   "id": "E24-two_bridges-0090",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -15109,7 +15109,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0091",
+   "id": "E24-two_bridges-0091",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -15145,7 +15145,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0092",
+   "id": "E24-two_bridges-0092",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15182,7 +15182,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0093",
+   "id": "E24-two_bridges-0093",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15228,7 +15228,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0094",
+   "id": "E24-two_bridges-0094",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15274,7 +15274,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0095",
+   "id": "E24-two_bridges-0095",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -15285,7 +15285,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0096",
+   "id": "E24-two_bridges-0096",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15297,7 +15297,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0097",
+   "id": "E24-two_bridges-0097",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15334,7 +15334,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0098",
+   "id": "E24-two_bridges-0098",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -15370,7 +15370,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0099",
+   "id": "E24-two_bridges-0099",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15416,7 +15416,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0100",
+   "id": "E24-two_bridges-0100",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15453,7 +15453,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0101",
+   "id": "E24-two_bridges-0101",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15499,7 +15499,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0102",
+   "id": "E24-two_bridges-0102",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15511,53 +15511,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0103",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
-    "triples": [
-     [
-      "a",
-      "d",
-      "e"
-     ],
-     [
-      "a",
-      "u3",
-      "u4"
-     ]
-    ],
-    "twins": [
-     [
-      "r",
-      "z"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ],
-    "component": [
-     "b",
-     "c",
-     "p",
-     "q",
-     "t",
-     "u2",
-     "w"
-    ]
-   }
-  },
-  {
-   "id": "29-two_bridges-0104",
+   "id": "E24-two_bridges-0103",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15603,7 +15557,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0105",
+   "id": "E24-two_bridges-0104",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15649,7 +15603,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0106",
+   "id": "E24-two_bridges-0105",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15695,7 +15649,53 @@
    }
   },
   {
-   "id": "29-two_bridges-0107",
+   "id": "E24-two_bridges-0106",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "t",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E24-two_bridges-0107",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15707,7 +15707,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0108",
+   "id": "E24-two_bridges-0108",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15719,53 +15719,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0109",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "a",
-      "u3",
-      "u4"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ],
-    "component": [
-     "d",
-     "e",
-     "r",
-     "z",
-     "t",
-     "u2",
-     "w"
-    ]
-   }
-  },
-  {
-   "id": "29-two_bridges-0110",
+   "id": "E24-two_bridges-0109",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15811,7 +15765,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0111",
+   "id": "E24-two_bridges-0110",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15857,7 +15811,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0112",
+   "id": "E24-two_bridges-0111",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15903,7 +15857,53 @@
    }
   },
   {
-   "id": "29-two_bridges-0113",
+   "id": "E24-two_bridges-0112",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "t",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E24-two_bridges-0113",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15915,7 +15915,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0114",
+   "id": "E24-two_bridges-0114",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -15950,7 +15950,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0115",
+   "id": "E24-two_bridges-0115",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -15996,7 +15996,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0116",
+   "id": "E24-two_bridges-0116",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -16065,7 +16065,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0117",
+   "id": "E24-two_bridges-0117",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16102,7 +16102,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0118",
+   "id": "E24-two_bridges-0118",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16114,7 +16114,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0119",
+   "id": "E24-two_bridges-0119",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16126,7 +16126,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0120",
+   "id": "E24-two_bridges-0120",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16138,7 +16138,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0121",
+   "id": "E24-two_bridges-0121",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -16173,7 +16173,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0122",
+   "id": "E24-two_bridges-0122",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -16209,7 +16209,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0123",
+   "id": "E24-two_bridges-0123",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16246,7 +16246,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0124",
+   "id": "E24-two_bridges-0124",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16283,7 +16283,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0125",
+   "id": "E24-two_bridges-0125",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16320,7 +16320,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0126",
+   "id": "E24-two_bridges-0126",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -16356,7 +16356,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0127",
+   "id": "E24-two_bridges-0127",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16393,7 +16393,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0128",
+   "id": "E24-two_bridges-0128",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16430,7 +16430,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0129",
+   "id": "E24-two_bridges-0129",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -16466,7 +16466,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0130",
+   "id": "E24-two_bridges-0130",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16503,7 +16503,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0131",
+   "id": "E24-two_bridges-0131",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16540,7 +16540,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0132",
+   "id": "E24-two_bridges-0132",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16577,7 +16577,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0133",
+   "id": "E24-two_bridges-0133",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16589,44 +16589,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0134",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "d",
-      "e"
-     ],
-     [
-      "b",
-      "u3",
-      "u4"
-     ]
-    ],
-    "twins": [
-     [
-      "r",
-      "z"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-two_bridges-0135",
+   "id": "E24-two_bridges-0134",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16663,7 +16626,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0136",
+   "id": "E24-two_bridges-0135",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16700,7 +16663,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0137",
+   "id": "E24-two_bridges-0136",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16737,7 +16700,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0138",
+   "id": "E24-two_bridges-0137",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16774,19 +16737,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0139",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   }
-  },
-  {
-   "id": "29-two_bridges-0140",
+   "id": "E24-two_bridges-0138",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16823,7 +16774,19 @@
    }
   },
   {
-   "id": "29-two_bridges-0141",
+   "id": "E24-two_bridges-0139",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E24-two_bridges-0140",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16860,7 +16823,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0142",
+   "id": "E24-two_bridges-0141",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16897,7 +16860,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0143",
+   "id": "E24-two_bridges-0142",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16934,7 +16897,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0144",
+   "id": "E24-two_bridges-0143",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -16971,7 +16934,44 @@
    }
   },
   {
-   "id": "29-two_bridges-0145",
+   "id": "E24-two_bridges-0144",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-two_bridges-0145",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -17006,7 +17006,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0146",
+   "id": "E24-two_bridges-0146",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -17066,7 +17066,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0147",
+   "id": "E24-two_bridges-0147",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -17126,7 +17126,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0148",
+   "id": "E24-two_bridges-0148",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17138,7 +17138,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0149",
+   "id": "E24-two_bridges-0149",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17150,7 +17150,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0150",
+   "id": "E24-two_bridges-0150",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17162,7 +17162,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0151",
+   "id": "E24-two_bridges-0151",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -17197,7 +17197,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0152",
+   "id": "E24-two_bridges-0152",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -17233,7 +17233,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0153",
+   "id": "E24-two_bridges-0153",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17270,7 +17270,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0154",
+   "id": "E24-two_bridges-0154",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17307,7 +17307,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0155",
+   "id": "E24-two_bridges-0155",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17344,7 +17344,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0156",
+   "id": "E24-two_bridges-0156",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -17380,7 +17380,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0157",
+   "id": "E24-two_bridges-0157",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17417,7 +17417,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0158",
+   "id": "E24-two_bridges-0158",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17454,7 +17454,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0159",
+   "id": "E24-two_bridges-0159",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -17490,7 +17490,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0160",
+   "id": "E24-two_bridges-0160",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17527,7 +17527,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0161",
+   "id": "E24-two_bridges-0161",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17564,7 +17564,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0162",
+   "id": "E24-two_bridges-0162",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17601,7 +17601,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0163",
+   "id": "E24-two_bridges-0163",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17613,44 +17613,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0164",
-   "verdict": "proper nontoroidal minor",
-   "witness": {
-    "type": "proper minor",
-    "operation": "delete",
-    "edge": [
-     "a",
-     "p"
-    ]
-   },
-   "also excluded by a hypothesis of the case": {
-    "fact": "two twin triples are disjoint",
-    "triples": [
-     [
-      "a",
-      "b",
-      "c"
-     ],
-     [
-      "d",
-      "u3",
-      "u4"
-     ]
-    ],
-    "twins": [
-     [
-      "p",
-      "q"
-     ],
-     [
-      "u0",
-      "u1"
-     ]
-    ]
-   }
-  },
-  {
-   "id": "29-two_bridges-0165",
+   "id": "E24-two_bridges-0164",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17687,7 +17650,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0166",
+   "id": "E24-two_bridges-0165",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17724,7 +17687,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0167",
+   "id": "E24-two_bridges-0166",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17761,7 +17724,44 @@
    }
   },
   {
-   "id": "29-two_bridges-0168",
+   "id": "E24-two_bridges-0167",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E24-two_bridges-0168",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17798,7 +17798,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0169",
+   "id": "E24-two_bridges-0169",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -17833,7 +17833,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0170",
+   "id": "E24-two_bridges-0170",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17870,7 +17870,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0171",
+   "id": "E24-two_bridges-0171",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17907,7 +17907,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0172",
+   "id": "E24-two_bridges-0172",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17944,7 +17944,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0173",
+   "id": "E24-two_bridges-0173",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -17981,7 +17981,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0174",
+   "id": "E24-two_bridges-0174",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18018,7 +18018,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0175",
+   "id": "E24-two_bridges-0175",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18053,7 +18053,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0176",
+   "id": "E24-two_bridges-0176",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18090,7 +18090,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0177",
+   "id": "E24-two_bridges-0177",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18150,7 +18150,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0178",
+   "id": "E24-two_bridges-0178",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18185,7 +18185,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0179",
+   "id": "E24-two_bridges-0179",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18197,7 +18197,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0180",
+   "id": "E24-two_bridges-0180",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18232,7 +18232,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0181",
+   "id": "E24-two_bridges-0181",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18267,7 +18267,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0182",
+   "id": "E24-two_bridges-0182",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18304,7 +18304,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0183",
+   "id": "E24-two_bridges-0183",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18341,7 +18341,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0184",
+   "id": "E24-two_bridges-0184",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18378,7 +18378,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0185",
+   "id": "E24-two_bridges-0185",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18415,7 +18415,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0186",
+   "id": "E24-two_bridges-0186",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18449,7 +18449,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0187",
+   "id": "E24-two_bridges-0187",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18508,7 +18508,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0188",
+   "id": "E24-two_bridges-0188",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18545,7 +18545,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0189",
+   "id": "E24-two_bridges-0189",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18582,7 +18582,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0190",
+   "id": "E24-two_bridges-0190",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18619,7 +18619,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0191",
+   "id": "E24-two_bridges-0191",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18656,7 +18656,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0192",
+   "id": "E24-two_bridges-0192",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18690,7 +18690,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0193",
+   "id": "E24-two_bridges-0193",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18749,7 +18749,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0194",
+   "id": "E24-two_bridges-0194",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18761,7 +18761,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0195",
+   "id": "E24-two_bridges-0195",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18773,7 +18773,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0196",
+   "id": "E24-two_bridges-0196",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18785,7 +18785,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0197",
+   "id": "E24-two_bridges-0197",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18797,7 +18797,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0198",
+   "id": "E24-two_bridges-0198",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18831,7 +18831,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0199",
+   "id": "E24-two_bridges-0199",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18865,7 +18865,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0200",
+   "id": "E24-two_bridges-0200",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -18898,7 +18898,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0201",
+   "id": "E24-two_bridges-0201",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18943,7 +18943,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0202",
+   "id": "E24-two_bridges-0202",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -18980,7 +18980,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0203",
+   "id": "E24-two_bridges-0203",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19017,7 +19017,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0204",
+   "id": "E24-two_bridges-0204",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19029,7 +19029,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0205",
+   "id": "E24-two_bridges-0205",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -19063,7 +19063,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0206",
+   "id": "E24-two_bridges-0206",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19108,7 +19108,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0207",
+   "id": "E24-two_bridges-0207",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19145,7 +19145,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0208",
+   "id": "E24-two_bridges-0208",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19182,7 +19182,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0209",
+   "id": "E24-two_bridges-0209",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -19216,7 +19216,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0210",
+   "id": "E24-two_bridges-0210",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19228,7 +19228,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0211",
+   "id": "E24-two_bridges-0211",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19265,7 +19265,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0212",
+   "id": "E24-two_bridges-0212",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19302,7 +19302,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0213",
+   "id": "E24-two_bridges-0213",
    "verdict": "K5 minor",
    "witness": {
     "type": "K5 branch sets",
@@ -19336,7 +19336,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0214",
+   "id": "E24-two_bridges-0214",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -19373,7 +19373,7 @@
    }
   },
   {
-   "id": "29-two_bridges-0215",
+   "id": "E24-two_bridges-0215",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",

@@ -1,6 +1,6 @@
 {
  "item": "W19",
- "where": "Proposition 6.11",
+ "where": "Proposition 6.12",
  "claim": "Psi_3, u with neighbourhood {a,b,d}, v with neighbourhood {a,c,e}, and y, t with edges by, cy, yt, dt, et: this is T55.",
  "graph": {
   "vertices": [

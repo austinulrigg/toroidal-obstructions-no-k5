@@ -2,7 +2,7 @@
  "item": "E15",
  "verdicts": [
   {
-   "id": "20-lifts-0000",
+   "id": "E15-lifts-0000",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -20,7 +20,7 @@
    }
   },
   {
-   "id": "20-lifts-0001",
+   "id": "E15-lifts-0001",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -37,7 +37,7 @@
    }
   },
   {
-   "id": "20-lifts-0002",
+   "id": "E15-lifts-0002",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -55,7 +55,7 @@
    }
   },
   {
-   "id": "20-lifts-0003",
+   "id": "E15-lifts-0003",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -72,7 +72,7 @@
    }
   },
   {
-   "id": "20-lifts-0004",
+   "id": "E15-lifts-0004",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -90,7 +90,7 @@
    }
   },
   {
-   "id": "20-lifts-0005",
+   "id": "E15-lifts-0005",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -107,7 +107,7 @@
    }
   },
   {
-   "id": "20-lifts-0006",
+   "id": "E15-lifts-0006",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -125,7 +125,7 @@
    }
   },
   {
-   "id": "20-lifts-0007",
+   "id": "E15-lifts-0007",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -143,7 +143,7 @@
    }
   },
   {
-   "id": "20-lifts-0008",
+   "id": "E15-lifts-0008",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -160,7 +160,7 @@
    }
   },
   {
-   "id": "20-lifts-0009",
+   "id": "E15-lifts-0009",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -178,7 +178,7 @@
    }
   },
   {
-   "id": "20-lifts-0010",
+   "id": "E15-lifts-0010",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -196,7 +196,7 @@
    }
   },
   {
-   "id": "20-lifts-0011",
+   "id": "E15-lifts-0011",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -214,7 +214,7 @@
    }
   },
   {
-   "id": "20-lifts-0012",
+   "id": "E15-lifts-0012",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -232,7 +232,7 @@
    }
   },
   {
-   "id": "20-lifts-0013",
+   "id": "E15-lifts-0013",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -249,7 +249,7 @@
    }
   },
   {
-   "id": "20-lifts-0014",
+   "id": "E15-lifts-0014",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -267,7 +267,7 @@
    }
   },
   {
-   "id": "20-lifts-0015",
+   "id": "E15-lifts-0015",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -285,7 +285,7 @@
    }
   },
   {
-   "id": "20-lifts-0016",
+   "id": "E15-lifts-0016",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -303,7 +303,7 @@
    }
   },
   {
-   "id": "20-lifts-0017",
+   "id": "E15-lifts-0017",
    "verdict": "cut of at most two vertices",
    "witness": {
     "type": "cut",
@@ -320,7 +320,7 @@
    }
   },
   {
-   "id": "20-lifts-0018",
+   "id": "E15-lifts-0018",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -338,7 +338,7 @@
    }
   },
   {
-   "id": "20-lifts-0019",
+   "id": "E15-lifts-0019",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -356,7 +356,7 @@
    }
   },
   {
-   "id": "20-lifts-0020",
+   "id": "E15-lifts-0020",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -374,7 +374,7 @@
    }
   },
   {
-   "id": "20-lifts-0021",
+   "id": "E15-lifts-0021",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -392,7 +392,7 @@
    }
   },
   {
-   "id": "20-lifts-0022",
+   "id": "E15-lifts-0022",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
@@ -410,7 +410,7 @@
    }
   },
   {
-   "id": "20-lifts-0023",
+   "id": "E15-lifts-0023",
    "verdict": "proper nontoroidal minor",
    "witness": {
     "type": "proper minor",
