@@ -4,7 +4,7 @@ This folder holds every computation the paper cites. An item cited as \supp{X} i
 
 - `no_K5_obstructions`: O1–O4, the 74 obstructions and their certificates.
 - `witnesses`: W1–W21, single certificates cited in proofs.
-- `rotations`: R1–R11, rotation tables.
+- `rotations`: R1–R12, rotation tables.
 - `enumerations`: E1–E34, one folder per enumeration.
 - `no_K5_topological_obstructions`: TO1 and TO2, for the topological obstructions.
 

@@ -32,6 +32,7 @@ for i in range(1, 22):
     ITEMS['W%d' % i] = 'items_witnesses'
 for i in range(1, 12):
     ITEMS['R%d' % i] = 'items_rotations'
+ITEMS['R12'] = 'items_rotation_R12'
 for i in (1, 2, 3, 4, 7, 8, 12):
     ITEMS['E%d' % i] = 'items_bridges'
 for i in (5, 13):

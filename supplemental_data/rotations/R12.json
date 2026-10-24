@@ -1,0 +1,452 @@
+{
+ "item": "R12",
+ "where": "Lemma 4.10 (dis:sole-two-rails), proof",
+ "paper text": [
+  {
+   "label": "dis:sole-two-rails",
+   "text": "Take a closed regular neighborhood $\\mathcal N$ of $H_0$.\nEnumerating the rotations of $H_0$ and tracing their\nboundary walks gives the following~\\supp{R12}. If $\\mathcal N$ has\ngenus one, no boundary walk contains all four attachments.\nEvery complementary region is then a disk by\nLemma~\\ref{lem:torus-complement}, a contradiction.\nThus $\\mathcal N$ has genus zero. No single boundary\nwalk contains all four attachments, and exactly one pair\ncontains all four between them. Their attachment sequences\nare $s_1,s_2$ and $t_1,t_2$, each appearing once."
+  }
+ ],
+ "what": "Every rotation system of H0, consisting of twins p,q on {s1,s2,s3}, twins r,z on {t1,t2,t3}, and the edge s3t3. Attachments: s1,t1,s2,t2; twins and s3,t3 omitted from attachment sequences. All rotations, including genus two, are recorded; only genera zero and one can occur for a regular neighbourhood inside the torus.",
+ "how to read": "For each graph: 'cyclic orders' lists, for every vertex, all cyclic orders of its neighbours, each starting with its alphabetically first neighbour (the other neighbours follow in every possible order, in lexicographic order). Rotation system number i (counting from 0) takes at each vertex the cyclic order whose position is the corresponding digit of i, written in the mixed radix given by the numbers of cyclic orders in the order of 'vertices', the last vertex varying fastest (the order of Python's itertools.product). Facial walks are traced by the rule used throughout the supplement: after the dart u->v comes v->w, where w follows u in the cyclic order at v. The genus is (2 - V + E - F)/2. The attachment sequence of a facial walk lists the attachments it passes through, in walk order, one entry per passage; it is written from its lexicographically least cyclic shift, keeping the direction of the walk, and the faces of a row are sorted. Since many rotation systems give the same row, the distinct rows are listed once under 'distinct rows' and 'rows' gives, for every rotation system in order, the position of its row in that list. 'Up to cyclic shift and reversal' in the claims means the least sequence among all cyclic shifts of the sequence and of its reverse.",
+ "graphs": [
+  {
+   "name": "H0 = (J1 union J2) + s3t3",
+   "vertices": [
+    "s1",
+    "t1",
+    "s2",
+    "t2",
+    "s3",
+    "t3",
+    "p",
+    "q",
+    "r",
+    "z"
+   ],
+   "edges": [
+    [
+     "p",
+     "s1"
+    ],
+    [
+     "p",
+     "s2"
+    ],
+    [
+     "p",
+     "s3"
+    ],
+    [
+     "q",
+     "s1"
+    ],
+    [
+     "q",
+     "s2"
+    ],
+    [
+     "q",
+     "s3"
+    ],
+    [
+     "r",
+     "t1"
+    ],
+    [
+     "r",
+     "t2"
+    ],
+    [
+     "r",
+     "t3"
+    ],
+    [
+     "s3",
+     "t3"
+    ],
+    [
+     "t1",
+     "z"
+    ],
+    [
+     "t2",
+     "z"
+    ],
+    [
+     "t3",
+     "z"
+    ]
+   ],
+   "attachments": [
+    "s1",
+    "t1",
+    "s2",
+    "t2"
+   ],
+   "cyclic orders": {
+    "s1": [
+     [
+      "p",
+      "q"
+     ]
+    ],
+    "t1": [
+     [
+      "r",
+      "z"
+     ]
+    ],
+    "s2": [
+     [
+      "p",
+      "q"
+     ]
+    ],
+    "t2": [
+     [
+      "r",
+      "z"
+     ]
+    ],
+    "s3": [
+     [
+      "p",
+      "q",
+      "t3"
+     ],
+     [
+      "p",
+      "t3",
+      "q"
+     ]
+    ],
+    "t3": [
+     [
+      "r",
+      "s3",
+      "z"
+     ],
+     [
+      "r",
+      "z",
+      "s3"
+     ]
+    ],
+    "p": [
+     [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     [
+      "s1",
+      "s3",
+      "s2"
+     ]
+    ],
+    "q": [
+     [
+      "s1",
+      "s2",
+      "s3"
+     ],
+     [
+      "s1",
+      "s3",
+      "s2"
+     ]
+    ],
+    "r": [
+     [
+      "t1",
+      "t2",
+      "t3"
+     ],
+     [
+      "t1",
+      "t3",
+      "t2"
+     ]
+    ],
+    "z": [
+     [
+      "t1",
+      "t2",
+      "t3"
+     ],
+     [
+      "t1",
+      "t3",
+      "t2"
+     ]
+    ]
+   },
+   "number of rotation systems": 64,
+   "rotation systems by genus": {
+    "0": 16,
+    "1": 32,
+    "2": 16
+   },
+   "row format": "[genus, attachment sequences of the facial walks]",
+   "distinct rows": [
+    [
+     2,
+     [
+      "s1 s2 s1 s2 t1 t2 t1 t2"
+     ]
+    ],
+    [
+     1,
+     [
+      "s1 s2 s1 s2 t2",
+      "t1",
+      "t1 t2"
+     ]
+    ],
+    [
+     1,
+     [
+      "s1 s2 s1 s2 t1",
+      "t1 t2",
+      "t2"
+     ]
+    ],
+    [
+     2,
+     [
+      "s1 s2 s1 s2 t2 t1 t2 t1"
+     ]
+    ],
+    [
+     1,
+     [
+      "s1 s2",
+      "s1 t1 t2 t1 t2",
+      "s2"
+     ]
+    ],
+    [
+     0,
+     [
+      "s1 s2",
+      "s1 t2",
+      "s2",
+      "t1",
+      "t1 t2"
+     ]
+    ],
+    [
+     0,
+     [
+      "s1 s2",
+      "s1 t1",
+      "s2",
+      "t1 t2",
+      "t2"
+     ]
+    ],
+    [
+     1,
+     [
+      "s1 s2",
+      "s1 t2 t1 t2 t1",
+      "s2"
+     ]
+    ],
+    [
+     1,
+     [
+      "s1",
+      "s1 s2",
+      "s2 t1 t2 t1 t2"
+     ]
+    ],
+    [
+     0,
+     [
+      "s1",
+      "s1 s2",
+      "s2 t2",
+      "t1",
+      "t1 t2"
+     ]
+    ],
+    [
+     0,
+     [
+      "s1",
+      "s1 s2",
+      "s2 t1",
+      "t1 t2",
+      "t2"
+     ]
+    ],
+    [
+     1,
+     [
+      "s1",
+      "s1 s2",
+      "s2 t2 t1 t2 t1"
+     ]
+    ],
+    [
+     2,
+     [
+      "s1 s2 s1 t1 t2 t1 t2 s2"
+     ]
+    ],
+    [
+     1,
+     [
+      "s1 s2 s1 t2 s2",
+      "t1",
+      "t1 t2"
+     ]
+    ],
+    [
+     1,
+     [
+      "s1 s2 s1 t1 s2",
+      "t1 t2",
+      "t2"
+     ]
+    ],
+    [
+     2,
+     [
+      "s1 s2 s1 t2 t1 t2 t1 s2"
+     ]
+    ]
+   ],
+   "rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    0,
+    2,
+    1,
+    3,
+    4,
+    6,
+    5,
+    7,
+    8,
+    10,
+    9,
+    11,
+    12,
+    14,
+    13,
+    15,
+    0,
+    1,
+    2,
+    3,
+    8,
+    9,
+    10,
+    11,
+    4,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    15,
+    0,
+    2,
+    1,
+    3,
+    8,
+    10,
+    9,
+    11,
+    4,
+    6,
+    5,
+    7,
+    12,
+    14,
+    13,
+    15
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "statement": "H0 has 10 vertices, 13 edges and 64 rotation systems. A rotation with F facial walks has genus (5-F)/2.",
+   "computed": {
+    "vertices": 10,
+    "edges": 13,
+    "rotation systems": 64,
+    "by genus": {
+     "0": 16,
+     "1": 32,
+     "2": 16
+    },
+    "facial walk counts by genus": {
+     "0": {
+      "5": 16
+     },
+     "1": {
+      "3": 32
+     },
+     "2": {
+      "1": 16
+     }
+    }
+   },
+   "holds": true
+  },
+  {
+   "statement": "In genus one, no boundary walk contains all four attachments s1,t1,s2,t2.",
+   "computed": {
+    "genus-one rotations": 32,
+    "walks containing all four attachments": 0
+   },
+   "holds": true
+  },
+  {
+   "statement": "In genus zero, no single boundary walk contains all four attachments. Exactly one pair contains all four between them, with sequences s1,s2 and t1,t2, each attachment appearing once.",
+   "computed": {
+    "genus-zero rotations": 16,
+    "walks containing all four attachments": 0,
+    "covering pairs per rotation": {
+     "1": 16
+    },
+    "covering pair attachment sequences": {
+     "s1 s2 | t1 t2": 16
+    },
+    "covering pairs with each attachment appearing once": 16
+   },
+   "holds": true
+  },
+  {
+   "statement": "In genus zero, the five attachment sequences are {si,tj}, {s1,s2}, {s(3-i)}, {t1,t2}, {t(3-j)} for i,j in {1,2}. Each of the four signatures occurs in four rotations.",
+   "computed": {
+    "boundary signatures": {
+     "s1 / s1 s2 / s2 t1 / t1 t2 / t2": 4,
+     "s1 / s1 s2 / s2 t2 / t1 / t1 t2": 4,
+     "s1 s2 / s1 t1 / s2 / t1 t2 / t2": 4,
+     "s1 s2 / s1 t2 / s2 / t1 / t1 t2": 4
+    }
+   },
+   "holds": true
+  }
+ ]
+}

@@ -1,4 +1,4 @@
-"""The rotation tables R1-R11 (folder rotations of the data folder).
+"""The rotation tables R1-R12 (folder rotations of the data folder).
 
 For each graph of a table, every rotation system is run through: its facial
 walks are traced, its genus computed, and the attachment sequence of each
@@ -8,7 +8,7 @@ that fails stops the program. The passages of the paper quoted in each file
 are read from ../paper_text.json.
 
 Usage:
-    python make_rotation_tables.py OUTPUT_FOLDER            (all eleven tables)
+    python make_rotation_tables.py OUTPUT_FOLDER            (all twelve tables)
     python make_rotation_tables.py OUTPUT_FOLDER R1 R5      (some of them)
 
 The files are written to OUTPUT_FOLDER/rotations. R4 takes a few minutes and
@@ -25,6 +25,7 @@ from collections import Counter, defaultdict
 
 from rotlib import *
 from rgraphs import *
+from make_R12 import generate as build_R12
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = None                         # set by main()
@@ -833,7 +834,8 @@ def build_R11():
 
 
 BUILDERS = {'R1': build_R1, 'R2': build_R2, 'R3': build_R3, 'R4': build_R4, 'R5': build_R5, 'R6': build_R6,
-            'R7': build_R7, 'R8': build_R8, 'R9': build_R9, 'R10': build_R10, 'R11': build_R11}
+            'R7': build_R7, 'R8': build_R8, 'R9': build_R9, 'R10': build_R10, 'R11': build_R11,
+            'R12': build_R12}
 
 PART = 9_000_000
 
