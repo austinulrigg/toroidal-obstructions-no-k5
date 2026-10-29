@@ -1,7 +1,7 @@
 """The forms of the component containing two of the attachments, for E11
-(Proposition 5.12, the component D_1 containing c and d) and E14
-(Proposition 5.13, the component D_1 containing x and y), with the
-completion step of Construction 3.16(ii) carried out in full: after the
+(Proposition 5.14, the component D_1 containing c and d) and E14
+(Proposition 5.18, the component D_1 containing x and y), with the
+completion step of Construction 3.17 carried out in full: after the
 placement of the attachments on a K3,3 subdivision and the grouping of its
 interior pieces into components (construction.retained and
 construction.grouped), add at most two further single-vertex components with

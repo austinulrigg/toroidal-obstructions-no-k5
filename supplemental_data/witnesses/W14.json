@@ -1,6 +1,6 @@
 {
  "item": "W14",
- "where": "Proposition 6.6",
+ "where": "Proposition 6.7",
  "claim": "Psi_3, another bridge on {a,b,c} contracted to h, and Int(B) contracted to w with its edges to b, c deleted (so N(w) = {a,d,e}): this is T8, with cut vertex a.",
  "graph": {
   "vertices": [

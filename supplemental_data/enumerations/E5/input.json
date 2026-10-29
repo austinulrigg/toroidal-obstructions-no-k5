@@ -1,18 +1,18 @@
 {
  "item": "E5",
- "where": "Proposition 4.25",
+ "where": "Proposition 4.24",
  "paper text": [
   {
-   "line": 3565,
-   "text": "For the last assertion, deleting a bridge outside the paths while\nretaining its attachments preserves $\\Psi_1$ and gives a toroidal\nproper minor of $G$. Lemma~\\ref{dis:joint-test} then gives a passing\nchoice.\n\\end{proof}\n\nLemma~\\ref{dis:relevant} handles three-attachment bridges\nwith a planar relevant completion. If a bridge has none,\nthe next corollary of Lemma~\\ref{dis:joint-test} and minor-minimality shows that it is the only bridge and that\nevery path outside it is an edge.\n\n\\begin{corollary}\\label{dis:lone-bridge}\nIf a bridge $B$ has no planar relevant completion, then $G=\\Psi_1\\cup B$ and\nthe paths not in $B$ are edges.\n\\end{corollary}\n\\begin{proof}\nIf $\\Psi_1\\cup B$ were toroidal,\nLemma~\\ref{dis:joint-test} would give a planar relevant\ncompletion of $B$, contrary to the hypothesis. Thus\n$\\Psi_1\\cup B$ is nontoroidal, so $G=\\Psi_1\\cup B$ by\nminimality. An internal vertex of a path not contained\nin $B$ would then have degree two in $G$, contrary to\nthree-connectivity. Hence every such path is an edge.\n\\end{proof}\n\n\nWhen every bridge with at least two interior vertices has\nthree attachments and a planar relevant completion, the\npreceding results give finitely many possible forms for the\nbridges. Each three-attachment bridge has either one interior\nvertex or one of the forms in\nProposition~\\ref{prop:three-root-disjoint}. Each four-attachment\nbridge has one interior vertex, and at most three have the\nsame attachment set, since four would give a $K_{4,4}$ subgraph\nand hence a $K_5$ minor. We combine these forms with disjoint\ninteriors, subject to the attachment restrictions and\nLemma~\\ref{dis:counts}. A bridge containing $P_m$ includes\nboth that path and all $\\Psi_1$-bridges meeting its interior,\nso listing its possible forms also accounts for the length\nof $P_m$. The resulting enumerations are recorded\nin~\\supp{E4,~E5}.\n"
+   "where": "Section 4.4",
+   "text": "Suppose every bridge with at least two interior vertices has\nthree attachments and a planar relevant completion. The\npossible bridges are then those with one interior vertex and\nthe forms in Proposition~\\ref{prop:three-root-disjoint}.\nAt most three four-attachment bridges have the same attachment\nset, since four would give $K_{4,4}$ and hence a $K_5$ minor.\nWe combine these bridges with disjoint interiors, subject to\nthe attachment restrictions and Lemma~\\ref{dis:counts}.\nA bridge containing $P_m$ includes that path and all\n$\\Psi_1$-bridges meeting its interior, so its form also\naccounts for the length of $P_m$. These enumerations are\nrecorded in~\\supp{E4,~E5}. The next lemma says that if a bridge with three attachments,\ntogether with four vertices having those attachments as their\nneighborhood, is toroidal, then adding some two edges between\nits attachments gives a planar graph."
   },
   {
-   "line": 4166,
-   "text": "      \\foreach \\b in {u,t2,t3} \\draw[new] (\\a)--(\\b);\n    \\draw[new] (u)--(s3) (s1)--(t2);\n    \\draw[new] (t2) .. controls (2.4,-.1) and (1,-.15) .. (s3);\n    \\foreach \\a in {u,d1,d2} \\node[vertex] at (\\a) {};\n  \\or\n    \\coordinate (u) at (2.65,-.7);\n    \\coordinate (d1) at (.95,-.35);\n    \\coordinate (d2) at (1.35,-1.05);\n    \\foreach \\a in {d1,d2}\n      \\foreach \\b in {u,t2,s3} \\draw[new] (\\a)--(\\b);\n    \\draw[new] (u)--(t3) (s1)--(t2);\n    \\foreach \\a in {u,d1,d2} \\node[vertex] at (\\a) {};\n  \\fi\n  \\foreach \\a in {p,q} \\node[vertex,label=left:{$\\a$}] at (\\a) {};\n  \\foreach \\a in {r,z} \\node[vertex,label=right:{$\\a$}] at (\\a) {};\n  \\foreach \\i/\\pos in {1/above,2/above,3/below}{\n    \\node[vertex,label=\\pos:{$s_\\i$}] at (s\\i) {};\n    \\node[vertex,label=\\pos:{$t_\\i$}] at (t\\i) {};\n  }\n  \\node at (1.8,-2.15) {$\\mathfrak T_{\\name}$};\n\\end{scope}}\n\\end{tikzpicture}}\n\\caption{The obstructions $\\mathfrak T_{48}$ and $\\mathfrak T_{58}$,\nwith the paths $P_i$ in blue and edges outside $\\Psi_1$ in red.\nSee Figure~\\ref{fig:noncofacial} for $\\mathfrak T_5$\nand Figure~\\ref{fig:sole} for $\\mathfrak T_{68},\\mathfrak T_{69}$.}\n\\label{fig:endpoint-obstructions}\n\\end{figure}\n\n\n\\subsection{Three-attachment bridges and four-attachment bridges with one interior vertex}\n\\label{dis:three-construction}\n\nSuppose now that some path $P_i$ is not an edge and every bridge\nwith four attachments has one interior vertex. By\nProposition~\\ref{dis:types}, every bridge with at least two\ninterior vertices then has three attachments. The next corollary of\nCorollary~\\ref{dis:lone-bridge} and Lemma~\\ref{dis:aligned-contraction}\nshows that these bridges have planar relevant completions. This\nallows us to use the bridge forms from Section~\\ref{sec:core} and combine\nthem in the enumeration~\\supp{E5} to obtain the remaining graphs.\n"
+   "where": "Proposition 4.24 (proof)",
+   "text": "Exclude a graph if a degree-three interior vertex has adjacent neighbors, or if both $s_it_j$ and $s_jt_i$ occur for $i\\ne j$, by Lemmas~\\ref{lem:independent-neighborhood}(a) and~\\ref{dis:opposite-order}. If $s_mt_m$ is absent, require a bridge with both $s_m,t_m$ among its attachments, since $P_m$ lies in such a bridge. We do not choose the paths inside the candidates or require three disjoint $s_m$--$t_m$ paths. The family therefore includes additional graphs, but every graph under consideration occurs in it. Since some $P_m$ is not an edge, \\eqref{dis:shortest} gives $s_mt_m\\notin E(G)$. We therefore consider candidates with at least one of these three edges absent. Among those whose bridges all have at most one interior vertex, the enumeration~\\supp{E5} leaves $\\mathfrak T_{32},\\quad \\mathfrak T_{43},\\quad\n\\mathfrak T_{61}$. Among those with a bridge of form $T,S$ or $Q$, it leaves $\\mathfrak T_{38},\\quad \\mathfrak T_{45},\\quad\n\\mathfrak T_{48},\\quad \\mathfrak T_{66},\\quad\n\\mathfrak T_{67}$."
   },
   {
-   "line": 4257,
-   "text": "$T(c_1),T(c_2),T(h),S(c_1;c_2),S(c_2;c_1)$. For a bridge containing $P_m$ on one\nof the twelve triples containing $s_m,t_m$, also allow\n$Q(h;g,e)$ and the two four-cycle\nforms of Lemma~\\ref{core:two-cap-critical}, with $g,e,h$\nas in Lemma~\\ref{dis:relevant} and in the roles of $x,y,z$.\nThese choices give $18\\cdot6+12\\cdot3=144$ labeled\nthree-attachment forms. Each bridge is chosen independently,\nsubject to the bounds below.\n\n\\item The four-attachment bridges have one interior vertex,\non one of the three sets $\\{s_i,t_i,s_j,t_j\\}$ or the six sets\n$\\{s_m,t_m,s_x,t_y\\}$ with $\\{m,x,y\\}=\\{1,2,3\\}$.\nThe latter are of type (c). Together with the nine possible\nedges, this gives $144+9+9=162$ labeled edge and bridge types.\n\n\\item Count all forms on the same attachment set together.\nBy Lemma~\\ref{dis:counts}, at most three bridges use any\none triple, except that four are allowed when it contains\n$s_m,t_m$ and $s_mt_m$ is absent, allowing for the bridge\ncontaining $P_m$. At most three single vertices use any\none set $\\{s_i,t_i,s_j,t_j\\}$, since four give a $K_{4,4}$ subgraph\nand hence a $K_5$ minor. For each $m$, at most one bridge\namong the $Q$, four-cycle and type (c) forms associated\nwith $P_m$ is included, and its presence requires\n$s_mt_m$ to be absent.\n\\end{enumerate}\n\nWe exclude adjacent neighbors at a degree-three interior\nvertex and simultaneous edges $s_it_j,s_jt_i$ for $i\\ne j$,\nby Lemmas~\\ref{lem:independent-neighborhood}(a)\nand~\\ref{dis:opposite-order}. For each absent edge\n$s_mt_m$, some bridge must have both ends among its attachments.\nThe construction does not mark the paths or require their\nsimultaneous disjoint realization, so it also includes\nadditional graphs. Lemma~\\ref{dis:relevant},\nCorollary~\\ref{dis:remaining-completions}, Proposition~\\ref{dis:types}\nand the bounds above place every graph under consideration\nin this finite family.\n\nBy \\eqref{dis:shortest}, some edge $s_mt_m$ is absent.\nThe three parts of the enumeration~\\supp{E5} give the following results.\n\\["
+   "where": "Proposition 4.24 (proof)",
+   "text": "No candidate with a four-cycle form remains. These checks cover all the bridge forms, with graphs containing both a $T,S,Q$ form and a four-cycle form included in both checks. Every other candidate has a torus embedding, a $K_5$ minor, a cut of order at most two or a proper nontoroidal minor, as recorded in~\\supp{E5}. The same family with all three edges $s_mt_m$ present gives\n$\\mathfrak T_{48}$ and $\\mathfrak T_{58}$, already covered by\nTheorem~\\ref{dis:endpoint-only}. The three checks above\ntherefore give the stated list."
   }
  ],
  "the base graph": {
@@ -555,7 +555,7 @@
   },
   {
    "id": "A17",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (s1,s2,t1) on {s1, t1, s2}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (s1,s2,t1) on {s1, t1, s2}",
    "attachments": [
     "s1",
     "s2",
@@ -606,7 +606,7 @@
   },
   {
    "id": "A18",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (s1,s2,t1) on {s1, t1, s2}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (s1,s2,t1) on {s1, t1, s2}",
    "attachments": [
     "s1",
     "s2",
@@ -980,7 +980,7 @@
   },
   {
    "id": "A26",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (s2,s1,t2) on {s1, s2, t2}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (s2,s1,t2) on {s1, s2, t2}",
    "attachments": [
     "s1",
     "s2",
@@ -1031,7 +1031,7 @@
   },
   {
    "id": "A27",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (s2,s1,t2) on {s1, s2, t2}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (s2,s1,t2) on {s1, s2, t2}",
    "attachments": [
     "s1",
     "s2",
@@ -1675,7 +1675,7 @@
   },
   {
    "id": "A41",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (s1,s3,t1) on {s1, t1, s3}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (s1,s3,t1) on {s1, t1, s3}",
    "attachments": [
     "s1",
     "s3",
@@ -1726,7 +1726,7 @@
   },
   {
    "id": "A42",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (s1,s3,t1) on {s1, t1, s3}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (s1,s3,t1) on {s1, t1, s3}",
    "attachments": [
     "s1",
     "s3",
@@ -2370,7 +2370,7 @@
   },
   {
    "id": "A56",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (s3,s1,t3) on {s1, s3, t3}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (s3,s1,t3) on {s1, s3, t3}",
    "attachments": [
     "s1",
     "s3",
@@ -2421,7 +2421,7 @@
   },
   {
    "id": "A57",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (s3,s1,t3) on {s1, s3, t3}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (s3,s1,t3) on {s1, s3, t3}",
    "attachments": [
     "s1",
     "s3",
@@ -3065,7 +3065,7 @@
   },
   {
    "id": "A71",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (s2,s3,t2) on {s2, t2, s3}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (s2,s3,t2) on {s2, t2, s3}",
    "attachments": [
     "s2",
     "s3",
@@ -3116,7 +3116,7 @@
   },
   {
    "id": "A72",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (s2,s3,t2) on {s2, t2, s3}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (s2,s3,t2) on {s2, t2, s3}",
    "attachments": [
     "s2",
     "s3",
@@ -3490,7 +3490,7 @@
   },
   {
    "id": "A80",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (s3,s2,t3) on {s2, s3, t3}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (s3,s2,t3) on {s2, s3, t3}",
    "attachments": [
     "s2",
     "s3",
@@ -3541,7 +3541,7 @@
   },
   {
    "id": "A81",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (s3,s2,t3) on {s2, s3, t3}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (s3,s2,t3) on {s2, s3, t3}",
    "attachments": [
     "s2",
     "s3",
@@ -3915,7 +3915,7 @@
   },
   {
    "id": "A89",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (t1,t2,s1) on {s1, t1, t2}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (t1,t2,s1) on {s1, t1, t2}",
    "attachments": [
     "s1",
     "t1",
@@ -3966,7 +3966,7 @@
   },
   {
    "id": "A90",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (t1,t2,s1) on {s1, t1, t2}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (t1,t2,s1) on {s1, t1, t2}",
    "attachments": [
     "s1",
     "t1",
@@ -4340,7 +4340,7 @@
   },
   {
    "id": "A98",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (t2,t1,s2) on {t1, s2, t2}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (t2,t1,s2) on {t1, s2, t2}",
    "attachments": [
     "s2",
     "t1",
@@ -4391,7 +4391,7 @@
   },
   {
    "id": "A99",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (t2,t1,s2) on {t1, s2, t2}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (t2,t1,s2) on {t1, s2, t2}",
    "attachments": [
     "s2",
     "t1",
@@ -5035,7 +5035,7 @@
   },
   {
    "id": "A113",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (t1,t3,s1) on {s1, t1, t3}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (t1,t3,s1) on {s1, t1, t3}",
    "attachments": [
     "s1",
     "t1",
@@ -5086,7 +5086,7 @@
   },
   {
    "id": "A114",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (t1,t3,s1) on {s1, t1, t3}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (t1,t3,s1) on {s1, t1, t3}",
    "attachments": [
     "s1",
     "t1",
@@ -5730,7 +5730,7 @@
   },
   {
    "id": "A128",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (t3,t1,s3) on {t1, s3, t3}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (t3,t1,s3) on {t1, s3, t3}",
    "attachments": [
     "s3",
     "t1",
@@ -5781,7 +5781,7 @@
   },
   {
    "id": "A129",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (t3,t1,s3) on {t1, s3, t3}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (t3,t1,s3) on {t1, s3, t3}",
    "attachments": [
     "s3",
     "t1",
@@ -6425,7 +6425,7 @@
   },
   {
    "id": "A143",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (t2,t3,s2) on {s2, t2, t3}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (t2,t3,s2) on {s2, t2, t3}",
    "attachments": [
     "s2",
     "t2",
@@ -6476,7 +6476,7 @@
   },
   {
    "id": "A144",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (t2,t3,s2) on {s2, t2, t3}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (t2,t3,s2) on {s2, t2, t3}",
    "attachments": [
     "s2",
     "t2",
@@ -6850,7 +6850,7 @@
   },
   {
    "id": "A152",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (t3,t2,s3) on {t2, s3, t3}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (t3,t2,s3) on {t2, s3, t3}",
    "attachments": [
     "s3",
     "t2",
@@ -6901,7 +6901,7 @@
   },
   {
    "id": "A153",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (t3,t2,s3) on {t2, s3, t3}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (t3,t2,s3) on {t2, s3, t3}",
    "attachments": [
     "s3",
     "t2",
@@ -7258,11 +7258,11 @@
  },
  "what this shows": "Every assembly allowed by the base clauses either lies inside a recorded toroidal graph, so it is toroidal, or contains a recorded nontoroidal graph. An obstruction of the case therefore equals a recorded nontoroidal graph in the family, and the verdicts of those give the stated list.",
  "not in this item": "The recorded nontoroidal graphs come with no certificate of nontoroidality here; their genus computations are part of the table of genus computations cited in Appendix A.",
- "vertex names": "Psi_1 with twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}. Interior vertices of copy k of atom A<i> are named A<i>#k@<role>. In the forms on {c1, c2, h}, the roles x, y, z are c1, c2, h; for a support containing s_m, t_m they are g, e, h as in Lemma 4.16.",
+ "vertex names": "Psi_1 with twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}. Interior vertices of copy k of atom A<i> are named A<i>#k@<role>. In the forms on {c1, c2, h}, the roles x, y, z are c1, c2, h; for a support containing s_m, t_m they are g, e, h as in Lemma 4.15.",
  "constraints of the case (the base clauses)": [
-  "Lemma 3.3(a): an atom whose degree-three interior vertex sees both ends of an edge s_i t_j excludes that edge.",
-  "Lemma 4.8: not both s_i t_j and s_j t_i.",
-  "At most three bridges on one attachment triple, or four when it contains s_m, t_m and s_m t_m is absent (Lemma 4.17); at most three single vertices on one set {s_i, t_i, s_j, t_j} (most copies 3).",
+  "Lemma 3.4(a): an atom whose degree-three interior vertex sees both ends of an edge s_i t_j excludes that edge.",
+  "Lemma 4.7: not both s_i t_j and s_j t_i.",
+  "At most three bridges on one attachment triple, or four when it contains s_m, t_m and s_m t_m is absent (Lemma 4.16); at most three single vertices on one set {s_i, t_i, s_j, t_j} (most copies 3).",
   "The Q, four-cycle and type (c) forms occur only as the bridge containing P_m: at most one of them for each m, and only when s_m t_m is absent.",
   "For each m, s_m t_m is present or some bridge attaches to both s_m and t_m."
  ],

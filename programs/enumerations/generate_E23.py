@@ -3,7 +3,7 @@
 The program's names: p1, p2 are the twins on abc and q1, q2 those on ade.
 The bridge B of the component has attachments b, c, d, e; there are no
 other bridges, and, as in the proof, no cross edge. The graph H_2 = B + bc
-+ de is nonplanar, so B is a part of Construction 3.16 with attachments
++ de is nonplanar, so B is a part of Construction 3.17 with attachments
 b, c, d, e and added edges bc, de, and G = Psi_3 + B. Every graph is
 classified: the graph and all its one-edge minors are first tested with
 multi_genus (psi2_runs.fast_outcomes), the rest by enumeration.classify. A

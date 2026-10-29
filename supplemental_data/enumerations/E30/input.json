@@ -3,8 +3,8 @@
  "where": "Proposition 6.15",
  "paper text": [
   {
-   "line": 10092,
-   "text": "Thus $H_2'-de+ad+ae$ is still nonplanar, and both tests in\n\\eqref{r1:c1-caps} still fail for $B'$.\nIn the nonplanar case, $H_2'$ lies in their common subgraph,\nso again both tests fail.\n\nThe reduction keeps all four attachments and a connected interior\nwith at most nine vertices. Therefore\n$G'=(\\Psi_3\\cup B')+bd+E$ is a nontoroidal minor with at most\n$18$ vertices, and minimality gives $G'=G$.\nConstruction~\\ref{common:marked-construction}, using $E'$ and\nrequiring $de$ when $H_0$ is planar, therefore includes every\npossibility. The two choices of $E$ and the two subdivision\ncases give $66{,}384$ candidates.\nEvery resulting graph is toroidal, has a $K_5$ minor or a proper\nnontoroidal minor, or is one of thirteen graphs $\\mathfrak T_i$~\\supp{E30}."
+   "where": "Proposition 6.15 (proof)",
+   "text": "Construction~\\ref{common:marked-construction}, using $E'$ and requiring $de$ when $H_0$ is planar, therefore includes every possibility. The two choices of $E$ and the two cases for $H_0$ give $66{,}384$ candidates. Every resulting graph is toroidal, has a $K_5$ minor or a proper nontoroidal minor, or is isomorphic to one of thirteen graphs $\\mathfrak T_i$~\\supp{E30}. Nine have twin triples meeting in zero or two vertices, leaving $\\mathfrak T_{14},\\mathfrak T_{37},\\mathfrak T_{41},\\mathfrak T_{59}$."
   }
  ],
  "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",

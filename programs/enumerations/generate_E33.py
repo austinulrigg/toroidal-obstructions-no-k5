@@ -2,9 +2,9 @@
 
 The program's names: p1, p2 are the twins on abc and q1, q2 those on ade.
 As in the proof, G = Psi_3 + ce + t + B with N(t) = {b, c, d}, or
-G = Psi_3 + ce + cd + B, and by equation (6) G is toroidal only if
+G = Psi_3 + ce + cd + B, and by equation (5) G is toroidal only if
 B + ab + ad or B + ad + bd is planar. When B + ad is nonplanar, B is a part
-of Construction 3.16 with attachments a, b, d and the added edge ad. Every
+of Construction 3.17 with attachments a, b, d and the added edge ad. Every
 graph is classified, first by looking for a proper nontoroidal minor
 (multi_genus) and then by enumeration.classify, and each catalogue graph
 found is checked against the conditions G satisfies here, as in E31. The
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     out = sys.argv[1]
     s = ext.run_item_minor_first("E33", [case(*c) for c in EXTERIORS], ["T59"], out,
                                  note="Psi3 + ce + t (N(t) = bcd) or Psi3 + ce + cd, "
-                                      "+ part U of Construction 3.16 with R = abd, D = ad")
+                                      "+ part U of Construction 3.17 with R = abd, D = ad")
     found = ext.annotate(out, {c[0]: (R, TESTS) for c in EXTERIORS}, want_row=3)
     s["catalogue graphs and their structural exclusions"] = found
     s["agrees with the text"] = s["complete"] and set(found) == {"T59"} and all(

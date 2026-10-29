@@ -1,10 +1,10 @@
 {
  "item": "E10",
- "where": "Proposition 5.10",
+ "where": "Lemma 5.9",
  "paper text": [
   {
-   "line": 7000,
-   "text": "the retained $K_{3,3}$ subdivision, so both tests remain\nnonplanar. By Lemma~\\ref{r2:four-tests}, replacing $B$ by a\nproper $B'$ would give a proper nontoroidal minor of $G$.\nThus $B$ already has one of these reduced forms.\n\nConstruction~\\ref{common:marked-construction}, with attachments\n$x,c,d$ and added edges $xc,xd$, lists the reduced bridges\nbefore $x$ is separated. For each, replace every edge $xv$\nby $av$ or $bv$ in every possible way, and give $a$ or $b$\none interior neighbor when needed, again trying every choice.\nThis includes every reduction just described.\nAdjoin three vertices with neighborhood $\\{a,b,c\\}$ and\ntwo with neighborhood $\\{a,b,d\\}$.\n\nThe enumeration~\\supp{E10} gives"
+   "where": "Lemma 5.9 (proof)",
+   "text": "Construction~\\ref{common:marked-construction},\nwith attachments $x,c,d$ and added edges $xc,xd$,\nlists the reduced bridges before $x$ is separated.\nReplace each edge $xv$ by $av$ or $bv$ and add\nan edge to the interior at $a$ or $b$ if needed,\nconsidering every possible choice. This includes\nevery reduction above. Adjoin three vertices\nwith neighborhood $\\{a,b,c\\}$ and two with\nneighborhood $\\{a,b,d\\}$. The enumeration~\\supp{E10} gives $2{,}953$\ncandidates up to isomorphisms fixing the attachments.\nOf these, $2{,}159$ have a $K_5$ minor, $92$ have\na separating set of at most two vertices, and $702$\nhave a proper nontoroidal minor. These exclude\nevery candidate, so $H$ cannot be planar."
   }
  ],
  "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ...",

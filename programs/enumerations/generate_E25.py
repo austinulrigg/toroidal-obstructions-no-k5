@@ -5,7 +5,7 @@ h1, h2 the twins with neighbourhood {c, e, w} (p', q' in the paper). As in
 the proof, the bridge on b, c, d, e is reduced to w, h1, h2 with
 N(w) = {b, d, h1, h2}, N(h1) = N(h2) = {c, e, w}, and the other bridge C
 lies on {a, b, d} with nonplanar triangle completion: a part of
-Construction 3.16 with attachments a, b, d and the added triangle.
+Construction 3.17 with attachments a, b, d and the added triangle.
 G = Psi_3 + bd + w + h1 + h2 + C. Every graph is classified
 (enumeration.classify). A candidate is also recorded with a certificate
 when C + ab + ad is nonplanar (it must be planar when a cross edge is

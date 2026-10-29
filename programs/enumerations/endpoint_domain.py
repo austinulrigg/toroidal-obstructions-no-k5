@@ -1,4 +1,4 @@
-"""The domain of E4 (Theorem 4.23): assemblies of bridges on Psi_1 when
+"""The domain of E4 (Theorem 4.22): assemblies of bridges on Psi_1 when
 every path P_i is an edge.
 
 The names: a = s1, b = t1, c = s2, d = t2, e = s3, f = t3, with twins p, q
@@ -9,7 +9,7 @@ S(x;y), as in the proof), the single vertices on the three sets
 {s_i, t_i, s_j, t_j}, and the six edges s_i t_j. A configuration gives the
 number of copies of each atom, at most three on one triple and at most five
 three-attachment bridges in all (none of the other atoms with five), with
-the conditions of the proof (Lemmas 3.3(a), 4.8, 4.17 and 4.21). base_cnf() gives
+the conditions of the proof (Lemmas 3.4(a), 4.7, 4.16 and 4.20). base_cnf() gives
 these conditions as clauses: the first 225 variables say "at least k copies
 of atom i", and 1,070 auxiliary variables form a counter for the bound of
 five. Every legal count vector has the canonical counter extension of

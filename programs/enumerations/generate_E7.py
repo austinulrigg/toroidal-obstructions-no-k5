@@ -1,13 +1,13 @@
-"""E7: bridges of type (a) with at least two interior vertices (Proposition 4.29).
+"""E7: bridges of type (a) with at least two interior vertices (Proposition 4.28).
 
 B has attachments sx, tx, sy, ty (s_x, t_x, s_y, t_y in the paper), and C is
-the cycle sx tx ty sy sx. By the proof, B is a part of Construction 3.16
+the cycle sx tx ty sy sx. By the proof, B is a part of Construction 3.17
 with these attachments and added edges E(C), and the retained K3,3
 subdivision uses sy ty. Each part is tested against the conditions of the
 proof, in this order: B + C is nonplanar; the path completion
 B + sy sx + sx tx + tx ty is planar; B + K4[sx,tx,sy,ty] has no cut of at
 most two vertices; no interior vertex of degree three has two adjacent
-neighbours in B + sx tx + sy ty (Lemma 3.3(a), as P_x and P_y are edges);
+neighbours in B + sx tx + sy ty (Lemma 3.4(a), as P_x and P_y are edges);
 B has no disjoint sx-ty and sy-tx paths; and every one-step allowed
 operation of Section 3 makes B + C planar. A part failing a condition is
 recorded with a certificate. The proof finds one bridge, up to
@@ -47,7 +47,7 @@ def classify_bridge(B):
     cut = el.small_cut(K4)
     if cut is not None:
         return {"outcome": "B + K4[R] has a cut of order at most two", "cut": [str(v) for v in cut]}
-    # Lemma 3.3(a): a vertex of degree three has independent neighbors. In G
+    # Lemma 3.4(a): a vertex of degree three has independent neighbors. In G
     # the paths P_x = sx tx and P_y = sy ty are edges.
     Gpart = plus(B, [("sx", "tx"), ("sy", "ty")])
     for v in sorted((v for v in B if v not in R), key=str):
@@ -55,7 +55,7 @@ def classify_bridge(B):
             nb = sorted(B[v], key=str)
             bad = [[str(a), str(b)] for a, b in combinations(nb, 2) if Gpart.has_edge(a, b)]
             if bad:
-                return {"outcome": "degree-three vertex with adjacent neighbors (Lemma 3.3(a))",
+                return {"outcome": "degree-three vertex with adjacent neighbors (Lemma 3.4(a))",
                         "vertex": str(v), "adjacent neighbors": bad[0]}
     dp = el.disjoint_paths(B, R, [("sx", "ty"), ("sy", "tx")])
     if dp:
@@ -95,7 +95,7 @@ if __name__ == "__main__":
         records.append(rec)
     counts = Counter(r["outcome"]["outcome"] for r in records)
     surv = [r for r in records if r["outcome"]["outcome"] == "survivor"]
-    summary = {"item": "E7", "where": "Proposition 4.29",
+    summary = {"item": "E7", "where": "Proposition 4.28",
                "specification": spec.payload(), "generation": st, "candidates": len(records),
                "outcomes": dict(counts),
                "survivors": [{"id": r["id"], "edges": r["part"]["edges"],
@@ -111,7 +111,7 @@ if __name__ == "__main__":
                    "B + C planar": ["planar", "B + C"],
                    "path completion nonplanar": ["nonplanar", "B + path"],
                    "B + K4[R] has a cut of order at most two": ["cut", "B + K4[R]"],
-                   "degree-three vertex with adjacent neighbors (Lemma 3.3(a))": ["degree three", "B + Rx + Ry"],
+                   "degree-three vertex with adjacent neighbors (Lemma 3.4(a))": ["degree three", "B + Rx + Ry"],
                    "disjoint sx-ty and sy-tx paths": ["disjoint paths", [["sx", "ty"], ["sy", "tx"]]],
                    "allowed minor keeps B + C nonplanar": ["allowed minor nonplanar", "B + C"],
                    "survivor": ["survivor", "B + C", "B + path"]},

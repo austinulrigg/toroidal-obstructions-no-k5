@@ -22,13 +22,13 @@ GZ_LIMIT = 25 * 1024 * 1024
 
 # Where the paper uses each enumeration.
 WHERE = {
-    'E1': 'Lemma 4.11', 'E2': 'Proposition 4.22', 'E3': 'Proposition 4.22', 'E4': 'Theorem 4.23',
-    'E5': 'Proposition 4.25', 'E6': 'Proposition 4.26', 'E7': 'Proposition 4.29',
-    'E8': 'Lemma 4.30 and Proposition 4.31', 'E9': 'Proposition 5.9', 'E10': 'Proposition 5.10',
-    'E11': 'Proposition 5.12', 'E12': 'Proposition 5.13', 'E13': 'Proposition 5.13',
-    'E14': 'Proposition 5.13, the case of two components', 'E15': 'Proposition 5.14', 'E16': 'Proposition 5.14',
-    'E17': 'Proposition 5.14', 'E18': 'Lemma 5.15', 'E19': 'Lemma 5.17', 'E20': 'Proposition 5.20',
-    'E21': 'Proposition 6.6', 'E22': 'Proposition 6.6', 'E23': 'Lemma 6.10', 'E24': 'Proposition 6.12',
+    'E1': 'Lemma 4.10', 'E2': 'Proposition 4.21', 'E3': 'Proposition 4.21', 'E4': 'Theorem 4.22',
+    'E5': 'Proposition 4.24', 'E6': 'Proposition 4.25', 'E7': 'Proposition 4.28',
+    'E8': 'Lemma 4.29 and Proposition 4.30', 'E9': 'Proposition 5.10', 'E10': 'Lemma 5.9',
+    'E11': 'Proposition 5.14', 'E12': 'Lemma 5.15', 'E13': 'Proposition 5.18',
+    'E14': 'Proposition 5.18, the case of two components', 'E15': 'Proposition 5.21', 'E16': 'Proposition 5.21',
+    'E17': 'Lemma 5.20', 'E18': 'Lemma 5.22', 'E19': 'Lemma 5.24', 'E20': 'Proposition 5.27',
+    'E21': 'Proposition 6.7', 'E22': 'Proposition 6.7', 'E23': 'Lemma 6.10', 'E24': 'Proposition 6.12',
     'E25': 'Proposition 6.12', 'E26': 'Proposition 6.12', 'E27': 'Lemma 6.13', 'E28': 'Lemma 6.13',
     'E29': 'Lemma 6.14', 'E30': 'Proposition 6.15', 'E31': 'Lemma 6.17', 'E32': 'Lemma 6.17',
     'E33': 'Lemma 6.17', 'E34': 'Proposition 6.22',
@@ -323,7 +323,7 @@ NAMES6 = ('Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourh
           'Interior vertices of bridges are u0, u1, ...')
 NAMES5 = ('Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. '
           'Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ...')
-NAMES5w = NAMES5 + " Twins p', q' have neighbourhood {a,c,w}, as in Proposition 5.14."
+NAMES5w = NAMES5 + " Twins p', q' have neighbourhood {a,c,w}, as in Section 5.4.3."
 NAMES4 = ('Section 4.7, type (c): a = s1, b = t1, c = s2, d = t3, e = s3, f = t2; '
           'twins p, q with neighbourhood {a,c,e} and r, z with {b,d,f}.')
 
@@ -496,9 +496,9 @@ RENAME = {
 }
 
 # The bridges given in the paper. E7: twins p', q' on {sx, sy, v}, with v
-# also adjacent to tx, ty. E8: the bridges B1, ..., B5 of Lemma 4.30.
+# also adjacent to tx, ty. E8: the bridges B1, ..., B5 of Lemma 4.29.
 PAPER_FORMS = {
-    'E7': {'the form of Proposition 4.29': [("p'", 'sx'), ("p'", 'sy'), ("p'", 'v'), ("q'", 'sx'), ("q'", 'sy'),
+    'E7': {'the form of Proposition 4.28': [("p'", 'sx'), ("p'", 'sy'), ("p'", 'v'), ("q'", 'sx'), ("q'", 'sy'),
                                            ("q'", 'v'), ('v', 'tx'), ('v', 'ty')]},
     'E8': {'B1': [("p'", 'a'), ("p'", 'c'), ("p'", 'v'), ("q'", 'a'), ("q'", 'c'), ("q'", 'v'),
                   ('a', 'u'), ('b', 'u'), ('d', 'u'), ('u', 'v')],
@@ -522,22 +522,22 @@ FACTS = {
     'disjoint sx-ty and sy-tx paths': (
         'B has disjoint s_x-t_y and s_y-t_x paths',
         'The proof shows: "Also, B has no disjoint s_x–t_y and s_y–t_x paths."'),
-    'degree-three vertex with adjacent neighbors (Lemma 3.3(a))': (
+    'degree-three vertex with adjacent neighbors (Lemma 3.4(a))': (
         'an interior vertex of degree three has two adjacent neighbours',
-        'Lemma 3.3(a); the edges added in the test graph are edges of G.'),
+        'Lemma 3.4(a); the edges added in the test graph are edges of G.'),
     'B + K4[R] has a cut of order at most two': (
         'B plus all edges among its four attachments has a cut of at most two vertices',
-        'Three-connectivity of B ∪ K_4[attachments], used with Construction 3.16.'),
+        'Three-connectivity of B ∪ K_4[attachments], used with Construction 3.17.'),
     'U + ac + bd nonplanar': (
         'B + ac + bd is nonplanar',
         'The proof shows: "The graph B + ac + bd is planar."'),
     'U + K4[abcd] has a cut of order at most two': (
         'B plus all edges among a, b, c, d has a cut of at most two vertices',
-        'Three-connectivity of B ∪ K_4[{a,b,c,d}], used with Construction 3.16.'),
+        'Three-connectivity of B ∪ K_4[{a,b,c,d}], used with Construction 3.17.'),
 }
 
-WHOLE_GRAPHS_E8 = ('For each bridge that passes, the two graphs of Lemma 4.30(i): G = (Psi_1 ∪ B) + eb and '
-                   'G = (Psi_1 ∪ B) + af, with P_x = cd and P_w = ef. Proposition 4.31 cites this part for the '
+WHOLE_GRAPHS_E8 = ('For each bridge that passes, the two graphs of Lemma 4.29(i): G = (Psi_1 ∪ B) + eb and '
+                   'G = (Psi_1 ∪ B) + af, with P_x = cd and P_w = ef. Proposition 4.30 cites this part for the '
                    'claim that these give only T66. The exterior formed by a bridge uv on {c,d,e,f} is treated '
                    'in the paper by argument, so it is not included here.')
 
@@ -759,10 +759,10 @@ def package_E19(work, out):
         'vertex names': 'Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with {a,b,d}; v is the contracted '
                         'other component. Interior vertices of U are u0, u1, ....',
         'cases': 'U on T = {a,c,d} or {b,c,d}, and N(v) each of the three other triples: six cases.',
-        'nonplanar U': {'construction': 'Construction 3.16 with attachments T and no added edges',
+        'nonplanar U': {'construction': 'Construction 3.17 with attachments T and no added edges',
                         'bridges per case': gen['parts up to rooted isomorphism'],
                         'generation': {k: v for k, v in gen.items() if k != 'outcomes'}},
-        'planar U': {'construction': 'Construction 3.16 with attachments T and one added edge xy, required, for '
+        'planar U': {'construction': 'Construction 3.17 with attachments T and one added edge xy, required, for '
                                      'each pair xy of T; kept when planar with all three two-edge completions '
                                      'nonplanar; merged over the three pairs up to isomorphism fixing T',
                      'forms per triple': forms['acd']['count'], 'forms': forms}})
@@ -1102,7 +1102,7 @@ def package_E1(work, out):
                         'Interior vertices of B are i0, i1, ...',
         'the case': 'A = {s1, t1, s2, t2} and E = {s1s2, t1t2}. G = H0 ∪ B, where H0 consists of p, q, r, z, '
                     'their twelve edges and s3t3, and B (called H1 in the proof) meets H0 in A. The candidates are '
-                    'the graphs B of Construction 3.16 with attachments A and added edges E: A independent in B, '
+                    'the graphs B of Construction 3.17 with attachments A and added edges E: A independent in B, '
                     'interior nonempty and connected, every attachment with an interior neighbour, and '
                     'B + E nonplanar (each candidate gives a Kuratowski subgraph).',
         'H0': {'vertices': sorted(H0), 'edges': sorted(sorted((u, v)) for u in H0 for v in H0[u] if u < v)},
@@ -1110,7 +1110,7 @@ def package_E1(work, out):
             'K5 minor': 'branch sets in G, or in B + E, which is a minor of G (paths s1 p s2 and t1 r t2)',
             'cut of at most two vertices': 'a cut of G',
             'proper nontoroidal minor': "either an allowed reduction B' of B with B' + E nonplanar, which makes "
-                                        "H0 ∪ B' nontoroidal by the implication proved in Lemma 4.11, or an edge "
+                                        "H0 ∪ B' nontoroidal by the implication proved in Lemma 4.10, or an edge "
                                         "of G = H0 ∪ B whose deletion or contraction leaves a minor model of some T_i",
             'excluded by a hypothesis of the case': 'B has no disjoint s1-t1 and s2-t2 paths; by minimality B is '
                                                     'H1, which contains P1 and P2'},
@@ -1360,7 +1360,7 @@ def package_E3(work, out):
                      'why the minor is nontoroidal': {
                          'reason': 'genus at least two, by the genus computations of Appendix A',
                          'also': 'the vertex %s has degree three and its neighbours %s, %s are adjacent, so a torus '
-                                 'embedding of G - %s%s would extend to G (proof of Lemma 3.3(a)); G is nontoroidal '
+                                 'embedding of G - %s%s would extend to G (proof of Lemma 3.4(a)); G is nontoroidal '
                                  'because B + ac + cd + bd is nonplanar' % (v, x, y, x, y)}}
                 how = 'a genus computation'
             reasons[how] += 1
@@ -1410,7 +1410,7 @@ def package_E3(work, out):
         'vertex names': 'a = s1, b = t1, c = s2, d = t2, e = s3, f = t3; twins p, q on {a, c, e} and r, z on '
                         '{b, d, f}; the paths are the edges ab, cd, ef. Interior vertices of B are i0, i1, ...',
         'the case': 'G = (Psi_1 ∪ B) + af, where B has attachments A = {a, b, c, d}. The candidates are the '
-                    'graphs B of Construction 3.16 with attachments A, added edges E = {ac, cd, bd} and no '
+                    'graphs B of Construction 3.17 with attachments A, added edges E = {ac, cd, bd} and no '
                     'required edges: A independent in B, interior nonempty and connected, every attachment with '
                     'an interior neighbour, and B + E nonplanar (each candidate gives a Kuratowski subgraph).',
         'the rest of G': {'vertices': sorted(X), 'edges': sorted_edges(X)},
@@ -1524,13 +1524,13 @@ def package_E11(work, out):
                         'singleton components.',
         'subcases': SUBCASE,
         'construction of D_c': 'with all four graphs H_c + E planar, at most two single vertices on c, w and '
-                               'some of a, b, with or without cw; otherwise Construction 3.16 with attachments '
+                               'some of a, b, with or without cw; otherwise Construction 3.17 with attachments '
                                'a, b, c, w, added edges ab, aw, bw and E (E = {ac}, {bc} or {ac, bc}, required), '
                                'original pair cw as an edge or a once-subdivided segment, or on the quotient '
                                '(H_c + ac + bc)/ab with every lift of the edges at the identified vertex; every '
                                'interior component given its neighbours at c and w, and at most two further '
                                'single vertices for missing neighbours at a, b',
-        'construction of D_1': 'Construction 3.16 with attachments a, c, d, w, added edges ac, ad, aw, the '
+        'construction of D_1': 'Construction 3.17 with attachments a, c, d, w, added edges ac, ad, aw, the '
                                'subdivision using ac or ad, original pairs cw, dw as an edge or a once-subdivided '
                                'segment; the interior pieces divided into components in every way and joined by '
                                'every forest; then at most two further single vertices, each adjacent to w and to '
@@ -1558,7 +1558,7 @@ def package_E11(work, out):
                'T_i with B planar': sorted({k[0] for k in planar_found}, key=by_num),
                'subcase of those': 'all (a), one component D_0' if all(k[1] == 'a' for k in planar_found)
                else 'subcases ' + ', '.join(sorted({k[1] for k in planar_found})),
-               'T_i with B nonplanar (handled by Proposition 5.9, E9)':
+               'T_i with B nonplanar (handled by Proposition 5.10, E9)':
                    sorted({k[0] for k in nonplanar_found}, key=by_num)}
     write_item(out, 'E11', inp, cands, verdicts, summary)
     return summary
@@ -1616,15 +1616,15 @@ def package_E14(work, out):
             'no subdivision': 'a path x t y with t in D_1 and some of tu, tv, ta, original edges xu, xv, yu, yv, '
                               'and possibly a second single vertex (a superset of the seven forms of the text)',
             'B_1 + uv + xy nonplanar (P1, N(D_1) = {u,v})':
-                'Construction 3.16 with attachments b, c, u, v, added edges bc, uv, required edge bc, original '
+                'Construction 3.17 with attachments b, c, u, v, added edges bc, uv, required edge bc, original '
                 'pairs bu, bv, cu, cv as an edge or a once-subdivided segment',
             'the hard tests of row two (P1)':
-                'Construction 3.16 with attachments a, b, c, u, added edges bc, au, required edge bc, original '
+                'Construction 3.17 with attachments a, b, c, u, added edges bc, au, required edge bc, original '
                 'pairs bu, cu; the interior pieces and u joined into one connected graph by every forest',
             'B_1 + au + ac + ad nonplanar (P2, N(D_1) in {u}, {a,u})':
-                'Construction 3.16 with attachments a, c, d, u, added edges au, ac, ad, the subdivision using '
+                'Construction 3.17 with attachments a, c, d, u, added edges au, ac, ad, the subdivision using '
                 'ac or ad, original pairs cu, du as an edge or a once-subdivided segment',
-            'completion (Construction 3.16(ii), Lemma 5.8)':
+            'completion (Construction 3.17, Lemma 5.8)':
                 'the interior pieces are divided into components in every way and joined by every forest; then '
                 'at most two further single vertices are added, with every admissible neighbourhood, and every '
                 'inclusion-minimal set of attaching edges from the retained components (and, for B_1 + uv + xy, '
@@ -1920,8 +1920,8 @@ def form_name(form, roles, R):
     x, y, z = [R(v) for v in roles]
     return {'single': 'one vertex', 'Tx': 'T(%s)' % x, 'Ty': 'T(%s)' % y, 'Tz': 'T(%s)' % z,
             'Sxy': 'S(%s;%s)' % (x, y), 'Syx': 'S(%s;%s)' % (y, x), 'Q': 'Q(%s;%s,%s)' % (z, x, y),
-            'FC1': 'the first four-cycle form of Lemma 3.12 with (x,y,z) = (%s,%s,%s)' % (x, y, z),
-            'FC2': 'the second four-cycle form of Lemma 3.12 with (x,y,z) = (%s,%s,%s)' % (x, y, z)}[form]
+            'FC1': 'the first four-cycle form of Lemma 3.13 with (x,y,z) = (%s,%s,%s)' % (x, y, z),
+            'FC2': 'the second four-cycle form of Lemma 3.13 with (x,y,z) = (%s,%s,%s)' % (x, y, z)}[form]
 
 
 def e5_names(atoms, N):
@@ -1966,13 +1966,13 @@ def e13_names(atoms, N):
 E5_INPUT = {
     'vertex names': 'Psi_1 with twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}. Interior vertices of copy k of '
                     'atom A<i> are named A<i>#k@<role>. In the forms on {c1, c2, h}, the roles x, y, z are c1, c2, h; '
-                    'for a support containing s_m, t_m they are g, e, h as in Lemma 4.16.',
+                    'for a support containing s_m, t_m they are g, e, h as in Lemma 4.15.',
     'constraints of the case (the base clauses)': [
-        'Lemma 3.3(a): an atom whose degree-three interior vertex sees both ends of an edge s_i t_j excludes that '
+        'Lemma 3.4(a): an atom whose degree-three interior vertex sees both ends of an edge s_i t_j excludes that '
         'edge.',
-        'Lemma 4.8: not both s_i t_j and s_j t_i.',
+        'Lemma 4.7: not both s_i t_j and s_j t_i.',
         'At most three bridges on one attachment triple, or four when it contains s_m, t_m and s_m t_m is absent '
-        '(Lemma 4.17); at most three single vertices on one set {s_i, t_i, s_j, t_j} (most copies 3).',
+        '(Lemma 4.16); at most three single vertices on one set {s_i, t_i, s_j, t_j} (most copies 3).',
         'The Q, four-cycle and type (c) forms occur only as the bridge containing P_m: at most one of them for each '
         'm, and only when s_m t_m is absent.',
         'For each m, s_m t_m is present or some bridge attaches to both s_m and t_m.'],

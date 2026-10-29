@@ -1,6 +1,6 @@
 {
  "item": "W15",
- "where": "Proposition 6.6",
+ "where": "Proposition 6.7",
  "claim": "Psi_3, two components with neighbourhood {a,b,d} contracted to k1, k2, and Int(B) contracted to w (neighbourhood {a,b,c,d,e}): this is T22.",
  "graph": {
   "vertices": [

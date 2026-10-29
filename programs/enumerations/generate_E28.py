@@ -12,7 +12,7 @@ completion of C that must be planar if G is toroidal:
     bcd    Psi_3 + w + C        C + bc + bd + cd
 
 (C on abc is excluded in the proof by the two-cut {a, c}.) C is a part of
-Construction 3.16 with the triple as attachments and the added edges of
+Construction 3.17 with the triple as attachments and the added edges of
 the table. Every graph is classified (enumeration.classify); the data
 folder keeps the case C on abd, which the proof cites. The proof finds no
 obstruction here.
@@ -48,7 +48,7 @@ def case(name, R, D, bd):
 if __name__ == "__main__":
     out = sys.argv[1]
     s = el.run_item("E28", [case(*c) for c in CASES], [], out,
-                    note="Psi3 + w on acde (+ bd for C on ade, acd) + part C of Construction 3.16 "
+                    note="Psi3 + w on acde (+ bd for C on ade, acd) + part C of Construction 3.17 "
                          "with the added edges of the table of the proof")
     print(json.dumps({k: s[k] for k in ("candidates", "outcomes", "catalogue graphs found",
                                          "agrees with the text", "seconds")}, indent=1))

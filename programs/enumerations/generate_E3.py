@@ -1,9 +1,9 @@
-"""E3: a bridge with four attachments and G = (Psi_1 + B) + af (Proposition 4.22).
+"""E3: a bridge with four attachments and G = (Psi_1 + B) + af (Proposition 4.21).
 
 The names: a = s1, b = t1, c = s2, d = t2, e = s3, f = t3, with twins p, q on
 {a, c, e} and r, z on {b, d, f}; the paths are the edges ab, cd, ef. As in
 the proof, G = (Psi_1 + B) + af, and G is toroidal exactly when
-B + ac + cd + bd is planar. So B is a part of Construction 3.16 with
+B + ac + cd + bd is planar. So B is a part of Construction 3.17 with
 attachments a, b, c, d, added edges E = {ac, cd, bd} and no required edges
 (four_root_domain.py); each candidate records the K3,3 subdivision of B + E
 it came from.
@@ -239,7 +239,7 @@ def main():
     document = {'item': 'E3', 'candidate_count': len(records), 'outcome_counts': dict(counts),
                 'candidates': records}
     (out / 'candidates.json').write_text(json.dumps(document, sort_keys=True, separators=(',', ':')) + '\n')
-    summary = dict(stats, item='E3', where='Proposition 4.22', outcome_counts=dict(counts),
+    summary = dict(stats, item='E3', where='Proposition 4.21', outcome_counts=dict(counts),
                    unresolved=counts.get('unresolved', 0), seconds=round(time.time() - t0, 1))
     (out / 'summary.json').write_text(json.dumps(summary, indent=1) + '\n')
     print(json.dumps(summary, indent=1))

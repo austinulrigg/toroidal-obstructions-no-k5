@@ -1,4 +1,4 @@
-"""The covering enumerations E5 (Proposition 4.25) and E13 (Proposition 5.13).
+"""The covering enumerations E5 (Proposition 4.24) and E13 (Proposition 5.18).
 
 A recorded graph of these items is the base graph of the case plus a stated
 number of copies of each atom (an edge, or a bridge given by its edges); the
@@ -22,7 +22,7 @@ The case
     joined to u and to the other two attachments, and the edge uw; S(x;y),
     two vertices joined to x, y, u and a vertex f joined to x, z, u;
     Q(x;y,z), the four-cycle upvq with the edges xp, xq, uy, vz; the two
-    four-cycle forms of Lemma 3.12, the cycle a1 b1 a2 b2 with z a1, z a2 and
+    four-cycle forms of Lemma 3.13, the cycle a1 b1 a2 b2 with z a1, z a2 and
     either y b1, y b2, x a2 or x b1, x b2, y a2. Its attachments are the ends
     of its edges outside the interior;
   * the atoms are exactly the edge and bridge types that the paper lists for
@@ -125,16 +125,16 @@ BASE_TEXT = re.compile(r'(\d+) clauses: v\(j\+1\) implies vj for each atom, then
                        r'below\.')
 STATEMENTS = {
     'E5': {
-        'where': 'Proposition 4.25',
+        'where': 'Proposition 4.24',
         'vertex names': 'Psi_1 with twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}. Interior vertices of copy k '
                         'of atom A<i> are named A<i>#k@<role>. In the forms on {c1, c2, h}, the roles x, y, z are c1, '
-                        'c2, h; for a support containing s_m, t_m they are g, e, h as in Lemma 4.16.',
+                        'c2, h; for a support containing s_m, t_m they are g, e, h as in Lemma 4.15.',
         'constraints': [
-            'Lemma 3.3(a): an atom whose degree-three interior vertex sees both ends of an edge s_i t_j excludes '
+            'Lemma 3.4(a): an atom whose degree-three interior vertex sees both ends of an edge s_i t_j excludes '
             'that edge.',
-            'Lemma 4.8: not both s_i t_j and s_j t_i.',
+            'Lemma 4.7: not both s_i t_j and s_j t_i.',
             'At most three bridges on one attachment triple, or four when it contains s_m, t_m and s_m t_m is absent '
-            '(Lemma 4.17); at most three single vertices on one set {s_i, t_i, s_j, t_j} (most copies 3).',
+            '(Lemma 4.16); at most three single vertices on one set {s_i, t_i, s_j, t_j} (most copies 3).',
             'The Q, four-cycle and type (c) forms occur only as the bridge containing P_m: at most one of them for '
             'each m, and only when s_m t_m is absent.',
             'For each m, s_m t_m is present or some bridge attaches to both s_m and t_m.'],
@@ -145,7 +145,7 @@ STATEMENTS = {
                                                      'the text notes that these recover T48 and T58'},
     },
     'E13': {
-        'where': 'Proposition 5.13',
+        'where': 'Proposition 5.18',
         'vertex names': "Psi_2 with twins p, q on {a, b, c} and r, z on {a, b, d}; the twins p', q' of B have "
                         "neighbourhood X = {a, u, v}. Interior vertices of copy k of atom A<i> are named "
                         "A<i>#k@<role>.",
@@ -171,7 +171,7 @@ _DESCRIPTIONS = [
     ('T', re.compile(r'T\(([^(),;]+)\) on \{([^{}]*)\}')),
     ('S', re.compile(r'S\(([^(),;]+);([^(),;]+)\) on \{([^{}]*)\}')),
     ('Q', re.compile(r'Q\(([^(),;]+);([^(),;]+),([^(),;]+)\) on \{([^{}]*)\}')),
-    ('FC', re.compile(r'the (first|second) four-cycle form of Lemma 3\.12 with \(x,y,z\) = '
+    ('FC', re.compile(r'the (first|second) four-cycle form of Lemma 3\.13 with \(x,y,z\) = '
                       r'\(([^(),;]+),([^(),;]+),([^(),;]+)\) on \{([^{}]*)\}')),
 ]
 
@@ -238,7 +238,7 @@ def form_edges(key):
     if kind == 'Q':                     # Q(x;y,z): the four-cycle upvq and xp, xq, uy, vz
         x, y, z = key[1:]
         return [('@u', '@p'), ('@p', '@v'), ('@v', '@q'), ('@q', '@u'), (x, '@p'), (x, '@q'), ('@u', y), ('@v', z)]
-    x, y, z = key[1:]                   # Lemma 3.12: the cycle a1 b1 a2 b2, z a1, z a2, then ...
+    x, y, z = key[1:]                   # Lemma 3.13: the cycle a1 b1 a2 b2, z a1, z a2, then ...
     cyc = [('@a1', '@b1'), ('@b1', '@a2'), ('@a2', '@b2'), ('@b2', '@a1'), (z, '@a1'), (z, '@a2')]
     if kind == 'FC1':
         return cyc + [(y, '@b1'), (y, '@b2'), (x, '@a2')]
@@ -663,7 +663,7 @@ class Case:
 
 
 class E5(Case):
-    """Proposition 4.25: Psi_1 without its paths, and the 162 edge and bridge types."""
+    """Proposition 4.24: Psi_1 without its paths, and the 162 edge and bridge types."""
     S, T = ('s1', 's2', 's3'), ('t1', 't2', 't3')
 
     @staticmethod
@@ -734,10 +734,10 @@ class E5(Case):
         A = self.atoms
         v1 = lambda i: A[i].vars[0]
         cons = []
-        # Lemma 3.3(a): an atom whose degree-three interior vertex sees both ends of an edge s_i t_j excludes it
+        # Lemma 3.4(a): an atom whose degree-three interior vertex sees both ends of an edge s_i t_j excludes it
         for i, e in self.excl3:
             cons.append(tuple(sorted((-v1(i), -v1(e)))))
-        # Lemma 4.8: not both s_i t_j and s_j t_i
+        # Lemma 4.7: not both s_i t_j and s_j t_i
         for e, f in self.opposite:
             cons.append(tuple(sorted((-v1(e), -v1(f)))))
         # at most three bridges on one attachment triple, or four when it contains s_m, t_m and s_m t_m is absent
@@ -800,7 +800,7 @@ class E5(Case):
 
 
 class E13(Case):
-    """Proposition 5.13: Psi_2 with the twins p', q' on {a, u, v}, and the bridges
+    """Proposition 5.18: Psi_2 with the twins p', q' on {a, u, v}, and the bridges
     at b, c, d."""
     G, PAIRS = ('b', 'c', 'd'), (('a', 'u'), ('a', 'v'), ('u', 'v'))
 

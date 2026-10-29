@@ -1,14 +1,14 @@
 {
  "item": "E1",
- "where": "Lemma 4.11",
+ "where": "Lemma 4.10",
  "paper text": [
   {
-   "line": 3107,
-   "text": "each pair of degree-two vertices, or a genus-one\nneighborhood with one boundary walk. The edge\n$s_3t_3$ merges one boundary walk from each block,\nand the genera add.\n\nIf $\\mathcal N$ has genus one, exactly one block has a\ngenus-one neighborhood. The merged walk is the only\nboundary walk meeting both blocks. In the other block\nit passes through $s_3$ or $t_3$ and only one vertex\nof $A$, so no boundary walk meets all of $A$.\nEvery complementary region is a disk by\nLemma~\\ref{lem:torus-complement}, a contradiction.\n\nIf $\\mathcal N$ has genus zero, the five boundary walks meet\n$A$, for some $i,j\\in\\{1,2\\}$, in\n\\[\n\\{s_i,t_j\\},\\qquad\n\\{s_1,s_2\\},\\qquad\n\\{s_{3-i}\\},\\qquad\n\\{t_1,t_2\\},\\qquad\n\\{t_{3-j}\\}.\n\\]\nNo one walk meets all of $A$, and the only pair doing\nso consists of the walks through $\\{s_1,s_2\\}$ and\n$\\{t_1,t_2\\}$. By Lemma~\\ref{lem:torus-complement},\nthe drawing of $B$ away from $A$ therefore lies in\nthe annular face bounded by these walks. Each\nattachment appears once on its boundary walk, so\nLemma~\\ref{lem:annulus-embedding} makes $B+E$ planar.\n\nBy Kuratowski's theorem, $H_1+E$ contains a $K_{3,3}$\nsubdivision. Lemma~\\ref{core:retained-subdivision},\nwith attachment set $A$ and this set $E$, gives\nan allowed minor $H_1'$ of $H_1$ with $H_1'+E$ nonplanar.\nThe allowed operations preserve the hypotheses on\n$B$, so $H_0\\cup H_1'$ is nontoroidal by the implication\njust proved. Any nontrivial sequence gives a proper\nminor of $G$, so minimality forces $H_1'=H_1$.\nThus $G$ itself occurs among the candidates of\nConstruction~\\ref{common:marked-construction}.\nThe exclusions discard every such candidate~\\supp{E1}, a contradiction."
+   "where": "Lemma 4.10 (proof)",
+   "text": "Thus $H_1'=H_1$. Construction~\\ref{common:marked-construction},\nwith attachments $A$ and the fixed planar graph on $A$\nwith edge set $E$, lists every possible $H_1$. Adjoining $H_0$ to each gives every\npossible $G$, but the enumeration~\\supp{E1} excludes\nall resulting graphs. Hence no bridge contains such a path."
   }
  ],
  "vertex names": "Psi_1 as in Section 4: twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}. Interior vertices of B are i0, i1, ...",
- "the case": "A = {s1, t1, s2, t2} and E = {s1s2, t1t2}. G = H0 ∪ B, where H0 consists of p, q, r, z, their twelve edges and s3t3, and B (called H1 in the proof) meets H0 in A. The candidates are the graphs B of Construction 3.16 with attachments A and added edges E: A independent in B, interior nonempty and connected, every attachment with an interior neighbour, and B + E nonplanar (each candidate gives a Kuratowski subgraph).",
+ "the case": "A = {s1, t1, s2, t2} and E = {s1s2, t1t2}. G = H0 ∪ B, where H0 consists of p, q, r, z, their twelve edges and s3t3, and B (called H1 in the proof) meets H0 in A. The candidates are the graphs B of Construction 3.17 with attachments A and added edges E: A independent in B, interior nonempty and connected, every attachment with an interior neighbour, and B + E nonplanar (each candidate gives a Kuratowski subgraph).",
  "H0": {
   "vertices": [
    "p",
@@ -80,7 +80,7 @@
  "verdicts": {
   "K5 minor": "branch sets in G, or in B + E, which is a minor of G (paths s1 p s2 and t1 r t2)",
   "cut of at most two vertices": "a cut of G",
-  "proper nontoroidal minor": "either an allowed reduction B' of B with B' + E nonplanar, which makes H0 ∪ B' nontoroidal by the implication proved in Lemma 4.11, or an edge of G = H0 ∪ B whose deletion or contraction leaves a minor model of some T_i",
+  "proper nontoroidal minor": "either an allowed reduction B' of B with B' + E nonplanar, which makes H0 ∪ B' nontoroidal by the implication proved in Lemma 4.10, or an edge of G = H0 ∪ B whose deletion or contraction leaves a minor model of some T_i",
   "excluded by a hypothesis of the case": "B has no disjoint s1-t1 and s2-t2 paths; by minimality B is H1, which contains P1 and P2"
  },
  "generation": {

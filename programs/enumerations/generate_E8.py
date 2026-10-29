@@ -1,22 +1,22 @@
-"""E8: bridges of type (b) with at least two interior vertices (Lemma 4.30 and Proposition 4.31).
+"""E8: bridges of type (b) with at least two interior vertices (Lemma 4.29 and Proposition 4.30).
 
 The names: a = s1, b = t1, c = s2, d = t2, e = s3, f = t3, with twins p, q
 on {a, c, e} and r, z on {b, d, f}. B contains P1 and has attachments
-a, b, c, d; P_x = cd and P_w = ef are edges. By the proof of Lemma 4.30,
-B is a part of Construction 3.16 with these attachments and added edges
+a, b, c, d; P_x = cd and P_w = ef are edges. By the proof of Lemma 4.29,
+B is a part of Construction 3.17 with these attachments and added edges
 ac, cd, db, the retained K3,3 subdivision uses cd, and B has at least two
 interior vertices (the program names the bridge U). Each part is tested
 against the conditions of the proof, in this order: B + ac + cd + db is
 nonplanar; B + ac + bd is planar; Psi_1 + B has no K5 minor (it is a minor
 of G); B + K4[a,b,c,d] has no cut of at most two vertices; no interior
-vertex of degree three is adjacent to both c and d (Lemma 3.3(a), as cd is
+vertex of degree three is adjacent to both c and d (Lemma 3.4(a), as cd is
 an edge of G); and every one-step allowed operation makes B + ac + cd + db
 planar. The proof finds nine labeled bridges, five up to interchanging A1
 and A2.
 
-For each bridge that passes, the two graphs of Lemma 4.30(i),
+For each bridge that passes, the two graphs of Lemma 4.29(i),
 G = (Psi_1 + B) + eb and G = (Psi_1 + B) + af, are classified
-(enumeration.classify). Proposition 4.31 uses that they give only T66.
+(enumeration.classify). Proposition 4.30 uses that they give only T66.
 
 Run as: python generate_E8.py FOLDER
 """
@@ -60,7 +60,7 @@ def classify_bridge(U):
         return {"outcome": "U + K4[abcd] has a cut of order at most two", "cut": [str(v) for v in cut]}
     for v in sorted((v for v in U if v not in R), key=str):
         if U.degree(v) == 3 and "c" in U[v] and "d" in U[v]:
-            return {"outcome": "degree-three vertex with adjacent neighbors (Lemma 3.3(a))",
+            return {"outcome": "degree-three vertex with adjacent neighbors (Lemma 3.4(a))",
                     "vertex": str(v), "adjacent neighbors": ["c", "d"]}
     planar_minors = []
     for (op, args), H in el.allowed_operations(U, R):
@@ -81,7 +81,7 @@ def psi1():
     return G
 
 
-# the two graphs of Lemma 4.30(i)
+# the two graphs of Lemma 4.29(i)
 EXTERIORS = {"edge eb": [("e", "b")], "edge af": [("a", "f")]}
 
 
@@ -109,7 +109,7 @@ if __name__ == "__main__":
     whole = Counter(w["outcome"]["outcome"] for r in surv for w in r["whole graphs"])
     found = sorted({w["outcome"]["catalogue"] for r in surv for w in r["whole graphs"]
                     if w["outcome"]["outcome"] == "catalogue graph"})
-    summary = {"item": "E8", "where": "Lemma 4.30 and Proposition 4.31",
+    summary = {"item": "E8", "where": "Lemma 4.29 and Proposition 4.30",
                "specification": spec.payload(), "generation": st, "candidates": len(records),
                "bridge outcomes": dict(counts), "surviving bridges": len(surv),
                "whole-graph outcomes for the surviving bridges": dict(whole),
@@ -129,7 +129,7 @@ if __name__ == "__main__":
                    "U + ac + bd nonplanar": ["nonplanar", "U + ac + bd"],
                    "Psi1 + U has a K5 minor": ["K5 minor", "Psi1 + U"],
                    "U + K4[abcd] has a cut of order at most two": ["cut", "U + K4[abcd]"],
-                   "degree-three vertex with adjacent neighbors (Lemma 3.3(a))": ["degree three", "U + cd"],
+                   "degree-three vertex with adjacent neighbors (Lemma 3.4(a))": ["degree three", "U + cd"],
                    "allowed minor keeps U + ac + cd + db nonplanar": ["allowed minor nonplanar", "U + ac + cd + db"],
                    "survivor": ["survivor", "U + ac + cd + db", "U + ac + bd"]},
                "candidates": records}, open(out / "candidates.json", "w"))

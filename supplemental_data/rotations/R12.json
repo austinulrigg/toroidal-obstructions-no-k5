@@ -4,7 +4,7 @@
  "paper text": [
   {
    "label": "dis:sole-two-rails",
-   "text": "Take a closed regular neighborhood $\\mathcal N$ of $H_0$.\nEnumerating the rotations of $H_0$ and tracing their\nboundary walks gives the following~\\supp{R12}. If $\\mathcal N$ has\ngenus one, no boundary walk contains all four attachments.\nEvery complementary region is then a disk by\nLemma~\\ref{lem:torus-complement}, a contradiction.\nThus $\\mathcal N$ has genus zero. No single boundary\nwalk contains all four attachments, and exactly one pair\ncontains all four between them. Their attachment sequences\nare $s_1,s_2$ and $t_1,t_2$, each appearing once."
+   "text": "Take a closed regular neighborhood $\\mathcal N$ of $H_0$.\nEnumerating the rotations of $H_0$ and tracing their\nboundary walks gives the following~\\supp{R12}.\nIf $\\mathcal N$ has genus one, no boundary walk contains\nall four attachments. Every complementary region is then\na disk by Lemma~\\ref{lem:torus-complement}, a contradiction.\nThus $\\mathcal N$ has genus zero. No single boundary\nwalk contains all four attachments, and exactly one pair\ncontains all four between them. Their attachment sequences\nare $s_1,s_2$ and $t_1,t_2$, with each attachment appearing once."
   }
  ],
  "what": "Every rotation system of H0, consisting of twins p,q on {s1,s2,s3}, twins r,z on {t1,t2,t3}, and the edge s3t3. Attachments: s1,t1,s2,t2; twins and s3,t3 omitted from attachment sequences. All rotations, including genus two, are recorded; only genera zero and one can occur for a regular neighbourhood inside the torus.",

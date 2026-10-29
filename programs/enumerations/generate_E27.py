@@ -3,11 +3,11 @@
 The program's names: p1, p2 are the twins on abc and q1, q2 those on ade.
 A component W has neighbourhood {a, c, d, e}, contracted to a vertex w.
 Let U be another bridge, on a triple t, with nonplanar triangle completion
-and some two-edge completion U + xy + xz planar. By Lemma 3.7, U has as an
+and some two-edge completion U + xy + xz planar. By Lemma 3.8, U has as an
 allowed minor one of the forms T, S, Q of Section 3, whose twins must meet
 abc and ade in exactly one vertex each. This program lists the pairs
 (triple, form) allowed by that condition, over the five triples abc, ade,
-abd, acd, bcd, every ordering of the triple and every case of Lemma 3.7;
+abd, acd, bcd, every ordering of the triple and every case of Lemma 3.8;
 the proof uses the triples ade, acd and abd, and the data folder keeps
 those.
 For each pair it builds the minor of G of the proof:
@@ -40,7 +40,7 @@ ABC, ADE = set("abc"), set("ade")
 
 
 def forms_on(t):
-    """Every (name, graph, twin triple) from Lemma 3.7 on the triple t."""
+    """Every (name, graph, twin triple) from Lemma 3.8 on the triple t."""
     out = {}
     for x, y, z in itertools.permutations(t):
         cands = [("T(%s)" % z, ext.form_T(z, x, y), {x, y}),          # case (ii), D0 = {z}

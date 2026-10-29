@@ -1,6 +1,6 @@
 {
  "item": "W5",
- "where": "Lemma 4.8",
+ "where": "Lemma 4.7",
  "claim": "Psi_1 with every path an edge, together with s_i t_j and s_j t_i, has a K5 minor (shown for i = 1, j = 2).",
  "graph": {
   "vertices": [

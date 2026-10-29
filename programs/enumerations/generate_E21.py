@@ -1,10 +1,10 @@
-"""E21: a component with five neighbours and another bridge C on abd (Proposition 6.6).
+"""E21: a component with five neighbours and another bridge C on abd (Proposition 6.7).
 
 The program's names: p1, p2 are the twins on abc and q1, q2 those on ade.
 As in the proof, after relabelling the only cross pair is bd, the interior
 of the bridge with five attachments is a single vertex w with
 N(w) = {a, b, c, d, e}, and the other bridge C lies on {a, b, d} with
-nonplanar triangle completion. C is a part of Construction 3.16 with
+nonplanar triangle completion. C is a part of Construction 3.17 with
 attachments a, b, d and the added triangle. G = Psi_3 + w + C, with bd
 absent or present. Every graph is classified (enumeration.classify); a
 candidate with two twin triples disjoint or sharing two vertices is also

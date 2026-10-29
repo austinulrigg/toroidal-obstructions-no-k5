@@ -5,10 +5,10 @@ As in the proof, G = Psi_3 + B + bd + Q with Q empty or {cd}, and G is
 toroidal exactly when one of B + ac + Q + de and B + ac + Q + ad + ae is
 planar; both fail. Put U = B + ac + Q. Four cases:
 
-  U planar (with or without cd): Construction 3.16 with attachments
+  U planar (with or without cd): Construction 3.17 with attachments
     a, c, d, e, added edges ac, de (+ cd), the edge de required
-    (Lemmas 3.14 and 2.6);
-  U nonplanar (with or without cd): Construction 3.16 with added edges
+    (Lemmas 3.15 and 2.6);
+  U nonplanar (with or without cd): Construction 3.17 with added edges
     ac (+ cd), nothing required.
 
 Every graph is classified, first by looking for a proper nontoroidal minor
@@ -48,7 +48,7 @@ def case(name, D, req, Q):
 if __name__ == "__main__":
     out = sys.argv[1]
     s = ext.run_item_minor_first("E30", [case(*c) for c in CASES], ["T14", "T37", "T41", "T59"], out,
-                                 note="Psi3 + bd (+ cd) + part P of Construction 3.16 with R = acde; "
+                                 note="Psi3 + bd (+ cd) + part P of Construction 3.17 with R = acde; "
                                       "D = ac, de (+cd) with de required when U = P + ac + Q is planar, "
                                       "D = ac (+cd) when U is nonplanar")
     # every catalogue graph found must satisfy the conditions of this case (row 2 of Theorem 6.1)

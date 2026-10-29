@@ -1,14 +1,10 @@
 {
  "item": "R1",
- "where": "Lemma 4.2 (proof) and Lemma 4.27 (proof)",
+ "where": "Lemma 4.2 (proof) and Lemma 4.26 (proof)",
  "paper text": [
   {
-   "line": 2116,
-   "text": "Every torus embedding of $\\Psi_1$ is cellular with five faces.\nFor some $k\\in\\{1,2,3\\}$, put\n$\\{i,j\\}=\\{1,2,3\\}\\setminus\\{k\\}$. There are $x,y\\in\\{i,j\\}$, possibly equal, for which the\nboundary walks meet the paths $P_1,P_2,P_3$ as follows,\nwith the intermediate twins omitted in (i) and (ii).\n\\begin{enumerate}[label=\\textup{(\\roman*)}]\n\\item The boundary walk of each of the two \\emph{simple faces}\ncontains both $P_i$ and $P_j$ and meets no other path.\nIn each walk, these paths occur in the order\n$s_iP_it_i,\\,t_jP_j^{-1}s_j$.\n\\item The boundary walk of the \\emph{repeated face} traverses\n$P_k$ once in each direction and meets $P_i\\cup P_j$ exactly\nat $s_x$ and $t_y$. Its order is\n$s_kP_kt_k,\\,t_y,\\,t_kP_k^{-1}s_k,\\,s_x$.\nWe call $P_k$ the \\emph{repeated path}.\n\\item The boundary walk of one remaining face meets the paths\nexactly at $s_k$ and $s_{x'}$. The boundary walk of the other remaining face\nmeets them exactly at $t_k$ and $t_{y'}$, where\n$\\{x,x'\\}=\\{y,y'\\}=\\{i,j\\}$.\n\\end{enumerate}\nAll twelve triples $(k,x,y)$ occur. Hence the path vertices\non any face boundary, or on the boundaries of all faces\nincident with an internal vertex of a path, lie in some\n$V(P_\\ell)\\cup V(P_m)$ or\n$V(P_\\ell)\\cup\\{s_m,t_n\\}$ with $m,n\\ne\\ell$.\n\\end{lemma}\n\\begin{proof}\nThe graph $\\Psi_1$ is connected and nonplanar, as $\\Psi_1-z$ is a subdivision of\n$K_{3,3}$ with parts $A_1$ and $\\{p,q,r\\}$, so its torus embeddings are\ncellular by Youngs's theorem. Subdividing an edge does not change the faces,\nso we may take each $P_i$ to be an edge. Up to automorphisms of $\\Psi_1$, there are exactly two torus embeddings~\\supp{R1}. The last assertion follows from\n(i)--(iii), as an internal vertex of a path lies only on the faces at its\ntwo edges.\n\\end{proof}"
-  },
-  {
-   "line": 4820,
-   "text": "order $C$. For $B_a$ in $H_{\\mathrm{rep}}$, and for $B_b$ in $H_{\\mathrm{simp}}$,\nthe remaining graph contains the path through the four attachments\ndescribed above. Only its internal attachments can separate\nthe others, and its two end segments cannot alternate on\nthe face boundary. This gives the two four-cycles, the\npath and the two triangles with a pendant edge containing\nthat path.\n\nFor $B_b$ in $H_{\\mathrm{rep}}$, the edges $ac,bd$ remain.\nNo other attachment can separate either pair, and the two pairs cannot\nalternate on a face boundary. This excludes the star and\nleaves the two four-cycles, four paths and four triangles\nwith a pendant edge containing $ac,bd$. If the remaining\ngraph is disconnected, each component meets an attachment,\nso there are exactly two components, containing $a,c$ and\n$b,d$. The face containing the deleted interior is then\nan annulus, giving the completion $B_b+ac+bd$.\n\nCorollary~\\ref{cor:boundary-completions} tests each reduced\ndisk boundary, and Lemma~\\ref{lem:annulus-embedding} tests\nthe annulus. If the original bridge and its minor have the\nsame planar listed completions, we can insert the original\nbridge and restore the discarded boundary parts. Thus\n$H_{\\mathrm{simp}}$ or $H_{\\mathrm{rep}}$ remains planar with all\nthe other bridges present. For $B_b$, the allowed minor retains a path\nfrom $a$ to $b$ through its connected interior to replace $P_m$.\nHence, by Lemma~\\ref{dis:joint-test}, a torus embedding after\nthe replacement gives one of $G$. Conversely, the graph\nobtained by the replacement is a minor of $G$, so it is\ntoroidal whenever $G$ is.\nThe boundary orders of $\\Psi_1$ used above are recorded in~\\supp{R1}.\n\\end{proof}\n\nWe now use these lists and minimality to show that both"
+   "where": "Lemma 4.2 (proof)",
+   "text": "\\begin{lemma}\\label{dis:faces}\nEvery torus embedding of $\\Psi_1$ is cellular with five faces.\nFor some $k\\in\\{1,2,3\\}$, write\n$\\{i,j\\}=\\{1,2,3\\}\\setminus\\{k\\}$.\nOmitting the twins from the boundary walks, these faces are\n\\begin{enumerate}[label=\\textup{(\\roman*)}]\n\\item two faces, each following\n$s_iP_it_i,t_jP_j^{-1}s_j$ and meeting no other path.\n\\item one face following\n$s_kP_kt_k,t_y,t_kP_k^{-1}s_k,s_x$, where\n$x,y\\in\\{i,j\\}$ may be equal.\n\\item two other faces meeting the paths exactly at\n$\\{s_k,s_{x'}\\}$ and $\\{t_k,t_{y'}\\}$, respectively,\nwhere $\\{x,x'\\}=\\{y,y'\\}=\\{i,j\\}$.\n\\end{enumerate}\nAll twelve choices of $k$, $x$ and $y$ occur.\n\\end{lemma}\n\\begin{proof}\nThe graph $\\Psi_1$ is connected and nonplanar, as $\\Psi_1-z$ is a subdivision of\n$K_{3,3}$ with parts $A_1$ and $\\{p,q,r\\}$, so its torus embeddings are\ncellular by Youngs's theorem. Subdividing an edge does not change the faces,\nso we may take each $P_i$ to be an edge. Up to automorphisms of $\\Psi_1$,\nthere are exactly two torus embeddings~\\supp{R1}. Their boundary walks,\nafter permuting the indices, give (i)--(iii), with $x=y$ in one and\n$x\\ne y$ in the other. Permuting the indices of both triples\nsimultaneously is an automorphism of $\\Psi_1$, so the first gives the six\nchoices with $x=y$ and the second the six with $x\\ne y$."
   }
  ],
  "what": "Every rotation system of Psi_1 with P_1, P_2, P_3 the edges s1t1, s2t2, s3t3 (subdividing an edge does not change the faces). Attachments: the path vertices s1, t1, s2, t2, s3, t3; twins omitted. Vertex names in a sequence are separated by spaces.",
@@ -3738,7 +3734,7 @@
    "holds": true
   },
   {
-   "statement": "Proof of Lemma 4.27, for B_b containing P_m with a = s_m, b = t_m, c = s_x, d = t_x: the region along P_m in the choice (m,x,x) is an annulus with boundaries a c | b d.",
+   "statement": "Proof of Lemma 4.26, for B_b containing P_m with a = s_m, b = t_m, c = s_x, d = t_x: the region along P_m in the choice (m,x,x) is an annulus with boundaries a c | b d.",
    "computed": {
     "region along P_k for the choices (k,x,x)": {
      "122": "s1 s2 | t1 t2 (annulus)",
@@ -3752,14 +3748,14 @@
    "holds": true
   },
   {
-   "statement": "Proof of Lemma 4.27: a choice with k = w gives the boundary a, c, P_x, d, b on each side of P_m, that is, the two faces at the edge s_m t_m are distinct and both have sequence s_m t_m t_x s_x up to cyclic shift and reversal (checked for every torus rotation and every m other than k).",
+   "statement": "Proof of Lemma 4.26: a choice with k = w gives the boundary a, c, P_x, d, b on each side of P_m, that is, the two faces at the edge s_m t_m are distinct and both have sequence s_m t_m t_x s_x up to cyclic shift and reversal (checked for every torus rotation and every m other than k).",
    "computed": {
     "torus rotation systems checked": 48
    },
    "holds": true
   },
   {
-   "statement": "Proof of Lemma 4.27, for B_a with attachments s_x, t_x, s_y, t_y: a choice with k = w has simple faces s_x t_x t_y s_y (the cycle C), and the choice (x,y,y) has the repeated face s_x t_x t_y t_x s_x s_y, with s_x, t_x twice and s_y, t_y once.",
+   "statement": "Proof of Lemma 4.26, for B_a with attachments s_x, t_x, s_y, t_y: a choice with k = w has simple faces s_x t_x t_y s_y (the cycle C), and the choice (x,y,y) has the repeated face s_x t_x t_y t_x s_x s_y, with s_x, t_x twice and s_y, t_y once.",
    "computed": "These are cases (i) and (ii) of Lemma 4.2, checked above for every torus rotation.",
    "holds": true
   }

@@ -54529,9 +54529,9 @@
   },
   {
    "id": "E7-1038",
-   "verdict": "isomorphic to the form of Proposition 4.29",
+   "verdict": "isomorphic to the form of Proposition 4.28",
    "in the paper": {
-    "form": "the form of Proposition 4.29",
+    "form": "the form of Proposition 4.28",
     "A1 and A2 interchanged": true,
     "names of the interior vertices": {
      "u0": "p'",
@@ -54541,7 +54541,7 @@
    },
    "witness": {
     "type": "isomorphism",
-    "onto": "the form of Proposition 4.29",
+    "onto": "the form of Proposition 4.28",
     "map": {
      "sx": "tx",
      "sy": "ty",
@@ -60236,9 +60236,9 @@
   },
   {
    "id": "E7-1144",
-   "verdict": "isomorphic to the form of Proposition 4.29",
+   "verdict": "isomorphic to the form of Proposition 4.28",
    "in the paper": {
-    "form": "the form of Proposition 4.29",
+    "form": "the form of Proposition 4.28",
     "A1 and A2 interchanged": false,
     "names of the interior vertices": {
      "u0": "p'",
@@ -60248,7 +60248,7 @@
    },
    "witness": {
     "type": "isomorphism",
-    "onto": "the form of Proposition 4.29",
+    "onto": "the form of Proposition 4.28",
     "map": {
      "sx": "sx",
      "sy": "sy",

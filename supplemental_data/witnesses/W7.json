@@ -1,6 +1,6 @@
 {
  "item": "W7",
- "where": "Lemma 4.20",
+ "where": "Lemma 4.19",
  "claim": "Psi_1 (paths as edges) with the bridge S(t_3;s_1) is T68, and with Q(t_3;s_1,s_2) is T69. The bridge vertices d1, d2, f, u, v are not named in the text.",
  "graphs": [
   {

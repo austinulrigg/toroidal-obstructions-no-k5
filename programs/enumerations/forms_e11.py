@@ -1,4 +1,4 @@
-"""The forms used by E11 (Proposition 5.12, the cut X = {a, b, w}, Section 5.4.1).
+"""The forms used by E11 (Proposition 5.14, the cut X = {a, b, w}, Section 5.4.1).
 
 X = {a, b, w} is a three-cut of J; C and D are the components of B - X
 containing c and d (D_c and D_d in the paper; the program writes P for B). For C, N_C is its set of neighbors in X (w is always
@@ -15,11 +15,11 @@ c_forms() generates a set of C containing all such minimal ones:
   - no subdivision (all four planar): at most two single-vertex components
     on c, w and some of a, b, with or without cw;
   - a K3,3 subdivision of H_C + E0 for E0 = {ac}, {bc} or {ac, bc}, which
-    must use E0 (the smaller completions are planar): Construction 3.16
+    must use E0 (the smaller completions are planar): Construction 3.17
     with roots a, b, c, w, added edges ab, aw, bw and E0, required E0, and
     the original pair cw taken as an edge and as a subdivided segment;
   - H_C + ac and H_C + bc both nonplanar: Lemma 2.7
-    makes (H_C + ac + bc)/ab nonplanar; Construction 3.16 on the quotient
+    makes (H_C + ac + bc)/ab nonplanar; Construction 3.17 on the quotient
     with roots r, c, w, added rc, rw, required rc, original cw, and every
     lift of each incidence at r to a, b or both.
 In each, the interior pieces are divided into components in every way and

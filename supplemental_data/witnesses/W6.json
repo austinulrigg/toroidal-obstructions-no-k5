@@ -1,6 +1,6 @@
 {
  "item": "W6",
- "where": "Lemma 4.9",
+ "where": "Lemma 4.8",
  "claim": "Disjoint a-d and b-c paths (a = s_1, b = t_1, c = s_2, d = t_2) with a path joining their interiors, together with Psi_1 after deleting the edges and internal vertices of P_1, give a K5 minor. Contracting the interior of the a-d path with the joining path to x and the interior of the b-c path to y gives this graph.",
  "graph": {
   "vertices": [

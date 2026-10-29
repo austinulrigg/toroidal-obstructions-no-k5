@@ -4,12 +4,12 @@ The program's names: p1, p2, p3, ... are the vertices on abc and
 q1, q2, ... those on ade. As in Sections 6.5 to 6.7, whichever two twin
 pairs define Psi_3, every component of G - V(Psi_3) has three neighbours,
 and the cross pairs are the matching {bd, ce} or the path {bd, cd, ce}
-(equation (5)), with new triples abd, ace, or abd, acd, ace, bcd, cde.
+(equation (4)), with new triples abd, ace, or abd, acd, ace, bcd, cde.
 Construction 6.21 as implemented here:
 
 (1) At most two bridges with nonplanar triangle completion, on new
     triples. For a center x other than a, the forms are the chains of
-    Proposition 3.9 whose twins meet abc and ade once each: one four-cycle
+    Proposition 3.10 whose twins meet abc and ade once each: one four-cycle
     with end lengths (0,1) or (0,2), where the end of length zero, y,
     makes {x, y} a cross pair; or two four-cycles with ends of length zero
     joined by a path of length one or two, with {x, y} and {x, z} both

@@ -1,13 +1,13 @@
 {
  "item": "E7",
- "where": "Proposition 4.29",
+ "where": "Proposition 4.28",
  "bridges": 1378,
  "verdicts": {
   "excluded by a hypothesis of the case": 1356,
-  "isomorphic to the form of Proposition 4.29": 2,
+  "isomorphic to the form of Proposition 4.28": 2,
   "proper nontoroidal minor": 20
  },
  "bridges that pass, by form in the paper (labelled, so a form and its interchange count separately)": {
-  "the form of Proposition 4.29": 2
+  "the form of Proposition 4.28": 2
  }
 }

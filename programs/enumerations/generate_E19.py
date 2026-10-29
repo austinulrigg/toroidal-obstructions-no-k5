@@ -1,11 +1,11 @@
-"""E19: a bridge on a triple whose three two-edge completions are nonplanar (Lemma 5.17).
+"""E19: a bridge on a triple whose three two-edge completions are nonplanar (Lemma 5.24).
 
 The program's names: x1, x2 are the twins on abc and y1, y2 those on abd.
 As in the proof, B is a bridge on T = {a, c, d} or {b, c, d} whose three
 two-edge completions are nonplanar (the program names the bridge U), and
 another bridge on one of the three other triples is contracted to a vertex
 v. So G = Psi_2 + U + v with N(v) one of the three other triples: six
-cases. The bridges U are listed by Construction 3.16 with attachments T:
+cases. The bridges U are listed by Construction 3.17 with attachments T:
 
   nonplanar U: no added edges;
   planar U:    one added edge xy, which the retained K3,3 subdivision must

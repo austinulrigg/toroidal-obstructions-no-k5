@@ -1,8 +1,8 @@
-"""The eight forms of Section 5.5.2 and the structural conditions of
-Section 5.5 used to discard configurations in E20.
+"""The eight forms of Section 5.6 (Lemma 5.26) and the structural conditions
+of Sections 5.5 and 5.6 used to discard configurations in E20.
 
 A form is a bridge U on a triple {x, y, z} with U + xy + xz planar, built
-from Proposition 3.9 (prop:three-root-blocks): the blocks of U - x are edges and
+from Proposition 3.10 (prop:three-root-blocks): the blocks of U - x are edges and
 four-cycles in a sequence from y to z; in each four-cycle the two vertices
 meeting the neighboring blocks (or equal to y, z) are opposite and the
 other two have degree three and are adjacent to x; paths of edge blocks
@@ -128,8 +128,8 @@ def twin_triples(G):
 
 
 def structural_violation(G):
-    """The structural conditions of Section 5.5 that persist when forms are
-    added (see generate_E20.py). Returns a witness or None."""
+    """The structural conditions of Sections 5.5 and 5.6 that persist when
+    forms are added (see generate_E20.py). Returns a witness or None."""
     tt = twin_triples(G)
     trip = sorted(tt, key=lambda s: sorted(map(str, s)))
     for A, B in itertools.combinations(trip, 2):

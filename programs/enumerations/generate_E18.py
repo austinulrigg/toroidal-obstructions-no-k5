@@ -1,4 +1,4 @@
-"""E18: every component on a triple of {a, b, c, d} is a single vertex (Lemma 5.15).
+"""E18: every component on a triple of {a, b, c, d} is a single vertex (Lemma 5.22).
 
 The program names the vertices with neighbourhood T by T itself: abc0,
 abc1, ... on abc, abd0, ... on abd, acd0, ... on acd and bcd0, ... on bcd.

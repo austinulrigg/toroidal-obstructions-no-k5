@@ -5,10 +5,10 @@ As in the proof, the component on b, c, d, e is a single vertex w, and the
 other bridges lie on {a, b, d}. Two cases:
 
   one_bridge:  one other bridge C, with C + ab + ad nonplanar:
-               Construction 3.16 with attachments a, b, d and added edges
+               Construction 3.17 with attachments a, b, d and added edges
                ab, ad; G = Psi_3 + w + C;
   two_bridges: two other bridges; one, C, has nonplanar triangle
-               completion (Construction 3.16 with added ab, ad, bd), and
+               completion (Construction 3.17 with added ab, ad, bd), and
                the other is contracted to a vertex t with N(t) = {a, b, d};
                G = Psi_3 + w + C + t.
 

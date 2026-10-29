@@ -5,7 +5,7 @@ vertices on ade. A component W has neighbourhood {a, c, d, e} with
 bridge B. As in the proof, the rest of G is two vertices on abc, three on
 ade, the edge bd and possibly cd, and G is toroidal exactly when B + E is
 planar for the single edge set E = {ac, ad, de, ae} without cd, or
-E = {ac, cd, de, ae} with cd. B is a part of Construction 3.16 with
+E = {ac, cd, de, ae} with cd. B is a part of Construction 3.17 with
 attachments a, c, d, e and these added edges, and G = Psi_3 + q3 + bd
 (+ cd) + B. Every graph is classified, first by looking for a proper
 nontoroidal minor (multi_genus) and then by enumeration.classify
@@ -40,7 +40,7 @@ def case(name, D, cross):
 if __name__ == "__main__":
     out = sys.argv[1]
     s = ext.run_item_minor_first("E29", [case(*c) for c in CASES], [], out,
-                                 note="Psi3 + q3 on ade + bd (+ cd) + part P of Construction 3.16 with "
+                                 note="Psi3 + q3 on ade + bd (+ cd) + part P of Construction 3.17 with "
                                       "R = acde and the single test of the table's last column")
     print(json.dumps({k: s[k] for k in ("candidates", "outcomes", "catalogue graphs found",
                                          "agrees with the text", "seconds")}, indent=1))

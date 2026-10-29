@@ -694,7 +694,7 @@ class Item:
 # ---------------------------------------------------------------- E6, E9, E10, E15, E16, E17
 
 def check_E6(root):
-    """E6 (Proposition 4.26, Section 4.7 type (c), a = s1, b = t1, c = s2,
+    """E6 (Proposition 4.25, Section 4.7 type (c), a = s1, b = t1, c = s2,
     d = t3, e = s3, f = t2). The exterior is Psi (p, q on a, c, e and r, z on
     b, d, f) with the edges cf and de; the case names add the edges ad and bc
     (cases with _ad, _bc) and the vertices hA, hB with the neighbourhoods given
@@ -718,7 +718,7 @@ def check_E6(root):
 
 
 def check_E9(root):
-    """E9 (Proposition 5.9). The bridge has the attachments a, b, c, d. Case A
+    """E9 (Proposition 5.10). The bridge has the attachments a, b, c, d. Case A
     (B nonplanar): every bridge with Psi_2 having two twins on each of
     {a,b,c}, {a,b,d}, with three and two, and with three and three; case B
     (B + ab + ac + bc nonplanar): with three and two. The T_i found in case A
@@ -734,7 +734,7 @@ def check_E9(root):
 
 
 def check_E10(root):
-    """E10 (Proposition 5.10): every bridge (attachments a, b, c, d) with Psi_2
+    """E10 (Lemma 5.9): every bridge (attachments a, b, c, d) with Psi_2
     having three twins on {a,b,c} and two on {a,b,d}."""
     item, tally, extra = bridge_item(root, 'E10', lambda case: [exterior(psi_edges(3, 2))], PSI2,
                                      ['p', 'q', 'p3', 'r', 'z'])
@@ -746,7 +746,7 @@ def primed_exterior(*more):
 
 
 def check_E15(root):
-    """E15 (Proposition 5.14, D_d without a neighbour at a): the bridge H_b on
+    """E15 (Proposition 5.21, D_d without a neighbour at a): the bridge H_b on
     b, c, w; the exterior is Psi_2, the twins p', q' on {a,c,w} and the edge dw
     (the bridge of D_d on d, w). The case flags of each verdict are computed
     again with certificates: U is the bridge, and the flags say whether U + cw,
@@ -771,7 +771,7 @@ def check_E15(root):
 
 
 def check_E16(root):
-    """E16 (Proposition 5.14, D_d with a neighbour at a): case altB, the bridge
+    """E16 (Proposition 5.21, D_d with a neighbour at a): case altB, the bridge
     on b, c, w with the other side contracted; case altD, the bridge on a, d, w.
     The exterior is Psi_2, p', q' on {a,c,w}, and the contracted vertex with
     the neighbourhood its 'contracted side' gives in input.json. The records
@@ -787,7 +787,7 @@ def check_E16(root):
 
 
 def check_E17(root):
-    """E17 (Proposition 5.14, b, d in one component): the bridge H_1 on
+    """E17 (Lemma 5.20, b, d in one component): the bridge H_1 on
     b, c, d, w (permitted original edges bw, dw); the exterior is Psi_2 and
     p', q' on {a,c,w}. The records that also have B nonplanar carry a
     Kuratowski subgraph of B."""
@@ -799,7 +799,7 @@ def check_E17(root):
 # ---------------------------------------------------------------- E18
 
 def check_E18(root):
-    """E18 (Lemma 5.15): the candidates are exactly the 252 graphs of the case,
+    """E18 (Lemma 5.22): the candidates are exactly the 252 graphs of the case,
     each once: a, b, c, d, the given numbers of vertices on each of {a,b,c}
     (p, q, abc2, ...), {a,b,d} (r, z, abd2, ...), {a,c,d} (acd0, ...),
     {b,c,d} (bcd0, ...), with n_abc, n_abd at least two, at most nine in all,
@@ -872,7 +872,7 @@ def side_of(g, X):
 
 
 def check_E11(root):
-    """E11 (Proposition 5.12, the cut X = {a, b, w}).
+    """E11 (Proposition 5.14, the cut X = {a, b, w}).
 
     Forms: the eleven forms of B_0, each with a connected interior; the forms
     of D_c, each with {c} and its interior connected, and the forms of D_1,
@@ -897,7 +897,7 @@ def check_E11(root):
     else a certificate is computed. So the candidates with B planar are
     exactly the classes with a member whose B is planar. The T_i among them
     have all recipes in subcase (a), and the T_i with B nonplanar are among the
-    graphs Proposition 5.9 lists for nonplanar B (case A of the summary of E9).
+    graphs Proposition 5.10 lists for nonplanar B (case A of the summary of E9).
     """
     item = Item(root, 'E11')
     cat = catalogue(root)
@@ -1024,7 +1024,7 @@ def check_E11(root):
         need(all(cases == ['a'] for cases in lst), 'E11:', t, 'with B planar has a recipe outside subcase (a)')
     e9 = load(os.path.join(root, 'enumerations', 'E9', 'summary.json'))
     listed = e9['by case']['A']['graphs T_i not excluded by a hypothesis of the case']
-    need(set(t_nonplanar) <= set(listed), 'E11: T_i with B nonplanar not listed by Proposition 5.9:',
+    need(set(t_nonplanar) <= set(listed), 'E11: T_i with B nonplanar not listed by Proposition 5.10:',
          sorted(set(t_nonplanar) - set(listed)))
     item.compare_summary({
         'item': 'E11', 'where': item.input['where'],
@@ -1034,7 +1034,7 @@ def check_E11(root):
         'verdicts': dict(tally.verdicts),
         'T_i with B planar': tsort(t_planar),
         'subcase of those': 'all (a), one component D_0',
-        'T_i with B nonplanar (handled by Proposition 5.9, E9)': tsort(t_nonplanar)})
+        'T_i with B nonplanar (handled by Proposition 5.10, E9)': tsort(t_nonplanar)})
     return ('%d candidates from all %d combinations of the forms (each assembled and matched); %d with B planar '
             '(T_i: %s, all recipes in (a)); B nonplanar carried to the other recipes %s: %s' % (
                 len(item.cands), len(combos), n_planar, ', '.join(tsort(t_planar)),
@@ -1042,7 +1042,7 @@ def check_E11(root):
 
 
 def e14_row(P, n1, n2):
-    """The row of the table of Proposition 5.13 (up to exchanging u, v)."""
+    """The row of the table of Lemma 5.17 (up to exchanging u, v)."""
     su, sv = ('u', 'au'), ('v', 'av')
     single = lambda x, y: (x in su and y in sv) or (x in sv and y in su)
     if P == 'P1':
@@ -1063,7 +1063,7 @@ def e14_row(P, n1, n2):
 
 
 def check_E14(root):
-    """E14 (Proposition 5.13, X = {a, u, v}, two components containing b, c, d).
+    """E14 (Proposition 5.18, X = {a, u, v}, two components containing b, c, d).
 
     Forms: for each partition (P1: D_1 contains b, c and D_2 contains d; P2:
     D_1 contains c, d and D_2 contains b) the forms are numbered in order, each
@@ -1150,7 +1150,7 @@ def check_E14(root):
 # ---------------------------------------------------------------- E19
 
 def check_E19(root):
-    """E19 (Lemma 5.17). Each case U_T_kind_v_on_S has the bridge U on the
+    """E19 (Lemma 5.24). Each case U_T_kind_v_on_S has the bridge U on the
     triple T = {a,c,d} or {b,c,d} and the vertex v with neighbourhood S, one of
     the three other triples; the record's U and N(v) agree with the case. U
     is the graph of the vertices other than a, b, c, d, p, q, r, z, v with

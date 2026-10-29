@@ -1,4 +1,4 @@
-"""E11: the cut X = {a, b, w} (Proposition 5.12).
+"""E11: the cut X = {a, b, w} (Proposition 5.14).
 
 The program's names: t0, t1 are the twins on abc and t2, t3 those on abd
 (p, q, r, z in the paper). As in the proof, G is Psi_2 together with

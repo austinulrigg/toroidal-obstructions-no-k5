@@ -1,4 +1,4 @@
-"""E6: bridges of type (c) with at least two interior vertices (Proposition 4.26).
+"""E6: bridges of type (c) with at least two interior vertices (Proposition 4.25).
 
 The names are those of the proof: a = s1, b = t1, c = s2, d = t3,
 e = s3, f = t2, with twins p, q on {a, c, e} and r, z on {b, d, f}. The
@@ -8,7 +8,7 @@ six sets of the proof (up to interchanging a, b and c, d): empty, {ad},
 {h_a}, {ad, bc}, {ad, h_b}, {h_a, h_b}, where N(h_a) = acd and
 N(h_b) = bcd (the program writes hA, hB).
 
-B is a part of Construction 3.16 with attachments a, b, c, d and added
+B is a part of Construction 3.17 with attachments a, b, c, d and added
 edges ac, bd and H_ext. The retained K3,3 subdivision must use h_a, h_b
 with their edges to c and d, and ad, bc when present; it must use bd when
 neither h_b nor bc occurs, and ac when neither h_a nor ad occurs. B has at

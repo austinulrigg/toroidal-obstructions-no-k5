@@ -1,14 +1,14 @@
 """Extensions of enumeration.py for the enumerations of Section 5 that
 classify whole graphs (E16-E25).
 
-1. Permitted original edges between attachments (Construction 3.16(i)):
+1. Permitted original edges between attachments (Construction 3.17):
    when two attachments x, y are consecutive on a branch path of K', are
    not joined by an added edge, and xy is a permitted original edge, the
    segment is taken both as the original edge xy (kept in the part) and
    with one interior vertex. generate_parts_ext does this and otherwise
    follows enumeration.generate_parts exactly (roots up to the 72 symmetries
    of K3,3, outside vertices in every position, segments shortened as in
-   Lemma 3.15(ii), interior pieces joined by every forest, one edge at each
+   Lemma 3.16(ii), interior pieces joined by every forest, one edge at each
    attachment with no interior neighbor).
 
 2. Structural exclusions recorded beside a whole-graph outcome. Every
@@ -33,7 +33,7 @@ import enumeration as el
 
 
 # ----------------------------------------------------------------------------
-# Construction 3.16 with permitted original edges between attachments
+# Construction 3.17 with permitted original edges between attachments
 
 def build_retained_variants(pl, spec, originals=()):
     """Like enumeration.build_retained, but a segment between consecutive
@@ -265,7 +265,7 @@ def finish_whole_item(item, records, case_stats, targets, outdir,
 # ----------------------------------------------------------------------------
 # Several interior components, further singleton components, and minimal
 # sets of attaching edges meeting connectivity requirements
-# (Construction 3.16(ii) with h > 0, Lemma r2:retained-components)
+# (Construction 3.17 with h > 0, Lemma r2:retained-components)
 
 def set_partitions(items):
     items = list(items)

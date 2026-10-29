@@ -17,7 +17,7 @@ dropping the edges this creates between attachments; the result must again
 satisfy the hypotheses. Lemma 4.3 is checked as in the docstring of the class
 Psi1 below. A contraction 'contract' [u, v] of a whole graph merges v into u.
 
-E1 (Lemma 4.11). The rest of G, H0, is the graph stated (twins p, q on
+E1 (Lemma 4.10). The rest of G, H0, is the graph stated (twins p, q on
   s1, s2, s3 and r, z on t1, t2, t3, and s3t3); each bridge B meets H0 in
   A = {s1, t1, s2, t2}, satisfies the hypotheses, and B + s1s2 + t1t2 is
   nonplanar (a Kuratowski subgraph). The bridges are pairwise distinct up to
@@ -26,7 +26,7 @@ E1 (Lemma 4.11). The rest of G, H0, is the graph stated (twins p, q on
   nonplanar; an edge of G whose deletion or contraction leaves a minor model
   of T_i; or 'B has no disjoint s1-t1 and s2-t2 paths', checked by trying
   every s1-t1 path of B.
-E2 (Proposition 4.22). The 48 graphs are exactly those described in
+E2 (Proposition 4.21). The 48 graphs are exactly those described in
   input.json: Psi_1 (paths ab, cd, ef), the bridge B in either form, and one
   of the 16 shortened three-attachment components T(g') on the triples
   {s_i, t_i, v} meeting {e, f} (g' an end of the path s_i t_i), the 4
@@ -34,7 +34,7 @@ E2 (Proposition 4.22). The 48 graphs are exactly those described in
   (centre on either side), or the 4 pairs of an edge af or eb and an edge cf
   or ed. Each verdict deletes an edge and the minor fails all twelve choices
   of Lemma 4.3.
-E3 (Proposition 4.22). G = (Psi_1 + af) together with B on A = {a, b, c, d}
+E3 (Proposition 4.21). G = (Psi_1 + af) together with B on A = {a, b, c, d}
   satisfying the hypotheses, B + ac + cd + bd nonplanar, the bridges
   pairwise distinct up to relabelling the interior. Every verdict is an edge
   of G deleted or contracted, and the minor is nontoroidal because: it
@@ -43,7 +43,7 @@ E3 (Proposition 4.22). G = (Psi_1 + af) together with B on A = {a, b, c, d}
   choices of Lemma 4.3; or it has a minor model of T25; or (three graphs) by
   the genus computation of Appendix A, where the stated degree-three vertex
   and its adjacent neighbours are checked.
-E4 (Theorem 4.23). The 81 atoms are exactly the bridge and edge types the
+E4 (Theorem 4.22). The 81 atoms are exactly the bridge and edge types the
   case allows, rebuilt here: on each of the 18 attachment triples with
   vertices on both sides, one vertex, T(r) and S(x;y), S(y;x) (x, y on one
   side), keeping those with no degree-three interior vertex whose neighbours
@@ -59,7 +59,7 @@ E4 (Theorem 4.23). The 81 atoms are exactly the bridge and edge types the
   allow exactly the count vectors with at most five triple atoms, and five
   only with no other atom; cover.cnf is exactly the base clauses and one
   clause per record; and cover.drat is checked with drat-trim.
-E7 (Proposition 4.29), E8 (Lemma 4.30, Proposition 4.31). Each bridge B has
+E7 (Proposition 4.28), E8 (Lemma 4.29, Proposition 4.30). Each bridge B has
   the four attachments of the case and satisfies the hypotheses; the bridges
   are pairwise distinct up to relabelling the interior; the test graphs are
   those of the paper. Verdicts: a fact excluding the bridge (a Kuratowski
@@ -74,7 +74,7 @@ E7 (Proposition 4.29), E8 (Lemma 4.30, Proposition 4.31). Each bridge B has
   test planar (the list is exactly the allowed operations, each with a plane
   embedding). E8 also gives, for each bridge that passes, the graphs
   (Psi_1 + B) + eb and (Psi_1 + B) + af with their verdicts.
-E12 (Proposition 5.13). The 31 bridges are exactly the forms described in
+E12 (Lemma 5.15). The 31 bridges are exactly the forms described in
   input.json, up to relabelling the twins p', q' and the vertices of M;
   G = Psi_2 with (n_c, n_d) = (2, 2) together with B, where N(p') = N(q') =
   {a, u, v}; B satisfies the hypotheses of Lemma 5.3 and is planar (an
@@ -539,7 +539,7 @@ def check_E2(root):
 # ---------------------------------------------------------------- E3
 
 ALSO_E3 = re.compile(r'the vertex (\S+) has degree three and its neighbours (\S+), (\S+) are adjacent, so a torus '
-                     r'embedding of G - (\S+) would extend to G \(proof of Lemma 3\.3\(a\)\); G is nontoroidal because '
+                     r'embedding of G - (\S+) would extend to G \(proof of Lemma 3\.4\(a\)\); G is nontoroidal because '
                      r'B \+ ac \+ cd \+ bd is nonplanar')
 
 
@@ -623,8 +623,8 @@ FACTS = {
 DEG3 = 'an interior vertex of degree three has two adjacent neighbours'
 CUT = {'E7': 'B plus all edges among its four attachments has a cut of at most two vertices',
        'E8': 'B plus all edges among a, b, c, d has a cut of at most two vertices'}
-FORMS = {   # the bridges given in the text: Proposition 4.29, and B1-B5 of Lemma 4.30
-    'E7': {'the form of Proposition 4.29': [("p'", 'sx'), ("p'", 'sy'), ("p'", 'v'), ("q'", 'sx'), ("q'", 'sy'),
+FORMS = {   # the bridges given in the text: Proposition 4.28, and B1-B5 of Lemma 4.29
+    'E7': {'the form of Proposition 4.28': [("p'", 'sx'), ("p'", 'sy'), ("p'", 'v'), ("q'", 'sx'), ("q'", 'sy'),
                                            ("q'", 'v'), ('v', 'tx'), ('v', 'ty')]},
     'E8': {'B1': [("p'", 'a'), ("p'", 'c'), ("p'", 'v'), ("q'", 'a'), ("q'", 'c'), ("q'", 'v'),
                   ('a', 'u'), ('b', 'u'), ('d', 'u'), ('u', 'v')],

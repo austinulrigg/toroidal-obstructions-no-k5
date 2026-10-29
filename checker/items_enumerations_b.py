@@ -1,4 +1,4 @@
-"""The enumerations E20-E34 (Proposition 5.20 and Section 6 of the paper).
+"""The enumerations E20-E34 (Proposition 5.27 and Section 6 of the paper).
 
 Each folder holds input.json, candidates.json, verdicts.json and summary.json,
 any of them possibly gzip-compressed; E34 also holds bases.json.gz. Only these
@@ -95,7 +95,7 @@ files and O1 (for the graphs T1, ..., T74) are read. For every item:
     bases and the counts by verdict) are the counts of the records. (The
     passage quoted for E20 ends before its counts, so there only the summary
     is compared with the lattice.)
- 9. E20, the forms and the lattice of combinations (Proposition 5.20).
+ 9. E20, the forms and the lattice of combinations (Proposition 5.27).
     The 76 labeled forms: each has a triple among abc, abd, acd, bcd, interior
     vertices i0, i1, ... inducing a connected graph, attachments exactly its
     triple and no edge between attachments; forms of the same name are one

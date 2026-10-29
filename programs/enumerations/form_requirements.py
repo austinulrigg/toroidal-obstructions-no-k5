@@ -1,4 +1,4 @@
-"""Construction 3.16(ii), the completion step: further single-vertex components
+"""Construction 3.17, the completion step: further single-vertex components
 and every inclusion-minimal set of attaching edges (and, where permitted,
 original edges between attachments) that meets the requirements of the case,
 with the whole configuration minimal (Lemma 5.8).

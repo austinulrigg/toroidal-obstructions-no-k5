@@ -1,4 +1,4 @@
-"""E2: two four-attachment bridges, or one with another bridge on three attachments (Proposition 4.22).
+"""E2: two four-attachment bridges, or one with another bridge on three attachments (Proposition 4.21).
 
 The names: a = s1, b = t1, c = s2, d = t2, e = s3, f = t3, with twins p, q on
 {a, c, e} and r, z on {b, d, f}; the paths P1, P2, P3 are the edges ab, cd,
@@ -215,7 +215,7 @@ def main():
     }
     out.mkdir(parents=True, exist_ok=True)
     (out / 'candidates.json').write_text(json.dumps(result, indent=2, sort_keys=True) + '\n')
-    summary = {'item': 'E2', 'where': 'Proposition 4.22', 'counts': counts,
+    summary = {'item': 'E2', 'where': 'Proposition 4.21', 'counts': counts,
                'unresolved_candidate_ids': unresolved, 'seconds': round(time.monotonic() - start, 1)}
     (out / 'summary.json').write_text(json.dumps(summary, indent=1) + '\n')
     print(json.dumps(summary), flush=True)

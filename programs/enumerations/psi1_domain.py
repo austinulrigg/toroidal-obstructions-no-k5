@@ -1,4 +1,4 @@
-"""The family of bridge assemblies on Psi_1 of Proposition 4.25 (E5).
+"""The family of bridge assemblies on Psi_1 of Proposition 4.24 (E5).
 
 Names: a = s1, b = t1, c = s2, d = t2, e = s3, f = t3; p, q are adjacent
 to S = {a, c, e} and r, z to T = {b, d, f}. The bridges are those on
@@ -7,38 +7,38 @@ attach only to S u T.
 
 Atoms and the facts of the paper that give them:
   matching edges ab, cd, ef: the path P_m is the edge s_m t_m, or it lies
-      in a bridge (Proposition 4.13), and then s_m t_m is not an edge
+      in a bridge (Proposition 4.12), and then s_m t_m is not an edge
       (equation (1)).
   cross edges ad, af, bc, be, cf, de, never both s_i t_j and s_j t_i
-      (Lemma 4.8).
+      (Lemma 4.7).
   three-attachment bridges on a support {x, y, z} with x, y on one side and
-      z on the other (Lemma 4.16; supports inside S or T give T5 by
+      z on the other (Lemma 4.15; supports inside S or T give T5 by
       Lemma 4.5, and are not in the family). A bridge with a planar
       triangle completion is a single vertex; otherwise, as it has a planar
-      relevant completion (Corollary 4.24), it is one of the forms of
-      Proposition 3.13: T(x), T(y), T(z), S(x;y), S(y;x), and, for the
+      relevant completion (Corollary 4.23), it is one of the forms of
+      Proposition 3.14: T(x), T(y), T(z), S(x;y), S(y;x), and, for the
       bridge containing a path P_m when the support is {s_m, t_m, e} (roles
       g, e, h with g the end of P_m on the side of e), also Q(h;g,e) and the
-      two four-cycle graphs of Lemma 3.12 with g, e, h as x, y, z.
+      two four-cycle graphs of Lemma 3.13 with g, e, h as x, y, z.
   four-attachment bridges, single vertices (the hypothesis of
-      Proposition 4.25): on {s_i, t_i, s_j, t_j} (types (a), (b)), and on
+      Proposition 4.24): on {s_i, t_i, s_j, t_j} (types (a), (b)), and on
       {s_m, t_m, s_x, t_y} with {m, x, y} = {1, 2, 3} only as the bridge
       containing P_m (type (c); outside the paths it is excluded by
-      Lemma 4.7). Other four-sets give T4 or T5 (Lemmas 4.4, 4.5).
+      Lemma 4.6). Other four-sets give T4 or T5 (Lemmas 4.4, 4.5).
 
-Clauses (each holds in every obstruction of Proposition 4.25):
-  (a) Lemma 3.3(a): a degree-three vertex has independent neighbours, so an
+Clauses (each holds in every obstruction of Proposition 4.24):
+  (a) Lemma 3.4(a): a degree-three vertex has independent neighbours, so an
       atom whose degree-three interior vertex sees both ends of an edge of
       S u T excludes that edge.
   (b) at most three bridges outside the paths on one attachment set
-      (Lemma 4.17), plus the bridge containing P_m when the set contains
+      (Lemma 4.16), plus the bridge containing P_m when the set contains
       s_m, t_m and s_m t_m is not an edge.
   (c) a form allowed only for the bridge containing P_m (Q, four-cycle, type
       (c)) excludes s_m t_m, and there is at most one bridge containing P_m.
   (d) Psi_1 exists: s_m t_m is an edge or some bridge attaches to both s_m
       and t_m.
 
-form_edges() gives the forms of Proposition 3.13 and Lemma 3.12; it is also
+form_edges() gives the forms of Proposition 3.14 and Lemma 3.13; it is also
 used by forms_e11.py, forms_e14.py and generate_E13.py.
 """
 
@@ -181,14 +181,14 @@ def clauses(atom_list, mx, var, extra=None):
     for e in CROSS:
         edge_var[tuple(sorted(e))] = var(idx["X" + "".join(e)], 1)
     out = []
-    # (a) Lemma 3.3(a)
+    # (a) Lemma 3.4(a)
     for i, a in enumerate(atom_list):
         if a["kind"] in ("matching", "cross"):
             continue
         for pair in degree3_conflicts(a["edges"], a["attachments"]):
             if pair in edge_var:
                 out.append([-var(i, 1), -edge_var[pair]])
-    # Lemma 4.8: not both s_i t_j and s_j t_i
+    # Lemma 4.7: not both s_i t_j and s_j t_i
     for e1, e2 in OPPOSITE:
         out.append([-edge_var[tuple(sorted(e1))], -edge_var[tuple(sorted(e2))]])
     # (b) bridges on one triple support

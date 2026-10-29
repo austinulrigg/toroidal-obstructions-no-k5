@@ -1,4 +1,4 @@
-"""E12: a cut {a, u, v} with one component containing b, c, d (Proposition 5.13).
+"""E12: a cut {a, u, v} with one component containing b, c, d (Lemma 5.15).
 
 The names: Psi_2 has twins p1, p2 on abc and q1, q2 on abd (p, q, r, z in
 the paper), and the bridge B has attachments a, b, c, d. It contains u, v
@@ -184,7 +184,7 @@ def main():
     result = {'item': 'E12', 'raw_recipes': sum(len(r['recipes']) for r in records),
               'forms': len(records), 'candidates': records}
     (out / 'candidates.json').write_text(json.dumps(result, indent=2, sort_keys=True) + '\n')
-    summary = {'item': 'E12', 'where': 'Proposition 5.13', 'recipes': result['raw_recipes'], 'forms': len(records),
+    summary = {'item': 'E12', 'where': 'Lemma 5.15', 'recipes': result['raw_recipes'], 'forms': len(records),
                'outcomes': dict(counts),
                'catalogue graphs found': sorted({r['outcome']['target'] for r in records
                                                  if r['outcome']['type'] == 'survivor'}, key=lambda x: int(x[1:])),

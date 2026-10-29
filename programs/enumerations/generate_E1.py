@@ -1,9 +1,9 @@
-"""E1: the bridge H1 of Lemma 4.11 (sole two rails).
+"""E1: the bridge H1 of Lemma 4.10 (sole two rails).
 
 The names: Psi_1 has twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}.
 G = H0 + B, where H0 consists of p, q, r, z with their twelve edges and the
 edge s3 t3, and the bridge B (H1 in the proof) meets H0 in A = {s1, t1, s2,
-t2}. By the proof, B is a part of Construction 3.16 with attachments A and
+t2}. By the proof, B is a part of Construction 3.17 with attachments A and
 added edges E = {s1 s2, t1 t2}: A is independent in B, the interior is
 nonempty and connected, every attachment has an interior neighbour, and
 B + E is nonplanar.
@@ -213,7 +213,7 @@ def main():
     document = {'item': 'E1', 'candidate_count': len(records), 'outcome_counts': dict(counts),
                 'candidates': records}
     (out / 'candidates.json').write_text(json.dumps(document, sort_keys=True, separators=(',', ':')) + '\n')
-    summary = dict(stats, item='E1', where='Lemma 4.11', outcome_counts=dict(counts),
+    summary = dict(stats, item='E1', where='Lemma 4.10', outcome_counts=dict(counts),
                    unresolved=counts.get('unresolved', 0), seconds=round(time.time() - t0, 1))
     (out / 'summary.json').write_text(json.dumps(summary, indent=1) + '\n')
     print(json.dumps(summary, indent=1))

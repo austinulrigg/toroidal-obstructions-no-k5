@@ -42,7 +42,7 @@ def triangle(t):
 
 
 # ----------------------------------------------------------------------------
-# The bridge forms T, S, Q of Lemma 3.7 (core:three-root-cut).
+# The bridge forms T, S, Q of Lemma 3.8 (core:three-root-cut).
 # Interior vertices get the prefix pre so that several forms can coexist.
 
 def form_T(z, x, y, pre="U"):
@@ -348,7 +348,7 @@ def section6_row(G):
 def structural_certificate(G, want_row=3):
     """A checkable reason why the whole graph G cannot be an obstruction of
     the case at hand, or None: a degree-three vertex with adjacent
-    neighbors (Lemma 3.3(a)); two twin triples meeting other than once (an
+    neighbors (Lemma 3.4(a)); two twin triples meeting other than once (an
     earlier case, Sections 4-5); or, for want_row = 3 (Sections 6.5-6.6) or
     2 (Section 6.4), a choice of twin pairs giving an earlier row of
     Theorem 6.1."""

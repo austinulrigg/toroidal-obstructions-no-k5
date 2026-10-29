@@ -1,4 +1,4 @@
-"""E4: assemblies of bridges on Psi_1 when every path P_i is an edge (Theorem 4.23).
+"""E4: assemblies of bridges on Psi_1 when every path P_i is an edge (Theorem 4.22).
 
 The domain is that of endpoint_domain.py: count vectors of 81 atoms (bridge
 forms on triples, single vertices on the sets {s_i, t_i, s_j, t_j}, and the
@@ -282,7 +282,7 @@ if __name__ == '__main__':
     records, cst = cover(out)
     print('covering:', cst, round(time.time() - t0), 's', flush=True)
     outcomes, unresolved = classify(out, records)
-    summary = {'item': 'E4', 'where': 'Theorem 4.23', 'covering': cst, 'outcomes': outcomes,
+    summary = {'item': 'E4', 'where': 'Theorem 4.22', 'covering': cst, 'outcomes': outcomes,
                'unresolved': unresolved, 'seconds': round(time.time() - t0, 1)}
     (out / 'summary.json').write_text(json.dumps(summary, indent=1) + '\n')
     print(json.dumps(summary, indent=1))

@@ -3,8 +3,8 @@
  "where": "Lemma 5.5 (proof)",
  "paper text": [
   {
-   "line": 5948,
-   "text": "be the complementary region containing the portions of $H_1$\noutside this neighborhood.\nIn each boundary walk, retain only $a,c,d$.\nConsecutive equal appearances can be combined by rerouting\nthe edges of $H_1$ at the later appearance inside $F$ along\nthe intervening boundary arc to the earlier appearance,\npreserving their order. The arc has no other attachment of $H_1$.\nUp to cyclic shift and reversal, the boundary attachment sequences are\n$a,ac,ad,c$ when the neighborhood has genus zero, and the\nsequence containing $d$ is $ad$, $acd$, $acad$ or $acacd$\nwhen it has genus one~\\supp{R5}.\nIn the latter case, Lemma~\\ref{lem:torus-complement} makes\n$F$ a disk. Its boundary must contain $c$, leaving $acd$,\n$acad$ or $acacd$."
+   "where": "Lemma 5.5 (proof)",
+   "text": "Record only $a,c,d$ on the boundary walks of $F$.\nIf consecutive appearances are equal, move their incident\nedges to one appearance along the intervening boundary arc,\npreserving their order. Since $B_1$ meets both $c,d$,\nthe rotation table~\\supp{R5} and\nLemma~\\ref{lem:torus-complement} leave only the disk sequences\n$acd,acad,acacd$ and the annular pairs $ad\\mid ac,ad\\mid c$. We show that $B_1$ can be drawn in an annulus with $a_1,d$\non one boundary and $a_2,c$ on the other, allowing the edges\nat $a$ to use $a_1$ or $a_2$. The annular cases already give\nthis, with $a_2$ unused for $ad\\mid c$. In a disk case,\nseparate the appearances and use the boundary order\n$a_1,c_1,a_2,c_2,d$, leaving positions unused where needed.\nDraw $c_1c_2,c_1a_2,a_1d$ outside the disk without crossings,\nthen contract $c_1c_2$ to recover $c$. The resulting graph\nis planar, with $a_1,a_2$ distinct and $a_1d,a_2c$ added.\nLemma~\\ref{lem:annulus-embedding} gives the required drawing."
   }
  ],
  "what": "Every rotation system of Psi_2 - z. Attachments a, b, c, d; twins omitted. The claim retains only a, c, d, as the text does.",

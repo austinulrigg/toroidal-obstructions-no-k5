@@ -1,4 +1,4 @@
-"""E13: the cut X = {a, u, v} with three other components (Proposition 5.13).
+"""E13: the cut X = {a, u, v} with three other components (Proposition 5.18).
 
 The program's names: t0, t1 are the twins on abc and t2, t3 those on abd
 (p, q, r, z in the paper), and p, q have neighbourhood X = {a, u, v} (p', q'
@@ -6,7 +6,7 @@ in the paper). G = Psi_2 + p, q + R_b + R_c + R_d, where R_g is the
 component of P - X containing g, for g in {b, c, d}. Either R_g is g alone,
 adjacent to u, v or both, or R_g has neighbourhood st in {au, av, uv} in X
 and R_g - g is one of the nine forms on (s, t, g) as (x, y, z) of
-Proposition 3.13 and Lemma 3.12 (one vertex, T(s), T(t), T(g), S(s;t),
+Proposition 3.14 and Lemma 3.13 (one vertex, T(s), T(t), T(g), S(s;t),
 S(t;s), Q(g;s,t) and the two four-cycle forms), or two single vertices on
 {g, s, t}; the edges gs, gt of the original graph may be present, but never
 ag.
@@ -168,7 +168,7 @@ def main(out):
         json.dump({"passing": passing}, f)
     with open(out / "failing.json", "w") as f:
         json.dump({"failing": failing}, f)
-    summary = {"item": "E13", "where": "Proposition 5.13", "atoms": len(atoms), "variables": dom.nvars,
+    summary = {"item": "E13", "where": "Proposition 5.18", "atoms": len(atoms), "variables": dom.nvars,
                "base clauses": len(dom.base_clauses), "maximal toroidal": len(P), "minimal nontoroidal": len(F),
                "minimal nontoroidal satisfying the clauses": len(jobs), "outcomes": dict(outcomes),
                "catalogue graphs found": found,

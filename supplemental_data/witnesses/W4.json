@@ -1,6 +1,6 @@
 {
  "item": "W4",
- "where": "Lemma 4.7",
+ "where": "Lemma 4.6",
  "claim": "A connected set outside Psi_1 attached to s_i, s_j, t_i, t_k (i, j, k distinct) gives a K5 minor. Taking (i,j,k) = (1,2,3) and contracting the set to a vertex x and each P_i to an edge gives this graph.",
  "graph": {
   "vertices": [

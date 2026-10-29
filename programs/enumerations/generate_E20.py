@@ -1,7 +1,7 @@
-"""E20: combinations of the bridge forms on three attachments (Proposition 5.20).
+"""E20: combinations of the bridge forms on three attachments (Proposition 5.27).
 
 The program's names: x1, x2 are the twins on abc and y1, y2 those on abd.
-By Lemma 5.19 every bridge on a triple is one of eight forms on (x; y, z):
+By Lemma 5.26 every bridge on a triple is one of eight forms on (x; y, z):
 a single vertex, T(z), T(y), S(x;y), S(x;z), Q(x;y,z), and two four-cycles
 joined by a path of length one or two (forms_e20.py). Placed with every
 bijection of (x, y, z) onto a triple of {a, b, c, d}, they give 76 labeled

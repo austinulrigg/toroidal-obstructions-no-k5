@@ -1,5 +1,5 @@
 """E5: assemblies of bridges on Psi_1 when some path is not an edge and
-every four-attachment bridge has one interior vertex (Proposition 4.25).
+every four-attachment bridge has one interior vertex (Proposition 4.24).
 
 The family is that of psi1_domain.py: 162 atoms (the nine edges s_i t_j, the
 144 labeled three-attachment forms and the nine single vertices with four
@@ -311,7 +311,7 @@ def run(args):
     for p, names in found.items():
         for q in ("(a)", "(b)", "(c)") if p == "(b) and (c)" else (p,):
             by_part[q] = sorted(set(by_part[q]) | set(names), key=lambda x: int(x[1:]))
-    summary = {"item": "E5", "where": "Proposition 4.25", "atoms": len(atoms), "variables": dom.nvars,
+    summary = {"item": "E5", "where": "Proposition 4.24", "atoms": len(atoms), "variables": dom.nvars,
                "base clauses": len(dom.base_clauses), "maximal toroidal": len(P), "minimal nontoroidal": len(F),
                "minimal nontoroidal satisfying the clauses": sum(r["in domain"] for r in failing),
                "outcomes": dict(counts), "catalogue graphs by part": found,

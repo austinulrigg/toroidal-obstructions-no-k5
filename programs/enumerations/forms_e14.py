@@ -1,4 +1,4 @@
-"""The forms used by E14 (Proposition 5.13, the cut X = {a, u, v} with two
+"""The forms used by E14 (Proposition 5.18, the cut X = {a, u, v} with two
 other components, Section 5.4.2).
 
 X = {a, u, v}, p and q on X, Psi2 = twins on abc and abd. The other
@@ -33,10 +33,11 @@ R generators (the text's constructions, with mirrors u <-> v):
   G0  no subdivision: a vertex t on x, y and some of a, u, v; possibly a
       second single vertex; any original edges xu, xv, yu, yv (the seven
       path forms of the text are among these);
-  G1  P1, N(R) = uv, R + uv + bc nonplanar: Construction 3.16 with roots
+  G1  P1, N(R) = uv, R + uv + bc nonplanar: Construction 3.17 with roots
       b, c, u, v, added bc, uv, required bc, original pairs bu, bv, cu, cv;
-  G2  P1, the tests of equation (2): roots a, b, c, u, added bc, au,
-      required bc, original bu, cu, the interior with u connected;
+  G2  P1, the condition of row two of the table of Lemma 5.17: roots a, b,
+      c, u, added bc, au, required bc, original bu, cu, the interior with u
+      connected;
   G3  P2, N(R) in {u, au}, R + au + ac + ad nonplanar: roots a, c, d, u,
       added au, ac, ad, the subdivision using ac or ad, original cu, du.
 D generators: the nine forms on (s, t, r) for st in {au, av, uv}, two single

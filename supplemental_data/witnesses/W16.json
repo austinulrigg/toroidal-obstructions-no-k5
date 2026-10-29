@@ -1,6 +1,6 @@
 {
  "item": "W16",
- "where": "Proposition 6.6",
+ "where": "Proposition 6.7",
  "claim": "Psi_3 with u, v from the two disjoint paths: edges ub, uc, uv, vd, ve and one of au, av. Both choices give T6.",
  "graphs": [
   {

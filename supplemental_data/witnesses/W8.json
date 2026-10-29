@@ -1,6 +1,6 @@
 {
  "item": "W8",
- "where": "Proposition 4.22",
+ "where": "Proposition 4.21",
  "claim": "Two adjacent vertices, each joined to the same three of a = s_1, b = t_1, c = s_2, d = t_2, together with Psi_1 (paths as edges), give a K5 minor. One graph for each choice of the three attachments; d1, d2 are the two contracted vertices.",
  "graphs": [
   {

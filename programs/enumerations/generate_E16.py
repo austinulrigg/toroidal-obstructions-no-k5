@@ -1,4 +1,4 @@
-"""E16: a cut {a, c, w} with b and d in different components, D meeting a (Proposition 5.14).
+"""E16: a cut {a, c, w} with b and d in different components, D meeting a (Proposition 5.21).
 
 The program's names: x1, x2 are the twins on abc, y1, y2 those on abd, and
 p, q the twins on {a, c, w} (p', q' in the paper). B is the bridge of the
@@ -11,10 +11,10 @@ By the proof, B + ad + bc is planar exactly when H_b + cw + bc and
 H_d + aw + ad are both planar, so one of them is nonplanar. Both choices
 are enumerated:
 
-  altB: H_b + cw + bc nonplanar. Construction 3.16 with attachments
+  altB: H_b + cw + bc nonplanar. Construction 3.17 with attachments
         b, c, w, added edges cw, bc, the edge bc required; the other side
         contracted to one vertex zD with N(zD) = {a, d, w}.
-  altD: H_d + aw + ad nonplanar. Construction 3.16 with attachments
+  altD: H_d + aw + ad nonplanar. Construction 3.17 with attachments
         a, d, w, added edges aw, ad, the edge ad required; the other side
         contracted to one vertex zB with N(zB) = {b, c, w}.
 

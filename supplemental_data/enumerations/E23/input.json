@@ -3,8 +3,8 @@
  "where": "Lemma 6.10",
  "paper text": [
   {
-   "line": 9342,
-   "text": "Lemma~\\ref{r1:matching-test} makes $B+ab+ac+ad+ae$ nonplanar\nas well. Thus $\\Psi_3\\cup B$ fails both tests of\nLemma~\\ref{r1:missing-a-criterion}, and minimality gives\n$G=\\Psi_3\\cup B$.\n\nThe graph $H_2$ is a $K_5$-minor-free minor of $G$, so it contains\na $K_{3,3}$ subdivision. Apply Lemma~\\ref{core:retained-subdivision}\nwith attachments $b,c,d,e$ and added edges $bc,de$.\nThe reduction keeps the interior connected, all four attachments,\nand $H_2$ nonplanar. The preceding argument therefore keeps both\ntests failing, so minimality leaves $B$ unchanged.\nConstruction~\\ref{common:marked-construction} gives $26{,}633$\npossibilities for $B$. Each resulting graph $\\Psi_3\\cup B$\nis toroidal, has a $K_5$ minor or a proper nontoroidal minor,\nor is isomorphic to $\\mathfrak T_{54}$~\\supp{E23}."
+   "where": "Lemma 6.10 (proof)",
+   "text": "The graph $B'+ab+ac+ad+ae+bc+de$ is still a minor\nof $G$, so Lemma~\\ref{r1:matching-test} makes\n$B'+ab+ac+ad+ae$ nonplanar. Thus $\\Psi_3\\cup B'$\nfails both tests of Lemma~\\ref{r1:missing-a-criterion}.\nMinimality forces $B'=B$ and $G=\\Psi_3\\cup B$.\nConstruction~\\ref{common:marked-construction}\ntherefore includes $B$ among $26{,}633$ forms.\nEvery resulting graph other than $\\mathfrak T_{54}$\nis toroidal or has a $K_5$ minor or a proper\nnontoroidal minor~\\supp{E23}, so\n$G\\cong\\mathfrak T_{54}$."
   }
  ],
  "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",

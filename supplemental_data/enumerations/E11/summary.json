@@ -1,6 +1,6 @@
 {
  "item": "E11",
- "where": "Proposition 5.12",
+ "where": "Proposition 5.14",
  "forms": {
   "B_0": 11,
   "D_c": 33,
@@ -29,7 +29,7 @@
   "T73"
  ],
  "subcase of those": "all (a), one component D_0",
- "T_i with B nonplanar (handled by Proposition 5.9, E9)": [
+ "T_i with B nonplanar (handled by Proposition 5.10, E9)": [
   "T17",
   "T19",
   "T24",

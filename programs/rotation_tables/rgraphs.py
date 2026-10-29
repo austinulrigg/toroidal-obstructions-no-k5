@@ -30,7 +30,7 @@ def R1_graph():
 
 
 def R2_graph():
-    # Lemma 4.9: a = s1, b = t1, c = s2, d = t2; t3 contracted into s3
+    # Lemma 4.8: a = s1, b = t1, c = s2, d = t2; t3 contracted into s3
     V, E = psi1({'s1': 'a', 't1': 'b', 's2': 'c', 't2': 'd'})
     V, E = contract(V, E, 's3', 't3')
     return RotationTable('Psi_1/s3t3 (a = s1, b = t1, c = s2, d = t2; the edge s3t3 contracted into s3)',
@@ -43,7 +43,7 @@ def R2_psi1_graph():
 
 
 def R3_graph():
-    # Proposition 4.26: a = s1, b = t1, c = s2, d = t3, e = s3, f = t2; f contracted into c
+    # Proposition 4.25: a = s1, b = t1, c = s2, d = t3, e = s3, f = t2; f contracted into c
     V, E = psi1({'s1': 'a', 't1': 'b', 's2': 'c', 't3': 'd', 's3': 'e', 't2': 'f'})
     V, E = contract(V, E, 'c', 'f')
     return RotationTable('Psi_1/cf (a = s1, b = t1, c = s2, d = t3, e = s3, f = t2; f contracted into c)',

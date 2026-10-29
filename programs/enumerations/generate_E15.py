@@ -1,4 +1,4 @@
-"""E15: a cut {a, c, w} with b and d in different components, D missing a (Proposition 5.14).
+"""E15: a cut {a, c, w} with b and d in different components, D missing a (Proposition 5.21).
 
 The program's names: p, q are the twins on {a, c, w} (p', q' in the paper),
 t0, t1 the twins on abc and t2, t3 those on abd; U is the paper's H_b, on
@@ -6,7 +6,7 @@ the attachments b, c, w, and r is the paper's x, the vertex formed by
 contracting cw. As in the proof, D = {d} with the edge dw, U + cw is
 planar, and Lemma 2.7 makes (U + cw + bc)/cw nonplanar.
 
-Construction 3.16 with attachments b, r and the added edge br, which the
+Construction 3.17 with attachments b, r and the added edge br, which the
 retained K3,3 subdivision must use. Each edge at r is assigned back to c
 or to w in every possible way, and c or w without an interior neighbour
 gets one, in every possible way. The bridges are compared up to

@@ -1,10 +1,10 @@
 {
  "item": "E13",
- "where": "Proposition 5.13",
+ "where": "Proposition 5.18",
  "paper text": [
   {
-   "line": 7513,
-   "text": "the other. For the path, $m_1,m_2$ meet different vertices of\n$\\{u,v\\}$, or both meet one and a vertex of $\\{b,c,d\\}$ meets the other.\nThe $31$ forms in~\\supp{E12} leave exactly\n$\\mathfrak T_{40},\\mathfrak T_{53},\\mathfrak T_{56},\\mathfrak T_{73}$.\n\nNext suppose that three components contain $b,c,d$.\nWrite $D_g$ for the component containing $g\\in\\{b,c,d\\}$.\nA singleton neighborhood forces $V(D_g)=\\{g\\}$ by three-connectivity.\nOtherwise write $N_B(D_g)=\\{s,t\\}$.\nEvery component of $D_g-g$ has neighborhood $\\{g,s,t\\}$\nby three-connectivity.\nThere are at most two by planarity, and if two, both are singletons\nby Lemmas~\\ref{core:assembly-general}(ii) and~\\ref{lem:flat-replacement}.\n\nFor connected nonempty $D_g-g$, let $B_g$ be its bridge on\n$\\{g,s,t\\}$, keeping original edges $gs,gt$ separately.\nIts four relevant completions are\n$B_g+st+E$, $E\\subseteq\\{gs,gt\\}$:\nthe outside path $sp't$ supplies $st$, and\nLemma~\\ref{core:assembly-general}(ii),(iii) gives these tests.\nIn particular, $B_g+st$ is planar.\nIts triangle completion is three-connected by\nLemma~\\ref{lem:triangle-completion} and is a minor of $H_0$.\nIndeed, choose $y=b$ for $g=c,d$ and $y=c$ for $g=b$,\ntake a $y$--$h$ path $P$ through $D_y$ to $h\\in\\{u,v\\}$,\nand let $w$ be the other vertex. The cycle\n$gap'wq'hPyg$ in $H_0$, disjoint from $\\operatorname{Int}(B_g)$,\ncontains $g,s,t$ and supplies their triangle.\nA planar triangle completion gives one vertex by\nLemma~\\ref{lem:flat-replacement}. Otherwise minimality and\nProposition~\\ref{prop:three-root-disjoint} give\n$T(g),T(s),T(t),S(s;t),S(t;s),Q(g;s,t)$ or the two four-cycle\nforms of Lemma~\\ref{core:two-cap-critical}: nine forms in all.\n\nEach replacement keeps the interior of $B$ connected and all four\nattachments. For each $g$, combine one of these nine bridges,\ntwo singleton interiors, or an empty interior, with $st=au,av,uv$ and permitted original\nedges $gs,gt$, excluding $ag$. For empty interior, join $g$ to\n$u$, $v$, or both.\nEvery combination is a subgraph of a recorded toroidal graph\nor contains a recorded nontoroidal subgraph~\\supp{E13}.\nA DRAT proof in the same item certifies completeness."
+   "where": "Proposition 5.18 (proof)",
+   "text": "Suppose $b,c,d$ lie in three components $D_b,D_c,D_d$. For each $g\\in\\{b,c,d\\}$, Lemma~\\ref{r2:a-cut-single} leaves $D_g=\\{g\\}$, two single vertices in $D_g-g$, or one of the nine forms for $B_g$. Combine these for $g=b,c,d$, with each choice of $\\{s,t\\}$ among $\\{a,u\\},\\{a,v\\},\\{u,v\\}$ and every permitted set of original edges $gs,gt$ other than $ag$. When $D_g=\\{g\\}$, join $g$ to $u$, $v$ or both. In~\\supp{E13}, the combinations are checked using subgraph containment. A DRAT proof certifies that every allowed combination is a subgraph of a recorded toroidal graph or contains a recorded nontoroidal graph. A subgraph of a toroidal graph is toroidal, and minimality makes $G$ equal to any nontoroidal subgraph it contains. Thus $G$ is one of the recorded nontoroidal graphs. The checks leave only $\\mathfrak T_{51},\\mathfrak T_{72}$, and in neither does any $D_g-g$ consist of two single vertices."
   }
  ],
  "the base graph": {
@@ -392,7 +392,7 @@
   },
   {
    "id": "A8",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (a,u,b) on {b, a, u}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (a,u,b) on {b, a, u}",
    "attachments": [
     "a",
     "b",
@@ -443,7 +443,7 @@
   },
   {
    "id": "A9",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (a,u,b) on {b, a, u}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (a,u,b) on {b, a, u}",
    "attachments": [
     "a",
     "b",
@@ -800,7 +800,7 @@
   },
   {
    "id": "A17",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (a,v,b) on {b, a, v}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (a,v,b) on {b, a, v}",
    "attachments": [
     "a",
     "b",
@@ -851,7 +851,7 @@
   },
   {
    "id": "A18",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (a,v,b) on {b, a, v}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (a,v,b) on {b, a, v}",
    "attachments": [
     "a",
     "b",
@@ -1208,7 +1208,7 @@
   },
   {
    "id": "A26",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (u,v,b) on {b, u, v}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (u,v,b) on {b, u, v}",
    "attachments": [
     "b",
     "u",
@@ -1259,7 +1259,7 @@
   },
   {
    "id": "A27",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (u,v,b) on {b, u, v}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (u,v,b) on {b, u, v}",
    "attachments": [
     "b",
     "u",
@@ -1652,7 +1652,7 @@
   },
   {
    "id": "A37",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (a,u,c) on {c, a, u}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (a,u,c) on {c, a, u}",
    "attachments": [
     "a",
     "c",
@@ -1703,7 +1703,7 @@
   },
   {
    "id": "A38",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (a,u,c) on {c, a, u}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (a,u,c) on {c, a, u}",
    "attachments": [
     "a",
     "c",
@@ -2060,7 +2060,7 @@
   },
   {
    "id": "A46",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (a,v,c) on {c, a, v}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (a,v,c) on {c, a, v}",
    "attachments": [
     "a",
     "c",
@@ -2111,7 +2111,7 @@
   },
   {
    "id": "A47",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (a,v,c) on {c, a, v}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (a,v,c) on {c, a, v}",
    "attachments": [
     "a",
     "c",
@@ -2468,7 +2468,7 @@
   },
   {
    "id": "A55",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (u,v,c) on {c, u, v}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (u,v,c) on {c, u, v}",
    "attachments": [
     "c",
     "u",
@@ -2519,7 +2519,7 @@
   },
   {
    "id": "A56",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (u,v,c) on {c, u, v}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (u,v,c) on {c, u, v}",
    "attachments": [
     "c",
     "u",
@@ -2912,7 +2912,7 @@
   },
   {
    "id": "A66",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (a,u,d) on {d, a, u}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (a,u,d) on {d, a, u}",
    "attachments": [
     "a",
     "d",
@@ -2963,7 +2963,7 @@
   },
   {
    "id": "A67",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (a,u,d) on {d, a, u}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (a,u,d) on {d, a, u}",
    "attachments": [
     "a",
     "d",
@@ -3320,7 +3320,7 @@
   },
   {
    "id": "A75",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (a,v,d) on {d, a, v}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (a,v,d) on {d, a, v}",
    "attachments": [
     "a",
     "d",
@@ -3371,7 +3371,7 @@
   },
   {
    "id": "A76",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (a,v,d) on {d, a, v}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (a,v,d) on {d, a, v}",
    "attachments": [
     "a",
     "d",
@@ -3728,7 +3728,7 @@
   },
   {
    "id": "A84",
-   "is": "the first four-cycle form of Lemma 3.12 with (x,y,z) = (u,v,d) on {d, u, v}",
+   "is": "the first four-cycle form of Lemma 3.13 with (x,y,z) = (u,v,d) on {d, u, v}",
    "attachments": [
     "d",
     "u",
@@ -3779,7 +3779,7 @@
   },
   {
    "id": "A85",
-   "is": "the second four-cycle form of Lemma 3.12 with (x,y,z) = (u,v,d) on {d, u, v}",
+   "is": "the second four-cycle form of Lemma 3.13 with (x,y,z) = (u,v,d) on {d, u, v}",
    "attachments": [
     "d",
     "u",

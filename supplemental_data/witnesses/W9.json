@@ -1,6 +1,6 @@
 {
  "item": "W9",
- "where": "Lemma 4.30",
+ "where": "Lemma 4.29",
  "claim": "A path P outside Psi_1 from c to b, or from b to an internal vertex of P_x, gives a K5 minor together with B and Psi_1: the interior of B is contracted to u, and P and the other paths to edges (shown for m = 1, x = 2, so a = s_1, b = t_1, c = s_2, d = t_2).",
  "graphs": [
   {

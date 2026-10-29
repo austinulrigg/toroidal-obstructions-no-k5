@@ -3,8 +3,8 @@
  "where": "Lemma 6.13",
  "paper text": [
   {
-   "line": 9922,
-   "text": "embedding therefore has genus one, so every complementary region\nis a disk by Lemma~\\ref{lem:torus-complement}.\nIn every genus-one rotation of this exterior, each facial walk\ncontaining $a,b,d$ has attachment sequence $abad$, up to cyclic\nshift and reversal~\\supp{R7}.\nCorollary~\\ref{cor:boundary-completions} therefore requires\n$B_1+ab+ad$ to be planar. It is not, so the retained graph is\nnontoroidal and minimality forces it to equal $G$.\nKeep a $K_{3,3}$ subdivision of $B_1+ab+ad$ and apply\nLemma~\\ref{core:retained-subdivision}. The reduction keeps\nthe three attachments, connected interior and the failed test,\nso minimality also leaves $B_1$ unchanged.\nConstruction~\\ref{common:marked-construction} gives $349$\npossibilities for $B_1$. Every resulting graph has a $K_5$ minor,\na cut of at most two vertices or a proper nontoroidal minor~\\supp{E28}."
+   "where": "Lemma 6.13 (proof)",
+   "text": "Construction~\\ref{common:marked-construction} gives\n$349$ possibilities for $B_1$. Every resulting graph\nhas a $K_5$ minor, a cut of at most two vertices,\nor a proper nontoroidal minor~\\supp{E28}.\nThus every other bridge with nonempty interior\nhas planar triangle completion, and\nLemma~\\ref{lem:flat-replacement} makes its interior\na single vertex."
   }
  ],
  "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",

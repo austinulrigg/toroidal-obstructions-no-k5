@@ -1,4 +1,4 @@
-"""E14: the cut X = {a, u, v} with two other components (Proposition 5.13).
+"""E14: the cut X = {a, u, v} with two other components (Proposition 5.18).
 
 The program's names: t0, t1 are the twins on abc and t2, t3 those on abd
 (p, q, r, z in the paper), and p, q have neighbourhood X = {a, u, v} (p', q'
@@ -12,9 +12,9 @@ of D_2 from forms_e14.d_forms; forms with a one-step proper minor of the
 same signature are removed first. Every pair whose neighbourhoods together
 contain u and v is assembled; the graphs are compared up to isomorphism,
 each class is classified (enumeration.classify), and each is placed in the
-rows of the table of the proof:
+rows of the table of Lemma 5.17:
   row 1  P1, N(D_1) in {u, au}, N(D_2) = uv
-  row 2  P1, N(D_1) in {u, au}, N(D_2) in {v, av}   (with equation (2))
+  row 2  P1, N(D_1) in {u, au}, N(D_2) in {v, av}   (with its condition)
   row 3  P1, N(D_1) = uv, N(D_2) = uv
   row 4  P1, N(D_1) = uv, N(D_2) in {v, av}
   row 5  P2, one neighbourhood uv

@@ -1,10 +1,10 @@
-"""Construction 3.16 with original edges between attachments and
+"""Construction 3.17 with original edges between attachments and
 disconnected interiors (used by E11 and E14).
 
 retained(roots, added, required, original)
-    Construction 3.16(i): every placement of the roots on a K3,3
+    Construction 3.17(i): every placement of the roots on a K3,3
     subdivision (branch vertex, inside a branch path in order, or off), up
-    to the symmetry of K3,3; segments shortened as in Lemma 3.15(ii). A
+    to the symmetry of K3,3; segments shortened as in Lemma 3.16(ii). A
     segment between two roots is the added edge when its ends are joined by
     one, is taken both as the original edge and with one interior vertex
     when its ends form a permitted original pair, and otherwise has one

@@ -27,14 +27,14 @@ HOW_TO_READ = (
 
 PAPER_TEXT = r"""Take a closed regular neighborhood $\mathcal N$ of $H_0$.
 Enumerating the rotations of $H_0$ and tracing their
-boundary walks gives the following~\supp{R12}. If $\mathcal N$ has
-genus one, no boundary walk contains all four attachments.
-Every complementary region is then a disk by
-Lemma~\ref{lem:torus-complement}, a contradiction.
+boundary walks gives the following~\supp{R12}.
+If $\mathcal N$ has genus one, no boundary walk contains
+all four attachments. Every complementary region is then
+a disk by Lemma~\ref{lem:torus-complement}, a contradiction.
 Thus $\mathcal N$ has genus zero. No single boundary
 walk contains all four attachments, and exactly one pair
 contains all four between them. Their attachment sequences
-are $s_1,s_2$ and $t_1,t_2$, each appearing once."""
+are $s_1,s_2$ and $t_1,t_2$, with each attachment appearing once."""
 
 
 def canonical(sequence):

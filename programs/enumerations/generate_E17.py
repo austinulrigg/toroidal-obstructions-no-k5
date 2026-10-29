@@ -1,15 +1,15 @@
-"""E17: a cut {a, c, w} with b and d in one component (Proposition 5.14).
+"""E17: a cut {a, c, w} with b and d in one component (Lemma 5.20).
 
 The program's names: x1, x2 are the twins on abc, y1, y2 those on abd, and
 p, q the twins on {a, c, w} (p', q' in the paper). Here b and d lie in one
 component of B - X, X = {a, c, w}. Deleting a and the six vertices of
 degree three on abc, abd, acw leaves the paper's H_1 on the attachments
-b, c, d, w, with interior I, subject to equation (3) of the paper:
+b, c, d, w, with interior I, subject to equation (2) of the paper:
 H_1[{b, d} u I] connected, H_1[{w} u I] connected, and c has a neighbour
 in I. Only bw and dw can join two attachments. G is nontoroidal exactly
 when H_1 + bd + cw is nonplanar, and H_1 + cw is planar.
 
-Construction 3.16 with attachments b, c, d, w and added edges bd, cw; the
+Construction 3.17 with attachments b, c, d, w and added edges bd, cw; the
 retained K3,3 subdivision must use bd, and original edges bw, dw are
 permitted on it (both as a direct edge and as a segment with one interior
 vertex). As the proof states, by Lemma 5.8:
@@ -19,10 +19,10 @@ vertex). As the proof states, by Lemma 5.8:
     pieces of each component are joined by every tree, with every choice
     of ends;
   * at most two further components are added, each a single vertex s;
-    by equation (3), N(s) contains w and one of b, d, and every such set
+    by equation (2), N(s) contains w and one of b, d, and every such set
     is allowed: wb, wd, wbd, wbc, wdc, wbcd;
   * then every inclusion-minimal set of attaching edges that, with the
-    further components, satisfies equation (3) is added, and the whole
+    further components, satisfies equation (2) is added, and the whole
     configuration is required to be minimal.
 
 Every resulting graph G is classified (enumeration.classify), and a
