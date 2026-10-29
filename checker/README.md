@@ -8,7 +8,7 @@ Each module checks one group of items, and its opening comment lists what it che
 
 | Module | Items |
 |---|---|
-| `items_obstructions.py` | O1–O4, TO1, TO2 |
+| `items_obstructions.py` | O1–O4, TO1, TO2, N1 |
 | `items_witnesses.py` | W1–W21 |
 | `items_rotations.py` | R1–R11 |
 | `items_bridges.py` | E1, E2, E3, E4, E7, E8, E12 |
@@ -33,4 +33,4 @@ It prints one line for each item and ends with `all checks passed`, or with a li
 python3 check_supplement.py ../supplemental_data --items E4,TO2
 ```
 
-If nauty's program `labelg` is on the PATH, or its path is given by the environment variable `LABELG`, the checker also recomputes the canonical forms recorded in O2 and O4.
+If nauty's program `labelg` is on the PATH, or its path is given by the environment variable `LABELG`, the checker also recomputes the canonical forms recorded in O2, O4 and N1.

@@ -26,7 +26,7 @@ import traceback
 
 # item -> module that checks it (each module has a function check(root, item) returning a short report)
 ITEMS = {}
-for k in ('O1', 'O2', 'O3', 'O4', 'TO1', 'TO2'):
+for k in ('O1', 'O2', 'O3', 'O4', 'TO1', 'TO2', 'N1'):
     ITEMS[k] = 'items_obstructions'
 for i in range(1, 22):
     ITEMS['W%d' % i] = 'items_witnesses'
@@ -45,7 +45,7 @@ for i in range(20, 35):
 
 def order(k):
     pre = k.rstrip('0123456789')
-    return (['O', 'W', 'R', 'E', 'TO'].index(pre), int(k[len(pre):]))
+    return (['O', 'W', 'R', 'E', 'TO', 'N'].index(pre), int(k[len(pre):]))
 
 
 def check_checksums(root):

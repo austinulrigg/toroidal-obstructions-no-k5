@@ -1,6 +1,6 @@
 # Programs
 
-These are the programs that make the supplemental data of the paper. `rotation_tables` makes the rotation tables R1–R11, `enumerations` makes the enumerations E1–E34, and `topological_search` makes TO1 and TO2, the search for the topological obstructions in the proof of Theorem 8.1. Each program writes its files in the same layout as the folder `supplemental_data`, so that what it writes can be compared with that folder file by file.
+These are the programs that make the supplemental data of the paper. `rotation_tables` makes the rotation tables R1–R11, `enumerations` makes the enumerations E1–E34, `new_obstructions` makes N1, and `topological_search` makes TO1 and TO2, the search for the topological obstructions in the proof of Theorem 8.1. Each program writes its files in the same layout as the folder `supplemental_data`, so that what it writes can be compared with that folder file by file.
 
 ## Setting up
 
@@ -23,6 +23,8 @@ E5 and E13 also check their DRAT proofs with drat-trim, found in the same way as
 `topological_search/topological_search.py` starts from T1, ..., T74, splits vertices in every way and writes TO1.json and TO2.json. `topological_search/compare.py` compares them with the data folder up to isomorphism: the same 381 topological obstructions and the same 7,006 graphs with the same verdicts. The witnesses (branch sets and embeddings) may differ from those of the data folder, since the search may find other valid ones.
 
 `enumerations/make_enumerations.py` runs the program `generate_E<k>.py` of each enumeration, which writes its own records to `OUTPUT_FOLDER/work/E<k>`, and then writes the files of the item to `OUTPUT_FOLDER/enumerations/E<k>` (with `package.py`). The docstring at the top of each `generate_E<k>.py` says what it enumerates, where the paper uses it and how it classifies each graph. The other modules of the folder are shared: `enumeration.py` builds the bridges of Construction 3.16 and classifies whole graphs, `joint_test.py` is the test of Lemma 4.3, `covering.py` is the covering used by E5 and E13, and so on, each with its own docstring.
+
+`new_obstructions/make_N1.py` takes the thirteen graphs of N1 and writes `OUTPUT_FOLDER/new_obstructions/N1.json`: the genus of each graph by multi_genus (and also by PAGE with the option `--page`), a minimum genus embedding of the graph and of each of its edge deletions and contractions by multi_genus, K5 branch sets, the connectivity, the canonical form (it needs nauty's `labelg`) and the comparison with the collection in O4. Run it from the top folder of the repository with `python programs/new_obstructions/make_N1.py OUTPUT_FOLDER`.
 
 `compare_files.py` compares the files of an output folder with the data folder: first byte for byte, then, for JSON files whose bytes differ, by content, so that a difference in formatting alone is reported as such. For a file whose content differs, it counts the places that differ and says whether they all lie in rotation systems (see the last section).
 

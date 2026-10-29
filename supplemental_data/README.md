@@ -7,6 +7,7 @@ This folder holds every computation the paper cites. An item cited as \supp{X} i
 - `rotations`: R1–R12, rotation tables.
 - `enumerations`: E1–E34, one folder per enumeration.
 - `no_K5_topological_obstructions`: TO1 and TO2, for the topological obstructions.
+- `new_obstructions`: N1, thirteen toroidal minor obstructions that are not in the collection of Myrvold and Woodcock.
 
 Every file is JSON, except the propositional formulas and their proofs in E4, E5 and E13 (`cover.cnf` in DIMACS format and `cover.drat` in DRAT format). A file larger than 25 MB is stored gzip-compressed, with the extension `.json.gz` (or `.drat.gz`); these are the three files of `rotations/R8`, the candidates and verdicts of E5, E9 and E22, the candidates of E30, `E34/bases.json.gz` and `E5/cover.drat.gz`. Any gzip tool opens them, and Python reads them with `json.load(gzip.open(path, 'rt'))`.
 
@@ -42,6 +43,10 @@ The verdicts are these.
 ## Rotation tables
 
 Each table lists every rotation system of its graph, with its genus and the attachments met by each facial walk, in order. For each graph, `cyclic orders` lists, for every vertex, all cyclic orders of its neighbours, each starting with its alphabetically first neighbour. Rotation system number i (counting from 0) takes, at each vertex, the cyclic order whose position is the corresponding digit of i in the mixed radix given by the numbers of cyclic orders, in the order of `vertices`, with the last vertex varying fastest. Since many rotation systems give the same row, the distinct rows are listed once under `distinct rows`, and `rows` gives, for every rotation system in turn, the position of its row in that list. A row is the genus followed by the attachment sequences of the facial walks: each sequence lists the attachments the walk passes through, one entry per passage, starting from its lexicographically least cyclic shift, and the faces are sorted. In R1–R3 a row also gives the region along a path (the faces on the two sides of the path glued along it). Each table ends with `claims`: every statement the text makes about the table, the data computed from the rows, and the result of the check. R8, the largest table (21,220,992 rotation systems of twelve exteriors), is a folder: `R8.json.gz` is the table, and the rows of its largest exterior (17,694,720 rotation systems) are stored in `rows_1.json.gz` and `rows_2.json.gz`, in order, 9,000,000 rows to a part, so that no file is larger than 25 MB.
+
+## The thirteen obstructions of N1
+
+N1 gives thirteen toroidal minor obstructions, N1.1, ..., N1.13, that are not in the collection of Myrvold and Woodcock. They were found in searches during this research. Each has a K5 minor, so none of them is among T1–T74. For each graph, N1 gives its graph6 string and edges, an embedding of genus two, a torus embedding of every edge deletion and of every edge contraction, K5 branch sets, its connectivity and its canonical graph6 string (nauty's `labelg`). Since every edge deletion and edge contraction is toroidal, every proper minor is toroidal. That the graph itself is not toroidal is the genus computation recorded under `genus` (genus two by multi_genus, as bundled with graph-genus 0.1.3), which `programs/new_obstructions/make_N1.py` repeats. Each graph is isomorphic to no entry of the collection in O4: N1 lists the entries with the same invariants (orders, sizes, degrees and triangles), and there are none.
 
 ## Checksums
 

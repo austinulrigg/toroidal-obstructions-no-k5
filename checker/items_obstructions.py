@@ -27,6 +27,13 @@ TO2 The 7,006 graphs of the search: each is the split of its recorded parent
     splitting every vertex of every graph of TO1 in every way gives exactly
     these graphs up to isomorphism, the kept ones being the graphs of TO1
     other than T1, ..., T74.
+N1  Thirteen toroidal minor obstructions not in the collection: graph6 and
+    edge lists agree; for each, the genus-two embedding, a torus embedding of
+    G - e and of G/e for every edge e, K5 branch sets and the connectivity,
+    recomputed; the thirteen are pairwise nonisomorphic and none is
+    isomorphic to an entry of the collection in O4 (checked directly, and, if
+    nauty's labelg is given by the environment variable LABELG, also by
+    canonical forms).
 """
 import os
 import shutil
@@ -297,6 +304,63 @@ def check_O4(root):
            'share its invariants)%s' % (len(same), note)
 
 
+def check_N1(root):
+    d = load(os.path.join(root, 'new_obstructions', 'N1.json'))
+    need([g['name'] for g in d['graphs']] == ['N1.%d' % i for i in range(1, 14)], 'N1 must list N1.1, ..., N1.13 in order')
+    graphs = []
+    n_emb = 0
+    for g in d['graphs']:
+        name = g['name']
+        G = from_graph6(g['graph6'])
+        need(len(G) == g['n'] and n_edges(G) == g['m'], name, ': wrong size')
+        H = {v: set() for v in range(g['n'])}
+        for u, v in g['edges']:
+            H[u].add(v)
+            H[v].add(u)
+        need(same_graph(G, H), name, ': graph6 and edges differ')
+        e = g['genus-two embedding']
+        check_embedding(G, {'type': 'embedding', 'genus': e['genus'], 'rotation': int_rotation(e['rotation'])}, genus=2)
+        need(g['genus'].get('multi_genus') == 2 and set(g['genus'].values()) == {2}, name,
+             ': the recorded genus computation is not genus two')
+        es = {frozenset(x) for x in edges(G)}
+        for key, op in (('G - e', delete_edge), ('G / e', contract_edge)):
+            seen = set()
+            for x in g[key]:
+                u, v = int(x['edge'][0]), int(x['edge'][1])
+                check_embedding(op(G, (u, v)), {'type': 'embedding', 'genus': x['genus'],
+                                                'rotation': int_rotation(x['rotation'])}, at_most=1)
+                seen.add(frozenset((u, v)))
+                n_emb += 1
+            need(seen == es and len(g[key]) == len(es), name, key, 'is not given exactly once for every edge')
+        check_k5(G, g['K5 branch sets'])
+        need(g['connectivity'] == connectivity(G), name, ': connectivity stated', g['connectivity'])
+        graphs.append((name, G))
+    distinct(graphs, 'N1:')
+    _, MW = collection(root)
+    by_inv = {}
+    for i, adj in enumerate(MW):
+        by_inv.setdefault(invariant(adj), []).append(i)
+    shared = 0
+    for (name, G), g in zip(graphs, d['graphs']):
+        same = by_inv.get(invariant(G), [])
+        need([i + 1 for i in same] == g['entries of the collection with the same invariants'], name,
+             ': entries with the same invariants')
+        for i in same:
+            need(not nx.is_isomorphic(nxg(G), nxg(MW[i])), name, 'is isomorphic to entry', i + 1)
+        shared += len(same)
+    note = 'canonical forms distinct'
+    can = [g['canonical graph6'] for g in d['graphs']]
+    need(len(set(can)) == 13, 'N1: canonical forms not distinct')
+    if labelg():
+        need(canonical([to_graph6(G) for _, G in graphs]) == can, 'N1: canonical forms differ from labelg')
+        o4 = load(os.path.join(root, D, 'O4.json'))
+        need(not set(can) & set(o4['collection']['canonical graph6 of each entry']), 'N1: a canonical form is in O4')
+        note = 'canonical forms recomputed with labelg, none in the collection'
+    return ('13 graphs: genus-two embeddings, %d torus embeddings of G-e and G/e, K5 branch sets, connectivity; '
+            'pairwise nonisomorphic; isomorphic to no entry of the collection (%d entries share invariants); %s'
+            % (n_emb, shared, note))
+
+
 # ---------------------------------------------------------------- TO1, TO2
 
 def splits(g):
@@ -421,4 +485,4 @@ def check_TO2(root):
 
 def check(root, item):
     return {'O1': check_O1, 'O2': check_O2, 'O3': check_O3, 'O4': check_O4, 'TO1': check_TO1,
-            'TO2': check_TO2}[item](root)
+            'TO2': check_TO2, 'N1': check_N1}[item](root)
