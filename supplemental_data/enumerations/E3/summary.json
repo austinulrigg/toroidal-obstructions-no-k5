@@ -1,19 +1,31 @@
 {
  "item": "E3",
- "where": "Proposition 4.21",
- "candidates": 15626,
+ "where": "Theorem 4.22",
+ "recorded graphs": 2310,
+ "toroidal, maximal": 233,
+ "nontoroidal, minimal": 2077,
  "verdicts": {
-  "proper nontoroidal minor": 15626
+  "isomorphic to T48": 12,
+  "isomorphic to T58": 12,
+  "proper nontoroidal minor": 2053,
+  "toroidal": 233
  },
- "one-edge minors": {
-  "contract": 1732,
-  "delete": 13894
+ "isomorphic to T_i (copies)": {
+  "T48": 12,
+  "T58": 12
  },
- "why nontoroidal": {
-  "a minor model of T25 in the minor": 46,
-  "an allowed reduction keeping B + ac + cd + bd nonplanar": 15545,
-  "the minor fails all twelve choices of Lemma 4.3": 32,
-  "a genus computation": 3
+ "four-attachment bridges in the copies of T48 and T58": 0,
+ "one-edge minors failing all twelve choices": {
+  "delete": 1723,
+  "contract": 114
  },
- "remaining": 0
+ "formula": {
+  "variables": 1295,
+  "clauses": 6822,
+  "DRAT": "verified by drat-trim"
+ },
+ "one-edge minors with a minor model of some T_i": {
+  "delete": 174,
+  "contract": 42
+ }
 }

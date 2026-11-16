@@ -1,9 +1,9 @@
 """E1: the bridge H1 of Lemma 4.10 (sole two rails).
 
 The names: Psi_1 has twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}.
-G = H0 + B, where H0 consists of p, q, r, z with their twelve edges and the
-edge s3 t3, and the bridge B (H1 in the proof) meets H0 in A = {s1, t1, s2,
-t2}. By the proof, B is a part of Construction 3.17 with attachments A and
+G = H2 + B, where H2 consists of p, q, r, z with their twelve edges and the
+edge s3 t3, and the bridge B (H1 in the proof) meets H2 in A = {s1, t1, s2,
+t2}. By the proof, B is a part of Construction 3.18 with attachments A and
 added edges E = {s1 s2, t1 t2}: A is independent in B, the interior is
 nonempty and connected, every attachment has an interior neighbour, and
 B + E is nonplanar.

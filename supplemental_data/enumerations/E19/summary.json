@@ -1,75 +1,49 @@
 {
  "item": "E19",
- "where": "Lemma 5.24",
- "graphs": 5934,
- "nonplanar U": 5214,
- "planar U": 720,
+ "where": "Proposition 5.33",
+ "candidates": 2174,
  "verdicts": {
-  "K5 minor": 1762,
-  "cut of at most two vertices": 668,
-  "proper nontoroidal minor": 3504
+  "cut of at most two vertices": 504,
+  "isomorphic to T15": 4,
+  "proper nontoroidal minor": 902,
+  "toroidal": 764
+ },
+ "isomorphic to T_i (copies)": {
+  "T15": 4
+ },
+ "graphs T_i not excluded by a hypothesis of the case": [
+  "T15"
+ ],
+ "also excluded by a hypothesis of the case": {
+  "a choice of twin pairs leaves a component adjacent to all four of their attachments": 175,
+  "three twin triples share a pair of vertices": 186,
+  "two twin triples are disjoint": 307
  },
  "by case": {
-  "U_acd_nonplanar_v_on_abc": {
-   "K5 minor": 276,
-   "cut of at most two vertices": 92,
-   "proper nontoroidal minor": 501
+  "size 1": {
+   "candidates": 112,
+   "graphs T_i not excluded by a hypothesis of the case": []
   },
-  "U_acd_nonplanar_v_on_abd": {
-   "K5 minor": 274,
-   "cut of at most two vertices": 94,
-   "proper nontoroidal minor": 501
+  "size 2": {
+   "candidates": 1142,
+   "graphs T_i not excluded by a hypothesis of the case": [
+    "T15"
+   ]
   },
-  "U_acd_nonplanar_v_on_bcd": {
-   "K5 minor": 325,
-   "cut of at most two vertices": 93,
-   "proper nontoroidal minor": 451
+  "size 3": {
+   "candidates": 836,
+   "graphs T_i not excluded by a hypothesis of the case": []
   },
-  "U_acd_planar_v_on_abc": {
-   "K5 minor": 2,
-   "cut of at most two vertices": 18,
-   "proper nontoroidal minor": 100
-  },
-  "U_acd_planar_v_on_abd": {
-   "K5 minor": 5,
-   "cut of at most two vertices": 18,
-   "proper nontoroidal minor": 97
-  },
-  "U_acd_planar_v_on_bcd": {
-   "K5 minor": 5,
-   "cut of at most two vertices": 18,
-   "proper nontoroidal minor": 97
-  },
-  "U_bcd_nonplanar_v_on_abc": {
-   "K5 minor": 270,
-   "cut of at most two vertices": 94,
-   "proper nontoroidal minor": 505
-  },
-  "U_bcd_nonplanar_v_on_abd": {
-   "K5 minor": 269,
-   "cut of at most two vertices": 94,
-   "proper nontoroidal minor": 506
-  },
-  "U_bcd_nonplanar_v_on_acd": {
-   "K5 minor": 324,
-   "cut of at most two vertices": 93,
-   "proper nontoroidal minor": 452
-  },
-  "U_bcd_planar_v_on_abc": {
-   "K5 minor": 3,
-   "cut of at most two vertices": 18,
-   "proper nontoroidal minor": 99
-  },
-  "U_bcd_planar_v_on_abd": {
-   "K5 minor": 4,
-   "cut of at most two vertices": 18,
-   "proper nontoroidal minor": 98
-  },
-  "U_bcd_planar_v_on_acd": {
-   "K5 minor": 5,
-   "cut of at most two vertices": 18,
-   "proper nontoroidal minor": 97
+  "size 4": {
+   "candidates": 84,
+   "graphs T_i not excluded by a hypothesis of the case": []
   }
  },
- "remaining": 0
+ "combinations": {
+  "in the domain": 3163020,
+  "recorded": 2174,
+  "excluded through a recorded smaller combination with a violation or nontoroidal status": 3160846,
+  "recorded stars-only combinations used only for these exclusions": 111,
+  "checked": "every combination of the domain is recorded or contains a recorded smaller one with a violation or nontoroidal status"
+ }
 }

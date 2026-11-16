@@ -1,81 +1,26 @@
 {
  "item": "E17",
- "where": "Lemma 5.20",
+ "where": "Lemma 5.28",
  "paper text": [
   {
-   "where": "Lemma 5.20 (proof)",
-   "text": "Retain a $K_{3,3}$ subdivision of $B_1+bd+cw$. It uses $bd$, since deleting this edge leaves the planar graph $B_1+cw$. The vertices of this subdivision outside $\\{b,c,d,w\\}$ may lie in different components of $B_1-\\{b,c,d,w\\}$. By \\eqref{r2:cross-connectivity}, every such component has a neighbor at $w$ and at $b$ or $d$. Retain a $b$--$d$ path in $D_1$ and a neighbor of $c$ outside $\\{b,c,d,w\\}$. Since $D_1$ avoids $c,w$, the internal vertices of the path lie in one component of $B_1-\\{b,c,d,w\\}$. The chosen neighbor of $c$ lies in one such component as well. Thus at most two further components are needed. By Lemma~\\ref{r2:retained-components}, contract each to one vertex and keep a minimal set of attaching edges satisfying \\eqref{r2:cross-connectivity}. The retained subdivision keeps $B+ac+bd$ nonplanar. In the other three tests, the bridge containing $D_1$ is still adjacent to all of $X$. The conditions in \\eqref{r2:cross-connectivity} keep the interior of $B$ connected and give every attachment an interior neighbor. Thus the reduction is allowed and keeps all four tests nonplanar, so minimality leaves $B$ unchanged. Construction~\\ref{common:marked-construction} lists every possible $B_1$, with attachments $b,c,d,w$, added edges $bd,cw$, the original edges $bw,dw$ permitted on the subdivision, the requirements \\eqref{r2:cross-connectivity}, and at most two further interior components. Adding $a$ and the three pairs of twins gives the $5{,}819$ candidates in~\\supp{E17}. Each has nonplanar $B$, a $K_5$ minor, a separating set of at most two vertices, or a proper nontoroidal minor."
+   "where": "Lemma 5.28 (proof)",
+   "text": "Suppose first that every triangle completion is planar. By Lemma~\\ref{lem:flat-replacement}, every component outside $\\Psi_2$ is a single vertex. Thus $G$ is determined by the numbers of vertices with neighborhoods $\\{a,b,c\\}$, $\\{a,b,d\\}$, $\\{a,c,d\\}$ and $\\{b,c,d\\}$, together with the presence or absence of $cd$. At least two vertices have each of the first two neighborhoods, and the four counts sum to at most nine. These give the $252$ choices checked in~\\supp{E17}. Every graph except $\\mathfrak T_9,\\mathfrak T_{10},\\mathfrak T_{16}$ has a cut of at most two vertices, is toroidal, or has a proper nontoroidal minor. In all three remaining graphs, $cd$ is absent."
   }
  ],
- "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ... Twins p', q' have neighbourhood {a,c,w}, as in Section 5.4.3.",
+ "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ... Here the other vertices with a given neighbourhood are named by it, as abc2, abd2, acd0, bcd0, ....",
  "cases of the construction": {
-  "R_bd": {
+  "singletons": {
    "specification": {
-    "roots": [
-     "b",
-     "c",
-     "d",
-     "w"
-    ],
-    "outside": {},
-    "C edges within R": [
-     [
-      "b",
-      "d"
-     ],
-     [
-      "c",
-      "w"
-     ]
-    ],
-    "required edges of K'": [
-     [
-      "b",
-      "d"
-     ]
-    ],
-    "permitted original edges": [
-     [
-      "b",
-      "w"
-     ],
-     [
-      "d",
-      "w"
-     ]
-    ],
-    "further components": "at most two single vertices, N(s) one of bw, dw, bdw, bcw, cdw, bcdw",
-    "requirements": "K[{b,d} u I] connected, K[{w} u I] connected, c has a neighbor in I",
-    "interior components": "every partition of the pieces of K' - R, each joined by every tree"
+    "vertices": "a,b,c,d; vertex 'Ti' is the i-th singleton on triple T",
+    "domain": "n_abc>=2, n_abd>=2, n_acd>=0, n_bcd>=0, total<=9; cd absent or present"
    },
-   "root placements": 72109,
-   "root placement classes": 1392,
-   "valid retained subdivisions": 480,
-   "recipes": 9316,
-   "parts up to rooted isomorphism": 5819,
+   "count vectors with cd absent or present": 252,
    "outcomes": {
-    "proper nontoroidal minor": 551,
-    "K5 minor": 1663,
-    "cut of order at most two": 169,
-    "excluded: P nonplanar": 3436
+    "cut of order at most two": 21,
+    "toroidal": 72,
+    "proper nontoroidal minor": 145,
+    "catalogue graph": 14
    }
-  }
- },
- "hypotheses of the case used for exclusions": {
-  "P nonplanar": {
-   "remove vertices": [
-    "p",
-    "q",
-    "r",
-    "z"
-   ],
-   "remove edges within": [
-    "a",
-    "b",
-    "c",
-    "d"
-   ],
-   "meaning": "P = G minus the four twins, with no edges among a,b,c,d; Section 5.4 assumes P planar"
   }
  }
 }

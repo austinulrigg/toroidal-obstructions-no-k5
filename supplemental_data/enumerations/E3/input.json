@@ -1,93 +1,3643 @@
 {
  "item": "E3",
- "where": "Proposition 4.21",
+ "where": "Theorem 4.22",
  "paper text": [
   {
-   "where": "Proposition 4.21 (proof)",
-   "text": "Put $H_0=B+ac+cd+bd$. For the simple faces following $P_1,P_2$, the graph $H_{\\mathrm{simp}}$ contains $H_0$. The edge $af$ excludes $(P_1;s_2,t_2)$. For $(P_2;s_1,t_1)$, we have $H_{\\mathrm{rep}}=H_0$, while $H_{\\mathrm{simp}}$ consists of the cycle $abfea$ and the edge $af$, which can be drawn inside that cycle without crossings. Thus Lemma~\\ref{dis:joint-test} makes $G$ toroidal exactly when $H_0$ is planar, also with any allowed minor in place of $B$. Keeping $B$, the edge $cd$ and the paths $apc,brd$, then contracting these paths to $ac,bd$, shows that $H_0$ is a minor of $G$ and has no $K_5$ minor. It is nonplanar, so it contains a $K_{3,3}$ subdivision. Apply Lemma~\\ref{core:retained-subdivision} with attachment set $A$ and the path $acdb$ as the fixed planar graph. This gives an allowed minor $B'$ with at most nine interior vertices and $B'+ac+cd+bd$ nonplanar. Thus $(\\Psi_1\\cup B')+af$ is nontoroidal, so minimality gives $B'=B$. Construction~\\ref{common:marked-construction} lists these forms with no required subdivision edges. Adjoining $\\Psi_1$ and $af$ to each candidate gives a graph with a $K_5$ minor or a proper nontoroidal minor~\\supp{E3}, a contradiction. Hence $B$ has the required disk drawing, and Lemma~\\ref{dis:four-root-isolation} makes $D$ a single vertex."
+   "where": "Section 4.4",
+   "text": "Suppose every bridge with at least two interior vertices has\nthree attachments and a planar relevant completion. The\npossible bridges are then those with one interior vertex and\nthe forms in Proposition~\\ref{prop:three-root-disjoint}.\nAt most three four-attachment bridges have the same attachment\nset, since four would give $K_{4,4}$ and hence a $K_5$ minor.\nWe combine these bridges with disjoint interiors, subject to\nthe attachment restrictions and Lemma~\\ref{dis:counts}.\nA bridge containing $P_m$ includes that path and all\n$\\Psi_1$-bridges meeting its interior, so its form also\naccounts for the length of $P_m$. These enumerations are\nrecorded in~\\supp{E3,~E4}. The next lemma says that if a bridge with three attachments,\ntogether with four vertices having those attachments as their\nneighborhood, is toroidal, then adding some two edges between\nits attachments gives a planar graph."
+  },
+  {
+   "where": "Theorem 4.22 (proof)",
+   "text": "These give $72$ labeled forms. Among the eighteen triples meeting\nboth $A_1,A_2$, twelve contain an edge $P_i$, from three choices of\nthat edge and four choices of the third vertex. The other six\ncontain none, giving $12\\cdot3+6\\cdot6=72$. Form graphs by adding\nthese bridges to $\\Psi_1$ with disjoint interiors, using at most\nthree on any one triple by Lemma~\\ref{dis:counts} and at most five\nin total. By Lemma~\\ref{dis:four-root-isolation}, there is at most\none four-attachment vertex on each set $\\{s_i,t_i,s_j,t_j\\}$.\nWe also allow any subset of the six edges $s_it_j$ with $i\\ne j$.\nWe retain only graphs satisfying\nLemma~\\ref{lem:independent-neighborhood}(a) and\nLemma~\\ref{dis:four-root-isolation}, and exclude disjoint\n$s_i$--$t_j$ and $s_j$--$t_i$ paths through distinct bridges by\nLemma~\\ref{dis:opposite-order}. The obstruction check in~\\supp{E3}\nleaves only $\\mathfrak T_{48}$ and $\\mathfrak T_{58}$. Neither graph\nhas a four-attachment bridge. Together with $\\mathfrak T_5$,\n$\\mathfrak T_{68}$ and $\\mathfrak T_{69}$, these give the graphs in\nthe statement.\n\\end{proof}"
   }
  ],
- "vertex names": "a = s1, b = t1, c = s2, d = t2, e = s3, f = t3; twins p, q on {a, c, e} and r, z on {b, d, f}; the paths are the edges ab, cd, ef. Interior vertices of B are i0, i1, ...",
- "the case": "G = (Psi_1 ∪ B) + af, where B has attachments A = {a, b, c, d}. The candidates are the graphs B of Construction 3.17 with attachments A, added edges E = {ac, cd, bd} and no required edges: A independent in B, interior nonempty and connected, every attachment with an interior neighbour, and B + E nonplanar (each candidate gives a Kuratowski subgraph).",
- "the rest of G": {
-  "vertices": [
-   "a",
-   "b",
-   "c",
-   "d",
-   "e",
-   "f",
-   "p",
-   "q",
-   "r",
-   "z"
-  ],
+ "vertex names": "Psi_1 with twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}; the paths are the edges s1t1, s2t2, s3t3. Interior vertices of copy k of atom A<i> are named A<i>#k@<role>.",
+ "the base graph": {
   "edges": [
    [
-    "a",
-    "b"
+    "p",
+    "s1"
    ],
    [
-    "a",
-    "f"
+    "p",
+    "s2"
    ],
    [
-    "a",
-    "p"
+    "p",
+    "s3"
    ],
    [
-    "a",
-    "q"
+    "q",
+    "s1"
    ],
    [
-    "b",
-    "r"
+    "q",
+    "s2"
    ],
    [
-    "b",
+    "q",
+    "s3"
+   ],
+   [
+    "r",
+    "t1"
+   ],
+   [
+    "r",
+    "t2"
+   ],
+   [
+    "r",
+    "t3"
+   ],
+   [
+    "s1",
+    "t1"
+   ],
+   [
+    "s2",
+    "t2"
+   ],
+   [
+    "s3",
+    "t3"
+   ],
+   [
+    "t1",
     "z"
    ],
    [
-    "c",
-    "d"
-   ],
-   [
-    "c",
-    "p"
-   ],
-   [
-    "c",
-    "q"
-   ],
-   [
-    "d",
-    "r"
-   ],
-   [
-    "d",
+    "t2",
     "z"
    ],
    [
-    "e",
-    "f"
-   ],
-   [
-    "e",
-    "p"
-   ],
-   [
-    "e",
-    "q"
-   ],
-   [
-    "f",
-    "r"
-   ],
-   [
-    "f",
+    "t3",
     "z"
    ]
   ]
  },
- "verdicts": "Every candidate gets a proper nontoroidal minor obtained by deleting or contracting one edge of G (a contraction merges the second vertex into the first). The witness says why that minor is nontoroidal."
+ "atoms": [
+  {
+   "id": "A1",
+   "is": "S(s2;s1) on {s1, t1, s2}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t1"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "t1"
+    ],
+    [
+     "@f",
+     "s2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "id": "A2",
+   "is": "T(s1) on {s1, t1, s2}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t1"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@u",
+     "s1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "id": "A3",
+   "is": "T(t1) on {s1, t1, s2}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t1"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@u",
+     "t1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "id": "A4",
+   "is": "S(t2;t1) on {s1, t1, t2}",
+   "attachments": [
+    "s1",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "s1"
+    ],
+    [
+     "@f",
+     "t2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "id": "A5",
+   "is": "T(s1) on {s1, t1, t2}",
+   "attachments": [
+    "s1",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@u",
+     "s1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "id": "A6",
+   "is": "T(t1) on {s1, t1, t2}",
+   "attachments": [
+    "s1",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@u",
+     "t1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    16,
+    17,
+    18
+   ]
+  },
+  {
+   "id": "A7",
+   "is": "S(s3;s1) on {s1, t1, s3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t1"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "t1"
+    ],
+    [
+     "@f",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    19,
+    20,
+    21
+   ]
+  },
+  {
+   "id": "A8",
+   "is": "T(s1) on {s1, t1, s3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t1"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "s1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "id": "A9",
+   "is": "T(t1) on {s1, t1, s3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t1"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "t1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    25,
+    26,
+    27
+   ]
+  },
+  {
+   "id": "A10",
+   "is": "S(t3;t1) on {s1, t1, t3}",
+   "attachments": [
+    "s1",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "s1"
+    ],
+    [
+     "@f",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    28,
+    29,
+    30
+   ]
+  },
+  {
+   "id": "A11",
+   "is": "T(s1) on {s1, t1, t3}",
+   "attachments": [
+    "s1",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "s1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    31,
+    32,
+    33
+   ]
+  },
+  {
+   "id": "A12",
+   "is": "T(t1) on {s1, t1, t3}",
+   "attachments": [
+    "s1",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "t1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    34,
+    35,
+    36
+   ]
+  },
+  {
+   "id": "A13",
+   "is": "S(s1;s2) on {s1, s2, t2}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "s1"
+    ],
+    [
+     "@f",
+     "t2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    37,
+    38,
+    39
+   ]
+  },
+  {
+   "id": "A14",
+   "is": "T(s2) on {s1, s2, t2}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@u",
+     "s2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    40,
+    41,
+    42
+   ]
+  },
+  {
+   "id": "A15",
+   "is": "T(t2) on {s1, s2, t2}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@u",
+     "t2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    43,
+    44,
+    45
+   ]
+  },
+  {
+   "id": "A16",
+   "is": "S(s1;s2) on {s1, s2, t3}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "s1"
+    ],
+    [
+     "@f",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    46,
+    47,
+    48
+   ]
+  },
+  {
+   "id": "A17",
+   "is": "S(s2;s1) on {s1, s2, t3}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "s2"
+    ],
+    [
+     "@f",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    49,
+    50,
+    51
+   ]
+  },
+  {
+   "id": "A18",
+   "is": "T(s1) on {s1, s2, t3}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "s1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    52,
+    53,
+    54
+   ]
+  },
+  {
+   "id": "A19",
+   "is": "T(s2) on {s1, s2, t3}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "s2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    55,
+    56,
+    57
+   ]
+  },
+  {
+   "id": "A20",
+   "is": "T(t3) on {s1, s2, t3}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@u",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    58,
+    59,
+    60
+   ]
+  },
+  {
+   "id": "A21",
+   "is": "one vertex on {s1, s2, t3}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@h",
+     "s1"
+    ],
+    [
+     "@h",
+     "s2"
+    ],
+    [
+     "@h",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    61,
+    62,
+    63
+   ]
+  },
+  {
+   "id": "A22",
+   "is": "S(s1;s3) on {s1, t2, s3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "s1"
+    ],
+    [
+     "@f",
+     "t2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    64,
+    65,
+    66
+   ]
+  },
+  {
+   "id": "A23",
+   "is": "S(s3;s1) on {s1, t2, s3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "t2"
+    ],
+    [
+     "@f",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    67,
+    68,
+    69
+   ]
+  },
+  {
+   "id": "A24",
+   "is": "T(s1) on {s1, t2, s3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "s1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    70,
+    71,
+    72
+   ]
+  },
+  {
+   "id": "A25",
+   "is": "T(t2) on {s1, t2, s3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "t2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    73,
+    74,
+    75
+   ]
+  },
+  {
+   "id": "A26",
+   "is": "T(s3) on {s1, t2, s3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@u",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    76,
+    77,
+    78
+   ]
+  },
+  {
+   "id": "A27",
+   "is": "one vertex on {s1, t2, s3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@h",
+     "s1"
+    ],
+    [
+     "@h",
+     "t2"
+    ],
+    [
+     "@h",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    79,
+    80,
+    81
+   ]
+  },
+  {
+   "id": "A28",
+   "is": "S(t2;t3) on {s1, t2, t3}",
+   "attachments": [
+    "s1",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "s1"
+    ],
+    [
+     "@f",
+     "t2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    82,
+    83,
+    84
+   ]
+  },
+  {
+   "id": "A29",
+   "is": "S(t3;t2) on {s1, t2, t3}",
+   "attachments": [
+    "s1",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "s1"
+    ],
+    [
+     "@f",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    85,
+    86,
+    87
+   ]
+  },
+  {
+   "id": "A30",
+   "is": "T(s1) on {s1, t2, t3}",
+   "attachments": [
+    "s1",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "s1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    88,
+    89,
+    90
+   ]
+  },
+  {
+   "id": "A31",
+   "is": "T(t2) on {s1, t2, t3}",
+   "attachments": [
+    "s1",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "t2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    91,
+    92,
+    93
+   ]
+  },
+  {
+   "id": "A32",
+   "is": "T(t3) on {s1, t2, t3}",
+   "attachments": [
+    "s1",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@u",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    94,
+    95,
+    96
+   ]
+  },
+  {
+   "id": "A33",
+   "is": "one vertex on {s1, t2, t3}",
+   "attachments": [
+    "s1",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@h",
+     "s1"
+    ],
+    [
+     "@h",
+     "t2"
+    ],
+    [
+     "@h",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    97,
+    98,
+    99
+   ]
+  },
+  {
+   "id": "A34",
+   "is": "S(s1;s3) on {s1, s3, t3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "s1"
+    ],
+    [
+     "@f",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    100,
+    101,
+    102
+   ]
+  },
+  {
+   "id": "A35",
+   "is": "T(s3) on {s1, s3, t3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    103,
+    104,
+    105
+   ]
+  },
+  {
+   "id": "A36",
+   "is": "T(t3) on {s1, s3, t3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s1"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s1"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    106,
+    107,
+    108
+   ]
+  },
+  {
+   "id": "A37",
+   "is": "S(t1;t2) on {t1, s2, t2}",
+   "attachments": [
+    "s2",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "t1"
+    ],
+    [
+     "@f",
+     "s2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    109,
+    110,
+    111
+   ]
+  },
+  {
+   "id": "A38",
+   "is": "T(s2) on {t1, s2, t2}",
+   "attachments": [
+    "s2",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@u",
+     "s2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    112,
+    113,
+    114
+   ]
+  },
+  {
+   "id": "A39",
+   "is": "T(t2) on {t1, s2, t2}",
+   "attachments": [
+    "s2",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@u",
+     "t2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    115,
+    116,
+    117
+   ]
+  },
+  {
+   "id": "A40",
+   "is": "S(s2;s3) on {t1, s2, s3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t1"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "t1"
+    ],
+    [
+     "@f",
+     "s2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    118,
+    119,
+    120
+   ]
+  },
+  {
+   "id": "A41",
+   "is": "S(s3;s2) on {t1, s2, s3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t1"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "t1"
+    ],
+    [
+     "@f",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    121,
+    122,
+    123
+   ]
+  },
+  {
+   "id": "A42",
+   "is": "T(t1) on {t1, s2, s3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t1"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "t1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    124,
+    125,
+    126
+   ]
+  },
+  {
+   "id": "A43",
+   "is": "T(s2) on {t1, s2, s3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t1"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "s2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    127,
+    128,
+    129
+   ]
+  },
+  {
+   "id": "A44",
+   "is": "T(s3) on {t1, s2, s3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t1"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@u",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    130,
+    131,
+    132
+   ]
+  },
+  {
+   "id": "A45",
+   "is": "one vertex on {t1, s2, s3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t1"
+   ],
+   "edges": [
+    [
+     "@h",
+     "t1"
+    ],
+    [
+     "@h",
+     "s2"
+    ],
+    [
+     "@h",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    133,
+    134,
+    135
+   ]
+  },
+  {
+   "id": "A46",
+   "is": "S(t1;t3) on {t1, s2, t3}",
+   "attachments": [
+    "s2",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "t1"
+    ],
+    [
+     "@f",
+     "s2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    136,
+    137,
+    138
+   ]
+  },
+  {
+   "id": "A47",
+   "is": "S(t3;t1) on {t1, s2, t3}",
+   "attachments": [
+    "s2",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "s2"
+    ],
+    [
+     "@f",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    139,
+    140,
+    141
+   ]
+  },
+  {
+   "id": "A48",
+   "is": "T(t1) on {t1, s2, t3}",
+   "attachments": [
+    "s2",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "t1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    142,
+    143,
+    144
+   ]
+  },
+  {
+   "id": "A49",
+   "is": "T(s2) on {t1, s2, t3}",
+   "attachments": [
+    "s2",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "s2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    145,
+    146,
+    147
+   ]
+  },
+  {
+   "id": "A50",
+   "is": "T(t3) on {t1, s2, t3}",
+   "attachments": [
+    "s2",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@u",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    148,
+    149,
+    150
+   ]
+  },
+  {
+   "id": "A51",
+   "is": "one vertex on {t1, s2, t3}",
+   "attachments": [
+    "s2",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@h",
+     "t1"
+    ],
+    [
+     "@h",
+     "s2"
+    ],
+    [
+     "@h",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    151,
+    152,
+    153
+   ]
+  },
+  {
+   "id": "A52",
+   "is": "S(t1;t2) on {t1, t2, s3}",
+   "attachments": [
+    "s3",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "t1"
+    ],
+    [
+     "@f",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    154,
+    155,
+    156
+   ]
+  },
+  {
+   "id": "A53",
+   "is": "S(t2;t1) on {t1, t2, s3}",
+   "attachments": [
+    "s3",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "t2"
+    ],
+    [
+     "@f",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    157,
+    158,
+    159
+   ]
+  },
+  {
+   "id": "A54",
+   "is": "T(t1) on {t1, t2, s3}",
+   "attachments": [
+    "s3",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "t1"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    160,
+    161,
+    162
+   ]
+  },
+  {
+   "id": "A55",
+   "is": "T(t2) on {t1, t2, s3}",
+   "attachments": [
+    "s3",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "t2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    163,
+    164,
+    165
+   ]
+  },
+  {
+   "id": "A56",
+   "is": "T(s3) on {t1, t2, s3}",
+   "attachments": [
+    "s3",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@u",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    166,
+    167,
+    168
+   ]
+  },
+  {
+   "id": "A57",
+   "is": "one vertex on {t1, t2, s3}",
+   "attachments": [
+    "s3",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@h",
+     "t1"
+    ],
+    [
+     "@h",
+     "t2"
+    ],
+    [
+     "@h",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    169,
+    170,
+    171
+   ]
+  },
+  {
+   "id": "A58",
+   "is": "S(t1;t3) on {t1, s3, t3}",
+   "attachments": [
+    "s3",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "t1"
+    ],
+    [
+     "@f",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    172,
+    173,
+    174
+   ]
+  },
+  {
+   "id": "A59",
+   "is": "T(s3) on {t1, s3, t3}",
+   "attachments": [
+    "s3",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    175,
+    176,
+    177
+   ]
+  },
+  {
+   "id": "A60",
+   "is": "T(t3) on {t1, s3, t3}",
+   "attachments": [
+    "s3",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t1"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t1"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    178,
+    179,
+    180
+   ]
+  },
+  {
+   "id": "A61",
+   "is": "S(s3;s2) on {s2, t2, s3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "t2"
+    ],
+    [
+     "@f",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    181,
+    182,
+    183
+   ]
+  },
+  {
+   "id": "A62",
+   "is": "T(s2) on {s2, t2, s3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "s2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    184,
+    185,
+    186
+   ]
+  },
+  {
+   "id": "A63",
+   "is": "T(t2) on {s2, t2, s3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "t2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    187,
+    188,
+    189
+   ]
+  },
+  {
+   "id": "A64",
+   "is": "S(t3;t2) on {s2, t2, t3}",
+   "attachments": [
+    "s2",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "s2"
+    ],
+    [
+     "@f",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    190,
+    191,
+    192
+   ]
+  },
+  {
+   "id": "A65",
+   "is": "T(s2) on {s2, t2, t3}",
+   "attachments": [
+    "s2",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "s2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    193,
+    194,
+    195
+   ]
+  },
+  {
+   "id": "A66",
+   "is": "T(t2) on {s2, t2, t3}",
+   "attachments": [
+    "s2",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "t2"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    196,
+    197,
+    198
+   ]
+  },
+  {
+   "id": "A67",
+   "is": "S(s2;s3) on {s2, s3, t3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "s2"
+    ],
+    [
+     "@f",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    199,
+    200,
+    201
+   ]
+  },
+  {
+   "id": "A68",
+   "is": "T(s3) on {s2, s3, t3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    202,
+    203,
+    204
+   ]
+  },
+  {
+   "id": "A69",
+   "is": "T(t3) on {s2, s3, t3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "s2"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "s2"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    205,
+    206,
+    207
+   ]
+  },
+  {
+   "id": "A70",
+   "is": "S(t2;t3) on {t2, s3, t3}",
+   "attachments": [
+    "s3",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@f",
+     "@u"
+    ],
+    [
+     "@f",
+     "t2"
+    ],
+    [
+     "@f",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    208,
+    209,
+    210
+   ]
+  },
+  {
+   "id": "A71",
+   "is": "T(s3) on {t2, s3, t3}",
+   "attachments": [
+    "s3",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d1",
+     "t3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@d2",
+     "t3"
+    ],
+    [
+     "@u",
+     "s3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    211,
+    212,
+    213
+   ]
+  },
+  {
+   "id": "A72",
+   "is": "T(t3) on {t2, s3, t3}",
+   "attachments": [
+    "s3",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@d1",
+     "@u"
+    ],
+    [
+     "@d1",
+     "t2"
+    ],
+    [
+     "@d1",
+     "s3"
+    ],
+    [
+     "@d2",
+     "@u"
+    ],
+    [
+     "@d2",
+     "t2"
+    ],
+    [
+     "@d2",
+     "s3"
+    ],
+    [
+     "@u",
+     "t3"
+    ]
+   ],
+   "most copies": 3,
+   "variables": [
+    214,
+    215,
+    216
+   ]
+  },
+  {
+   "id": "A73",
+   "is": "one vertex on {s1, t1, s2, t2}",
+   "attachments": [
+    "s1",
+    "s2",
+    "t1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "@h",
+     "s1"
+    ],
+    [
+     "@h",
+     "t1"
+    ],
+    [
+     "@h",
+     "s2"
+    ],
+    [
+     "@h",
+     "t2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    217
+   ]
+  },
+  {
+   "id": "A74",
+   "is": "one vertex on {s1, t1, s3, t3}",
+   "attachments": [
+    "s1",
+    "s3",
+    "t1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@h",
+     "s1"
+    ],
+    [
+     "@h",
+     "t1"
+    ],
+    [
+     "@h",
+     "s3"
+    ],
+    [
+     "@h",
+     "t3"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    218
+   ]
+  },
+  {
+   "id": "A75",
+   "is": "one vertex on {s2, t2, s3, t3}",
+   "attachments": [
+    "s2",
+    "s3",
+    "t2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "@h",
+     "s2"
+    ],
+    [
+     "@h",
+     "t2"
+    ],
+    [
+     "@h",
+     "s3"
+    ],
+    [
+     "@h",
+     "t3"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    219
+   ]
+  },
+  {
+   "id": "A76",
+   "is": "the edge s1t2",
+   "attachments": [
+    "s1",
+    "t2"
+   ],
+   "edges": [
+    [
+     "s1",
+     "t2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    220
+   ]
+  },
+  {
+   "id": "A77",
+   "is": "the edge s1t3",
+   "attachments": [
+    "s1",
+    "t3"
+   ],
+   "edges": [
+    [
+     "s1",
+     "t3"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    221
+   ]
+  },
+  {
+   "id": "A78",
+   "is": "the edge t1s2",
+   "attachments": [
+    "s2",
+    "t1"
+   ],
+   "edges": [
+    [
+     "t1",
+     "s2"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    222
+   ]
+  },
+  {
+   "id": "A79",
+   "is": "the edge t1s3",
+   "attachments": [
+    "s3",
+    "t1"
+   ],
+   "edges": [
+    [
+     "t1",
+     "s3"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    223
+   ]
+  },
+  {
+   "id": "A80",
+   "is": "the edge s2t3",
+   "attachments": [
+    "s2",
+    "t3"
+   ],
+   "edges": [
+    [
+     "s2",
+     "t3"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    224
+   ]
+  },
+  {
+   "id": "A81",
+   "is": "the edge t2s3",
+   "attachments": [
+    "s3",
+    "t2"
+   ],
+   "edges": [
+    [
+     "t2",
+     "s3"
+    ]
+   ],
+   "most copies": 1,
+   "variables": [
+    225
+   ]
+  }
+ ],
+ "the formula": {
+  "variables": "Variable v of atom A<i> with list [v1, ..., vm] means \"at least j copies of A<i>\" for v = vj. Variables after 225 are auxiliary (a counter for the bound of five three-attachment bridges).",
+  "base clauses": {
+   "atom_threshold_monotonicity": 144,
+   "total_at_most_three_on_each_triple_support": 864,
+   "independent_degree_three_neighborhood": 60,
+   "opposite_cross_connections_of_distinct_bridges": 1089,
+   "four_root_isolation_remaining_clauses": 0,
+   "global_total_triples_at_most_five_prefix_counter": 2346,
+   "five_triples_forbid_quad_and_crossedge_atoms": 9
+  },
+  "base clause count": 4512,
+  "one clause per recorded graph": "For a toroidal graph with n_i copies of A<i>: the clause that some atom has more copies than in it. For a nontoroidal graph: the clause that some atom in it has fewer copies.",
+  "clause count": 6822,
+  "files": {
+   "cover.cnf": "cover.cnf",
+   "cover.drat": "cover.drat"
+  },
+  "DRAT check": "drat-trim verifies that cover.cnf is unsatisfiable, with the proof cover.drat; the checker of this repository runs it"
+ },
+ "what this shows": "Every assembly allowed by the base clauses either lies inside a recorded toroidal graph, so it is toroidal, or contains a recorded nontoroidal graph. An obstruction of this case therefore equals a recorded nontoroidal graph, and the verdicts of those leave only T48 and T58.",
+ "how a choice fails or passes": "Faces of a choice (k,x,y) of Lemma 4.2: J is the pair of simple faces (attachments V(P_i) ∪ V(P_j); test graph with auxiliary edges s_i s_j, t_i t_j), W the repeated face (attachments V(P_k) ∪ {s_x, t_y}; auxiliary edges s_k s_x, t_k t_y), small_S and small_T the two faces of (iii) (attachments {s_k, s_x'} and {t_k, t_y'}; a bridge set fits such a disk exactly when it plus the edge between the two attachments is planar)."
 }

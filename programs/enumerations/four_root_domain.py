@@ -1,5 +1,5 @@
-"""Construction 3.17 for four attachments with no outside vertices, no
-required edges and one connected interior (E1 and E3).
+"""Construction 3.18 for four attachments with no outside vertices, no
+required edges and one connected interior (E1 and E2).
 
 The four attachments are placed on a K3,3 (at branch vertices, inside branch
 paths, or off it) up to the 72 symmetries of K3,3. A segment between

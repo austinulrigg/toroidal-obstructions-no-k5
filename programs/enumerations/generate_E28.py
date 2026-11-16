@@ -1,45 +1,44 @@
-"""E28: another bridge with all three two-edge completions nonplanar (Lemma 6.13).
+"""E28: a bridge on {a, b, d} with B + ad nonplanar (Lemma 6.19).
 
 The program's names: p1, p2 are the twins on abc and q1, q2 those on ade.
-A component W has neighbourhood {a, c, d, e}, contracted to a vertex w.
-For another bridge C on each triple, the proof gives an exterior and a
-completion of C that must be planar if G is toroidal:
-
-    C on   G                    completion that must be planar
-    abd    Psi_3 + w + C        C + ab + ad
-    ade    Psi_3 + w + C + bd   C + ad + ae
-    acd    Psi_3 + w + C + bd   C + ac + ad
-    bcd    Psi_3 + w + C        C + bc + bd + cd
-
-(C on abc is excluded in the proof by the two-cut {a, c}.) C is a part of
-Construction 3.17 with the triple as attachments and the added edges of
-the table. Every graph is classified (enumeration.classify); the data
-folder keeps the case C on abd, which the proof cites. The proof finds no
-obstruction here.
+As in the proof, G = Psi_3 + ce + t + B with N(t) = {b, c, d}, or
+G = Psi_3 + ce + cd + B, and by equation (5) G is toroidal only if
+B + ab + ad or B + ad + bd is planar. When B + ad is nonplanar, B is a part
+of Construction 3.18 with attachments a, b, d and the added edge ad. Every
+graph is classified, first by looking for a proper nontoroidal minor
+(multi_genus) and then by enumeration.classify, and each catalogue graph
+found is checked against the conditions G satisfies here, as in E26. The
+proof finds T52, T57, T58, T59 in the cd case, the first three with two
+twin triples meeting twice or not at all and the last with a choice of
+twin pairs leaving a component with four neighbours.
 
 Run as: python generate_E28.py FOLDER
 """
 import json
 import sys
+from pathlib import Path
 
 import enumeration as el
 
 import psi3_runs as ext
 
-CASES = [("C_on_abd", ("a", "b", "d"), [("a", "b"), ("a", "d")], False),
-         ("C_on_ade", ("a", "d", "e"), [("a", "d"), ("a", "e")], True),
-         ("C_on_acd", ("a", "c", "d"), [("a", "c"), ("a", "d")], True),
-         ("C_on_bcd", ("b", "c", "d"), [("b", "c"), ("b", "d"), ("c", "d")], False)]
+R = ("a", "b", "d")
+D = [("a", "d")]
+TESTS = [("U+ab+ad", [("a", "b"), ("a", "d")]), ("U+ab+bd", [("a", "b"), ("b", "d")]),
+         ("U+ad+bd", [("a", "d"), ("b", "d")])]
+EXTERIORS = [("t_on_bcd", True), ("edge_cd", False)]
 
 
-def case(name, R, D, bd):
+def case(name, with_t):
     spec = el.Spec(R, c_edges=D, name=name)
 
     def assemble(P):
         G = ext.psi3()
-        ext.add_vertex(G, "w", "acde")
-        if bd:
-            G.add_edge("b", "d")
+        G.add_edge("c", "e")
+        if with_t:
+            ext.add_vertex(G, "t", "bcd")
+        else:
+            G.add_edge("c", "d")
         G.add_edges_from(P.edges())
         return G
     return (name, spec, assemble, {"min_interior": 1})
@@ -47,10 +46,20 @@ def case(name, R, D, bd):
 
 if __name__ == "__main__":
     out = sys.argv[1]
-    s = el.run_item("E28", [case(*c) for c in CASES], [], out,
-                    note="Psi3 + w on acde (+ bd for C on ade, acd) + part C of Construction 3.17 "
-                         "with the added edges of the table of the proof")
+    s = ext.run_item_minor_first("E28", [case(*c) for c in EXTERIORS], ["T59"], out,
+                                 note="Psi3 + ce + t (N(t) = bcd) or Psi3 + ce + cd, "
+                                      "+ part U of Construction 3.18 with R = abd, D = ad")
+    found = ext.annotate(out, {c[0]: (R, TESTS) for c in EXTERIORS}, want_row=3)
+    s["catalogue graphs and their structural exclusions"] = found
+    s["agrees with the text"] = s["complete"] and set(found) == {"T59"} and all(
+        x["id"].startswith("E28-edge_cd") and x["row of Theorem 6.1"] == 2 for x in found["T59"])
+    s["every catalogue graph is from an earlier case"] = all(
+        x["structural exclusion"] in ("earlier row", "twin triples meet other than once")
+        for xs in found.values() for x in xs)
+    s["difference from the text"] = sorted(set(found) - {"T59"}, key=lambda x: int(x[1:]))
+    json.dump(s, open(Path(out) / "summary.json", "w"), indent=1)
     print(json.dumps({k: s[k] for k in ("candidates", "outcomes", "catalogue graphs found",
+                                         "catalogue graphs and their structural exclusions",
                                          "agrees with the text", "seconds")}, indent=1))
     for k, v in s["cases"].items():
-        print(k, v["parts up to rooted isomorphism"], v["outcomes"])
+        print(k, v["recipes"], v["parts up to rooted isomorphism"], v["outcomes"])

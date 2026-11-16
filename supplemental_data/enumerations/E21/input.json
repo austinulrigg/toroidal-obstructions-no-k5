@@ -1,52 +1,50 @@
 {
  "item": "E21",
- "where": "Proposition 6.7",
+ "where": "Lemma 6.11",
  "paper text": [
   {
-   "line": 9084,
-   "text": "\nThus $B'$ has nonplanar triangle completion. Contracting\n$\\operatorname{Int}(B)$ keeps $H$ nonplanar, so the same criterion\nand minimality make $\\operatorname{Int}(B)$ a single vertex.\nA $b$--$d$ path with interior in $\\operatorname{Int}(B)$ shows\nthat the triangle completion of $B'$ is a minor of $H$, so it\ncontains a $K_{3,3}$ subdivision.\nAn allowed reduction of $B'$ keeping this subdivision keeps $H$\nnonplanar and would again give a proper nontoroidal minor.\nThus Lemma~\\ref{core:retained-subdivision} and\nConstruction~\\ref{common:marked-construction}, with attachments\n$a,b,d$ and the added triangle, give every possible $B'$.\nThe $216$ forms, with $bd$ absent or present, give $432$ graphs.\nEach has a $K_5$ minor, a cut of at most two vertices, or a proper\nnontoroidal minor~\\supp{E21}."
+   "where": "Lemma 6.11 (proof)",
+   "text": "Put $H_2=B+bc+de$ and suppose it is nonplanar.\nBy Lemma~\\ref{r1:triangle-minor},\n$B+ab+ac+ad+ae+bc+de$ is a minor of $G$.\nThus $H_2$ has no $K_5$ minor. Let $B'$ be an\nallowed minor of $B$ with $B'+bc+de$ nonplanar.\nThe graph $B'+ab+ac+ad+ae+bc+de$ is still a minor\nof $G$, so Lemma~\\ref{r1:matching-test} makes\n$B'+ab+ac+ad+ae$ nonplanar. Thus $\\Psi_3\\cup B'$\nfails both tests of Lemma~\\ref{r1:missing-a-criterion}.\nTaking $B'=B$, minimality gives $G=\\Psi_3\\cup B$, and\nCorollary~\\ref{common:reduced-forms}, with attachments\n$b,c,d,e$ and added edges $bc,de$,\nincludes $B$ among $26{,}633$ forms.\nEvery resulting graph other than $\\mathfrak T_{54}$\nis toroidal or has a $K_5$ minor or a proper\nnontoroidal minor~\\supp{E21}, so\n$G\\cong\\mathfrak T_{54}$.\n\\end{proof}"
   }
  ],
  "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
  "cases of the construction": {
-  "C_on_abd": {
+  "W_bcde": {
    "specification": {
     "roots": [
-     "a",
      "b",
-     "d"
+     "c",
+     "d",
+     "e"
     ],
     "outside": {},
     "C edges within R": [
      [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
       "b",
-      "d"
+      "c"
+     ],
+     [
+      "d",
+      "e"
      ]
     ],
     "required edges of K'": [],
-    "W": "one vertex w, N(w)=abcde",
-    "bd": "absent or present"
+    "completions": "no cross edge"
    },
-   "root placements": 4270,
-   "root placement classes": 115,
-   "full placements": 115,
-   "valid retained subdivisions": 115,
-   "recipes": 687,
-   "parts up to rooted isomorphism": 216,
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 1392,
+   "recipes": 44479,
+   "parts up to rooted isomorphism": 26633,
    "outcomes": {
-    "excluded: disjoint twin triples": 246,
-    "K5 minor": 58,
-    "proper nontoroidal minor": 102,
-    "cut of order at most two": 2,
-    "excluded: two twin triples share two vertices": 24
+    "excluded: disjoint twin triples": 10123,
+    "proper nontoroidal minor": 15978,
+    "K5 minor": 92,
+    "toroidal": 6,
+    "excluded: two twin triples share two vertices": 90,
+    "excluded: component adjacent to all five attachments": 340,
+    "catalogue graph": 4
    }
   }
  },

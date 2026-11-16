@@ -1,24 +1,25 @@
-"""Build the lists of graphs for the genus tables from the supplemental data.
+"""Build the lists of graphs for the genus computations from the supplemental data.
 
     python build_inputs.py "/path/to/Supplemental Data"
 
-Table 1 is T1, ..., T74, with the graph6 strings of item O1.
+The obstructions are T1, ..., T74, with the graph6 strings of item O1.
 
-Table 2 is every nontoroidal graph the enumerations use whose nontoroidality
-is not certified inside the supplemental data:
+The nontoroidal graphs of the enumerations are the nontoroidal graphs the
+enumerations use whose nontoroidality is not certified inside the
+supplemental data:
   * the one-edge minors given by a verdict "proper nontoroidal minor" whose
-    witness names only the edge deleted or contracted (in E3, also the three
+    witness names only the edge deleted or contracted (in E2, also the three
     whose recorded reason is the genus computation), including those of the
-    whole graphs recorded in E8;
-  * the recorded nontoroidal graphs of the coverings E5 and E13;
-  * the combinations of E20, and its auxiliary combinations, whose
+    whole graphs recorded in E7;
+  * the recorded nontoroidal graphs of the coverings E4 and E12;
+  * the combinations of E19, and its auxiliary combinations, whose
     nontoroidal status is used to exclude larger combinations.
 Each graph is rebuilt from the files of the item, isomorphic copies are
 merged by the canonical form of nauty's labelg (path in the environment
 variable LABELG, or labelg on the PATH), and every use is recorded.
 
-Writes table1_graphs.txt, table2_graphs.txt (index, canonical graph6,
-vertices, edges, number of uses), table2_uses.json.gz and
+Writes obstructions.txt, enumeration_graphs.txt (index, canonical graph6,
+vertices, edges, number of uses), enumeration_graph_uses.json.gz and
 inputs_summary.json in this folder.
 """
 import gzip
@@ -66,7 +67,7 @@ def apply_op(adj, op, e):
 
 def covering_graph(base, atoms, counts):
     """The base graph with counts[A] copies of each atom A; the interior vertex
-    '@x' of copy k of atom A is named A#k@x (as in the records of E5 and E13)."""
+    '@x' of copy k of atom A is named A#k@x (as in the records of E4 and E12)."""
     adj = {}
 
     def add(x, y):
@@ -84,12 +85,12 @@ def covering_graph(base, atoms, counts):
 
 def bare(w):
     """A proper-minor witness that names only the edge, or whose recorded
-    reason is the genus computation (three in E3)."""
+    reason is the genus computation (three in E2)."""
     if not (isinstance(w, dict) and w.get('type') == 'proper minor'):
         return False
     why = w.get('why the minor is nontoroidal')
     if why is None:
-        return 'minor of T_i' not in w
+        return True
     return isinstance(why, dict) and 'genus computations' in why.get('reason', '')
 
 
@@ -132,13 +133,13 @@ def main(data):
         verds = load(os.path.join(d, 'verdicts.json'))['verdicts']
         inp = load(os.path.join(d, 'input.json'))
         rest = None
-        if item == 'E3':
+        if item == 'E2':
             r = inp['the rest of G']
             rest = adj_from(r['vertices'], r['edges'])
         for v in verds:
             if v['verdict'] == 'proper nontoroidal minor' and bare(v['witness']):
                 c = cands[v['id']]
-                if item == 'E3':
+                if item == 'E2':
                     b = c['bridge']
                     G = {x: set(s) for x, s in rest.items()}
                     for x, s in adj_from(b['vertices'], b['edges']).items():
@@ -154,7 +155,7 @@ def main(data):
                     w = wg['witness']
                     add(apply_op(adj_from(g['vertices'], g['edges']), w['operation'], w['edge']),
                         minor_use(item, v['id'], w, {'whole graph': k}), 'one-edge minor')
-        if item in ('E5', 'E13'):
+        if item in ('E4', 'E12'):
             atoms = {a['id']: a for a in inp['atoms']}
             base = inp['the base graph']['edges']
             for c in cands.values():
@@ -164,7 +165,7 @@ def main(data):
                         assert G == adj_from(c['graph']['vertices'], c['graph']['edges'])
                     add(G, {'item': item, 'candidate': c['id'], 'graph': 'recorded nontoroidal graph of the covering'},
                         'recorded nontoroidal graph')
-        if item == 'E20':
+        if item == 'E19':
             for v in verds:
                 if v.get('lattice status') == 'nontoroidal' and v['verdict'] != 'proper nontoroidal minor' \
                         and not v['verdict'].startswith('isomorphic to'):
@@ -186,15 +187,15 @@ def main(data):
             order.append(c)
         classes[c].append(u)
     order.sort(key=lambda c: (len(from_graph6(c)), n_edges(from_graph6(c)), c))
-    with open(HERE / 'table2_graphs.txt', 'w') as f:
+    with open(HERE / 'enumeration_graphs.txt', 'w') as f:
         f.write('# index graph6 vertices edges uses\n')
         for i, c in enumerate(order):
             g = from_graph6(c)
             f.write('%d %s %d %d %d\n' % (i + 1, c, len(g), n_edges(g), len(classes[c])))
-    save_json(HERE / 'table2_uses.json.gz', {'graphs': [{'index': i + 1, 'graph6': c, 'uses': classes[c]}
-                                                        for i, c in enumerate(order)]})
+    save_json(HERE / 'enumeration_graph_uses.json.gz', {'graphs': [{'index': i + 1, 'graph6': c, 'uses': classes[c]}
+                                                                   for i, c in enumerate(order)]})
     o1 = load(os.path.join(data, 'no_K5_obstructions', 'O1.json'))
-    with open(HERE / 'table1_graphs.txt', 'w') as f:
+    with open(HERE / 'obstructions.txt', 'w') as f:
         f.write('# name graph6 vertices edges\n')
         for r in o1['graphs']:
             g = from_graph6(r['graph6'])

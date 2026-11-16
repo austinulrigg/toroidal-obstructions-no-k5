@@ -1,10 +1,10 @@
 {
  "item": "R1",
- "where": "Lemma 4.2 (proof) and Lemma 4.26 (proof)",
+ "where": "Lemma 4.2 (proof)",
  "paper text": [
   {
    "where": "Lemma 4.2 (proof)",
-   "text": "\\begin{lemma}\\label{dis:faces}\nEvery torus embedding of $\\Psi_1$ is cellular with five faces.\nFor some $k\\in\\{1,2,3\\}$, write\n$\\{i,j\\}=\\{1,2,3\\}\\setminus\\{k\\}$.\nOmitting the twins from the boundary walks, these faces are\n\\begin{enumerate}[label=\\textup{(\\roman*)}]\n\\item two faces, each following\n$s_iP_it_i,t_jP_j^{-1}s_j$ and meeting no other path.\n\\item one face following\n$s_kP_kt_k,t_y,t_kP_k^{-1}s_k,s_x$, where\n$x,y\\in\\{i,j\\}$ may be equal.\n\\item two other faces meeting the paths exactly at\n$\\{s_k,s_{x'}\\}$ and $\\{t_k,t_{y'}\\}$, respectively,\nwhere $\\{x,x'\\}=\\{y,y'\\}=\\{i,j\\}$.\n\\end{enumerate}\nAll twelve choices of $k$, $x$ and $y$ occur.\n\\end{lemma}\n\\begin{proof}\nThe graph $\\Psi_1$ is connected and nonplanar, as $\\Psi_1-z$ is a subdivision of\n$K_{3,3}$ with parts $A_1$ and $\\{p,q,r\\}$, so its torus embeddings are\ncellular by Youngs's theorem. Subdividing an edge does not change the faces,\nso we may take each $P_i$ to be an edge. Up to automorphisms of $\\Psi_1$,\nthere are exactly two torus embeddings~\\supp{R1}. Their boundary walks,\nafter permuting the indices, give (i)--(iii), with $x=y$ in one and\n$x\\ne y$ in the other. Permuting the indices of both triples\nsimultaneously is an automorphism of $\\Psi_1$, so the first gives the six\nchoices with $x=y$ and the second the six with $x\\ne y$."
+   "text": "\\begin{lemma}\\label{dis:faces}\nEvery torus embedding of $\\Psi_1$ is cellular with five faces.\nFor some $k\\in\\{1,2,3\\}$, write\n$\\{i,j\\}=\\{1,2,3\\}\\setminus\\{k\\}$.\nOmitting the twins from the boundary walks, these faces are\n\\begin{enumerate}[label=\\textup{(\\roman*)}]\n\\item two faces, each following\n$s_iP_it_i,t_jP_j^{-1}s_j$ and meeting no other path.\n\\item one face following\n$s_kP_kt_k,t_y,t_kP_k^{-1}s_k,s_x$, where\n$x,y\\in\\{i,j\\}$ may be equal.\n\\item two other faces meeting the paths exactly at\n$\\{s_k,s_{x'}\\}$ and $\\{t_k,t_{y'}\\}$, respectively,\nwhere $\\{x,x'\\}=\\{y,y'\\}=\\{i,j\\}$.\n\\end{enumerate}\nAll twelve choices of $k$, $x$ and $y$ occur.\n\\end{lemma}\n\\begin{proof}\nThe graph $\\Psi_1$ is connected and nonplanar, as $\\Psi_1-z$ is a subdivision of\n$K_{3,3}$ with parts $A_1$ and $\\{p,q,r\\}$, so its torus embeddings are\ncellular by Youngs's theorem. Subdividing an edge does not change the faces,\nso we may take each $P_i$ to be an edge. Up to automorphisms of $\\Psi_1$,\nthere are exactly two torus embeddings~\\supp{R1}, shown in Figure~\\ref{fig:F-torus}. Their boundary walks,\nafter permuting the indices, give (i)--(iii), with $x=y$ in one and\n$x\\ne y$ in the other. Permuting the indices of both triples\nsimultaneously is an automorphism of $\\Psi_1$, so the first gives the six\nchoices with $x=y$ and the second the six with $x\\ne y$.\n\\end{proof}"
   }
  ],
  "what": "Every rotation system of Psi_1 with P_1, P_2, P_3 the edges s1t1, s2t2, s3t3 (subdividing an edge does not change the faces). Attachments: the path vertices s1, t1, s2, t2, s3, t3; twins omitted. Vertex names in a sequence are separated by spaces.",
@@ -3731,32 +3731,6 @@
      }
     }
    },
-   "holds": true
-  },
-  {
-   "statement": "Proof of Lemma 4.26, for B_b containing P_m with a = s_m, b = t_m, c = s_x, d = t_x: the region along P_m in the choice (m,x,x) is an annulus with boundaries a c | b d.",
-   "computed": {
-    "region along P_k for the choices (k,x,x)": {
-     "122": "s1 s2 | t1 t2 (annulus)",
-     "133": "s1 s3 | t1 t3 (annulus)",
-     "211": "s1 s2 | t1 t2 (annulus)",
-     "233": "s2 s3 | t2 t3 (annulus)",
-     "311": "s1 s3 | t1 t3 (annulus)",
-     "322": "s2 s3 | t2 t3 (annulus)"
-    }
-   },
-   "holds": true
-  },
-  {
-   "statement": "Proof of Lemma 4.26: a choice with k = w gives the boundary a, c, P_x, d, b on each side of P_m, that is, the two faces at the edge s_m t_m are distinct and both have sequence s_m t_m t_x s_x up to cyclic shift and reversal (checked for every torus rotation and every m other than k).",
-   "computed": {
-    "torus rotation systems checked": 48
-   },
-   "holds": true
-  },
-  {
-   "statement": "Proof of Lemma 4.26, for B_a with attachments s_x, t_x, s_y, t_y: a choice with k = w has simple faces s_x t_x t_y s_y (the cycle C), and the choice (x,y,y) has the repeated face s_x t_x t_y t_x s_x s_y, with s_x, t_x twice and s_y, t_y once.",
-   "computed": "These are cases (i) and (ii) of Lemma 4.2, checked above for every torus rotation.",
    "holds": true
   }
  ]

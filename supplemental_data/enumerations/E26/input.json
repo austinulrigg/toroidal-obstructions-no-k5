@@ -1,34 +1,26 @@
 {
  "item": "E26",
- "where": "Proposition 6.12",
+ "where": "Lemma 6.18",
  "paper text": [
   {
-   "line": 9524,
-   "text": "with $\\Psi_3$, deleting every other bridge and cross edge.\nContract the component with neighborhood $\\{a,c,e\\}$ to $v$ and\n$\\operatorname{Int}(B)$ to $w$, keeping\n$N(v)=\\{a,c,e\\}$ and $N(w)=\\{b,c,d,e\\}$.\nIn the retained graph, $H$ contains that triangle completion as a minor,\nusing $ab,ad$ and the path $bwd$.\nThe annular condition fails because the other bridges have\ntwo different attachment triples. Minimality therefore makes\n$G$ this retained graph. Keeping the triangle completion\nnonplanar preserves both failures, so\nLemma~\\ref{core:retained-subdivision} and\nConstruction~\\ref{common:marked-construction} give $216$ forms.\nThe case of a bridge with attachments $\\{a,c,e\\}$ is symmetric.\nAll $432$ graphs have a $K_5$ minor, a cut of at most two\nvertices, or a proper nontoroidal minor~\\supp{E26}."
+   "where": "Lemma 6.18 (proof)",
+   "text": "By Lemma~\\ref{r1:three-attachment-setup}, $ce$ is an edge or is supplied by a component outside $\\Psi_3$. Since $e$ is not an attachment of $B$, we may shorten the resulting $c$--$e$ path to $ce$ and retain $(\\Psi_3\\cup B)+ce$ as a minor of $G$. The same embedding test applies after replacing $B$ by any allowed minor $B'$, so this minor remains nontoroidal whenever $B'+bc$ is nonplanar. By minimality and Corollary~\\ref{common:reduced-forms}, $B$ is among the $563$ forms in~\\supp{E26} with added edge $bc$. Every resulting graph has a proper nontoroidal minor except one copy of $\\mathfrak T_{41}$, for which $B+bd+cd$ is planar. This contradicts our assumption.\n\\end{proof}"
   }
  ],
  "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
  "cases of the construction": {
-  "C_on_abd": {
+  "U_on_bcd": {
    "specification": {
     "roots": [
-     "a",
      "b",
+     "c",
      "d"
     ],
     "outside": {},
     "C edges within R": [
      [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
       "b",
-      "d"
+      "c"
      ]
     ],
     "required edges of K'": []
@@ -37,33 +29,24 @@
    "root placement classes": 115,
    "full placements": 115,
    "valid retained subdivisions": 115,
-   "recipes": 687,
-   "parts up to rooted isomorphism": 216,
+   "recipes": 1227,
+   "parts up to rooted isomorphism": 563,
    "outcomes": {
-    "cut of order at most two": 28,
-    "proper nontoroidal minor": 145,
-    "K5 minor": 43
+    "proper nontoroidal minor": 562,
+    "catalogue graph": 1
    }
   },
-  "C_on_ace": {
+  "U_on_cde": {
    "specification": {
     "roots": [
-     "a",
      "c",
+     "d",
      "e"
     ],
     "outside": {},
     "C edges within R": [
      [
-      "a",
-      "c"
-     ],
-     [
-      "a",
-      "e"
-     ],
-     [
-      "c",
+      "d",
       "e"
      ]
     ],
@@ -73,12 +56,11 @@
    "root placement classes": 115,
    "full placements": 115,
    "valid retained subdivisions": 115,
-   "recipes": 687,
-   "parts up to rooted isomorphism": 216,
+   "recipes": 1227,
+   "parts up to rooted isomorphism": 563,
    "outcomes": {
-    "cut of order at most two": 28,
-    "proper nontoroidal minor": 146,
-    "K5 minor": 42
+    "proper nontoroidal minor": 562,
+    "catalogue graph": 1
    }
   }
  }

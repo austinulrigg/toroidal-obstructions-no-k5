@@ -1,12 +1,12 @@
-"""Shared tools for the enumerations built with Construction 3.17.
+"""Shared tools for the enumerations built with Construction 3.18.
 
-Construction 3.17 (common:marked-construction) lists candidates for a part P
-of G with labeled attachments R, as in Lemma 3.16 (core:retained-subdivision):
+Construction 3.18 (common:marked-construction) lists candidates for a part P
+of G with labeled attachments R, as in Lemma 3.17 (core:retained-subdivision):
 a K3,3 subdivision K' of P + C, where C is a planar graph meeting P in R
 (edges within R, and outside vertices Y whose neighbors are all in R), with
-every segment shortened as in Lemma 3.16(ii), then the interior pieces joined
+every segment shortened as in Lemma 3.17(ii), then the interior pieces joined
 by forests and each attachment with no interior neighbor given one edge
-(Lemma 3.16(iii)).
+(Lemma 3.17(iii)).
 
 This module generates such parts, compares them up to label-preserving
 isomorphism, and classifies whole graphs G built from them. Classification
@@ -144,7 +144,7 @@ def extend_placement(pl, base, extra):
 # Building the retained subdivision and the part
 
 class Spec:
-    """Parameters of one application of Construction 3.17.
+    """Parameters of one application of Construction 3.18.
 
     roots      labels of R
     outside    {label: tuple of neighbors in R} for the vertices of C - R
@@ -239,7 +239,7 @@ def trees_on(k):
 
 
 def completions(part, roots):
-    """Lemma 3.16(iii): join the interior pieces by a forest of interior
+    """Lemma 3.17(iii): join the interior pieces by a forest of interior
     edges, with every choice of ends, and give each root with no interior
     neighbor one edge to an interior vertex, in every way."""
     pieces = interior_pieces(part, roots)
@@ -282,7 +282,7 @@ def relabel_interior(P, roots):
 
 
 def generate_parts(spec, min_interior=1, max_interior=None, root_classes=None):
-    """All parts P from Construction 3.17 for spec, up to label-preserving
+    """All parts P from Construction 3.18 for spec, up to label-preserving
     isomorphism. Roots are placed up to the symmetry of K3,3, outside
     vertices in every position. Returns (parts, stats); each part is
     (P, first recipe)."""

@@ -1,0 +1,12103 @@
+{
+ "item": "E22",
+ "verdicts": [
+  {
+   "id": "E22-one_bridge-0000",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0001",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0002",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0003",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0004",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u1"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0005",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0006",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0007",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0008",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0009",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u3"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0010",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0011",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0012",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0013",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0014",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0015",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0016",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0017",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0018",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0019",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0020",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0021",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0022",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0023",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0024",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0025",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0026",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0027",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0028",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0029",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0030",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0031",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0032",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0033",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0034",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0035",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0036",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0037",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0038",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0039",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0040",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0041",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0042",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0043",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0044",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0045",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0046",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0047",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0048",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0049",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0050",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0051",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0052",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0053",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0054",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0055",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0056",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0057",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p",
+      "q",
+      "z",
+      "u0"
+     ],
+     [
+      "b",
+      "u2"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "r",
+      "u5",
+      "w"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u3",
+      "u6"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0058",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0059",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0060",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0061",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0062",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0063",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0064",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0065",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0066",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0067",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0068",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0069",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0070",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0071",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0072",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0073",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0074",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0075",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0076",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "u2",
+     "u5"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0077",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "q",
+      "r",
+      "z",
+      "u4"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "w"
+     ],
+     [
+      "d",
+      "u0"
+     ],
+     [
+      "u1",
+      "u5"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0078",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0079",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0080",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0081",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0082",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0083",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0084",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0085",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u1",
+      "u5",
+      "w"
+     ],
+     [
+      "u0",
+      "u4",
+      "u6"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0086",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0087",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0088",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0089",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0090",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0091",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0092",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "q",
+      "z",
+      "u4"
+     ],
+     [
+      "b",
+      "p",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r"
+     ],
+     [
+      "u0",
+      "u6"
+     ],
+     [
+      "u1",
+      "u2",
+      "u3",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0093",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0094",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0095",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0096",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0097",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0098",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0099",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0100",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0101",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0102",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0103",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0104",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0105",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0106",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "u3"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "u4",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1",
+      "u5"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0107",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "u1",
+      "u4",
+      "w"
+     ],
+     [
+      "d",
+      "u5"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0108",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "u3"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1",
+      "u4",
+      "u5"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0109",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4",
+      "u5"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u3",
+      "u4",
+      "u5"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0110",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "b",
+      "e",
+      "r",
+      "u4",
+      "w"
+     ],
+     [
+      "d",
+      "z",
+      "u0"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0111",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0112",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0113",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0114",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0115",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "u5"
+     ],
+     [
+      "b",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "u6",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u1"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0116",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0117",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z",
+      "u1"
+     ],
+     [
+      "b",
+      "c",
+      "d",
+      "p",
+      "q",
+      "u6",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0118",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q",
+      "z"
+     ],
+     [
+      "b",
+      "e",
+      "r",
+      "u2",
+      "w"
+     ],
+     [
+      "d",
+      "u4",
+      "u6"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0119",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "r"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "u2",
+      "w"
+     ],
+     [
+      "d",
+      "z",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5",
+      "u6"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0120",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0121",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0122",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0123",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0124",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "r",
+      "w"
+     ],
+     [
+      "d",
+      "z"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0125",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0126",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0127",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0128",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0129",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "u2"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u4"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0130",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0131",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "z"
+     ],
+     [
+      "b",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "u4"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0132",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q",
+      "u3"
+     ],
+     [
+      "b",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u2",
+      "u5"
+     ],
+     [
+      "u1",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0133",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z",
+      "u0"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u1",
+      "u3",
+      "u5"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0134",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0135",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0136",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u0",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0137",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u0",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0138",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0139",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0140",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0141",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0142",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0143",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0144",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0145",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u2",
+     "u5",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0146",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0147",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0148",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0149",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "a",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0150",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u2",
+     "u5",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0151",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0152",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0153",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0154",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0155",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0156",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0157",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u2",
+     "u5",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0158",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u5",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0159",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u2",
+     "u5",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0160",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0161",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0162",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0163",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0164",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0165",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0166",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u2",
+     "u5",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0167",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u5",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0168",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u2",
+     "u5",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0169",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "r"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "z",
+      "u4",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0170",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0171",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p",
+      "u0"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "q",
+      "r",
+      "u3",
+      "w"
+     ],
+     [
+      "d",
+      "z"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u2",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0172",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0173",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0174",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q"
+     ],
+     [
+      "b"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "p",
+      "r",
+      "z",
+      "u1",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0175",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0176",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0",
+      "u2",
+      "u4"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0177",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0178",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0179",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0180",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0181",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u3"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0182",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0183",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0184",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0185",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0186",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0187",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0188",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0189",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0190",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0191",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0192",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "z",
+      "u3"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u1",
+      "w"
+     ],
+     [
+      "d",
+      "r"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0193",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0194",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0195",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0196",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0197",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "b",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0198",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "d",
+      "e",
+      "q",
+      "r",
+      "z",
+      "u5",
+      "w"
+     ],
+     [
+      "b",
+      "p",
+      "u1"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0199",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0200",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0201",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0202",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0203",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0204",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0205",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "d",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "b"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0206",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0207",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0208",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0209",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z",
+      "u4"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "u5"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0210",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0211",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0212",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "q",
+      "z",
+      "w"
+     ],
+     [
+      "b",
+      "p"
+     ],
+     [
+      "d",
+      "r",
+      "u5"
+     ],
+     [
+      "u0",
+      "u2",
+      "u3"
+     ],
+     [
+      "u1",
+      "u4"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0213",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0214",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0215",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0216",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0217",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0218",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0219",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0220",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "q",
+      "u1",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0221",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "u4",
+      "w"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0222",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "q",
+      "r"
+     ],
+     [
+      "b",
+      "p",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "z"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0223",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0224",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0225",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0226",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "q",
+      "z",
+      "u1"
+     ],
+     [
+      "b",
+      "p"
+     ],
+     [
+      "d",
+      "r",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0227",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "u4"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u2",
+      "w"
+     ],
+     [
+      "d",
+      "z"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0228",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "b"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u1",
+      "u5",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0229",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "u5"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0230",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "r",
+      "z",
+      "u2",
+      "w"
+     ],
+     [
+      "b",
+      "p",
+      "q",
+      "u5"
+     ],
+     [
+      "d",
+      "u1"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0231",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u2"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0232",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0233",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0234",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u0"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0235",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0236",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0237",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0238",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u3"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0239",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0240",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0241",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0242",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0243",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0244",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0245",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0246",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0247",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0248",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0249",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "p",
+      "q",
+      "u5",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u1"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0250",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0251",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0252",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0253",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0254",
+   "verdict": "cut of at most two vertices",
+   "witness": {
+    "type": "cut",
+    "vertices": [
+     "d",
+     "u2"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0255",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "z",
+      "u0"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "u5",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "u1"
+     ],
+     [
+      "u2",
+      "u4"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0256",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0257",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0258",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0259",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0260",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "u0",
+      "u1",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u3",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0261",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0262",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0263",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0264",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0265",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0266",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z",
+      "u4"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0",
+      "u5"
+     ],
+     [
+      "u1",
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0267",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0268",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0269",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0270",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0271",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0272",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0273",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0274",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0275",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0276",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0277",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "z"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0278",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r"
+     ],
+     [
+      "b",
+      "w"
+     ],
+     [
+      "d",
+      "z",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0279",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "r"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "w"
+     ],
+     [
+      "d",
+      "z"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u3",
+      "u4"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0280",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0281",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0282",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u1",
+      "u5",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0283",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "r"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3",
+      "u4"
+     ],
+     [
+      "u2",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0284",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0285",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "p"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "z",
+      "u0"
+     ],
+     [
+      "u1",
+      "u2",
+      "u3"
+     ],
+     [
+      "u4",
+      "u5"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0286",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "u1"
+     ],
+     [
+      "b",
+      "q"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u4"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0287",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0288",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0289",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0290",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q"
+     ],
+     [
+      "b",
+      "c",
+      "p"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u2",
+      "u4",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0291",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0292",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0293",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0294",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u1",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0295",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "u0"
+     ],
+     [
+      "b",
+      "w"
+     ],
+     [
+      "d",
+      "z"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0296",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0297",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0298",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u1"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0299",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0300",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0301",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0302",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u1",
+      "u3"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0303",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "u1"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0304",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0305",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0306",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0307",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0308",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q",
+      "r",
+      "z",
+      "u3"
+     ],
+     [
+      "b",
+      "u1"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "p",
+      "w"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0309",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "u1",
+      "w"
+     ],
+     [
+      "d",
+      "r",
+      "u0"
+     ],
+     [
+      "u2"
+     ],
+     [
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0310",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q"
+     ],
+     [
+      "d",
+      "w"
+     ],
+     [
+      "u0",
+      "u2"
+     ],
+     [
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0311",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0312",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0313",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u4",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0314",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0315",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0316",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u4",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0317",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ],
+    "component": [
+     "b",
+     "c",
+     "p",
+     "q",
+     "u4",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0318",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "p",
+      "q",
+      "r"
+     ],
+     [
+      "b",
+      "u4"
+     ],
+     [
+      "d",
+      "e",
+      "z",
+      "u1",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0319",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0320",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0321",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0322",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "a choice of twin pairs leaves a component adjacent to all five of their attachments",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ],
+    "component": [
+     "d",
+     "e",
+     "r",
+     "z",
+     "u4",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0323",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0324",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0325",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "u3"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0326",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "b",
+     "w"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0327",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0328",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0329",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0330",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0331",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "b",
+      "c",
+      "e",
+      "p",
+      "q",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "d",
+      "u4"
+     ],
+     [
+      "u0"
+     ],
+     [
+      "u1",
+      "u3"
+     ],
+     [
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0332",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0333",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0334",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0335",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0336",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0337",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0338",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      "u2",
+      "u3"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0339",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples are disjoint",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "b",
+      "u0",
+      "u1"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u2",
+      "u3"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0340",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "c",
+      "e",
+      "q",
+      "r",
+      "z",
+      "u1"
+     ],
+     [
+      "b",
+      "p",
+      "w"
+     ],
+     [
+      "d"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u2",
+      "u4"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0341",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0342",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q"
+     ],
+     [
+      "b",
+      "p",
+      "u4"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u2",
+      "u3"
+     ],
+     [
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0343",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c",
+      "p",
+      "q",
+      "w"
+     ],
+     [
+      "d",
+      "e",
+      "r",
+      "z",
+      "u4"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0344",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "e",
+      "p",
+      "r",
+      "z"
+     ],
+     [
+      "b",
+      "c",
+      "q"
+     ],
+     [
+      "d",
+      "w"
+     ],
+     [
+      "u0",
+      "u3",
+      "u4"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0345",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "z"
+     ],
+     [
+      "b",
+      "q"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "p",
+      "r",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0346",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "r"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "d",
+      "e"
+     ],
+     [
+      "a",
+      "d",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "r",
+      "z"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0347",
+   "verdict": "K5 minor",
+   "witness": {
+    "type": "K5 branch sets",
+    "branch sets": [
+     [
+      "a",
+      "q"
+     ],
+     [
+      "b",
+      "p"
+     ],
+     [
+      "c",
+      "d",
+      "e",
+      "r",
+      "z",
+      "w"
+     ],
+     [
+      "u0",
+      "u3"
+     ],
+     [
+      "u1",
+      "u2"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E22-one_bridge-0348",
+   "verdict": "proper nontoroidal minor",
+   "witness": {
+    "type": "proper minor",
+    "operation": "delete",
+    "edge": [
+     "a",
+     "p"
+    ]
+   },
+   "also excluded by a hypothesis of the case": {
+    "fact": "two twin triples share two vertices",
+    "triples": [
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      "a",
+      "b",
+      "u2"
+     ]
+    ],
+    "twins": [
+     [
+      "p",
+      "q"
+     ],
+     [
+      "u0",
+      "u1"
+     ]
+    ]
+   }
+  }
+ ]
+}

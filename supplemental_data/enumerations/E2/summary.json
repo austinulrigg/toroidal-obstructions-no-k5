@@ -1,14 +1,19 @@
 {
  "item": "E2",
  "where": "Proposition 4.21",
- "graphs": 48,
- "by kind": {
-  "another three-attachment component": 32,
-  "a four-attachment component without the disk drawing": 8,
-  "edges s_i t_j on both index pairs {1,3} and {2,3}": 8
- },
+ "candidates": 15626,
  "verdicts": {
-  "proper nontoroidal minor": 48
+  "proper nontoroidal minor": 15626
+ },
+ "one-edge minors": {
+  "contract": 1732,
+  "delete": 13894
+ },
+ "why nontoroidal": {
+  "a minor model of T25 in the minor": 46,
+  "an allowed reduction keeping B + ac + cd + bd nonplanar": 15545,
+  "the minor fails all twelve choices of Lemma 4.3": 32,
+  "a genus computation": 3
  },
  "remaining": 0
 }

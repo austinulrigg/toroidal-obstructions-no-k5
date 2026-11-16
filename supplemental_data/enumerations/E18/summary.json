@@ -1,23 +1,75 @@
 {
  "item": "E18",
- "where": "Lemma 5.22",
- "candidates": 252,
+ "where": "Lemma 5.30",
+ "graphs": 5934,
+ "nonplanar U": 5214,
+ "planar U": 720,
  "verdicts": {
-  "cut of at most two vertices": 21,
-  "isomorphic to T10": 6,
-  "isomorphic to T16": 2,
-  "isomorphic to T9": 6,
-  "proper nontoroidal minor": 145,
-  "toroidal": 72
+  "K5 minor": 1762,
+  "cut of at most two vertices": 668,
+  "proper nontoroidal minor": 3504
  },
- "isomorphic to T_i (copies)": {
-  "T9": 6,
-  "T10": 6,
-  "T16": 2
+ "by case": {
+  "U_acd_nonplanar_v_on_abc": {
+   "K5 minor": 276,
+   "cut of at most two vertices": 92,
+   "proper nontoroidal minor": 501
+  },
+  "U_acd_nonplanar_v_on_abd": {
+   "K5 minor": 274,
+   "cut of at most two vertices": 94,
+   "proper nontoroidal minor": 501
+  },
+  "U_acd_nonplanar_v_on_bcd": {
+   "K5 minor": 325,
+   "cut of at most two vertices": 93,
+   "proper nontoroidal minor": 451
+  },
+  "U_acd_planar_v_on_abc": {
+   "K5 minor": 2,
+   "cut of at most two vertices": 18,
+   "proper nontoroidal minor": 100
+  },
+  "U_acd_planar_v_on_abd": {
+   "K5 minor": 5,
+   "cut of at most two vertices": 18,
+   "proper nontoroidal minor": 97
+  },
+  "U_acd_planar_v_on_bcd": {
+   "K5 minor": 5,
+   "cut of at most two vertices": 18,
+   "proper nontoroidal minor": 97
+  },
+  "U_bcd_nonplanar_v_on_abc": {
+   "K5 minor": 270,
+   "cut of at most two vertices": 94,
+   "proper nontoroidal minor": 505
+  },
+  "U_bcd_nonplanar_v_on_abd": {
+   "K5 minor": 269,
+   "cut of at most two vertices": 94,
+   "proper nontoroidal minor": 506
+  },
+  "U_bcd_nonplanar_v_on_acd": {
+   "K5 minor": 324,
+   "cut of at most two vertices": 93,
+   "proper nontoroidal minor": 452
+  },
+  "U_bcd_planar_v_on_abc": {
+   "K5 minor": 3,
+   "cut of at most two vertices": 18,
+   "proper nontoroidal minor": 99
+  },
+  "U_bcd_planar_v_on_abd": {
+   "K5 minor": 4,
+   "cut of at most two vertices": 18,
+   "proper nontoroidal minor": 98
+  },
+  "U_bcd_planar_v_on_acd": {
+   "K5 minor": 5,
+   "cut of at most two vertices": 18,
+   "proper nontoroidal minor": 97
+  }
  },
- "graphs T_i not excluded by a hypothesis of the case": [
-  "T9",
-  "T10",
-  "T16"
- ]
+ "remaining": 0
 }

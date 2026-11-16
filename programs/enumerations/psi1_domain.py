@@ -1,4 +1,4 @@
-"""The family of bridge assemblies on Psi_1 of Proposition 4.24 (E5).
+"""The family of bridge assemblies on Psi_1 of Proposition 4.24 (E4).
 
 Names: a = s1, b = t1, c = s2, d = t2, e = s3, f = t3; p, q are adjacent
 to S = {a, c, e} and r, z to T = {b, d, f}. The bridges are those on
@@ -16,10 +16,10 @@ Atoms and the facts of the paper that give them:
       Lemma 4.5, and are not in the family). A bridge with a planar
       triangle completion is a single vertex; otherwise, as it has a planar
       relevant completion (Corollary 4.23), it is one of the forms of
-      Proposition 3.14: T(x), T(y), T(z), S(x;y), S(y;x), and, for the
+      Proposition 3.15: T(x), T(y), T(z), S(x;y), S(y;x), and, for the
       bridge containing a path P_m when the support is {s_m, t_m, e} (roles
       g, e, h with g the end of P_m on the side of e), also Q(h;g,e) and the
-      two four-cycle graphs of Lemma 3.13 with g, e, h as x, y, z.
+      two four-cycle graphs of Lemma 3.14 with g, e, h as x, y, z.
   four-attachment bridges, single vertices (the hypothesis of
       Proposition 4.24): on {s_i, t_i, s_j, t_j} (types (a), (b)), and on
       {s_m, t_m, s_x, t_y} with {m, x, y} = {1, 2, 3} only as the bridge
@@ -38,8 +38,8 @@ Clauses (each holds in every obstruction of Proposition 4.24):
   (d) Psi_1 exists: s_m t_m is an edge or some bridge attaches to both s_m
       and t_m.
 
-form_edges() gives the forms of Proposition 3.14 and Lemma 3.13; it is also
-used by forms_e11.py, forms_e14.py and generate_E13.py.
+form_edges() gives the forms of Proposition 3.15 and Lemma 3.14; it is also
+used by forms_e10.py, forms_e13.py and generate_E12.py.
 """
 
 from itertools import combinations

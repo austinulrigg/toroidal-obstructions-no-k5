@@ -1,161 +1,104 @@
-"""E14: the cut X = {a, u, v} with two other components (Proposition 5.18).
+"""E14: a cut {a, c, w} with b and d in different components, D missing a (Proposition 5.27).
 
-The program's names: t0, t1 are the twins on abc and t2, t3 those on abd
-(p, q, r, z in the paper), and p, q have neighbourhood X = {a, u, v} (p', q'
-in the paper). G = Psi_2 + p, q + D_1 + D_2, where D_1 contains two of b, c,
-d and D_2 the third (the program writes R for D_1 and D for D_2). Up to
-interchanging c and d the partitions are P1 (D_1 contains b, c) and P2 (D_1
-contains c, d). The forms of D_1 come from forms_one_component.e14_r_forms
-(the forms with no K3,3 subdivision, and the constructions of the proof with
-the full completion step, with their mirror images under u <-> v), and those
-of D_2 from forms_e14.d_forms; forms with a one-step proper minor of the
-same signature are removed first. Every pair whose neighbourhoods together
-contain u and v is assembled; the graphs are compared up to isomorphism,
-each class is classified (enumeration.classify), and each is placed in the
-rows of the table of Lemma 5.17:
-  row 1  P1, N(D_1) in {u, au}, N(D_2) = uv
-  row 2  P1, N(D_1) in {u, au}, N(D_2) in {v, av}   (with its condition)
-  row 3  P1, N(D_1) = uv, N(D_2) = uv
-  row 4  P1, N(D_1) = uv, N(D_2) in {v, av}
-  row 5  P2, one neighbourhood uv
-  row 6  P2, N(D_1) in {u, au}, N(D_2) in {v, av}
-each up to u <-> v. The proof finds no obstruction here (1,229 candidates).
+The program's names: p, q are the twins on {a, c, w} (p', q' in the paper),
+t0, t1 the twins on abc and t2, t3 those on abd; U is the paper's H_b, on
+the attachments b, c, w, and r is the paper's x, the vertex formed by
+contracting cw. As in the proof, D = {d} with the edge dw, U + cw is
+planar, and Lemma 2.7 makes (U + cw + bc)/cw nonplanar.
 
-The forms are kept in forms.pkl in the output folder, and the
-classification in progress.jsonl, so that a second start continues.
+Construction 3.18 with attachments b, r and the added edge br, which the
+retained K3,3 subdivision must use. Each edge at r is assigned back to c
+or to w in every possible way, and c or w without an interior neighbour
+gets one, in every possible way. The bridges are compared up to
+isomorphism fixing b, c, w. G = Psi_2 + p, q on acw + U + dw, and every G
+is classified (enumeration.classify). Each candidate also records whether
+U + cw is planar and U + cw + bw, U + cw + bc are nonplanar, the case of
+the proof. The proof finds no obstruction here.
+
 Run as: python generate_E14.py FOLDER
 """
+import itertools
 import json
-import pickle
 import sys
-from collections import Counter
-from pathlib import Path
 
 import networkx as nx
-
 import enumeration as el
-import forms_e14 as f
-import forms_one_component as fx
+
+R = ("b", "c", "w")
 
 
-def _lookup(part, NR, ND):
-    if part == "P1":
-        if NR in ("u", "au") and ND == "uv":
-            return "1"
-        if NR in ("u", "au") and ND in ("v", "av"):
-            return "2"
-        if NR == "uv" and ND == "uv":
-            return "3"
-        if NR == "uv" and ND in ("v", "av"):
-            return "4"
-    else:
-        if "uv" in (NR, ND):
-            return "5"
-        if NR in ("u", "au") and ND in ("v", "av"):
-            return "6"
-    return None
+def lifts(Q):
+    inner = sorted(v for v in Q if v not in ("b", "r"))
+    at_r = sorted(v for v in Q["r"] if v in inner)
+    base = Q.copy()
+    base.remove_node("r")
+    base.add_nodes_from(R)
+    for choice in itertools.product("cw", repeat=len(at_r)):
+        P = base.copy()
+        P.add_edges_from((x, v) for x, v in zip(choice, at_r))
+        lonely = [x for x in "cw" if not any(u in inner for u in P[x])]
+        for nbrs in itertools.product(inner, repeat=len(lonely)):
+            H = P.copy()
+            H.add_edges_from(zip(lonely, nbrs))
+            yield H
 
 
-def row(part, NR, ND):
-    sw = lambda N: "".join(sorted({"u": "v", "v": "u", "a": "a"}[z] for z in N))
-    return _lookup(part, NR, ND) or _lookup(part, sw(NR), sw(ND)) or "outside the table"
+def parts():
+    spec = el.Spec(("b", "r"), c_edges=[("b", "r")], required=[("b", "r")])
+    quotients, st = el.generate_parts(spec, min_interior=1)
+    buckets, out = {}, []
+    lifted = 0
+    for Q, recipe in quotients:
+        for P in lifts(Q):
+            lifted += 1
+            key = el.rooted_key(P, R)
+            if any(el.rooted_isomorphic(P, out[j][0], R) for j in buckets.get(key, [])):
+                continue
+            buckets.setdefault(key, []).append(len(out))
+            out.append((el.relabel_interior(P, R), {"quotient part": el.graph_record(Q), "quotient recipe": recipe}))
+    st.update({"quotient parts": len(quotients), "lifts": lifted, "parts up to rooted isomorphism": len(out)})
+    return out, st
 
 
-def prefixed(H, keep, tag):
-    return nx.relabel_nodes(H, {v: v if v in keep else "%s%s" % (tag, v) for v in H})
-
-
-def base():
+def assemble(U):
     G = nx.Graph()
     G.add_edges_from((t, x) for t in ("t0", "t1") for x in "abc")
     G.add_edges_from((t, x) for t in ("t2", "t3") for x in "abd")
-    G.add_edges_from((p, x) for p in "pq" for x in "auv")
+    G.add_edges_from((p, x) for p in "pq" for x in "acw")
+    G.add_edges_from(U.edges())
+    G.add_edge("d", "w")
     return G
 
 
-def build(forms):
-    graphs = []
-    named = set("abcduv")
-    for part, (R, rst, D, dst) in forms.items():
-        for i, (RH, rinfo) in enumerate(R):
-            NR = f.nbhd(RH, f.PARTITIONS[part][0])
-            for j, (DH, dinfo) in enumerate(D):
-                ND = f.nbhd(DH, (f.PARTITIONS[part][1],))
-                if not {"u", "v"} <= set(NR) | set(ND):
-                    continue
-                G = base()
-                G.add_edges_from(prefixed(RH, named, "R").edges())
-                G.add_edges_from(prefixed(DH, named, "D").edges())
-                graphs.append((G, {"partition": part, "R form": i, "D form": j, "N(R)": NR, "N(D)": ND,
-                                   "row": row(part, NR, ND), "R origin": rinfo["origin"],
-                                   "D origin": dinfo["origin"]}))
-    return graphs
-
-
-def dedupe(graphs):
-    buckets, out = {}, []
-    for G, info in graphs:
-        key = (G.number_of_nodes(), G.number_of_edges(), nx.weisfeiler_lehman_graph_hash(G, iterations=4))
-        hit = None
-        for j in buckets.get(key, []):
-            if nx.is_isomorphic(G, out[j][0]):
-                hit = j
-                break
-        if hit is None:
-            buckets.setdefault(key, []).append(len(out))
-            out.append((G, {"first": info, "also": []}))
-        else:
-            out[hit][1]["also"].append(info)
+def case_flags(U):
+    out = {}
+    for name, E in (("U+cw", [("c", "w")]), ("U+cw+bw", [("c", "w"), ("b", "w")]),
+                    ("U+cw+bc", [("c", "w"), ("b", "c")])):
+        H = U.copy()
+        H.add_edges_from(E)
+        out[name + " planar"] = nx.check_planarity(H)[0]
+    out["in the item's case"] = out["U+cw planar"] and not out["U+cw+bw planar"] and not out["U+cw+bc planar"]
     return out
 
 
 if __name__ == "__main__":
-    out = Path(sys.argv[1])
-    out.mkdir(parents=True, exist_ok=True)
-    cache = out / "forms.pkl"
-    if cache.exists():
-        with open(cache, "rb") as fh:
-            forms = pickle.load(fh)
-    else:
-        forms = {}
-        for part in ("P1", "P2"):
-            R, rst = fx.e14_r_forms(part)
-            D, dst = f.d_forms(part)
-            forms[part] = (R, rst, D, dst)
-            print(part, "D_1 forms", len(R), "D_2 forms", len(D), flush=True)
-        with open(cache, "wb") as fh:
-            pickle.dump(forms, fh)
-    record = {}
-    for part, (R, rst, D, dst) in forms.items():
-        record[part] = {
-            "R forms": [{"index": i, "signature": list(f.r_signature(H, part)), "origin": inf["origin"],
-                         "mirrored": inf.get("mirrored", False), "graph": el.graph_record(H)}
-                        for i, (H, inf) in enumerate(R)],
-            "D forms": [{"index": i, "signature": list(f.d_signature(H, part)), "origin": inf["origin"],
-                         "graph": el.graph_record(H)} for i, (H, inf) in enumerate(D)],
-            "R statistics": rst, "D statistics": dst}
-    with open(out / "forms.json", "w") as fh:
-        json.dump(record, fh, indent=1)
-    graphs = build(forms)
-    print("assembled", len(graphs), Counter(i["row"] for _, i in graphs), flush=True)
-    uniq = dedupe(graphs)
-    print("up to isomorphism", len(uniq), flush=True)
-    s = el.run_item("E14", [("assemblies", None, lambda G: G,
-                             {"parts": uniq, "stats": {"assembled": len(graphs), "up to isomorphism": len(uniq)},
-                              "payload": "see forms.json"})],
-                    [], str(out), note="G = Psi2 + p, q on auv + D_1 + D_2")
-    data = json.load(open(out / "candidates.json"))
-    rows, found = Counter(), {}
+    out = sys.argv[1]
+    ps, st = parts()
+    s = el.run_item("E14", [("lifts", None, assemble, {"parts": ps, "stats": st,
+                                                "payload": {"quotient roots": ["b", "r"], "added edges": [["b", "r"]],
+                                                            "required edges": [["b", "r"]], "lifted roots": list(R)}})],
+                    [], out, note="G = Psi2 + p, q on acw + U + dw")
+    data = json.load(open(out + "/candidates.json"))
     for r in data["candidates"]:
-        rs = {r["recipe"]["first"]["row"]} | {x["row"] for x in r["recipe"]["also"]}
-        for x in rs:
-            rows[x] += 1
-            if r["outcome"]["outcome"] == "catalogue graph":
-                found.setdefault(x, set()).add(r["outcome"]["catalogue"])
-    s["candidates by table row"] = dict(rows)
-    s["catalogue graphs by table row"] = {k: sorted(v, key=lambda x: int(x[1:])) for k, v in found.items()}
-    with open(out / "summary.json", "w") as fh:
-        json.dump(s, fh, indent=1)
+        U = nx.Graph()
+        U.add_nodes_from(r["part"]["vertices"])
+        U.add_edges_from(r["part"]["edges"])
+        r["case flags"] = case_flags(U)
+    json.dump(data, open(out + "/candidates.json", "w"))
+    inc = [r for r in data["candidates"] if r["case flags"]["in the item's case"]]
+    s["candidates in the item's case"] = len(inc)
+    s["outcomes in the item's case"] = dict(__import__("collections").Counter(r["outcome"]["outcome"] for r in inc))
+    json.dump(s, open(out + "/summary.json", "w"), indent=1)
     print(json.dumps({k: s[k] for k in ("candidates", "outcomes", "catalogue graphs found",
-                                         "candidates by table row", "catalogue graphs by table row", "seconds")},
-                     indent=1))
+                                         "candidates in the item's case", "outcomes in the item's case",
+                                         "seconds")}, indent=1))

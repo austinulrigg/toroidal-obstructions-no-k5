@@ -1,76 +1,127 @@
-"""E18: every component on a triple of {a, b, c, d} is a single vertex (Lemma 5.22).
+"""E18: a bridge on a triple whose three two-edge completions are nonplanar (Lemma 5.30).
 
-The program names the vertices with neighbourhood T by T itself: abc0,
-abc1, ... on abc, abd0, ... on abd, acd0, ... on acd and bcd0, ... on bcd.
-As in the proof, G is determined by the numbers of vertices with each of
-the neighbourhoods {a,b,c}, {a,b,d}, {a,c,d}, {b,c,d}: at least two on each
-of the first two, at most nine in total, and cd absent or present. These
-are the 252 graphs of the lemma. Every count vector is taken (labeled), and
-each candidate records its class up to interchanging a, b and c, d. Every
-graph is classified (enumeration.classify). The proof finds T9, T10, T16.
+The program's names: x1, x2 are the twins on abc and y1, y2 those on abd.
+As in the proof, B is a bridge on T = {a, c, d} or {b, c, d} whose three
+two-edge completions are nonplanar (the program names the bridge U), and
+another bridge on one of the three other triples is contracted to a vertex
+v. So G = Psi_2 + U + v with N(v) one of the three other triples: six
+cases. The bridges U are listed by Construction 3.18 with attachments T:
+
+  nonplanar U: no added edges;
+  planar U:    one added edge xy, which the retained K3,3 subdivision must
+               use, taken for each pair xy of T in turn; a part is kept
+               when it is planar and its three two-edge completions are
+               nonplanar, and the parts kept for the three pairs are
+               compared up to isomorphism fixing T.
+
+Every resulting graph is classified (enumeration.classify). The random
+search for a K5 minor uses, for the k-th bridge (from 0) of the j-th
+nonplanar case (from 0, in the order the program lists them), the seed
+1753 + 876 j + k, with the vertices of the graph in the order of its
+construction, and for the k-th form of the j-th planar case the seed
+1 + 120 j + k, with the vertices in the order of its edges. These are the
+settings that give the data folder; any settings give valid records. The proof finds a cut of
+at most two vertices, a K5 minor or a proper nontoroidal minor for each of
+the 5,934 graphs.
 
 Run as: python generate_E18.py FOLDER
 """
 import itertools
 import json
 import sys
-import time
-from pathlib import Path
 
 import networkx as nx
 
 import enumeration as el
-import psi2_runs as ext
 
 TRIPLES = ("abc", "abd", "acd", "bcd")
+ON = ("acd", "bcd")
 
 
-def graph(counts, cd):
+def psi2():
     G = nx.Graph()
-    G.add_nodes_from("abcd")
-    for t, n in zip(TRIPLES, counts):
-        for i in range(n):
-            G.add_edges_from(("%s%d" % (t, i), x) for x in t)
-    if cd:
-        G.add_edge("c", "d")
+    for t, nb in {"x1": "abc", "x2": "abc", "y1": "abd", "y2": "abd"}.items():
+        G.add_edges_from((t, v) for v in nb)
     return G
 
 
-def canonical(counts, cd):
-    """Representative of the orbit under a<->b and c<->d."""
-    n1, n2, n3, n4 = counts
-    orbit = [(n1, n2, n3, n4), (n1, n2, n4, n3), (n2, n1, n3, n4), (n2, n1, n4, n3)]
-    return (min(orbit), cd)
+def two_edge_completions(P, T):
+    x, y, t = T
+    out = []
+    for E in (((x, y), (x, t)), ((x, y), (y, t)), ((x, t), (y, t))):
+        H = P.copy()
+        H.add_edges_from(E)
+        out.append(H)
+    return out
+
+
+def planar_forms(T):
+    """The planar bridges on T with three nonplanar two-edge completions,
+    up to isomorphism fixing T, with the counts for each added edge."""
+    forms, buckets, stats = [], {}, {}
+    for x, y in itertools.combinations(T, 2):
+        spec = el.Spec(tuple(T), c_edges=[(x, y)], required=[(x, y)])
+        parts, st = el.generate_parts(spec)
+        kept = 0
+        for P, recipe in parts:
+            if not nx.check_planarity(P)[0]:
+                continue
+            if any(nx.check_planarity(H)[0] for H in two_edge_completions(P, T)):
+                continue
+            kept += 1
+            key = el.rooted_key(P, tuple(T))
+            if any(el.rooted_isomorphic(P, forms[i][0], tuple(T)) for i in buckets.get(key, [])):
+                continue
+            buckets.setdefault(key, []).append(len(forms))
+            forms.append((P, dict(recipe, **{"added edge": [x, y]})))
+        stats[x + y] = {"parts": len(parts), "planar with all three two-edge completions nonplanar": kept}
+    return forms, stats
+
+
+def make_assemble(S):
+    def assemble(P):
+        G = psi2()
+        G.add_edges_from(P.edges())
+        G.add_edges_from(("v", s) for s in S)
+        return G
+    return assemble
 
 
 if __name__ == "__main__":
-    out = Path(sys.argv[1])
-    t0 = time.time()
-    parts = []
-    for n1, n2, n3, n4 in itertools.product(range(2, 10), range(2, 10), range(8), range(8)):
-        if n1 + n2 + n3 + n4 > 9:
-            continue
-        for cd in (False, True):
-            P = graph((n1, n2, n3, n4), cd)
-            parts.append((P, {"counts on abc, abd, acd, bcd": [n1, n2, n3, n4], "cd": cd,
-                              "class up to a<->b, c<->d": [list(canonical((n1, n2, n3, n4), cd)[0]), cd]}))
-    st = {"count vectors with cd absent or present": len(parts)}
-    pay = {"vertices": "a,b,c,d; vertex 'Ti' is the i-th singleton on triple T",
-           "domain": "n_abc>=2, n_abd>=2, n_acd>=0, n_bcd>=0, total<=9; cd absent or present"}
-    s = ext.run_whole_item("E18", [("singletons", parts, st, pay, lambda P: P)], ["T9", "T10", "T16"], out,
-                           structural=[], structural_payload={},
-                           note="singleton components on the triples of {a,b,c,d}")
-    d = json.load(open(out / "candidates.json"))
-    classes = {}
-    for r in d["candidates"]:
-        o = r["outcome"]
-        if o["outcome"] == "catalogue graph":
-            key = tuple(map(tuple, [r["recipe"]["class up to a<->b, c<->d"][0]])) + (r["recipe"]["cd"],)
-            classes.setdefault(o["catalogue"], set()).add(
-                (tuple(r["recipe"]["counts on abc, abd, acd, bcd"]), r["recipe"]["cd"]))
-    s["catalogue graphs with their count vectors"] = {k: sorted([list(c), cd] for c, cd in v)
-                                                     for k, v in classes.items()}
-    json.dump(s, open(out / "summary.json", "w"), indent=1)
-    print(json.dumps({k: s[k] for k in ("candidates", "outcomes", "survivors",
-                                         "catalogue graphs with their count vectors",
-                                         "agrees with the text", "seconds")}, indent=1))
+    out = sys.argv[1]
+    nonplanar, planar, forms_info = {}, {}, {}
+    for T in ON:
+        spec = el.Spec(tuple(T))
+        nonplanar[T] = el.generate_parts(spec) + (spec.payload(),)
+        forms, stats = planar_forms(T)
+        planar[T] = (forms, {"forms": len(forms)}, {"roots": list(T), "U": "planar, one added edge xy per pair"})
+        forms_info[T] = {"count": len(forms), "by added edge": stats,
+                         "forms": [{"index": i, "graph": el.graph_record(P), "recipe": r}
+                                   for i, (P, r) in enumerate(forms)]}
+    cases = []
+    for T in ON:
+        parts, st, payload = nonplanar[T]
+        for S in TRIPLES:
+            if S != T:
+                cases.append(("U_%s_nonplanar_v_on_%s" % (T, S), None, make_assemble(S),
+                              {"parts": parts, "stats": st, "payload": dict(payload, exterior="v on " + S)}))
+    for T in ON:
+        forms, st, payload = planar[T]
+        for S in TRIPLES:
+            if S != T:
+                cases.append(("U_%s_planar_v_on_%s" % (T, S), None, make_assemble(S),
+                              {"parts": forms, "stats": st, "payload": dict(payload, exterior="v on " + S)}))
+    order = [c[0] for c in cases]
+
+    def seed_of(name, k, n):
+        j = order.index(name)
+        if "_nonplanar_" in name:
+            return 1753 + 876 * j + k
+        return 1 + 120 * (j - 6) + k
+    s = el.run_item("E18", cases, [], out, seed_of=seed_of, nodes_first=lambda name: "_nonplanar_" in name,
+                    note="x1,x2 on abc; y1,y2 on abd; U on acd or bcd; v on another triple")
+    with open(out + "/forms.json", "w") as f:
+        json.dump(forms_info, f, indent=1)
+    print(json.dumps({k: s[k] for k in ("candidates", "outcomes", "catalogue graphs found", "seconds")}, indent=1))
+    for k, v in s["cases"].items():
+        print(k, v.get("parts up to rooted isomorphism", v.get("forms")), v["outcomes"])

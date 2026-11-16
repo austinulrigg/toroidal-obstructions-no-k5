@@ -1,10 +1,10 @@
-"""Construction 3.17 with original edges between attachments and
-disconnected interiors (used by E11 and E14).
+"""Construction 3.18 with original edges between attachments and
+disconnected interiors (used by E10 and E13).
 
 retained(roots, added, required, original)
-    Construction 3.17(i): every placement of the roots on a K3,3
+    Construction 3.18(i): every placement of the roots on a K3,3
     subdivision (branch vertex, inside a branch path in order, or off), up
-    to the symmetry of K3,3; segments shortened as in Lemma 3.16(ii). A
+    to the symmetry of K3,3; segments shortened as in Lemma 3.17(ii). A
     segment between two roots is the added edge when its ends are joined by
     one, is taken both as the original edge and with one interior vertex
     when its ends form a permitted original pair, and otherwise has one
@@ -15,7 +15,7 @@ grouped(part, roots)
     The interior pieces (components of part - roots) are divided among the
     components of the interior in every way (every set partition), and the
     pieces of each component are joined by a spanning tree with every
-    choice of ends (Lemma 5.8: the vertices of a
+    choice of ends (Lemma 5.11: the vertices of a
     component off the subdivision are contracted onto a forest joining its
     retained pieces). Yields (graph, list of components).
 

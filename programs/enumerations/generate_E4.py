@@ -1,288 +1,335 @@
-"""E4: assemblies of bridges on Psi_1 when every path P_i is an edge (Theorem 4.22).
+"""E4: assemblies of bridges on Psi_1 when some path is not an edge and
+every four-attachment bridge has one interior vertex (Proposition 4.24).
 
-The domain is that of endpoint_domain.py: count vectors of 81 atoms (bridge
-forms on triples, single vertices on the sets {s_i, t_i, s_j, t_j}, and the
-edges s_i t_j) satisfying the conditions of the proof, given as clauses.
+The family is that of psi1_domain.py: 162 atoms (the nine edges s_i t_j, the
+144 labeled three-attachment forms and the nine single vertices with four
+attachments) and the clauses of the proof. It is covered as in covering.py
+by maximal toroidal graphs and minimal nontoroidal graphs, with worker
+processes (parallel_cover); every vector found is recorded with its images
+under the twelve symmetries of Psi_1. The final formula is written to
+cover.cnf, with a DRAT proof of its unsatisfiability found by Glucose 4 in
+cover.drat. Then
+  - each maximal toroidal graph gets a torus embedding (embeddings.py,
+    multi_genus); an image of another one gets the image of its embedding;
+  - each minimal nontoroidal graph that satisfies the clauses is classified:
+    a cut of at most two vertices (enumeration.small_cut), else
+    isomorphism with some T_i (enumeration.identify), else
+    enumeration.classify with the seed k for the k-th nontoroidal vector
+    (counting from 0); an image of another such graph gets the image of
+    its outcome.
+The proof finds T32, T43, T61 in part (a), T38, T45, T48, T66, T67 in
+part (b), none in part (c), and T48, T58 among the graphs with all three
+edges s_m t_m present.
 
-Covering. A SAT solver (PySAT, Glucose 3) proposes a count vector that no
-recorded graph covers yet. Its graph is tested with the joint test of
-Lemma 4.3 (joint_test.py). If some choice passes, the graph is toroidal, and
-copies are added while it still passes; every smaller vector is then
-toroidal, and the clause "some atom has more copies" is added. If every
-choice fails, copies are removed while it still fails; every larger vector
-is then nontoroidal, and the clause "some atom of it has fewer copies" is
-added. Each recorded vector is taken with its images under the twelve
-symmetries of Psi_1. When the clauses become unsatisfiable, every vector of
-the domain lies below a recorded toroidal graph or above a recorded
-nontoroidal one; the final formula is written to coverage.cnf with a DRAT
-proof of its unsatisfiability, coverage.drat.
+Which vectors the covering finds depends on the order in which the worker
+processes finish, so two runs record different, equally valid, families of
+graphs, and the genus computations that the proper nontoroidal minors of a
+new run need are not those of the data folder. With the option
+--use-covering-of FOLDER the covering is not run: the vectors and their
+symmetry images are read from the records candidates.json(.gz) of FOLDER
+(the folder enumerations/E4 of the data), and everything after the covering
+is done as above. This reproduces that folder.
 
-Classification of each recorded nontoroidal graph, in order: isomorphic to
-some T_i; a one-edge deletion or contraction outside Psi_1 after which every
-choice of the joint test fails; a model of some T_i carried over from an
-isomorphic graph classified earlier; a K5 minor; a model of some T_i found
-by catalogue_models.search. The proof finds T48 and T58.
-
-The covering keeps coverage.jsonl and the classification
-candidate_outcomes.jsonl, so that a second start continues.
-Run as: python generate_E4.py FOLDER
+The covering state is saved in cover_checkpoint.pkl, and the embeddings
+and classifications in embedding_jobs.jsonl and classification_jobs.jsonl,
+so that a second start continues.
+Run as: python generate_E4.py FOLDER [--workers N] [--cover-seconds S]
+                                     [--use-covering-of FOLDER]
 """
-import itertools as it
+import argparse
+from collections import Counter
+from concurrent.futures import ProcessPoolExecutor, wait, FIRST_COMPLETED
+import gzip
+import hashlib
 import json
+import multiprocessing
+import os
+from pathlib import Path
 import sys
 import time
-from collections import Counter
-from functools import lru_cache
-from pathlib import Path
-
-import networkx as nx
-from pysat.solvers import Solver
 
 import common
-import endpoint_domain as dom
-from catalogue_models import search
-from joint_test import joint_test, graph_record, CORE_VERTICES, CORE_EDGES
-from minor_search import find_k5_minor, graph_invariant, first_isomorphism, PositiveModelCache
+import covering as cv
+import enumeration as el
+import psi1_domain as sd
+
+TEXT = {"(a)": ["T32", "T43", "T61"], "(b)": ["T38", "T45", "T48", "T66", "T67"], "(c)": [],
+        "all three edges s_m t_m present": ["T48", "T58"]}
 
 
-def clause(counts, direction):
-    if direction == 'down':
-        return [dom.variable(i, c + 1) for i, c in enumerate(counts) if c < dom.MAX_COUNTS[i]]
-    assert direction == 'up'
-    return [-dom.variable(i, c) for i, c in enumerate(counts) if c]
+def atomic_json(path, obj):
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    with tmp.open("w") as f:
+        json.dump(obj, f, separators=(",", ":"))
+        f.write("\n")
+    os.replace(tmp, path)
 
 
-@lru_cache(maxsize=200000)
-def passes(counts):
-    return joint_test(dom.graph_from_counts(counts), certify=False, stop_on_pass=True)['passes']
+def digest(obj):
+    return hashlib.sha256(json.dumps(obj, sort_keys=True).encode()).hexdigest()
 
 
-def strengthen(counts, direction):
-    result = list(counts)
-    # Both properties are monotone. An increment that fails remains failing
-    # after later increments; a deletion that passes remains passing after
-    # later deletions. Thus one coordinate sweep is enough.
-    for i, maximum in enumerate(dom.MAX_COUNTS):
-        step = 1 if direction == 'down' else -1
-        while (result[i] < maximum if step == 1 else result[i] > 0):
-            candidate = result.copy()
-            candidate[i] += step
-            if not dom.legal(candidate):
-                break
-            if passes(tuple(candidate)) != (direction == 'down'):
-                break
-            result = candidate
-    return tuple(result)
+def label(atoms, n):
+    return {atoms[i]["id"]: c for i, c in enumerate(n) if c}
 
 
-def symmetry_actions():
-    """The permutations of the atoms induced by the twelve symmetries of Psi_1."""
-    size = len(dom.MAX_COUNTS)
-    basis = []
-    for i in range(size):
-        c = [0] * size
-        c[i] = 1
-        g = dom.graph_from_counts(c)
-        for v in g:
-            g.nodes[v]['fixed'] = v if v in CORE_VERTICES else ''
-        basis.append(g)
-    invariants = [graph_invariant(g) for g in basis]
-    actions = []
-    for permutation in it.permutations(range(3)):
-        for swap in (False, True):
-            mapping = {}
-            for side in (0, 1):
-                for i in range(3):
-                    mapping['ace'[i] if side == 0 else 'bdf'[i]] = (
-                        'ace' if (side ^ swap) == 0 else 'bdf')[permutation[i]]
-            mapping.update(dict(zip('pqrz', 'rzpq' if swap else 'pqrz')))
-            action = []
-            for i, g in enumerate(basis):
-                h = nx.relabel_nodes(g, mapping, copy=True)
-                for v in h:
-                    h.nodes[v]['fixed'] = v if v in CORE_VERTICES else ''
-                matches = [j for j, target in enumerate(basis)
-                           if invariants[j] == invariants[i]
-                           and nx.is_isomorphic(h, target,
-                                                node_match=nx.algorithms.isomorphism.categorical_node_match('fixed', ''))]
-                assert len(matches) == 1, (i, mapping, matches)
-                action.append(matches[0])
-            assert sorted(action) == list(range(size))
-            if action not in actions:
-                actions.append(action)
-    assert len(actions) == 12
-    return actions
+def kind_of(atoms, n):
+    forms = {atoms[i].get("form") for i, c in enumerate(n) if c and atoms[i]["kind"] in ("triple", "quad", "quad-c")}
+    paths_edges = all(n[i] for i, a in enumerate(atoms) if a["kind"] == "matching")
+    return {"all paths edges": paths_edges, "forms": sorted(f for f in forms if f),
+            "singletons only": forms <= {"single"},
+            "uses T, S or Q": bool(forms & {"Tx", "Ty", "Tz", "Sxy", "Syx", "Q"}),
+            "uses a four-cycle form": bool(forms & {"FC1", "FC2"})}
 
 
-def orbit(counts, actions):
-    result = set()
-    for action in actions:
-        transformed = [0] * len(counts)
-        for i, j in enumerate(action):
-            transformed[j] = counts[i]
-        assert dom.legal(transformed)
-        result.add(tuple(transformed))
-    return sorted(result)
+def part(shape):
+    if shape["all paths edges"]:
+        return "all three edges s_m t_m present"
+    if shape["singletons only"]:
+        return "(a)"
+    tsq, fc = shape["uses T, S or Q"], shape["uses a four-cycle form"]
+    return "(b) and (c)" if tsq and fc else ("(b)" if tsq else "(c)")
 
 
-def read_jsonl(path):
-    if not path.exists():
-        return []
-    return [json.loads(line) for line in path.read_text().splitlines() if line]
+def do_job(job):
+    mode, idx, edges = job
+    import networkx as nx
+    import embeddings
+    G = nx.Graph()
+    G.add_edges_from(edges)
+    if mode == "embedding":
+        g, parts = embeddings.toroidal_embedding(G)
+        if g > 1:
+            raise RuntimeError("a toroidal graph got an embedding of genus larger than one")
+        return idx, el.emb_record(parts)
+    cut = el.small_cut(G)
+    if cut is not None:
+        return idx, {"outcome": "cut of order at most two", "cut": [str(v) for v in cut]}
+    name, mapping = el.identify(G)
+    if name is not None:
+        return idx, {"outcome": "catalogue graph", "catalogue": name, "map": mapping}
+    return idx, el.classify(G, seed=idx)
 
 
-def cover(outdir):
-    base_clauses, nvars = dom.base_cnf()
-    clauses = [list(c) for c in base_clauses]
-    coverage_path = outdir / 'coverage.jsonl'
-    records = read_jsonl(coverage_path)
-    seen = {(r['direction'], tuple(r['counts'])) for r in records}
-    for record in records:
-        assert record['clause'] == clause(record['counts'], record['direction'])
-        clauses.append(record['clause'])
-    actions = symmetry_actions()
-    counts = Counter(r['direction'] for r in records)
-    started = last = time.monotonic()
-    with Solver(name='g3', bootstrap_with=clauses) as solver, coverage_path.open('a') as output:
-        while solver.solve():
-            proposed = tuple(dom.counts_from_model(solver.get_model()))
-            assert dom.legal(proposed)
-            direction = 'down' if passes(proposed) else 'up'
-            strengthened = strengthen(proposed, direction)
-            for vector in orbit(strengthened, actions):
-                if (direction, vector) in seen:
-                    continue
-                g = dom.graph_from_counts(vector)
-                test = joint_test(g, certify=True, stop_on_pass=direction == 'down')
-                assert test['passes'] == (direction == 'down')
-                block = clause(vector, direction)
-                record = {'id': 'E4-%06d' % (len(records) + 1), 'direction': direction,
-                          'counts': list(vector), 'graph': graph_record(g),
-                          'joint_test': test, 'clause': block}
-                output.write(json.dumps(record, sort_keys=True, separators=(',', ':')) + '\n')
-                output.flush()
-                records.append(record)
-                seen.add((direction, vector))
-                counts[direction] += 1
-                clauses.append(block)
-                solver.add_clause(block)
-            if time.monotonic() - last > 10:
-                print(json.dumps({'stage': 'covering', 'records': dict(counts),
-                                  'seconds': round(time.monotonic() - started, 1)}), flush=True)
+def cached_jobs(jobs, cache_path, workers, log, phase):
+    """Runs the jobs with worker processes, appending each result to
+    cache_path as it finishes; results already there are reused."""
+    results = {}
+    if cache_path.exists():
+        lines = cache_path.read_text().splitlines()
+        for pos, line in enumerate(lines):
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                if pos != len(lines) - 1:
+                    raise
+                break       # only an interrupted last line is dropped
+            results[rec["key"]] = rec["result"]
+        with cache_path.open("w") as f:
+            for key, value in results.items():
+                f.write(json.dumps({"key": key, "result": value}, separators=(",", ":")) + "\n")
+    answers, todo = {}, []
+    for job in jobs:
+        key = digest(job)
+        if key in results:
+            answers[job[1]] = results[key]
+        else:
+            todo.append((key, job))
+    log("%s: %d done before, %d to do" % (phase, len(answers), len(todo)))
+    if not todo:
+        return answers
+    with cache_path.open("a") as f, ProcessPoolExecutor(
+            max_workers=workers, mp_context=multiprocessing.get_context("spawn")) as pool:
+        remaining = iter(todo)
+        pending = {}
+
+        def fill():
+            while len(pending) < workers * 2:
+                try:
+                    key, job = next(remaining)
+                except StopIteration:
+                    break
+                pending[pool.submit(do_job, job)] = key
+        fill()
+        last = time.monotonic()
+        while pending:
+            done, _ = wait(pending, timeout=15, return_when=FIRST_COMPLETED)
+            for fut in done:
+                key = pending.pop(fut)
+                idx, result = fut.result()
+                answers[idx] = result
+                f.write(json.dumps({"key": key, "result": result}, separators=(",", ":")) + "\n")
+                f.flush()
+            fill()
+            if time.monotonic() - last >= 60 or not pending:
+                log("%s: %d of %d done" % (phase, len(answers), len(jobs)))
                 last = time.monotonic()
-    with (outdir / 'coverage.cnf').open('w') as stream:
-        stream.write(f'p cnf {nvars} {len(clauses)}\n')
-        for row in clauses:
-            stream.write(' '.join(map(str, row)) + ' 0\n')
-    # Only the final formula is proof-logged; the clauses added during the
-    # covering are inputs of the proof, not learned clauses.
-    with Solver(name='g3', bootstrap_with=clauses, with_proof=True) as proof_solver:
-        assert proof_solver.solve() is False
-        proof = proof_solver.get_proof()
-    (outdir / 'coverage.drat').write_text('\n'.join(proof) + '\n')
-    return records, {'records': dict(counts), 'clauses': len(clauses), 'variables': nvars}
+    return answers
 
 
-def joint_minor(g):
-    variable_edges = [e for e in sorted(tuple(sorted(e)) for e in g.edges()) if e not in CORE_EDGES]
-    for kind in ('delete_edge', 'contract_edge'):
-        for u, v in variable_edges:
-            operation = {'type': kind, 'edge': [u, v]}
-            if kind == 'delete_edge':
-                h = g.copy()
-                h.remove_edge(u, v)
-            else:
-                if u in CORE_VERTICES and v in CORE_VERTICES:
-                    continue
-                if v in CORE_VERTICES:
-                    u, v = v, u
-                h = nx.contracted_nodes(g, u, v, self_loops=False)
-                operation['keep'] = u
-            if not joint_test(h, certify=False, stop_on_pass=True)['passes']:
-                return {'type': 'proper_joint_minor', 'operation': operation,
-                        'graph': graph_record(h), 'joint_test': joint_test(h, certify=True)}
-    return None
+def covering_of(folder, atoms, perms, mx):
+    """The vectors P, F and their symmetry origins recorded in the
+    candidates of a data folder of E4."""
+    path = Path(folder) / "candidates.json"
+    if path.exists():
+        with path.open() as f:
+            cands = json.load(f)["candidates"]
+    else:
+        with gzip.open(str(path) + ".gz", "rt") as f:
+            cands = json.load(f)["candidates"]
+    P, F, origins = [], [], {}
+    for c in cands:
+        kind = "P" if c["kind"] == "toroidal, maximal" else "F"
+        lst = P if kind == "P" else F
+        assert c["id"] == "%s%05d" % (kind, len(lst)), c["id"]
+        n = [0] * len(atoms)
+        for a, k in c["atoms"].items():
+            n[int(a[1:]) - 1] = k
+        assert all(0 <= x <= m for x, m in zip(n, mx))
+        n = tuple(n)
+        t = len(lst)
+        if c.get("image of"):
+            rep = int(c["image of"][1:])
+            k = next(k for k, p in enumerate(perms) if cv.image(lst[rep], p) == n)
+        else:
+            rep, k = t, 0
+        origins[(kind, t)] = (rep, k)
+        lst.append(n)
+    return P, F, origins
 
 
-def classify_graph(g, catalog, positive_cache):
-    invariant = graph_invariant(g)
-    for name, h in catalog:
-        if graph_invariant(h) != invariant:
-            continue
-        mapping = first_isomorphism(g, h)
-        if mapping is not None:
-            return {'type': 'exact_survivor', 'target': name,
-                    'mapping': {str(v): str(w) for v, w in mapping.items()}}
-    witness = joint_minor(g)
-    if witness is not None:
-        return witness
-    witness = positive_cache.find(g)
-    if witness is not None:
-        return {'type': 'proper_obstruction_minor', 'target': witness['metadata']['target'],
-                'branch_sets': witness['branch_sets'],
-                'search': 'checked isomorphism transport of a positive catalogue model'}
-    stats = {}
-    model = find_k5_minor(g, trials=128, seed=0, exact_threshold=8, use_sat=True,
-                          sat_conflicts=10000, sat_rounds=100, stats=stats)
-    if model is not None:
-        return {'type': 'k5_minor', 'branch_sets': model, 'search': stats}
-    stats = {}
-    model = search(g, catalog, max_contractions=5, stats=stats)
-    if model is not None:
-        return model
-    return {'type': 'unresolved', 'search': stats}
-
-
-def classify(outdir, records):
-    path = outdir / 'candidate_outcomes.jsonl'
-    previous = read_jsonl(path)
-    existing = {r['id'] for r in previous}
-    catalog = [(r['name'], nx.from_graph6_bytes(r['graph6'].encode())) for r in common.catalogue_records()]
-    targets = dict(catalog)
-    positive_cache = PositiveModelCache()
-    for r in previous:
-        if r['outcome']['type'] == 'proper_obstruction_minor':
-            rec = next(x for x in records if x['id'] == r['id'])
-            g = nx.Graph()
-            g.add_nodes_from(rec['graph']['vertices'])
-            g.add_edges_from(rec['graph']['edges'])
-            positive_cache.add(g, targets[r['outcome']['target']], r['outcome']['branch_sets'],
-                               metadata={'target': r['outcome']['target']})
-    counts = Counter(r['outcome']['type'] for r in previous)
-    started = last = time.monotonic()
-    with path.open('a') as output:
-        for record in records:
-            if record['direction'] != 'up' or record['id'] in existing:
-                continue
-            g = nx.Graph()
-            g.add_nodes_from(record['graph']['vertices'])
-            g.add_edges_from(record['graph']['edges'])
-            outcome = classify_graph(g, catalog, positive_cache)
-            if outcome['type'] == 'proper_obstruction_minor':
-                positive_cache.add(g, targets[outcome['target']], outcome['branch_sets'],
-                                   metadata={'target': outcome['target']})
-            result = {'id': record['id'], 'outcome': outcome}
-            output.write(json.dumps(result, sort_keys=True, separators=(',', ':')) + '\n')
-            output.flush()
-            previous.append(result)
-            existing.add(record['id'])
-            counts[outcome['type']] += 1
-            if time.monotonic() - last > 10:
-                print(json.dumps({'stage': 'classification', 'classified': len(existing),
-                                  'outcomes': dict(counts), 'seconds': round(time.monotonic() - started, 1)}),
-                      flush=True)
-                last = time.monotonic()
-    return dict(counts), [r['id'] for r in previous if r['outcome']['type'] == 'unresolved']
-
-
-if __name__ == '__main__':
-    out = Path(sys.argv[1])
+def run(args):
+    start = time.monotonic()
+    out = Path(args.folder).resolve()
     out.mkdir(parents=True, exist_ok=True)
-    t0 = time.time()
-    records, cst = cover(out)
-    print('covering:', cst, round(time.time() - t0), 's', flush=True)
-    outcomes, unresolved = classify(out, records)
-    summary = {'item': 'E4', 'where': 'Theorem 4.22', 'covering': cst, 'outcomes': outcomes,
-               'unresolved': unresolved, 'seconds': round(time.time() - t0, 1)}
-    (out / 'summary.json').write_text(json.dumps(summary, indent=1) + '\n')
+
+    def log(msg):
+        print("%s (%.0fs)" % (msg, time.monotonic() - start), flush=True)
+    atoms = sd.atoms()
+    mx = sd.maxima(atoms)
+    dom = cv.Domain(atoms, sd.base_graph(), mx, lambda v: sd.clauses(atoms, mx, v), "E4")
+    maps = sd.label_symmetries()
+    perms = sd.atom_permutations(atoms, maps, mx)
+    atomic_json(out / "domain.json", {"atoms": atoms, "maxima": mx,
+                                      "base edges": sorted(sorted(e) for e in dom.base.edges())})
+    log("%d atoms, %d variables, %d base clauses; %d workers, %d symmetries" %
+        (len(atoms), dom.nvars, len(dom.base_clauses), args.workers, len(perms)))
+    if args.use_covering_of:
+        P, F, origins = covering_of(args.use_covering_of, atoms, perms, mx)
+        cnf = list(dom.base_clauses) + [dom.above_clause(v) for v in P] + [dom.below_clause(v) for v in F]
+        # The recorded formula lists the same clauses; its order is kept, so
+        # that the DRAT proof found for it is that of the folder.
+        recorded = Path(args.use_covering_of) / "cover.cnf"
+        nv, rec = cv.read_dimacs(recorded if recorded.exists() else str(recorded) + ".gz")
+        key = lambda cl: Counter(tuple(sorted(c)) for c in cl)
+        if nv != dom.nvars or key(rec) != key(cnf):
+            raise SystemExit("the recorded cover.cnf is not the formula of the recorded covering")
+        cnf = rec
+        log("covering read from %s" % args.use_covering_of)
+    else:
+        result = cv.parallel_cover(dom, out, workers=args.workers, symmetries=perms, log=log,
+                                   max_seconds=args.cover_seconds)
+        if not result["complete"]:
+            log("the covering is not complete; its state is saved. Run the same command again to continue.")
+            return 75
+        P, F, origins, cnf = (result[k] for k in ("P", "F", "origins", "cnf"))
+    cv.write_dimacs(out / "cover.cnf", dom.nvars, cnf)
+    log("covering: %d maximal toroidal, %d minimal nontoroidal; proving that cover.cnf is unsatisfiable"
+        % (len(P), len(F)))
+    verified = cv.fresh_proof(out / "cover.cnf", out / "cover.drat")
+    log("drat-trim: %s" % {True: "verified", False: "NOT VERIFIED", None: "not found, proof not checked"}[verified])
+    if verified is False:
+        raise SystemExit("the DRAT proof was not verified")
+
+    def relabeler(k):
+        root_map, pi = maps[k], perms[k]
+        ids = {atoms[i]["id"]: atoms[pi[i]]["id"] for i in range(len(atoms))}
+
+        def f(v):
+            if "#" not in v:
+                return root_map[v]
+            head, tail = v.split("#", 1)
+            return ids[head] + "#" + tail
+        return f
+
+    jobs = [("embedding", t, sorted(sorted(e) for e in dom.graph(n).edges()))
+            for t, n in enumerate(P) if origins[("P", t)][0] == t]
+    embedded = cached_jobs(jobs, out / "embedding_jobs.jsonl", args.workers, log, "torus embeddings")
+    passing = []
+    for t, n in enumerate(P):
+        rep, k = origins[("P", t)]
+        if rep == t:
+            emb = embedded[t]
+        else:
+            f = relabeler(k)
+            emb = [{"vertices": [f(v) for v in p["vertices"]], "genus": p["genus"],
+                    "rotation": {f(v): [f(x) for x in nb] for v, nb in p["rotation"].items()}}
+                   for p in passing[rep]["embedding"]]
+        passing.append({"id": "P%05d" % t, "vector": label(atoms, n), "embedding": emb,
+                        "image of": None if rep == t else "P%05d" % rep})
+    atomic_json(out / "passing.json", {"passing": passing})
+    failing, jobs = [], []
+    for t, n in enumerate(F):
+        rep, k = origins[("F", t)]
+        rec = {"id": "F%05d" % t, "vector": label(atoms, n), "in domain": cv.in_domain(dom, n),
+               "image of": None if rep == t else "F%05d" % rep}
+        if rec["in domain"]:
+            G = dom.graph(n)
+            rec["graph"] = el.graph_record(G)
+            rec["shape"] = kind_of(atoms, n)
+            if rep == t or not failing[rep]["in domain"]:
+                jobs.append(("classify", t, rec["graph"]["edges"]))
+        failing.append(rec)
+    outcomes = cached_jobs(jobs, out / "classification_jobs.jsonl", args.workers, log, "classifications")
+    for t, rec in enumerate(failing):
+        if not rec["in domain"]:
+            continue
+        if t in outcomes:
+            rec["outcome"] = outcomes[t]
+            continue
+        rep, k = origins[("F", t)]
+        o, f = dict(failing[rep]["outcome"]), relabeler(k)
+        if o["outcome"] == "K5 minor":
+            o["branch_sets"] = [[f(v) for v in b] for b in o["branch_sets"]]
+        elif o["outcome"] == "cut of order at most two":
+            o["cut"] = [f(v) for v in o["cut"]]
+        elif o["outcome"] == "catalogue graph":
+            o["map"] = {f(v): w for v, w in o["map"].items()}
+        elif o["outcome"] == "proper nontoroidal minor":
+            o["edge"] = sorted(f(v) for v in o["edge"])
+        else:
+            o = el.classify(dom.graph(F[t]), seed=t)
+        rec["outcome"] = o
+    atomic_json(out / "failing.json", {"failing": failing})
+    counts = Counter(r["outcome"]["outcome"] for r in failing if r["in domain"])
+    found = {}
+    for r in failing:
+        if r.get("outcome", {}).get("outcome") == "catalogue graph":
+            found.setdefault(part(r["shape"]), set()).add(r["outcome"]["catalogue"])
+    found = {p: sorted(v, key=lambda x: int(x[1:])) for p, v in sorted(found.items())}
+    by_part = {p: [] for p in TEXT}
+    for p, names in found.items():
+        for q in ("(a)", "(b)", "(c)") if p == "(b) and (c)" else (p,):
+            by_part[q] = sorted(set(by_part[q]) | set(names), key=lambda x: int(x[1:]))
+    summary = {"item": "E4", "where": "Proposition 4.24", "atoms": len(atoms), "variables": dom.nvars,
+               "base clauses": len(dom.base_clauses), "maximal toroidal": len(P), "minimal nontoroidal": len(F),
+               "minimal nontoroidal satisfying the clauses": sum(r["in domain"] for r in failing),
+               "outcomes": dict(counts), "catalogue graphs by part": found,
+               "drat-trim": {True: "verified", None: "not run"}[verified],
+               "agrees with the text": by_part == TEXT and not counts.get("unresolved")
+               and not counts.get("new obstruction"),
+               "seconds": round(time.monotonic() - start, 1)}
+    with (out / "summary.json").open("w") as f:
+        json.dump(summary, f, indent=1)
     print(json.dumps(summary, indent=1))
+    return 0
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    parser.add_argument("folder")
+    parser.add_argument("--workers", type=int, default=common.workers())
+    parser.add_argument("--cover-seconds", type=float)
+    parser.add_argument("--use-covering-of")
+    args = parser.parse_args()
+    raise SystemExit(run(args))

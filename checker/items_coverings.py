@@ -1,4 +1,4 @@
-"""The covering enumerations E5 (Proposition 4.24) and E13 (Proposition 5.18).
+"""The covering enumerations E4 (Proposition 4.24) and E12 (Proposition 5.24).
 
 A recorded graph of these items is the base graph of the case plus a stated
 number of copies of each atom (an edge, or a bridge given by its edges); the
@@ -14,7 +14,7 @@ What is checked, using only the files of the item and the graphs T1-T74 of O1:
 
 The case
   * the base graph, the vertex names, the constraint list, the description of
-    the record clauses and (E5) the parts are the texts whose reading is
+    the record clauses and (E4) the parts are the texts whose reading is
     implemented here;
   * each atom's description ('is') is parsed, and its edges are exactly the
     form it names, up to renaming its interior vertices, by the definitions
@@ -22,23 +22,23 @@ The case
     joined to u and to the other two attachments, and the edge uw; S(x;y),
     two vertices joined to x, y, u and a vertex f joined to x, z, u;
     Q(x;y,z), the four-cycle upvq with the edges xp, xq, uy, vz; the two
-    four-cycle forms of Lemma 3.13, the cycle a1 b1 a2 b2 with z a1, z a2 and
+    four-cycle forms of Lemma 3.14, the cycle a1 b1 a2 b2 with z a1, z a2 and
     either y b1, y b2, x a2 or x b1, x b2, y a2. Its attachments are the ends
     of its edges outside the interior;
   * the atoms are exactly the edge and bridge types that the paper lists for
-    the case, each once. E5: the nine edges s_i t_j; on each of the eighteen
+    the case, each once. E4: the nine edges s_i t_j; on each of the eighteen
     triples {c1, c2, h} (c1, c2 on one side) one vertex, T(c1), T(c2), T(h),
     S(c1;c2), S(c2;c1), and on the twelve triples containing some s_m, t_m
     also Q(h;g,e) and the two four-cycle forms with (x,y,z) = (g,e,h), where
     e is the third attachment and g the end of P_m on its side; one vertex on
     each set {s_i,t_i,s_j,t_j}, and one vertex of type (c) for P_m on each set
-    {s_m,t_m,s_x,t_y}. E13: for each g in {b,c,d} and st in {au,av,uv}, one
+    {s_m,t_m,s_x,t_y}. E12: for each g in {b,c,d} and st in {au,av,uv}, one
     vertex, T(g), T(s), T(t), S(s;t), S(t;s), Q(g;s,t) and the two four-cycle
     forms with (x,y,z) = (s,t,g), all on {g,s,t}, and the edges gu, gv;
   * the most copies of each atom is the bound that the constraints give
-    (E5: four on a triple containing some s_m, t_m, three on the other triples
+    (E4: four on a triple containing some s_m, t_m, three on the other triples
     and on the sets {s_i,t_i,s_j,t_j}, one for the edges and for the Q,
-    four-cycle and type (c) forms; E13: two for one vertex, one otherwise),
+    four-cycle and type (c) forms; E12: two for one vertex, one otherwise),
     and the variables of the atoms are 1, ..., N, one for each copy.
 
 The records
@@ -50,20 +50,20 @@ The records
   * each nontoroidal record in the family has exactly one verdict, checked by
     its kind: K5 branch sets, a cut of at most two vertices, an isomorphism
     onto the T_i it names, or a proper minor whose edge is in the graph (why
-    the minor is nontoroidal is left to the genus tables of Appendix A unless
-    a minor model or isomorphism of some T_i is recorded for it); toroidal
-    records have the verdict "toroidal" and records outside the family have
-    no verdict;
-  * 'image of' (E5): the record is the image of the named record of the same
+    the minor is nontoroidal is left to the genus computations in the folder
+    genus unless a minor model or isomorphism of some T_i is recorded for it);
+    toroidal records have the verdict "toroidal" and records outside the
+    family have no verdict;
+  * 'image of' (E4): the record is the image of the named record of the same
     kind under a relabelling of the attachments that maps the base graph and
     the set of atoms onto themselves;
-  * 'part' (E5): recomputed from the atoms present.
+  * 'part' (E4): recomputed from the atoms present.
 
 The formula
   * cover.cnf is, as a multiset of clauses with sorted literals, exactly
       (a) the chain clauses v(j+1) -> vj of each atom,
       (b) the clauses of the constraints of the case, rebuilt here from the
-          constraint list and the atoms. In E5 the bound on the number of
+          constraint list and the atoms. In E4 the bound on the number of
           bridges on one attachment triple is encoded, for each triple in the
           order of its first atom, by a sequential counter for at most four,
           then one for at most three (every clause of this second counter
@@ -83,7 +83,7 @@ The formula
   * the 'in the family' flag of every nontoroidal record agrees with two
     evaluations of its count vector: the constraint list as read here, and
     the clauses (b) (the counters by the bound they were shown to express);
-  * in E13, which has no auxiliary variables and whose constraints separate
+  * in E12, which has no auxiliary variables and whose constraints separate
     by g, the models of (b) are enumerated for each g and are exactly the
     count vectors that the constraint list allows;
   * cover.drat is checked with drat-trim, given by the environment variable
@@ -124,7 +124,7 @@ VARIABLES_TEXT = re.compile(r'Variable vj of atom A<i> \(its list \[v1, \.\.\., 
 BASE_TEXT = re.compile(r'(\d+) clauses: v\(j\+1\) implies vj for each atom, then the constraints of the case listed '
                        r'below\.')
 STATEMENTS = {
-    'E5': {
+    'E4': {
         'where': 'Proposition 4.24',
         'vertex names': 'Psi_1 with twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}. Interior vertices of copy k '
                         'of atom A<i> are named A<i>#k@<role>. In the forms on {c1, c2, h}, the roles x, y, z are c1, '
@@ -144,8 +144,8 @@ STATEMENTS = {
                   'all three edges s_m t_m present': 'outside the case of the proposition (some s_m t_m is absent); '
                                                      'the text notes that these recover T48 and T58'},
     },
-    'E13': {
-        'where': 'Proposition 5.18',
+    'E12': {
+        'where': 'Proposition 5.24',
         'vertex names': "Psi_2 with twins p, q on {a, b, c} and r, z on {a, b, d}; the twins p', q' of B have "
                         "neighbourhood X = {a, u, v}. Interior vertices of copy k of atom A<i> are named "
                         "A<i>#k@<role>.",
@@ -171,7 +171,7 @@ _DESCRIPTIONS = [
     ('T', re.compile(r'T\(([^(),;]+)\) on \{([^{}]*)\}')),
     ('S', re.compile(r'S\(([^(),;]+);([^(),;]+)\) on \{([^{}]*)\}')),
     ('Q', re.compile(r'Q\(([^(),;]+);([^(),;]+),([^(),;]+)\) on \{([^{}]*)\}')),
-    ('FC', re.compile(r'the (first|second) four-cycle form of Lemma 3\.13 with \(x,y,z\) = '
+    ('FC', re.compile(r'the (first|second) four-cycle form of Lemma 3\.14 with \(x,y,z\) = '
                       r'\(([^(),;]+),([^(),;]+),([^(),;]+)\) on \{([^{}]*)\}')),
 ]
 
@@ -238,7 +238,7 @@ def form_edges(key):
     if kind == 'Q':                     # Q(x;y,z): the four-cycle upvq and xp, xq, uy, vz
         x, y, z = key[1:]
         return [('@u', '@p'), ('@p', '@v'), ('@v', '@q'), ('@q', '@u'), (x, '@p'), (x, '@q'), ('@u', y), ('@v', z)]
-    x, y, z = key[1:]                   # Lemma 3.13: the cycle a1 b1 a2 b2, z a1, z a2, then ...
+    x, y, z = key[1:]                   # Lemma 3.14: the cycle a1 b1 a2 b2, z a1, z a2, then ...
     cyc = [('@a1', '@b1'), ('@b1', '@a2'), ('@a2', '@b2'), ('@b2', '@a1'), (z, '@a1'), (z, '@a2')]
     if kind == 'FC1':
         return cyc + [(y, '@b1'), (y, '@b2'), (x, '@a2')]
@@ -662,7 +662,7 @@ class Case:
         return [(-a.vars[j], a.vars[j - 1]) for a in self.atoms for j in range(1, a.mx)]
 
 
-class E5(Case):
+class E4(Case):
     """Proposition 4.24: Psi_1 without its paths, and the 162 edge and bridge types."""
     S, T = ('s1', 's2', 's3'), ('t1', 't2', 't3')
 
@@ -799,8 +799,8 @@ class E5(Case):
         return '(b) and (c)' if tsq and fc else ('(b)' if tsq else '(c)')
 
 
-class E13(Case):
-    """Proposition 5.18: Psi_2 with the twins p', q' on {a, u, v}, and the bridges
+class E12(Case):
+    """Proposition 5.24: Psi_2 with the twins p', q' on {a, u, v}, and the bridges
     at b, c, d."""
     G, PAIRS = ('b', 'c', 'd'), (('a', 'u'), ('a', 'v'), ('u', 'v'))
 
@@ -954,7 +954,7 @@ def check_verdict(adj, v, cat, tally):
              v['id'], ': the edge of the proper minor is not in the graph')
         why = w.get('why the minor is nontoroidal')
         if why is None:
-            tally['left to the genus tables'] += 1
+            tally['left to the genus computations'] += 1
         else:
             minor = (delete_edge if w['operation'] == 'delete' else contract_edge)(adj, e)
             need(isinstance(why, dict) and why.get('type') in ('minor model', 'isomorphism'), v['id'],
@@ -971,10 +971,10 @@ _CATALOGUE = {}
 
 
 def check(root, item):
-    need(item in ('E5', 'E13'), 'not a covering item:', item)
+    need(item in ('E4', 'E12'), 'not a covering item:', item)
     folder = os.path.join(root, 'enumerations', item)
     inp = load(os.path.join(folder, 'input.json'))
-    case = (E5 if item == 'E5' else E13)(item, inp)
+    case = (E4 if item == 'E4' else E12)(item, inp)
     if root not in _CATALOGUE:
         _CATALOGUE[root] = catalogue(root)
     cat = _CATALOGUE[root]
@@ -988,8 +988,8 @@ def check(root, item):
     need(len(base) == case.n_base_stated, 'input.json gives', case.n_base_stated, 'base clauses, the constraints give',
          len(base))
     family = Clauses(chain + cons, blocks)
-    if item == 'E13':
-        need(not counters, 'E13 has no counters')
+    if item == 'E12':
+        need(not counters, 'E12 has no counters')
         case.check_models(chain + cons)
 
     # ---- the records
@@ -1045,7 +1045,7 @@ def check(root, item):
                 need(rid not in vby, rid, ': a record outside the family has a verdict')
             else:
                 counts[IN_FAMILY] += 1
-                allowed_keys |= {'graph', 'graph6'} | ({'part'} if item == 'E5' else set())
+                allowed_keys |= {'graph', 'graph6'} | ({'part'} if item == 'E4' else set())
                 g = rec.get('graph')
                 need(isinstance(g, dict) and set(g) == {'vertices', 'edges'}, rid, ': no recorded graph')
                 rg = graph(g)
@@ -1060,13 +1060,13 @@ def check(root, item):
                 check_verdict(rg, v, cat, tally)
                 used.add(rid)
                 verdict_counts[v['verdict']] += 1
-                if item == 'E5':
+                if item == 'E4':
                     part = case.part(vec)
                     need(rec.get('part') == part, rid, ': part', rec.get('part'), 'where the atoms give', part)
                 if v['verdict'].startswith('isomorphic to '):
                     tn = v['verdict'].split()[-1]
                     found[tn] += 1
-                    if item == 'E5':
+                    if item == 'E4':
                         by_part[part][tn] += 1
                     else:
                         two_single += case.two_singletons(vec)
@@ -1102,7 +1102,7 @@ def check(root, item):
             TOR: counts[TOR], NONTOR: counts[NONTOR], IN_FAMILY: counts[IN_FAMILY], OUTSIDE: counts[OUTSIDE],
             'verdicts': dict(verdict_counts), 'isomorphic to T_i (copies)': dict(found),
             'formula': {'variables': nv, 'clauses': len(cnf), 'base clauses': len(base), 'DRAT': 'verified by drat-trim'}}
-    if item == 'E5':
+    if item == 'E4':
         want['T_i by part'] = {p: dict(c) for p, c in by_part.items()}
     else:
         want['copies of T_i with a two-singleton interior'] = two_single
@@ -1113,13 +1113,13 @@ def check(root, item):
     for k in sorted(set(want) | set(summary)):
         need(summary.get(k) == want.get(k), 'summary.json:', k, 'is', summary.get(k), 'but the records give', want.get(k))
 
-    left = tally['left to the genus tables']
+    left = tally['left to the genus computations']
     iso = ', '.join('%s x%d' % (t, n) for t, n in sorted(found.items(), key=lambda x: int(x[0][1:])))
     return ('%d records rebuilt; %d torus embeddings; %d in the family: %d K5 minor, %d cut, %d isomorphic (%s), '
-            '%d proper minors (%d left to the genus tables); cover.cnf = %d chain + %d constraint + %d counter '
+            '%d proper minors (%d left to the genus computations); cover.cnf = %d chain + %d constraint + %d counter '
             '+ %d record clauses exactly, %d variables; %d flags agree with the constraints%s; summary agrees; %s'
             % (len(cands), counts[TOR], counts[IN_FAMILY], verdict_counts['K5 minor'],
                verdict_counts['cut of at most two vertices'], sum(found.values()), iso or 'none',
                verdict_counts['proper nontoroidal minor'], left, len(chain), len(cons), len(counters), len(cands), nv,
                counts[NONTOR], '; the base clauses have exactly the models the constraints allow'
-               if item == 'E13' else '', 'DRAT proof verified by drat-trim' if drat_ok else 'DRAT proof not checked'))
+               if item == 'E12' else '', 'DRAT proof verified by drat-trim' if drat_ok else 'DRAT proof not checked'))

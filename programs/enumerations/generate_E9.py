@@ -1,21 +1,20 @@
-"""E9: a bridge with four attachments and nonplanar B or B + ab + ac + bc (Proposition 5.10).
+"""E9: a bridge with four attachments, (n_c, n_d) = (3,2) and H = B + ab + ac + bc planar (Lemma 5.8).
 
-The names: Psi_2 is a, b, c, d with n_c twins on abc and n_d twins on abd
-(the program calls the twins p0, p1, ... and r0, r1, ...), and B is the
-bridge with attachments a, b, c, d. Two cases of the proof:
-
-  A: B nonplanar. Construction 3.17 with attachments a, b, c, d and no
-     added edges. Each part is completed with (n_c, n_d) = (2,2), (3,2)
-     and (3,3); Lemma 5.6 excludes (3,3), which is included anyway.
-  B: (n_c, n_d) = (3,2) and B + ab + ac + bc nonplanar. Construction 3.17
-     with added edges ab, ac, bc, completed with (3,2).
-
-Every resulting graph is classified (enumeration.classify). The proof finds
-T17, T18, T19, T22, T24, T26, T30, T34, T39, T48, T52, T57, T66, T74 in
-case A and T11 in case B.
+As in the proof, both H + ad and H + bd are nonplanar, and Lemma 2.7 makes
+(H + ad + bd)/ab nonplanar; write x for the vertex formed from a and b (the
+program calls it r). Construction 3.18 with attachments x, c, d and added
+edges xc, xd lists the reduced bridges before x is separated. For each,
+every edge xv is replaced by av or bv in every possible way, and a or b
+without an interior neighbour gets one, again in every possible way. The
+bridges are compared up to isomorphism fixing a, b, c, d. Each is
+completed with three twins on abc and two on abd (the program calls them
+p0, p1, p2 and r0, r1), and every resulting graph is classified
+(enumeration.classify). The proof finds no obstruction here; T11, which
+Proposition 5.9 gives for (n_c, n_d) = (3,2), comes from case B of E8.
 
 Run as: python generate_E9.py FOLDER
 """
+import itertools
 import json
 import sys
 
@@ -25,36 +24,55 @@ import enumeration as el
 R = ("a", "b", "c", "d")
 
 
-def psi2(k, l):
+def lifts(Q):
+    """Every lift of the part Q on roots r, c, d to roots a, b, c, d."""
+    inner = sorted(v for v in Q if v not in ("r", "c", "d"))
+    at_r = sorted(v for v in Q["r"] if v in inner)
+    base = Q.copy()
+    base.remove_node("r")
+    base.add_nodes_from(R)
+    for choice in itertools.product("ab", repeat=len(at_r)):
+        P = base.copy()
+        P.add_edges_from((x, v) for x, v in zip(choice, at_r))
+        lonely = [x for x in "ab" if not any(u in inner for u in P[x])]
+        for nbrs in itertools.product(inner, repeat=len(lonely)):
+            H = P.copy()
+            H.add_edges_from(zip(lonely, nbrs))
+            yield H
+
+
+def parts():
+    spec = el.Spec(("r", "c", "d"), c_edges=[("r", "c"), ("r", "d")])
+    quotients, st = el.generate_parts(spec, min_interior=1)
+    buckets, out = {}, []
+    lifted = 0
+    for Q, recipe in quotients:
+        for P in lifts(Q):
+            lifted += 1
+            key = el.rooted_key(P, R)
+            if any(el.rooted_isomorphic(P, out[j][0], R) for j in buckets.get(key, [])):
+                continue
+            buckets.setdefault(key, []).append(len(out))
+            out.append((el.relabel_interior(P, R), {"quotient part": el.graph_record(Q), "quotient recipe": recipe}))
+    st.update({"quotient parts": len(quotients), "lifts": lifted, "parts up to rooted isomorphism": len(out)})
+    return out, st
+
+
+def assemble(P):
     G = nx.Graph()
-    for i in range(k):
-        G.add_edges_from(("p%d" % i, x) for x in "abc")
-    for i in range(l):
-        G.add_edges_from(("r%d" % i, x) for x in "abd")
+    G.add_edges_from(("p%d" % i, x) for i in range(3) for x in "abc")
+    G.add_edges_from(("r%d" % i, x) for i in range(2) for x in "abd")
+    G.add_edges_from(P.edges())
     return G
-
-
-def case(name, c_edges, kls):
-    spec = el.Spec(R, c_edges=c_edges)
-
-    def assemble(P):
-        out = []
-        for k, l in kls:
-            G = psi2(k, l)
-            G.add_edges_from(P.edges())
-            out.append(G)
-        return out
-    return (name, spec, assemble, {"min_interior": 1})
 
 
 if __name__ == "__main__":
     out = sys.argv[1]
-    s = el.run_item("E9", [case("A", [], [(2, 2), (3, 2), (3, 3)]),
-                     case("B", [("a", "b"), ("a", "c"), ("b", "c")], [(3, 2)])],
-                    ["T11", "T17", "T18", "T19", "T22", "T24", "T26", "T30", "T34", "T39", "T48", "T52",
-                     "T57", "T66", "T74"], out,
-                    note="assembled graphs: case A with (k,l) = (2,2), (3,2), (3,3) in that order; case B with (3,2)")
-    print(json.dumps({k: s[k] for k in ("candidates", "outcomes", "catalogue graphs found", "catalogue graphs by case",
-                                         "agrees with the text", "seconds")}, indent=1))
-    for k, v in s["cases"].items():
-        print(k, v["parts up to rooted isomorphism"], v["outcomes"])
+    ps, st = parts()
+    s = el.run_item("E9", [("lifts", None, assemble, {"parts": ps, "stats": st,
+                                                "payload": {"quotient roots": ["r", "c", "d"],
+                                                            "added edges": [["r", "c"], ["r", "d"]],
+                                                            "lifted roots": list(R)}})],
+                    [], out, note="G = lifted P + three twins on abc + two on abd")
+    print(json.dumps({k: s[k] for k in ("candidates", "outcomes", "catalogue graphs found", "seconds")}, indent=1))
+    print(s["cases"])

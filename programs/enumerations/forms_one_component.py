@@ -1,27 +1,27 @@
-"""The forms of the component containing two of the attachments, for E11
-(Proposition 5.14, the component D_1 containing c and d) and E14
-(Proposition 5.18, the component D_1 containing x and y), with the
-completion step of Construction 3.17 carried out in full: after the
+"""The forms of the component containing two of the attachments, for E10
+(Proposition 5.16, the component D_1 containing c and d) and E13
+(Proposition 5.24, the component D_1 containing x and y), with the
+completion step of Construction 3.18 carried out in full: after the
 placement of the attachments on a K3,3 subdivision and the grouping of its
 interior pieces into components (construction.retained and
 construction.grouped), add at most two further single-vertex components with
 every admissible neighbourhood, and every inclusion-minimal set of attaching
-edges from the retained components (and, in E14, of original edges between
+edges from the retained components (and, in E13, of original edges between
 the attachments) that meets the connectivity and attachment requirements of
 the case; the whole configuration is required to be minimal
 (form_requirements.completions). Forms with a one-step proper minor of the same
 signature that meets the requirements are then removed, as before.
 
 The rest (placements, groupings, signatures, validity, the no-subdivision
-forms of E14, the forms of D_c, D_d and D_2, the assembly and the
-classification) is that of forms_e11.py and forms_e14.py."""
+forms of E13, the forms of D_c, D_d and D_2, the assembly and the
+classification) is that of forms_e10.py and forms_e13.py."""
 import itertools
 
 import networkx as nx
 
 import construction as c2
-import forms_e11 as f17
-import forms_e14 as f19
+import forms_e10 as f17
+import forms_e13 as f19
 from form_requirements import Requirement, completions
 
 
@@ -33,9 +33,9 @@ def subsets_with(base, optional):
     return out
 
 
-# ---------------------------------------------------------------------- E11
+# ---------------------------------------------------------------------- E10
 
-def e11_r_forms():
+def e10_r_forms():
     """D_1 on the attachments a, c, d, w: added edges ac, ad, aw, the
     subdivision using ac or ad, original pairs cw, dw as an edge or a once-
     subdivided segment. Requirements: every interior component adjacent to w
@@ -70,13 +70,13 @@ def e11_r_forms():
     return kept, stats
 
 
-# ---------------------------------------------------------------------- E14
+# ---------------------------------------------------------------------- E13
 
 def _component_lists(H, inner_roots):
     return c2.interior_components(H, inner_roots)
 
 
-def e14_subdivision_forms(part):
+def e13_subdivision_forms(part):
     """G1, G2 (partition P1) and G3 (partition P2), each with the full
     completion step."""
     out = []
@@ -138,10 +138,10 @@ def e14_subdivision_forms(part):
     return out, stats
 
 
-def e14_r_forms(part):
+def e13_r_forms(part):
     (x, y), r = f19.PARTITIONS[part]
     raw = list(f19.g0(part))
-    sub, sub_stats = e14_subdivision_forms(part)
+    sub, sub_stats = e13_subdivision_forms(part)
     raw += sub
     raw += [(f19.mirror(H), dict(i, mirrored=True)) for H, i in sub]
     allowed = f19.r_allowed(part)

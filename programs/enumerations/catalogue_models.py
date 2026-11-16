@@ -1,4 +1,4 @@
-"""A search for a model of a graph of the catalogue in an assembly of E4.
+"""A search for a model of a graph of the catalogue in an assembly of E3.
 
 The search contracts a forest of the graph (forests at the fixed Psi_1
 first, then every set of edges of the given size) and looks for a spanning

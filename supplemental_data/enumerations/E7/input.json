@@ -1,154 +1,200 @@
 {
  "item": "E7",
- "where": "Proposition 4.28",
+ "where": "Lemma 4.29 and Proposition 4.30",
  "paper text": [
   {
-   "where": "Proposition 4.28 (proof)",
-   "text": "The paths $P_x,P_y,s_xps_y,t_xrt_y$ give $B\\cup C$ as a $K_5$-minor-free minor of $G$. It is nonplanar by Lemma~\\ref{dis:four-cycles}, so it contains a $K_{3,3}$ subdivision. Every such subdivision uses $s_yt_y$, whose deletion leaves the planar graph $B\\cup s_ys_xt_xt_y$. Apply Lemma~\\ref{core:retained-subdivision} with attachment set $A$ and $H_0=C$. Since every single allowed operation makes the completion planar, the resulting allowed minor is $B$ itself, and $B$ has at most $|A|+5=9$ interior vertices. Construction~\\ref{common:marked-construction} therefore lists every possible $B$, with $s_yt_y$ required in the subdivision. Up to interchanging $A_1,A_2$, only one listed form has $B\\cup K_4[A]$ three-connected, no disjoint $s_x$--$t_y$ and $s_y$--$t_x$ paths, and no degree-three interior vertex with adjacent neighbors in $G$~\\supp{E7}. Its interior is $\\{p',q',v\\}$, with $N(p')=N(q')=\\{s_x,s_y,v\\}$ and remaining edges $vt_x,vt_y$."
+   "where": "Lemma 4.29 (proof)",
+   "text": "It remains to determine $B$. Shortening the paths $apc,brd$\nto $ac,bd$ and retaining $P_x=cd$ gives $K$ as a minor of\n$G$, so $K$ has no $K_5$ minor. It is nonplanar, and every\n$K_{3,3}$ subdivision in it\nuses $cd$, since $K-cd=B+ac+bd$ is planar. Let $H_0$ be the\npath $a-c-d-b$. The graph\n$B_0\\cup H_0$ is planar after every single allowed operation,\nas shown above. Corollary~\\ref{common:reduced-forms} now lists the $2{,}104$\npossible forms of $B$, with $cd$ required in the retained subdivision.\nThe enumeration~\\supp{E7} keeps those for which $B+ac+bd$\nis planar, every single allowed operation makes $B+ac+cd+bd$\nplanar, $B\\cup K_4[A]$ is three-connected, and neither $K$\nnor the minor $\\Psi_1\\cup B$ with $P_w$ shortened to $ef$\nhas a $K_5$ minor. Nine labeled bridges remain. Up to\ninterchanging $A_1,A_2$, these are the five displayed forms.\n\\end{proof}"
+  },
+  {
+   "where": "Proposition 4.30 (proof)",
+   "text": "\\begin{proposition}\\label{dis:type-b-reduction}\nIf $G$ has a bridge of type (b) with at least two interior vertices, then $G\\cong\\mathfrak{T}_{66}$, or the twins and paths can be chosen as at the start of this section so that one of the following holds.\n\\begin{enumerate}[label=\\textup{(\\roman*)}]\n\\item All three paths are edges.\n\\item There is a bridge of type (c) with at least two interior vertices.\n\\item Every bridge with nonempty interior has three attachments.\n\\end{enumerate}\n\\end{proposition}\n\\begin{proof}\nLet $B$ be such a bridge. After interchanging $A_1,A_2$ if\nnecessary, Lemma~\\ref{dis:type-b-forms} gives $P_x=cd$ and\nmakes $B$ one of $B_1,\\ldots,B_5$. In case (i) of that lemma,\nthe check in~\\supp{E7} gives $G\\cong\\mathfrak T_{66}$. We may therefore\nassume case (ii): every other $(J_1\\cup J_2)$-bridge attaches\nwithin $\\{c,d,e,f\\}$, and the simple-face test for\n$(P_m;s_x,t_x)$ is nonplanar. In particular, $af,eb$ are\nabsent. Write $H_{\\mathrm{simp}}$ for this test. It consists\nof $P_w$, $cd$, the other bridges, and the added edges $ce,df$.\nWe consider the five possible forms of $B$."
   }
  ],
  "attachments": [
-  "sx",
-  "tx",
-  "sy",
-  "ty"
+  "a",
+  "b",
+  "c",
+  "d"
  ],
  "test graphs": {
-  "B + C": {
+  "B + ac + cd + db": {
    "added edges": [
     [
-     "sx",
-     "tx"
+     "a",
+     "c"
     ],
     [
-     "tx",
-     "ty"
+     "c",
+     "d"
     ],
     [
-     "ty",
-     "sy"
-    ],
-    [
-     "sy",
-     "sx"
+     "d",
+     "b"
     ]
    ],
-   "meaning": "B + s_x t_x + t_x t_y + t_y s_y + s_y s_x, the cycle completion B ∪ C"
+   "meaning": "B + ac + cd + db"
   },
-  "B + sy sx + sx tx + tx ty": {
+  "B + ac + bd": {
    "added edges": [
     [
-     "sy",
-     "sx"
+     "a",
+     "c"
     ],
     [
-     "sx",
-     "tx"
-    ],
-    [
-     "tx",
-     "ty"
+     "b",
+     "d"
     ]
    ],
-   "meaning": "B + s_y s_x + s_x t_x + t_x t_y, the path completion B ∪ s_y s_x t_x t_y"
+   "meaning": "B + ac + bd"
   },
-  "B + K4[sx,tx,sy,ty]": {
+  "B + K4[a,b,c,d]": {
    "added edges": [
     [
-     "sx",
-     "tx"
+     "a",
+     "b"
     ],
     [
-     "sx",
-     "sy"
+     "a",
+     "c"
     ],
     [
-     "sx",
-     "ty"
+     "a",
+     "d"
     ],
     [
-     "tx",
-     "sy"
+     "b",
+     "c"
     ],
     [
-     "tx",
-     "ty"
+     "b",
+     "d"
     ],
     [
-     "sy",
-     "ty"
+     "c",
+     "d"
     ]
    ],
-   "meaning": "B plus all six edges among s_x, t_x, s_y, t_y"
+   "meaning": "B plus all six edges among a, b, c, d"
   },
-  "B + sx tx + sy ty": {
+  "B + cd": {
    "added edges": [
     [
-     "sx",
-     "tx"
-    ],
-    [
-     "sy",
-     "ty"
+     "c",
+     "d"
     ]
    ],
-   "meaning": "B + s_x t_x + s_y t_y, a subgraph of G once P_x, P_y are edges"
+   "meaning": "B + cd, a subgraph of G since P_x = cd"
+  },
+  "Psi1 + B": {
+   "added edges": [
+    [
+     "p",
+     "a"
+    ],
+    [
+     "p",
+     "c"
+    ],
+    [
+     "p",
+     "e"
+    ],
+    [
+     "q",
+     "a"
+    ],
+    [
+     "q",
+     "c"
+    ],
+    [
+     "q",
+     "e"
+    ],
+    [
+     "r",
+     "b"
+    ],
+    [
+     "r",
+     "d"
+    ],
+    [
+     "r",
+     "f"
+    ],
+    [
+     "z",
+     "b"
+    ],
+    [
+     "z",
+     "d"
+    ],
+    [
+     "z",
+     "f"
+    ],
+    [
+     "c",
+     "d"
+    ],
+    [
+     "e",
+     "f"
+    ]
+   ],
+   "meaning": "the graph consisting of Psi_1 and B, with P_x = cd and P_w shortened to ef: twins p, q on {a, c, e} and r, z on {b, d, f}, where e = s_w, f = t_w"
   }
  },
- "vertex names": "the attachments s_x, t_x, s_y, t_y of B, written sx, tx, sy, ty; interior vertices of B are u0, u1, ...; for the bridges that pass, the paper's names are given with the verdict",
+ "vertex names": "the attachments a = s_m, b = t_m, c = s_x, d = t_x of B; interior vertices of B are u0, u1, ...; for the bridges that pass, the paper's names are given with the verdict",
  "verdicts": {
   "excluded by a hypothesis of the case": [
-   {
-    "fact": "the path completion B + s_y s_x + s_x t_x + t_x t_y is nonplanar",
-    "why it excludes the bridge": "The proof chooses the planar path completion: \"Some path completion of B is planar, say B ∪ s_y s_x t_x t_y.\""
-   },
-   {
-    "fact": "B has disjoint s_x-t_y and s_y-t_x paths",
-    "why it excludes the bridge": "The proof shows: \"Also, B has no disjoint s_x–t_y and s_y–t_x paths.\""
-   },
    {
     "fact": "an interior vertex of degree three has two adjacent neighbours",
     "why it excludes the bridge": "Lemma 3.4(a); the edges added in the test graph are edges of G."
    },
    {
-    "fact": "B plus all edges among its four attachments has a cut of at most two vertices",
-    "why it excludes the bridge": "Three-connectivity of B ∪ K_4[attachments], used with Construction 3.17."
+    "fact": "B + ac + bd is nonplanar",
+    "why it excludes the bridge": "The proof shows: \"The graph B + ac + bd is planar.\""
+   },
+   {
+    "fact": "B plus all edges among a, b, c, d has a cut of at most two vertices",
+    "why it excludes the bridge": "Three-connectivity of B ∪ K_4[{a,b,c,d}], used with Construction 3.18."
    }
   ],
   "K5 minor": "a K5 minor in the named graph, which is a minor of G",
   "proper nontoroidal minor": "an allowed reduction of B (Section 3) after which the named test graph is still nonplanar; the proof shows that this gives a proper nontoroidal minor of G",
   "isomorphic to a bridge given in the text": "B passes every test of the case and is isomorphic to a bridge given in the text (listed under \"bridges given in the text\"); the record that it passes the tests is kept with the verdict"
  },
+ "whole graphs": "For each bridge that passes, the two graphs of Lemma 4.29(i): G = (Psi_1 ∪ B) + eb and G = (Psi_1 ∪ B) + af, with P_x = cd and P_w = ef. Proposition 4.30 cites this part for the claim that these give only T66. The exterior formed by a bridge uv on {c,d,e,f} is treated in the paper by argument, so it is not included here.",
  "specification": {
   "roots": [
-   "sx",
-   "tx",
-   "sy",
-   "ty"
+   "a",
+   "b",
+   "c",
+   "d"
   ],
   "outside": {},
   "C edges within R": [
    [
-    "sx",
-    "sy"
+    "a",
+    "c"
    ],
    [
-    "sx",
-    "tx"
+    "b",
+    "d"
    ],
    [
-    "sy",
-    "ty"
-   ],
-   [
-    "tx",
-    "ty"
+    "c",
+    "d"
    ]
   ],
   "required edges of K'": [
    [
-    "sy",
-    "ty"
+    "c",
+    "d"
    ]
   ]
  },
@@ -157,28 +203,49 @@
   "root placement classes": 1392,
   "full placements": 1392,
   "valid retained subdivisions": 344,
-  "recipes": 2361,
-  "parts up to rooted isomorphism": 1378
+  "recipes": 3380,
+  "parts up to rooted isomorphism": 2104
  },
  "bridges given in the text": {
-  "the form of Proposition 4.28": {
+  "B1": {
    "vertices": [
+    "a",
+    "b",
+    "c",
+    "d",
     "p'",
     "q'",
-    "sx",
-    "sy",
-    "tx",
-    "ty",
+    "u",
     "v"
    ],
    "edges": [
     [
-     "p'",
-     "sx"
+     "a",
+     "p'"
     ],
     [
-     "p'",
-     "sy"
+     "a",
+     "q'"
+    ],
+    [
+     "a",
+     "u"
+    ],
+    [
+     "b",
+     "u"
+    ],
+    [
+     "c",
+     "p'"
+    ],
+    [
+     "c",
+     "q'"
+    ],
+    [
+     "d",
+     "u"
     ],
     [
      "p'",
@@ -186,22 +253,209 @@
     ],
     [
      "q'",
-     "sx"
+     "v"
     ],
     [
-     "q'",
-     "sy"
+     "u",
+     "v"
+    ]
+   ]
+  },
+  "B2": {
+   "vertices": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "p'",
+    "q'",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "a",
+     "p'"
+    ],
+    [
+     "a",
+     "q'"
+    ],
+    [
+     "a",
+     "u"
+    ],
+    [
+     "b",
+     "u"
+    ],
+    [
+     "c",
+     "p'"
+    ],
+    [
+     "c",
+     "q'"
+    ],
+    [
+     "d",
+     "v"
+    ],
+    [
+     "p'",
+     "v"
     ],
     [
      "q'",
      "v"
     ],
     [
-     "tx",
+     "u",
+     "v"
+    ]
+   ]
+  },
+  "B3": {
+   "vertices": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "p'",
+    "q'",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "a",
+     "p'"
+    ],
+    [
+     "a",
+     "q'"
+    ],
+    [
+     "b",
      "v"
     ],
     [
-     "ty",
+     "c",
+     "u"
+    ],
+    [
+     "d",
+     "v"
+    ],
+    [
+     "p'",
+     "u"
+    ],
+    [
+     "p'",
+     "v"
+    ],
+    [
+     "q'",
+     "u"
+    ],
+    [
+     "q'",
+     "v"
+    ]
+   ]
+  },
+  "B4": {
+   "vertices": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "p'",
+    "q'",
+    "u",
+    "v"
+   ],
+   "edges": [
+    [
+     "a",
+     "v"
+    ],
+    [
+     "b",
+     "v"
+    ],
+    [
+     "c",
+     "u"
+    ],
+    [
+     "d",
+     "p'"
+    ],
+    [
+     "d",
+     "q'"
+    ],
+    [
+     "p'",
+     "u"
+    ],
+    [
+     "p'",
+     "v"
+    ],
+    [
+     "q'",
+     "u"
+    ],
+    [
+     "q'",
+     "v"
+    ]
+   ]
+  },
+  "B5": {
+   "vertices": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "p'",
+    "q'",
+    "v"
+   ],
+   "edges": [
+    [
+     "a",
+     "p'"
+    ],
+    [
+     "a",
+     "q'"
+    ],
+    [
+     "b",
+     "p'"
+    ],
+    [
+     "b",
+     "q'"
+    ],
+    [
+     "c",
+     "v"
+    ],
+    [
+     "d",
+     "v"
+    ],
+    [
+     "p'",
+     "v"
+    ],
+    [
+     "q'",
      "v"
     ]
    ]

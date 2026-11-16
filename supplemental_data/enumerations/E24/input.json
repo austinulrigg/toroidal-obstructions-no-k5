@@ -1,100 +1,91 @@
 {
  "item": "E24",
- "where": "Proposition 6.12",
+ "where": "Lemma 6.15",
  "paper text": [
   {
-   "line": 9469,
-   "text": "The resulting nontoroidal minor cannot equal $G$, since $\\{a,b,d\\}$\nmeets $\\{a,b,c\\}$ twice.\n\nWith two other bridges, Lemma~\\ref{core:assembly-general}(ii)\ngives one with nonplanar triangle completion. Contracting the\nother to a vertex keeps $H_4$ nonplanar, since its $b$--$d$ path\nsupplies the missing triangle edge. Minimality fixes that vertex.\nFor one bridge, keep $H_1+ab+ad$ nonplanar. For two, keep the\nnonplanar triangle completion of the uncontracted bridge.\nIn each case both embedding tests still fail, so\nLemma~\\ref{core:retained-subdivision} and\nConstruction~\\ref{common:marked-construction} give every\npossibility: $349$ forms in the first case and $216$ in the\nsecond. Every resulting graph has a $K_5$ minor, a cut of at\nmost two vertices, or a proper nontoroidal minor~\\supp{E24}."
+   "where": "Lemma 6.15 (proof)",
+   "text": "Suppose $n_e=3$. The applicable row gives a single\nnonplanar completion $B+E'$.\nBy Lemma~\\ref{r1:triangle-minor} with $U=B\\cup bd$, contracting $bd$ into $d$\ngives the minor\n$B+ac+ad+ae+cd+de$ of $G$.\nHence $B+E'$ has no $K_5$ minor.\nReplacing $B$ by an allowed minor $B'$ preserves the connected interior and all four attachments, so the resulting minor is nontoroidal whenever $B'+E'$ is nonplanar.\nCorollary~\\ref{common:reduced-forms}, with attachments\n$a,c,d,e$ and added edges $E'$, gives\n$9{,}127$ possibilities without $cd$ and $8{,}967$\nwith $cd$. Every resulting graph has a proper\nnontoroidal minor obtained by deleting or\ncontracting one edge~\\supp{E24}, a contradiction.\nThus $n_e=2$, and the first two rows give the\nclaimed form of $G$ and its two nonplanar completions.\n\\end{proof}"
   }
  ],
  "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
  "cases of the construction": {
-  "one_bridge": {
+  "no_cd": {
    "specification": {
     "roots": [
      "a",
-     "b",
-     "d"
+     "c",
+     "d",
+     "e"
     ],
     "outside": {},
     "C edges within R": [
      [
       "a",
-      "b"
+      "c"
      ],
      [
       "a",
       "d"
+     ],
+     [
+      "a",
+      "e"
+     ],
+     [
+      "d",
+      "e"
      ]
     ],
-    "required edges of K'": [],
-    "exterior": "Psi3 + w, N(w)=bcde"
+    "required edges of K'": []
    },
-   "root placements": 4270,
-   "root placement classes": 115,
-   "full placements": 115,
-   "valid retained subdivisions": 115,
-   "recipes": 861,
-   "parts up to rooted isomorphism": 349,
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 1392,
+   "recipes": 18646,
+   "parts up to rooted isomorphism": 9127,
    "outcomes": {
-    "excluded: disjoint twin triples": 207,
-    "proper nontoroidal minor": 45,
-    "K5 minor": 54,
-    "excluded: component adjacent to all five attachments": 28,
-    "cut of order at most two": 1,
-    "excluded: two twin triples share two vertices": 14
+    "proper nontoroidal minor": 9127
    }
   },
-  "two_bridges": {
+  "with_cd": {
    "specification": {
     "roots": [
      "a",
-     "b",
-     "d"
+     "c",
+     "d",
+     "e"
     ],
     "outside": {},
     "C edges within R": [
      [
       "a",
-      "b"
+      "c"
      ],
      [
       "a",
+      "e"
+     ],
+     [
+      "c",
       "d"
      ],
      [
-      "b",
-      "d"
+      "d",
+      "e"
      ]
     ],
-    "required edges of K'": [],
-    "exterior": "Psi3 + w + t, N(w)=bcde, N(t)=abd"
+    "required edges of K'": []
    },
-   "root placements": 4270,
-   "root placement classes": 115,
-   "full placements": 115,
-   "valid retained subdivisions": 115,
-   "recipes": 687,
-   "parts up to rooted isomorphism": 216,
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 1392,
+   "recipes": 17256,
+   "parts up to rooted isomorphism": 8967,
    "outcomes": {
-    "excluded: disjoint twin triples": 123,
-    "proper nontoroidal minor": 37,
-    "K5 minor": 27,
-    "excluded: component adjacent to all five attachments": 16,
-    "cut of order at most two": 1,
-    "excluded: two twin triples share two vertices": 12
+    "proper nontoroidal minor": 8967
    }
-  }
- },
- "hypotheses of the case used for exclusions": {
-  "disjoint twin triples": {
-   "meaning": "Section 6 assumes any two twin triples share exactly one vertex"
-  },
-  "two twin triples share two vertices": {
-   "meaning": "such graphs belong to Section 5"
-  },
-  "component adjacent to all five attachments": {
-   "meaning": "such graphs belong to Section 6.2"
   }
  }
 }

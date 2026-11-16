@@ -1,7 +1,7 @@
-"""The enumerations E20-E34 (Proposition 5.27 and Section 6 of the paper).
+"""The enumerations E19-E29 (Proposition 5.33 and Section 6 of the paper).
 
 Each folder holds input.json, candidates.json, verdicts.json and summary.json,
-any of them possibly gzip-compressed; E34 also holds bases.json.gz. Only these
+any of them possibly gzip-compressed; E29 also holds bases.json.gz. Only these
 files and O1 (for the graphs T1, ..., T74) are read. For every item:
 
  1. Records. Every candidate has a distinct id and exactly one verdict, and
@@ -11,23 +11,20 @@ files and O1 (for the graphs T1, ..., T74) are read. For every item:
     given, encodes the same graph with the vertices in the listed order.
  3. Vertex names, as the item's 'vertex names' describe them. The twins of
     Psi have exactly their stated neighbourhoods: p, q on {a,b,c}, and r, z on
-    {a,b,d} in E20 (Psi_2) or on {a,d,e} in E21-E34 (Psi_3). Further vertices
-    p3, p4, ... and r3, r4, ... have the neighbourhoods of p and r. In E25 the
-    twins h1, h2 (p', q' of the text) have neighbourhood {c,e,w}, as in the
-    text of Proposition 6.12 and the construction of E25. In E34 a vertex
-    v_xyz has neighbourhood {x,y,z}.
+    {a,b,d} in E19 (Psi_2) or on {a,d,e} in E20-E29 (Psi_3). Further vertices
+    p3, p4, ... and r3, r4, ... have the neighbourhoods of p and r. In E29 a
+    vertex v_xyz has neighbourhood {x,y,z}.
  4. How each candidate is formed.
-      E20  The graph is Psi_2 with the forms of its combination added, the
+      E19  The graph is Psi_2 with the forms of its combination added, the
            interior vertex i<j> of the k-th form becoming f<k>_<j>, and with
            the edge cd when the combination has it (see 9).
-      E34  The graph is its base graph with n_c - 2 vertices p3, p4 on {a,b,c}
+      E29  The graph is its base graph with n_c - 2 vertices p3, p4 on {a,b,c}
            and n_e - 2 vertices r3, r4 on {a,d,e} added, for the (n_c, n_e) of
            its case (see 10).
-      the others  The interior vertices of the bridge (u0, u1, ...; in E27 the
-           vertices of the form, Ud1, Ud2, Uf, Uu, Uv) induce a connected graph
-           whose neighbours outside are exactly the attachments of the case
-           (the roots of its specification in input.json; in E27 the letters
-           of the case). Where the bridge is recorded, it is exactly these
+      the others  The interior vertices of the bridge (u0, u1, ...) induce a
+           connected graph whose neighbours outside are exactly the
+           attachments of the case (the roots of its specification in
+           input.json). Where the bridge is recorded, it is exactly these
            vertices and attachments with every edge at an interior vertex. All
            candidates of one case (and variant) have the same exterior, the
            graph left when the interior is deleted. Where input.json gives the
@@ -43,22 +40,12 @@ files and O1 (for the graphs T1, ..., T74) are read. For every item:
       isomorphic to Ti             a bijection onto Ti of O1, edges onto edges
       excluded by a hypothesis     the stated fact holds (see 6)
       proper nontoroidal minor     the edge deleted or contracted is an edge of
-                                   the graph. Where a minor of Ti is recorded,
-                                   its steps are applied in order, isolated
-                                   vertices are dropped and the result is
-                                   checked isomorphic to Ti; since Ti is
-                                   nontoroidal and there is at least one step,
-                                   the graph has a proper nontoroidal minor.
-                                   This minor of Ti must also survive the
-                                   named deletion or contraction (the branch
-                                   sets the steps define form a model of Ti in
-                                   the graph after it), so that the named
-                                   one-edge minor is itself nontoroidal. Where
-                                   only the edge is named, the nontoroidality
-                                   of the minor is left to the genus tables of
-                                   Appendix A, and such witnesses are counted.
+                                   the graph. The nontoroidality of the minor
+                                   is left to the genus computations in the
+                                   folder genus, and such witnesses are
+                                   counted.
  6. Facts of the hypotheses of the case (field 'also excluded by a hypothesis
-    of the case', and the discarded bases of E34) are rechecked on the graph.
+    of the case', and the discarded bases of E29) are rechecked on the graph.
     A twin pair is two distinct vertices whose neighbourhood is exactly the
     stated triple of three distinct vertices.
       two twin triples are disjoint / share two vertices / meet in zero or two
@@ -74,13 +61,8 @@ files and O1 (for the graphs T1, ..., T74) are read. For every item:
       a choice of twin pairs leaves a component with at least four neighbours:
       as before with triples meeting in one vertex; the recorded neighbours are
       exactly the neighbours of the component, at least four of them;
-      a vertex of degree three has two adjacent neighbours: as stated;
-      a nonplanar subgraph (E25): the subgraph is one of the hypotheses of the
-      case listed in input.json, formed by removing the listed vertices,
-      removing the edges with both ends in 'remove edges within', keeping only
-      'keep vertices' when given, and adding 'add edges'; the Kuratowski
-      subgraph lies in it.
- 7. E31-E33, the planarity of the bridge completions: each completion is the
+      a vertex of degree three has two adjacent neighbours: as stated.
+ 7. E26-E28, the planarity of the bridge completions: each completion is the
     recorded bridge with the edges its name lists added, these are two of the
     three pairs of its attachments, the three completions are the three ways
     of choosing two such pairs, and each answer has its witness: a plane
@@ -88,14 +70,14 @@ files and O1 (for the graphs T1, ..., T74) are read. For every item:
  8. Summary. Every field of summary.json is recomputed from the records (the
     counts by verdict, the copies of each Ti, the lists of Ti excluded and not
     excluded by a hypothesis of the case, the counts of each fact, the counts
-    by case, and the counts of combinations of E20), and a field the program
+    by case, and the counts of combinations of E19), and a field the program
     does not recompute is an error. Every quoted passage of the paper in
     input.json cites the item, and the counts it states (the numbers of
-    candidates, by case where the text counts by case, and for E34 the kept
+    candidates, by case where the text counts by case, and for E29 the kept
     bases and the counts by verdict) are the counts of the records. (The
-    passage quoted for E20 ends before its counts, so there only the summary
+    passage quoted for E19 ends before its counts, so there only the summary
     is compared with the lattice.)
- 9. E20, the forms and the lattice of combinations (Proposition 5.27).
+ 9. E19, the forms and the lattice of combinations (Proposition 5.33).
     The 76 labeled forms: each has a triple among abc, abd, acd, bcd, interior
     vertices i0, i1, ... inducing a connected graph, attachments exactly its
     triple and no edge between attachments; forms of the same name are one
@@ -112,7 +94,7 @@ files and O1 (for the graphs T1, ..., T74) are read. For every item:
     and each graph is rebuilt from its forms; a 'nontoroidal' status is
     witnessed by an isomorphism onto the named Ti (the recorded map, or one
     found by search when the map does not name the vertices of the graph) or
-    left to the genus tables; their other recorded outcomes are checked where
+    left to the genus computations; their other recorded outcomes are checked where
     they name only vertices of their graph. Then every combination of the
     domain is visited, smaller combinations first: each one not recorded must
     contain a smaller combination (fewer forms, or the same forms without cd)
@@ -125,7 +107,7 @@ files and O1 (for the graphs T1, ..., T74) are read. For every item:
     are isomorphic to T15, and one of them is the representative described in
     the text (Psi_2, a vertex h on {a,b,c}, and the bridge with edges au, cp',
     cq', dp', dq', up', uq', cd absent).
-10. E34, the bases (Construction 6.21 with n_c = n_e = 2). Each base is
+10. E29, the bases (Construction 6.24 with n_c = n_e = 2). Each base is
     rebuilt (graph, graph6, twins of Psi_3) and agrees with its description
     (its single vertices v_xyz, its cross edges, which are the only edges
     among a, ..., e, and its forms B<k>_..., each connected with attachments
@@ -146,9 +128,8 @@ from collections import Counter, defaultdict
 from itertools import combinations, combinations_with_replacement, permutations, product
 
 from witnesses import (CheckFailed, need, load, find, graph, copy, add_edges, n_edges, same_graph,
-                       components, delete_edge, contract_edge, from_graph6, check_embedding,
-                       check_k5, check_cut, check_iso, check_minor_model, check_kuratowski,
-                       as_vertex_of, catalogue)
+                       components, from_graph6, check_embedding, check_k5, check_cut, check_iso,
+                       check_kuratowski, as_vertex_of, catalogue)
 
 
 # ---------------------------------------------------------------- the items
@@ -156,18 +137,16 @@ from witnesses import (CheckFailed, need, load, find, graph, copy, add_edges, n_
 PSI5 = {'p': 'abc', 'q': 'abc', 'r': 'abd', 'z': 'abd'}       # Psi_2, Section 5
 PSI6 = {'p': 'abc', 'q': 'abc', 'r': 'ade', 'z': 'ade'}       # Psi_3, Section 6
 
-CONF = {'E%d' % i: {'psi': PSI6, 'formed': 'bridge', 'interior': 'u'} for i in range(21, 34)}
-CONF['E20'] = {'psi': PSI5, 'formed': 'forms'}
-CONF['E34'] = {'psi': PSI6, 'formed': 'bases', 'single vertices': True}
-CONF['E25']['named'] = {'h1': 'cew', 'h2': 'cew'}
-CONF['E27']['interior'] = 'U'
-for _k in ('E31', 'E32', 'E33'):
+CONF = {'E%d' % i: {'psi': PSI6, 'formed': 'bridge', 'interior': 'u'} for i in range(20, 29)}
+CONF['E19'] = {'psi': PSI5, 'formed': 'forms'}
+CONF['E29'] = {'psi': PSI6, 'formed': 'bases', 'single vertices': True}
+for _k in ('E26', 'E27', 'E28'):
     CONF[_k]['completions'] = True
 
 VERDICT_KEYS = {'id', 'verdict', 'witness', 'also excluded by a hypothesis of the case',
                 'planarity of the bridge completions', 'lattice status'}
 ISO = re.compile(r'isomorphic to (T\d+)')
-E34_CHOICES = [(2, 2), (2, 3), (2, 4), (3, 2), (4, 2)]
+E29_CHOICES = [(2, 2), (2, 3), (2, 4), (3, 2), (4, 2)]
 
 
 class Tally:
@@ -184,14 +163,12 @@ class Tally:
         self.case_free = defaultdict(set)
         self.variant_count = Counter()
         self.edge_only = 0                      # proper minors named only by the edge
-        self.steps = 0                          # proper minors with a checked minor of Ti
-        self.not_through = []                   # ... whose minor of Ti does not survive the named operation
         self.exteriors = {}
         self.completions = 0
         self.planar = []
-        self.e20_rows = []
-        self.e20_graphs = {}
-        self.e34_pairs = set()
+        self.e19_rows = []
+        self.e19_graphs = {}
+        self.e29_pairs = set()
         self.extra = {}
         self.notes = []
 
@@ -246,9 +223,6 @@ def check_names(adj, conf):
         if len(v) > 1 and v[0] in 'pr' and v[1:].isdigit() and int(v[1:]) >= 3:
             need(adj[v] == set(psi[v[0]]), v, 'has neighbourhood', sorted(adj[v]),
                  'and not {%s}' % ','.join(psi[v[0]]))
-    for v, T in conf.get('named', {}).items():
-        need(v in adj, 'there is no vertex', v)
-        need(adj[v] == set(T), v, 'has neighbourhood', sorted(adj[v]), 'and not {%s}' % ','.join(T))
     if conf.get('single vertices'):
         for v in adj:
             if v.startswith('v_'):
@@ -256,15 +230,10 @@ def check_names(adj, conf):
 
 
 def is_interior(v, conf):
-    if conf['interior'] == 'U':
-        return v[:1] == 'U'
     return v[:1] == 'u' and v[1:].isdigit()
 
 
 def roots_of(case, conf, inp, item):
-    if item == 'E27':
-        need(isinstance(case, str) and re.fullmatch(r'[a-e]{3}', case), 'case', case, 'is not an attachment triple')
-        return set(case)
     cases = inp.get('cases of the construction', {})
     need(case in cases, 'case', case, 'is not described in input.json')
     return set(cases[case]['specification']['roots'])
@@ -341,39 +310,11 @@ def chosen_component(adj, f):
     return A, B, S, nb
 
 
-def subgraph_by_spec(adj, spec):
-    """The subgraph a fact names: the listed vertices removed, the edges with
-    both ends in 'remove edges within' removed, only 'keep vertices' kept when
-    given, and 'add edges' added."""
-    need(isinstance(spec, dict) and set(spec) <= {'remove vertices', 'remove edges within', 'keep vertices', 'add edges'},
-         'unknown way of forming a subgraph:', spec)
-    drop = set(spec.get('remove vertices', []))
-    within = set(spec.get('remove edges within', []))
-    keep = set(spec['keep vertices']) if 'keep vertices' in spec else None
-    need(drop | within | (keep or set()) <= set(adj), 'the subgraph names vertices not in the graph')
-    H = {}
-    for x in adj:
-        if x in drop or (keep is not None and x not in keep):
-            continue
-        H[x] = {y for y in adj[x] if y not in drop and (keep is None or y in keep) and not (x in within and y in within)}
-    for a, b in spec.get('add edges', []):
-        need(a in H and b in H and a != b, 'an added edge of the subgraph has an end outside it:', a, b)
-        H[a].add(b)
-        H[b].add(a)
-    return H
-
-
 def check_fact(adj, f, inp):
     """Recheck a fact of a hypothesis of the case on the graph adj."""
     need(isinstance(f, dict) and isinstance(f.get('fact'), str), 'the fact is not recorded')
     fact = f['fact']
-    if 'subgraph' in f or 'Kuratowski subgraph' in f:
-        keys_are(f, {'fact', 'subgraph', 'Kuratowski subgraph'}, 'the fact')
-        hyps = inp.get('hypotheses of the case used for exclusions', {})
-        stated = [{k: x for k, x in h.items() if k != 'meaning'} for h in hyps.values() if isinstance(h, dict)]
-        need(f['subgraph'] in stated, 'the subgraph of the fact is not a hypothesis of the case in input.json')
-        check_kuratowski(subgraph_by_spec(adj, f['subgraph']), f['Kuratowski subgraph'])
-    elif fact == FACT_ADJ:
+    if fact == FACT_ADJ:
         keys_are(f, {'fact', 'vertex', 'neighbours'}, 'the fact')
         v, (x, y) = f['vertex'], f['neighbours']
         need(v in adj and len(adj[v]) == 3, v, 'is not a vertex of degree three')
@@ -408,68 +349,15 @@ def check_fact(adj, f, inp):
 
 # ---------------------------------------------------------------- verdicts
 
-def apply_steps(adj, steps):
-    """Apply recorded deletions and contractions in order (a contraction
-    merges the second end into the first); drop isolated vertices. Returns the
-    minor and, for each of its vertices, the vertices of adj merged into it."""
-    need(isinstance(steps, list) and steps, 'a minor of Ti needs at least one step')
-    H = copy(adj)
-    blocks = {v: {v} for v in adj}
-    for st in steps:
-        op, (u, v) = st
-        if op == 'delete':
-            H = delete_edge(H, (u, v))
-        elif op == 'contract':
-            H = contract_edge(H, (u, v))
-            blocks[u] |= blocks.pop(v)
-        else:
-            raise CheckFailed('unknown step %s' % op)
-    for x in [x for x, s in H.items() if not s]:
-        del H[x]
-        del blocks[x]
-    return H, blocks
-
-
-def survives(adj, op, e, T, model):
-    """Whether the model of T (vertex of T -> branch set in adj) is still a
-    model of T after the named deletion or contraction of e."""
-    u, v = e
-    if op == 'delete':
-        G2, m2 = delete_edge(adj, e), model
-    else:
-        G2 = contract_edge(adj, e)
-        m2 = {x: sorted({u if y == v else y for y in B}) for x, B in model.items()}
-    try:
-        check_minor_model(G2, T, m2)
-        return True
-    except CheckFailed:
-        return False
-
-
 def check_proper_minor(adj, w, cat, t, cid):
     need(w.get('type') == 'proper minor', 'the witness of a proper nontoroidal minor is of type', w.get('type'))
-    need({'type', 'operation', 'edge'} <= set(w) <= {'type', 'operation', 'edge', 'minor of T_i'},
-         'the witness has fields', sorted(w))
+    keys_are(w, {'type', 'operation', 'edge'}, 'the witness')
     op, e = w['operation'], w['edge']
     need(op in ('delete', 'contract'), 'unknown operation', op)
     need(isinstance(e, list) and len(e) == 2, 'the operation needs one edge')
     u, v = e
     need(u in adj and v in adj[u], 'the edge', u, v, 'of the minor is not in the graph')
-    if 'minor of T_i' not in w:
-        t.edge_only += 1
-        return
-    mt = w['minor of T_i']
-    keys_are(mt, {'steps', 'onto', 'map'}, 'the minor of Ti')
-    need(mt['onto'] in cat, 'unknown graph', mt['onto'])
-    T = cat[mt['onto']]
-    H, blocks = apply_steps(adj, mt['steps'])
-    m = {k: as_vertex_of(T, x) for k, x in mt['map'].items()}
-    check_iso(H, T, m)
-    t.steps += 1
-    model = {m[x]: sorted(blocks[x]) for x in H}
-    check_minor_model(adj, T, model)
-    need(survives(adj, op, (u, v), T, model), 'the recorded minor of', mt['onto'], 'does not survive the named',
-         op, 'of', u, v)
+    t.edge_only += 1
 
 
 def check_verdict(adj, verdict, w, cat, inp, t, cid):
@@ -505,7 +393,7 @@ def check_verdict(adj, verdict, w, cat, inp, t, cid):
 
 
 def check_completions(c, att, tests, t):
-    """E31-E33: the three two-edge completions of the bridge, each formed as
+    """E26-E28: the three two-edge completions of the bridge, each formed as
     its name says and with a plane embedding or a Kuratowski subgraph."""
     need('bridge' in c, 'completions without a recorded bridge')
     B = graph(c['bridge'])
@@ -551,9 +439,9 @@ def check_candidate(c, v, conf, inp, cat, ctx, t, item):
     if conf['formed'] == 'bridge':
         _, att = bridge_formation(adj, c, conf, inp, item, t)
     elif conf['formed'] == 'forms':
-        e20_formation(adj, c, ctx['forms'])
+        e19_formation(adj, c, ctx['forms'])
     else:
-        e34_formation(adj, c, ctx['bases'], t)
+        e29_formation(adj, c, ctx['bases'], t)
     extra = set(v) - VERDICT_KEYS
     need(not extra, 'the verdict has fields the checker does not know:', sorted(extra))
     verdict, w = v['verdict'], v['witness']
@@ -565,19 +453,18 @@ def check_candidate(c, v, conf, inp, cat, ctx, t, item):
     if 'planarity of the bridge completions' in v:
         need(conf.get('completions'), 'completions are not expected in this item')
         check_completions(c, att, v['planarity of the bridge completions'], t)
-    if item == 'E20':
+    if item == 'E19':
         need('lattice status' in v, 'no lattice status')
-        e20_status(v['lattice status'], verdict, fact is not None)
+        e19_status(v['lattice status'], verdict, fact is not None)
         ms = [ctx['forms']['index'][f] for f in c['config']['forms']]
-        # a status is witnessed in the folder by a rechecked fact, an isomorphism
-        # onto some Ti, or a checked minor of Ti
-        witnessed = fact is not None or name is not None or 'minor of T_i' in w
-        t.e20_rows.append((c['id'], tuple(sorted(ms)), int(c['config']['cd']), v['lattice status'], verdict,
+        # a status is witnessed in the folder by a rechecked fact or an isomorphism onto some Ti
+        witnessed = fact is not None or name is not None
+        t.e19_rows.append((c['id'], tuple(sorted(ms)), int(c['config']['cd']), v['lattice status'], verdict,
                            fact is not None, witnessed))
         if name is not None:
-            t.e20_graphs[c['id']] = adj
+            t.e19_graphs[c['id']] = adj
     else:
-        need('lattice status' not in v, 'a lattice status outside E20')
+        need('lattice status' not in v, 'a lattice status outside E19')
     t.n += 1
     t.verdicts[verdict] += 1
     case = c.get('case')
@@ -594,7 +481,7 @@ def check_candidate(c, v, conf, inp, cat, ctx, t, item):
             t.iso_excl.add(name)
 
 
-# ---------------------------------------------------------------- E20
+# ---------------------------------------------------------------- E19
 
 def canonical(edges, fixed):
     """A canonical form of a graph given by its edges, up to isomorphisms
@@ -624,7 +511,7 @@ def canonical(edges, fixed):
     return best
 
 
-def e20_forms(inp):
+def e19_forms(inp):
     """The 76 labeled forms (see 9 in the module text)."""
     L = inp['lattice']
     keys_are(L, {'forms', 'domain', 'auxiliary'}, 'the lattice')
@@ -668,7 +555,7 @@ def e20_forms(inp):
             'star': [name[fid] == 'star' for fid in order]}
 
 
-def e20_graph(cfg, forms):
+def e19_graph(cfg, forms):
     """Psi_2 with the forms of the combination and cd added."""
     keys_are(cfg, {'forms', 'cd'}, 'the combination')
     need(isinstance(cfg['forms'], list) and 1 <= len(cfg['forms']) <= 4, 'a combination has one to four forms')
@@ -691,14 +578,14 @@ def e20_graph(cfg, forms):
     return adj
 
 
-def e20_formation(adj, c, forms):
+def e19_formation(adj, c, forms):
     cfg = c['config']
-    need(same_graph(adj, e20_graph(cfg, forms)), 'the graph is not Psi_2 with the forms of its combination')
+    need(same_graph(adj, e19_graph(cfg, forms)), 'the graph is not Psi_2 with the forms of its combination')
     need(c.get('case') == 'size %d' % len(cfg['forms']), 'case', c.get('case'), 'for', len(cfg['forms']), 'forms')
     need((c.get('variant') or '') == ('cd' if cfg['cd'] else ''), 'variant', c.get('variant'), 'with cd', cfg['cd'])
 
 
-def e20_status(status, verdict, has_fact):
+def e19_status(status, verdict, has_fact):
     need(status in ('violation', 'nontoroidal', 'toroidal, no violation'), 'unknown lattice status', status)
     if status == 'violation':
         need(has_fact, 'status violation without a fact')
@@ -749,7 +636,7 @@ def find_isomorphism(G, H, fixed=()):
     return dict(m) if extend(0) else None
 
 
-def e20_auxiliary(inp, forms, cat, rec_keys, cand_ids):
+def e19_auxiliary(inp, forms, cat, rec_keys, cand_ids):
     """The stars-only combinations recorded for the exclusions. Returns, for
     each, its key and flags, and notes on witnesses that could not be read."""
     out, unreadable, searched = [], [], 0
@@ -759,7 +646,7 @@ def e20_auxiliary(inp, forms, cat, rec_keys, cand_ids):
 
         def one():
             cfg = a['config']
-            G = e20_graph(cfg, forms)
+            G = e19_graph(cfg, forms)
             ms = tuple(sorted(forms['index'][f] for f in cfg['forms']))
             need(all(forms['star'][x] for x in ms), 'the combination is not all stars')
             need(a['in domain'] is False, 'it is marked as in the domain')
@@ -806,7 +693,7 @@ def e20_auxiliary(inp, forms, cat, rec_keys, cand_ids):
             else:
                 raise CheckFailed('unknown outcome %s' % k)
             return key, status, iso_ok, readable, k
-        key, status, iso_ok, readable, k = guarded('E20 auxiliary combination %s' % aid, one)
+        key, status, iso_ok, readable, k = guarded('E19 auxiliary combination %s' % aid, one)
         if not readable:
             unreadable.append((aid, k))
             if k == 'catalogue graph':
@@ -815,7 +702,7 @@ def e20_auxiliary(inp, forms, cat, rec_keys, cand_ids):
     return out, unreadable, searched
 
 
-def e20_lattice(inp, forms, cat, t):
+def e19_lattice(inp, forms, cat, t):
     """Visit every combination of the domain (see 9 in the module text)."""
     BAD, NT, WIT, REC = 1, 2, 4, 8
     R = 77
@@ -836,18 +723,18 @@ def e20_lattice(inp, forms, cat, t):
         return list(reversed(out))
     flags = (bytearray(R ** 4), bytearray(R ** 4))
     rec = ({}, {})
-    for cid, ms, cd, status, verdict, has_fact, witnessed in t.e20_rows:
-        need(not all(star[x] for x in ms), 'E20 %s: the combination is all stars, outside the domain' % cid)
+    for cid, ms, cd, status, verdict, has_fact, witnessed in t.e19_rows:
+        need(not all(star[x] for x in ms), 'E19 %s: the combination is all stars, outside the domain' % cid)
         c = code(ms)
-        need(c not in rec[cd], 'E20: combination %s with cd %s is recorded twice' % (decode(c), bool(cd)))
+        need(c not in rec[cd], 'E19: combination %s with cd %s is recorded twice' % (decode(c), bool(cd)))
         rec[cd][c] = (cid, status, verdict)
         if status == 'violation':
             flags[cd][c] |= BAD | WIT | REC
         elif status == 'nontoroidal':
             flags[cd][c] |= BAD | NT | REC | (WIT if witnessed else 0)
-    rec_keys = {(r[2], r[1]) for r in t.e20_rows}
-    cand_ids = {r[0] for r in t.e20_rows}
-    aux, unreadable, searched = e20_auxiliary(inp, forms, cat, rec_keys, cand_ids)
+    rec_keys = {(r[2], r[1]) for r in t.e19_rows}
+    cand_ids = {r[0] for r in t.e19_rows}
+    aux, unreadable, searched = e19_auxiliary(inp, forms, cat, rec_keys, cand_ids)
     aux_nt = aux_nt_wit = 0
     for (cd, ms), status, iso_ok in aux:
         if status == 'nontoroidal':
@@ -870,7 +757,7 @@ def e20_lattice(inp, forms, cat, t):
             cnt['domain'] += 1
             r = rec[cd].get(c)
             if r is None:
-                need(s & BAD, 'E20: combination %s with cd %s is neither recorded nor contains a smaller combination '
+                need(s & BAD, 'E19: combination %s with cd %s is neither recorded nor contains a smaller combination '
                      'with status violation or nontoroidal' % (decode(c), bool(cd)))
                 cnt['excluded'] += 1
                 cnt['excluded, witnessed'] += bool(s & WIT)
@@ -879,10 +766,10 @@ def e20_lattice(inp, forms, cat, t):
                 cnt['recorded'] += 1
                 cnt['recorded, already excluded'] += bool(s & BAD)
                 need(not (status == 'toroidal, no violation' and s & BAD),
-                     'E20 %s: status toroidal, no violation, but it contains a smaller combination with status '
+                     'E19 %s: status toroidal, no violation, but it contains a smaller combination with status '
                      'violation or nontoroidal' % cid)
                 need(not (verdict == 'toroidal' and s & NT),
-                     'E20 %s: a torus embedding, but it contains a smaller combination with status nontoroidal' % cid)
+                     'E19 %s: a torus embedding, but it contains a smaller combination with status nontoroidal' % cid)
     for i in range(nf):
         visit(i + 1, (), star[i])
     for i in range(nf):
@@ -904,31 +791,31 @@ def e20_lattice(inp, forms, cat, t):
                 for l in range(k, nf):
                     visit(cijk * R + l + 1, (cjk * R + l + 1, cik * R + l + 1, cij * R + l + 1, cijk),
                           star[i] and star[j] and star[k] and star[l])
-    need(cnt['recorded'] == len(t.e20_rows), 'E20: a recorded combination lies outside the domain')
+    need(cnt['recorded'] == len(t.e19_rows), 'E19: a recorded combination lies outside the domain')
     # the combinations that remain: no fact, no torus embedding, no cut, no proper nontoroidal minor
-    remaining = [r for r in t.e20_rows if not r[5]
+    remaining = [r for r in t.e19_rows if not r[5]
                  and r[4] not in ('toroidal', 'cut of at most two vertices', 'proper nontoroidal minor')]
     need(len(remaining) == 4 and all(r[4] == 'isomorphic to T15' for r in remaining),
-         'E20: the combinations that remain are', [(r[0], r[4]) for r in remaining], 'and not four copies of T15')
+         'E19: the combinations that remain are', [(r[0], r[4]) for r in remaining], 'and not four copies of T15')
     rep = {}
     for a_, b_ in ([(x, y) for x in 'pq' for y in 'abc'] + [(x, y) for x in 'rz' for y in 'abd'] +
                    [('h', y) for y in 'abc'] +
                    [('a', 'u'), ('c', "p'"), ('c', "q'"), ('d', "p'"), ('d', "q'"), ('u', "p'"), ('u', "q'")]):
         rep.setdefault(a_, set()).add(b_)
         rep.setdefault(b_, set()).add(a_)
-    hit = [r[0] for r in remaining if find_isomorphism(t.e20_graphs[r[0]], rep, 'abcdpqrz') is not None]
-    need(hit, 'E20: the representative described in the text is none of the four remaining combinations')
+    hit = [r[0] for r in remaining if find_isomorphism(t.e19_graphs[r[0]], rep, 'abcdpqrz') is not None]
+    need(hit, 'E19: the representative described in the text is none of the four remaining combinations')
     t.extra.update({'in the domain': cnt['domain'], 'recorded': cnt['recorded'],
                     'excluded': cnt['excluded'], 'auxiliary': len(aux)})
-    rec_nt = sum(1 for r in t.e20_rows if r[3] == 'nontoroidal')
-    rec_nt_wit = sum(1 for r in t.e20_rows if r[3] == 'nontoroidal' and r[6])
+    rec_nt = sum(1 for r in t.e19_rows if r[3] == 'nontoroidal')
+    rec_nt_wit = sum(1 for r in t.e19_rows if r[3] == 'nontoroidal' and r[6])
     t.notes.append('76 forms = labelings of 8 shapes; %s combinations of the domain, %s recorded, %s excluded through '
                    'a smaller combination (%s of them through one whose violation or nontoroidality is witnessed '
                    'in the folder), %s recorded combinations also contain one; four remain, all T15, one the '
                    'representative of the text (%s)'
                    % (fmt(cnt['domain']), fmt(cnt['recorded']), fmt(cnt['excluded']), fmt(cnt['excluded, witnessed']),
                       fmt(cnt['recorded, already excluded']), hit[0]))
-    t.notes.append('nontoroidal statuses left to the genus tables: %d of %d recorded, %d of %d auxiliary'
+    t.notes.append('nontoroidal statuses left to the genus computations: %d of %d recorded, %d of %d auxiliary'
                    % (rec_nt - rec_nt_wit, rec_nt, aux_nt - aux_nt_wit, aux_nt))
     if unreadable:
         kinds = Counter(k for _, k in unreadable)
@@ -938,7 +825,7 @@ def e20_lattice(inp, forms, cat, t):
                                             unreadable[0][0], searched))
 
 
-# ---------------------------------------------------------------- E34
+# ---------------------------------------------------------------- E29
 
 def with_twins(adj, nc, ne):
     """adj with nc - 2 vertices p3, p4 on {a,b,c} and ne - 2 vertices r3, r4 on {a,d,e}."""
@@ -996,10 +883,10 @@ def base_description(adj, d):
     need(set(adj) == used, 'vertices outside the description:', sorted(set(adj) - used))
 
 
-def e34_bases(B, conf, inp, t):
-    """The bases of E34 (see 10 in the module text)."""
+def e29_bases(B, conf, inp, t):
+    """The bases of E29 (see 10 in the module text)."""
     keys_are(B, {'item', 'what', 'counts', 'bases'}, 'bases.json')
-    need(B['item'] == 'E34', 'bases.json is not of E34')
+    need(B['item'] == 'E29', 'bases.json is not of E29')
     ids = [b['id'] for b in B['bases']]
     need(len(set(ids)) == len(ids), 'bases.json: repeated base id')
     kept, counts = {}, Counter()
@@ -1021,10 +908,10 @@ def e34_bases(B, conf, inp, t):
             check_fact(adj, f, inp)
             if f['fact'] == FACT_ADJ:
                 need(f['vertex'] not in ('a', 'b', 'c', 'd', 'e'), 'the vertex of degree three is one of a, ..., e')
-            for nc, ne in E34_CHOICES[1:]:
+            for nc, ne in E29_CHOICES[1:]:
                 still_excluded(with_twins(adj, nc, ne), f)
             counts[f['fact']] += 1
-        guarded('E34 base %s' % b.get('id'), one)
+        guarded('E29 base %s' % b.get('id'), one)
     need(B['counts'] == dict(counts), 'bases.json: counts', B['counts'], 'but the bases give', dict(counts))
     need(fmt(len(ids)) in B['what'] and fmt(counts['kept']) in B['what'],
          'bases.json: its description does not state the numbers of bases and of kept bases')
@@ -1035,16 +922,16 @@ def e34_bases(B, conf, inp, t):
     return kept
 
 
-def e34_formation(adj, c, kept, t):
+def e29_formation(adj, c, kept, t):
     need(c.get('base') in kept, 'the base', c.get('base'), 'is not a kept base')
     m = re.fullmatch(r'k=(\d+),l=(\d+)', c.get('case') or '')
     need(m, 'case', c.get('case'), 'does not give (n_c, n_e)')
     nc, ne = int(m.group(1)), int(m.group(2))
-    need((nc, ne) in E34_CHOICES, '(n_c, n_e) =', (nc, ne), 'is not one of the five choices')
+    need((nc, ne) in E29_CHOICES, '(n_c, n_e) =', (nc, ne), 'is not one of the five choices')
     need(same_graph(adj, with_twins(kept[c['base']], nc, ne)), 'the graph is not its base with', nc - 2, 'and',
          ne - 2, 'further twins')
-    need((c['base'], nc, ne) not in t.e34_pairs, 'two candidates from base', c['base'], 'with', (nc, ne))
-    t.e34_pairs.add((c['base'], nc, ne))
+    need((c['base'], nc, ne) not in t.e29_pairs, 'two candidates from base', c['base'], 'with', (nc, ne))
+    t.e29_pairs.add((c['base'], nc, ne))
 
 
 # ---------------------------------------------------------------- summary and text
@@ -1052,15 +939,11 @@ def e34_formation(adj, c, kept, t):
 def quoted_counts(item, t):
     """The counts the quoted text of the paper states for the item."""
     per_case = sorted(set(t.case_count.values()))
-    if item in ('E22', 'E23', 'E25', 'E28', 'E30'):
+    if item in ('E20', 'E21', 'E22', 'E23', 'E25'):
         return [t.n]
-    if item in ('E24', 'E29', 'E31', 'E32', 'E33'):
+    if item in ('E24', 'E26', 'E27', 'E28'):
         return per_case
-    if item == 'E21':
-        return [t.n] + sorted(set(t.variant_count.values()))
-    if item == 'E26':
-        return [t.n] + per_case
-    if item == 'E34':
+    if item == 'E29':
         return [t.extra['kept'], t.n, t.verdicts['toroidal'], t.verdicts['proper nontoroidal minor'], sum(t.iso.values())]
     return []
 
@@ -1089,7 +972,7 @@ def check_summary(item, inp, s, t):
     if len(t.case_count) > 1:
         exp['by case'] = {k: {'candidates': n, 'graphs T_i not excluded by a hypothesis of the case': tsort(t.case_free[k])}
                           for k, n in t.case_count.items()}
-    if item == 'E20':
+    if item == 'E19':
         exp['combinations'] = None
     for k in s:
         need(k in exp, 'summary.json has a field the checker does not recompute:', k)
@@ -1130,7 +1013,7 @@ def check_construction_counts(inp, t):
 # ---------------------------------------------------------------- the item
 
 def check(root, item):
-    """Check one of E20-E34; returns a one-line report."""
+    """Check one of E19-E29; returns a one-line report."""
     conf = CONF[item]
     folder = os.path.join(root, 'enumerations', item)
     need(os.path.isdir(folder), 'there is no folder', folder)
@@ -1144,10 +1027,10 @@ def check(root, item):
     cat = catalogue(root)
     t = Tally()
     ctx = {}
-    if item == 'E20':
-        ctx['forms'] = guarded('E20 forms', e20_forms, inp)
-    if item == 'E34':
-        ctx['bases'] = e34_bases(read('bases.json'), conf, inp, t)
+    if item == 'E19':
+        ctx['forms'] = guarded('E19 forms', e19_forms, inp)
+    if item == 'E29':
+        ctx['bases'] = e29_bases(read('bases.json'), conf, inp, t)
     cf, vf = read('candidates.json'), read('verdicts.json')
     need(cf.get('item') == item and vf.get('item') == item, 'candidates.json or verdicts.json is not of', item)
     cands, verds = cf['candidates'], vf['verdicts']
@@ -1165,11 +1048,11 @@ def check(root, item):
     for c in cands:
         guarded('%s %s' % (item, c['id']), check_candidate, c, vby[c['id']], conf, inp, cat, ctx, t, item)
     del cands, vby
-    if item == 'E20':
-        e20_lattice(inp, ctx['forms'], cat, t)
-    if item == 'E34':
-        want = {(b, nc, ne) for b in ctx['bases'] for nc, ne in E34_CHOICES}
-        need(t.e34_pairs == want, 'E34: the candidates are not the kept bases with the five choices of (n_c, n_e)')
+    if item == 'E19':
+        e19_lattice(inp, ctx['forms'], cat, t)
+    if item == 'E29':
+        want = {(b, nc, ne) for b in ctx['bases'] for nc, ne in E29_CHOICES}
+        need(t.e29_pairs == want, 'E29: the candidates are not the kept bases with the five choices of (n_c, n_e)')
     if conf['formed'] == 'bridge':
         check_construction_counts(inp, t)
     guarded(item + ' summary.json', check_summary, item, inp, summ, t)
@@ -1190,10 +1073,7 @@ def report(item, t, nums):
         seg.append('%d isomorphisms (%s)' % (sum(t.iso.values()), ', '.join(tsort(t.iso))))
     pm = v.get('proper nontoroidal minor', 0)
     if pm:
-        s = '%s proper minors: %s named only by the edge, left to the genus tables' % (fmt(pm), fmt(t.edge_only))
-        if t.steps:
-            s += ', %d by a minor of Ti checked' % t.steps
-        seg.append(s)
+        seg.append('%s proper minors, named by the edge, left to the genus computations' % fmt(pm))
     out = '%s candidates, one verdict each [%s]' % (fmt(t.n), '; '.join(seg))
     if t.facts:
         out += '; %s facts rechecked' % fmt(sum(t.facts.values()))

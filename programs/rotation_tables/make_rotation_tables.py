@@ -279,44 +279,7 @@ def build_R1():
         {'torus rotation systems per triple': {'%d%d%d' % t: occ[t] for t in sorted(occ)},
          'faces and regions by triple (k,x,y)': choice_table},
         len(occ) == 12 and sum(occ.values()) == len(torus)))
-    # Lemma 4.26 (dis:four-completions): boundary orders used in its proof
-    ok_c, ok_d, rows_c, rows_d = True, True, {}, {}
-    for (k, x, y), info in choice_table.items():
-        k, x, y = int(k), int(x), int(y)
-        if x == y:
-            m, xx = k, x
-            want = ' | '.join(sorted([fmt(canon((S(m), S(xx))), ' '), fmt(canon((Tt(m), Tt(xx))), ' ')])) + \
-                ' (annulus)'
-            rows_c['%d%d%d' % (k, x, y)] = info['regions']['P%d' % m]
-            ok_c &= info['regions']['P%d' % m] == want
-    # (d): for k = w, the faces on the two sides of P_m are distinct and both read s_m t_m t_x s_x
-    side_ok = True
-    for ds in torus:
-        k, x, y = triple_of[ds]
-        faces = T.faces_of_digits(ds)
-        for m in (1, 2, 3):
-            if m == k:
-                continue
-            xx = ({1, 2, 3} - {k, m}).pop()
-            fi = [i for i, f in enumerate(faces) if T.dix[(S(m), Tt(m))] in f][0]
-            fj = [i for i, f in enumerate(faces) if T.dix[(Tt(m), S(m))] in f][0]
-            want = canon((S(m), Tt(m), Tt(xx), S(xx)))
-            side_ok &= fi != fj and canon(T.seq(faces[fi])) == want and canon(T.seq(faces[fj])) == want
-    claims.append(claim(
-        'Proof of Lemma 4.26, for B_b containing P_m with a = s_m, b = t_m, c = s_x, d = t_x: the region along P_m '
-        'in the choice (m,x,x) is an annulus with boundaries a c | b d.',
-        {'region along P_k for the choices (k,x,x)': rows_c}, ok_c))
-    claims.append(claim(
-        'Proof of Lemma 4.26: a choice with k = w gives the boundary a, c, P_x, d, b on each side of P_m, that is, '
-        'the two faces at the edge s_m t_m are distinct and both have sequence s_m t_m t_x s_x up to cyclic shift '
-        'and reversal (checked for every torus rotation and every m other than k).',
-        {'torus rotation systems checked': len(torus)}, side_ok))
-    claims.append(claim(
-        'Proof of Lemma 4.26, for B_a with attachments s_x, t_x, s_y, t_y: a choice with k = w has simple faces '
-        's_x t_x t_y s_y (the cycle C), and the choice (x,y,y) has the repeated face s_x t_x t_y t_x s_x s_y, with '
-        's_x, t_x twice and s_y, t_y once.',
-        'These are cases (i) and (ii) of Lemma 4.2, checked above for every torus rotation.', True))
-    return {'item': 'R1', 'where': 'Lemma 4.2 (proof) and Lemma 4.26 (proof)',
+    return {'item': 'R1', 'where': 'Lemma 4.2 (proof)',
             'paper text': paper_passages('R1', before=30, after=4),
             'what': 'Every rotation system of Psi_1 with P_1, P_2, P_3 the edges s1t1, s2t2, s3t3 (subdividing an edge '
                     'does not change the faces). Attachments: the path vertices s1, t1, s2, t2, s3, t3; twins '
@@ -521,7 +484,7 @@ def build_R4():
                 'For (2, 2) in genus one, the sequences of length four or five give graphs H containing ac, bd or '
                 'ad, bc; the remaining sequences give the tests B+ab+ac+ad and B+ab+bc+bd, and each occurs.',
                 {'length four or five': four_five, 'length six': six_l}, ok, where='Lemma 5.3'))
-            # Lemmas 5.24 and 5.26: genus-zero boundary sequences and the pairs containing c and d
+            # Lemmas 5.30 and 5.32: genus-zero boundary sequences and the pairs containing c and d
             pairs_cd = set()
             for p in planar:
                 fs = p.split()
@@ -537,13 +500,13 @@ def build_R4():
                 {'pairs containing c and d': sorted(pairs_cd), 'walks with three attachments or both c, d':
                  single_bad},
                 set(planar) == {six} and not single_bad and
-                pairs_cd == {'ac | bd', 'ad | bc', 'ac | ad', 'bc | bd'}, where='Lemmas 5.24 and 5.26'))
+                pairs_cd == {'ac | bd', 'ad | bc', 'ac | ad', 'bc | bd'}, where='Lemmas 5.30 and 5.32'))
             claims.append(claim(
                 'There are 576 rotations of Psi_2; 80 of genus one have a facial walk containing both c and d, and in '
                 'every face of these rotations containing at least three attachment labels, no two labels alternate '
                 'as u, v, u, v.', dict(cd),
                 T.count == 576 and cd['rotations with a walk containing c and d'] == 80 and
-                cd['alternation in a face with three labels'] == 0, where='Lemma 5.23'))
+                cd['alternation in a face with three labels'] == 0, where='Lemma 5.29'))
         if (nc, nd) == (3, 2):
             claims.append(claim(
                 'For (3, 2), the sequences abcad and abdbc are facial walks of the triangle abc with pendant edge ad '
@@ -552,7 +515,7 @@ def build_R4():
                 tests['abcad']['edges of H'] == ['ab', 'ac', 'ad', 'bc'] and
                 tests['abdbc']['edges of H'] == ['ab', 'ac', 'bc', 'bd'] and
                 tests['acbd']['edges of H'] == ['ac', 'ad', 'bc', 'bd'], where='Lemma 5.3'))
-    return {'item': 'R4', 'where': 'Lemma 5.3 (proof), Lemma 5.23 (proof), Lemma 5.24 (proof) and Lemma 5.26 (proof)',
+    return {'item': 'R4', 'where': 'Lemma 5.3 (proof), Lemma 5.29 (proof), Lemma 5.30 (proof) and Lemma 5.32 (proof)',
             'paper text': paper_passages('R4', before=12, after=10),
             'what': 'Every rotation system of Psi_2 with n_c vertices of neighbourhood {a,b,c} (p, q, and p3 when '
                     'n_c = 3) and n_d of neighbourhood {a,b,d} (r, z, and r3 when n_d = 3), for (n_c, n_d) = (2, 2), '
@@ -636,7 +599,7 @@ def build_R6():
                'pairs meeting b, c, d, e': counter_dict(st['planar pairs'])},
               all('abad ac ae bc de' in swaps(p) for p in st['planar']) and
               st['planar single'] == 0 and set(st['planar pairs']) == {'bc | de'})]
-    return {'item': 'R6', 'where': 'Lemma 6.2 (proof)', 'paper text': paper_passages('R6', before=20, after=12),
+    return {'item': 'R6', 'where': 'Lemma 6.3 (proof)', 'paper text': paper_passages('R6', before=20, after=12),
             'what': 'Every rotation system of Psi_3. Attachments a, b, c, d, e; twins omitted.',
             'how to read': HOW_TO_READ, 'graphs': [rec], 'claims': claims}
 
@@ -666,7 +629,7 @@ def build_R7():
                      'walks containing a, b, d, retaining a, b, d': counter_dict(st['abd']),
                      'the same walks retaining a, b, c, d, e': counter_dict(st['raw'])},
                     by_genus.get(0, 0) == 0 and set(st['abd']) == {'abad'})]
-    return {'item': 'R7', 'where': 'Lemma 6.13 (proof)', 'paper text': paper_passages('R7', before=8, after=4),
+    return {'item': 'R7', 'where': 'Lemma 6.14 (proof)', 'paper text': paper_passages('R7', before=8, after=4),
             'what': 'Every rotation system of Psi_3 + w with N(w) = {a,c,d,e}. Attachments a, b, c, d, e; twins and '
                     'w omitted. The claim retains a, b, d, the attachments of B_1.',
             'how to read': HOW_TO_READ, 'graphs': [rec], 'claims': claims}
@@ -711,7 +674,7 @@ def build_R8():
     ok_shape = all(t['H'] in ('cycle', 'triangle with a pendant edge', 'three-edge star', 'path')
                    for p in per for t in p['H for each disk sequence'].values())
     claims.append(claim(
-        'If the regular neighbourhood has genus one, Corollary 2.4 applies to each disk sequence: H is a cycle, a '
+        'If the regular neighbourhood has genus one, Lemma 2.2 applies to each disk sequence: H is a cycle, a '
         'triangle with a pendant edge, a three-edge star or a path, and the sequence is a facial walk of H.',
         {p['exterior']: p['H for each disk sequence'] for p in per}, ok_shape))
     ok_g0 = all(not p['planar walks containing a, c, d, e'] and
@@ -741,10 +704,10 @@ def build_R8():
         table.setdefault('%s; n_e = %d' % (p['row of the table'], p['n_e']), []).append(
             {'alternative': p['alternative'], 'tests after omitting supersets': got})
     claims.append(claim(
-        'Omitting supersets gives the table of Lemma 6.14; the alternatives in each row have the same tests, and each '
+        'Omitting supersets gives the table of Lemma 6.15; the alternatives in each row have the same tests, and each '
         'retained test is realized by a rotation.', table, table_ok))
-    return {'item': 'R8', 'where': 'Lemma 6.14 (proof)', 'paper text': paper_passages('R8', before=40, after=14),
-            'what': 'Every rotation system of each of the twelve exteriors of Lemma 6.14: Psi_3, with a third vertex '
+    return {'item': 'R8', 'where': 'Lemma 6.15 (proof)', 'paper text': paper_passages('R8', before=40, after=14),
+            'what': 'Every rotation system of each of the twelve exteriors of Lemma 6.15: Psi_3, with a third vertex '
                     'r3 of neighbourhood {a,d,e} when n_e = 3, plus the additional edges or vertices of a row of the '
                     'table (v_abd and v_acd are the additional vertices with neighbourhoods {a,b,d} and {a,c,d}). '
                     'Attachments a, c, d, e: the text retains the appearances of a, c, d, e in the facial walks.',
@@ -787,7 +750,7 @@ def build_R9():
                'walks containing b, c, d': st['single'], 'pairs': counter_dict(st['pairs'])},
               set(st['planar']) == {'ab ace ace ad bc de'} and st['single'] == 0 and
               set(st['pairs']) == {'ad | bc', 'bc | de'})]
-    return {'item': 'R9', 'where': 'Lemma 6.17 (proof)', 'paper text': paper_passages('R9', before=6, after=16),
+    return {'item': 'R9', 'where': 'Lemma 6.18 (proof)', 'paper text': paper_passages('R9', before=6, after=16),
             'what': 'Every rotation system of Psi_3 + ce. Attachments a, b, c, d, e; twins omitted.',
             'how to read': HOW_TO_READ, 'graphs': [rec], 'claims': claims}
 
@@ -807,7 +770,7 @@ def build_R10():
     claims = [claim('Enumerating all rotations of each exterior gives no planar rotations. The genus-one facial walks '
                     'containing a, b, d have sequence abad, with abd also possible for the {a,c,d} exterior.',
                     comp, ok)]
-    return {'item': 'R10', 'where': 'Lemma 6.17 (proof)', 'paper text': paper_passages('R10', before=8, after=6),
+    return {'item': 'R10', 'where': 'Lemma 6.19 (proof)', 'paper text': paper_passages('R10', before=8, after=6),
             'what': 'Every rotation system of the exteriors Psi_3 + ce + v with N(v) = {a,b,c}, {a,d,e}, {a,c,d}, '
                     'and Psi_3 + v with N(v) = {c,d,e}. Attachments a, b, c, d, e; twins and v omitted.',
             'how to read': HOW_TO_READ, 'graphs': graphs, 'claims': claims}
@@ -827,7 +790,7 @@ def build_R11():
     claims = [claim('Both exteriors have no planar rotation (they contain K_{3,3}). Their genus-one facial walks '
                     'containing a, b, d give exactly abad, abd, adbd, and both four-letter sequences occur (for each '
                     'exterior).', comp, ok)]
-    return {'item': 'R11', 'where': 'Lemma 6.17 (proof)', 'paper text': paper_passages('R11', before=10, after=10),
+    return {'item': 'R11', 'where': 'Lemma 6.19 (proof)', 'paper text': paper_passages('R11', before=10, after=10),
             'what': 'Every rotation system of Psi_3 + ce + v with N(v) = {b,c,d}, and of Psi_3 + ce + cd. '
                     'Attachments a, b, c, d, e; twins and v omitted.',
             'how to read': HOW_TO_READ, 'graphs': graphs, 'claims': claims}

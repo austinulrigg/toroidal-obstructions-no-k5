@@ -299,10 +299,6 @@ def check_R1():
         assert info['faces'] == ws
         assert info['regions'] == rec['distinct rows'][rec['rows'][i]][2]
     assert dict(per) == c[2]['torus rotation systems per triple'] and len(per) == 12
-    for t, reg in c[3]['region along P_k for the choices (k,x,x)'].items():
-        k, x = int(t[0]), int(t[1])
-        assert t[1] == t[2] and reg == ' | '.join(sorted(['s%d s%d' % tuple(sorted((k, x))),
-                                                         't%d t%d' % tuple(sorted((k, x)))])) + ' (annulus)'
     return 'R1 ok'
 
 
@@ -434,7 +430,7 @@ def check_R4():
     assert set(s22['planar']) == {'ab ab ac ad bc bd'} and not s22['single'] and \
         set(s22['pairs']) == {'ac | bd', 'ad | bc'}
     assert b32.get(0, 0) == 0 and b33.get(0, 0) == 0
-    l516 = [cl for cl in c if cl['where'] == 'Lemma 5.23'][0]['computed']
+    l516 = [cl for cl in c if cl['where'] == 'Lemma 5.29'][0]['computed']
     assert l516 == {'rotations with a walk containing c and d': s22['cd'],
                     'alternation in a face with three labels': s22['alt3'], 'alternation in any face': s22['alt']}
     assert s22['cd'] == 80 and s22['alt3'] == 0

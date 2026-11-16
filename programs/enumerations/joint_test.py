@@ -35,13 +35,6 @@ def graph_record(graph):
     return {'vertices': sorted(graph), 'edges': edges(graph)}
 
 
-def core_graph():
-    graph = nx.Graph()
-    graph.add_nodes_from(CORE_VERTICES)
-    graph.add_edges_from(CORE_EDGES)
-    return graph
-
-
 def preserved_core(graph):
     return (set(CORE_VERTICES) <= set(graph)
             and all(graph.has_edge(*e) for e in CORE_EDGES)

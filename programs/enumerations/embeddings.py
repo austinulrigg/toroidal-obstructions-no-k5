@@ -1,5 +1,5 @@
 """Torus embeddings (rotation systems of genus at most one) found with
-multi_genus, used by E5 for its toroidal graphs.
+multi_genus, used by E4 for its toroidal graphs.
 
 multi_genus (the program bundled with the package graph-genus, or the one
 named by the environment variable MULTI_GENUS) is called with the arguments

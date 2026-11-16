@@ -1,51 +1,5807 @@
 {
  "item": "E10",
- "where": "Lemma 5.9",
+ "where": "Proposition 5.16",
  "paper text": [
   {
-   "where": "Lemma 5.9 (proof)",
-   "text": "Construction~\\ref{common:marked-construction},\nwith attachments $x,c,d$ and added edges $xc,xd$,\nlists the reduced bridges before $x$ is separated.\nReplace each edge $xv$ by $av$ or $bv$ and add\nan edge to the interior at $a$ or $b$ if needed,\nconsidering every possible choice. This includes\nevery reduction above. Adjoin three vertices\nwith neighborhood $\\{a,b,c\\}$ and two with\nneighborhood $\\{a,b,d\\}$. The enumeration~\\supp{E10} gives $2{,}953$\ncandidates up to isomorphisms fixing the attachments.\nOf these, $2{,}159$ have a $K_5$ minor, $92$ have\na separating set of at most two vertices, and $702$\nhave a proper nontoroidal minor. These exclude\nevery candidate, so $H$ cannot be planar."
+   "where": "Proposition 5.16 (proof)",
+   "text": "\\begin{proposition}\\label{r2:ab-cut-outcome}\nIf $X=\\{a,b,w\\}$, then $G$ is isomorphic to one of $\\mathfrak T_{56},\\mathfrak T_{72},\\mathfrak T_{73}$.\n\\end{proposition}\n\\begin{proof}\nWe distinguish whether $c,d$ lie in different components of $B-X$ or in the same component. Lemmas~\\ref{r2:ab-cut-apart} and~\\ref{r2:ab-cut-same} give the possible forms of $D_c$, $D_d$ and $D_1$. For each form, discard it if a proper reduction preserves its neighborhood in $X$, the required connectivity and the planarity conditions established for that case. The check in~\\supp{E10} leaves $33$ forms for $D_c$, the same forms for $D_d$ after relabeling, and $54$ forms for $D_1$."
+  },
+  {
+   "where": "Proposition 5.16 (proof)",
+   "text": "If $c,d$ lie apart, take one retained form for $D_c$ and one for $D_d$. If exactly one component avoids $c,d$, include one of the eleven bridges of Lemma~\\ref{r2:ab-cut-single} and a permitted subset of $\\{aw,bw\\}$. If two components avoid $c,d$, include the two single vertices adjacent to all of $X$. In this case $aw,bw$ are absent by Lemma~\\ref{lem:independent-neighborhood}(a). If $c,d$ lie together, take one retained form for $D_1$ and include those same two single vertices. Keeping the combinations for which $B$ is planar leaves $1{,}471$ candidates. Of these, the obstruction check in~\\supp{E10} leaves only $\\mathfrak T_{56},\\mathfrak T_{72},\\mathfrak T_{73}$, each with exactly one component of $B-X$ avoiding $c,d$.\n\\end{proof}"
   }
  ],
- "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ...",
- "cases of the construction": {
-  "lifts": {
-   "specification": {
-    "quotient roots": [
-     "r",
-     "c",
-     "d"
-    ],
-    "added edges": [
-     [
-      "r",
-      "c"
+ "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with {a,b,d}. X = {a,b,w}. Interior vertices: U* in B_0, C* in D_c, D* in D_d, R* in D_1, k1, k2 the two singleton components.",
+ "subcases": {
+  "a": "one component D_0 with bridge B_0, and the components D_c, D_d",
+  "b": "two singleton components with neighbourhood {a,b,w}, and D_c, D_d",
+  "c": "two singleton components with neighbourhood {a,b,w}, and the common component D_1"
+ },
+ "construction of D_c": "with all four graphs H_c + E planar, at most two single vertices on c, w and some of a, b, with or without cw; otherwise Construction 3.18 with attachments a, b, c, w, added edges ab, aw, bw and E (E = {ac}, {bc} or {ac, bc}, required), original pair cw as an edge or a once-subdivided segment, or on the quotient (H_c + ac + bc)/ab with every lift of the edges at the identified vertex; every interior component given its neighbours at c and w, and at most two further single vertices for missing neighbours at a, b",
+ "construction of D_1": "Construction 3.18 with attachments a, c, d, w, added edges ac, ad, aw, the subdivision using ac or ad, original pairs cw, dw as an edge or a once-subdivided segment; the interior pieces divided into components in every way and joined by every forest; then at most two further single vertices, each adjacent to w and to c or d (and possibly a), and every inclusion-minimal set of attaching edges from the retained components that makes every interior component meet w and c or d, joins c and d through the interior, and, for N(D_1) = {a,w}, gives a an interior neighbour; the whole configuration minimal. Both N(D_1) = {w} and {a,w}.",
+ "reduction": "forms with a one-step proper minor of the same signature (neighbourhood and planar completions) that meets the same conditions are removed before combination",
+ "B": "B is G minus p, q, r, z and the edges among a, b, c, d. Each candidate is a class of isomorphic assembled graphs, recorded by a member whose B is planar whenever the class has one, and gives a plane rotation system of B or a Kuratowski subgraph of it. The candidates with B planar are those retained in Section 5.4.",
+ "forms": {
+  "forms of B_0 (the eleven of the proof)": [
+   {
+    "name": "one vertex",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "h",
+      "w"
      ],
-     [
-      "r",
-      "d"
+     "edges": [
+      [
+       "a",
+       "h"
+      ],
+      [
+       "b",
+       "h"
+      ],
+      [
+       "h",
+       "w"
+      ]
      ]
-    ],
-    "lifted roots": [
-     "a",
-     "b",
-     "c",
-     "d"
-    ]
+    }
    },
-   "root placements": 4270,
-   "root placement classes": 115,
-   "full placements": 115,
-   "valid retained subdivisions": 115,
-   "recipes": 861,
-   "parts up to rooted isomorphism": 2953,
-   "quotient parts": 349,
-   "lifts": 4428,
-   "outcomes": {
-    "cut of order at most two": 92,
-    "proper nontoroidal minor": 702,
-    "K5 minor": 2159
+   {
+    "name": "T(a)",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "d1",
+      "d2",
+      "u",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "u"
+      ],
+      [
+       "b",
+       "d1"
+      ],
+      [
+       "b",
+       "d2"
+      ],
+      [
+       "d1",
+       "u"
+      ],
+      [
+       "d1",
+       "w"
+      ],
+      [
+       "d2",
+       "u"
+      ],
+      [
+       "d2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "name": "T(b)",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "d1",
+      "d2",
+      "u",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "d1"
+      ],
+      [
+       "a",
+       "d2"
+      ],
+      [
+       "b",
+       "u"
+      ],
+      [
+       "d1",
+       "u"
+      ],
+      [
+       "d1",
+       "w"
+      ],
+      [
+       "d2",
+       "u"
+      ],
+      [
+       "d2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "name": "T(w)",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "d1",
+      "d2",
+      "u",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "d1"
+      ],
+      [
+       "a",
+       "d2"
+      ],
+      [
+       "b",
+       "d1"
+      ],
+      [
+       "b",
+       "d2"
+      ],
+      [
+       "d1",
+       "u"
+      ],
+      [
+       "d2",
+       "u"
+      ],
+      [
+       "u",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "name": "S(a;b)",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "d1",
+      "d2",
+      "f",
+      "u",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "d1"
+      ],
+      [
+       "a",
+       "d2"
+      ],
+      [
+       "a",
+       "f"
+      ],
+      [
+       "b",
+       "d1"
+      ],
+      [
+       "b",
+       "d2"
+      ],
+      [
+       "d1",
+       "u"
+      ],
+      [
+       "d2",
+       "u"
+      ],
+      [
+       "f",
+       "u"
+      ],
+      [
+       "f",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "name": "S(a;w)",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "d1",
+      "d2",
+      "f",
+      "u",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "d1"
+      ],
+      [
+       "a",
+       "d2"
+      ],
+      [
+       "a",
+       "f"
+      ],
+      [
+       "b",
+       "f"
+      ],
+      [
+       "d1",
+       "u"
+      ],
+      [
+       "d1",
+       "w"
+      ],
+      [
+       "d2",
+       "u"
+      ],
+      [
+       "d2",
+       "w"
+      ],
+      [
+       "f",
+       "u"
+      ]
+     ]
+    }
+   },
+   {
+    "name": "S(b;a)",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "d1",
+      "d2",
+      "f",
+      "u",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "d1"
+      ],
+      [
+       "a",
+       "d2"
+      ],
+      [
+       "b",
+       "d1"
+      ],
+      [
+       "b",
+       "d2"
+      ],
+      [
+       "b",
+       "f"
+      ],
+      [
+       "d1",
+       "u"
+      ],
+      [
+       "d2",
+       "u"
+      ],
+      [
+       "f",
+       "u"
+      ],
+      [
+       "f",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "name": "S(b;w)",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "d1",
+      "d2",
+      "f",
+      "u",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "f"
+      ],
+      [
+       "b",
+       "d1"
+      ],
+      [
+       "b",
+       "d2"
+      ],
+      [
+       "b",
+       "f"
+      ],
+      [
+       "d1",
+       "u"
+      ],
+      [
+       "d1",
+       "w"
+      ],
+      [
+       "d2",
+       "u"
+      ],
+      [
+       "d2",
+       "w"
+      ],
+      [
+       "f",
+       "u"
+      ]
+     ]
+    }
+   },
+   {
+    "name": "Q(a;b,w)",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "d1",
+      "d2",
+      "u",
+      "v",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "d1"
+      ],
+      [
+       "a",
+       "d2"
+      ],
+      [
+       "b",
+       "u"
+      ],
+      [
+       "d1",
+       "u"
+      ],
+      [
+       "d1",
+       "v"
+      ],
+      [
+       "d2",
+       "u"
+      ],
+      [
+       "d2",
+       "v"
+      ],
+      [
+       "v",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "name": "Q(b;a,w)",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "d1",
+      "d2",
+      "u",
+      "v",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "u"
+      ],
+      [
+       "b",
+       "d1"
+      ],
+      [
+       "b",
+       "d2"
+      ],
+      [
+       "d1",
+       "u"
+      ],
+      [
+       "d1",
+       "v"
+      ],
+      [
+       "d2",
+       "u"
+      ],
+      [
+       "d2",
+       "v"
+      ],
+      [
+       "v",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "name": "Q(w;a,b)",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "d1",
+      "d2",
+      "u",
+      "v",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "u"
+      ],
+      [
+       "b",
+       "v"
+      ],
+      [
+       "d1",
+       "u"
+      ],
+      [
+       "d1",
+       "v"
+      ],
+      [
+       "d1",
+       "w"
+      ],
+      [
+       "d2",
+       "u"
+      ],
+      [
+       "d2",
+       "v"
+      ],
+      [
+       "d2",
+       "w"
+      ]
+     ]
+    }
    }
+  ],
+  "forms of D_c (D_d is the same with d for c)": [
+   {
+    "index": 0,
+    "signature": [
+     "aw",
+     true,
+     true,
+     true,
+     true
+    ],
+    "origin": "no subdivision",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "f0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "f0"
+      ],
+      [
+       "c",
+       "f0"
+      ],
+      [
+       "f0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 1,
+    "signature": [
+     "bw",
+     true,
+     true,
+     true,
+     true
+    ],
+    "origin": "no subdivision",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "f0",
+      "w"
+     ],
+     "edges": [
+      [
+       "b",
+       "f0"
+      ],
+      [
+       "c",
+       "f0"
+      ],
+      [
+       "f0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 2,
+    "signature": [
+     "abw",
+     true,
+     true,
+     true,
+     true
+    ],
+    "origin": "no subdivision",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "f0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "f0"
+      ],
+      [
+       "b",
+       "f0"
+      ],
+      [
+       "c",
+       "f0"
+      ],
+      [
+       "f0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 3,
+    "signature": [
+     "aw",
+     true,
+     true,
+     false,
+     false
+    ],
+    "origin": "no subdivision",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "f0",
+      "f1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "f0"
+      ],
+      [
+       "a",
+       "f1"
+      ],
+      [
+       "c",
+       "f0"
+      ],
+      [
+       "c",
+       "f1"
+      ],
+      [
+       "f0",
+       "w"
+      ],
+      [
+       "f1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 4,
+    "signature": [
+     "abw",
+     true,
+     true,
+     true,
+     true
+    ],
+    "origin": "no subdivision",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "f0",
+      "f1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "f0"
+      ],
+      [
+       "b",
+       "f1"
+      ],
+      [
+       "c",
+       "f0"
+      ],
+      [
+       "c",
+       "f1"
+      ],
+      [
+       "f0",
+       "w"
+      ],
+      [
+       "f1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 5,
+    "signature": [
+     "abw",
+     true,
+     true,
+     false,
+     false
+    ],
+    "origin": "no subdivision",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "f0",
+      "f1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "f0"
+      ],
+      [
+       "a",
+       "f1"
+      ],
+      [
+       "b",
+       "f1"
+      ],
+      [
+       "c",
+       "f0"
+      ],
+      [
+       "c",
+       "f1"
+      ],
+      [
+       "f0",
+       "w"
+      ],
+      [
+       "f1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 6,
+    "signature": [
+     "bw",
+     true,
+     false,
+     true,
+     false
+    ],
+    "origin": "no subdivision",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "f0",
+      "f1",
+      "w"
+     ],
+     "edges": [
+      [
+       "b",
+       "f0"
+      ],
+      [
+       "b",
+       "f1"
+      ],
+      [
+       "c",
+       "f0"
+      ],
+      [
+       "c",
+       "f1"
+      ],
+      [
+       "f0",
+       "w"
+      ],
+      [
+       "f1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 7,
+    "signature": [
+     "abw",
+     true,
+     false,
+     true,
+     false
+    ],
+    "origin": "no subdivision",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "f0",
+      "f1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "f1"
+      ],
+      [
+       "b",
+       "f0"
+      ],
+      [
+       "b",
+       "f1"
+      ],
+      [
+       "c",
+       "f0"
+      ],
+      [
+       "c",
+       "f1"
+      ],
+      [
+       "f0",
+       "w"
+      ],
+      [
+       "f1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 8,
+    "signature": [
+     "w",
+     true,
+     true,
+     true,
+     true
+    ],
+    "origin": "no subdivision",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "w"
+     ],
+     "edges": [
+      [
+       "c",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 9,
+    "signature": [
+     "abw",
+     true,
+     true,
+     true,
+     false
+    ],
+    "origin": "no subdivision",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "f0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "f0"
+      ],
+      [
+       "b",
+       "f0"
+      ],
+      [
+       "c",
+       "f0"
+      ],
+      [
+       "c",
+       "w"
+      ],
+      [
+       "f0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 10,
+    "signature": [
+     "aw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 11,
+    "signature": [
+     "abw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "b",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 12,
+    "signature": [
+     "bw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "w"
+     ],
+     "edges": [
+      [
+       "b",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 13,
+    "signature": [
+     "abw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "a",
+       "i3"
+      ],
+      [
+       "b",
+       "i0"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 14,
+    "signature": [
+     "abw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "b",
+       "i3"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 15,
+    "signature": [
+     "abw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "b",
+       "i3"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i3",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 16,
+    "signature": [
+     "abw",
+     true,
+     false,
+     true,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "b",
+       "i0"
+      ],
+      [
+       "b",
+       "i1"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 17,
+    "signature": [
+     "aw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 18,
+    "signature": [
+     "abw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "b",
+       "i0"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 19,
+    "signature": [
+     "abw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "b",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 20,
+    "signature": [
+     "bw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "b",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 21,
+    "signature": [
+     "abw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "b",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 22,
+    "signature": [
+     "abw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "b",
+       "i2"
+      ],
+      [
+       "b",
+       "i3"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 23,
+    "signature": [
+     "w",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "i3"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 24,
+    "signature": [
+     "aw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "w"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 25,
+    "signature": [
+     "abw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "b",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "w"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 26,
+    "signature": [
+     "bw",
+     true,
+     false,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "b",
+       "i0"
+      ],
+      [
+       "b",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "w"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 27,
+    "signature": [
+     "abw",
+     true,
+     false,
+     true,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "b",
+       "i0"
+      ],
+      [
+       "b",
+       "i1"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 28,
+    "signature": [
+     "abw",
+     true,
+     false,
+     true,
+     false
+    ],
+    "origin": "subdivision of H_C + ac",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "b",
+       "i0"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "w"
+      ],
+      [
+       "i0",
+       "i1"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 29,
+    "signature": [
+     "abw",
+     true,
+     true,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + bc",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "b",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 30,
+    "signature": [
+     "abw",
+     true,
+     true,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + bc",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "b",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 31,
+    "signature": [
+     "abw",
+     true,
+     true,
+     false,
+     false
+    ],
+    "origin": "subdivision of H_C + bc",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "b",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "c",
+       "w"
+      ],
+      [
+       "i0",
+       "i1"
+      ],
+      [
+       "i0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 32,
+    "signature": [
+     "abw",
+     true,
+     true,
+     true,
+     false
+    ],
+    "origin": "subdivision of H_C + ac+bc",
+    "graph": {
+     "vertices": [
+      "a",
+      "b",
+      "c",
+      "i0",
+      "i1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "b",
+       "i1"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "i0",
+       "i1"
+      ],
+      [
+       "i0",
+       "w"
+      ]
+     ]
+    }
+   }
+  ],
+  "forms of D_1": [
+   {
+    "index": 0,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "i5",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i5"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i0",
+       "i5"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i1",
+       "i5"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i5",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 1,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "i5",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i5"
+      ],
+      [
+       "d",
+       "i5"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i0",
+       "i5"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i1",
+       "i5"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 2,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "i5",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i5"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i0",
+       "i5"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i1",
+       "i5"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i5",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 3,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 4,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 5,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 6,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 7,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 8,
+    "signature": [
+     "w",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "w"
+     ],
+     "edges": [
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 9,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "s0"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 10,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "s0"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 11,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 12,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 13,
+    "signature": [
+     "w",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "w"
+     ],
+     "edges": [
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 14,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "s0"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 15,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "s0"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i2",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 16,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "i5",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "i5"
+      ],
+      [
+       "d",
+       "i5"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i5",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 17,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "i5",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i5"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "d",
+       "i5"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "i5",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 18,
+    "signature": [
+     "w",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "w"
+     ],
+     "edges": [
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 19,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 20,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "s0"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 21,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "i4",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "s0"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "i4"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "i4"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "i4"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 22,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 23,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 24,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "i2",
+       "i3"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 25,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 26,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 27,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 28,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 29,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "a",
+       "i3"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 30,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "d",
+       "i3"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i3",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 31,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "a",
+       "i3"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 32,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i3"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i3",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 33,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i3"
+      ],
+      [
+       "d",
+       "i3"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 34,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 35,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 36,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 37,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 38,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i2"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 39,
+    "signature": [
+     "w",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "w"
+     ],
+     "edges": [
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 40,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 41,
+    "signature": [
+     "w",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "i3"
+      ],
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 42,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "s0"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "i3"
+      ],
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 43,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "s0",
+      "s1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "s0"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "i3"
+      ],
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "c",
+       "s1"
+      ],
+      [
+       "d",
+       "s1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ],
+      [
+       "s1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 44,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "s0",
+      "s1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "s0"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "i3"
+      ],
+      [
+       "c",
+       "s1"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "d",
+       "s1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ],
+      [
+       "s1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 45,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "c",
+       "w"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 46,
+    "signature": [
+     "w",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "d",
+       "i3"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 47,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "s0",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "s0"
+      ],
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "d",
+       "i3"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 48,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "s0",
+      "s1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "s0"
+      ],
+      [
+       "c",
+       "s0"
+      ],
+      [
+       "c",
+       "s1"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "d",
+       "i3"
+      ],
+      [
+       "d",
+       "s1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ],
+      [
+       "s1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 49,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "i3",
+      "s0",
+      "s1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "s0"
+      ],
+      [
+       "c",
+       "s1"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "d",
+       "i3"
+      ],
+      [
+       "d",
+       "s0"
+      ],
+      [
+       "d",
+       "s1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "i3"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "i3"
+      ],
+      [
+       "i1",
+       "w"
+      ],
+      [
+       "s0",
+       "w"
+      ],
+      [
+       "s1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 50,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "c",
+       "i2"
+      ],
+      [
+       "d",
+       "i2"
+      ],
+      [
+       "d",
+       "w"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i0",
+       "w"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 51,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "c",
+       "w"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 52,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "i2",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i0"
+      ],
+      [
+       "c",
+       "i1"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "i1"
+      ],
+      [
+       "d",
+       "w"
+      ],
+      [
+       "i0",
+       "i2"
+      ],
+      [
+       "i1",
+       "i2"
+      ],
+      [
+       "i2",
+       "w"
+      ]
+     ]
+    }
+   },
+   {
+    "index": 53,
+    "signature": [
+     "aw",
+     false
+    ],
+    "origin": "subdivision of R + {a,w} + ac + ad + aw",
+    "graph": {
+     "vertices": [
+      "a",
+      "c",
+      "d",
+      "i0",
+      "i1",
+      "w"
+     ],
+     "edges": [
+      [
+       "a",
+       "i1"
+      ],
+      [
+       "c",
+       "i0"
+      ],
+      [
+       "c",
+       "w"
+      ],
+      [
+       "d",
+       "i0"
+      ],
+      [
+       "d",
+       "w"
+      ],
+      [
+       "i0",
+       "i1"
+      ],
+      [
+       "i1",
+       "w"
+      ]
+     ]
+    }
+   }
+  ],
+  "how the forms of D_c were found": {
+   "subdivision ac": {
+    "retained": 412,
+    "forms": 4942
+   },
+   "subdivision bc": {
+    "retained": 412,
+    "forms": 4942
+   },
+   "subdivision ac+bc": {
+    "retained": 76,
+    "forms": 649
+   },
+   "quotient": {
+    "retained": 40,
+    "forms": 2392
+   },
+   "generated": 12955,
+   "valid": 2857,
+   "valid up to isomorphism": 730,
+   "without a one-step minor of the same signature": 33
+  },
+  "how the forms of D_1 were found": {
+   "retained subdivisions": 947,
+   "groupings": 5525,
+   "completed forms": 14827,
+   "valid": 14827,
+   "valid up to isomorphism": 8006,
+   "without a one-step minor of the same signature": 54
   }
- }
+ },
+ "assembled graphs (with repetitions)": 49059
 }

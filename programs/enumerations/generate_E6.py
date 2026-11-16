@@ -1,63 +1,120 @@
-"""E6: bridges of type (c) with at least two interior vertices (Proposition 4.25).
+"""E6: bridges of type (a) with at least two interior vertices (Proposition 4.28).
 
-The names are those of the proof: a = s1, b = t1, c = s2, d = t3,
-e = s3, f = t2, with twins p, q on {a, c, e} and r, z on {b, d, f}. The
-bridge B contains P1 and has attachments a, b, c, d; P2 = cf and P3 = ed are
-edges, so H_simp is the cycle c f d e c. The rest of G is H_ext, one of the
-six sets of the proof (up to interchanging a, b and c, d): empty, {ad},
-{h_a}, {ad, bc}, {ad, h_b}, {h_a, h_b}, where N(h_a) = acd and
-N(h_b) = bcd (the program writes hA, hB).
-
-B is a part of Construction 3.17 with attachments a, b, c, d and added
-edges ac, bd and H_ext. The retained K3,3 subdivision must use h_a, h_b
-with their edges to c and d, and ad, bc when present; it must use bd when
-neither h_b nor bc occurs, and ac when neither h_a nor ad occurs. B has at
-least two interior vertices. Every resulting graph G is classified
-(enumeration.classify). The proof finds T21 and T63 only.
+B has attachments sx, tx, sy, ty (s_x, t_x, s_y, t_y in the paper), and C is
+the cycle sx tx ty sy sx. By the proof, B is a part of Construction 3.18
+with these attachments and added edges E(C), and the retained K3,3
+subdivision uses sy ty. Each part is tested against the conditions of the
+proof, in this order: B + C is nonplanar; the path completion
+B + sy sx + sx tx + tx ty is planar; B + K4[sx,tx,sy,ty] has no cut of at
+most two vertices; no interior vertex of degree three has two adjacent
+neighbours in B + sx tx + sy ty (Lemma 3.4(a), as P_x and P_y are edges);
+B has no disjoint sx-ty and sy-tx paths; and every one-step allowed
+operation of Section 3 makes B + C planar. A part failing a condition is
+recorded with a certificate. The proof finds one bridge, up to
+interchanging A1 and A2: twins p', q' on {sx, sy, v}, with v also adjacent
+to tx and ty.
 
 Run as: python generate_E6.py FOLDER
 """
+import json
 import sys
-import networkx as nx
+from itertools import combinations
+from pathlib import Path
+
 import enumeration as el
 
-R = ("a", "b", "c", "d")
-HA, HB = ("a", "c", "d"), ("b", "c", "d")
-ZS = [("Z0", [], {}, [("b", "d"), ("a", "c")]),
-      ("Z_ad", [("a", "d")], {}, [("a", "d"), ("b", "d")]),
-      ("Z_hA", [], {"hA": HA}, [("hA", "c"), ("hA", "d"), ("b", "d")]),
-      ("Z_ad_bc", [("a", "d"), ("b", "c")], {}, [("a", "d"), ("b", "c")]),
-      ("Z_ad_hB", [("a", "d")], {"hB": HB}, [("a", "d"), ("hB", "c"), ("hB", "d")]),
-      ("Z_hA_hB", [], {"hA": HA, "hB": HB}, [("hA", "c"), ("hA", "d"), ("hB", "c"), ("hB", "d")])]
+R = ("sx", "tx", "sy", "ty")
+CYCLE = [("sx", "tx"), ("tx", "ty"), ("ty", "sy"), ("sy", "sx")]
+PATH = [("sy", "sx"), ("sx", "tx"), ("tx", "ty")]
 
 
-def exterior():
-    G = nx.Graph()
-    G.add_edges_from((v, s) for v in "pq" for s in "ace")   # S = {a, c, e}
-    G.add_edges_from((v, t) for v in "rz" for t in "bfd")   # T = {b, f, d}
-    G.add_edges_from([("c", "f"), ("e", "d")])              # R2 = s2t2, R3 = s3t3
-    return G
+def plus(B, edges):
+    H = B.copy()
+    H.add_edges_from(edges)
+    return H
 
 
-def case(name, zedges, outside, req):
-    spec = el.Spec(R, outside=outside, c_edges=[("a", "c"), ("b", "d")] + zedges, required=req)
-
-    def assemble(P):
-        G = exterior()
-        G.add_edges_from(P.edges())
-        G.add_edges_from(zedges)
-        for h, nb in outside.items():
-            G.add_edges_from((h, x) for x in nb)
-        return G
-    return (name, spec, assemble, {"min_interior": 2})
+def classify_bridge(B):
+    ok, cert = el.planarity_certificate(plus(B, CYCLE))
+    if ok:
+        return {"outcome": "B + C planar", "rotation": cert}
+    kur = cert
+    ok, cert = el.planarity_certificate(plus(B, PATH))
+    if not ok:
+        return {"outcome": "path completion nonplanar", "kuratowski": cert}
+    path_rot = cert
+    K4 = plus(B, combinations(R, 2))
+    cut = el.small_cut(K4)
+    if cut is not None:
+        return {"outcome": "B + K4[R] has a cut of order at most two", "cut": [str(v) for v in cut]}
+    # Lemma 3.4(a): a vertex of degree three has independent neighbors. In G
+    # the paths P_x = sx tx and P_y = sy ty are edges.
+    Gpart = plus(B, [("sx", "tx"), ("sy", "ty")])
+    for v in sorted((v for v in B if v not in R), key=str):
+        if B.degree(v) == 3:
+            nb = sorted(B[v], key=str)
+            bad = [[str(a), str(b)] for a, b in combinations(nb, 2) if Gpart.has_edge(a, b)]
+            if bad:
+                return {"outcome": "degree-three vertex with adjacent neighbors (Lemma 3.4(a))",
+                        "vertex": str(v), "adjacent neighbors": bad[0]}
+    dp = el.disjoint_paths(B, R, [("sx", "ty"), ("sy", "tx")])
+    if dp:
+        return {"outcome": "disjoint sx-ty and sy-tx paths", "paths": [[str(v) for v in p] for p in dp]}
+    planar_minors = []
+    for (op, args), H in el.allowed_operations(B, R):
+        ok, cert = el.planarity_certificate(plus(H, CYCLE))
+        if not ok:
+            return {"outcome": "allowed minor keeps B + C nonplanar", "operation": op, "arguments": args,
+                    "kuratowski": cert}
+        planar_minors.append({"operation": op, "arguments": args, "rotation": cert})
+    return {"outcome": "survivor", "B + C kuratowski": kur, "path completion rotation": path_rot,
+            "allowed minors": planar_minors}
 
 
 if __name__ == "__main__":
-    out = sys.argv[1]
-    s = el.run_item("E6", [case(*z) for z in ZS], ["T21", "T63"], out,
-                    note="a=s1, b=t1, c=s2, d=t3, e=s3, f=t2; p,q on ace; r,z on bfd")
-    import json
-    print(json.dumps({k: s[k] for k in ("candidates", "outcomes", "catalogue graphs found",
-                                         "agrees with the text", "seconds")}, indent=1))
-    for k, v in s["cases"].items():
-        print(k, v["parts up to rooted isomorphism"], v["outcomes"])
+    import time
+    from collections import Counter
+    t0 = time.time()
+    out = Path(sys.argv[1])
+    out.mkdir(parents=True, exist_ok=True)
+    spec = el.Spec(R, c_edges=CYCLE, required=[("sy", "ty")])
+    parts, st = el.generate_parts(spec, min_interior=2)
+    records = []
+    for k, (B, recipe) in enumerate(parts):
+        res = classify_bridge(B)
+        rec = {"id": "E6-%04d" % k, "part": el.graph_record(B), "recipe": recipe, "outcome": res}
+        if res["outcome"] == "survivor":
+            # the edges whose deletion keeps B + C nonplanar
+            excl = []
+            for e in sorted(B.edges(), key=el.edge_key):
+                H = B.copy(); H.remove_edge(*e)
+                ok, cert = el.planarity_certificate(plus(H, CYCLE))
+                if not ok:
+                    excl.append({"deleted edge": list(el.edge_key(e)), "kuratowski": cert})
+            rec["edge deletions keeping B + C nonplanar"] = excl
+        records.append(rec)
+    counts = Counter(r["outcome"]["outcome"] for r in records)
+    surv = [r for r in records if r["outcome"]["outcome"] == "survivor"]
+    summary = {"item": "E6", "where": "Proposition 4.28",
+               "specification": spec.payload(), "generation": st, "candidates": len(records),
+               "outcomes": dict(counts),
+               "survivors": [{"id": r["id"], "edges": r["part"]["edges"],
+                              "deletions keeping B + C nonplanar": [x["deleted edge"] for x in
+                                                                    r["edge deletions keeping B + C nonplanar"]]}
+                             for r in surv],
+               "seconds": round(time.time() - t0, 1)}
+    json.dump({"item": "E6", "roots": list(R),
+               "test graphs": {"B + C": CYCLE, "B + path": PATH,
+                               "B + K4[R]": [list(e) for e in combinations(R, 2)],
+                               "B + Rx + Ry": [["sx", "tx"], ["sy", "ty"]]},
+               "outcome tests": {
+                   "B + C planar": ["planar", "B + C"],
+                   "path completion nonplanar": ["nonplanar", "B + path"],
+                   "B + K4[R] has a cut of order at most two": ["cut", "B + K4[R]"],
+                   "degree-three vertex with adjacent neighbors (Lemma 3.4(a))": ["degree three", "B + Rx + Ry"],
+                   "disjoint sx-ty and sy-tx paths": ["disjoint paths", [["sx", "ty"], ["sy", "tx"]]],
+                   "allowed minor keeps B + C nonplanar": ["allowed minor nonplanar", "B + C"],
+                   "survivor": ["survivor", "B + C", "B + path"]},
+               "candidates": records}, open(out / "candidates.json", "w"))
+    json.dump(summary, open(out / "summary.json", "w"), indent=1)
+    print(json.dumps(summary, indent=1))

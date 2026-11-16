@@ -3,11 +3,91 @@
  "where": "Proposition 4.21",
  "paper text": [
   {
-   "line": 3948,
-   "text": "component cannot be drawn for either choice $(1,2,2)$\nor $(2,1,1)$. An edge $s_it_j$ on $\\{1,3\\}$ excludes the\nfirst choice, and one on $\\{2,3\\}$ excludes the second.\nRetaining $\\Psi_1$, $B$ and one such bridge, or one such\nedge on each pair, therefore gives a nontoroidal subgraph.\nBy minimality, it is $G$.\n\nApply Theorem~\\ref{thm:mohar} to $B\\cup C_0$, where\n$C_0=abdca$. Its auxiliary graph is three-connected by\n\\cite[Lemma~4.2]{Mohar1994}, applied to the $C_0$-bridge\n$B$ in the three-connected graph $G+E(C_0)$. Thus outcome\n(c) does not occur. Outcome (a) would give disjoint\n$a$--$d$ and $b$--$c$ paths with internal vertices in\n$D$, contrary to Lemma~\\ref{dis:opposite-order}.\nHence $B$ contains a tripod.\n\nSome attachment path of the tripod is nontrivial.\nOtherwise removing its three attachments leaves two\ndisjoint trees in $D$. Join them by a shortest path\nin $D$ and contract to two adjacent vertices, each\nadjacent to all three attachments. Together with\n$\\Psi_1$, this gives a $K_5$ minor~\\supp{W8}.\n\nSince the fourth attachment has a neighbor in connected $D$,\ntake a path $P$ from it to a vertex of the tripod in $D$,\nwith internal vertices in $D$ and meeting the tripod only\nat its last vertex. Contract the unused vertices of $D$\nonto the tripod and $P$. Shorten the tripod as in the\nproof of Lemma~\\ref{endpoint:primitive}, retaining $P$\nand choosing the attachment path through its last vertex\nas the nontrivial one if there is such a path. Shorten\n$P$ to an edge. This gives $T(g)$ on the tripod's\nattachments, with the fourth attachment adjacent to\n$u$, $p'$ or $q'$.\n\nShorten another four-attachment component in the same\nway, or a three-attachment component to $T(g')$ by\nLemma~\\ref{dis:exterior-triangles}. Each retained $T$\nhas nonplanar triangle completion, so the reduced bridges\nstill cannot be drawn in simple faces. The shortened\ngraph remains nontoroidal and hence equals $G$ by\nminimality. In particular, a bridge on $s_i,t_i,v$\nis $T(s_i)$ or $T(t_i)$, since $T(v)$ has a degree-three\nvertex adjacent to both ends of $s_it_i$.\n\nUp to interchanging $A_1,A_2$ and the indices $1,2$, the\nfourth attachment of $B$ is $c$ and the tripod attaches\nat $a,b,d$. If $g=d$, one of $p',q'$ has neighborhood\n$\\{a,b,u\\}$, contrary to\nLemma~\\ref{lem:independent-neighborhood}(a). If $c$ is\nadjacent to $p'$, or symmetrically $q'$, the paths\n$auq'd$ and $bp'c$ for $g=a$, or $aq'd$ and\n$bup'c$ for $g=b$, contradict\nLemma~\\ref{dis:opposite-order}. If $c$ is adjacent to\n$u$ and $g=b$, the paths $ap'd$ and $buc$ give the\nsame contradiction. Thus $g=a$, $u$ is adjacent to\n$a,c$, and $p',q'$ are adjacent to $b,d,u$.\nThe only other form interchanges $A_1,A_2$, and the same\ndescription applies to the other four-attachment\ncomponent after relabeling. Every resulting graph has\na proper minor failing all twelve choices~\\supp{E2}, a contradiction."
+   "where": "Proposition 4.21 (proof)",
+   "text": "The graph $G$ has $K$ as a minor by retaining $B$, the edge $cd$,\nand shortening $apc,brd$ to $ac,bd$. Thus $K$ has no $K_5$ minor.\nBy the equivalence just proved, replacing $B$ by an allowed minor $B'$\ngives a nontoroidal graph whenever $B'+ac+cd+bd$ is nonplanar.\nCorollary~\\ref{common:reduced-forms}, with attachments $a,b,c,d$ and\nadded edges $ac,cd,bd$, therefore lists all $15{,}626$ candidate forms\nof $B$. Adjoining $\\Psi_1$ and $af$ to each candidate gives a graph\nwith a $K_5$ minor or a proper nontoroidal minor~\\supp{E2}, a\ncontradiction. Therefore $B$ does have a disk drawing in the order $a,b,d,c$, and Lemma~\\ref{dis:four-root-isolation} implies $D$ is a single vertex.\n\\end{proof}"
   }
  ],
- "vertex names": "a = s1, b = t1, c = s2, d = t2, e = s3, f = t3; twins p, q on {a, c, e} and r, z on {b, d, f}; the paths P1, P2, P3 are the edges ab, cd, ef. The bridge B has interior vertices u, p', q' as in the text. The other component, when there is one, has interior vertices u'', p'', q''.",
- "the graphs": "Psi_1, the bridge B in one of its two forms, and exactly one of: another three-attachment component, shortened to T(g') with g' an end of the edge ab, cd or ef in its attachment triple (8 triples, 2 choices of g'); a four-attachment component on {a,b,e,f} or {c,d,e,f} of the same form as B (2 forms); or one of the edges af, eb together with one of cf, ed. With the two forms of B this gives 32 + 8 + 8 = 48 graphs.",
- "how a choice fails": "For each choice (k,x,y) of Lemma 4.2, the faces are the pair of simple faces (attachments V(P_i) ∪ V(P_j), test graph with auxiliary edges s_i s_j, t_i t_j), the repeated face (attachments V(P_k) ∪ {s_x, t_y}, auxiliary edges s_k s_x, t_k t_y) and the two faces of (iii) (attachments {s_k, s_x'} and {t_k, t_y'}). A choice fails when some Psi_1-bridge has its attachments in no face, or when every assignment of bridges to faces with their attachments makes some test graph nonplanar (Lemma 4.3). Each such assignment is listed with a Kuratowski subgraph."
+ "vertex names": "a = s1, b = t1, c = s2, d = t2, e = s3, f = t3; twins p, q on {a, c, e} and r, z on {b, d, f}; the paths are the edges ab, cd, ef. Interior vertices of B are i0, i1, ...",
+ "the case": "G = (Psi_1 ∪ B) + af, where B has attachments A = {a, b, c, d}. The candidates are the graphs B of Construction 3.18 with attachments A, added edges E = {ac, cd, bd} and no required edges: A independent in B, interior nonempty and connected, every attachment with an interior neighbour, and B + E nonplanar (each candidate gives a Kuratowski subgraph).",
+ "the rest of G": {
+  "vertices": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "p",
+   "q",
+   "r",
+   "z"
+  ],
+  "edges": [
+   [
+    "a",
+    "b"
+   ],
+   [
+    "a",
+    "f"
+   ],
+   [
+    "a",
+    "p"
+   ],
+   [
+    "a",
+    "q"
+   ],
+   [
+    "b",
+    "r"
+   ],
+   [
+    "b",
+    "z"
+   ],
+   [
+    "c",
+    "d"
+   ],
+   [
+    "c",
+    "p"
+   ],
+   [
+    "c",
+    "q"
+   ],
+   [
+    "d",
+    "r"
+   ],
+   [
+    "d",
+    "z"
+   ],
+   [
+    "e",
+    "f"
+   ],
+   [
+    "e",
+    "p"
+   ],
+   [
+    "e",
+    "q"
+   ],
+   [
+    "f",
+    "r"
+   ],
+   [
+    "f",
+    "z"
+   ]
+  ]
+ },
+ "verdicts": "Every candidate gets a proper nontoroidal minor obtained by deleting or contracting one edge of G (a contraction merges the second vertex into the first). The witness says why that minor is nontoroidal."
 }

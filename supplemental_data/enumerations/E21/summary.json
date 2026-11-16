@@ -1,16 +1,22 @@
 {
  "item": "E21",
- "where": "Proposition 6.7",
- "candidates": 432,
+ "where": "Lemma 6.11",
+ "candidates": 26633,
  "verdicts": {
-  "K5 minor": 72,
-  "cut of at most two vertices": 56,
-  "proper nontoroidal minor": 304
+  "K5 minor": 92,
+  "isomorphic to T54": 4,
+  "proper nontoroidal minor": 26531,
+  "toroidal": 6
  },
- "isomorphic to T_i (copies)": {},
- "graphs T_i not excluded by a hypothesis of the case": [],
+ "isomorphic to T_i (copies)": {
+  "T54": 4
+ },
+ "graphs T_i not excluded by a hypothesis of the case": [
+  "T54"
+ ],
  "also excluded by a hypothesis of the case": {
-  "two twin triples are disjoint": 246,
-  "two twin triples share two vertices": 24
+  "a choice of twin pairs leaves a component adjacent to all five of their attachments": 340,
+  "two twin triples are disjoint": 10123,
+  "two twin triples share two vertices": 90
  }
 }

@@ -9,14 +9,14 @@ Each module checks one group of items, and its opening comment lists what it che
 | Module | Items |
 |---|---|
 | `items_obstructions.py` | O1–O4, TO1, TO2, N1 |
-| `items_witnesses.py` | W1–W21 |
+| `items_witnesses.py` | W1–W16 |
 | `items_rotations.py` | R1–R11 |
-| `items_bridges.py` | E1, E2, E3, E4, E7, E8, E12 |
-| `items_coverings.py` | E5, E13 |
-| `items_enumerations_a.py` | E6, E9, E10, E11, E14–E19 |
-| `items_enumerations_b.py` | E20–E34 |
+| `items_bridges.py` | E1, E2, E3, E6, E7, E11 |
+| `items_coverings.py` | E4, E12 |
+| `items_enumerations_a.py` | E5, E8, E9, E10, E13–E18 |
+| `items_enumerations_b.py` | E19–E29 |
 
-Where a verdict names only the edge whose deletion or contraction gives a nontoroidal proper minor, the nontoroidality of that minor comes from the genus computation in the folder `genus`, and the checker counts these minors. The DRAT proofs of E4, E5 and E13 are checked with drat-trim. The checker finds drat-trim through the environment variable `DRAT_TRIM` or on the PATH, and otherwise compiles it from `tools/drat-trim.c` with the C compiler `cc` the first time it is needed. Without drat-trim it reports these proofs as not checked.
+Where a verdict names only the edge whose deletion or contraction gives a nontoroidal proper minor, the nontoroidality of that minor comes from the genus computation in the folder `genus`, and the checker counts these minors. The DRAT proofs of E3, E4 and E12 are checked with drat-trim. The checker finds drat-trim through the environment variable `DRAT_TRIM` or on the PATH, and otherwise compiles it from `tools/drat-trim.c` with the C compiler `cc` the first time it is needed. Without drat-trim it reports these proofs as not checked.
 
 ## Running it
 
@@ -27,10 +27,10 @@ cd checker
 python3 check_supplement.py ../supplemental_data
 ```
 
-It prints one line for each item and ends with `all checks passed`, or with a list of failures. The whole run takes about half an hour on one core of a recent computer. R8, R4, E5 and TO2 take the longest. One item, or a few, can be checked alone:
+It prints one line for each item and ends with `all checks passed`, or with a list of failures. The whole run takes about half an hour on one core of a recent computer. R8, R4, E4 and TO2 take the longest. One item, or a few, can be checked alone:
 
 ```
-python3 check_supplement.py ../supplemental_data --items E4,TO2
+python3 check_supplement.py ../supplemental_data --items E3,TO2
 ```
 
 If nauty's program `labelg` is on the PATH, or its path is given by the environment variable `LABELG`, the checker also recomputes the canonical forms recorded in O2, O4 and N1.

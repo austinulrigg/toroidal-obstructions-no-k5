@@ -1,28 +1,29 @@
 {
  "item": "E13",
- "where": "Proposition 5.18",
- "recorded graphs": 9878,
- "toroidal, maximal": 976,
- "nontoroidal, minimal": 8902,
- "nontoroidal, minimal, in the family": 7474,
- "nontoroidal, minimal, outside the family (used only for the covering)": 1428,
+ "where": "Proposition 5.24, the case of two components",
+ "forms of D_1": {
+  "P1": 274,
+  "P2": 117
+ },
+ "forms of D_2": {
+  "P1": 11,
+  "P2": 11
+ },
+ "assembled graphs (with repetitions)": 2751,
+ "candidates (up to isomorphism)": 1229,
  "verdicts": {
-  "K5 minor": 248,
-  "cut of at most two vertices": 1110,
-  "isomorphic to T51": 2,
-  "isomorphic to T72": 2,
-  "proper nontoroidal minor": 6112,
-  "toroidal": 976
+  "K5 minor": 294,
+  "cut of at most two vertices": 321,
+  "proper nontoroidal minor": 565,
+  "toroidal": 49
  },
- "isomorphic to T_i (copies)": {
-  "T51": 2,
-  "T72": 2
+ "candidates by row of the table": {
+  "1": 99,
+  "2": 487,
+  "3": 43,
+  "4": 380,
+  "5": 50,
+  "6": 170
  },
- "formula": {
-  "variables": 96,
-  "clauses": 10997,
-  "base clauses": 1119,
-  "DRAT": "verified by drat-trim"
- },
- "copies of T_i with a two-singleton interior": 0
+ "obstructions": "none"
 }

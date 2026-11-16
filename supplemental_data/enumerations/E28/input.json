@@ -1,15 +1,15 @@
 {
  "item": "E28",
- "where": "Lemma 6.13",
+ "where": "Lemma 6.19",
  "paper text": [
   {
-   "where": "Lemma 6.13 (proof)",
-   "text": "Construction~\\ref{common:marked-construction} gives\n$349$ possibilities for $B_1$. Every resulting graph\nhas a $K_5$ minor, a cut of at most two vertices,\nor a proper nontoroidal minor~\\supp{E28}.\nThus every other bridge with nonempty interior\nhas planar triangle completion, and\nLemma~\\ref{lem:flat-replacement} makes its interior\na single vertex."
+   "where": "Lemma 6.19 (proof)",
+   "text": "Suppose $B+ad$ is nonplanar. If an allowed minor $B'$ keeps\n$B'+ad$ nonplanar, then both completions in~\\eqref{r1:two-cap-test}\nremain nonplanar. Replacing $B$ by $B'$ therefore keeps $H_1$\nnontoroidal, and Corollary~\\ref{common:reduced-forms} gives the $563$\nforms with added edge $ad$. Every resulting graph has a $K_5$ minor\nor a proper nontoroidal minor except four in the $cd$ case,\n$\\mathfrak T_{52},\\mathfrak T_{57},\\mathfrak T_{58},\\mathfrak T_{59}$.\nIn the first three, some two twin triples meet in zero or two vertices.\nIn the last, some choice of the four twins gives a bridge with four\nattachments~\\supp{E28}. Each contradicts our assumptions, so $B+ad$\nis planar."
   }
  ],
  "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
  "cases of the construction": {
-  "C_on_abd": {
+  "t_on_bcd": {
    "specification": {
     "roots": [
      "a",
@@ -20,10 +20,6 @@
     "C edges within R": [
      [
       "a",
-      "b"
-     ],
-     [
-      "a",
       "d"
      ]
     ],
@@ -33,97 +29,23 @@
    "root placement classes": 115,
    "full placements": 115,
    "valid retained subdivisions": 115,
-   "recipes": 861,
-   "parts up to rooted isomorphism": 349,
+   "recipes": 1227,
+   "parts up to rooted isomorphism": 563,
    "outcomes": {
-    "cut of order at most two": 46,
-    "proper nontoroidal minor": 238,
-    "K5 minor": 65
+    "proper nontoroidal minor": 563
    }
   },
-  "C_on_ade": {
+  "edge_cd": {
    "specification": {
     "roots": [
      "a",
-     "d",
-     "e"
-    ],
-    "outside": {},
-    "C edges within R": [
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "e"
-     ]
-    ],
-    "required edges of K'": []
-   },
-   "root placements": 4270,
-   "root placement classes": 115,
-   "full placements": 115,
-   "valid retained subdivisions": 115,
-   "recipes": 861,
-   "parts up to rooted isomorphism": 349,
-   "outcomes": {
-    "cut of order at most two": 46,
-    "proper nontoroidal minor": 236,
-    "K5 minor": 67
-   }
-  },
-  "C_on_acd": {
-   "specification": {
-    "roots": [
-     "a",
-     "c",
-     "d"
-    ],
-    "outside": {},
-    "C edges within R": [
-     [
-      "a",
-      "c"
-     ],
-     [
-      "a",
-      "d"
-     ]
-    ],
-    "required edges of K'": []
-   },
-   "root placements": 4270,
-   "root placement classes": 115,
-   "full placements": 115,
-   "valid retained subdivisions": 115,
-   "recipes": 861,
-   "parts up to rooted isomorphism": 349,
-   "outcomes": {
-    "cut of order at most two": 46,
-    "proper nontoroidal minor": 237,
-    "K5 minor": 66
-   }
-  },
-  "C_on_bcd": {
-   "specification": {
-    "roots": [
      "b",
-     "c",
      "d"
     ],
     "outside": {},
     "C edges within R": [
      [
-      "b",
-      "c"
-     ],
-     [
-      "b",
-      "d"
-     ],
-     [
-      "c",
+      "a",
       "d"
      ]
     ],
@@ -133,12 +55,12 @@
    "root placement classes": 115,
    "full placements": 115,
    "valid retained subdivisions": 115,
-   "recipes": 687,
-   "parts up to rooted isomorphism": 216,
+   "recipes": 1227,
+   "parts up to rooted isomorphism": 563,
    "outcomes": {
-    "cut of order at most two": 28,
-    "proper nontoroidal minor": 141,
-    "K5 minor": 47
+    "proper nontoroidal minor": 558,
+    "catalogue graph": 4,
+    "K5 minor": 1
    }
   }
  }

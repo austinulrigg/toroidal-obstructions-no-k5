@@ -1,49 +1,48 @@
 {
  "item": "E20",
- "where": "Proposition 5.27",
- "candidates": 2174,
+ "where": "Proposition 6.8",
+ "candidates": 217376,
  "verdicts": {
-  "cut of at most two vertices": 504,
-  "isomorphic to T15": 4,
-  "proper nontoroidal minor": 902,
-  "toroidal": 764
+  "K5 minor": 2,
+  "cut of at most two vertices": 5,
+  "isomorphic to T20": 1,
+  "isomorphic to T23": 1,
+  "isomorphic to T38": 2,
+  "isomorphic to T40": 2,
+  "isomorphic to T69": 2,
+  "proper nontoroidal minor": 217361
  },
  "isomorphic to T_i (copies)": {
-  "T15": 4
+  "T20": 1,
+  "T23": 1,
+  "T38": 2,
+  "T40": 2,
+  "T69": 2
  },
  "graphs T_i not excluded by a hypothesis of the case": [
-  "T15"
+  "T20",
+  "T23"
  ],
  "also excluded by a hypothesis of the case": {
-  "a choice of twin pairs leaves a component adjacent to all four of their attachments": 175,
-  "three twin triples share a pair of vertices": 186,
-  "two twin triples are disjoint": 307
+  "two twin triples are disjoint": 44829,
+  "two twin triples share two vertices": 1577
  },
+ "graphs T_i excluded by a hypothesis of the case": [
+  "T38",
+  "T40",
+  "T69"
+ ],
  "by case": {
-  "size 1": {
-   "candidates": 112,
+  "with_bd": {
+   "candidates": 34303,
    "graphs T_i not excluded by a hypothesis of the case": []
   },
-  "size 2": {
-   "candidates": 1142,
+  "without_bd": {
+   "candidates": 183073,
    "graphs T_i not excluded by a hypothesis of the case": [
-    "T15"
+    "T20",
+    "T23"
    ]
-  },
-  "size 3": {
-   "candidates": 836,
-   "graphs T_i not excluded by a hypothesis of the case": []
-  },
-  "size 4": {
-   "candidates": 84,
-   "graphs T_i not excluded by a hypothesis of the case": []
   }
- },
- "combinations": {
-  "in the domain": 3163020,
-  "recorded": 2174,
-  "excluded through a recorded smaller combination with a violation or nontoroidal status": 3160846,
-  "recorded stars-only combinations used only for these exclusions": 111,
-  "checked": "every combination of the domain is recorded or contains a recorded smaller one with a violation or nontoroidal status"
  }
 }

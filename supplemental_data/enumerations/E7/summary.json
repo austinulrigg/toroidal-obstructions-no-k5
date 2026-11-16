@@ -1,13 +1,29 @@
 {
  "item": "E7",
- "where": "Proposition 4.28",
- "bridges": 1378,
+ "where": "Lemma 4.29 and Proposition 4.30",
+ "bridges": 2104,
  "verdicts": {
-  "excluded by a hypothesis of the case": 1356,
-  "isomorphic to the form of Proposition 4.28": 2,
-  "proper nontoroidal minor": 20
+  "K5 minor": 458,
+  "excluded by a hypothesis of the case": 1508,
+  "isomorphic to B1": 2,
+  "isomorphic to B2": 2,
+  "isomorphic to B3": 2,
+  "isomorphic to B4": 2,
+  "isomorphic to B5": 1,
+  "proper nontoroidal minor": 129
  },
  "bridges that pass, by form in the paper (labelled, so a form and its interchange count separately)": {
-  "the form of Proposition 4.28": 2
+  "B1": 2,
+  "B2": 2,
+  "B3": 2,
+  "B4": 2,
+  "B5": 1
+ },
+ "whole graphs from the bridges that pass": {
+  "proper nontoroidal minor": 16,
+  "isomorphic to T66": 2
+ },
+ "isomorphic to T_i (copies)": {
+  "T66": 2
  }
 }

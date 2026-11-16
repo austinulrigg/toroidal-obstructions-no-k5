@@ -1,21 +1,28 @@
 {
  "item": "E26",
- "where": "Proposition 6.12",
- "candidates": 432,
+ "where": "Lemma 6.18",
+ "candidates": 1126,
  "verdicts": {
-  "K5 minor": 85,
-  "cut of at most two vertices": 56,
-  "proper nontoroidal minor": 291
+  "isomorphic to T41": 2,
+  "proper nontoroidal minor": 1124
  },
- "isomorphic to T_i (copies)": {},
+ "isomorphic to T_i (copies)": {
+  "T41": 2
+ },
  "graphs T_i not excluded by a hypothesis of the case": [],
+ "also excluded by a hypothesis of the case": {
+  "a choice of twin pairs leaves a component with at least four neighbours": 2
+ },
+ "graphs T_i excluded by a hypothesis of the case": [
+  "T41"
+ ],
  "by case": {
-  "C_on_abd": {
-   "candidates": 216,
+  "U_on_bcd": {
+   "candidates": 563,
    "graphs T_i not excluded by a hypothesis of the case": []
   },
-  "C_on_ace": {
-   "candidates": 216,
+  "U_on_cde": {
+   "candidates": 563,
    "graphs T_i not excluded by a hypothesis of the case": []
   }
  }

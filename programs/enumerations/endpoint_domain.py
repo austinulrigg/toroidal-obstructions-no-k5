@@ -1,4 +1,4 @@
-"""The domain of E4 (Theorem 4.22): assemblies of bridges on Psi_1 when
+"""The domain of E3 (Theorem 4.22): assemblies of bridges on Psi_1 when
 every path P_i is an edge.
 
 The names: a = s1, b = t1, c = s2, d = t2, e = s3, f = t3, with twins p, q

@@ -4,12 +4,12 @@
  "paper text": [
   {
    "where": "Lemma 4.10 (proof)",
-   "text": "Thus $H_1'=H_1$. Construction~\\ref{common:marked-construction},\nwith attachments $A$ and the fixed planar graph on $A$\nwith edge set $E$, lists every possible $H_1$. Adjoining $H_0$ to each gives every\npossible $G$, but the enumeration~\\supp{E1} excludes\nall resulting graphs. Hence no bridge contains such a path."
+   "text": "Therefore replacing $H_1$ by $H_1'$ gives a nontoroidal graph. Corollary~\\ref{common:reduced-forms}, with attachments $A$ and added edges $E$, gives the $26{,}633$ possible forms of $H_1$. Adjoining $H_2$ to each gives all possible $G$, and \\supp{E1} excludes them all. Hence no bridge contains such a path.\n\\end{proof}"
   }
  ],
  "vertex names": "Psi_1 as in Section 4: twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}. Interior vertices of B are i0, i1, ...",
- "the case": "A = {s1, t1, s2, t2} and E = {s1s2, t1t2}. G = H0 ∪ B, where H0 consists of p, q, r, z, their twelve edges and s3t3, and B (called H1 in the proof) meets H0 in A. The candidates are the graphs B of Construction 3.17 with attachments A and added edges E: A independent in B, interior nonempty and connected, every attachment with an interior neighbour, and B + E nonplanar (each candidate gives a Kuratowski subgraph).",
- "H0": {
+ "the case": "A = {s1, t1, s2, t2} and E = {s1s2, t1t2}. G = H2 ∪ B, where H2 consists of p, q, r, z, their twelve edges and s3t3, and B (called H1 in the proof) meets H2 in A. The candidates are the graphs B of Construction 3.18 with attachments A and added edges E: A independent in B, interior nonempty and connected, every attachment with an interior neighbour, and B + E nonplanar (each candidate gives a Kuratowski subgraph).",
+ "H2": {
   "vertices": [
    "p",
    "q",
@@ -80,7 +80,7 @@
  "verdicts": {
   "K5 minor": "branch sets in G, or in B + E, which is a minor of G (paths s1 p s2 and t1 r t2)",
   "cut of at most two vertices": "a cut of G",
-  "proper nontoroidal minor": "either an allowed reduction B' of B with B' + E nonplanar, which makes H0 ∪ B' nontoroidal by the implication proved in Lemma 4.10, or an edge of G = H0 ∪ B whose deletion or contraction leaves a minor model of some T_i",
+  "proper nontoroidal minor": "either an allowed reduction B' of B with B' + E nonplanar, which makes H2 ∪ B' nontoroidal by the implication proved in Lemma 4.10, or an edge of G = H2 ∪ B whose deletion or contraction leaves a minor model of some T_i",
   "excluded by a hypothesis of the case": "B has no disjoint s1-t1 and s2-t2 paths; by minimality B is H1, which contains P1 and P2"
  },
  "generation": {

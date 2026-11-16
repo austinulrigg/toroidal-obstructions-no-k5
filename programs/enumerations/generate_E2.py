@@ -1,224 +1,248 @@
-"""E2: two four-attachment bridges, or one with another bridge on three attachments (Proposition 4.21).
+"""E2: a bridge with four attachments and G = (Psi_1 + B) + af (Proposition 4.21).
 
 The names: a = s1, b = t1, c = s2, d = t2, e = s3, f = t3, with twins p, q on
-{a, c, e} and r, z on {b, d, f}; the paths P1, P2, P3 are the edges ab, cd,
-ef. As in the proof, the bridge B with four attachments a, b, c, d has
-interior vertices u, p', q' (the program writes C_u, C_d1, C_d2), with u
-adjacent to a, c and p', q' adjacent to b, d, u, or the same with A1 and A2
-interchanged. The rest of G is one of:
+{a, c, e} and r, z on {b, d, f}; the paths are the edges ab, cd, ef. As in
+the proof, G = (Psi_1 + B) + af, and G is toroidal exactly when
+B + ac + cd + bd is planar. So B is a part of Construction 3.18 with
+attachments a, b, c, d, added edges E = {ac, cd, bd} and no required edges
+(four_root_domain.py); each candidate records the K3,3 subdivision of B + E
+it came from.
 
-  another component with three attachments, shortened to T(g') with g' an
-  end of the edge ab, cd or ef in its attachment triple (8 triples, 2
-  choices of g'; interior D_u, D_d1, D_d2);
-  a component with four attachments {a, b, e, f} or {c, d, e, f}, of the
-  same form as B (2 forms);
-  one of the edges af, eb together with one of cf, ed.
+Classification of each candidate, in order: a vertex of degree three of G
+with two adjacent neighbours (recorded with that edge); an interior vertex
+of degree two; the interior of B nonplanar (a K5 minor, or two disjoint
+K3,3 minors, a model of a disconnected graph of the catalogue); an allowed
+operation of Section 3 after which B' + E is still nonplanar; one edge
+deletion or contraction after which every choice of the joint test of
+Lemma 4.3 fails (joint_test.py); a K5 minor of B + E or of G. The data
+folder gives every candidate a proper nontoroidal minor obtained by
+deleting or contracting one edge, with the reason that minor is
+nontoroidal (package.py). The proof finds no obstruction here.
 
-With the two forms of B this gives 48 graphs. For each, the program runs
-the joint test of Lemma 4.3 (joint_test.py) on the graph itself, and then
-on the graphs obtained by deleting or contracting one edge outside Psi_1,
-in order, until one fails all twelve choices: a proper nontoroidal minor.
-The proof finds such a minor for every graph.
-
-Run as: python generate_E2.py FOLDER
+The classification keeps a file progress.jsonl and continues from it when
+it is started again. Run as: python generate_E2.py FOLDER
 """
-import collections
 import itertools as it
 import json
 import sys
 import time
+from collections import Counter
 from pathlib import Path
 
 import networkx as nx
 
-from joint_test import (CORE_EDGES, CORE_VERTICES, core_graph, edges,
-                                   graph_record, joint_test, preserved_core)
+import common
+import four_root_domain as fd
+from joint_test import joint_test, CORE_VERTICES, CORE_EDGES
+from minor_search import find_k5_minor, first_isomorphism
 
-S = set('ace')
-T = set('bdf')
-TRIPLES = (('abe', 'ab'), ('abf', 'ab'), ('cde', 'cd'), ('cdf', 'cd'),
-           ('aef', 'ef'), ('bef', 'ef'), ('cef', 'ef'), ('def', 'ef'))
-SYMMETRY_GENERATORS = {
-    'swap_S_T': dict(zip('abcdefpqrz', 'badcferzpq')),
-    'swap_indices_1_2': dict(zip('abcdefpqrz', 'cdabefpqrz')),
-}
+ROOTS = ("a", "b", "c", "d")
+ADDED_EDGES = (("a", "c"), ("b", "d"), ("c", "d"))
+edge_list = fd.edge_list
 
 
-def add_four_component(graph, support, orientation, prefix):
-    u, d1, d2 = (f'{prefix}_{suffix}' for suffix in ('u', 'd1', 'd2'))
-    centers = S if orientation == 'S_center' else T
-    assert orientation in ('S_center', 'T_center')
-    center_roots = sorted(set(support) & centers)
-    opposite_roots = sorted(set(support) - centers)
-    assert len(center_roots) == len(opposite_roots) == 2
-    graph.add_edges_from((u, v) for v in center_roots + [d1, d2])
-    graph.add_edges_from((d, v) for d in (d1, d2) for v in opposite_roots)
+def completion(p):
+    q = p.copy()
+    q.add_edges_from(ADDED_EDGES)
+    return q
 
 
-def add_triple_component(graph, support, distinguished_root, prefix):
-    u, d1, d2 = (f'{prefix}_{suffix}' for suffix in ('u', 'd1', 'd2'))
-    others = sorted(set(support) - {distinguished_root})
-    graph.add_edge(u, distinguished_root)
-    graph.add_edges_from((d, v) for d in (d1, d2) for v in others + [u])
+def whole_graph(p):
+    g = p.copy()
+    g.add_edges_from(it.product(('p', 'q'), ('a', 'c', 'e')))
+    g.add_edges_from(it.product(('r', 'z'), ('b', 'd', 'f')))
+    g.add_edges_from((('a', 'b'), ('c', 'd'), ('e', 'f'), ('a', 'f')))
+    return g
 
 
-def generate_candidates():
-    records = []
-    for orientation in ('S_center', 'T_center'):
-        base = core_graph()
-        add_four_component(base, 'abcd', orientation, 'C')
-        alternatives = []
-        for support, distinguished_roots in TRIPLES:
-            for distinguished_root in distinguished_roots:
-                graph = base.copy()
-                add_triple_component(graph, support, distinguished_root, 'D')
-                alternatives.append((graph, {
-                    'alternative_kind': 'triple_component', 'support': list(support),
-                    'distinguished_root': distinguished_root}))
-        for support in ('abef', 'cdef'):
-            for second_orientation in ('S_center', 'T_center'):
-                graph = base.copy()
-                add_four_component(graph, support, second_orientation, 'D')
-                alternatives.append((graph, {
-                    'alternative_kind': 'four_attachment_component', 'support': list(support),
-                    'D_orientation': second_orientation}))
-        for first, second in it.product(('af', 'eb'), ('cf', 'ed')):
-            graph = base.copy()
-            graph.add_edges_from((tuple(first), tuple(second)))
-            alternatives.append((graph, {
-                'alternative_kind': 'cross_edges',
-                'cross_edges': sorted(tuple(sorted(e)) for e in (first, second))}))
-        for graph, recipe in alternatives:
-            recipe['C_orientation'] = orientation
-            records.append({'id': f'E2-{len(records)+1:03d}',
-                            'recipe': recipe, 'graph': graph_record(graph)})
-    return records
+def valid(p):
+    interior = set(p) - set(ROOTS)
+    return bool(interior) and nx.is_connected(p.subgraph(interior)) and all(set(p[r]) & interior for r in ROOTS)
 
 
-def graph_key(record):
-    return tuple(record['vertices']), tuple(tuple(e) for e in record['edges'])
+def allowed_operations(p):
+    # Deletions often leave a visibly retained subdivision, so try them first.
+    for edge in edge_list(p):
+        q = p.copy()
+        q.remove_edge(*edge)
+        if valid(q):
+            yield {'type': 'delete_edge', 'edge': edge}, q
+    for vertex in sorted(set(p) - set(ROOTS)):
+        q = p.copy()
+        q.remove_node(vertex)
+        if valid(q):
+            yield {'type': 'delete_vertex', 'vertex': vertex}, q
+    for edge in edge_list(p):
+        a, b = edge
+        if b in ROOTS:
+            a, b = b, a
+        q = nx.contracted_nodes(p, a, b, self_loops=False)
+        q.remove_edges_from(it.combinations(ROOTS, 2))
+        if valid(q):
+            yield {'type': 'contract_edge', 'edge': edge, 'keep': a}, q
 
 
-def source_symmetry_group():
-    identity = {v: v for v in CORE_VERTICES}
-    st = SYMMETRY_GENERATORS['swap_S_T']
-    ij = SYMMETRY_GENERATORS['swap_indices_1_2']
-    return [identity, st, ij, {v: st[ij[v]] for v in CORE_VERTICES}]
+def nonplanarity(g):
+    planar, witness = nx.check_planarity(g, counterexample=True)
+    assert not planar
+    return {'kuratowski_edges': edge_list(witness)}
 
 
-def symmetry_orbits(records):
-    by_key = {graph_key(r['graph']): r for r in records}
-    assert len(by_key) == len(records)
-    group = source_symmetry_group()
+def kuratowski_model(witness):
+    """Suppress degree-two paths and keep their vertices in connected bags."""
+    branches = sorted(v for v in witness if witness.degree(v) != 2)
+    bags = {v: [v] for v in branches}
+    kernel = nx.Graph()
+    kernel.add_nodes_from(branches)
     seen = set()
-    orbits = []
-    for representative in records:
-        if representative['id'] in seen:
-            continue
-        members = {}
-        graph = nx.Graph()
-        graph.add_nodes_from(representative['graph']['vertices'])
-        graph.add_edges_from(representative['graph']['edges'])
-        for core_mapping in group:
-            vertex_map = {v: core_mapping.get(v, v) for v in graph}
-            transformed = nx.relabel_nodes(graph, vertex_map)
-            member = by_key[graph_key(graph_record(transformed))]
-            # The four group elements are involutions.  Record member -> rep.
-            inverse = {v: u for u, v in vertex_map.items()}
-            members.setdefault(member['id'], {'candidate_id': member['id'],
-                                              'vertex_map': inverse})
-        orbit_id = f'E2-orbit-{len(orbits)+1:02d}'
-        for member in members:
-            seen.add(member)
-        orbits.append({'id': orbit_id, 'representative_id': representative['id'],
-                       'vertex_map_direction': 'member_to_representative',
-                       'members': [members[k] for k in sorted(members)]})
-    for orbit in orbits:
-        for member in orbit['members']:
-            next(r for r in records if r['id'] == member['candidate_id'])['orbit_id'] = orbit['id']
-    return orbits
+    for v in branches:
+        for w in sorted(witness[v]):
+            if frozenset((v, w)) in seen:
+                continue
+            previous, current = v, w
+            internal = []
+            seen.add(frozenset((previous, current)))
+            while current not in bags:
+                internal.append(current)
+                nxt = next(x for x in witness[current] if x != previous)
+                previous, current = current, nxt
+                seen.add(frozenset((previous, current)))
+            kernel.add_edge(v, current)
+            bags[v].extend(internal)
+    assert len(branches) in (5, 6)
+    return kernel, bags
 
 
-def proper_operations(graph):
-    outside = [e for e in edges(graph) if e not in CORE_EDGES]
-    for edge in outside:
-        minor = graph.copy()
-        minor.remove_edge(*edge)
-        assert preserved_core(minor)
-        yield {'type': 'delete_edge', 'edge': edge}, minor
-    for edge in outside:
-        u, v = edge
-        if u in CORE_VERTICES and v in CORE_VERTICES:
-            continue
-        if v in CORE_VERTICES:
-            u, v = v, u
-        # Explicit vertex map avoids preserving NetworkX contraction metadata.
-        mapping = {w: u if w == v else w for w in graph}
-        minor = nx.Graph()
-        minor.add_nodes_from(mapping.values())
-        minor.add_edges_from((mapping[a], mapping[b]) for a, b in graph.edges()
-                             if mapping[a] != mapping[b])
-        assert preserved_core(minor)
-        yield {'type': 'contract_edge', 'edge': list(edge), 'keep': u, 'remove': v,
-               'vertex_map': mapping}, minor
+def interior_nonplanarity(p, catalog):
+    interior = p.subgraph(set(p) - set(ROOTS))
+    if nx.check_planarity(interior)[0]:
+        return None
+    _, witness = nx.check_planarity(interior, counterexample=True)
+    kernel, bags = kuratowski_model(witness)
+    if len(kernel) == 5:
+        return {'type': 'k5_minor', 'graph': 'whole',
+                'branch_sets': [bags[v] for v in sorted(kernel)], 'search': 'interior Kuratowski K5'}
+    # The interior K3,3 and the exterior Psi1 are vertex-disjoint: two
+    # disjoint K3,3 models, a model of the disconnected graph of the catalogue.
+    outside = {'A': ['a'], 'C': ['c'], 'E': ['e'], 'P': ['p'], 'Q': ['q'], 'R': ['r', 'b', 'd', 'f']}
+    kernel.add_edges_from(it.product(('A', 'C', 'E'), ('P', 'Q', 'R')))
+    bags.update(outside)
+    for name, target in catalog:
+        if len(target) == 12 and not nx.is_connected(target):
+            mapping = first_isomorphism(kernel, target)
+            if mapping is not None:
+                return {'type': 'proper_obstruction_minor', 'target': name,
+                        'branch_sets': {str(mapping[v]): bag for v, bag in bags.items()},
+                        'search': 'two vertex-disjoint Kuratowski K3,3 models'}
+    raise ValueError('No matching catalogue record for two disjoint K3,3 graphs')
+
+
+def joint_minor(g):
+    possible = [['a', 'f']] + [e for e in edge_list(g) if tuple(e) not in CORE_EDGES and e != ['a', 'f']]
+    for kind in ('delete_edge', 'contract_edge'):
+        for edge in possible:
+            if kind == 'delete_edge':
+                h = g.copy()
+                h.remove_edge(*edge)
+                operation = {'type': kind, 'edge': edge}
+            else:
+                a, b = edge
+                if a in CORE_VERTICES and b in CORE_VERTICES:
+                    continue
+                if b in CORE_VERTICES:
+                    a, b = b, a
+                h = nx.contracted_nodes(g, a, b, self_loops=False)
+                operation = {'type': kind, 'edge': edge, 'keep': a}
+            test = joint_test(h, certify=False, stop_on_pass=True)
+            if not test['passes']:
+                return {'type': 'proper_joint_minor', 'operation': operation,
+                        'minor_vertices': sorted(h), 'minor_edges': edge_list(h),
+                        'joint_test': joint_test(h, certify=True)}
+    return None
+
+
+def classify(p, catalog):
+    g = whole_graph(p)
+    for v in sorted(g):
+        if g.degree(v) == 3:
+            for a, b in it.combinations(sorted(g[v]), 2):
+                if g.has_edge(a, b):
+                    h = g.copy()
+                    h.remove_edge(a, b)
+                    return {'type': 'adjacent_degree_three_neighbors', 'vertex': v,
+                            'edge': [a, b], 'minor_vertices': sorted(h), 'minor_edges': edge_list(h)}
+    for v in sorted(set(p) - set(ROOTS)):
+        if g.degree(v) == 2:
+            keep = sorted(g[v])[0]
+            h = nx.contracted_nodes(g, keep, v, self_loops=False)
+            return {'type': 'degree_two_suppression', 'vertex': v,
+                    'operation': {'type': 'contract_edge', 'edge': [keep, v], 'keep': keep},
+                    'minor_vertices': sorted(h), 'minor_edges': edge_list(h)}
+    witness = interior_nonplanarity(p, catalog)
+    if witness is not None:
+        return witness
+    for operation, q in allowed_operations(p):
+        j = completion(q)
+        if not nx.check_planarity(j)[0]:
+            return {'type': 'proper_allowed_minor', 'operation': operation,
+                    'minor_vertices': sorted(q), 'minor_edges': edge_list(q),
+                    'nonplanarity': nonplanarity(j)}
+    witness = joint_minor(g)
+    if witness is not None:
+        return witness
+    for graph_name, h in (('completion', completion(p)), ('whole', g)):
+        stats = {}
+        model = find_k5_minor(h, trials=64, seed=0, exact_threshold=8,
+                              use_sat=True, sat_conflicts=5000, sat_rounds=50, stats=stats)
+        if model is not None:
+            return {'type': 'k5_minor', 'graph': graph_name, 'branch_sets': model, 'search': stats}
+    return {'type': 'unresolved'}
 
 
 def main():
     out = Path(sys.argv[1])
-    start = time.monotonic()
-    records = generate_candidates()
-    orbits = symmetry_orbits(records)
-    assert len(records) == 48 and len(orbits) == 13
-    unresolved = []
-    for record in records:
-        graph = nx.Graph()
-        graph.add_nodes_from(record['graph']['vertices'])
-        graph.add_edges_from(record['graph']['edges'])
-        original = joint_test(graph, certify=True)
-        record['original_joint_test'] = original
-        if original['passes']:
-            record['status'] = 'unresolved_original_has_passing_choice'
-            unresolved.append(record['id'])
-            continue
-        attempts = []
-        for operation, minor in proper_operations(graph):
-            trial = joint_test(minor, certify=False, stop_on_pass=True)
-            attempts.append({'operation': operation, 'has_passing_choice': trial['passes']})
-            if not trial['passes']:
-                certificate = joint_test(minor, certify=True)
-                assert certificate['complete'] and not certificate['passes']
-                record['proper_minor'] = {
-                    'operation': operation, 'graph': graph_record(minor),
-                    'core_preserved': preserved_core(minor),
-                    'bridges': certificate['bridges'], 'joint_test': certificate}
-                record['status'] = 'proper_minor_all_twelve_fail'
-                break
-        record['minor_search_attempts'] = attempts
-        if 'proper_minor' not in record:
-            record['status'] = 'unresolved_no_core_preserving_one_edge_witness'
-            unresolved.append(record['id'])
-        print(f"{record['id']}: {record['status']}, tried {len(attempts)}", flush=True)
-    counts = {
-        'labeled graphs': len(records), 'symmetry orbits': len(orbits),
-        'recipe_families': dict(collections.Counter(r['recipe']['alternative_kind'] for r in records)),
-        'orbit_sizes': dict(collections.Counter(len(o['members']) for o in orbits)),
-        'originals_all_twelve_fail': sum(not r['original_joint_test']['passes'] for r in records),
-        'proper_minor_witnesses': sum('proper_minor' in r for r in records),
-        'unresolved': len(unresolved),
-    }
-    result = {
-        'item': 'E2', 'core': graph_record(core_graph()),
-        'symmetry_generators': SYMMETRY_GENERATORS,
-        'counts': counts, 'orbits': orbits, 'candidates': records,
-        'unresolved_candidate_ids': unresolved,
-        'minor_search_scope': 'One edge deletion or contraction outside the fixed Psi1; no two core vertices identified',
-    }
     out.mkdir(parents=True, exist_ok=True)
-    (out / 'candidates.json').write_text(json.dumps(result, indent=2, sort_keys=True) + '\n')
-    summary = {'item': 'E2', 'where': 'Proposition 4.21', 'counts': counts,
-               'unresolved_candidate_ids': unresolved, 'seconds': round(time.monotonic() - start, 1)}
+    t0 = time.time()
+    records, stats = fd.domain(ROOTS, ADDED_EDGES, 'E2-')
+    print('domain:', stats, round(time.time() - t0), 's', flush=True)
+    catalog = [(r['name'], nx.from_graph6_bytes(r['graph6'].encode())) for r in common.catalogue_records()]
+    progress = out / 'progress.jsonl'
+    done = {}
+    if progress.exists():
+        for line in progress.read_text().splitlines():
+            try:
+                r = json.loads(line)
+            except ValueError:
+                continue
+            done[r['id']] = r
+    counts = Counter()
+    last = time.time()
+    with progress.open('a') as pf:
+        for record in records:
+            if record['id'] in done:
+                record.update(done[record['id']])
+                counts[record['outcome']['type']] += 1
+                continue
+            p = nx.Graph()
+            p.add_nodes_from(record['vertices'])
+            p.add_edges_from(record['edges'])
+            record['nonplanarity'] = {'kuratowski_edges': fd.subdivision_of(record, ROOTS, ADDED_EDGES)}
+            record['outcome'] = classify(p, catalog)
+            pf.write(json.dumps({'id': record['id'], 'nonplanarity': record['nonplanarity'],
+                                 'outcome': record['outcome']}, sort_keys=True, separators=(',', ':')) + '\n')
+            pf.flush()
+            counts[record['outcome']['type']] += 1
+            if time.time() - last > 30:
+                print(json.dumps({'classified': sum(counts.values()), 'of': len(records), 'outcomes': dict(counts)}),
+                      flush=True)
+                last = time.time()
+    document = {'item': 'E2', 'candidate_count': len(records), 'outcome_counts': dict(counts),
+                'candidates': records}
+    (out / 'candidates.json').write_text(json.dumps(document, sort_keys=True, separators=(',', ':')) + '\n')
+    summary = dict(stats, item='E2', where='Proposition 4.21', outcome_counts=dict(counts),
+                   unresolved=counts.get('unresolved', 0), seconds=round(time.time() - t0, 1))
     (out / 'summary.json').write_text(json.dumps(summary, indent=1) + '\n')
-    print(json.dumps(summary), flush=True)
+    print(json.dumps(summary, indent=1))
 
 
 if __name__ == '__main__':

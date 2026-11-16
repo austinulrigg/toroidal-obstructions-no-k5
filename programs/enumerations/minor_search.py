@@ -1,4 +1,4 @@
-"""Searches for minors that return a checked witness or nothing (E1, E3, E4).
+"""Searches for minors that return a checked witness or nothing (E1, E2, E3).
 
 find_k5_minor tries random contractions with a fixed seed, an exhaustive
 search over small components and, if asked, a SAT formulation with lazy

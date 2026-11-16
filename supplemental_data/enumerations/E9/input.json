@@ -1,75 +1,50 @@
 {
  "item": "E9",
- "where": "Proposition 5.10",
+ "where": "Lemma 5.8",
  "paper text": [
   {
-   "where": "Proposition 5.10 (proof)",
-   "text": "\\begin{proposition}[Nonplanar completions with four attachments]\\label{r2:nonplanar-list}\nIf $B$ is nonplanar and $G=B\\cup\\Psi_2$, then $G$ is isomorphic to one of\n$\\mathfrak{T}_{17},\\mathfrak{T}_{18},\\mathfrak{T}_{19},\\mathfrak{T}_{22},\\mathfrak{T}_{24},\\mathfrak{T}_{26},\\mathfrak{T}_{30},\\mathfrak{T}_{34}, \\mathfrak{T}_{39},\\mathfrak{T}_{48},\\mathfrak{T}_{52},\\mathfrak{T}_{57},\\mathfrak{T}_{66},\\mathfrak{T}_{74}.$\nIf $(n_c,n_d)=(3,2)$, $G\\cong\\mathfrak{T}_{11}$.\n\\end{proposition}\n\\begin{proof}\nTake $E=\\varnothing$ in the first case and $E=\\{ab,ac,bc\\}$\nin the second. In either case, $B+E$ is nonplanar by\nthe hypothesis or Lemma~\\ref{r2:32}, and is contained\nin every applicable test of Lemma~\\ref{r2:four-tests}.\nBy Lemma~\\ref{r2:test-minors}, it is a $K_5$-minor-free minor\nof $G$, so it contains a $K_{3,3}$ subdivision.\nApply Lemma~\\ref{core:retained-subdivision} with attachments\n$a,b,c,d$. It gives an allowed minor $B'$ with at most nine\ninterior vertices such that $B'+E$ still contains a\n$K_{3,3}$ subdivision. The interior remains connected,\nand every attachment keeps an interior neighbor.\nReplacing $B$ by $B'$ therefore leaves every applicable\ntest nonplanar, since each contains $B'+E$. By\nLemma~\\ref{r2:four-tests}, the resulting minor of $G$\nis nontoroidal, so minimality gives $B'=B$. We list these forms using\nConstruction~\\ref{common:marked-construction}, with\nattachments $a,b,c,d$, added edges $E$, no outside\nvertices and no further interior components.\nJoin all interior pieces by a minimal set of interior\nedges and add one interior neighbor at each attachment\nthat has none, considering every permitted choice.\nThe reduction above shows that this list contains $B$.\nAdjoin two vertices with each of the neighborhoods\n$\\{a,b,c\\}$ and $\\{a,b,d\\}$ in the first case, and three\nand two, respectively, in the second. The records in~\\supp{E9} leave exactly the stated graphs.\nEvery other graph is excluded by five branch sets of a\n$K_5$ minor, a separating set of at most two vertices,\nor an edge whose deletion or contraction leaves a\nnontoroidal graph. These contradict, respectively,\n$K_5$-minor-freeness, three-connectivity or minimality."
+   "where": "Lemma 5.8 (proof)",
+   "text": "Construction~\\ref{common:marked-construction},\nwith attachments $x,c,d$ and added edges $xc,xd$,\nlists the reduced bridges before $x$ is separated.\nReplace each edge $xv$ by $av$ or $bv$ and add\nan edge to the interior at $a$ or $b$ if needed,\nconsidering every possible choice. This includes\nevery reduction above. Adjoin three vertices\nwith neighborhood $\\{a,b,c\\}$ and two with\nneighborhood $\\{a,b,d\\}$. The enumeration~\\supp{E9} gives $2{,}953$\ncandidates up to isomorphisms fixing the attachments.\nOf these, $2{,}159$ have a $K_5$ minor, $92$ have\na cut of at most two vertices, and $702$\nhave a proper nontoroidal minor. These exclude\nevery candidate, so $H$ cannot be planar.\n\\end{proof}"
   }
  ],
  "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ...",
  "cases of the construction": {
-  "A": {
+  "lifts": {
    "specification": {
-    "roots": [
-     "a",
-     "b",
+    "quotient roots": [
+     "r",
      "c",
      "d"
     ],
-    "outside": {},
-    "C edges within R": [],
-    "required edges of K'": []
-   },
-   "root placements": 72109,
-   "root placement classes": 1392,
-   "full placements": 1392,
-   "valid retained subdivisions": 1392,
-   "recipes": 96151,
-   "parts up to rooted isomorphism": 57479,
-   "outcomes": {
-    "cut of order at most two": 3291,
-    "K5 minor": 134715,
-    "proper nontoroidal minor": 34388,
-    "catalogue graph": 43
-   }
-  },
-  "B": {
-   "specification": {
-    "roots": [
-     "a",
-     "b",
-     "c",
-     "d"
-    ],
-    "outside": {},
-    "C edges within R": [
+    "added edges": [
      [
-      "a",
-      "b"
-     ],
-     [
-      "a",
+      "r",
       "c"
      ],
      [
-      "b",
-      "c"
+      "r",
+      "d"
      ]
     ],
-    "required edges of K'": []
+    "lifted roots": [
+     "a",
+     "b",
+     "c",
+     "d"
+    ]
    },
-   "root placements": 72109,
-   "root placement classes": 1392,
-   "full placements": 1392,
-   "valid retained subdivisions": 1392,
-   "recipes": 27241,
-   "parts up to rooted isomorphism": 14638,
+   "root placements": 4270,
+   "root placement classes": 115,
+   "full placements": 115,
+   "valid retained subdivisions": 115,
+   "recipes": 861,
+   "parts up to rooted isomorphism": 2953,
+   "quotient parts": 349,
+   "lifts": 4428,
    "outcomes": {
-    "cut of order at most two": 285,
-    "K5 minor": 11453,
-    "proper nontoroidal minor": 2898,
-    "catalogue graph": 2
+    "cut of order at most two": 92,
+    "proper nontoroidal minor": 702,
+    "K5 minor": 2159
    }
   }
  }

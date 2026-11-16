@@ -1,91 +1,12 @@
 {
  "item": "E29",
- "where": "Lemma 6.14",
+ "where": "Proposition 6.25",
  "paper text": [
   {
-   "where": "Lemma 6.14 (proof)",
-   "text": "Suppose $n_e=3$. The applicable row gives a single\nnonplanar completion $B+E'$.\nContracting $J_1,J_2$ to triangles and $bd$ into $d$,\nthen deleting unused vertices, gives the minor\n$B+ac+ad+ae+cd+de$ of $G$.\nHence $B+E'$ has no $K_5$ minor.\nApply Lemma~\\ref{core:retained-subdivision} to a\n$K_{3,3}$ subdivision in it, with attachments\n$a,c,d,e$ and added edges $E'$.\nThe reduction preserves the connected interior, all four attachments and the nonplanarity of the completion by $E'$. Thus the resulting minor is nontoroidal, so minimality forces the reduction to leave $B$ unchanged.\nConstruction~\\ref{common:marked-construction} gives\n$9{,}127$ possibilities without $cd$ and $8{,}967$\nwith $cd$. Every resulting graph has a proper\nnontoroidal minor obtained by deleting or\ncontracting one edge~\\supp{E29}, a contradiction.\nThus $n_e=2$, and the first two rows give the\nclaimed form of $G$ and its two nonplanar completions."
+   "where": "Proposition 6.25 (proof)",
+   "text": "For $n_c=n_e=2$, the construction gives $31{,}063$ candidates up to\nisomorphism fixing $a,b,c,d,e$. By\nLemma~\\ref{lem:independent-neighborhood}(a), we exclude any candidate\nhaving a degree-three vertex with two adjacent neighbors. We also\nexclude any candidate for which some choice of the four twins gives a\nbridge with four or five attachments. Both exclusions still apply when\n$n_c$ or $n_e$ increases, since each new vertex is adjacent only to\nvertices among $a,b,c,d,e$. In the first exclusion, the recorded\ndegree-three vertex lies outside these five, so it keeps the same\nthree neighbors. In the second, the four twins used in the check also\nlie outside these five, so they still define the same copy of $\\Psi_3$.\nThe old component lies in a component outside this copy that still\nhas all four or five original attachments.\n\nThis leaves $193$ candidates for $n_c=n_e=2$, giving $965$ cases\nover the five choices of $(n_c,n_e)$. Of these, $172$ are toroidal\nand $782$ have a proper nontoroidal minor. The remaining $11$ are\ncopies of the five graphs in the statement~\\supp{E29}.\n\\end{proof}"
   }
  ],
- "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
- "cases of the construction": {
-  "no_cd": {
-   "specification": {
-    "roots": [
-     "a",
-     "c",
-     "d",
-     "e"
-    ],
-    "outside": {},
-    "C edges within R": [
-     [
-      "a",
-      "c"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "e"
-     ],
-     [
-      "d",
-      "e"
-     ]
-    ],
-    "required edges of K'": []
-   },
-   "root placements": 72109,
-   "root placement classes": 1392,
-   "full placements": 1392,
-   "valid retained subdivisions": 1392,
-   "recipes": 18646,
-   "parts up to rooted isomorphism": 9127,
-   "outcomes": {
-    "proper nontoroidal minor": 9127
-   }
-  },
-  "with_cd": {
-   "specification": {
-    "roots": [
-     "a",
-     "c",
-     "d",
-     "e"
-    ],
-    "outside": {},
-    "C edges within R": [
-     [
-      "a",
-      "c"
-     ],
-     [
-      "a",
-      "e"
-     ],
-     [
-      "c",
-      "d"
-     ],
-     [
-      "d",
-      "e"
-     ]
-    ],
-    "required edges of K'": []
-   },
-   "root placements": 72109,
-   "root placement classes": 1392,
-   "full placements": 1392,
-   "valid retained subdivisions": 1392,
-   "recipes": 17256,
-   "parts up to rooted isomorphism": 8967,
-   "outcomes": {
-    "proper nontoroidal minor": 8967
-   }
-  }
- }
+ "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ... Vertices of the forms are B<k>_<x>; added single vertices are v_<neighbourhood>.",
+ "cases of the construction": {}
 }

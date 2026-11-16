@@ -1,29 +1,20 @@
 {
  "item": "E22",
- "where": "Proposition 6.7",
+ "where": "Proposition 6.13",
  "paper text": [
   {
-   "where": "Proposition 6.7 (proof)",
-   "text": "The nonplanar graph $H$ has no $K_5$ minor, so it contains a $K_{3,3}$ subdivision. If $bd$ is present, Corollary~\\ref{r1:five-criterion} applied to the toroidal graph $G-bd$ makes $H-bd$ planar, so every such subdivision uses $bd$. Apply Lemma~\\ref{core:retained-subdivision} with the five attachments and the fixed planar graph on them consisting of $ab,ac,ad,ae$, together with $bd$ when present. The reduction preserves the connected interior, all five attachments and the nonplanarity of the completion, so the resulting minor is nontoroidal by Corollary~\\ref{r1:five-criterion}. Minimality forces the reduction to be trivial. Construction~\\ref{common:marked-construction} gives $217{,}376$ candidates. All except $\\mathfrak T_{20},\\mathfrak T_{23}$ have a $K_5$ minor, a cut of at most two vertices, a proper nontoroidal minor, or two twin triples meeting in zero or two vertices~\\supp{E22}."
+   "where": "Proposition 6.13 (proof)",
+   "text": "If $B_1$ is empty, then $E=\\{bd,ce\\}$. Condition (2) of Lemma~\\ref{r1:missing-a-criterion} makes $H_2+bd$ and $H_2+ce$ nonplanar, so $H_3$ is nonplanar. Lemma~\\ref{r1:missing-a-cut} then makes $bd$ or $ce$ a nonedge of $G$, a contradiction. Suppose next that $B_1$ is one bridge. Interchange $b,c$ and $d,e$ simultaneously if necessary so that its attachments are $\\{a,b,d\\}$, and put $H_4=B_1+ab+ad$. If $E=\\varnothing$, condition (2) makes $H_4$ nonplanar. Contracting the interior of $B$ leaves $H_4$ unchanged, so the graph in condition (1) still contains the nonplanar subgraph $H_4$, while condition (2) requires $H_4$ to be planar. Minimality therefore makes the interior of $B$ a single vertex. If $B_1$ is replaced by an allowed minor $B_1'$ with $B_1'+ab+ad$ nonplanar, neither condition (1) nor condition (2) can hold. Thus Corollary~\\ref{common:reduced-forms}, with attachments $a,b,d$ and added edges $ab,ad$, gives the $349$ forms in~\\supp{E22}. Every resulting graph has a $K_5$ minor, a cut of at most two vertices, or a proper nontoroidal minor."
   }
  ],
  "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
  "cases of the construction": {
-  "with_bd": {
-   "valid retained subdivisions": 2285,
-   "recipes": 55881,
-   "parts up to label-preserving isomorphism": 34303,
-   "root placements": 1253116,
-   "root placement classes (K3,3)": 20631,
-   "classes up to K3,3 and the symmetries of Psi3 and D": 10459,
-   "symmetry group order": 2,
+  "one_bridge": {
    "specification": {
     "roots": [
      "a",
      "b",
-     "c",
-     "d",
-     "e"
+     "d"
     ],
     "outside": {},
     "C edges within R": [
@@ -33,88 +24,26 @@
      ],
      [
       "a",
-      "c"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "e"
-     ],
-     [
-      "b",
       "d"
      ]
     ],
-    "required edges of K'": [
-     [
-      "b",
-      "d"
-     ]
-    ]
+    "required edges of K'": [],
+    "exterior": "Psi3 + w, N(w)=bcde"
    },
-   "folders": [
-    "with_bd_01",
-    "with_bd_02"
-   ],
-   "excluded by an allowed operation on P": 34231,
-   "classified as whole graphs": 72,
-   "seconds": 87.7
-  },
-  "without_bd": {
-   "valid retained subdivisions": 2837,
-   "recipes": 277277,
-   "parts up to label-preserving isomorphism": 183073,
-   "root placements": 1253116,
-   "root placement classes (K3,3)": 20631,
-   "classes up to K3,3 and the symmetries of Psi3 and D": 2837,
-   "symmetry group order": 8,
-   "specification": {
-    "roots": [
-     "a",
-     "b",
-     "c",
-     "d",
-     "e"
-    ],
-    "outside": {},
-    "C edges within R": [
-     [
-      "a",
-      "b"
-     ],
-     [
-      "a",
-      "c"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "a",
-      "e"
-     ]
-    ],
-    "required edges of K'": []
-   },
-   "folders": [
-    "without_bd_01",
-    "without_bd_02",
-    "without_bd_03",
-    "without_bd_04",
-    "without_bd_05",
-    "without_bd_06",
-    "without_bd_07",
-    "without_bd_08",
-    "without_bd_09",
-    "without_bd_10"
-   ],
-   "excluded by an allowed operation on P": 182977,
-   "classified as whole graphs": 96,
-   "seconds": 383.3
+   "root placements": 4270,
+   "root placement classes": 115,
+   "full placements": 115,
+   "valid retained subdivisions": 115,
+   "recipes": 861,
+   "parts up to rooted isomorphism": 349,
+   "outcomes": {
+    "excluded: disjoint twin triples": 207,
+    "proper nontoroidal minor": 45,
+    "K5 minor": 54,
+    "excluded: component adjacent to all five attachments": 28,
+    "cut of order at most two": 1,
+    "excluded: two twin triples share two vertices": 14
+   }
   }
  },
  "hypotheses of the case used for exclusions": {

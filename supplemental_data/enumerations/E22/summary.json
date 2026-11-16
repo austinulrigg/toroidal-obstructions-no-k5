@@ -1,48 +1,17 @@
 {
  "item": "E22",
- "where": "Proposition 6.7",
- "candidates": 217376,
+ "where": "Proposition 6.13",
+ "candidates": 349,
  "verdicts": {
-  "K5 minor": 2,
-  "cut of at most two vertices": 5,
-  "isomorphic to T20": 1,
-  "isomorphic to T23": 1,
-  "isomorphic to T38": 2,
-  "isomorphic to T40": 2,
-  "isomorphic to T69": 2,
-  "proper nontoroidal minor": 217361
+  "K5 minor": 67,
+  "cut of at most two vertices": 46,
+  "proper nontoroidal minor": 236
  },
- "isomorphic to T_i (copies)": {
-  "T20": 1,
-  "T23": 1,
-  "T38": 2,
-  "T40": 2,
-  "T69": 2
- },
- "graphs T_i not excluded by a hypothesis of the case": [
-  "T20",
-  "T23"
- ],
+ "isomorphic to T_i (copies)": {},
+ "graphs T_i not excluded by a hypothesis of the case": [],
  "also excluded by a hypothesis of the case": {
-  "two twin triples are disjoint": 44829,
-  "two twin triples share two vertices": 1577
- },
- "graphs T_i excluded by a hypothesis of the case": [
-  "T38",
-  "T40",
-  "T69"
- ],
- "by case": {
-  "with_bd": {
-   "candidates": 34303,
-   "graphs T_i not excluded by a hypothesis of the case": []
-  },
-  "without_bd": {
-   "candidates": 183073,
-   "graphs T_i not excluded by a hypothesis of the case": [
-    "T20",
-    "T23"
-   ]
-  }
+  "a choice of twin pairs leaves a component adjacent to all five of their attachments": 28,
+  "two twin triples are disjoint": 207,
+  "two twin triples share two vertices": 14
  }
 }

@@ -1,4 +1,4 @@
-"""Generate R12, the rotation table for H0 in Lemma 4.10.
+"""Generate R12, the rotation table for H2 in Lemma 4.10.
 
 Usage: python make_R12.py OUTPUT_FOLDER
 Writes OUTPUT_FOLDER/rotations/R12.json. Uses only the standard library.
@@ -25,16 +25,9 @@ HOW_TO_READ = (
     "system in order, the position of its row in that list. 'Up to cyclic shift and reversal' in the claims means "
     "the least sequence among all cyclic shifts of the sequence and of its reverse.")
 
-PAPER_TEXT = r"""Take a closed regular neighborhood $\mathcal N$ of $H_0$.
-Enumerating the rotations of $H_0$ and tracing their
-boundary walks gives the following~\supp{R12}.
-If $\mathcal N$ has genus one, no boundary walk contains
-all four attachments. Every complementary region is then
-a disk by Lemma~\ref{lem:torus-complement}, a contradiction.
-Thus $\mathcal N$ has genus zero. No single boundary
-walk contains all four attachments, and exactly one pair
-contains all four between them. Their attachment sequences
-are $s_1,s_2$ and $t_1,t_2$, with each attachment appearing once."""
+PAPER_TEXT = r"""We consider all possible embeddings of $H_2$ and a closed regular neighborhood $\mathcal N$ of it. Enumerating the rotations of $H_2$ and tracing their boundary walks gives the following~\supp{R12}. If $\mathcal N$ has genus one, no boundary walk contains all four attachments, and every complementary region is then a disk by Lemma~\ref{lem:torus-complement}, a contradiction.
+
+If $\mathcal N$ has genus zero, no boundary walk contains all four attachments, and exactly one pair contains all four between them. Their attachment sequences are $s_1,s_2$ and $t_1,t_2$, with each attachment appearing once. Lemma~\ref{lem:torus-complement} therefore puts $H_1'-A$ in the annulus bounded by these walks, with all four attachments on its boundary. By Lemma~\ref{lem:annulus-embedding}, $H_1'+E$ is planar, a contradiction."""
 
 
 def canonical(sequence):
@@ -108,14 +101,14 @@ def generate():
     assert once_counts == Counter({True: 16})
     assert len(signatures) == 4 and set(signatures.values()) == {4}
     by_genus = {str(k): genera[k] for k in sorted(genera)}
-    graph = dict(name='H0 = (J1 union J2) + s3t3', vertices=vertices, edges=edges,
+    graph = dict(name='H2 = (J1 union J2) + s3t3', vertices=vertices, edges=edges,
                  attachments=attachments)
     graph.update({'cyclic orders': cyclic, 'number of rotation systems': count,
                   'rotation systems by genus': by_genus,
                   'row format': '[genus, attachment sequences of the facial walks]',
                   'distinct rows': distinct, 'rows': rows})
     claims = [
-        dict(statement='H0 has 10 vertices, 13 edges and 64 rotation systems. A rotation with F facial walks has genus (5-F)/2.',
+        dict(statement='H2 has 10 vertices, 13 edges and 64 rotation systems. A rotation with F facial walks has genus (5-F)/2.',
              computed={'vertices': 10, 'edges': 13, 'rotation systems': 64, 'by genus': by_genus,
                        'facial walk counts by genus': {str(g): {str(k): n for k, n in sorted(c.items())}
                                                       for g, c in sorted(face_counts.items())}}, holds=True),
@@ -131,7 +124,7 @@ def generate():
     ]
     return {'item': 'R12', 'where': 'Lemma 4.10 (dis:sole-two-rails), proof',
             'paper text': [{'label': 'dis:sole-two-rails', 'text': PAPER_TEXT}],
-            'what': 'Every rotation system of H0, consisting of twins p,q on {s1,s2,s3}, twins r,z on {t1,t2,t3}, and the edge s3t3. Attachments: s1,t1,s2,t2; twins and s3,t3 omitted from attachment sequences. All rotations, including genus two, are recorded; only genera zero and one can occur for a regular neighbourhood inside the torus.',
+            'what': 'Every rotation system of H2, consisting of twins p,q on {s1,s2,s3}, twins r,z on {t1,t2,t3}, and the edge s3t3. Attachments: s1,t1,s2,t2; twins and s3,t3 omitted from attachment sequences. All rotations, including genus two, are recorded; only genera zero and one can occur for a regular neighbourhood inside the torus.',
             'how to read': HOW_TO_READ, 'graphs': [graph], 'claims': claims}
 
 

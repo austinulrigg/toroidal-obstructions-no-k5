@@ -1,171 +1,197 @@
-"""E11: the cut X = {a, b, w} (Proposition 5.14).
+"""E11: a cut {a, u, v} with one component containing b, c, d (Lemma 5.17).
 
-The program's names: t0, t1 are the twins on abc and t2, t3 those on abd
-(p, q, r, z in the paper). As in the proof, G is Psi_2 together with
-  (a) one component D_0 whose bridge B_0 is one of the eleven forms of the
-      proof, and the components D_c, D_d, with every subset of the edges
-      aw, bw;
-  (b) two single vertices k1, k2 on abw, and D_c, D_d;
-  (c) two single vertices k1, k2 on abw, and the component D_1 containing
-      both c and d, with neighbourhood w or aw in X (bw is the mirror
-      image).
-The forms of D_c (and of D_d, with d for c) come from forms_e11.c_forms and
-those of D_1 from forms_one_component.e11_r_forms; forms with a one-step
-proper minor of the same signature are removed first. Every assembled graph
-is compared with the others up to isomorphism, and each class is classified
-(enumeration.classify). Each candidate also records whether B (G minus the
-twins, with no edges among a, b, c, d) is planar, as Section 5.4 retains
-the graphs with B planar. The proof finds 33 forms of D_c and 54 of D_1,
-and T56, T72, T73 among the graphs with B planar.
+The names: Psi_2 has twins p1, p2 on abc and q1, q2 on abd (p, q, r, z in
+the paper), and the bridge B has attachments a, b, c, d. It contains u, v
+and the twins p, q with neighbourhood X = {a, u, v} (p', q' in the paper),
+and one component D of B - X, containing b, c, d, with N_B(D) = {u, v}. As
+in the proof, the components of D - {b, c, d} are contracted to vertices,
+and D is reduced to a bipartite tree with them, which is a star whose
+center z1 is joined to b, c, d, or a path g1 z1 g2 z2 g3 with
+{g1, g2, g3} = {b, c, d} (the paper writes m, or m1, m2). For the star, z1
+meets both u, v, or one of them and a vertex of {b, c, d} meets the other.
+For the path, z1, z2 meet different vertices of {u, v}, or both meet one
+and a vertex of {b, c, d} meets the other. Every such choice is made, and
+the bridges are compared up to permutations of the vertices of the tree
+outside b, c, d (all eight named vertices fixed): 31 forms.
 
-The forms are kept in forms.pkl in the output folder, and the
-classification in progress.jsonl, so that a second start continues.
+For each form the program records a plane embedding of B and Kuratowski
+subgraphs of the four tests of Lemma 5.3 with (n_c, n_d) = (2,2), and
+classifies G = Psi_2 + B: a cut of at most two vertices; an isomorphism
+onto some T_i; a K5 minor (found by a random search); or the deletion of
+one edge of B after which all four tests are still nonplanar. The proof
+finds T40, T53, T56, T73.
+
 Run as: python generate_E11.py FOLDER
 """
+import collections
+import itertools as it
 import json
-import pickle
 import sys
-from collections import Counter
 from pathlib import Path
 
 import networkx as nx
 
-import enumeration as el
-import forms_e11 as f
-import forms_one_component as fx
+import common
+import graphs as gr
 
-ELEVEN = ['one vertex', 'T(a)', 'T(b)', 'T(w)', 'S(a;b)', 'S(a;w)', 'S(b;a)', 'S(b;w)',
-          'Q(a;b,w)', 'Q(b;a,w)', 'Q(w;a,b)']
-TWINS = ("t0", "t1", "t2", "t3")
+FIXED = ('a', 'b', 'c', 'd', 'u', 'v', 'p', 'q')
+TESTS = [('ac', 'bd'), ('ad', 'bc'), ('ab', 'ac', 'ad'), ('ab', 'bc', 'bd')]
 
 
-def prefixed(H, roots, tag, ren=None):
-    ren = ren or {}
-    m = {v: ren.get(v, v) if v in roots else "%s%s" % (tag, v) for v in H}
-    return nx.relabel_nodes(H, m)
+def edges(graph):
+    return sorted(sorted(e) for e in graph.edges())
 
 
-def psi2():
-    G = nx.Graph()
-    G.add_edges_from((t, x) for t in ("t0", "t1") for x in "abc")
-    G.add_edges_from((t, x) for t in ("t2", "t3") for x in "abd")
+def canonical_part(P):
+    """Fix all eight named vertices and permute only tree-interior vertices."""
+    zs = sorted(set(P) - set(FIXED))
+    choices = []
+    for perm in it.permutations(zs):
+        renaming = dict(zip(zs, perm))
+        Q = nx.relabel_nodes(P, renaming)
+        choices.append(tuple(tuple(e) for e in edges(Q)))
+    return min(choices)
+
+
+def base_part():
+    P = nx.Graph()
+    P.add_nodes_from(FIXED)
+    P.add_edges_from((p, x) for p in ('p', 'q') for x in ('a', 'u', 'v'))
+    return P
+
+
+def recipes():
+    # One z joined to both u,v, or to one and an attachment to the other.
+    tree = [('z1', r) for r in ('b', 'c', 'd')]
+    yield {'family': 'star', 'joins': [['z1', 'u'], ['z1', 'v']]}, tree
+    for x, y in [('u', 'v'), ('v', 'u')]:
+        for r in ('b', 'c', 'd'):
+            yield {'family': 'star', 'joins': [['z1', x], [r, y]]}, tree
+    # Every ordered path; recipes giving the same form are all recorded.
+    for r1, r2, r3 in it.permutations(('b', 'c', 'd')):
+        tree = [(r1, 'z1'), ('z1', r2), (r2, 'z2'), ('z2', r3)]
+        for x, y in [('u', 'v'), ('v', 'u')]:
+            yield {'family': 'path', 'order': [r1, r2, r3],
+                   'joins': [['z1', x], ['z2', y]]}, tree
+            for r in ('b', 'c', 'd'):
+                yield {'family': 'path', 'order': [r1, r2, r3],
+                       'joins': [['z1', x], ['z2', x], [r, y]]}, tree
+
+
+def generate():
+    table = {}
+    for recipe, tree in recipes():
+        P = base_part()
+        P.add_edges_from(tree)
+        P.add_edges_from(recipe['joins'])
+        key = canonical_part(P)
+        if key not in table:
+            Q = nx.Graph()
+            Q.add_nodes_from(P)
+            Q.add_edges_from(key)
+            table[key] = (Q, [])
+        table[key][1].append(recipe)
+    return [table[k] for k in sorted(table)]
+
+
+def whole_graph(P):
+    G = P.copy()
+    G.add_edges_from((p, r) for p in ('p1', 'p2') for r in ('a', 'b', 'c'))
+    G.add_edges_from((q, r) for q in ('q1', 'q2') for r in ('a', 'b', 'd'))
     return G
 
 
-def build(cforms, rforms):
-    U = [(n, H) for n, H in f.u_forms() if n in ELEVEN]
-    assert [n for n, _ in U] == ELEVEN
-    C = [(i, prefixed(H, f.ROOTS, "C")) for i, (H, _) in enumerate(cforms)]
-    D = [(i, prefixed(H, f.ROOTS, "D", {"c": "d"})) for i, (H, _) in enumerate(cforms)]
-    graphs = []
-    for un, UG in U:
-        Ug = prefixed(UG, ("a", "b", "w"), "U")
-        for ci, CG in C:
-            for di, DG in D:
-                for E in ([], [("a", "w")], [("b", "w")], [("a", "w"), ("b", "w")]):
-                    G = psi2()
-                    G.add_edges_from(Ug.edges())
-                    G.add_edges_from(CG.edges())
-                    G.add_edges_from(DG.edges())
-                    G.add_edges_from(E)
-                    graphs.append((G, {"case": "a", "U": un, "C form": ci, "D form": di,
-                                       "edges in X": ["".join(e) for e in E]}))
-    for ci, CG in C:
-        for di, DG in D:
-            G = psi2()
-            G.add_edges_from((k, x) for k in ("k1", "k2") for x in "abw")
-            G.add_edges_from(CG.edges())
-            G.add_edges_from(DG.edges())
-            graphs.append((G, {"case": "b", "C form": ci, "D form": di}))
-    for ri, (RG, _) in enumerate(rforms):
-        G = psi2()
-        G.add_edges_from((k, x) for k in ("k1", "k2") for x in "abw")
-        G.add_edges_from(prefixed(RG, f.R_ROOTS, "R").edges())
-        graphs.append((G, {"case": "c", "R form": ri, "N(R)": f.r_signature(RG)[0]}))
-    return graphs
+def planar_certificate(G):
+    planar, witness = nx.check_planarity(G, counterexample=True)
+    if planar:
+        return {'planar': True, 'rotation': {v: list(witness.neighbors_cw_order(v)) for v in G}}
+    return {'planar': False, 'kuratowski_edges': edges(witness)}
 
 
-def dedupe(graphs):
-    buckets, out = {}, []
-    for G, info in graphs:
-        key = (G.number_of_nodes(), G.number_of_edges(), nx.weisfeiler_lehman_graph_hash(G, iterations=4))
-        hit = None
-        for j in buckets.get(key, []):
-            if nx.is_isomorphic(G, out[j][0]):
-                hit = j
+def connectivity_witness(G):
+    for size in range(3):
+        for cut in it.combinations(sorted(G), size):
+            H = G.copy()
+            H.remove_nodes_from(cut)
+            comps = sorted([sorted(c) for c in nx.connected_components(H)])
+            if len(comps) > 1:
+                return {'cut': list(cut), 'components': comps}
+    return None
+
+
+def proper_four_test_subgraph(P):
+    """An edge of B whose deletion keeps the hypotheses of Lemma 5.3 and all
+    four tests nonplanar: a proper nontoroidal minor of G."""
+    roots = set('abcd')
+    interior = set(P) - roots
+    for edge in edges(P):
+        Q = P.copy()
+        Q.remove_edge(*edge)
+        if not nx.is_connected(Q.subgraph(interior)):
+            continue
+        if any(not (set(Q[r]) & interior) for r in roots):
+            continue
+        tests = []
+        for pairs in TESTS:
+            H = Q.copy()
+            H.add_edges_from(tuple(e) for e in pairs)
+            if nx.check_planarity(H)[0]:
                 break
-        if hit is None:
-            buckets.setdefault(key, []).append(len(out))
-            out.append((G, {"first": info, "also": []}))
-        else:
-            out[hit][1]["also"].append(info)
-    return out
+            tests.append({'added_edges': pairs, **planar_certificate(H)})
+        if len(tests) == 4:
+            return {'type': 'proper_four_test_subgraph', 'deleted_edges': [edge],
+                    'part_edges': edges(Q), 'completions': tests}
+    return None
 
 
-def b_planar(G):
-    """Whether B = G minus the twins, with no edges among a, b, c, d, is planar."""
-    X = set("abcd")
-    B = nx.Graph()
-    B.add_nodes_from(v for v in G if v not in TWINS)
-    B.add_edges_from(e for e in G.edges() if not set(e) & set(TWINS) and not set(e) <= X)
-    return nx.check_planarity(B)[0]
-
-
-def forms(out):
-    cache = out / "forms.pkl"
-    if cache.exists():
-        with open(cache, "rb") as fh:
-            return pickle.load(fh)
-    cforms, cst = f.c_forms()
-    rforms, rst = fx.e11_r_forms()
-    with open(cache, "wb") as fh:
-        pickle.dump((cforms, cst, rforms, rst), fh)
-    return cforms, cst, rforms, rst
-
-
-if __name__ == "__main__":
+def main():
     out = Path(sys.argv[1])
     out.mkdir(parents=True, exist_ok=True)
-    cforms, cst, rforms, rst = forms(out)
-    print("D_c forms", len(cforms), "D_1 forms", len(rforms), flush=True)
-    graphs = build(cforms, rforms)
-    print("assembled", len(graphs), Counter(i["case"] for _, i in graphs), flush=True)
-    uniq = dedupe(graphs)
-    print("up to isomorphism", len(uniq), flush=True)
-    forms_record = {"C forms": [{"index": i, "signature": list(f.signature(H)), "origin": inf["origin"],
-                                 "graph": el.graph_record(H)} for i, (H, inf) in enumerate(cforms)],
-                    "R forms": [{"index": i, "signature": list(f.r_signature(H)), "origin": inf["origin"],
-                                 "graph": el.graph_record(H)} for i, (H, inf) in enumerate(rforms)],
-                    "U forms": [{"name": n, "graph": el.graph_record(H)} for n, H in f.u_forms() if n in ELEVEN],
-                    "C form statistics": cst, "R form statistics": rst}
-    with open(out / "forms.json", "w") as fh:
-        json.dump(forms_record, fh, indent=1)
-    s = el.run_item("E11", [("assemblies", None, lambda G: G,
-                             {"parts": uniq, "stats": {"assembled": len(graphs), "up to isomorphism": len(uniq)},
-                              "payload": "see forms.json"})],
-                    ["T56", "T72", "T73"], str(out),
-                    note="G = Psi2 + (B_0, or k1, k2 on abw) + D_c + D_d (+ subsets of aw, bw in case (a)), "
-                         "or Psi2 + k1, k2 + D_1")
-    data = json.load(open(out / "candidates.json"))
-    for r in data["candidates"]:
-        G = nx.Graph()
-        G.add_edges_from(r["graph"]["edges"])
-        r["P planar"] = b_planar(G)
-    with open(out / "candidates.json", "w") as fh:
-        json.dump(data, fh)
-    # the text concerns the graphs with B planar (a class counts when some member has B planar;
-    # package.py records such a member)
-    planar_found = set()
-    by_key = {json.dumps(i, sort_keys=True): G for G, i in graphs}
-    for r in data["candidates"]:
-        if r["outcome"]["outcome"] == "catalogue graph":
-            infos = [r["recipe"]["first"]] + r["recipe"]["also"]
-            if any(b_planar(by_key[json.dumps(i, sort_keys=True)]) for i in infos):
-                planar_found.add(r["outcome"]["catalogue"])
-    s["catalogue graphs with B planar"] = sorted(planar_found, key=lambda x: int(x[1:]))
-    s["agrees with the text"] = s["complete"] and s["catalogue graphs with B planar"] == ["T56", "T72", "T73"]
-    with open(out / "summary.json", "w") as fh:
-        json.dump(s, fh, indent=1)
-    print(json.dumps({k: s[k] for k in ("candidates", "outcomes", "catalogue graphs found",
-                                         "catalogue graphs with B planar", "agrees with the text", "seconds")},
-                     indent=1))
+    entries = common.catalogue_records()
+    records = []
+    for index, (P, recipe_list) in enumerate(generate(), 1):
+        G = whole_graph(P)
+        completions = []
+        for pairs in TESTS:
+            H = P.copy()
+            H.add_edges_from(tuple(pair) for pair in pairs)
+            completions.append({'added_edges': pairs, **planar_certificate(H)})
+        matches = []
+        for entry in entries:
+            H = nx.from_graph6_bytes(entry['graph6'].encode())
+            if len(G) != len(H) or G.number_of_edges() != H.number_of_edges():
+                continue
+            matcher = nx.isomorphism.GraphMatcher(G, H)
+            if matcher.is_isomorphic():
+                matches.append({'target': entry['name'], 'mapping': matcher.mapping})
+        cut = connectivity_witness(G)
+        if cut:
+            outcome = {'type': 'small_cut', **cut}
+        elif matches:
+            outcome = {'type': 'survivor', **matches[0]}
+        else:
+            sets = gr.find_k5_minor(G, trials=1000, seed=0)
+            if sets:
+                outcome = {'type': 'k5_minor', 'branch_sets': sets}
+            else:
+                outcome = proper_four_test_subgraph(P) or {'type': 'unresolved'}
+        print('E11-%03d: %s %s' % (index, outcome['type'], outcome.get('target', '')), flush=True)
+        records.append({'id': 'E11-%03d' % index, 'vertices': sorted(P), 'part_edges': edges(P),
+                        'recipes': recipe_list, 'graph_vertices': sorted(G), 'graph_edges': edges(G),
+                        'planar_part': planar_certificate(P), 'completions': completions,
+                        'small_cut': cut, 'catalog_matches': matches, 'outcome': outcome})
+    counts = collections.Counter(r['outcome']['type'] for r in records)
+    result = {'item': 'E11', 'raw_recipes': sum(len(r['recipes']) for r in records),
+              'forms': len(records), 'candidates': records}
+    (out / 'candidates.json').write_text(json.dumps(result, indent=2, sort_keys=True) + '\n')
+    summary = {'item': 'E11', 'where': 'Lemma 5.17', 'recipes': result['raw_recipes'], 'forms': len(records),
+               'outcomes': dict(counts),
+               'catalogue graphs found': sorted({r['outcome']['target'] for r in records
+                                                 if r['outcome']['type'] == 'survivor'}, key=lambda x: int(x[1:])),
+               'complete': counts.get('unresolved', 0) == 0}
+    (out / 'summary.json').write_text(json.dumps(summary, indent=1) + '\n')
+    print(json.dumps(summary, indent=1))
+
+
+if __name__ == '__main__':
+    main()

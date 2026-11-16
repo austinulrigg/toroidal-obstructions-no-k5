@@ -1,5 +1,5 @@
 """Covering a finite family of bridge assemblies by toroidal and nontoroidal
-graphs (used for E5 and E13).
+graphs (used for E4 and E12).
 
 An assembly is a count vector n over a list of atoms (bridges, or edges, with
 named attachments). Its graph is a fixed base graph plus n[i] copies of each

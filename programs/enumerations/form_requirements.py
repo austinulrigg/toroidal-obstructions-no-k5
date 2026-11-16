@@ -1,7 +1,7 @@
-"""Construction 3.17, the completion step: further single-vertex components
+"""Construction 3.18, the completion step: further single-vertex components
 and every inclusion-minimal set of attaching edges (and, where permitted,
 original edges between attachments) that meets the requirements of the case,
-with the whole configuration minimal (Lemma 5.8).
+with the whole configuration minimal (Lemma 5.11).
 
 A configuration consists of the retained interior components (fixed vertex
 sets, each with the set of attachments it is already adjacent to), further

@@ -2,13 +2,13 @@
 data folder.
 
     python check_supplement.py ../supplemental_data
-    python check_supplement.py ../supplemental_data --items O2,E11,R8
+    python check_supplement.py ../supplemental_data --items O2,E10,R8
 
 The program first compares every file of the folder with its SHA-256 checksum
 in SHA256SUMS.txt. It then reads each item, rebuilds every graph from its
 record, and checks every witness by its kind (witnesses.py), together with the
 structure of each item that its module describes. It also checks that each
-item's summary agrees with its records, and the DRAT proofs of E4, E5 and E13
+item's summary agrees with its records, and the DRAT proofs of E3, E4 and E12
 with drat-trim (found on the PATH, or given by the environment variable
 DRAT_TRIM; without it those proofs are reported as not checked).
 
@@ -28,18 +28,18 @@ import traceback
 ITEMS = {}
 for k in ('O1', 'O2', 'O3', 'O4', 'TO1', 'TO2', 'N1'):
     ITEMS[k] = 'items_obstructions'
-for i in range(1, 22):
+for i in range(1, 17):
     ITEMS['W%d' % i] = 'items_witnesses'
 for i in range(1, 12):
     ITEMS['R%d' % i] = 'items_rotations'
 ITEMS['R12'] = 'items_rotation_R12'
-for i in (1, 2, 3, 4, 7, 8, 12):
+for i in (1, 2, 3, 6, 7, 11):
     ITEMS['E%d' % i] = 'items_bridges'
-for i in (5, 13):
+for i in (4, 12):
     ITEMS['E%d' % i] = 'items_coverings'
-for i in (6, 9, 10, 11, 14, 15, 16, 17, 18, 19):
+for i in (5, 8, 9, 10, 13, 14, 15, 16, 17, 18):
     ITEMS['E%d' % i] = 'items_enumerations_a'
-for i in range(20, 35):
+for i in range(19, 30):
     ITEMS['E%d' % i] = 'items_enumerations_b'
 
 

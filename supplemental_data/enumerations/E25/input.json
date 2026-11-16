@@ -1,92 +1,157 @@
 {
  "item": "E25",
- "where": "Proposition 6.12",
+ "where": "Proposition 6.16",
  "paper text": [
   {
-   "line": 9505,
-   "text": "nonplanar triangle completion $H_1+ab+ad+bd$.\nSince $H_3$ contains $H_2+bd$, Lemma~\\ref{r1:missing-a-cut} gives\ntwins $p',q'$ with neighborhood $\\{c,e,w\\}$.\nContract the rest of $\\operatorname{Int}(B)$ to $w$, retaining\nonly $bw,dw$ and the six edges at $p',q'$ in $B$.\nThe disk test and the annular choice $E_0=\\{bd\\}$ still fail\nbecause they contain $H_1+ab+ad+bd$.\nFor $E_0=\\varnothing$, the graph $H_2+bd$ has a $K_{3,3}$ minor:\nthe sets $\\{p'\\},\\{q'\\},\\{b,d\\}$ are each adjacent to $c,e,w$.\nThus minimality fixes this reduced $B$.\nKeeping the triangle completion of $H_1$ nonplanar preserves\nthe same failures, so Lemma~\\ref{core:retained-subdivision}\nand Construction~\\ref{common:marked-construction} give $216$\nforms. Each resulting graph has a $K_5$ minor, a cut of at most\ntwo vertices, or a proper nontoroidal minor~\\supp{E25}."
+   "where": "Proposition 6.16 (proof)",
+   "text": "Construction~\\ref{common:marked-construction}, using $E'$ and requiring $de$ when $B+ac+E$ is planar, therefore includes every possibility. The two choices of $E$ and the two cases for $B+ac+E$ give $66{,}384$ candidates. Every resulting graph is toroidal, has a $K_5$ minor or a proper nontoroidal minor, or is isomorphic to one of thirteen graphs $\\mathfrak T_i$~\\supp{E25}. Nine have twin triples meeting in zero or two vertices, leaving $\\mathfrak T_{14},\\mathfrak T_{37},\\mathfrak T_{41},\\mathfrak T_{59}$.\n\\end{proof}"
   }
  ],
- "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ... h1, h2 are the twins with neighbourhood {b,d,w} (p', q' in the text).",
+ "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",
  "cases of the construction": {
-  "C_on_abd": {
+  "U_planar_cd": {
    "specification": {
     "roots": [
      "a",
-     "b",
-     "d"
+     "c",
+     "d",
+     "e"
     ],
     "outside": {},
     "C edges within R": [
      [
       "a",
-      "b"
+      "c"
      ],
      [
-      "a",
+      "c",
       "d"
      ],
      [
-      "b",
+      "d",
+      "e"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "d",
+      "e"
+     ]
+    ]
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 344,
+   "recipes": 2638,
+   "parts up to rooted isomorphism": 1676,
+   "outcomes": {
+    "proper nontoroidal minor": 1506,
+    "K5 minor": 123,
+    "toroidal": 44,
+    "catalogue graph": 3
+   }
+  },
+  "U_planar_no_cd": {
+   "specification": {
+    "roots": [
+     "a",
+     "c",
+     "d",
+     "e"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "d",
+      "e"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "d",
+      "e"
+     ]
+    ]
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 344,
+   "recipes": 2989,
+   "parts up to rooted isomorphism": 2015,
+   "outcomes": {
+    "proper nontoroidal minor": 1652,
+    "K5 minor": 269,
+    "toroidal": 91,
+    "catalogue graph": 3
+   }
+  },
+  "U_nonplanar_cd": {
+   "specification": {
+    "roots": [
+     "a",
+     "c",
+     "d",
+     "e"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ],
+     [
+      "c",
       "d"
      ]
     ],
-    "required edges of K'": [],
-    "exterior": "Psi3 + bd + w + h1 + h2, N(w)=b,d,h1,h2, N(h1)=N(h2)=c,e,w"
+    "required edges of K'": []
    },
-   "root placements": 4270,
-   "root placement classes": 115,
-   "full placements": 115,
-   "valid retained subdivisions": 115,
-   "recipes": 687,
-   "parts up to rooted isomorphism": 216,
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 1392,
+   "recipes": 41280,
+   "parts up to rooted isomorphism": 24153,
    "outcomes": {
-    "excluded: C + ab + ad nonplanar": 205,
-    "proper nontoroidal minor": 3,
-    "excluded: disjoint twin triples": 3,
-    "K5 minor": 1,
-    "excluded: two twin triples share two vertices": 4
+    "proper nontoroidal minor": 24145,
+    "K5 minor": 3,
+    "catalogue graph": 5
    }
-  }
- },
- "hypotheses of the case used for exclusions": {
-  "C + ab + ad nonplanar": {
-   "remove vertices": [
-    "p",
-    "q",
-    "r",
-    "z",
-    "c",
-    "e",
-    "w",
-    "h1",
-    "h2"
-   ],
-   "remove edges within": [
-    "a",
-    "b",
-    "d"
-   ],
-   "add edges": [
-    [
+  },
+  "U_nonplanar_no_cd": {
+   "specification": {
+    "roots": [
      "a",
-     "b"
+     "c",
+     "d",
+     "e"
     ],
-    [
-     "a",
-     "d"
-    ]
-   ],
-   "meaning": "B = C + ab + ad must be planar when a cross edge is present"
-  },
-  "disjoint twin triples": {
-   "meaning": "Section 6 assumes any two twin triples share exactly one vertex"
-  },
-  "two twin triples share two vertices": {
-   "meaning": "such graphs belong to Section 5"
-  },
-  "component adjacent to all five attachments": {
-   "meaning": "such graphs belong to Section 6.2"
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "c"
+     ]
+    ],
+    "required edges of K'": []
+   },
+   "root placements": 72109,
+   "root placement classes": 1392,
+   "full placements": 1392,
+   "valid retained subdivisions": 1392,
+   "recipes": 64250,
+   "parts up to rooted isomorphism": 38540,
+   "outcomes": {
+    "proper nontoroidal minor": 38530,
+    "catalogue graph": 5,
+    "K5 minor": 5
+   }
   }
  }
 }

@@ -1,128 +1,222 @@
 {
  "item": "W11",
- "where": "Lemma 5.2",
- "claim": "Four vertices with neighbourhood {a,b,c} (p, q and the two from contracting ut), r, z with neighbourhood {a,b,d}, and Int(B) contracted to w on {a,b,c,d}: this is T2.",
- "graph": {
-  "vertices": [
-   "a",
-   "b",
-   "c",
-   "d",
-   "p",
-   "q",
-   "p3",
-   "p4",
-   "r",
-   "z",
-   "w"
-  ],
-  "edges": [
-   [
+ "where": "Proposition 6.8",
+ "claim": "Psi_3 with u, v from the two disjoint paths: edges ub, uc, uv, vd, ve and one of au, av. Both choices give T6.",
+ "graphs": [
+  {
+   "case": "keeping au",
+   "vertices": [
     "p",
-    "a"
+    "a",
+    "b",
+    "c",
+    "q",
+    "r",
+    "d",
+    "e",
+    "z",
+    "u",
+    "v"
    ],
-   [
+   "edges": [
+    [
+     "a",
+     "p"
+    ],
+    [
+     "a",
+     "q"
+    ],
+    [
+     "a",
+     "r"
+    ],
+    [
+     "a",
+     "u"
+    ],
+    [
+     "a",
+     "z"
+    ],
+    [
+     "b",
+     "p"
+    ],
+    [
+     "b",
+     "q"
+    ],
+    [
+     "b",
+     "u"
+    ],
+    [
+     "c",
+     "p"
+    ],
+    [
+     "c",
+     "q"
+    ],
+    [
+     "c",
+     "u"
+    ],
+    [
+     "d",
+     "r"
+    ],
+    [
+     "d",
+     "v"
+    ],
+    [
+     "d",
+     "z"
+    ],
+    [
+     "e",
+     "r"
+    ],
+    [
+     "e",
+     "v"
+    ],
+    [
+     "e",
+     "z"
+    ],
+    [
+     "u",
+     "v"
+    ]
+   ],
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T6",
+    "map": {
+     "p": 4,
+     "a": 10,
+     "b": 1,
+     "c": 2,
+     "q": 3,
+     "r": 6,
+     "d": 8,
+     "e": 7,
+     "z": 5,
+     "u": 9,
+     "v": 0
+    }
+   }
+  },
+  {
+   "case": "keeping av",
+   "vertices": [
     "p",
-    "b"
-   ],
-   [
-    "p",
-    "c"
-   ],
-   [
+    "a",
+    "b",
+    "c",
     "q",
-    "a"
-   ],
-   [
-    "q",
-    "b"
-   ],
-   [
-    "q",
-    "c"
-   ],
-   [
-    "p3",
-    "a"
-   ],
-   [
-    "p3",
-    "b"
-   ],
-   [
-    "p3",
-    "c"
-   ],
-   [
-    "p4",
-    "a"
-   ],
-   [
-    "p4",
-    "b"
-   ],
-   [
-    "p4",
-    "c"
-   ],
-   [
     "r",
-    "a"
-   ],
-   [
-    "r",
-    "b"
-   ],
-   [
-    "r",
-    "d"
-   ],
-   [
+    "d",
+    "e",
     "z",
-    "a"
+    "u",
+    "v"
    ],
-   [
-    "z",
-    "b"
+   "edges": [
+    [
+     "a",
+     "p"
+    ],
+    [
+     "a",
+     "q"
+    ],
+    [
+     "a",
+     "r"
+    ],
+    [
+     "a",
+     "v"
+    ],
+    [
+     "a",
+     "z"
+    ],
+    [
+     "b",
+     "p"
+    ],
+    [
+     "b",
+     "q"
+    ],
+    [
+     "b",
+     "u"
+    ],
+    [
+     "c",
+     "p"
+    ],
+    [
+     "c",
+     "q"
+    ],
+    [
+     "c",
+     "u"
+    ],
+    [
+     "d",
+     "r"
+    ],
+    [
+     "d",
+     "v"
+    ],
+    [
+     "d",
+     "z"
+    ],
+    [
+     "e",
+     "r"
+    ],
+    [
+     "e",
+     "v"
+    ],
+    [
+     "e",
+     "z"
+    ],
+    [
+     "u",
+     "v"
+    ]
    ],
-   [
-    "z",
-    "d"
-   ],
-   [
-    "w",
-    "a"
-   ],
-   [
-    "w",
-    "b"
-   ],
-   [
-    "w",
-    "c"
-   ],
-   [
-    "w",
-    "d"
-   ]
-  ]
- },
- "witness": {
-  "type": "isomorphism",
-  "onto": "T2",
-  "map": {
-   "d": 0,
-   "z": 5,
-   "r": 6,
-   "w": 7,
-   "c": 8,
-   "p3": 1,
-   "p4": 2,
-   "p": 3,
-   "q": 4,
-   "a": 9,
-   "b": 10
+   "witness": {
+    "type": "isomorphism",
+    "onto": "T6",
+    "map": {
+     "p": 6,
+     "a": 10,
+     "b": 7,
+     "c": 8,
+     "q": 5,
+     "r": 4,
+     "d": 2,
+     "e": 1,
+     "z": 3,
+     "u": 0,
+     "v": 9
+    }
+   }
   }
- },
+ ],
  "note on T_i": "T_i vertex numbers are those of O1."
 }

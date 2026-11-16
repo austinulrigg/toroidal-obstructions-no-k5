@@ -1,4 +1,4 @@
-"""Helpers for the enumerations of Section 6 (E21-E34), added to the
+"""Helpers for the enumerations of Section 6 (E20-E29), added to the
 shared enumeration.py.
 
 Vertex labels (Section 6): the attachments are a, b, c, d, e; the twins
@@ -39,72 +39,6 @@ def with_edges(G, edges):
 
 def triangle(t):
     return [(t[0], t[1]), (t[0], t[2]), (t[1], t[2])]
-
-
-# ----------------------------------------------------------------------------
-# The bridge forms T, S, Q of Lemma 3.8 (core:three-root-cut).
-# Interior vertices get the prefix pre so that several forms can coexist.
-
-def form_T(z, x, y, pre="U"):
-    """T(z): d1, d2 joined to x, y, u, and the edge uz."""
-    d1, d2, u = pre + "d1", pre + "d2", pre + "u"
-    B = nx.Graph()
-    B.add_edges_from((d, w) for d in (d1, d2) for w in (x, y, u))
-    B.add_edge(u, z)
-    return B
-
-
-def form_S(x, y, z, pre="U"):
-    """S(x;y): d1, d2 joined to x, y, u; f joined to x, z, u."""
-    d1, d2, u, f = pre + "d1", pre + "d2", pre + "u", pre + "f"
-    B = nx.Graph()
-    B.add_edges_from((d, w) for d in (d1, d2) for w in (x, y, u))
-    B.add_edges_from((f, w) for w in (x, z, u))
-    return B
-
-
-def form_Q(x, y, z, pre="U"):
-    """Q(x;y,z): four-cycle u d1 v d2 and edges x d1, x d2, u y, v z."""
-    d1, d2, u, v = pre + "d1", pre + "d2", pre + "u", pre + "v"
-    B = nx.Graph()
-    B.add_edges_from([(u, d1), (d1, v), (v, d2), (d2, u), (x, d1), (x, d2), (u, y), (v, z)])
-    return B
-
-
-# ----------------------------------------------------------------------------
-# Certificates for minors of G that need not equal G
-
-def obstruction_minor(H, seed=0):
-    """For a graph H of genus at least two, a sequence of edge deletions and
-    contractions down to a graph all of whose one-step minors are toroidal,
-    together with its identification in T1..T74 (after deleting isolated
-    vertices). Uses multi_genus for every genus question. Returns
-    (steps, name, map) or (steps, None, None)."""
-    import random
-    rng = random.Random(seed)
-    cur = H.copy()
-    steps = []
-    assert el.genus_above_one([cur])[0]
-    while True:
-        es = sorted(cur.edges(), key=el.edge_key)
-        rng.shuffle(es)
-        cands = [("delete", e, el.gr.delete_edge(cur, e)) for e in es] + \
-                [("contract", e, el.gr.contract_edge(cur, e)) for e in es]
-        flags = el.genus_above_one([g for _, _, g in cands])
-        nxt = None
-        for (op, e, g), f in zip(cands, flags):
-            if f:
-                nxt = (op, e, g)
-                break
-        if nxt is None:
-            break
-        op, e, g = nxt
-        steps.append([op, [str(x) for x in e]])
-        cur = g
-    core = cur.copy()
-    core.remove_nodes_from([v for v in list(core) if core.degree(v) == 0])
-    name, m = el.identify(core)
-    return steps, name, m
 
 
 def save_json(obj, path):

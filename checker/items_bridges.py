@@ -1,4 +1,4 @@
-"""The enumerations E1, E2, E3, E4, E7, E8 and E12 (Sections 4 and 5).
+"""The enumerations E1, E2, E3, E6, E7 and E11 (Sections 4 and 5).
 
 Each folder holds input.json (the case: attachments, added edges, test graphs,
 the parts of G outside the enumerated graph), candidates.json, verdicts.json
@@ -17,8 +17,8 @@ dropping the edges this creates between attachments; the result must again
 satisfy the hypotheses. Lemma 4.3 is checked as in the docstring of the class
 Psi1 below. A contraction 'contract' [u, v] of a whole graph merges v into u.
 
-E1 (Lemma 4.10). The rest of G, H0, is the graph stated (twins p, q on
-  s1, s2, s3 and r, z on t1, t2, t3, and s3t3); each bridge B meets H0 in
+E1 (Lemma 4.10). The rest of G, H2, is the graph stated (twins p, q on
+  s1, s2, s3 and r, z on t1, t2, t3, and s3t3); each bridge B meets H2 in
   A = {s1, t1, s2, t2}, satisfies the hypotheses, and B + s1s2 + t1t2 is
   nonplanar (a Kuratowski subgraph). The bridges are pairwise distinct up to
   relabelling the interior. Verdicts: a cut of G; K5 branch sets in G or in
@@ -26,15 +26,7 @@ E1 (Lemma 4.10). The rest of G, H0, is the graph stated (twins p, q on
   nonplanar; an edge of G whose deletion or contraction leaves a minor model
   of T_i; or 'B has no disjoint s1-t1 and s2-t2 paths', checked by trying
   every s1-t1 path of B.
-E2 (Proposition 4.21). The 48 graphs are exactly those described in
-  input.json: Psi_1 (paths ab, cd, ef), the bridge B in either form, and one
-  of the 16 shortened three-attachment components T(g') on the triples
-  {s_i, t_i, v} meeting {e, f} (g' an end of the path s_i t_i), the 4
-  four-attachment components on {a,b,e,f} or {c,d,e,f} of the form of B
-  (centre on either side), or the 4 pairs of an edge af or eb and an edge cf
-  or ed. Each verdict deletes an edge and the minor fails all twelve choices
-  of Lemma 4.3.
-E3 (Proposition 4.21). G = (Psi_1 + af) together with B on A = {a, b, c, d}
+E2 (Proposition 4.21). G = (Psi_1 + af) together with B on A = {a, b, c, d}
   satisfying the hypotheses, B + ac + cd + bd nonplanar, the bridges
   pairwise distinct up to relabelling the interior. Every verdict is an edge
   of G deleted or contracted, and the minor is nontoroidal because: it
@@ -43,7 +35,7 @@ E3 (Proposition 4.21). G = (Psi_1 + af) together with B on A = {a, b, c, d}
   choices of Lemma 4.3; or it has a minor model of T25; or (three graphs) by
   the genus computation of Appendix A, where the stated degree-three vertex
   and its adjacent neighbours are checked.
-E4 (Theorem 4.22). The 81 atoms are exactly the bridge and edge types the
+E3 (Theorem 4.22). The 81 atoms are exactly the bridge and edge types the
   case allows, rebuilt here: on each of the 18 attachment triples with
   vertices on both sides, one vertex, T(r) and S(x;y), S(y;x) (x, y on one
   side), keeping those with no degree-three interior vertex whose neighbours
@@ -59,7 +51,7 @@ E4 (Theorem 4.22). The 81 atoms are exactly the bridge and edge types the
   allow exactly the count vectors with at most five triple atoms, and five
   only with no other atom; cover.cnf is exactly the base clauses and one
   clause per record; and cover.drat is checked with drat-trim.
-E7 (Proposition 4.28), E8 (Lemma 4.29, Proposition 4.30). Each bridge B has
+E6 (Proposition 4.28), E7 (Lemma 4.29, Proposition 4.30). Each bridge B has
   the four attachments of the case and satisfies the hypotheses; the bridges
   are pairwise distinct up to relabelling the interior; the test graphs are
   those of the paper. Verdicts: a fact excluding the bridge (a Kuratowski
@@ -72,9 +64,9 @@ E7 (Proposition 4.28), E8 (Lemma 4.29, Proposition 4.30). Each bridge B has
   record that B passes every test: the main test is nonplanar, the other is
   planar (an embedding), and every allowed one-step operation makes the main
   test planar (the list is exactly the allowed operations, each with a plane
-  embedding). E8 also gives, for each bridge that passes, the graphs
+  embedding). E7 also gives, for each bridge that passes, the graphs
   (Psi_1 + B) + eb and (Psi_1 + B) + af with their verdicts.
-E12 (Lemma 5.15). The 31 bridges are exactly the forms described in
+E11 (Lemma 5.17). The 31 bridges are exactly the forms described in
   input.json, up to relabelling the twins p', q' and the vertices of M;
   G = Psi_2 with (n_c, n_d) = (2, 2) together with B, where N(p') = N(q') =
   {a, u, v}; B satisfies the hypotheses of Lemma 5.3 and is planar (an
@@ -423,29 +415,29 @@ def check_E1(root):
     T = catalogue(root)
     A = ['s1', 't1', 's2', 't2']
     E = [('s1', 's2'), ('t1', 't2')]
-    H0 = graph(inp['H0'])
+    H2 = graph(inp['H2'])
     want = from_pairs([(w, s) for w in 'pq' for s in ('s1', 's2', 's3')] +
                       [(w, t) for w in 'rz' for t in ('t1', 't2', 't3')] + [('s3', 't3')])
-    need(same_graph(H0, want), 'E1: H0 is not the graph of the case')
+    need(same_graph(H2, want), 'E1: H2 is not the graph of the case')
     counts, targets, ops = Counter(), Counter(), Counter()
     bridges = []
     for c in cands:
         cid = c['id']
         b = c['bridge']
         B = graph(b)
-        need(set(B) & set(H0) == set(A), 'E1', cid, ': the bridge does not meet H0 in s1, t1, s2, t2')
+        need(set(B) & set(H2) == set(A), 'E1', cid, ': the bridge does not meet H2 in s1, t1, s2, t2')
         bridge_hypotheses(B, A)
         check_kuratowski(plus(B, E), c['B + s1s2 + t1t2 is nonplanar']['edges'])
         bridges.append((cid, B))
-        G = union(H0, B)
+        G = union(H2, B)
         r = V[cid]
         v, w = r['verdict'], r['witness']
         if v == 'cut of at most two vertices':
-            need(w['type'] == 'cut' and w['in'] == 'G = H0 ∪ B', 'E1', cid, ': bad cut')
+            need(w['type'] == 'cut' and w['in'] == 'G = H2 ∪ B', 'E1', cid, ': bad cut')
             check_cut(G, w['vertices'])
         elif v == 'K5 minor':
             need(w['type'] == 'K5 branch sets', 'E1', cid, ': bad K5 witness')
-            if w['in'] == 'G = H0 ∪ B':
+            if w['in'] == 'G = H2 ∪ B':
                 check_k5(G, w['branch sets'])
             else:
                 need(w['in'] == 'B + s1s2 + t1t2, a minor of G', 'E1', cid, ': K5 in', w['in'])
@@ -481,88 +473,31 @@ def check_E1(root):
 
 # ---------------------------------------------------------------- E2
 
-def e2_family():
-    """The 48 graphs of input.json 'the graphs', as edge sets, with their kinds."""
-    psi = [(w, x) for w in 'pq' for x in 'ace'] + [(w, x) for w in 'rz' for x in 'bdf'] + \
-          [('a', 'b'), ('c', 'd'), ('e', 'f')]
-    forms_B = {'S': [('u', 'a'), ('u', 'c')] + [(w, x) for w in ("p'", "q'") for x in ('b', 'd', 'u')],
-               'T': [('u', 'b'), ('u', 'd')] + [(w, x) for w in ("p'", "q'") for x in ('a', 'c', 'u')]}
-    others = []
-    for trip in ('abe', 'abf', 'cde', 'cdf', 'aef', 'bef', 'cef', 'def'):
-        path = [x for x in trip if {x, {'a': 'b', 'b': 'a', 'c': 'd', 'd': 'c', 'e': 'f', 'f': 'e'}[x]} <= set(trip)]
-        for g in path:
-            rest = [x for x in trip if x != g]
-            others.append(('another three-attachment component',
-                           [("u''", g)] + [(w, x) for w in ("p''", "q''") for x in rest + ["u''"]]))
-    for s_side, t_side in ((('a', 'e'), ('b', 'f')), (('c', 'e'), ('d', 'f'))):
-        for centre, leaves in ((s_side, t_side), (t_side, s_side)):
-            others.append(('a four-attachment component without the disk drawing',
-                           [("u''", x) for x in centre] + [(w, x) for w in ("p''", "q''") for x in list(leaves) + ["u''"]]))
-    for e1 in (('a', 'f'), ('e', 'b')):
-        for e2 in (('c', 'f'), ('e', 'd')):
-            others.append(('edges s_i t_j on both index pairs {1,3} and {2,3}', [e1, e2]))
-    out = []
-    for fb in forms_B.values():
-        for kind, es in others:
-            out.append((kind, frozenset(frozenset(e) for e in psi + fb + es)))
-    return out
-
-
-def check_E2(root):
-    d, inp, cands, V, summary = item_files(root, 'E2')
-    fam = e2_family()
-    need(len(fam) == 48 and len({e for _, e in fam}) == 48, 'E2: the family of the text should have 48 graphs')
-    want = {e: k for k, e in fam}
-    seen, kinds, counts = set(), Counter(), Counter()
-    for c in cands:
-        cid = c['id']
-        G = graph(c['graph'])
-        check_graph6(G, c['graph']['vertices'], c['graph6'], 'E2 ' + cid)
-        es = frozenset(edge_set(G))
-        need(es in want and es not in seen, 'E2', cid, ': not one of the graphs of the text, or repeated')
-        seen.add(es)
-        need(c['form']['kind'] == want[es], 'E2', cid, ': the kind', c['form']['kind'], 'is not', want[es])
-        kinds[want[es]] += 1
-        r = V[cid]
-        w = r['witness']
-        need(r['verdict'] == 'proper nontoroidal minor' and w['type'] == 'proper minor', 'E2', cid, ': verdict')
-        why = w['why the minor is nontoroidal']
-        need(why['reason'] == 'it fails all twelve choices of Lemma 4.3', 'E2', cid, ': reason')
-        PSI1_AF.check_contains(G)
-        PSI1_AF.all_choices_fail(apply_op(G, w['operation'], w['edge']), why['the twelve choices'])
-        counts[r['verdict']] += 1
-    need(len(seen) == 48, 'E2: not all 48 graphs are recorded')
-    compare(summary, {'graphs': 48, 'by kind': dict(kinds), 'verdicts': dict(counts), 'remaining': 0}, 'E2')
-    return '48 graphs, exactly those of the text; each has a one-edge minor failing all twelve choices'
-
-
-# ---------------------------------------------------------------- E3
-
-ALSO_E3 = re.compile(r'the vertex (\S+) has degree three and its neighbours (\S+), (\S+) are adjacent, so a torus '
+ALSO_E2 = re.compile(r'the vertex (\S+) has degree three and its neighbours (\S+), (\S+) are adjacent, so a torus '
                      r'embedding of G - (\S+) would extend to G \(proof of Lemma 3\.4\(a\)\); G is nontoroidal because '
                      r'B \+ ac \+ cd \+ bd is nonplanar')
 
 
-def check_E3(root):
-    d, inp, cands, V, summary = item_files(root, 'E3')
+def check_E2(root):
+    d, inp, cands, V, summary = item_files(root, 'E2')
     T = catalogue(root)
     A = ['a', 'b', 'c', 'd']
     E = [('a', 'c'), ('c', 'd'), ('b', 'd')]
     X = graph(inp['the rest of G'])
-    need(same_graph(X, from_pairs(psi1_edges(PSI1_AF) + [('a', 'f')])), 'E3: the rest of G is not Psi_1 + af')
+    need(same_graph(X, from_pairs(psi1_edges(PSI1_AF) + [('a', 'f')])), 'E2: the rest of G is not Psi_1 + af')
     counts, ops, why_c = Counter(), Counter(), Counter()
     bridges = []
     for c in cands:
         cid = c['id']
         B = graph(c['bridge'])
-        need(set(B) & set(X) == set(A), 'E3', cid, ': the bridge does not meet the rest of G in a, b, c, d')
+        need(set(B) & set(X) == set(A), 'E2', cid, ': the bridge does not meet the rest of G in a, b, c, d')
         bridge_hypotheses(B, A)
         check_kuratowski(plus(B, E), c['B + ac + cd + bd is nonplanar']['edges'])
         bridges.append((cid, B))
         G = union(X, B)
         r = V[cid]
         w = r['witness']
-        need(r['verdict'] == 'proper nontoroidal minor' and w['type'] == 'proper minor', 'E3', cid, ': verdict')
+        need(r['verdict'] == 'proper nontoroidal minor' and w['type'] == 'proper minor', 'E2', cid, ': verdict')
         op, e = w['operation'], w['edge']
         M = apply_op(G, op, e)
         why = w['why the minor is nontoroidal']
@@ -570,63 +505,63 @@ def check_E3(root):
         if reason.startswith("it contains (Psi_1 ∪ B') + af"):
             Bp = allowed_op(B, A, op + ' edge', e)
             check_kuratowski(plus(Bp, E), why['Kuratowski subgraph'])
-            need(subgraph_of(union(X, Bp), M), 'E3', cid, ": the minor does not contain (Psi_1 + af) and B'")
+            need(subgraph_of(union(X, Bp), M), 'E2', cid, ": the minor does not contain (Psi_1 + af) and B'")
             how = 'an allowed reduction keeping B + ac + cd + bd nonplanar'
         elif reason == 'it fails all twelve choices of Lemma 4.3':
             PSI1_AF.all_choices_fail(M, why['the twelve choices'])
             how = reason.replace('it fails', 'the minor fails')
         elif reason.startswith('it has a minor model of'):
-            need(why['type'] == 'minor model' and reason == 'it has a minor model of %s' % why['of'], 'E3', cid)
+            need(why['type'] == 'minor model' and reason == 'it has a minor model of %s' % why['of'], 'E2', cid)
             model_of(M, T[why['of']], why['branch sets'])
             how = 'a minor model of %s in the minor' % why['of']
         else:
-            need(reason == 'genus at least two, by the genus computations of Appendix A', 'E3', cid, ': reason', reason)
-            m = ALSO_E3.fullmatch(why['also'])
-            need(m, 'E3', cid, ': the note is not of the form this check reads')
+            need(reason == 'genus at least two, by the genus computations of Appendix A', 'E2', cid, ': reason', reason)
+            m = ALSO_E2.fullmatch(why['also'])
+            need(m, 'E2', cid, ': the note is not of the form this check reads')
             v, x, y, xy = m.groups()
-            need(op == 'delete' and xy == x + y and sorted(e) == sorted([x, y]), 'E3', cid, ': the note names another edge')
-            need(len(G[v]) == 3 and {x, y} <= G[v] and y in G[x], 'E3', cid, ': the note is wrong')
+            need(op == 'delete' and xy == x + y and sorted(e) == sorted([x, y]), 'E2', cid, ': the note names another edge')
+            need(len(G[v]) == 3 and {x, y} <= G[v] and y in G[x], 'E2', cid, ': the note is wrong')
             how = 'a genus computation'
         ops[op] += 1
         why_c[how] += 1
         counts[r['verdict']] += 1
-    distinct_rooted(bridges, A, 'E3: the bridges')
+    distinct_rooted(bridges, A, 'E2: the bridges')
     compare(summary, {'candidates': len(cands), 'verdicts': dict(counts), 'one-edge minors': dict(ops),
-                      'why nontoroidal': dict(why_c), 'remaining': 0}, 'E3')
+                      'why nontoroidal': dict(why_c), 'remaining': 0}, 'E2')
     return '%d bridges, distinct up to relabelling the interior; one-edge minors %s (%d left to the genus computation)' % (
         len(cands), dict(ops), why_c['a genus computation'])
 
 
-# ---------------------------------------------------------------- E7, E8
+# ---------------------------------------------------------------- E6, E7
 
 TESTS = {
-    'E7': {'B + C': [('sx', 'tx'), ('tx', 'ty'), ('ty', 'sy'), ('sy', 'sx')],
+    'E6': {'B + C': [('sx', 'tx'), ('tx', 'ty'), ('ty', 'sy'), ('sy', 'sx')],
            'B + sy sx + sx tx + tx ty': [('sy', 'sx'), ('sx', 'tx'), ('tx', 'ty')],
            'B + K4[sx,tx,sy,ty]': [('sx', 'tx'), ('sx', 'sy'), ('sx', 'ty'), ('tx', 'sy'), ('tx', 'ty'), ('sy', 'ty')],
            'B + sx tx + sy ty': [('sx', 'tx'), ('sy', 'ty')]},
-    'E8': {'B + ac + cd + db': [('a', 'c'), ('c', 'd'), ('d', 'b')],
+    'E7': {'B + ac + cd + db': [('a', 'c'), ('c', 'd'), ('d', 'b')],
            'B + ac + bd': [('a', 'c'), ('b', 'd')],
            'B + K4[a,b,c,d]': [('a', 'b'), ('a', 'c'), ('a', 'd'), ('b', 'c'), ('b', 'd'), ('c', 'd')],
            'B + cd': [('c', 'd')],
            'Psi1 + B': [(w, x) for w in 'pq' for x in 'ace'] + [(w, x) for w in 'rz' for x in 'bdf'] +
                        [('c', 'd'), ('e', 'f')]},
 }
-MAIN = {'E7': 'B + C', 'E8': 'B + ac + cd + db'}               # nonplanar for B, kept by reductions
-OTHER = {'E7': 'B + sy sx + sx tx + tx ty', 'E8': 'B + ac + bd'}  # planar for the bridges that pass
-SUBGRAPH_OF_G = {'E7': {'B + sx tx + sy ty'}, 'E8': {'B + cd', 'Psi1 + B'}}   # tests that are minors of G
-K4 = {'E7': 'B + K4[sx,tx,sy,ty]', 'E8': 'B + K4[a,b,c,d]'}
+MAIN = {'E6': 'B + C', 'E7': 'B + ac + cd + db'}               # nonplanar for B, kept by reductions
+OTHER = {'E6': 'B + sy sx + sx tx + tx ty', 'E7': 'B + ac + bd'}  # planar for the bridges that pass
+SUBGRAPH_OF_G = {'E6': {'B + sx tx + sy ty'}, 'E7': {'B + cd', 'Psi1 + B'}}   # tests that are minors of G
+K4 = {'E6': 'B + K4[sx,tx,sy,ty]', 'E7': 'B + K4[a,b,c,d]'}
 FACTS = {
-    'E7': {'nonplanar': 'the path completion B + s_y s_x + s_x t_x + t_x t_y is nonplanar',
+    'E6': {'nonplanar': 'the path completion B + s_y s_x + s_x t_x + t_x t_y is nonplanar',
            'paths': 'B has disjoint s_x-t_y and s_y-t_x paths'},
-    'E8': {'nonplanar': 'B + ac + bd is nonplanar'},
+    'E7': {'nonplanar': 'B + ac + bd is nonplanar'},
 }
 DEG3 = 'an interior vertex of degree three has two adjacent neighbours'
-CUT = {'E7': 'B plus all edges among its four attachments has a cut of at most two vertices',
-       'E8': 'B plus all edges among a, b, c, d has a cut of at most two vertices'}
+CUT = {'E6': 'B plus all edges among its four attachments has a cut of at most two vertices',
+       'E7': 'B plus all edges among a, b, c, d has a cut of at most two vertices'}
 FORMS = {   # the bridges given in the text: Proposition 4.28, and B1-B5 of Lemma 4.29
-    'E7': {'the form of Proposition 4.28': [("p'", 'sx'), ("p'", 'sy'), ("p'", 'v'), ("q'", 'sx'), ("q'", 'sy'),
+    'E6': {'the form of Proposition 4.28': [("p'", 'sx'), ("p'", 'sy'), ("p'", 'v'), ("q'", 'sx'), ("q'", 'sy'),
                                            ("q'", 'v'), ('v', 'tx'), ('v', 'ty')]},
-    'E8': {'B1': [("p'", 'a'), ("p'", 'c'), ("p'", 'v'), ("q'", 'a'), ("q'", 'c'), ("q'", 'v'),
+    'E7': {'B1': [("p'", 'a'), ("p'", 'c'), ("p'", 'v'), ("q'", 'a'), ("q'", 'c'), ("q'", 'v'),
                   ('a', 'u'), ('b', 'u'), ('d', 'u'), ('u', 'v')],
            'B2': [("p'", 'a'), ("p'", 'c'), ("p'", 'v'), ("q'", 'a'), ("q'", 'c'), ("q'", 'v'),
                   ('a', 'u'), ('b', 'u'), ('d', 'v'), ('u', 'v')],
@@ -637,7 +572,7 @@ FORMS = {   # the bridges given in the text: Proposition 4.28, and B1-B5 of Lemm
            'B5': [("p'", 'a'), ("p'", 'b'), ("p'", 'v'), ("q'", 'a'), ("q'", 'b'), ("q'", 'v'),
                   ('c', 'v'), ('d', 'v')]},
 }
-SWAP = {'E7': {'sx': 'tx', 'tx': 'sx', 'sy': 'ty', 'ty': 'sy'}, 'E8': {'a': 'b', 'b': 'a', 'c': 'd', 'd': 'c'}}
+SWAP = {'E6': {'sx': 'tx', 'tx': 'sx', 'sy': 'ty', 'ty': 'sy'}, 'E7': {'a': 'b', 'b': 'a', 'c': 'd', 'd': 'c'}}
 EXTERIOR = {'edge eb': ('e', 'b'), 'edge af': ('a', 'f')}
 
 
@@ -738,7 +673,7 @@ def check_E78(root, item):
             n_ops += check_passing(item, B, roots, r['also: B passes every test of the case'], tests)
             passing[name] += 1
             for g in r.get('whole graphs', []):
-                need(item == 'E8', item, cid, ': whole graphs')
+                need(item == 'E7', item, cid, ': whole graphs')
                 G = graph(g['graph'])
                 want = plus(plus(B, tests['Psi1 + B']), [EXTERIOR[g['exterior']]])
                 need(same_graph(G, want), item, cid, ': the whole graph is not (Psi_1 + B) +', g['exterior'])
@@ -758,7 +693,7 @@ def check_E78(root, item):
     want = {'bridges': len(cands), 'verdicts': dict(counts),
             'bridges that pass, by form in the paper (labelled, so a form and its interchange count separately)':
                 dict(passing)}
-    if item == 'E8':
+    if item == 'E7':
         want['whole graphs from the bridges that pass'] = dict(whole)
         want['isomorphic to T_i (copies)'] = dict(found)
     compare(summary, want, item)
@@ -767,9 +702,9 @@ def check_E78(root, item):
            'allowed one-step operations (%d in all)%s' % (len(cands), nums(counts), dict(passing), n_ops, extra)
 
 
-# ---------------------------------------------------------------- E12
+# ---------------------------------------------------------------- E11
 
-def e12_forms():
+def e11_forms():
     base = [(w, x) for w in ("p'", "q'") for x in ('a', 'u', 'v')]
     out = []
     star = [('m', g) for g in 'bcd']
@@ -785,8 +720,8 @@ def e12_forms():
     return [from_pairs(es) for es in out]
 
 
-def check_E12(root):
-    d, inp, cands, V, summary = item_files(root, 'E12')
+def check_E11(root):
+    d, inp, cands, V, summary = item_files(root, 'E11')
     T = catalogue(root)
     A = ['a', 'b', 'c', 'd']
     tests = [('B + ac + bd', [('a', 'c'), ('b', 'd')]), ('B + ad + bc', [('a', 'd'), ('b', 'c')]),
@@ -796,8 +731,8 @@ def check_E12(root):
     counts, found = Counter(), Counter()
     # the bridges are exactly the 31 forms, up to relabelling p', q' and the vertices of M
     fixed = set('abcduv')
-    forms = e12_forms()
-    need(len(forms) == 31, 'E12: the text gives 31 forms')
+    forms = e11_forms()
+    need(len(forms) == 31, 'E11: the text gives 31 forms')
     idx = {}
     for i, F in enumerate(forms):
         idx.setdefault(rooted_hash(F, fixed), []).append(i)
@@ -805,24 +740,24 @@ def check_E12(root):
     for c in cands:
         cid = c['id']
         G = graph(c['graph'])
-        check_graph6(G, c['graph']['vertices'], c['graph6'], 'E12 ' + cid)
+        check_graph6(G, c['graph']['vertices'], c['graph6'], 'E11 ' + cid)
         B = graph(c['bridge B'])
-        need(same_graph(G, union(B, psi2)) and set(B) & set(psi2) == set(A), 'E12', cid, ': G is not Psi_2 and B')
-        need(G["p'"] == G["q'"] == {'a', 'u', 'v'}, 'E12', cid, ": N(p') or N(q') is not {a, u, v}")
+        need(same_graph(G, union(B, psi2)) and set(B) & set(psi2) == set(A), 'E11', cid, ': G is not Psi_2 and B')
+        need(G["p'"] == G["q'"] == {'a', 'u', 'v'}, 'E11', cid, ": N(p') or N(q') is not {a, u, v}")
         bridge_hypotheses(B, A)
         check_embedding(B, c['B is planar'], genus=0)
         got = [x['test'] for x in c['the four tests are nonplanar']]
-        need(got == [t for t, _ in tests], 'E12', cid, ': the four tests')
+        need(got == [t for t, _ in tests], 'E11', cid, ': the four tests')
         for x, (_, es) in zip(c['the four tests are nonplanar'], tests):
             check_kuratowski(plus(B, es), x['Kuratowski subgraph'])
         j = [i for i in idx.get(rooted_hash(B, fixed), []) if rooted_iso(B, forms[i], fixed)]
-        need(len(j) == 1 and j[0] not in hit, 'E12', cid, ': the bridge is not one of the forms, or repeats one')
+        need(len(j) == 1 and j[0] not in hit, 'E11', cid, ': the bridge is not one of the forms, or repeats one')
         hit.add(j[0])
         r = V[cid]
         v, w = r['verdict'], r['witness']
         if ISO.fullmatch(v):
             tn = ISO.fullmatch(v).group(1)
-            need(w['type'] == 'isomorphism' and w['onto'] == tn, 'E12', cid)
+            need(w['type'] == 'isomorphism' and w['onto'] == tn, 'E11', cid)
             check_iso(G, T[tn], {k: vertex_of(T[tn], x) for k, x in w['map'].items()})
             found[tn] += 1
         elif v == 'K5 minor':
@@ -830,17 +765,17 @@ def check_E12(root):
         elif v == 'cut of at most two vertices':
             check_cut(G, w['vertices'])
         else:
-            need(v == 'proper nontoroidal minor' and w['type'] == 'proper minor' and w['operation'] == 'delete', 'E12', cid)
+            need(v == 'proper nontoroidal minor' and w['type'] == 'proper minor' and w['operation'] == 'delete', 'E11', cid)
             Bp = delete_edge(B, tuple(w['edge']))
             bridge_hypotheses(Bp, A)
             why = w['why the minor is nontoroidal']
             got = [x['test'] for x in why['tests']]
-            need(got == ["B'" + t[1:] for t, _ in tests], 'E12', cid, ': the four tests of the minor')
+            need(got == ["B'" + t[1:] for t, _ in tests], 'E11', cid, ': the four tests of the minor')
             for x, (_, es) in zip(why['tests'], tests):
                 check_kuratowski(plus(Bp, es), x['Kuratowski subgraph'])
         counts[v] += 1
-    need(len(hit) == 31, 'E12: not every form is recorded')
-    compare(summary, {'forms': 31, 'verdicts': dict(counts), 'isomorphic to T_i (copies)': dict(found)}, 'E12')
+    need(len(hit) == 31, 'E11: not every form is recorded')
+    compare(summary, {'forms': 31, 'verdicts': dict(counts), 'isomorphic to T_i (copies)': dict(found)}, 'E11')
     return '31 bridges, exactly the forms of the text; %s' % nums(counts)
 
 
@@ -860,7 +795,7 @@ def rooted_iso(B, F, fixed):
     return nx.is_isomorphic(nxg(B), nxg(F), node_match=lambda p, q: p['r'] == q['r'])
 
 
-# ---------------------------------------------------------------- E4
+# ---------------------------------------------------------------- E3
 
 S4 = ('s1', 's2', 's3')
 T4 = ('t1', 't2', 't3')
@@ -875,7 +810,7 @@ GROUPS4 = ['atom_threshold_monotonicity', 'total_at_most_three_on_each_triple_su
            'five_triples_forbid_quad_and_crossedge_atoms']
 
 
-def e4_form_edges(form, support):
+def e3_form_edges(form, support):
     """The edges of an atom by its description, interior vertices @h, @d1, @d2, @u, @f."""
     if form == 'one vertex':
         return [('@h', x) for x in support]
@@ -892,7 +827,7 @@ def e4_form_edges(form, support):
     return [(d, w) for d in ('@d1', '@d2') for w in (x, y, '@u')] + [('@f', w) for w in (x, z, '@u')]
 
 
-def e4_atoms_expected():
+def e3_atoms_expected():
     """(kind, support, form) of every atom the case allows."""
     out = []
     roots = S4 + T4
@@ -904,7 +839,7 @@ def e4_atoms_expected():
         same = sorted(set(sup) & (set(S4) if k == 2 else set(T4)))
         x, y = same
         for form in ['one vertex'] + ['T(%s)' % r for r in sup] + ['S(%s;%s)' % (x, y), 'S(%s;%s)' % (y, x)]:
-            es = e4_form_edges(form, list(sup))
+            es = e3_form_edges(form, list(sup))
             adj = from_pairs(BASE4 + es)
             bad = any(len(adj[v]) == 3 and any(frozenset((a, b)) in match or b in adj[a]
                                                for a, b in combinations(sorted(adj[v]), 2))
@@ -918,20 +853,20 @@ def e4_atoms_expected():
     return out
 
 
-def e4_parse(a):
+def e3_parse(a):
     s = a['is']
     m = re.fullmatch(r'the edge (\w\d)(\w\d)', s)
     if m:
         return 'crossedge', frozenset(m.groups()), 'edge', [m.groups()]
     m = re.fullmatch(r'(.+) on \{([^}]*)\}', s)
-    need(m, 'E4: cannot read the atom', s)
+    need(m, 'E3: cannot read the atom', s)
     sup = [x.strip() for x in m.group(2).split(',')]
     form = m.group(1)
     kind = 'quad' if len(sup) == 4 else 'triple'
-    return kind, frozenset(sup), form, e4_form_edges(form, sup)
+    return kind, frozenset(sup), form, e3_form_edges(form, sup)
 
 
-def e4_base_clauses(atoms, var):
+def e3_base_clauses(atoms, var):
     """The base clauses, rebuilt from the constraints of the case, group by
     group, each clause added once (literals sorted by variable)."""
     clauses, seen, groups = [], set(), {}
@@ -1022,9 +957,9 @@ def compositions(total, length, cap):
             yield (n,) + tail
 
 
-def e4_counter_semantics(xs, s, n_other):
+def e3_counter_semantics(xs, s, n_other):
     """By dynamic programming over the inputs x_1, ..., x_n in order: the
-    counter clauses (as rebuilt in e4_base_clauses) together with the clauses
+    counter clauses (as rebuilt in e3_base_clauses) together with the clauses
     "not s[n,5] or not a" for the other atoms a have an assignment of the
     s-variables exactly when at most five inputs are true, and, when exactly
     five are, every such assignment makes s[n,5] true (so no other atom can be
@@ -1064,7 +999,7 @@ def e4_counter_semantics(xs, s, n_other):
     return True
 
 
-def e4_support_semantics(atoms, var, clauses):
+def e3_support_semantics(atoms, var, clauses):
     """Within each triple support: the clauses of group 2 with the chain
     clauses allow a count vector (each count 0..3) exactly when the total is
     at most three."""
@@ -1077,42 +1012,42 @@ def e4_support_semantics(atoms, var, clauses):
         for counts in product(range(4), repeat=len(block)):
             true = {var[i][k] for i, n in zip(block, counts) for k in range(n)}
             sat = all(any((l > 0) == (abs(l) in true) for l in cl) for cl in mine)
-            need(sat == (sum(counts) <= 3), 'E4: the support clauses do not express "at most three"')
+            need(sat == (sum(counts) <= 3), 'E3: the support clauses do not express "at most three"')
 
 
-def check_E4(root):
-    d, inp, cands, V, summary = item_files(root, 'E4')
+def check_E3(root):
+    d, inp, cands, V, summary = item_files(root, 'E3')
     T = catalogue(root)
     need(edge_set(from_pairs([tuple(e) for e in inp['the base graph']['edges']])) == edge_set(from_pairs(BASE4)),
-         'E4: the base graph is not Psi_1')
+         'E3: the base graph is not Psi_1')
     # the atoms
     atoms, var = [], []
-    expect = Counter(e4_atoms_expected())
+    expect = Counter(e3_atoms_expected())
     seen = Counter()
     nxt = 1
     for k, a in enumerate(inp['atoms']):
-        need(a['id'] == 'A%d' % (k + 1), 'E4: atom ids')
-        kind, sup, form, es = e4_parse(a)
-        need(sorted(a['attachments']) == sorted(sup), 'E4: attachments of', a['id'])
-        need(edge_set(from_pairs([tuple(e) for e in a['edges']])) == edge_set(from_pairs(es)), 'E4: the edges of',
+        need(a['id'] == 'A%d' % (k + 1), 'E3: atom ids')
+        kind, sup, form, es = e3_parse(a)
+        need(sorted(a['attachments']) == sorted(sup), 'E3: attachments of', a['id'])
+        need(edge_set(from_pairs([tuple(e) for e in a['edges']])) == edge_set(from_pairs(es)), 'E3: the edges of',
              a['id'], 'are not those of', a['is'])
         most = 3 if kind == 'triple' else 1
-        need(a['most copies'] == most and a['variables'] == list(range(nxt, nxt + most)), 'E4: copies or variables of',
+        need(a['most copies'] == most and a['variables'] == list(range(nxt, nxt + most)), 'E3: copies or variables of',
              a['id'])
         nxt += most
         seen[(kind, sup, form)] += 1
         atoms.append({'kind': kind, 'support': sup, 'edges': [tuple(e) for e in a['edges']], 'most': most})
         var.append(a['variables'])
-    need(seen == expect, 'E4: the atoms are not exactly the types of the case')
+    need(seen == expect, 'E3: the atoms are not exactly the types of the case')
     kinds_order = [a['kind'] for a in atoms]
-    need(kinds_order == sorted(kinds_order, key=['triple', 'quad', 'crossedge'].index), 'E4: atom order')
+    need(kinds_order == sorted(kinds_order, key=['triple', 'quad', 'crossedge'].index), 'E3: atom order')
     # the base clauses
-    base, groups, xs, s, top = e4_base_clauses(atoms, var)
+    base, groups, xs, s, top = e3_base_clauses(atoms, var)
     F = inp['the formula']
-    need(groups == F['base clauses'] and len(base) == F['base clause count'], 'E4: the base clause groups', groups)
-    need(xs == list(range(1, len(xs) + 1)), 'E4: the triple variables are not the first ones')
-    e4_counter_semantics(xs, s, sum(1 for a in atoms if a['kind'] != 'triple'))
-    e4_support_semantics(atoms, var, base)
+    need(groups == F['base clauses'] and len(base) == F['base clause count'], 'E3: the base clause groups', groups)
+    need(xs == list(range(1, len(xs) + 1)), 'E3: the triple variables are not the first ones')
+    e3_counter_semantics(xs, s, sum(1 for a in atoms if a['kind'] != 'triple'))
+    e3_support_semantics(atoms, var, base)
     # the records
     ids = {('A%d' % (i + 1)): i for i in range(len(atoms))}
     rec_clauses = []
@@ -1122,7 +1057,7 @@ def check_E4(root):
         cid = c['id']
         n = [0] * len(atoms)
         for k, m in c['atoms'].items():
-            need(k in ids and 1 <= m <= atoms[ids[k]]['most'], 'E4', cid, ': atom count', k, m)
+            need(k in ids and 1 <= m <= atoms[ids[k]]['most'], 'E3', cid, ': atom count', k, m)
             n[ids[k]] = m
         G = from_pairs(BASE4)
         for i, m in enumerate(n):
@@ -1132,32 +1067,32 @@ def check_E4(root):
                     G.setdefault(nm(x), set()).add(nm(y))
                     G.setdefault(nm(y), set()).add(nm(x))
         H = graph(c['graph'])
-        need(same_graph(G, H), 'E4', cid, ': the graph is not the base graph with the stated atoms')
-        check_graph6(H, c['graph']['vertices'], c['graph6'], 'E4 ' + cid)
+        need(same_graph(G, H), 'E3', cid, ': the graph is not the base graph with the stated atoms')
+        check_graph6(H, c['graph']['vertices'], c['graph6'], 'E3 ' + cid)
         r = V[cid]
         v, w = r['verdict'], r['witness']
         if c['kind'] == 'toroidal, maximal':
-            need(v == 'toroidal', 'E4', cid, ': a toroidal record with verdict', v)
+            need(v == 'toroidal', 'E3', cid, ': a toroidal record with verdict', v)
             check_embedding(H, w, at_most=1)
             pc = r['also: a passing choice of Lemma 4.3']
-            need(pc['type'] == 'passing choice of Lemma 4.3', 'E4', cid)
+            need(pc['type'] == 'passing choice of Lemma 4.3', 'E3', cid)
             PSI1_ST.choice_passes(H, pc)
             rec_clauses.append(tuple(sorted(var[i][n[i]] for i in range(len(n)) if n[i] < atoms[i]['most'])))
             n_tor += 1
         else:
-            need(c['kind'] == 'nontoroidal, minimal', 'E4', cid, ': kind', c['kind'])
+            need(c['kind'] == 'nontoroidal, minimal', 'E3', cid, ': kind', c['kind'])
             nt = r['nontoroidal']
-            need(nt['reason'] == 'it fails all twelve choices of Lemma 4.3', 'E4', cid)
+            need(nt['reason'] == 'it fails all twelve choices of Lemma 4.3', 'E3', cid)
             PSI1_ST.all_choices_fail(H, nt['the twelve choices'])
             if ISO.fullmatch(v):
                 tn = ISO.fullmatch(v).group(1)
-                need(w['type'] == 'isomorphism' and w['onto'] == tn, 'E4', cid)
+                need(w['type'] == 'isomorphism' and w['onto'] == tn, 'E3', cid)
                 check_iso(H, T[tn], {k: vertex_of(T[tn], x) for k, x in w['map'].items()})
-                need(not any(n[i] for i, a in enumerate(atoms) if a['kind'] == 'quad'), 'E4', cid,
+                need(not any(n[i] for i, a in enumerate(atoms) if a['kind'] == 'quad'), 'E3', cid,
                      ': a copy of', tn, 'with a four-attachment bridge')
                 found[tn] += 1
             else:
-                need(v == 'proper nontoroidal minor' and w['type'] == 'proper minor', 'E4', cid, ': verdict', v)
+                need(v == 'proper nontoroidal minor' and w['type'] == 'proper minor', 'E3', cid, ': verdict', v)
                 M = apply_op(H, w['operation'], w['edge'])
                 why = w['why the minor is nontoroidal']
                 if why['reason'] == 'it fails all twelve choices of Lemma 4.3':
@@ -1165,7 +1100,7 @@ def check_E4(root):
                     ops_twelve[w['operation']] += 1
                 else:
                     need(why['type'] == 'minor model' and why['reason'] == 'it has a minor model of %s' % why['of'],
-                         'E4', cid)
+                         'E3', cid)
                     model_of(M, T[why['of']], why['branch sets'])
                     ops_model[w['operation']] += 1
             rec_clauses.append(tuple(sorted(-var[i][n[i] - 1] for i in range(len(n)) if n[i] > 0)))
@@ -1175,24 +1110,24 @@ def check_E4(root):
     files = F['files']
     cnf_path = os.path.join(d, files['cover.cnf'])
     nv, cnf = read_cnf(cnf_path)
-    need(nv == top, 'E4: cover.cnf has', nv, 'variables, the base clauses use', top)
+    need(nv == top, 'E3: cover.cnf has', nv, 'variables, the base clauses use', top)
     need(Counter(cnf) == Counter(tuple(sorted(c)) for c in base) + Counter(rec_clauses),
-         'E4: cover.cnf is not the base clauses and one clause per record')
-    need(len(cnf) == F['clause count'], 'E4: clause count')
+         'E3: cover.cnf is not the base clauses and one clause per record')
+    need(len(cnf) == F['clause count'], 'E3: clause count')
     drat_ok = check_drat(cnf_path, os.path.join(d, files['cover.drat']))
     want = {'recorded graphs': len(cands), 'toroidal, maximal': n_tor, 'nontoroidal, minimal': n_non,
             'verdicts': dict(counts), 'isomorphic to T_i (copies)': dict(found),
             'four-attachment bridges in the copies of T48 and T58': 0,
             'one-edge minors failing all twelve choices': dict(ops_twelve),
             'one-edge minors with a minor model of some T_i': dict(ops_model)}
-    compare(summary, want, 'E4')
-    need(summary['formula']['variables'] == nv and summary['formula']['clauses'] == len(cnf), 'E4: summary formula')
+    compare(summary, want, 'E3')
+    need(summary['formula']['variables'] == nv and summary['formula']['clauses'] == len(cnf), 'E3: summary formula')
     return '81 atoms and %d base clauses rebuilt; %d recorded graphs (%d toroidal, %d nontoroidal); %s; %s' % (
         len(base), len(cands), n_tor, n_non, nums(counts),
         'DRAT proof verified by drat-trim' if drat_ok else 'DRAT proof not checked (drat-trim not found)')
 
 
 def check(root, item):
-    if item in ('E7', 'E8'):
+    if item in ('E6', 'E7'):
         return check_E78(root, item)
-    return {'E1': check_E1, 'E2': check_E2, 'E3': check_E3, 'E4': check_E4, 'E12': check_E12}[item](root)
+    return {'E1': check_E1, 'E2': check_E2, 'E3': check_E3, 'E11': check_E11}[item](root)

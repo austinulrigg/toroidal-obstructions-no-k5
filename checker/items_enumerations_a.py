@@ -1,8 +1,8 @@
-"""The enumerations E6, E9, E10, E11, E14, E15, E16, E17, E18 and E19.
+"""The enumerations E5, E8, E9, E10, E13, E14, E15, E16, E17 and E18.
 
 Each check reads only the item's folder (input.json, candidates.json,
 verdicts.json, summary.json), the graphs T1, ..., T74 of O1, and, for one
-cross-reference of E11, the summary of E9. For every item it verifies:
+cross-reference of E10, the summary of E8. For every item it verifies:
 
   * every candidate has its own id, and verdicts.json gives exactly one
     verdict for each candidate and none for anything else; records carry no
@@ -448,7 +448,7 @@ def check_verdict(adj, rec, cat):
         if 'minor of T_i' in w:
             check_steps_to_T(adj, w['operation'], e, w['minor of T_i'], cat)
             return 'minor of Ti'
-        return 'genus tables'
+        return 'genus computations'
     elif v == EXCLUDED:
         check_fact(adj, w)
     else:
@@ -457,7 +457,7 @@ def check_verdict(adj, rec, cat):
 
 
 class Tally:
-    """Counts of verdicts and of the minors left to the genus tables."""
+    """Counts of verdicts and of the minors left to the genus computations."""
 
     def __init__(self):
         self.verdicts = Counter()
@@ -466,7 +466,7 @@ class Tally:
 
     def add(self, rec, kind):
         self.verdicts[rec['verdict']] += 1
-        self.left += kind == 'genus tables'
+        self.left += kind == 'genus computations'
         self.to_T += kind == 'minor of Ti'
 
     def text(self):
@@ -483,7 +483,7 @@ class Tally:
             s = '%d proper minor' % v[MINOR]
             if self.to_T:
                 s += ' (%d with a minor of T_i checked)' % self.to_T
-            s += ', %d left to the genus tables' % self.left
+            s += ', %d left to the genus computations' % self.left
             parts.append(s)
         return ', '.join(parts)
 
@@ -552,7 +552,7 @@ def construction_counts(case_info, by_case, n_bridges, label):
 
 def bridge_item(root, label, exteriors, twin_rules, twin_required, flags=None):
     """The items whose candidates are a bridge of the case together with the
-    exterior of the case (E6, E9, E10, E15, E16, E17). For each candidate:
+    exterior of the case (E5, E8, E9, E14, E15, E16). For each candidate:
     the bridge is a subgraph of the graph; its vertices are the attachments of
     the case (the roots, or lifted roots, of its specification in input.json),
     each with a neighbour inside, and interior vertices; every edge at an
@@ -691,52 +691,52 @@ class Item:
             need(got[k] == want[k], self.label, 'summary.json,', k, ':', got[k], 'but the records give', want[k])
 
 
-# ---------------------------------------------------------------- E6, E9, E10, E15, E16, E17
+# ---------------------------------------------------------------- E5, E8, E9, E14, E15, E16
 
-def check_E6(root):
-    """E6 (Proposition 4.25, Section 4.7 type (c), a = s1, b = t1, c = s2,
+def check_E5(root):
+    """E5 (Proposition 4.25, Section 4.7 type (c), a = s1, b = t1, c = s2,
     d = t3, e = s3, f = t2). The exterior is Psi (p, q on a, c, e and r, z on
     b, d, f) with the edges cf and de; the case names add the edges ad and bc
     (cases with _ad, _bc) and the vertices hA, hB with the neighbourhoods given
     under 'outside' in input.json (cases with _hA, _hB). The bridge has the
     attachments a, b, c, d."""
-    info = load(os.path.join(root, 'enumerations', 'E6', 'input.json'))['cases of the construction']
+    info = load(os.path.join(root, 'enumerations', 'E5', 'input.json'))['cases of the construction']
 
     def exteriors(case):
         es = psi_edges(tc='ace', td='bdf') + [('c', 'f'), ('d', 'e')]
         parts = case.split('_')[1:]
-        need(case.startswith('Z') and set(parts) <= {'ad', 'bc', 'hA', 'hB'}, 'E6: unknown case', case)
+        need(case.startswith('Z') and set(parts) <= {'ad', 'bc', 'hA', 'hB'}, 'E5: unknown case', case)
         es += [tuple(x) for x in parts if x in ('ad', 'bc')]
         outside = info[case]['specification']['outside']
-        need(set(outside) == {x for x in parts if x.startswith('h')}, 'E6: case', case, 'and its outside vertices differ')
+        need(set(outside) == {x for x in parts if x.startswith('h')}, 'E5: case', case, 'and its outside vertices differ')
         for h, nb in outside.items():
             es += [(h, x) for x in nb]
         return [exterior(es)]
-    item, tally, extra = bridge_item(root, 'E6', exteriors, [(r'p|q', 'ace'), (r'r|z', 'bdf')],
+    item, tally, extra = bridge_item(root, 'E5', exteriors, [(r'p|q', 'ace'), (r'r|z', 'bdf')],
                                      ['p', 'q', 'r', 'z', 'e', 'f'])
     return '%d candidates in %d cases, %s: %s' % (len(item.cands), len(info), extra, tally.text())
 
 
-def check_E9(root):
-    """E9 (Proposition 5.10). The bridge has the attachments a, b, c, d. Case A
+def check_E8(root):
+    """E8 (Proposition 5.9). The bridge has the attachments a, b, c, d. Case A
     (B nonplanar): every bridge with Psi_2 having two twins on each of
     {a,b,c}, {a,b,d}, with three and two, and with three and three; case B
     (B + ab + ac + bc nonplanar): with three and two. The T_i found in case A
     all have two and two twins, the setting of the proposition (G = B u Psi_2)."""
     ext = {'A': [exterior(psi_edges(2, 2)), exterior(psi_edges(3, 2)), exterior(psi_edges(3, 3))],
            'B': [exterior(psi_edges(3, 2))]}
-    item, tally, extra = bridge_item(root, 'E9', lambda case: ext[case], PSI2, ['p', 'q', 'r', 'z'])
+    item, tally, extra = bridge_item(root, 'E8', lambda case: ext[case], PSI2, ['p', 'q', 'r', 'z'])
     for c in item.cands:
         if c['case'] == 'A' and item.verdict[c['id']]['verdict'].startswith(ISO):
-            need(len(c['graph']['vertices']) - len(c['bridge']['vertices']) == 4, 'E9', c['id'],
+            need(len(c['graph']['vertices']) - len(c['bridge']['vertices']) == 4, 'E8', c['id'],
                  ': a T_i of case A with more than two twins on a triple')
     return '%d candidates, %s: %s' % (len(item.cands), extra, tally.text())
 
 
-def check_E10(root):
-    """E10 (Lemma 5.9): every bridge (attachments a, b, c, d) with Psi_2
+def check_E9(root):
+    """E9 (Lemma 5.8): every bridge (attachments a, b, c, d) with Psi_2
     having three twins on {a,b,c} and two on {a,b,d}."""
-    item, tally, extra = bridge_item(root, 'E10', lambda case: [exterior(psi_edges(3, 2))], PSI2,
+    item, tally, extra = bridge_item(root, 'E9', lambda case: [exterior(psi_edges(3, 2))], PSI2,
                                      ['p', 'q', 'p3', 'r', 'z'])
     return '%d candidates, %s: %s' % (len(item.cands), extra, tally.text())
 
@@ -745,8 +745,8 @@ def primed_exterior(*more):
     return exterior(psi_edges() + [(t, x) for t in ("p'", "q'") for x in 'acw'] + list(more))
 
 
-def check_E15(root):
-    """E15 (Proposition 5.21, D_d without a neighbour at a): the bridge H_b on
+def check_E14(root):
+    """E14 (Proposition 5.27, D_d without a neighbour at a): the bridge H_b on
     b, c, w; the exterior is Psi_2, the twins p', q' on {a,c,w} and the edge dw
     (the bridge of D_d on d, w). The case flags of each verdict are computed
     again with certificates: U is the bridge, and the flags say whether U + cw,
@@ -762,50 +762,50 @@ def check_E15(root):
             got[k] = planarity_certificate(add_edges(U, extra))[0]
             planar_answers[got[k]] += 1
         got["in the item's case"] = got['U+cw planar'] and not got['U+cw+bw planar'] and not got['U+cw+bc planar']
-        need(got == f, 'E15', c['id'], ': the case flags', f, 'but the certificates give', got)
-    item, tally, extra = bridge_item(root, 'E15', lambda case: [primed_exterior(('d', 'w'))], PSI2 + PRIMED,
+        need(got == f, 'E14', c['id'], ': the case flags', f, 'but the certificates give', got)
+    item, tally, extra = bridge_item(root, 'E14', lambda case: [primed_exterior(('d', 'w'))], PSI2 + PRIMED,
                                      ['p', 'q', 'r', 'z', "p'", "q'"], flags=flags)
     inside = sum(item.verdict[c['id']]['case flags']["in the item's case"] for c in item.cands)
     return '%d candidates (%d in the case by their flags, all flags certified: %d planar, %d nonplanar), %s: %s' % (
         len(item.cands), inside, planar_answers[True], planar_answers[False], extra, tally.text())
 
 
-def check_E16(root):
-    """E16 (Proposition 5.21, D_d with a neighbour at a): case altB, the bridge
+def check_E15(root):
+    """E15 (Proposition 5.27, D_d with a neighbour at a): case altB, the bridge
     on b, c, w with the other side contracted; case altD, the bridge on a, d, w.
     The exterior is Psi_2, p', q' on {a,c,w}, and the contracted vertex with
     the neighbourhood its 'contracted side' gives in input.json. The records
     that also have B nonplanar carry a Kuratowski subgraph of B."""
-    info = load(os.path.join(root, 'enumerations', 'E16', 'input.json'))['cases of the construction']
+    info = load(os.path.join(root, 'enumerations', 'E15', 'input.json'))['cases of the construction']
 
     def exteriors(case):
         m = re.fullmatch(r'(\S+) adjacent to (.+)', info[case]['specification']['contracted side'])
-        need(m, 'E16: unreadable contracted side')
+        need(m, 'E15: unreadable contracted side')
         return [primed_exterior(*[(m.group(1), x) for x in m.group(2).split(', ')])]
-    item, tally, extra = bridge_item(root, 'E16', exteriors, PSI2 + PRIMED, ['p', 'q', 'r', 'z', "p'", "q'"])
+    item, tally, extra = bridge_item(root, 'E15', exteriors, PSI2 + PRIMED, ['p', 'q', 'r', 'z', "p'", "q'"])
     return '%d candidates, %s: %s' % (len(item.cands), extra, tally.text())
 
 
-def check_E17(root):
-    """E17 (Lemma 5.20, b, d in one component): the bridge H_1 on
+def check_E16(root):
+    """E16 (Lemma 5.26, b, d in one component): the bridge H_1 on
     b, c, d, w (permitted original edges bw, dw); the exterior is Psi_2 and
     p', q' on {a,c,w}. The records that also have B nonplanar carry a
     Kuratowski subgraph of B."""
-    item, tally, extra = bridge_item(root, 'E17', lambda case: [primed_exterior()], PSI2 + PRIMED,
+    item, tally, extra = bridge_item(root, 'E16', lambda case: [primed_exterior()], PSI2 + PRIMED,
                                      ['p', 'q', 'r', 'z', "p'", "q'"])
     return '%d candidates, %s: %s' % (len(item.cands), extra, tally.text())
 
 
-# ---------------------------------------------------------------- E18
+# ---------------------------------------------------------------- E17
 
-def check_E18(root):
-    """E18 (Lemma 5.22): the candidates are exactly the 252 graphs of the case,
+def check_E17(root):
+    """E17 (Lemma 5.28): the candidates are exactly the 252 graphs of the case,
     each once: a, b, c, d, the given numbers of vertices on each of {a,b,c}
     (p, q, abc2, ...), {a,b,d} (r, z, abd2, ...), {a,c,d} (acd0, ...),
     {b,c,d} (bcd0, ...), with n_abc, n_abd at least two, at most nine in all,
     and cd absent or present. The bridge recorded is the whole graph. The
     graphs isomorphic to some Ti have no edge cd, as the text says."""
-    item = Item(root, 'E18')
+    item = Item(root, 'E17')
     cat = catalogue(root)
     (case, info), = item.input['cases of the construction'].items()
     want = {}
@@ -819,7 +819,7 @@ def check_E18(root):
         for cd in (False, True):
             adj = adjacency(set('abcd') | {t for ts in names.values() for t in ts}, es + ([('c', 'd')] if cd else []))
             want[graph_key(adj)] = (n1, n2, n3, n4, cd)
-    need(len(want) == info['count vectors with cd absent or present'], 'E18: the case has', len(want), 'graphs')
+    need(len(want) == info['count vectors with cd absent or present'], 'E17: the case has', len(want), 'graphs')
     tally = Tally()
     seen = {}
     outcomes = []
@@ -827,13 +827,13 @@ def check_E18(root):
     rules = [(r'p|q', 'abc'), (r'r|z', 'abd')] + [(T + r'\d+', T) for T in ('abc', 'abd', 'acd', 'bcd')]
     for c in item.cands:
         keys(c, {'id', 'case', 'graph', 'graph6', 'bridge'}, what=c.get('id'))
-        need(c['case'] == case, 'E18', c['id'], 'unknown case')
+        need(c['case'] == case, 'E17', c['id'], 'unknown case')
         adj = item.rebuild(c)
-        need(graph(c['bridge']) == adj, 'E18', c['id'], 'the bridge is not the whole graph')
+        need(graph(c['bridge']) == adj, 'E17', c['id'], 'the bridge is not the whole graph')
         check_twins(adj, rules, ['p', 'q', 'r', 'z'])
         k = graph_key(adj)
-        need(k in want, 'E18', c['id'], 'is not a graph of the case')
-        need(k not in seen, 'E18', c['id'], 'repeats', seen.get(k))
+        need(k in want, 'E17', c['id'], 'is not a graph of the case')
+        need(k not in seen, 'E17', c['id'], 'repeats', seen.get(k))
         seen[k] = c['id']
         rec = item.verdict[c['id']]
         keys(rec, {'id', 'verdict', 'witness'}, what='the verdict of ' + c['id'])
@@ -842,17 +842,17 @@ def check_E18(root):
         outcomes.append('isomorphic' if v.startswith(ISO) else v)
         if v.startswith(ISO):
             t_found[v[len(ISO):]] += 1
-            need('d' not in adj['c'], 'E18', c['id'], 'is isomorphic to a T_i and has the edge cd')
-    need(len(seen) == len(want), 'E18: graphs of the case without a candidate')
-    construction_counts({case: info}, {case: outcomes}, {case: len(seen)}, 'E18')
-    item.compare_summary({'item': 'E18', 'where': item.input['where'], 'candidates': len(item.cands),
+            need('d' not in adj['c'], 'E17', c['id'], 'is isomorphic to a T_i and has the edge cd')
+    need(len(seen) == len(want), 'E17: graphs of the case without a candidate')
+    construction_counts({case: info}, {case: outcomes}, {case: len(seen)}, 'E17')
+    item.compare_summary({'item': 'E17', 'where': item.input['where'], 'candidates': len(item.cands),
                           'verdicts': dict(tally.verdicts), 'isomorphic to T_i (copies)': dict(t_found),
                           'graphs T_i not excluded by a hypothesis of the case': tsort(t_found)})
     return 'all %d graphs of the case, each once: %s; those isomorphic to T_i have no cd' % (
         len(item.cands), tally.text())
 
 
-# ---------------------------------------------------------------- E11 and E14: graphs assembled from forms
+# ---------------------------------------------------------------- E10 and E13: graphs assembled from forms
 
 def renamed_edges(g, keep, prefix, swap=None):
     """The edges of a form, its vertices in keep named as they are (or by
@@ -871,8 +871,8 @@ def side_of(g, X):
     return adj, D, ''.join(sorted(N))
 
 
-def check_E11(root):
-    """E11 (Proposition 5.14, the cut X = {a, b, w}).
+def check_E10(root):
+    """E10 (Proposition 5.16, the cut X = {a, b, w}).
 
     Forms: the eleven forms of B_0, each with a connected interior; the forms
     of D_c, each with {c} and its interior connected, and the forms of D_1,
@@ -897,22 +897,22 @@ def check_E11(root):
     else a certificate is computed. So the candidates with B planar are
     exactly the classes with a member whose B is planar. The T_i among them
     have all recipes in subcase (a), and the T_i with B nonplanar are among the
-    graphs Proposition 5.10 lists for nonplanar B (case A of the summary of E9).
+    graphs Proposition 5.9 lists for nonplanar B (case A of the summary of E8).
     """
-    item = Item(root, 'E11')
+    item = Item(root, 'E10')
     cat = catalogue(root)
     F = item.input['forms']
     keys(F, {'forms of B_0 (the eleven of the proof)', 'forms of D_c (D_d is the same with d for c)',
-             'forms of D_1', 'how the forms of D_c were found', 'how the forms of D_1 were found'}, what='E11 forms')
+             'forms of D_1', 'how the forms of D_c were found', 'how the forms of D_1 were found'}, what='E10 forms')
     X = 'abw'
     B0 = {}
     for f in F['forms of B_0 (the eleven of the proof)']:
         keys(f, {'name', 'graph'}, what='a form of B_0')
         adj, D, N = side_of(f['graph'], X)
         need(N == 'abw' and D and not D & set('cd') and len(components(adj, D)) == 1,
-             'E11: the form', f['name'], 'of B_0 is not a bridge on a, b, w with connected interior')
+             'E10: the form', f['name'], 'of B_0 is not a bridge on a, b, w with connected interior')
         B0[f['name']] = f['graph']
-    need(len(B0) == 11, 'E11: there are not eleven forms of B_0')
+    need(len(B0) == 11, 'E10: there are not eleven forms of B_0')
     DC, D1 = F['forms of D_c (D_d is the same with d for c)'], F['forms of D_1']
     for lst, attach, core, other in ((DC, 'abcw', {'c'}, 'd'), (D1, 'acdw', {'c', 'd'}, 'b')):
         for i, f in enumerate(lst):
@@ -920,8 +920,8 @@ def check_E11(root):
             adj, D, N = side_of(f['graph'], X)
             need(f['index'] == i and core <= D and set(attach) <= set(adj) and other not in adj
                  and len(components(adj, D)) == 1,
-                 'E11: the form', i, 'is not a connected side with its attachments')
-            need(N == f['signature'][0], 'E11: the form', i, 'has neighbourhood', N, 'not', f['signature'][0])
+                 'E10: the form', i, 'is not a connected side with its attachments')
+            need(N == f['signature'][0], 'E10: the form', i, 'has neighbourhood', N, 'not', f['signature'][0])
     ATT = set('abcdw')
 
     def assemble(r):
@@ -953,22 +953,22 @@ def check_E11(root):
     for c in item.cands:
         keys(c, {'id', 'subcases', 'recipes', 'graph', 'graph6', 'B planar', 'B nonplanar'},
              {'id', 'subcases', 'recipes', 'graph', 'graph6'}, what=c.get('id'))
-        need(('B planar' in c) != ('B nonplanar' in c), 'E11', c['id'], 'needs exactly one of B planar, B nonplanar')
+        need(('B planar' in c) != ('B nonplanar' in c), 'E10', c['id'], 'needs exactly one of B planar, B nonplanar')
         adj = item.rebuild(c)
         check_twins(adj, PSI2 + [(r'k1|k2', 'abw')], ['p', 'q', 'r', 'z'])
         B = b_graph(adj)
         if 'B planar' in c:
             w = c['B planar']
             keys(w, {'type', 'genus', 'rotation'}, what='B planar')
-            need(w['type'] == 'embedding', 'E11', c['id'], 'B planar needs an embedding')
+            need(w['type'] == 'embedding', 'E10', c['id'], 'B planar needs an embedding')
             check_embedding(B, w, genus=0)
             n_planar += 1
         else:
             w = c['B nonplanar']
             keys(w, {'type', 'edges'}, what='B nonplanar')
-            need(w['type'] == 'Kuratowski subgraph', 'E11', c['id'], 'B nonplanar needs a Kuratowski subgraph')
+            need(w['type'] == 'Kuratowski subgraph', 'E10', c['id'], 'B nonplanar needs a Kuratowski subgraph')
             check_kuratowski(B, w['edges'])
-        need(c['recipes'], 'E11', c['id'], 'has no recipe')
+        need(c['recipes'], 'E10', c['id'], 'has no recipe')
         for n, r in enumerate(c['recipes']):
             case = r.get('case')
             if case == 'a':
@@ -980,18 +980,18 @@ def check_E11(root):
                 k = ('b', r['C form'], r['D form'])
             else:
                 keys(r, {'case', 'R form', 'N(R)'}, what='a recipe')
-                need(case == 'c' and 0 <= r['R form'] < len(D1), 'E11', c['id'], 'unknown recipe', r)
-                need(r['N(R)'] == D1[r['R form']]['signature'][0], 'E11', c['id'], 'N(R) of', r)
+                need(case == 'c' and 0 <= r['R form'] < len(D1), 'E10', c['id'], 'unknown recipe', r)
+                need(r['N(R)'] == D1[r['R form']]['signature'][0], 'E10', c['id'], 'N(R) of', r)
                 k = ('c', r['R form'])
-            need(k in combos, 'E11', c['id'], 'a recipe outside the combinations of the paper:', r)
-            need(k not in seen, 'E11', c['id'], 'repeats the recipe of', seen.get(k))
+            need(k in combos, 'E10', c['id'], 'a recipe outside the combinations of the paper:', r)
+            need(k not in seen, 'E10', c['id'], 'repeats the recipe of', seen.get(k))
             seen[k] = c['id']
             G = assemble(r)
             if n == 0:
-                need(G == adj, 'E11', c['id'], 'the first recipe does not give the recorded graph')
+                need(G == adj, 'E10', c['id'], 'the first recipe does not give the recorded graph')
                 continue
             phi = find_isomorphism(G, adj)
-            need(phi is not None, 'E11', c['id'], 'the recipe', r, 'gives a graph not isomorphic to the recorded one')
+            need(phi is not None, 'E10', c['id'], 'the recipe', r, 'gives a graph not isomorphic to the recorded one')
             if 'B nonplanar' in c:
                 inv = {y: x for x, y in phi.items()}
                 BG = b_graph(G)
@@ -1008,41 +1008,41 @@ def check_E11(root):
                     carried['by an isomorphism keeping the classes'] += 1
                     continue
                 planar, cert = planarity_certificate(BG)
-                need(not planar, 'E11', c['id'], ': the recipe', r, 'gives a graph whose B is planar, '
+                need(not planar, 'E10', c['id'], ': the recipe', r, 'gives a graph whose B is planar, '
                      'but the candidate is recorded with B nonplanar')
                 carried['by a computed certificate'] += 1
         cases = sorted({r['case'] for r in c['recipes']})
-        need(c['subcases'] == ['(%s)' % x for x in cases], 'E11', c['id'], 'subcases', c['subcases'], 'but recipes', cases)
+        need(c['subcases'] == ['(%s)' % x for x in cases], 'E10', c['id'], 'subcases', c['subcases'], 'but recipes', cases)
         rec = item.verdict[c['id']]
         keys(rec, {'id', 'verdict', 'witness'}, what='the verdict of ' + c['id'])
         tally.add(rec, check_verdict(adj, rec, cat))
         if rec['verdict'].startswith(ISO):
             (t_planar if 'B planar' in c else t_nonplanar).setdefault(rec['verdict'][len(ISO):], []).append(cases)
-    need(set(seen) == combos, 'E11:', len(combos - set(seen)), 'combinations of the paper have no recipe')
-    need(item.input['assembled graphs (with repetitions)'] == len(combos), 'E11: input.json, assembled graphs')
+    need(set(seen) == combos, 'E10:', len(combos - set(seen)), 'combinations of the paper have no recipe')
+    need(item.input['assembled graphs (with repetitions)'] == len(combos), 'E10: input.json, assembled graphs')
     for t, lst in t_planar.items():
-        need(all(cases == ['a'] for cases in lst), 'E11:', t, 'with B planar has a recipe outside subcase (a)')
-    e9 = load(os.path.join(root, 'enumerations', 'E9', 'summary.json'))
-    listed = e9['by case']['A']['graphs T_i not excluded by a hypothesis of the case']
-    need(set(t_nonplanar) <= set(listed), 'E11: T_i with B nonplanar not listed by Proposition 5.10:',
+        need(all(cases == ['a'] for cases in lst), 'E10:', t, 'with B planar has a recipe outside subcase (a)')
+    e8 = load(os.path.join(root, 'enumerations', 'E8', 'summary.json'))
+    listed = e8['by case']['A']['graphs T_i not excluded by a hypothesis of the case']
+    need(set(t_nonplanar) <= set(listed), 'E10: T_i with B nonplanar not listed by Proposition 5.9:',
          sorted(set(t_nonplanar) - set(listed)))
     item.compare_summary({
-        'item': 'E11', 'where': item.input['where'],
+        'item': 'E10', 'where': item.input['where'],
         'forms': {'B_0': len(B0), 'D_c': len(DC), 'D_1': len(D1)},
         'assembled graphs (with repetitions)': len(combos),
         'candidates (up to isomorphism)': len(item.cands), 'with B planar': n_planar,
         'verdicts': dict(tally.verdicts),
         'T_i with B planar': tsort(t_planar),
         'subcase of those': 'all (a), one component D_0',
-        'T_i with B nonplanar (handled by Proposition 5.10, E9)': tsort(t_nonplanar)})
+        'T_i with B nonplanar (handled by Proposition 5.9, E8)': tsort(t_nonplanar)})
     return ('%d candidates from all %d combinations of the forms (each assembled and matched); %d with B planar '
             '(T_i: %s, all recipes in (a)); B nonplanar carried to the other recipes %s: %s' % (
                 len(item.cands), len(combos), n_planar, ', '.join(tsort(t_planar)),
                 ', '.join('%d %s' % (n, k) for k, n in sorted(carried.items())), tally.text()))
 
 
-def e14_row(P, n1, n2):
-    """The row of the table of Lemma 5.17 (up to exchanging u, v)."""
+def e13_row(P, n1, n2):
+    """The row of the table of Lemma 5.19 (up to exchanging u, v)."""
     su, sv = ('u', 'au'), ('v', 'av')
     single = lambda x, y: (x in su and y in sv) or (x in sv and y in su)
     if P == 'P1':
@@ -1062,8 +1062,8 @@ def e14_row(P, n1, n2):
     return None
 
 
-def check_E14(root):
-    """E14 (Proposition 5.18, X = {a, u, v}, two components containing b, c, d).
+def check_E13(root):
+    """E13 (Proposition 5.24, X = {a, u, v}, two components containing b, c, d).
 
     Forms: for each partition (P1: D_1 contains b, c and D_2 contains d; P2:
     D_1 contains c, d and D_2 contains b) the forms are numbered in order, each
@@ -1079,7 +1079,7 @@ def check_E14(root):
     Each recipe is assembled from Psi_2, p', q' on {a,u,v} and its two forms
     (interior vertices prefixed R and D); the first gives exactly the recorded
     graph and every other is isomorphic to it. No candidate is a T_i."""
-    item = Item(root, 'E14')
+    item = Item(root, 'E13')
     cat = catalogue(root)
     inp = item.input
     X = 'auv'
@@ -1092,8 +1092,8 @@ def check_E14(root):
             adj, D, N = side_of(f['graph'], X)
             need(f['index'] == i and set(core) <= D and not (D & (set('abcd') - set(core)))
                  and set(X) <= set(adj) and len(components(adj, D)) == 1,
-                 'E14: the form', P, k, i, 'is not a connected side')
-            need(N == f['signature'][0], 'E14: the form', P, k, i, 'has neighbourhood', N, 'not', f['signature'][0])
+                 'E13: the form', P, k, i, 'is not a connected side')
+            need(N == f['signature'][0], 'E13: the form', P, k, i, 'has neighbourhood', N, 'not', f['signature'][0])
             forms[(P, k, i)] = (f['graph'], N)
     combos = {(P, i, j) for P in ('P1', 'P2') for i in range(len(inp['forms of D_1'][P]))
               for j in range(len(inp['forms of D_2'][P]))
@@ -1111,33 +1111,33 @@ def check_E14(root):
             keys(r, {'partition', 'D_1 form', 'D_2 form', 'N(D_1)', 'N(D_2)', 'row'}, what='a recipe')
             P, i, j = r['partition'], r['D_1 form'], r['D_2 form']
             k = (P, i, j)
-            need(k in combos, 'E14', c['id'], 'a recipe outside the assembly:', r)
-            need(k not in seen, 'E14', c['id'], 'repeats the recipe of', seen.get(k))
+            need(k in combos, 'E13', c['id'], 'a recipe outside the assembly:', r)
+            need(k not in seen, 'E13', c['id'], 'repeats the recipe of', seen.get(k))
             seen[k] = c['id']
             (g1, n1), (g2, n2) = forms[(P, 1, i)], forms[(P, 2, j)]
-            need((r['N(D_1)'], r['N(D_2)']) == (n1, n2), 'E14', c['id'], 'the neighbourhoods of', r)
-            row = e14_row(P, n1, n2)
-            need(row is not None and row == r['row'], 'E14', c['id'], 'the recipe', r, 'is in row', row)
+            need((r['N(D_1)'], r['N(D_2)']) == (n1, n2), 'E13', c['id'], 'the neighbourhoods of', r)
+            row = e13_row(P, n1, n2)
+            need(row is not None and row == r['row'], 'E13', c['id'], 'the recipe', r, 'is in row', row)
             rows.add(row)
             G = exterior(psi_edges() + [(t, x) for t in ("p'", "q'") for x in X] +
                          renamed_edges(g1, keep, 'R') + renamed_edges(g2, keep, 'D'))
             if n == 0:
-                need(G == adj, 'E14', c['id'], 'the first recipe does not give the recorded graph')
+                need(G == adj, 'E13', c['id'], 'the first recipe does not give the recorded graph')
             else:
-                need(find_isomorphism(G, adj) is not None, 'E14', c['id'], 'the recipe', r,
+                need(find_isomorphism(G, adj) is not None, 'E13', c['id'], 'the recipe', r,
                      'gives a graph not isomorphic to the recorded one')
-        need(c['rows of the table'] == sorted(rows), 'E14', c['id'], 'rows of the table')
+        need(c['rows of the table'] == sorted(rows), 'E13', c['id'], 'rows of the table')
         for x in rows:
             by_row[x] += 1
         rec = item.verdict[c['id']]
         keys(rec, {'id', 'verdict', 'witness'}, what='the verdict of ' + c['id'])
         tally.add(rec, check_verdict(adj, rec, cat))
-    need(set(seen) == combos, 'E14:', len(combos - set(seen)), 'pairs of the assembly have no recipe')
-    need(inp['assembled graphs (with repetitions)'] == len(combos), 'E14: input.json, assembled graphs')
-    need(set(inp['rows of the table']) == set(by_row) == set('123456'), 'E14: the rows of the table')
+    need(set(seen) == combos, 'E13:', len(combos - set(seen)), 'pairs of the assembly have no recipe')
+    need(inp['assembled graphs (with repetitions)'] == len(combos), 'E13: input.json, assembled graphs')
+    need(set(inp['rows of the table']) == set(by_row) == set('123456'), 'E13: the rows of the table')
     obstructions = [v for v in tally.verdicts if v.startswith(ISO)]
     item.compare_summary({
-        'item': 'E14', 'where': inp['where'],
+        'item': 'E13', 'where': inp['where'],
         'forms of D_1': {P: len(inp['forms of D_1'][P]) for P in ('P1', 'P2')},
         'forms of D_2': {P: len(inp['forms of D_2'][P]) for P in ('P1', 'P2')},
         'assembled graphs (with repetitions)': len(combos), 'candidates (up to isomorphism)': len(item.cands),
@@ -1147,10 +1147,10 @@ def check_E14(root):
         len(item.cands), len(combos), ', '.join('%s: %d' % kv for kv in sorted(by_row.items())), tally.text()))
 
 
-# ---------------------------------------------------------------- E19
+# ---------------------------------------------------------------- E18
 
-def check_E19(root):
-    """E19 (Lemma 5.24). Each case U_T_kind_v_on_S has the bridge U on the
+def check_E18(root):
+    """E18 (Lemma 5.30). Each case U_T_kind_v_on_S has the bridge U on the
     triple T = {a,c,d} or {b,c,d} and the vertex v with neighbourhood S, one of
     the three other triples; the record's U and N(v) agree with the case. U
     is the graph of the vertices other than a, b, c, d, p, q, r, z, v with
@@ -1166,26 +1166,26 @@ def check_E19(root):
     input.json is on T, and the subgraph K' of its recipe (its vertices i0,
     i1, ... being the form's u0, u1, ...) is a Kuratowski subgraph of the form
     plus its added edge xy, which it uses."""
-    item = Item(root, 'E19')
+    item = Item(root, 'E18')
     cat = catalogue(root)
     inp = item.input
     triples = ('abc', 'abd', 'acd', 'bcd')
     planar_forms = inp['planar U']['forms']
-    need(set(planar_forms) == {'acd', 'bcd'}, 'E19: planar forms of other triples')
+    need(set(planar_forms) == {'acd', 'bcd'}, 'E18: planar forms of other triples')
     for T, d in planar_forms.items():
         keys(d, {'count', 'by added edge', 'forms'}, what='the planar forms of ' + T)
-        need(d['count'] == len(d['forms']) == inp['planar U']['forms per triple'], 'E19: number of forms of', T)
-        need(set(d['by added edge']) == {x + y for x, y in itertools.combinations(T, 2)}, 'E19: added edges of', T)
+        need(d['count'] == len(d['forms']) == inp['planar U']['forms per triple'], 'E18: number of forms of', T)
+        need(set(d['by added edge']) == {x + y for x, y in itertools.combinations(T, 2)}, 'E18: added edges of', T)
         for i, f in enumerate(d['forms']):
             keys(f, {'index', 'graph', 'recipe'}, what='a planar form')
-            need(f['index'] == i, 'E19: form', T, i, 'out of order')
+            need(f['index'] == i, 'E18: form', T, i, 'out of order')
             g = graph(f['graph'])
-            need(set(T) <= set(g) and not set(g) & (set('abcd') - set(T)), 'E19: form', T, i, 'is not on', T)
+            need(set(T) <= set(g) and not set(g) & (set('abcd') - set(T)), 'E18: form', T, i, 'is not on', T)
             r = f['recipe']
             xy = r['added edge']
-            need(len(xy) == 2 and set(xy) <= set(T), 'E19: form', T, i, 'added edge', xy)
+            need(len(xy) == 2 and set(xy) <= set(T), 'E18: form', T, i, 'added edge', xy)
             ks = [[('u' + x[1:]) if x.startswith('i') else x for x in e] for e in r["K'"]]
-            need(any(set(e) == set(xy) for e in ks), 'E19: K\' of form', T, i, 'does not use its added edge')
+            need(any(set(e) == set(xy) for e in ks), 'E18: K\' of form', T, i, 'does not use its added edge')
             check_kuratowski(add_edges(g, [xy]), ks)
     tally = Tally()
     by_case = {}
@@ -1196,10 +1196,10 @@ def check_E19(root):
              ({'U is planar', 'the three two-edge completions of U are nonplanar', 'form'} if planar
               else {'U is nonplanar'}), what=c.get('id'))
         m = re.fullmatch(r'U_(acd|bcd)_(nonplanar|planar)_v_on_(abc|abd|acd|bcd)', c['case'])
-        need(m and m.group(1) != m.group(3), 'E19', c['id'], 'unknown case', c['case'])
+        need(m and m.group(1) != m.group(3), 'E18', c['id'], 'unknown case', c['case'])
         T, kind, S = m.groups()
         need((kind == 'planar') == planar and c['U'] == 'on {%s}, %s' % (','.join(T), kind) and c['N(v)'] == list(S),
-             'E19', c['id'], 'U and N(v) do not agree with the case')
+             'E18', c['id'], 'U and N(v) do not agree with the case')
         adj = item.rebuild(c)
         check_twins(adj, PSI2[:1] + [(r'r|z', 'abd'), (r'v', S)], ['p', 'q', 'r', 'z', 'v'])
         inner = set(adj) - set('abcdpqrzv')
@@ -1207,54 +1207,54 @@ def check_E19(root):
         rest = {x: set(nb) for x, nb in adj.items() if x not in inner}
         for x in inner:
             for y in adj[x]:
-                need(y in U, 'E19', c['id'], 'an interior vertex of U is adjacent to', y)
+                need(y in U, 'E18', c['id'], 'an interior vertex of U is adjacent to', y)
                 U[x].add(y)
                 U[y].add(x)
             for y in set(T) & adj[x]:
                 rest[y].discard(x)
         need(edge_set(rest) == edge_set(exterior(psi_edges() + [('v', x) for x in S])) and
-             set(rest) == set('abcdpqrzv'), 'E19', c['id'], 'the graph minus U is not Psi_2 with v')
+             set(rest) == set('abcdpqrzv'), 'E18', c['id'], 'the graph minus U is not Psi_2 with v')
         need(inner and len(components(U, inner)) == 1 and all(U[x] & inner for x in T),
-             'E19', c['id'], 'U is not a bridge on', T)
+             'E18', c['id'], 'U is not a bridge on', T)
         if planar:
             w = c['U is planar']
             keys(w, {'type', 'genus', 'rotation'}, what='U is planar')
-            need(w['type'] == 'embedding', 'E19', c['id'], 'U is planar needs an embedding')
+            need(w['type'] == 'embedding', 'E18', c['id'], 'U is planar needs an embedding')
             check_embedding(U, w, genus=0)
             comp = c['the three two-edge completions of U are nonplanar']
             x, y, t = T
             want = [{(x, y), (x, t)}, {(x, y), (y, t)}, {(x, t), (y, t)}]
             need(len(comp) == 3 and [{tuple(e) for e in k['added edges']} for k in comp] == want,
-                 'E19', c['id'], 'not the three two-edge completions')
+                 'E18', c['id'], 'not the three two-edge completions')
             for k in comp:
                 keys(k, {'added edges', 'Kuratowski subgraph'}, what='a completion')
                 check_kuratowski(add_edges(U, k['added edges']), k['Kuratowski subgraph'])
             f = planar_forms[T]['forms'][c['form']]
-            need(f['index'] == c['form'] and graph(f['graph']) == U, 'E19', c['id'], 'U is not its form', c['form'])
+            need(f['index'] == c['form'] and graph(f['graph']) == U, 'E18', c['id'], 'U is not its form', c['form'])
         else:
             w = c['U is nonplanar']
             keys(w, {'type', 'edges'}, what='U is nonplanar')
-            need(w['type'] == 'Kuratowski subgraph', 'E19', c['id'], 'U is nonplanar needs a Kuratowski subgraph')
+            need(w['type'] == 'Kuratowski subgraph', 'E18', c['id'], 'U is nonplanar needs a Kuratowski subgraph')
             check_kuratowski(U, w['edges'])
         key = graph_key(U)
         b = bridges.setdefault((T, kind), {})
-        need(key not in b.get(S, set()), 'E19', c['id'], 'repeats its bridge in case', c['case'])
+        need(key not in b.get(S, set()), 'E18', c['id'], 'repeats its bridge in case', c['case'])
         b.setdefault(S, set()).add(key)
         rec = item.verdict[c['id']]
         keys(rec, {'id', 'verdict', 'witness'}, what='the verdict of ' + c['id'])
         tally.add(rec, check_verdict(adj, rec, cat))
         by_case.setdefault(c['case'], Counter())[rec['verdict']] += 1
     per = {'nonplanar': inp['nonplanar U']['bridges per case'], 'planar': inp['planar U']['forms per triple']}
-    need(inp['nonplanar U']['generation']['parts up to rooted isomorphism'] == per['nonplanar'], 'E19: bridges per case')
+    need(inp['nonplanar U']['generation']['parts up to rooted isomorphism'] == per['nonplanar'], 'E18: bridges per case')
     for T in ('acd', 'bcd'):
         for kind in ('nonplanar', 'planar'):
             b = bridges.get((T, kind), {})
-            need(set(b) == set(triples) - {T}, 'E19: the cases of U on', T, kind)
-            need(all(s == b[S] and len(s) == per[kind] for S in b for s in b.values()), 'E19: U on', T, kind,
+            need(set(b) == set(triples) - {T}, 'E18: the cases of U on', T, kind)
+            need(all(s == b[S] and len(s) == per[kind] for S in b for s in b.values()), 'E18: U on', T, kind,
                  'does not have the same', per[kind], 'bridges in its three cases')
     remaining = sum(n for v, n in tally.verdicts.items() if v == TORUS or v.startswith(ISO))
     n_planar = sum(1 for c in item.cands if 'U is planar' in c)
-    item.compare_summary({'item': 'E19', 'where': inp['where'], 'graphs': len(item.cands),
+    item.compare_summary({'item': 'E18', 'where': inp['where'], 'graphs': len(item.cands),
                           'nonplanar U': len(item.cands) - n_planar, 'planar U': n_planar,
                           'verdicts': dict(tally.verdicts),
                           'by case': {k: dict(v) for k, v in by_case.items()}, 'remaining': remaining})
@@ -1263,8 +1263,8 @@ def check_E19(root):
                                                                     n_planar, tally.text()))
 
 
-CHECKS = {'E6': check_E6, 'E9': check_E9, 'E10': check_E10, 'E11': check_E11, 'E14': check_E14,
-          'E15': check_E15, 'E16': check_E16, 'E17': check_E17, 'E18': check_E18, 'E19': check_E19}
+CHECKS = {'E5': check_E5, 'E8': check_E8, 'E9': check_E9, 'E10': check_E10, 'E13': check_E13,
+          'E14': check_E14, 'E15': check_E15, 'E16': check_E16, 'E17': check_E17, 'E18': check_E18}
 
 
 def check(root, item):

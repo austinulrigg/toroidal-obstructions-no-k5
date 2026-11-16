@@ -1,253 +1,112 @@
 {
  "item": "W9",
- "where": "Lemma 4.29",
- "claim": "A path P outside Psi_1 from c to b, or from b to an internal vertex of P_x, gives a K5 minor together with B and Psi_1: the interior of B is contracted to u, and P and the other paths to edges (shown for m = 1, x = 2, so a = s_1, b = t_1, c = s_2, d = t_2).",
- "graphs": [
-  {
-   "case": "P runs from c to b",
-   "vertices": [
-    "p",
-    "q",
-    "r",
-    "s1",
-    "s2",
-    "s3",
-    "t1",
-    "t2",
-    "t3",
-    "u",
+ "where": "Proposition 6.8",
+ "claim": "Psi_3, another bridge on {a,b,c} contracted to h, and Int(B) contracted to w with its edges to b, c deleted (so N(w) = {a,d,e}): this is T8, with cut vertex a.",
+ "graph": {
+  "vertices": [
+   "p",
+   "a",
+   "b",
+   "c",
+   "q",
+   "r",
+   "d",
+   "e",
+   "z",
+   "h",
+   "w"
+  ],
+  "edges": [
+   [
+    "a",
+    "h"
+   ],
+   [
+    "a",
+    "p"
+   ],
+   [
+    "a",
+    "q"
+   ],
+   [
+    "a",
+    "r"
+   ],
+   [
+    "a",
+    "w"
+   ],
+   [
+    "a",
     "z"
    ],
-   "edges": [
-    [
-     "p",
-     "s1"
-    ],
-    [
-     "q",
-     "s1"
-    ],
-    [
-     "r",
-     "t1"
-    ],
-    [
-     "z",
-     "t1"
-    ],
-    [
-     "p",
-     "s2"
-    ],
-    [
-     "q",
-     "s2"
-    ],
-    [
-     "r",
-     "t2"
-    ],
-    [
-     "z",
-     "t2"
-    ],
-    [
-     "s2",
-     "t2"
-    ],
-    [
-     "p",
-     "s3"
-    ],
-    [
-     "q",
-     "s3"
-    ],
-    [
-     "r",
-     "t3"
-    ],
-    [
-     "z",
-     "t3"
-    ],
-    [
-     "s3",
-     "t3"
-    ],
-    [
-     "s1",
-     "u"
-    ],
-    [
-     "u",
-     "t1"
-    ],
-    [
-     "u",
-     "s2"
-    ],
-    [
-     "u",
-     "t2"
-    ],
-    [
-     "s2",
-     "t1"
-    ]
+   [
+    "b",
+    "h"
    ],
-   "witness": {
-    "type": "K5 branch sets",
-    "branch sets": [
-     [
-      "p",
-      "s3",
-      "t3",
-      "z"
-     ],
-     [
-      "q",
-      "s2"
-     ],
-     [
-      "r",
-      "t1"
-     ],
-     [
-      "s1",
-      "u"
-     ],
-     [
-      "t2"
-     ]
-    ]
-   }
-  },
-  {
-   "case": "P runs from b to an internal vertex v of P_x",
-   "vertices": [
-    "p",
-    "q",
-    "r",
-    "s1",
-    "s2",
-    "s3",
-    "t1",
-    "t2",
-    "t3",
-    "u",
-    "v",
+   [
+    "b",
+    "p"
+   ],
+   [
+    "b",
+    "q"
+   ],
+   [
+    "c",
+    "h"
+   ],
+   [
+    "c",
+    "p"
+   ],
+   [
+    "c",
+    "q"
+   ],
+   [
+    "d",
+    "r"
+   ],
+   [
+    "d",
+    "w"
+   ],
+   [
+    "d",
     "z"
    ],
-   "edges": [
-    [
-     "p",
-     "s1"
-    ],
-    [
-     "q",
-     "s1"
-    ],
-    [
-     "r",
-     "t1"
-    ],
-    [
-     "z",
-     "t1"
-    ],
-    [
-     "p",
-     "s2"
-    ],
-    [
-     "q",
-     "s2"
-    ],
-    [
-     "r",
-     "t2"
-    ],
-    [
-     "z",
-     "t2"
-    ],
-    [
-     "p",
-     "s3"
-    ],
-    [
-     "q",
-     "s3"
-    ],
-    [
-     "r",
-     "t3"
-    ],
-    [
-     "z",
-     "t3"
-    ],
-    [
-     "s3",
-     "t3"
-    ],
-    [
-     "s1",
-     "u"
-    ],
-    [
-     "u",
-     "t1"
-    ],
-    [
-     "u",
-     "s2"
-    ],
-    [
-     "u",
-     "t2"
-    ],
-    [
-     "s2",
-     "v"
-    ],
-    [
-     "v",
-     "t2"
-    ],
-    [
-     "t1",
-     "v"
-    ]
+   [
+    "e",
+    "r"
    ],
-   "witness": {
-    "type": "K5 branch sets",
-    "branch sets": [
-     [
-      "p",
-      "s1",
-      "u"
-     ],
-     [
-      "q",
-      "s2",
-      "v"
-     ],
-     [
-      "r",
-      "s3",
-      "t3"
-     ],
-     [
-      "t1",
-      "z"
-     ],
-     [
-      "t2"
-     ]
-    ]
-   }
+   [
+    "e",
+    "w"
+   ],
+   [
+    "e",
+    "z"
+   ]
+  ]
+ },
+ "witness": {
+  "type": "isomorphism",
+  "onto": "T8",
+  "map": {
+   "p": 0,
+   "a": 10,
+   "b": 6,
+   "c": 7,
+   "q": 2,
+   "r": 4,
+   "d": 9,
+   "e": 8,
+   "z": 5,
+   "h": 1,
+   "w": 3
   }
- ]
+ },
+ "note on T_i": "T_i vertex numbers are those of O1."
 }

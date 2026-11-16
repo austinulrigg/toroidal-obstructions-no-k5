@@ -1,15 +1,23 @@
 {
  "item": "E17",
- "where": "Lemma 5.20",
- "candidates": 5819,
+ "where": "Lemma 5.28",
+ "candidates": 252,
  "verdicts": {
-  "K5 minor": 3727,
-  "cut of at most two vertices": 769,
-  "proper nontoroidal minor": 1323
+  "cut of at most two vertices": 21,
+  "isomorphic to T10": 6,
+  "isomorphic to T16": 2,
+  "isomorphic to T9": 6,
+  "proper nontoroidal minor": 145,
+  "toroidal": 72
  },
- "isomorphic to T_i (copies)": {},
- "graphs T_i not excluded by a hypothesis of the case": [],
- "also excluded by a hypothesis of the case": {
-  "B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)": 3436
- }
+ "isomorphic to T_i (copies)": {
+  "T9": 6,
+  "T10": 6,
+  "T16": 2
+ },
+ "graphs T_i not excluded by a hypothesis of the case": [
+  "T9",
+  "T10",
+  "T16"
+ ]
 }

@@ -1,4 +1,4 @@
-"""The witnesses W1-W21: single certificates cited in proofs.
+"""The witnesses W1-W16: single certificates cited in proofs.
 
 Each item gives one graph (or a list of graphs) with the vertex names of the
 text, and a witness of one of the seven kinds. The checker rebuilds every

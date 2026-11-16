@@ -22,16 +22,15 @@ GZ_LIMIT = 25 * 1024 * 1024
 
 # Where the paper uses each enumeration.
 WHERE = {
-    'E1': 'Lemma 4.10', 'E2': 'Proposition 4.21', 'E3': 'Proposition 4.21', 'E4': 'Theorem 4.22',
-    'E5': 'Proposition 4.24', 'E6': 'Proposition 4.25', 'E7': 'Proposition 4.28',
-    'E8': 'Lemma 4.29 and Proposition 4.30', 'E9': 'Proposition 5.10', 'E10': 'Lemma 5.9',
-    'E11': 'Proposition 5.14', 'E12': 'Lemma 5.15', 'E13': 'Proposition 5.18',
-    'E14': 'Proposition 5.18, the case of two components', 'E15': 'Proposition 5.21', 'E16': 'Proposition 5.21',
-    'E17': 'Lemma 5.20', 'E18': 'Lemma 5.22', 'E19': 'Lemma 5.24', 'E20': 'Proposition 5.27',
-    'E21': 'Proposition 6.7', 'E22': 'Proposition 6.7', 'E23': 'Lemma 6.10', 'E24': 'Proposition 6.12',
-    'E25': 'Proposition 6.12', 'E26': 'Proposition 6.12', 'E27': 'Lemma 6.13', 'E28': 'Lemma 6.13',
-    'E29': 'Lemma 6.14', 'E30': 'Proposition 6.15', 'E31': 'Lemma 6.17', 'E32': 'Lemma 6.17',
-    'E33': 'Lemma 6.17', 'E34': 'Proposition 6.22',
+    'E1': 'Lemma 4.10', 'E2': 'Proposition 4.21', 'E3': 'Theorem 4.22',
+    'E4': 'Proposition 4.24', 'E5': 'Proposition 4.25', 'E6': 'Proposition 4.28',
+    'E7': 'Lemma 4.29 and Proposition 4.30', 'E8': 'Proposition 5.9', 'E9': 'Lemma 5.8',
+    'E10': 'Proposition 5.16', 'E11': 'Lemma 5.17', 'E12': 'Proposition 5.24',
+    'E13': 'Proposition 5.24, the case of two components', 'E14': 'Proposition 5.27', 'E15': 'Proposition 5.27',
+    'E16': 'Lemma 5.26', 'E17': 'Lemma 5.28', 'E18': 'Lemma 5.30', 'E19': 'Proposition 5.33',
+    'E20': 'Proposition 6.8', 'E21': 'Lemma 6.11', 'E22': 'Proposition 6.13', 'E23': 'Lemma 6.14',
+    'E24': 'Lemma 6.15', 'E25': 'Proposition 6.16', 'E26': 'Lemma 6.18', 'E27': 'Lemma 6.19',
+    'E28': 'Lemma 6.19', 'E29': 'Proposition 6.25',
 }
 
 
@@ -230,23 +229,6 @@ def canonical_map(g, onto):
     return dict(zip(order, best))
 
 
-def minor_after_steps(g, steps):
-    """The graph obtained from g by the recorded deletions and contractions
-    (a contraction keeps its first end), without isolated vertices."""
-    adj = adj_from(g['vertices'], g['edges'])
-    for op, (u, v) in steps:
-        adj[u].discard(v)
-        adj[v].discard(u)
-        if op == 'contract':
-            for w in adj.pop(v):
-                adj[w].discard(v)
-                if w != u:
-                    adj[w].add(u)
-                    adj[u].add(w)
-    vs = [x for x in g['vertices'] if x in adj and adj[x]]
-    return {'vertices': vs, 'edges': sorted(sorted((x, y)) for x in vs for y in adj[x] if x < y)}
-
-
 def verdict_counts(verdicts):
     return dict(sorted(Counter(v['verdict'] for v in verdicts).items()))
 
@@ -263,8 +245,7 @@ FACT = {
     'adjacent neighbors': 'a vertex of degree three has two adjacent neighbours',
 }
 
-NONPLANAR = {'P nonplanar': 'B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)',
-             'C + ab + ad nonplanar': 'C + ab + ad is nonplanar, where C is the other bridge (it must be planar when a cross edge is present)'}
+NONPLANAR = {'P nonplanar': 'B is nonplanar, where B is G minus p, q, r, z and the edges among a, b, c, d (Section 5.4 assumes B planar)'}
 
 
 def convert_fact(se, R, conditions):
@@ -330,30 +311,25 @@ NAMES4 = ('Section 4.7, type (c): a = s1, b = t1, c = s2, d = t3, e = s3, f = t2
 # label: (names used by the generator -> names of the paper, the twins, which
 # records to keep, the text on vertex names)
 WHOLE = {
-    'E6': ({}, PSI4, None, NAMES4),
+    'E5': ({}, PSI4, None, NAMES4),
+    'E8': (S5a, PSI5, None, NAMES5),
     'E9': (S5a, PSI5, None, NAMES5),
-    'E10': (S5a, PSI5, None, NAMES5),
-    'E15': (S5b, PSI5w, None, NAMES5w),
+    'E14': (S5b, PSI5w, None, NAMES5w),
+    'E15': (S5c, PSI5w, None, NAMES5w),
     'E16': (S5c, PSI5w, None, NAMES5w),
-    'E17': (S5c, PSI5w, None, NAMES5w),
-    'E18': (S5d, PSI5, None, NAMES5 + ' Here the other vertices with a given neighbourhood are named by it, '
+    'E17': (S5d, PSI5, None, NAMES5 + ' Here the other vertices with a given neighbourhood are named by it, '
                                       'as abc2, abd2, acd0, bcd0, ....'),
-    'E20': (S5e, PSI5, None, NAMES5 + ' Vertices of the k-th form are f<k>_<i>.'),
+    'E19': (S5e, PSI5, None, NAMES5 + ' Vertices of the k-th form are f<k>_<i>.'),
+    'E20': (S6, PSI6, None, NAMES6),
     'E21': (S6, PSI6, None, NAMES6),
     'E22': (S6, PSI6, None, NAMES6),
-    'E23': (S6, PSI6, None, NAMES6),
+    'E23': (S6, PSI6, lambda c: c['case'] == 'C_on_abd', NAMES6),
     'E24': (S6, PSI6, None, NAMES6),
-    'E25': (S6, PSI6, None, NAMES6 + " h1, h2 are the twins with neighbourhood {b,d,w} (p', q' in the text)."),
+    'E25': (S6, PSI6, None, NAMES6),
     'E26': (S6, PSI6, None, NAMES6),
-    'E27': (S6, PSI6, lambda c: c['case'] in ('ade', 'abd', 'acd'),
-            NAMES6 + ' The vertices of the form are Ud1, Ud2, Uf, Uu, Uv.'),
-    'E28': (S6, PSI6, lambda c: c['case'] == 'C_on_abd', NAMES6),
-    'E29': (S6, PSI6, None, NAMES6),
-    'E30': (S6, PSI6, None, NAMES6),
-    'E31': (S6, PSI6, None, NAMES6),
-    'E32': (S6, PSI6, None, NAMES6),
-    'E33': (S6, PSI6, None, NAMES6),
-    'E34': (S6, PSI6, None, NAMES6 + ' Vertices of the forms are B<k>_<x>; added single vertices are v_<neighbourhood>.'),
+    'E27': (S6, PSI6, None, NAMES6),
+    'E28': (S6, PSI6, None, NAMES6),
+    'E29': (S6, PSI6, None, NAMES6 + ' Vertices of the forms are B<k>_<x>; added single vertices are v_<neighbourhood>.'),
 }
 
 
@@ -408,11 +384,6 @@ def package_whole(label, work, out):
             verdict, w = convert_outcome(c['outcome'], R)
             if w['type'] == 'isomorphism':
                 w['map'] = canonical_map(g, w['onto'])
-            om = c.get('obstruction minor')
-            if om and om.get('catalogue'):
-                steps = [[op, R.vs(e)] for op, e in om['steps']]
-                w['minor of T_i'] = {'steps': steps, 'onto': om['catalogue'],
-                                     'map': canonical_map(minor_after_steps(g, steps), om['catalogue'])}
             vrec = {'id': c['id'], 'verdict': verdict, 'witness': w}
             se = c.get('structural exclusion')
             if se:
@@ -470,15 +441,15 @@ def package_whole(label, work, out):
     return summary
 
 
-# ---------------------------------------------------------------- E7, E8: bridges with tests on the bridge
+# ---------------------------------------------------------------- E6, E7: bridges with tests on the bridge
 
 TESTS_TEXT = {
-    'E7': {'roots': 'the attachments s_x, t_x, s_y, t_y of B, written sx, tx, sy, ty',
+    'E6': {'roots': 'the attachments s_x, t_x, s_y, t_y of B, written sx, tx, sy, ty',
            'B + C': 'B + s_x t_x + t_x t_y + t_y s_y + s_y s_x, the cycle completion B ∪ C',
            'B + path': 'B + s_y s_x + s_x t_x + t_x t_y, the path completion B ∪ s_y s_x t_x t_y',
            'B + K4[R]': 'B plus all six edges among s_x, t_x, s_y, t_y',
            'B + Rx + Ry': 'B + s_x t_x + s_y t_y, a subgraph of G once P_x, P_y are edges'},
-    'E8': {'roots': 'the attachments a = s_m, b = t_m, c = s_x, d = t_x of B',
+    'E7': {'roots': 'the attachments a = s_m, b = t_m, c = s_x, d = t_x of B',
            'U + ac + cd + db': 'B + ac + cd + db',
            'U + ac + bd': 'B + ac + bd',
            'U + K4[abcd]': 'B plus all six edges among a, b, c, d',
@@ -489,18 +460,18 @@ TESTS_TEXT = {
 
 # The test graphs under the names of the data folder.
 RENAME = {
-    'E7': {'B + C': 'B + C', 'B + path': 'B + sy sx + sx tx + tx ty', 'B + K4[R]': 'B + K4[sx,tx,sy,ty]',
+    'E6': {'B + C': 'B + C', 'B + path': 'B + sy sx + sx tx + tx ty', 'B + K4[R]': 'B + K4[sx,tx,sy,ty]',
            'B + Rx + Ry': 'B + sx tx + sy ty'},
-    'E8': {'U + ac + cd + db': 'B + ac + cd + db', 'U + ac + bd': 'B + ac + bd', 'U + K4[abcd]': 'B + K4[a,b,c,d]',
+    'E7': {'U + ac + cd + db': 'B + ac + cd + db', 'U + ac + bd': 'B + ac + bd', 'U + K4[abcd]': 'B + K4[a,b,c,d]',
            'U + cd': 'B + cd', 'Psi1 + U': 'Psi1 + B'},
 }
 
-# The bridges given in the paper. E7: twins p', q' on {sx, sy, v}, with v
-# also adjacent to tx, ty. E8: the bridges B1, ..., B5 of Lemma 4.29.
+# The bridges given in the paper. E6: twins p', q' on {sx, sy, v}, with v
+# also adjacent to tx, ty. E7: the bridges B1, ..., B5 of Lemma 4.29.
 PAPER_FORMS = {
-    'E7': {'the form of Proposition 4.28': [("p'", 'sx'), ("p'", 'sy'), ("p'", 'v'), ("q'", 'sx'), ("q'", 'sy'),
+    'E6': {'the form of Proposition 4.28': [("p'", 'sx'), ("p'", 'sy'), ("p'", 'v'), ("q'", 'sx'), ("q'", 'sy'),
                                            ("q'", 'v'), ('v', 'tx'), ('v', 'ty')]},
-    'E8': {'B1': [("p'", 'a'), ("p'", 'c'), ("p'", 'v'), ("q'", 'a'), ("q'", 'c'), ("q'", 'v'),
+    'E7': {'B1': [("p'", 'a'), ("p'", 'c'), ("p'", 'v'), ("q'", 'a'), ("q'", 'c'), ("q'", 'v'),
                   ('a', 'u'), ('b', 'u'), ('d', 'u'), ('u', 'v')],
            'B2': [("p'", 'a'), ("p'", 'c'), ("p'", 'v'), ("q'", 'a'), ("q'", 'c'), ("q'", 'v'),
                   ('a', 'u'), ('b', 'u'), ('d', 'v'), ('u', 'v')],
@@ -512,8 +483,8 @@ PAPER_FORMS = {
                   ('c', 'v'), ('d', 'v')]},
 }
 # Interchanging A1 and A2.
-SWAP = {'E7': {'sx': 'tx', 'tx': 'sx', 'sy': 'ty', 'ty': 'sy'},
-        'E8': {'a': 'b', 'b': 'a', 'c': 'd', 'd': 'c'}}
+SWAP = {'E6': {'sx': 'tx', 'tx': 'sx', 'sy': 'ty', 'ty': 'sy'},
+        'E7': {'a': 'b', 'b': 'a', 'c': 'd', 'd': 'c'}}
 
 FACTS = {
     'path completion nonplanar': (
@@ -527,16 +498,16 @@ FACTS = {
         'Lemma 3.4(a); the edges added in the test graph are edges of G.'),
     'B + K4[R] has a cut of order at most two': (
         'B plus all edges among its four attachments has a cut of at most two vertices',
-        'Three-connectivity of B ∪ K_4[attachments], used with Construction 3.17.'),
+        'Three-connectivity of B ∪ K_4[attachments], used with Construction 3.18.'),
     'U + ac + bd nonplanar': (
         'B + ac + bd is nonplanar',
         'The proof shows: "The graph B + ac + bd is planar."'),
     'U + K4[abcd] has a cut of order at most two': (
         'B plus all edges among a, b, c, d has a cut of at most two vertices',
-        'Three-connectivity of B ∪ K_4[{a,b,c,d}], used with Construction 3.17.'),
+        'Three-connectivity of B ∪ K_4[{a,b,c,d}], used with Construction 3.18.'),
 }
 
-WHOLE_GRAPHS_E8 = ('For each bridge that passes, the two graphs of Lemma 4.29(i): G = (Psi_1 ∪ B) + eb and '
+WHOLE_GRAPHS_E7 = ('For each bridge that passes, the two graphs of Lemma 4.29(i): G = (Psi_1 ∪ B) + eb and '
                    'G = (Psi_1 ∪ B) + af, with P_x = cd and P_w = ef. Proposition 4.30 cites this part for the '
                    'claim that these give only T66. The exterior formed by a bridge uv on {c,d,e,f} is treated '
                    'in the paper by argument, so it is not included here.')
@@ -577,7 +548,7 @@ def paper_form(label, roots, bridge_edges):
 
 
 def package_bridges(label, work, out):
-    """Package E7 or E8 (the bridges B with the tests of the case)."""
+    """Package E6 or E7 (the bridges B with the tests of the case)."""
     d = read(os.path.join(work, 'candidates.json'))
     roots = d['roots']
     RN = RENAME[label]
@@ -683,8 +654,8 @@ def package_bridges(label, work, out):
             'isomorphic to a bridge given in the text': (
                 'B passes every test of the case and is isomorphic to a bridge given in the text (listed under '
                 '"bridges given in the text"); the record that it passes the tests is kept with the verdict')}})
-    if label == 'E8':
-        inp['whole graphs'] = WHOLE_GRAPHS_E8
+    if label == 'E7':
+        inp['whole graphs'] = WHOLE_GRAPHS_E7
     s = read(os.path.join(work, 'summary.json'))
     for k in ('specification', 'generation'):
         if k in s:
@@ -702,7 +673,7 @@ def package_bridges(label, work, out):
     return summary
 
 
-# ---------------------------------------------------------------- E19
+# ---------------------------------------------------------------- E18
 
 def planarity_witness(vertices, edges):
     """A plane rotation system or a Kuratowski subgraph of the graph, found
@@ -717,7 +688,7 @@ def planarity_witness(vertices, edges):
     return False, {'type': 'Kuratowski subgraph', 'edges': sorted(sorted(e) for e in P.edges())}
 
 
-def package_E19(work, out):
+def package_E18(work, out):
     R = Relabel({'x1': 'p', 'x2': 'q', 'y1': 'r', 'y2': 'z'})
     d = read(os.path.join(work, 'candidates.json'))
     s = read(os.path.join(work, 'summary.json'))
@@ -754,30 +725,30 @@ def package_E19(work, out):
     counts = verdict_counts(verdicts)
     assert not any(v.startswith('isomorphic') or v == 'toroidal' for v in counts), counts
     gen = s['cases']['U_acd_nonplanar_v_on_abc']
-    inp = head('E19')
+    inp = head('E18')
     inp.update({
         'vertex names': 'Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with {a,b,d}; v is the contracted '
                         'other component. Interior vertices of U are u0, u1, ....',
         'cases': 'U on T = {a,c,d} or {b,c,d}, and N(v) each of the three other triples: six cases.',
-        'nonplanar U': {'construction': 'Construction 3.17 with attachments T and no added edges',
+        'nonplanar U': {'construction': 'Construction 3.18 with attachments T and no added edges',
                         'bridges per case': gen['parts up to rooted isomorphism'],
                         'generation': {k: v for k, v in gen.items() if k != 'outcomes'}},
-        'planar U': {'construction': 'Construction 3.17 with attachments T and one added edge xy, required, for '
+        'planar U': {'construction': 'Construction 3.18 with attachments T and one added edge xy, required, for '
                                      'each pair xy of T; kept when planar with all three two-edge completions '
                                      'nonplanar; merged over the three pairs up to isomorphism fixing T',
                      'forms per triple': forms['acd']['count'], 'forms': forms}})
-    summary = {'item': 'E19', 'where': WHERE['E19'], 'graphs': len(cands),
+    summary = {'item': 'E18', 'where': WHERE['E18'], 'graphs': len(cands),
                'nonplanar U': n_kind['nonplanar'], 'planar U': n_kind['planar'], 'verdicts': counts,
                'by case': {k: dict(sorted(v.items())) for k, v in sorted(by_case.items())},
                'remaining': 0}
-    write_item(out, 'E19', inp, cands, verdicts, summary)
+    write_item(out, 'E18', inp, cands, verdicts, summary)
     return summary
 
 
-# ---------------------------------------------------------------- E34: the bases
+# ---------------------------------------------------------------- E29: the bases
 
-def package_E34_bases(work, out):
-    """bases.json of E34: every base graph (two vertices on abc and two on
+def package_E29_bases(work, out):
+    """bases.json of E29: every base graph (two vertices on abc and two on
     ade), discarded with the fact used, or kept."""
     R = Relabel(S6)
     b = read(os.path.join(work, 'bases.json'))['candidates']
@@ -801,17 +772,17 @@ def package_E34_bases(work, out):
             assert x['id'] in used
             cnt['kept'] += 1
         bases.append(rec)
-    what = ('The {:,} graphs of Construction 6.21 with n_c = n_e = 2, up to isomorphism fixing a,...,e. '
+    what = ('The {:,} graphs of Construction 6.24 with n_c = n_e = 2, up to isomorphism fixing a,...,e. '
             'Each is discarded, with the fact used, or kept; the {} kept ones give the {} candidates '
             '(field "base" of each candidate) after the five choices of (n_c, n_e).').format(
                 len(bases), cnt['kept'], n_cands)
-    return write(os.path.join(out, 'enumerations', 'E34'), 'bases.json',
-                 {'item': 'E34', 'what': what, 'counts': dict(cnt), 'bases': bases})
+    return write(os.path.join(out, 'enumerations', 'E29'), 'bases.json',
+                 {'item': 'E29', 'what': what, 'counts': dict(cnt), 'bases': bases})
 
 
-# ---------------------------------------------------------------- E12
+# ---------------------------------------------------------------- E11
 
-def package_E12(work, out):
+def package_E11(work, out):
     d = read(os.path.join(work, 'candidates.json'))
     tests = [['ac', 'bd'], ['ad', 'bc'], ['ab', 'ac', 'ad'], ['ab', 'bc', 'bd']]
     cands, verdicts, found = [], [], Counter()
@@ -872,7 +843,7 @@ def package_E12(work, out):
         else:
             raise AssertionError('outcome %s: the enumeration is not complete' % t)
         verdicts.append(r)
-    inp = head('E12')
+    inp = head('E11')
     inp.update({
         'vertex names': "Psi_2 with twins p, q on {a, b, c} and r, z on {a, b, d}, as in Section 5. The bridge B "
                         "has attachments a, b, c, d and contains u, v and the twins p', q' with neighbourhood "
@@ -884,9 +855,9 @@ def package_E12(work, out):
                      'of {b, c, d} meets the other. Up to symmetry this gives %d forms.' % len(cands),
         'the four tests': 'Lemma 5.3 with (n_c, n_d) = (2, 2): G is toroidal if and only if one of B + ac + bd, '
                           'B + ad + bc, B + ab + ac + ad, B + ab + bc + bd is planar.'})
-    summary = {'item': 'E12', 'where': WHERE['E12'], 'forms': len(cands), 'verdicts': verdict_counts(verdicts),
+    summary = {'item': 'E11', 'where': WHERE['E11'], 'forms': len(cands), 'verdicts': verdict_counts(verdicts),
                'isomorphic to T_i (copies)': dict(sorted(found.items(), key=lambda x: int(x[0][1:])))}
-    write_item(out, 'E12', inp, cands, verdicts, summary)
+    write_item(out, 'E11', inp, cands, verdicts, summary)
     return summary
 
 
@@ -919,74 +890,6 @@ def convert_joint_test(jt, R=lambda v: v):
                                          'Kuratowski subgraph': [[R(u), R(v)] for u, v in fl['kuratowski_edges']]})
         out_c.append(c)
     return {'bridges': out_b, 'choices': out_c}
-
-
-# ---------------------------------------------------------------- E2
-
-E2_NAMES = {'C_u': 'u', 'C_d1': "p'", 'C_d2': "q'", 'D_u': "u''", 'D_d1': "p''", 'D_d2': "q''"}
-
-
-def e2_form(r):
-    b = {'S_center': "u adjacent to a, c; p', q' adjacent to b, d, u",
-         'T_center': "u adjacent to b, d; p', q' adjacent to a, c, u (A_1 and A_2 interchanged)"}[r['C_orientation']]
-    k = r['alternative_kind']
-    if k == 'triple_component':
-        o = "a three-attachment component T(%s) on {%s}: u'' adjacent to %s; p'', q'' adjacent to the other two " \
-            "attachments and u''" % (r['distinguished_root'], ', '.join(r['support']), r['distinguished_root'])
-    elif k == 'four_attachment_component':
-        o = 'a four-attachment component on {%s} of the same form as B (%s)' % (
-            ', '.join(r['support']), 'centre on the s side' if r['D_orientation'] == 'S_center' else 'centre on the t side')
-    else:
-        assert k == 'cross_edges'
-        o = 'the edges ' + ', '.join(''.join(e) for e in r['cross_edges'])
-    return {'B': b, 'the rest of G besides Psi_1 and B': o,
-            'kind': {'triple_component': 'another three-attachment component',
-                     'four_attachment_component': 'a four-attachment component without the disk drawing',
-                     'cross_edges': 'edges s_i t_j on both index pairs {1,3} and {2,3}'}[k]}
-
-
-def package_E2(work, out):
-    d = read(os.path.join(work, 'candidates.json'))
-    R = Relabel(E2_NAMES)
-    cands, verdicts = [], []
-    kinds = Counter()
-    for c in d['candidates']:
-        g = R.graph(c['graph'])
-        G = adj_from(g['vertices'], g['edges'])
-        f = e2_form(c['recipe'])
-        kinds[f['kind']] += 1
-        cands.append({'id': c['id'], 'graph': g, 'graph6': to_graph6(G, g['vertices']), 'form': f})
-        pm = c.get('proper_minor')
-        assert pm is not None, '%s: no proper minor was found' % c['id']
-        assert pm['operation']['type'] == 'delete_edge'
-        u, v = R.vs(pm['operation']['edge'])
-        verdicts.append({'id': c['id'], 'verdict': 'proper nontoroidal minor',
-                         'witness': {'type': 'proper minor', 'operation': 'delete', 'edge': [u, v],
-                                     'why the minor is nontoroidal': {
-                                         'reason': 'it fails all twelve choices of Lemma 4.3',
-                                         'the twelve choices': convert_joint_test(pm['joint_test'], R.v)}}})
-    inp = head('E2')
-    inp.update({
-        'vertex names': "a = s1, b = t1, c = s2, d = t2, e = s3, f = t3; twins p, q on {a, c, e} and r, z on "
-                        "{b, d, f}; the paths P1, P2, P3 are the edges ab, cd, ef. The bridge B has interior "
-                        "vertices u, p', q' as in the text. The other component, when there is one, has interior "
-                        "vertices u'', p'', q''.",
-        'the graphs': 'Psi_1, the bridge B in one of its two forms, and exactly one of: another three-attachment '
-                      'component, shortened to T(g\') with g\' an end of the edge ab, cd or ef in its attachment '
-                      'triple (8 triples, 2 choices of g\'); a four-attachment component on {a,b,e,f} or {c,d,e,f} '
-                      'of the same form as B (2 forms); or one of the edges af, eb together with one of cf, ed. '
-                      'With the two forms of B this gives 32 + 8 + 8 = 48 graphs.',
-        'how a choice fails': 'For each choice (k,x,y) of Lemma 4.2, the faces are the pair of simple faces '
-                              '(attachments V(P_i) ∪ V(P_j), test graph with auxiliary edges s_i s_j, t_i t_j), the '
-                              'repeated face (attachments V(P_k) ∪ {s_x, t_y}, auxiliary edges s_k s_x, t_k t_y) and '
-                              'the two faces of (iii) (attachments {s_k, s_x\'} and {t_k, t_y\'}). A choice fails '
-                              'when some Psi_1-bridge has its attachments in no face, or when every assignment of '
-                              'bridges to faces with their attachments makes some test graph nonplanar '
-                              '(Lemma 4.3). Each such assignment is listed with a Kuratowski subgraph.'})
-    summary = {'item': 'E2', 'where': WHERE['E2'], 'graphs': len(cands), 'by kind': dict(kinds),
-               'verdicts': verdict_counts(verdicts), 'remaining': 0}
-    write_item(out, 'E2', inp, cands, verdicts, summary)
-    return summary
 
 
 # ---------------------------------------------------------------- E1
@@ -1038,14 +941,14 @@ def package_E1(work, out):
     d = read(os.path.join(work, 'candidates.json'))
     s = read(os.path.join(work, 'summary.json'))
     roots = ['s1', 't1', 's2', 't2']
-    H0 = adj_from(['p', 'q', 'r', 'z', 's1', 's2', 's3', 't1', 't2', 't3'],
+    H2 = adj_from(['p', 'q', 'r', 'z', 's1', 's2', 's3', 't1', 't2', 't3'],
                   [[w, x] for w in 'pq' for x in ('s1', 's2', 's3')] +
                   [[w, t] for w in 'rz' for t in ('t1', 't2', 't3')] + [['s3', 't3']])
     cands, verdicts = [], []
     found, ops = Counter(), Counter()
     for c in d['candidates']:
         assert sorted(c['roots']) == sorted(roots)
-        G = {x: set(nb) for x, nb in H0.items()}
+        G = {x: set(nb) for x, nb in H2.items()}
         for x, nb in adj_from(c['vertices'], c['edges']).items():
             G.setdefault(x, set()).update(nb)
         kur = c['nonplanarity']['kuratowski_edges']
@@ -1057,14 +960,14 @@ def package_E1(work, out):
         rec = {'id': c['id']}
         if t == 'structural_cut':
             rec['verdict'] = 'cut of at most two vertices'
-            rec['witness'] = {'type': 'cut', 'vertices': o['cut'], 'in': 'G = H0 ∪ B'}
+            rec['witness'] = {'type': 'cut', 'vertices': o['cut'], 'in': 'G = H2 ∪ B'}
         elif t == 'k5_minor':
             if o.get('graph') == 'completion':
                 rec['witness'] = {'type': 'K5 branch sets', 'in': 'B + s1s2 + t1t2, a minor of G',
                                   'branch sets': o['branch_sets']}
             else:
                 assert o.get('graph') == 'whole'
-                rec['witness'] = {'type': 'K5 branch sets', 'in': 'G = H0 ∪ B', 'branch sets': o['branch_sets']}
+                rec['witness'] = {'type': 'K5 branch sets', 'in': 'G = H2 ∪ B', 'branch sets': o['branch_sets']}
             rec['verdict'] = 'K5 minor'
         elif t == 'proper_allowed_minor':
             op = o['operation']
@@ -1100,18 +1003,18 @@ def package_E1(work, out):
     inp.update({
         'vertex names': 'Psi_1 as in Section 4: twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}. '
                         'Interior vertices of B are i0, i1, ...',
-        'the case': 'A = {s1, t1, s2, t2} and E = {s1s2, t1t2}. G = H0 ∪ B, where H0 consists of p, q, r, z, '
-                    'their twelve edges and s3t3, and B (called H1 in the proof) meets H0 in A. The candidates are '
-                    'the graphs B of Construction 3.17 with attachments A and added edges E: A independent in B, '
+        'the case': 'A = {s1, t1, s2, t2} and E = {s1s2, t1t2}. G = H2 ∪ B, where H2 consists of p, q, r, z, '
+                    'their twelve edges and s3t3, and B (called H1 in the proof) meets H2 in A. The candidates are '
+                    'the graphs B of Construction 3.18 with attachments A and added edges E: A independent in B, '
                     'interior nonempty and connected, every attachment with an interior neighbour, and '
                     'B + E nonplanar (each candidate gives a Kuratowski subgraph).',
-        'H0': {'vertices': sorted(H0), 'edges': sorted(sorted((u, v)) for u in H0 for v in H0[u] if u < v)},
+        'H2': {'vertices': sorted(H2), 'edges': sorted(sorted((u, v)) for u in H2 for v in H2[u] if u < v)},
         'verdicts': {
             'K5 minor': 'branch sets in G, or in B + E, which is a minor of G (paths s1 p s2 and t1 r t2)',
             'cut of at most two vertices': 'a cut of G',
             'proper nontoroidal minor': "either an allowed reduction B' of B with B' + E nonplanar, which makes "
-                                        "H0 ∪ B' nontoroidal by the implication proved in Lemma 4.10, or an edge "
-                                        "of G = H0 ∪ B whose deletion or contraction leaves a minor model of some T_i",
+                                        "H2 ∪ B' nontoroidal by the implication proved in Lemma 4.10, or an edge "
+                                        "of G = H2 ∪ B whose deletion or contraction leaves a minor model of some T_i",
             'excluded by a hypothesis of the case': 'B has no disjoint s1-t1 and s2-t2 paths; by minimality B is '
                                                     'H1, which contains P1 and P2'},
         'generation': {k: s[k] for k in ('raw_placements', 'placement_symmetry_classes', 'expanded_recipes',
@@ -1123,7 +1026,7 @@ def package_E1(work, out):
     return summary
 
 
-# ---------------------------------------------------------------- E3
+# ---------------------------------------------------------------- E2
 
 PSI1_S = {1: 'a', 2: 'c', 3: 'e'}
 PSI1_T = {1: 'b', 2: 'd', 3: 'f'}
@@ -1282,8 +1185,8 @@ def contract_edge_adj(G, e):
     return H
 
 
-def e3_one_edge_minor(G, B, roots, E):
-    """For a candidate of E3 whose G has a vertex of degree three with two
+def e2_one_edge_minor(G, B, roots, E):
+    """For a candidate of E2 whose G has a vertex of degree three with two
     adjacent neighbours: a one-edge proper minor of G with the reason it is
     nontoroidal, an allowed reduction B' of B with B' + E nonplanar, or a
     one-edge minor keeping Psi_1 that fails every choice of Lemma 4.3.
@@ -1331,7 +1234,7 @@ def first_edge_in_bag(G, bag):
     return min(tuple(sorted((u, v))) for u in bag for v in G[u] if v in bag)
 
 
-def package_E3(work, out):
+def package_E2(work, out):
     d = read(os.path.join(work, 'candidates.json'))
     roots = ['a', 'b', 'c', 'd']
     E = [['a', 'c'], ['c', 'd'], ['b', 'd']]
@@ -1354,7 +1257,7 @@ def package_E3(work, out):
         if t == 'adjacent_degree_three_neighbors':
             x, y = o['edge']
             v = o['vertex']
-            w, how = e3_one_edge_minor(G, B, roots, E)
+            w, how = e2_one_edge_minor(G, B, roots, E)
             if w is None:
                 w = {'type': 'proper minor', 'operation': 'delete', 'edge': [x, y],
                      'why the minor is nontoroidal': {
@@ -1405,26 +1308,26 @@ def package_E3(work, out):
         else:
             raise AssertionError('outcome %s for %s' % (t, c['id']))
         verdicts.append({'id': c['id'], 'verdict': 'proper nontoroidal minor', 'witness': w})
-    inp = head('E3')
+    inp = head('E2')
     inp.update({
         'vertex names': 'a = s1, b = t1, c = s2, d = t2, e = s3, f = t3; twins p, q on {a, c, e} and r, z on '
                         '{b, d, f}; the paths are the edges ab, cd, ef. Interior vertices of B are i0, i1, ...',
         'the case': 'G = (Psi_1 ∪ B) + af, where B has attachments A = {a, b, c, d}. The candidates are the '
-                    'graphs B of Construction 3.17 with attachments A, added edges E = {ac, cd, bd} and no '
+                    'graphs B of Construction 3.18 with attachments A, added edges E = {ac, cd, bd} and no '
                     'required edges: A independent in B, interior nonempty and connected, every attachment with '
                     'an interior neighbour, and B + E nonplanar (each candidate gives a Kuratowski subgraph).',
         'the rest of G': {'vertices': sorted(X), 'edges': sorted_edges(X)},
         'verdicts': 'Every candidate gets a proper nontoroidal minor obtained by deleting or contracting one '
                     'edge of G (a contraction merges the second vertex into the first). The witness says why '
                     'that minor is nontoroidal.'})
-    summary = {'item': 'E3', 'where': WHERE['E3'], 'candidates': len(cands), 'verdicts': verdict_counts(verdicts),
+    summary = {'item': 'E2', 'where': WHERE['E2'], 'candidates': len(cands), 'verdicts': verdict_counts(verdicts),
                'one-edge minors': dict(ops), 'why nontoroidal': dict(reasons),
                'remaining': 0}
-    write_item(out, 'E3', inp, cands, verdicts, summary)
+    write_item(out, 'E2', inp, cands, verdicts, summary)
     return summary
 
 
-# ---------------------------------------------------------------- E11
+# ---------------------------------------------------------------- E10
 
 def remap_outcome(o, phi):
     """The same outcome for an isomorphic copy; phi maps the vertices of the
@@ -1449,10 +1352,10 @@ def remap_outcome(o, phi):
     return o
 
 
-def package_E11(work, out):
+def package_E10(work, out):
     import pickle
     import networkx as nx
-    import generate_E11 as gen
+    import generate_E10 as gen
     R = Relabel({'t0': 'p', 't1': 'q', 't2': 'r', 't3': 'z'})
     d = read(os.path.join(work, 'candidates.json'))
     forms = read(os.path.join(work, 'forms.json'))
@@ -1517,20 +1420,20 @@ def package_E11(work, out):
             for x in cases:
                 (planar_found if planar else nonplanar_found)[(verdict.split()[-1], x)] += 1
     by_num = lambda x: int(x[1:])
-    inp = head('E11')
+    inp = head('E10')
     inp.update({
         'vertex names': 'Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with {a,b,d}. X = {a,b,w}. '
                         'Interior vertices: U* in B_0, C* in D_c, D* in D_d, R* in D_1, k1, k2 the two '
                         'singleton components.',
         'subcases': SUBCASE,
         'construction of D_c': 'with all four graphs H_c + E planar, at most two single vertices on c, w and '
-                               'some of a, b, with or without cw; otherwise Construction 3.17 with attachments '
+                               'some of a, b, with or without cw; otherwise Construction 3.18 with attachments '
                                'a, b, c, w, added edges ab, aw, bw and E (E = {ac}, {bc} or {ac, bc}, required), '
                                'original pair cw as an edge or a once-subdivided segment, or on the quotient '
                                '(H_c + ac + bc)/ab with every lift of the edges at the identified vertex; every '
                                'interior component given its neighbours at c and w, and at most two further '
                                'single vertices for missing neighbours at a, b',
-        'construction of D_1': 'Construction 3.17 with attachments a, c, d, w, added edges ac, ad, aw, the '
+        'construction of D_1': 'Construction 3.18 with attachments a, c, d, w, added edges ac, ad, aw, the '
                                'subdivision using ac or ad, original pairs cw, dw as an edge or a once-subdivided '
                                'segment; the interior pieces divided into components in every way and joined by '
                                'every forest; then at most two further single vertices, each adjacent to w and to '
@@ -1550,7 +1453,7 @@ def package_E11(work, out):
                   'how the forms of D_c were found': forms['C form statistics'],
                   'how the forms of D_1 were found': forms['R form statistics']},
         'assembled graphs (with repetitions)': sum(n_recipes.values())})
-    summary = {'item': 'E11', 'where': WHERE['E11'],
+    summary = {'item': 'E10', 'where': WHERE['E10'],
                'forms': {'B_0': len(forms['U forms']), 'D_c': len(forms['C forms']), 'D_1': len(forms['R forms'])},
                'assembled graphs (with repetitions)': sum(n_recipes.values()),
                'candidates (up to isomorphism)': len(cands), 'with B planar': n_planar,
@@ -1558,15 +1461,15 @@ def package_E11(work, out):
                'T_i with B planar': sorted({k[0] for k in planar_found}, key=by_num),
                'subcase of those': 'all (a), one component D_0' if all(k[1] == 'a' for k in planar_found)
                else 'subcases ' + ', '.join(sorted({k[1] for k in planar_found})),
-               'T_i with B nonplanar (handled by Proposition 5.10, E9)':
+               'T_i with B nonplanar (handled by Proposition 5.9, E8)':
                    sorted({k[0] for k in nonplanar_found}, key=by_num)}
-    write_item(out, 'E11', inp, cands, verdicts, summary)
+    write_item(out, 'E10', inp, cands, verdicts, summary)
     return summary
 
 
-# ---------------------------------------------------------------- E14
+# ---------------------------------------------------------------- E13
 
-def package_E14(work, out):
+def package_E13(work, out):
     R = Relabel({'t0': 'p', 't1': 'q', 't2': 'r', 't3': 'z', 'p': "p'", 'q': "q'"})
     ROWS = {
         '1': "D_1 contains b, c; N(D_1) in {u}, {a,u}; N(D_2) = {u,v}",
@@ -1603,7 +1506,7 @@ def package_E14(work, out):
     def form_list(lst):
         return [{'index': x['index'], 'signature': x['signature'], 'construction': x['origin'],
                  'mirror image under u <-> v': x.get('mirrored', False), 'graph': x['graph']} for x in lst]
-    inp = head('E14')
+    inp = head('E13')
     inp.update({
         'vertex names': "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with {a,b,d}; p', q' have "
                         "neighbourhood X = {a,u,v}. Interior vertices of D_1 start with R and those of D_2 with D.",
@@ -1616,15 +1519,15 @@ def package_E14(work, out):
             'no subdivision': 'a path x t y with t in D_1 and some of tu, tv, ta, original edges xu, xv, yu, yv, '
                               'and possibly a second single vertex (a superset of the seven forms of the text)',
             'B_1 + uv + xy nonplanar (P1, N(D_1) = {u,v})':
-                'Construction 3.17 with attachments b, c, u, v, added edges bc, uv, required edge bc, original '
+                'Construction 3.18 with attachments b, c, u, v, added edges bc, uv, required edge bc, original '
                 'pairs bu, bv, cu, cv as an edge or a once-subdivided segment',
             'the hard tests of row two (P1)':
-                'Construction 3.17 with attachments a, b, c, u, added edges bc, au, required edge bc, original '
+                'Construction 3.18 with attachments a, b, c, u, added edges bc, au, required edge bc, original '
                 'pairs bu, cu; the interior pieces and u joined into one connected graph by every forest',
             'B_1 + au + ac + ad nonplanar (P2, N(D_1) in {u}, {a,u})':
-                'Construction 3.17 with attachments a, c, d, u, added edges au, ac, ad, the subdivision using '
+                'Construction 3.18 with attachments a, c, d, u, added edges au, ac, ad, the subdivision using '
                 'ac or ad, original pairs cu, du as an edge or a once-subdivided segment',
-            'completion (Construction 3.17, Lemma 5.8)':
+            'completion (Construction 3.18, Lemma 5.11)':
                 'the interior pieces are divided into components in every way and joined by every forest; then '
                 'at most two further single vertices are added, with every admissible neighbourhood, and every '
                 'inclusion-minimal set of attaching edges from the retained components (and, for B_1 + uv + xy, '
@@ -1644,18 +1547,18 @@ def package_E14(work, out):
                      'K5 minor': 'branch sets', 'cut of at most two vertices': 'the cut',
                      'proper nontoroidal minor': 'the edge deleted or contracted; the minor has genus at least two '
                                                  '(the genus computations of Appendix A)'}})
-    summary = {'item': 'E14', 'where': WHERE['E14'],
+    summary = {'item': 'E13', 'where': WHERE['E13'],
                'forms of D_1': {p: len(forms[p]['R forms']) for p in ('P1', 'P2')},
                'forms of D_2': {p: len(forms[p]['D forms']) for p in ('P1', 'P2')},
                'assembled graphs (with repetitions)': s['cases']['assemblies']['assembled'],
                'candidates (up to isomorphism)': len(cands), 'verdicts': counts,
                'candidates by row of the table': dict(sorted(by_row.items())),
                'obstructions': 'none'}
-    write_item(out, 'E14', inp, cands, verdicts, summary)
+    write_item(out, 'E13', inp, cands, verdicts, summary)
     return summary
 
 
-# ---------------------------------------------------------------- E4, E5, E13: coverings
+# ---------------------------------------------------------------- E3, E4, E12: coverings
 
 FACES_TEXT = ('Faces of a choice (k,x,y) of Lemma 4.2: J is the pair of simple faces (attachments V(P_i) ∪ V(P_j); '
               'test graph with auxiliary edges s_i s_j, t_i t_j), W the repeated face (attachments V(P_k) ∪ {s_x, '
@@ -1779,7 +1682,7 @@ class AtomNames:
 PSI1_NAMES = {'a': 's1', 'b': 't1', 'c': 's2', 'd': 't2', 'e': 's3', 'f': 't3'}
 
 
-def package_E4(work, out):
+def package_E3(work, out):
     import re
     import endpoint_domain as dom
     A = list(dom.ATOMS)
@@ -1870,8 +1773,8 @@ def package_E4(work, out):
             raise AssertionError('outcome %s for %s' % (t, r['id']))
         counts[rec['verdict']] += 1
         verdicts.append(rec)
-    files = copy_formula('E4', out, os.path.join(work, 'coverage.cnf'), os.path.join(work, 'coverage.drat'))
-    inp = head('E4')
+    files = copy_formula('E3', out, os.path.join(work, 'coverage.cnf'), os.path.join(work, 'coverage.drat'))
+    inp = head('E3')
     inp.update({
         'vertex names': 'Psi_1 with twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}; the paths are the edges '
                         's1t1, s2t2, s3t3. Interior vertices of copy k of atom A<i> are named A<i>#k@<role>.',
@@ -1894,7 +1797,7 @@ def package_E4(work, out):
                            'this case therefore equals a recorded nontoroidal graph, and the verdicts of those '
                            'leave only T48 and T58.',
         'how a choice fails or passes': FACES_TEXT})
-    summary = {'item': 'E4', 'where': WHERE['E4'], 'recorded graphs': len(cands),
+    summary = {'item': 'E3', 'where': WHERE['E3'], 'recorded graphs': len(cands),
                'toroidal, maximal': sum(1 for c in cands if c['kind'] == 'toroidal, maximal'),
                'nontoroidal, minimal': sum(1 for c in cands if c['kind'] != 'toroidal, maximal'),
                'verdicts': dict(sorted(counts.items())),
@@ -1903,7 +1806,7 @@ def package_E4(work, out):
                'one-edge minors failing all twelve choices': dict(ops),
                'formula': {'variables': nv, 'clauses': len(cnf), 'DRAT': 'verified by drat-trim'},
                'one-edge minors with a minor model of some T_i': dict(model_ops)}
-    write_item(out, 'E4', inp, cands, verdicts, summary)
+    write_item(out, 'E3', inp, cands, verdicts, summary)
     return summary
 
 
@@ -1920,11 +1823,11 @@ def form_name(form, roles, R):
     x, y, z = [R(v) for v in roles]
     return {'single': 'one vertex', 'Tx': 'T(%s)' % x, 'Ty': 'T(%s)' % y, 'Tz': 'T(%s)' % z,
             'Sxy': 'S(%s;%s)' % (x, y), 'Syx': 'S(%s;%s)' % (y, x), 'Q': 'Q(%s;%s,%s)' % (z, x, y),
-            'FC1': 'the first four-cycle form of Lemma 3.13 with (x,y,z) = (%s,%s,%s)' % (x, y, z),
-            'FC2': 'the second four-cycle form of Lemma 3.13 with (x,y,z) = (%s,%s,%s)' % (x, y, z)}[form]
+            'FC1': 'the first four-cycle form of Lemma 3.14 with (x,y,z) = (%s,%s,%s)' % (x, y, z),
+            'FC2': 'the second four-cycle form of Lemma 3.14 with (x,y,z) = (%s,%s,%s)' % (x, y, z)}[form]
 
 
-def e5_names(atoms, N):
+def e4_names(atoms, N):
     out = []
     for a in atoms:
         k = a['kind']
@@ -1940,7 +1843,7 @@ def e5_names(atoms, N):
     return out
 
 
-def e5_part(shape):
+def e4_part(shape):
     if shape['all paths edges']:
         return 'all three edges s_m t_m present'
     if shape['singletons only']:
@@ -1949,7 +1852,7 @@ def e5_part(shape):
     return '(b) and (c)' if tsq and fc else ('(b)' if tsq else '(c)')
 
 
-def e13_names(atoms, N):
+def e12_names(atoms, N):
     out = []
     for a in atoms:
         if a['kind'] == 'edge':
@@ -1963,7 +1866,7 @@ def e13_names(atoms, N):
     return out
 
 
-E5_INPUT = {
+E4_INPUT = {
     'vertex names': 'Psi_1 with twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}. Interior vertices of copy k of '
                     'atom A<i> are named A<i>#k@<role>. In the forms on {c1, c2, h}, the roles x, y, z are c1, c2, h; '
                     'for a support containing s_m, t_m they are g, e, h as in Lemma 4.15.',
@@ -1981,8 +1884,8 @@ E5_INPUT = {
               'all three edges s_m t_m present': 'outside the case of the proposition (some s_m t_m is absent); the '
                                                  'text notes that these recover T48 and T58'}}
 
-E13_MAP = {'t0': 'p', 't1': 'q', 't2': 'r', 't3': 'z', 'p': "p'", 'q': "q'"}
-E13_INPUT = {
+E12_MAP = {'t0': 'p', 't1': 'q', 't2': 'r', 't3': 'z', 'p': "p'", 'q': "q'"}
+E12_INPUT = {
     'vertex names': "Psi_2 with twins p, q on {a, b, c} and r, z on {a, b, d}; the twins p', q' of B have "
                     "neighbourhood X = {a, u, v}. Interior vertices of copy k of atom A<i> are named A<i>#k@<role>.",
     'constraints of the case (the base clauses)': [
@@ -1993,7 +1896,7 @@ E13_INPUT = {
 
 
 def package_cover(label, work, out, fixed, names_fn, extra_input, parts_fn=None):
-    """E5 and E13: the records of a covering (generate_E5.py, generate_E13.py)."""
+    """E4 and E12: the records of a covering (generate_E4.py, generate_E12.py)."""
     from pysat.solvers import Solver
     dom = read(os.path.join(work, 'domain.json'))
     atoms, mx = dom['atoms'], dom['maxima']
@@ -2086,7 +1989,7 @@ def package_cover(label, work, out, fixed, names_fn, extra_input, parts_fn=None)
                'isomorphic to T_i (copies)': dict(sorted(found.items(), key=by_num)),
                'formula': {'variables': nv, 'clauses': len(cnf), 'base clauses': len(base),
                            'DRAT': 'verified by drat-trim'}}
-    if label == 'E13':
+    if label == 'E12':
         summary['copies of T_i with a two-singleton interior'] = sum(two_single.values())
     if by_part:
         summary['T_i by part'] = {k: dict(sorted(c.items(), key=by_num)) for k, c in sorted(by_part.items())}
@@ -2094,9 +1997,9 @@ def package_cover(label, work, out, fixed, names_fn, extra_input, parts_fn=None)
     return summary
 
 
-def package_E5(work, out):
-    return package_cover('E5', work, out, PSI1_NAMES, e5_names, E5_INPUT, parts_fn=e5_part)
+def package_E4(work, out):
+    return package_cover('E4', work, out, PSI1_NAMES, e4_names, E4_INPUT, parts_fn=e4_part)
 
 
-def package_E13(work, out):
-    return package_cover('E13', work, out, E13_MAP, e13_names, E13_INPUT)
+def package_E12(work, out):
+    return package_cover('E12', work, out, E12_MAP, e12_names, E12_INPUT)

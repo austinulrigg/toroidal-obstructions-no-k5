@@ -1,321 +1,210 @@
 {
  "item": "E6",
- "where": "Proposition 4.25",
+ "where": "Proposition 4.28",
  "paper text": [
   {
-   "where": "Proposition 4.25 (proof)",
-   "text": "Suppose neither $h_b$ nor $bc$ occurs. Contract $cf$ and take a torus embedding of this proper minor. Identify the two boundary copies of $P_1$ in its incident facial disks, keeping all other boundary appearances distinct. The path $P_1$ then lies inside the resulting region apart from its ends. By the rotation table~\\supp{R3}, this region is either the annulus $ac\\mid bd$ or a disk with attachment sequence $a,c,b,d,c$ or $a,c,b,c,d,c$. Every $\\Psi_1$-bridge inside $B$ meets the interior of $P_1$, so lies in this region. No other face contains both $a,d$, so any present $h_a$ or $ad$ lies there too. The annulus would make $H_1$ planar by Lemma~\\ref{lem:annulus-embedding}. The first disk would make $H_1+bc+cd$ planar by Lemma~\\ref{lem:embedding-extension}, so $H_1$ would again be planar. Both contradict its nonplanarity. Thus only the last disk occurs. Joining its consecutive attachments gives the edges $ac,bc,cd$, so $(B\\cup H_{\\mathrm{ext}})+ac+bc+cd$ is planar. Its subgraph $H_1-bd$ is therefore planar, which means every $K_{3,3}$ subdivision of $H_1$, including $H_2'$, uses $bd$. If neither $h_a$ nor $ad$ occurs, contracting $ed$ instead gives $H_1-ac$ planar, so every such subdivision uses $ac$. Construction~\\ref{common:marked-construction} therefore lists every possible $B$ using the six choices of $H_{\\mathrm{ext}}$, the added edges $ac,bd$, and the subdivision edges and planar completions required above. Adjoining $J_1\\cup J_2$, the edges $cf,ed$ and the chosen $H_{\\mathrm{ext}}$ to each candidate gives the graphs to be checked. The checks in~\\supp{E6} leave only $\\mathfrak T_{21}$ and $\\mathfrak T_{63}$."
+   "where": "Proposition 4.28 (proof)",
+   "text": "The paths $P_x,P_y,s_xps_y,t_xrt_y$ give $B\\cup C$ as a\nminor of $G$, so it has no $K_5$ minor. It is nonplanar by\nLemma~\\ref{dis:four-cycles}, and every $K_{3,3}$ subdivision\nin it uses $s_yt_y$, since\ndeleting this edge leaves the planar graph\n$B\\cup s_ys_xt_xt_y$.\nCorollary~\\ref{common:reduced-forms}, with $H_0=C$, therefore lists\nthe $1{,}378$ possible forms of $B$, with $s_yt_y$ required in the subdivision.\nUp to interchanging $A_1,A_2$, the enumeration in~\\supp{E6}\nleaves only one form for which $B\\cup K_4[A]$ is\nthree-connected, there are no disjoint $s_x$--$t_y$ and\n$s_y$--$t_x$ paths, and no degree-three interior vertex has\nadjacent neighbors in $G$. Its interior is $\\{p',q',v\\}$,\nwhere\n\\[\nN(p')=N(q')=\\{s_x,s_y,v\\},\n\\]\nand its remaining edges are $vt_x,vt_y$."
   }
  ],
- "vertex names": "Section 4.7, type (c): a = s1, b = t1, c = s2, d = t3, e = s3, f = t2; twins p, q with neighbourhood {a,c,e} and r, z with {b,d,f}.",
- "cases of the construction": {
-  "Z0": {
-   "specification": {
-    "roots": [
-     "a",
-     "b",
-     "c",
-     "d"
+ "attachments": [
+  "sx",
+  "tx",
+  "sy",
+  "ty"
+ ],
+ "test graphs": {
+  "B + C": {
+   "added edges": [
+    [
+     "sx",
+     "tx"
     ],
-    "outside": {},
-    "C edges within R": [
-     [
-      "a",
-      "c"
-     ],
-     [
-      "b",
-      "d"
-     ]
+    [
+     "tx",
+     "ty"
     ],
-    "required edges of K'": [
-     [
-      "a",
-      "c"
-     ],
-     [
-      "b",
-      "d"
-     ]
+    [
+     "ty",
+     "sy"
+    ],
+    [
+     "sy",
+     "sx"
     ]
-   },
-   "root placements": 72109,
-   "root placement classes": 1392,
-   "full placements": 1392,
-   "valid retained subdivisions": 96,
-   "recipes": 298,
-   "parts up to rooted isomorphism": 230,
-   "outcomes": {
-    "proper nontoroidal minor": 108,
-    "cut of order at most two": 16,
-    "K5 minor": 105,
-    "catalogue graph": 1
-   }
+   ],
+   "meaning": "B + s_x t_x + t_x t_y + t_y s_y + s_y s_x, the cycle completion B ∪ C"
   },
-  "Z_ad": {
-   "specification": {
-    "roots": [
-     "a",
-     "b",
-     "c",
-     "d"
+  "B + sy sx + sx tx + tx ty": {
+   "added edges": [
+    [
+     "sy",
+     "sx"
     ],
-    "outside": {},
-    "C edges within R": [
-     [
-      "a",
-      "c"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "b",
-      "d"
-     ]
+    [
+     "sx",
+     "tx"
     ],
-    "required edges of K'": [
-     [
-      "a",
-      "d"
-     ],
-     [
-      "b",
-      "d"
-     ]
+    [
+     "tx",
+     "ty"
     ]
-   },
-   "root placements": 72109,
-   "root placement classes": 1392,
-   "full placements": 1392,
-   "valid retained subdivisions": 68,
-   "recipes": 586,
-   "parts up to rooted isomorphism": 331,
-   "outcomes": {
-    "K5 minor": 153,
-    "proper nontoroidal minor": 159,
-    "cut of order at most two": 19
-   }
+   ],
+   "meaning": "B + s_y s_x + s_x t_x + t_x t_y, the path completion B ∪ s_y s_x t_x t_y"
   },
-  "Z_hA": {
-   "specification": {
-    "roots": [
-     "a",
-     "b",
-     "c",
-     "d"
+  "B + K4[sx,tx,sy,ty]": {
+   "added edges": [
+    [
+     "sx",
+     "tx"
     ],
-    "outside": {
-     "hA": [
-      "a",
-      "c",
-      "d"
-     ]
-    },
-    "C edges within R": [
-     [
-      "a",
-      "c"
-     ],
-     [
-      "b",
-      "d"
-     ]
+    [
+     "sx",
+     "sy"
     ],
-    "required edges of K'": [
-     [
-      "b",
-      "d"
-     ],
-     [
-      "c",
-      "hA"
-     ],
-     [
-      "d",
-      "hA"
-     ]
+    [
+     "sx",
+     "ty"
+    ],
+    [
+     "tx",
+     "sy"
+    ],
+    [
+     "tx",
+     "ty"
+    ],
+    [
+     "sy",
+     "ty"
     ]
-   },
-   "root placements": 72109,
-   "root placement classes": 1392,
-   "full placements": 22572,
-   "valid retained subdivisions": 86,
-   "recipes": 630,
-   "parts up to rooted isomorphism": 344,
-   "outcomes": {
-    "proper nontoroidal minor": 137,
-    "K5 minor": 190,
-    "cut of order at most two": 17
-   }
+   ],
+   "meaning": "B plus all six edges among s_x, t_x, s_y, t_y"
   },
-  "Z_ad_bc": {
-   "specification": {
-    "roots": [
-     "a",
-     "b",
-     "c",
-     "d"
+  "B + sx tx + sy ty": {
+   "added edges": [
+    [
+     "sx",
+     "tx"
     ],
-    "outside": {},
-    "C edges within R": [
-     [
-      "a",
-      "c"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "b",
-      "c"
-     ],
-     [
-      "b",
-      "d"
-     ]
-    ],
-    "required edges of K'": [
-     [
-      "a",
-      "d"
-     ],
-     [
-      "b",
-      "c"
-     ]
+    [
+     "sy",
+     "ty"
     ]
+   ],
+   "meaning": "B + s_x t_x + s_y t_y, a subgraph of G once P_x, P_y are edges"
+  }
+ },
+ "vertex names": "the attachments s_x, t_x, s_y, t_y of B, written sx, tx, sy, ty; interior vertices of B are u0, u1, ...; for the bridges that pass, the paper's names are given with the verdict",
+ "verdicts": {
+  "excluded by a hypothesis of the case": [
+   {
+    "fact": "the path completion B + s_y s_x + s_x t_x + t_x t_y is nonplanar",
+    "why it excludes the bridge": "The proof chooses the planar path completion: \"Some path completion of B is planar, say B ∪ s_y s_x t_x t_y.\""
    },
-   "root placements": 72109,
-   "root placement classes": 1392,
-   "full placements": 1392,
-   "valid retained subdivisions": 96,
-   "recipes": 441,
-   "parts up to rooted isomorphism": 266,
-   "outcomes": {
-    "proper nontoroidal minor": 132,
-    "K5 minor": 115,
-    "cut of order at most two": 18,
-    "catalogue graph": 1
+   {
+    "fact": "B has disjoint s_x-t_y and s_y-t_x paths",
+    "why it excludes the bridge": "The proof shows: \"Also, B has no disjoint s_x–t_y and s_y–t_x paths.\""
+   },
+   {
+    "fact": "an interior vertex of degree three has two adjacent neighbours",
+    "why it excludes the bridge": "Lemma 3.4(a); the edges added in the test graph are edges of G."
+   },
+   {
+    "fact": "B plus all edges among its four attachments has a cut of at most two vertices",
+    "why it excludes the bridge": "Three-connectivity of B ∪ K_4[attachments], used with Construction 3.18."
    }
-  },
-  "Z_ad_hB": {
-   "specification": {
-    "roots": [
-     "a",
-     "b",
-     "c",
-     "d"
+  ],
+  "K5 minor": "a K5 minor in the named graph, which is a minor of G",
+  "proper nontoroidal minor": "an allowed reduction of B (Section 3) after which the named test graph is still nonplanar; the proof shows that this gives a proper nontoroidal minor of G",
+  "isomorphic to a bridge given in the text": "B passes every test of the case and is isomorphic to a bridge given in the text (listed under \"bridges given in the text\"); the record that it passes the tests is kept with the verdict"
+ },
+ "specification": {
+  "roots": [
+   "sx",
+   "tx",
+   "sy",
+   "ty"
+  ],
+  "outside": {},
+  "C edges within R": [
+   [
+    "sx",
+    "sy"
+   ],
+   [
+    "sx",
+    "tx"
+   ],
+   [
+    "sy",
+    "ty"
+   ],
+   [
+    "tx",
+    "ty"
+   ]
+  ],
+  "required edges of K'": [
+   [
+    "sy",
+    "ty"
+   ]
+  ]
+ },
+ "generation": {
+  "root placements": 72109,
+  "root placement classes": 1392,
+  "full placements": 1392,
+  "valid retained subdivisions": 344,
+  "recipes": 2361,
+  "parts up to rooted isomorphism": 1378
+ },
+ "bridges given in the text": {
+  "the form of Proposition 4.28": {
+   "vertices": [
+    "p'",
+    "q'",
+    "sx",
+    "sy",
+    "tx",
+    "ty",
+    "v"
+   ],
+   "edges": [
+    [
+     "p'",
+     "sx"
     ],
-    "outside": {
-     "hB": [
-      "b",
-      "c",
-      "d"
-     ]
-    },
-    "C edges within R": [
-     [
-      "a",
-      "c"
-     ],
-     [
-      "a",
-      "d"
-     ],
-     [
-      "b",
-      "d"
-     ]
+    [
+     "p'",
+     "sy"
     ],
-    "required edges of K'": [
-     [
-      "a",
-      "d"
-     ],
-     [
-      "c",
-      "hB"
-     ],
-     [
-      "d",
-      "hB"
-     ]
+    [
+     "p'",
+     "v"
+    ],
+    [
+     "q'",
+     "sx"
+    ],
+    [
+     "q'",
+     "sy"
+    ],
+    [
+     "q'",
+     "v"
+    ],
+    [
+     "tx",
+     "v"
+    ],
+    [
+     "ty",
+     "v"
     ]
-   },
-   "root placements": 72109,
-   "root placement classes": 1392,
-   "full placements": 22572,
-   "valid retained subdivisions": 86,
-   "recipes": 723,
-   "parts up to rooted isomorphism": 412,
-   "outcomes": {
-    "proper nontoroidal minor": 180,
-    "K5 minor": 211,
-    "cut of order at most two": 21
-   }
-  },
-  "Z_hA_hB": {
-   "specification": {
-    "roots": [
-     "a",
-     "b",
-     "c",
-     "d"
-    ],
-    "outside": {
-     "hA": [
-      "a",
-      "c",
-      "d"
-     ],
-     "hB": [
-      "b",
-      "c",
-      "d"
-     ]
-    },
-    "C edges within R": [
-     [
-      "a",
-      "c"
-     ],
-     [
-      "b",
-      "d"
-     ]
-    ],
-    "required edges of K'": [
-     [
-      "c",
-      "hA"
-     ],
-     [
-      "c",
-      "hB"
-     ],
-     [
-      "d",
-      "hA"
-     ],
-     [
-      "d",
-      "hB"
-     ]
-    ]
-   },
-   "root placements": 72109,
-   "root placement classes": 1392,
-   "full placements": 379744,
-   "valid retained subdivisions": 5,
-   "recipes": 5,
-   "parts up to rooted isomorphism": 3,
-   "outcomes": {
-    "proper nontoroidal minor": 1,
-    "K5 minor": 2
-   }
+   ]
   }
  }
 }

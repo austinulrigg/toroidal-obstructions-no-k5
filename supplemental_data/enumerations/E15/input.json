@@ -1,50 +1,120 @@
 {
  "item": "E15",
- "where": "Proposition 5.21",
+ "where": "Proposition 5.27",
  "paper text": [
   {
-   "where": "Proposition 5.21 (proof)",
-   "text": "The triangle completion of $B_b$ is three-connected by Lemma~\\ref{lem:triangle-completion}, since $D_b-b$ is a component of $G-\\{b,c,w\\}$. It is a minor of $G$, using the internally disjoint paths $bpc$, $bqap'w$ and $cq'w$ for $bc,bw,cw$, so it has no $K_5$ minor. While $D_b$ keeps its neighbors at $c,w$, the four tests depend on $B_b$ only through $B_b+cw+bw$ and $B_b+cw+bc$. Replacing $B_b$ by a proper allowed minor gives an allowed minor of $B$, since its interior stays adjacent to $w$, the vertices $a,c$ keep $p',q'$, and $d$ keeps $w$. By minimality, no such minor keeps both completions nonplanar. Lemma~\\ref{core:two-cap-critical}, with $c,w,b$ as $x,y,z$, therefore makes $B_b$ either $Q(b;c,w)$ or one of the two four-cycle forms. The enumeration~\\supp{E15} applies Construction~\\ref{common:marked-construction} after identifying $c,w$ to a vertex $x$, with attachments $b,x$ and added edge $bx$. It then splits $x$ back into $c,w$, assigning each original edge at $x$ to one of them and adding an edge to an interior vertex at whichever has no interior neighbor. With $\\Psi_2$, $p',q'$ and $dw$, the three forms above are among its $24$ candidates. Each has a separating set of at most two vertices or a proper nontoroidal minor."
+   "where": "Proposition 5.27 (proof)",
+   "text": "Choose one of these nonplanar completions. Its bridge has connected interior, since Lemma~\\ref{r2:one-attachment}(ii) would otherwise give two single vertices whose triangle completion is planar. Retain a $K_{3,3}$ subdivision of the chosen completion. Since $B_b+cw$ and $B_d+aw$ are planar, the subdivision uses $bc$ or $ad$, respectively. Reduce the chosen bridge while retaining the subdivision, its connected interior and an interior neighbor at each attachment. In the other bridge, keep one interior component, delete the others and contract the retained component to one vertex. Its neighborhood is the full attachment triple by Lemma~\\ref{r2:one-attachment}(ii). Both bridges keep their attachment sets, and their interiors remain connected through $w$, so this gives an allowed minor of $B$. The chosen completion stays nonplanar, and in the other three tests the bridge containing $D_b$ is still adjacent to all of $X$. Thus all four tests remain nonplanar, so minimality leaves $B$ unchanged. Construction~\\ref{common:marked-construction} lists every possible $B_b$ with attachments $b,c,w$, added edges $cw,bc$ and required edge $bc$, or every possible $B_d$ with attachments $d,a,w$, added edges $aw,ad$ and required edge $ad$. An original edge $bw$ or $dw$ may lie on the retained subdivision, so that segment is taken both as an edge and as a path with one interior vertex. The records in~\\supp{E15} include both choices of the nonplanar completion. Each of the $156$ candidates has nonplanar $B$, a $K_5$ minor, a cut of at most two vertices, or a proper nontoroidal minor, a contradiction.\n\\end{proof}"
   }
  ],
  "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ... Twins p', q' have neighbourhood {a,c,w}, as in Section 5.4.3.",
  "cases of the construction": {
-  "lifts": {
+  "altB": {
    "specification": {
-    "quotient roots": [
-     "b",
-     "r"
-    ],
-    "added edges": [
-     [
-      "b",
-      "r"
-     ]
-    ],
-    "required edges": [
-     [
-      "b",
-      "r"
-     ]
-    ],
-    "lifted roots": [
+    "roots": [
      "b",
      "c",
      "w"
-    ]
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "b",
+      "c"
+     ],
+     [
+      "c",
+      "w"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "b",
+      "c"
+     ]
+    ],
+    "permitted original edges": [
+     [
+      "b",
+      "w"
+     ]
+    ],
+    "contracted side": "zD adjacent to a, d, w"
    },
-   "root placements": 259,
-   "root placement classes": 14,
-   "full placements": 14,
-   "valid retained subdivisions": 4,
-   "recipes": 4,
-   "parts up to rooted isomorphism": 24,
-   "quotient parts": 4,
-   "lifts": 44,
+   "root placements": 4270,
+   "root placement classes": 115,
+   "full placements": 115,
+   "valid retained subdivisions": 40,
+   "recipes": 116,
+   "parts up to rooted isomorphism": 78,
    "outcomes": {
-    "proper nontoroidal minor": 18,
-    "cut of order at most two": 6
+    "proper nontoroidal minor": 35,
+    "excluded: P nonplanar": 40,
+    "cut of order at most two": 2,
+    "K5 minor": 1
    }
+  },
+  "altD": {
+   "specification": {
+    "roots": [
+     "a",
+     "d",
+     "w"
+    ],
+    "outside": {},
+    "C edges within R": [
+     [
+      "a",
+      "d"
+     ],
+     [
+      "a",
+      "w"
+     ]
+    ],
+    "required edges of K'": [
+     [
+      "a",
+      "d"
+     ]
+    ],
+    "permitted original edges": [
+     [
+      "d",
+      "w"
+     ]
+    ],
+    "contracted side": "zB adjacent to b, c, w"
+   },
+   "root placements": 4270,
+   "root placement classes": 115,
+   "full placements": 115,
+   "valid retained subdivisions": 40,
+   "recipes": 116,
+   "parts up to rooted isomorphism": 78,
+   "outcomes": {
+    "proper nontoroidal minor": 32,
+    "cut of order at most two": 2,
+    "excluded: P nonplanar": 40,
+    "K5 minor": 4
+   }
+  }
+ },
+ "hypotheses of the case used for exclusions": {
+  "P nonplanar": {
+   "remove vertices": [
+    "p",
+    "q",
+    "r",
+    "z"
+   ],
+   "remove edges within": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "meaning": "P = G minus the four twins, with no edges among a,b,c,d; Section 5.4 assumes P planar"
   }
  }
 }

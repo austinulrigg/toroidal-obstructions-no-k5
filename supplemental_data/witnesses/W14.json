@@ -1,111 +1,135 @@
 {
  "item": "W14",
- "where": "Proposition 6.7",
- "claim": "Psi_3, another bridge on {a,b,c} contracted to h, and Int(B) contracted to w with its edges to b, c deleted (so N(w) = {a,d,e}): this is T8, with cut vertex a.",
+ "where": "Proposition 6.13",
+ "claim": "Psi_3, u with neighbourhood {a,b,d}, v with neighbourhood {a,c,e}, and y, t with edges by, cy, yt, dt, et: this is T55.",
  "graph": {
   "vertices": [
-   "p",
    "a",
    "b",
    "c",
-   "q",
-   "r",
    "d",
    "e",
+   "p",
+   "q",
+   "r",
    "z",
-   "h",
-   "w"
+   "u",
+   "v",
+   "y",
+   "t"
   ],
   "edges": [
    [
-    "a",
-    "h"
+    "p",
+    "a"
    ],
    [
-    "a",
-    "p"
+    "p",
+    "b"
    ],
    [
-    "a",
-    "q"
+    "p",
+    "c"
    ],
    [
-    "a",
-    "r"
+    "q",
+    "a"
    ],
    [
-    "a",
-    "w"
+    "q",
+    "b"
    ],
    [
-    "a",
-    "z"
+    "q",
+    "c"
+   ],
+   [
+    "r",
+    "a"
+   ],
+   [
+    "r",
+    "d"
+   ],
+   [
+    "r",
+    "e"
+   ],
+   [
+    "z",
+    "a"
+   ],
+   [
+    "z",
+    "d"
+   ],
+   [
+    "z",
+    "e"
+   ],
+   [
+    "u",
+    "a"
+   ],
+   [
+    "u",
+    "b"
+   ],
+   [
+    "u",
+    "d"
+   ],
+   [
+    "v",
+    "a"
+   ],
+   [
+    "v",
+    "c"
+   ],
+   [
+    "v",
+    "e"
    ],
    [
     "b",
-    "h"
-   ],
-   [
-    "b",
-    "p"
-   ],
-   [
-    "b",
-    "q"
+    "y"
    ],
    [
     "c",
-    "h"
+    "y"
    ],
    [
-    "c",
-    "p"
-   ],
-   [
-    "c",
-    "q"
+    "y",
+    "t"
    ],
    [
     "d",
-    "r"
-   ],
-   [
-    "d",
-    "w"
-   ],
-   [
-    "d",
-    "z"
+    "t"
    ],
    [
     "e",
-    "r"
-   ],
-   [
-    "e",
-    "w"
-   ],
-   [
-    "e",
-    "z"
+    "t"
    ]
   ]
  },
  "witness": {
   "type": "isomorphism",
-  "onto": "T8",
+  "onto": "T55",
   "map": {
    "p": 0,
-   "a": 10,
-   "b": 6,
-   "c": 7,
-   "q": 2,
-   "r": 4,
-   "d": 9,
-   "e": 8,
-   "z": 5,
-   "h": 1,
-   "w": 3
+   "b": 8,
+   "q": 1,
+   "u": 2,
+   "y": 6,
+   "t": 7,
+   "c": 9,
+   "v": 3,
+   "d": 10,
+   "z": 4,
+   "r": 5,
+   "e": 11,
+   "a": 12
   }
  },
  "note on T_i": "T_i vertex numbers are those of O1."

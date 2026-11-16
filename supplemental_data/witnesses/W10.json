@@ -1,112 +1,134 @@
 {
  "item": "W10",
- "where": "Lemma 5.2",
- "claim": "A c-d path outside Int(B), internally avoiding a, b, p, q, r, z, gives a K5 minor. Contracting Int(B) to w and the path to the edge cd gives this graph.",
+ "where": "Proposition 6.8",
+ "claim": "Psi_3, two components with neighbourhood {a,b,d} contracted to k1, k2, and Int(B) contracted to w (neighbourhood {a,b,c,d,e}): this is T22.",
  "graph": {
   "vertices": [
+   "p",
    "a",
    "b",
    "c",
-   "d",
-   "p",
    "q",
    "r",
+   "d",
+   "e",
    "z",
+   "k1",
+   "k2",
    "w"
   ],
   "edges": [
    [
-    "p",
-    "a"
+    "a",
+    "k1"
    ],
    [
-    "p",
-    "b"
+    "a",
+    "k2"
    ],
    [
-    "p",
-    "c"
+    "a",
+    "p"
    ],
    [
-    "q",
-    "a"
+    "a",
+    "q"
    ],
    [
-    "q",
-    "b"
+    "a",
+    "r"
    ],
    [
-    "q",
-    "c"
+    "a",
+    "w"
    ],
    [
-    "r",
-    "a"
-   ],
-   [
-    "r",
-    "b"
-   ],
-   [
-    "r",
-    "d"
-   ],
-   [
-    "z",
-    "a"
-   ],
-   [
-    "z",
-    "b"
-   ],
-   [
-    "z",
-    "d"
-   ],
-   [
-    "w",
-    "a"
-   ],
-   [
-    "w",
-    "b"
-   ],
-   [
-    "w",
-    "c"
-   ],
-   [
-    "w",
-    "d"
-   ],
-   [
-    "c",
-    "d"
-   ]
-  ]
- },
- "witness": {
-  "type": "K5 branch sets",
-  "branch sets": [
-   [
-    "a"
+    "a",
+    "z"
    ],
    [
     "b",
-    "p",
-    "r"
+    "k1"
+   ],
+   [
+    "b",
+    "k2"
+   ],
+   [
+    "b",
+    "p"
+   ],
+   [
+    "b",
+    "q"
+   ],
+   [
+    "b",
+    "w"
+   ],
+   [
+    "c",
+    "p"
    ],
    [
     "c",
     "q"
    ],
    [
+    "c",
+    "w"
+   ],
+   [
+    "d",
+    "k1"
+   ],
+   [
+    "d",
+    "k2"
+   ],
+   [
+    "d",
+    "r"
+   ],
+   [
+    "d",
+    "w"
+   ],
+   [
     "d",
     "z"
    ],
    [
+    "e",
+    "r"
+   ],
+   [
+    "e",
     "w"
+   ],
+   [
+    "e",
+    "z"
    ]
   ]
- }
+ },
+ "witness": {
+  "type": "isomorphism",
+  "onto": "T22",
+  "map": {
+   "p": 3,
+   "a": 11,
+   "b": 8,
+   "c": 0,
+   "q": 2,
+   "r": 4,
+   "d": 9,
+   "e": 1,
+   "z": 5,
+   "k1": 6,
+   "k2": 7,
+   "w": 10
+  }
+ },
+ "note on T_i": "T_i vertex numbers are those of O1."
 }
