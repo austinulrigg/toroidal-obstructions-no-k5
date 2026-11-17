@@ -1,41 +1,24 @@
-"""Make N1: thirteen toroidal minor obstructions that are not in the collection
-of Myrvold and Woodcock.
+"""Rebuild N1 from the bundled website evidence, preserving N1.1-N1.13.
 
-The thirteen graphs were found in searches during this research. Each has a K5
-minor, so none of them is among T1, ..., T74. For each graph G this program
-records
+    python programs/new_obstructions/make_N1.py OUTPUT_FOLDER
+    python programs/new_obstructions/make_N1.py OUTPUT_FOLDER --recompute
+    python programs/new_obstructions/make_N1.py OUTPUT_FOLDER --page
 
-  * a genus-two embedding of G, and the genus of G computed by multi_genus
-    (option w writes a minimum genus embedding, checked here by tracing its
-    faces), and with the option --page also by PAGE;
-  * a torus embedding of G - e and of G/e for every edge e (for e = [u, v],
-    v is merged into u, loops are deleted and parallel edges merged), each the
-    minimum genus embedding written by multi_genus;
-  * K5 branch sets;
-  * its connectivity;
-  * its canonical graph6 (nauty's labelg), and the entries of the collection
-    (item O4) with the same invariants, none of which is isomorphic to G.
-
-Since every edge deletion and every edge contraction of G is toroidal, every
-proper minor of G is toroidal; with genus two, G is a toroidal minor
-obstruction.
-
-Usage, from the top folder of the repository:
-
-    python programs/new_obstructions/make_N1.py OUTPUT_FOLDER [--page]
-
-It writes OUTPUT_FOLDER/new_obstructions/N1.json. It needs graph-genus 0.1.3,
-networkx and nauty's labelg (found through the environment variable LABELG, or
-as labelg or nauty-labelg on the PATH).
+The default imports the 120 published records in N1_sources.json.gz and
+recomputes connectivity, nauty canonical forms and invariant comparisons with
+the full Myrvold topological collection. The checker validates the imported
+embeddings, K5 models, graph operations and recorded exact-search inputs and
+outputs. With --recompute, multi_genus reruns the exact genus computation for
+every graph, every deletion, every contraction of a minor obstruction, and
+one nontoroidal contraction for each remaining graph. --page additionally
+reruns PAGE on the 120 graphs. All runs write the same imported witnesses.
 """
 import json
 import os
-import random
 import shutil
 import subprocess
 import sys
 import time
-from itertools import combinations
 from pathlib import Path
 
 import networkx as nx
@@ -44,22 +27,6 @@ REPO = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO / 'genus'))
 from common import decode_rotations, genus_of_rotation, multicode, tool, zero_indexed  # noqa: E402
 
-# The thirteen graphs, in the order in which they were found.
-GRAPHS = [
-    'M??????UplPk{Wz_?',
-    'M?????FAtsMgv?wK?',
-    'M?????FAuSEg~?{K?',
-    'L?CP@`Er@XRWoq',
-    'L?CAGKtg_Qz@~A',
-    'MD?@W@C?Od`MrOwS?',
-    'L??acUoY?l@jv?',
-    'L?_PIQOWKeL`B{',
-    'L??Ge?rYFKBifc',
-    'M?B?CcBGgod_OJ}_?',
-    'LOC?HGINeFIkuW',
-    'M???OJIhPsIgcoZ?_',
-    'M???OKBS[wTC\\?x_?',
-]
 
 
 def from_graph6(s):
@@ -118,39 +85,6 @@ def page_genus(adj):
     return g, dt
 
 
-def k5_branch_sets(adj, seed=0, tries=200000):
-    """K5 branch sets, found by contracting random edges until five vertices
-    remain and checking that they are pairwise adjacent."""
-    rnd = random.Random(seed)
-    for _ in range(tries):
-        blocks = {v: {v} for v in adj}
-        H = {x: set(s) for x, s in adj.items()}
-        while len(H) > 5:
-            u = rnd.choice(sorted(H))
-            if not H[u]:
-                break
-            v = rnd.choice(sorted(H[u]))
-            for w in H.pop(v):
-                H[w].discard(v)
-                if w != u:
-                    H[w].add(u)
-                    H[u].add(w)
-            blocks[u] |= blocks.pop(v)
-        if len(H) == 5 and all(len(H[x]) == 4 for x in H):
-            return [sorted(blocks[x]) for x in sorted(H)]
-    return None
-
-
-def check_k5(adj, sets):
-    allv = [v for s in sets for v in s]
-    assert len(sets) == 5 and len(allv) == len(set(allv))
-    for s in sets:
-        assert nx.is_connected(nx.Graph([(a, b) for a in s for b in adj[a] if b in s]) if len(s) > 1
-                               else nx.path_graph(1))
-    for a, b in combinations(sets, 2):
-        assert any(y in adj[x] for x in a for y in b)
-
-
 def connectivity(adj):
     G = nx.Graph()
     G.add_nodes_from(adj)
@@ -201,92 +135,106 @@ def nxg(adj):
 
 
 def main():
+    import gzip
+    import hashlib
+
     out_root = Path(sys.argv[1])
-    # With the option --page, the genus of each graph is also computed by PAGE
-    # and recorded. PAGE takes far longer than multi_genus on some of these
-    # graphs, so it is not run by default.
-    use_page = '--page' in sys.argv[2:]
-    o4 = json.load(open(REPO / 'supplemental_data' / 'no_K5_obstructions' / 'O4.json'))
-    MW = [mw_graph(l) for l in o4['collection']['lines']]
-    mw_canon = set(o4['collection']['canonical graph6 of each entry'])
-    by_inv = {}
-    for i, adj in enumerate(MW):
-        by_inv.setdefault(invariant(adj), []).append(i)
-    canon = canonical(GRAPHS)
-    assert len(set(canon)) == len(GRAPHS), 'two of the graphs are isomorphic'
+    source_root = REPO / 'supplemental_data' / 'new_obstructions'
+    with gzip.open(source_root / 'N1_sources.json.gz', 'rt') as f:
+        sources = json.load(f)
+    raw = sources['source evidence']
+    website = {key: json.loads(value) for key, value in raw.items()}
+    legacy = {record['graph6']: record for record in sources['legacy records']}
+    first_ids = [next(key for key, value in website.items() if value['graph6'] == record['graph6'])
+                 for record in sources['legacy records']]
+    order = first_ids + [key for key in sorted(website) if key not in first_ids]
+    graph_strings = [website[key]['graph6'] for key in order]
+    forms = canonical(graph_strings)
+    wanted = {invariant(from_graph6(s)) for s in graph_strings}
+    matches = {key: [] for key in wanted}
+    with gzip.open(source_root / 'N1_myrvold_topological.txt.gz', 'rt') as f:
+        for index, line in enumerate(f, 1):
+            G = mw_graph(line)
+            key = invariant(G)
+            if key in matches:
+                matches[key].append(index)
+    assert index == 250815
+
+    def embedding(operation, adj):
+        component = operation['components'][0]
+        assert len(operation['components']) == 1
+        nodes = sorted(adj)
+        rotation = {str(nodes[i]): [nodes[j] for j in row]
+                    for i, row in enumerate(component['rotation'])}
+        return {'genus': operation['genus'], 'rotation': rotation}
+
     records = []
-    for k, (s, cf) in enumerate(zip(GRAPHS, canon), 1):
-        t0 = time.time()
-        G = from_graph6(s)
-        assert nx.is_connected(nxg(G)) and min(len(x) for x in G.values()) >= 3
-        es = edges(G)
-        minors = [G] + [delete_edge(G, e) for e in es] + [contract_edge(G, e) for e in es]
-        emb = multi_genus_embeddings(minors)
-        g, rot = emb[0]
-        assert g == 2, 'graph %d has genus %d by multi_genus' % (k, g)
-        genus = {'multi_genus': g}
-        if use_page:
-            pg, pt = page_genus(G)
-            assert pg == 2, 'graph %d has genus %d by PAGE' % (k, pg)
-            genus['PAGE'] = pg
-        dele = []
-        cont = []
-        for i, e in enumerate(es):
-            gd, rd = emb[1 + i]
-            gc, rc = emb[1 + len(es) + i]
-            assert gd <= 1 and gc <= 1, 'graph %d: a one-edge minor at %s is not toroidal' % (k, e)
-            dele.append({'edge': list(e), 'genus': gd, 'rotation': rd})
-            cont.append({'edge': list(e), 'genus': gc, 'rotation': rc})
-        bs = k5_branch_sets(G, seed=k)
-        assert bs is not None, 'graph %d: no K5 minor found' % k
-        check_k5(G, bs)
-        same = by_inv.get(invariant(G), [])
-        for i in same:
-            assert not nx.is_isomorphic(nxg(G), nxg(MW[i])), 'graph %d is entry %d of the collection' % (k, i + 1)
-        assert cf not in mw_canon, 'graph %d: canonical form is in the collection' % k
-        records.append({
-            'name': 'N1.%d' % k,
-            'n': len(G),
-            'm': len(es),
-            'graph6': s,
-            'edges': [list(e) for e in es],
-            'connectivity': connectivity(G),
-            'genus': genus,
-            'genus-two embedding': {'genus': g, 'rotation': rot},
-            'G - e': dele,
-            'G / e': cont,
-            'K5 branch sets': bs,
-            'canonical graph6': cf,
-            'entries of the collection with the same invariants': [i + 1 for i in same],
-        })
-        print('N1.%d  n=%d m=%d connectivity %d  genus 2 (%s)  %d one-edge minors toroidal  '
-              'K5 minor  not in the collection (%d entries share its invariants)  %.1f s'
-              % (k, len(G), len(es), records[-1]['connectivity'], ', '.join(genus), 2 * len(es), len(same),
-                 time.time() - t0),
-              flush=True)
+    for index, (key, form) in enumerate(zip(order, forms), 1):
+        report = website[key]
+        G = from_graph6(report['graph6'])
+        is_minor = report['minorObstruction']
+        if report['graph6'] in legacy:
+            record = dict(legacy[report['graph6']])
+        else:
+            record = {'name': 'N1.%d' % index, 'n': len(G), 'm': len(edges(G)),
+                      'graph6': report['graph6'], 'edges': [list(e) for e in edges(G)],
+                      'connectivity': connectivity(G),
+                      'genus': {report['checks']['graph']['components'][0]['method'].split()[0]: 2},
+                      'genus-two embedding': embedding(report['checks']['graph'], G),
+                      'G - e': [], 'G / e': [], 'canonical graph6': form}
+            for operation in report['checks']['deletions']:
+                record['G - e'].append({'edge': operation['edge'],
+                    **embedding(operation, delete_edge(G, operation['edge']))})
+            if is_minor:
+                for operation in report['checks']['contractions']:
+                    record['G / e'].append({'edge': operation['edge'],
+                        **embedding(operation, contract_edge(G, operation['edge']))})
+            if key in sources['K5 models']:
+                record['K5 branch sets'] = sources['K5 models'][key]
+            else:
+                assert key == 'TO-250816'
+                record['isomorphic to'] = 'T74'
+                record['isomorphism to T74'] = {str(v): v for v in G}
+        record.update({'website id': key, 'minor obstruction': is_minor,
+                       'source evidence SHA256': hashlib.sha256(raw[key].encode()).hexdigest(),
+                       'source evidence URL': 'https://austinulrigg.com/data/toroidal/2026-11-11/evidence/' + key + '.json',
+                       'topological collection entries with the same invariants': matches[invariant(G)]})
+        if not is_minor:
+            record['nontoroidal contraction'] = next(operation for operation in report['checks']['contractions']
+                                                     if operation['genus'] == 2)
+        if '--recompute' in sys.argv[2:] or '--page' in sys.argv[2:]:
+            operations = [G] + [delete_edge(G, e) for e in edges(G)]
+            expected = [2] + [1] * len(edges(G))
+            if is_minor:
+                operations.extend(contract_edge(G, e) for e in edges(G))
+                expected.extend([1] * len(edges(G)))
+            else:
+                operations.append(contract_edge(G, record['nontoroidal contraction']['edge']))
+                expected.append(2)
+            results = multi_genus_embeddings(operations)
+            assert all(actual == want for (actual, _), want in zip(results, expected)), key
+            if '--page' in sys.argv[2:]:
+                assert page_genus(G)[0] == 2, key
+        records.append(record)
+        print('%s %s %s' % (record['name'], key, 'minor' if is_minor else 'topological'), flush=True)
     item = {
-        'item': 'N1',
-        'what': ('Thirteen toroidal minor obstructions that are not in the collection of Myrvold and Woodcock '
-                 '(item O4), found in searches during this research. Each has a K5 minor, so none is among '
-                 'T1,...,T74. Vertices are 0,...,n-1, numbered as in the graph6 string. For each graph: a '
-                 'genus-two embedding; a torus embedding of every G-e and of every G/e (for G/e with e=[u,v], v is '
-                 'merged into u); K5 branch sets; its connectivity; its canonical graph6; and the entries of the '
-                 'collection with the same invariants (numbers of vertices and edges, degrees, degrees of the '
-                 'neighbours of each vertex, and number of triangles), none of which is isomorphic to it. An '
-                 'embedding is a rotation system (the cyclic order of the neighbours at each vertex) with its '
-                 'genus. Since every edge deletion and edge contraction is toroidal, every proper minor is '
-                 'toroidal. The genus lower bound (genus two, computed by multi_genus as bundled with graph-genus '
-                 '0.1.3) is recorded under "genus"; programs/new_obstructions/make_N1.py recomputes it, and with '
-                 'the option --page also computes it with PAGE.'),
-        'canonical forms': {'program': 'nauty 2.8.8, labelg (graph6 of the canonically labelled graph)',
-                            'all 13 distinct': True,
-                            'none among the canonical forms of the collection in O4': True},
+        'item': 'N1', 'schema version': 2,
+        'what': 'The 120 topological obstructions in the website release 2026-11-11 absent from the '
+                '250,815-graph Myrvold collection. Exactly 22 are minor obstructions. N1.1-N1.13 retain '
+                'their original records. N1.14 is T74. Every other graph has recorded K5 branch sets. '
+                'The original website evidence and completed exact genus search records are bundled in '
+                'N1_sources.json.gz. Their input and output checks do not rerun the exhaustive searches.',
+        'counts': {'topological obstructions': 120, 'minor obstructions': 22,
+                   'topological but not minor obstructions': 98, 'graphs with a K5 minor': 119},
+        'website release': sources['website release'], 'website commit': sources['website commit'],
+        'comparison collection': {'file': 'N1_myrvold_topological.txt.gz', 'graphs': 250815,
+            'sha256': hashlib.sha256((source_root / 'N1_myrvold_topological.txt.gz').read_bytes()).hexdigest()},
+        'canonical forms': {'program': 'nauty labelg', 'all distinct': True},
         'graphs': records,
     }
     folder = out_root / 'new_obstructions'
     folder.mkdir(parents=True, exist_ok=True)
-    with open(folder / 'N1.json', 'w') as f:
-        f.write(json.dumps(item) + '\n')
+    (folder / 'N1.json').write_text(json.dumps(item) + '\n')
     print('wrote', folder / 'N1.json')
 
 

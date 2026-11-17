@@ -27,7 +27,8 @@ TO2 The 7,006 graphs of the search: each is the split of its recorded parent
     splitting every vertex of every graph of TO1 in every way gives exactly
     these graphs up to isomorphism, the kept ones being the graphs of TO1
     other than T1, ..., T74.
-N1  Thirteen toroidal minor obstructions not in the collection: graph6 and
+N1  The expanded 120-graph format is checked in items_new_obstructions.py.
+    The original thirteen-graph format is also supported: graph6 and
     edge lists agree; for each, the genus-two embedding, a torus embedding of
     G - e and of G/e for every edge e, K5 branch sets and the connectivity,
     recomputed; the thirteen are pairwise nonisomorphic and none is
@@ -306,6 +307,9 @@ def check_O4(root):
 
 def check_N1(root):
     d = load(os.path.join(root, 'new_obstructions', 'N1.json'))
+    if d.get('schema version') == 2:
+        from items_new_obstructions import check as check_expanded_N1
+        return check_expanded_N1(root)
     need([g['name'] for g in d['graphs']] == ['N1.%d' % i for i in range(1, 14)], 'N1 must list N1.1, ..., N1.13 in order')
     graphs = []
     n_emb = 0

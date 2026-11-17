@@ -8,7 +8,8 @@ Each module checks one group of items, and its opening comment lists what it che
 
 | Module | Items |
 |---|---|
-| `items_obstructions.py` | O1–O4, TO1, TO2, N1 |
+| `items_obstructions.py` | O1–O4, TO1, TO2, original N1 format |
+| `items_new_obstructions.py` | expanded N1 with 120 graphs |
 | `items_witnesses.py` | W1–W16 |
 | `items_rotations.py` | R1–R11 |
 | `items_bridges.py` | E1, E2, E3, E6, E7, E11 |
@@ -34,3 +35,5 @@ python3 check_supplement.py ../supplemental_data --items E3,TO2
 ```
 
 If nauty's program `labelg` is on the PATH, or its path is given by the environment variable `LABELG`, the checker also recomputes the canonical forms recorded in O2, O4 and N1.
+
+The expanded N1 check validates all edge-deletion embeddings, all contraction embeddings for its 22 minor obstructions, 119 K5 models and T74’s certificate in O2. It also checks the recorded genus-two computations for the 120 graphs and the nontoroidal contraction for each of the other 98 graphs, including input hashes, exact-search settings and completed output. These checks establish the records’ consistency without repeating the exhaustive searches. The generator’s `--recompute` option repeats those searches. Absence from Myrvold’s full 250,815-graph topological collection is checked by direct isomorphism tests after invariant filtering and, when available, by nauty canonical forms.
