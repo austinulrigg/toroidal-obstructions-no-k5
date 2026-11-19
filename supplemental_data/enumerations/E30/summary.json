@@ -1,0 +1,19 @@
+{
+ "total": 24,
+ "planar": 15,
+ "nonplanar": 9,
+ "by_base": {
+  "T(z)": {
+   "planar": 6,
+   "nonplanar": 2
+  },
+  "S(x;y)": {
+   "planar": 4,
+   "nonplanar": 4
+  },
+  "Q(x;y,z)": {
+   "planar": 5,
+   "nonplanar": 3
+  }
+ }
+}

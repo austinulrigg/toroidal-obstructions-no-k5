@@ -41,6 +41,7 @@ for i in (5, 8, 9, 10, 13, 14, 15, 16, 17, 18):
     ITEMS['E%d' % i] = 'items_enumerations_a'
 for i in range(19, 30):
     ITEMS['E%d' % i] = 'items_enumerations_b'
+ITEMS['E30'] = 'items_three_root_completions'
 
 
 def order(k):

@@ -1,0 +1,46 @@
+{
+ "item": "E30",
+ "where": "Lemma 3.10 (core:three-graph-completions)",
+ "attachment_edges": [
+  "xy",
+  "xz",
+  "yz"
+ ],
+ "base_edges": {
+  "T(z)": [
+   "px",
+   "py",
+   "pu",
+   "qx",
+   "qy",
+   "qu",
+   "uz"
+  ],
+  "S(x;y)": [
+   "px",
+   "py",
+   "pu",
+   "qx",
+   "qy",
+   "qu",
+   "xf",
+   "fu",
+   "fz"
+  ],
+  "Q(x;y,z)": [
+   "pu",
+   "pv",
+   "px",
+   "qu",
+   "qv",
+   "qx",
+   "yu",
+   "vz"
+  ]
+ },
+ "id_rule": "The letter identifies the base graph. The digit is the sum of 1 for xy, 2 for xz and 4 for yz.",
+ "graph6_order": "The vertices array gives the graph6 vertex order.",
+ "calculation": "PAGE through graph-genus 0.1.3, checked with NetworkX 3.6.1.",
+ "pendant_edges": "A pendant edge can be drawn in a small disk at its neighbor in any embedding. We remove pendant edges before PAGE and restore them in reverse order in its rotation system. Each stored rotation is for the full graph.",
+ "certificates": "A genus-zero rotation certifies planarity. A Kuratowski subdivision certifies nonplanarity. For genus-one cases the stored rotation also gives the upper bound."
+}

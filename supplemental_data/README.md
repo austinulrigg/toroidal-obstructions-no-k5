@@ -5,7 +5,7 @@ This folder holds every computation the paper cites. An item cited as \supp{X} i
 - `no_K5_obstructions`: O1–O4, the 74 obstructions and their certificates.
 - `witnesses`: W1–W16, single certificates cited in proofs.
 - `rotations`: R1–R12, rotation tables.
-- `enumerations`: E1–E29, one folder per enumeration.
+- `enumerations`: E1–E30, one folder per enumeration.
 - `no_K5_topological_obstructions`: TO1 and TO2, for the topological obstructions.
 - `new_obstructions`: N1, 120 topological obstructions absent from Myrvold’s collection, including 22 minor obstructions.
 
@@ -29,9 +29,9 @@ Each certificate is a JSON object whose `type` says which kind it is.
 
 ## Enumerations
 
-Each folder E1–E29 has four files. `input.json` states the case: the passage of the paper, the construction and its parameters, the vertex names and what each verdict means in this case. `candidates.json` lists the candidates, each with an `id`. `verdicts.json` gives one verdict and witness for each candidate. `summary.json` gives the counts, including the numbers quoted in the text. In E3, E4 and E12 the candidates are recorded graphs, and `cover.cnf` with `cover.drat` (gzip-compressed for E4) is a propositional formula asserting that some combination of the case is not covered by them, with a DRAT proof of unsatisfiability that drat-trim accepts.
+Each folder E1–E30 has four files. `input.json` states the case: the passage of the paper, the construction and its parameters, the vertex names and what each verdict means in this case. `candidates.json` lists the candidates, each with an `id`. `verdicts.json` gives one verdict and witness for each candidate. `summary.json` gives the counts, including the numbers quoted in the text. In E3, E4 and E12 the candidates are recorded graphs, and `cover.cnf` with `cover.drat` (gzip-compressed for E4) is a propositional formula asserting that some combination of the case is not covered by them, with a DRAT proof of unsatisfiability that drat-trim accepts.
 
-The verdicts are these.
+E1–E29 use the following verdicts.
 
 - `toroidal`: an embedding of genus at most one.
 - `K5 minor`: branch sets, in the graph or in a named minor of it.
@@ -39,6 +39,8 @@ The verdicts are these.
 - `isomorphic to Ti`, or to a bridge given in the text (E6, E7): an isomorphism. In E6 and E7 the record that the bridge passes every test of the case is kept beside it.
 - `excluded by a hypothesis of the case`: the fact used, for example two twin triples meeting twice, with its own certificate where it needs one.
 - `proper nontoroidal minor`: the edge deleted or contracted (`{"type": "proper minor", "operation": "delete" or "contract", "edge": [u, v]}`; in E1, E6 and E7, `{"type": "allowed reduction", "operation": "delete edge" or "contract edge", "arguments": [u, v]}` acting on the bridge). Under `why the minor is nontoroidal`, or in the named failing test, the file records why that minor is nontoroidal: a test of the case that fails, with a Kuratowski subgraph for each failure or the bridge that fits no face, or a minor model of some Ti. Where nothing is recorded, the minor contains a graph whose genus is in the genus computations of Appendix A.
+
+E30 gives all eight choices of edges among the attachments of each of T(z), S(x;y) and Q(x;y,z). Each of the 24 verdicts gives the computed orientable genus and a witness for its planarity decision.
 
 ## Rotation tables
 

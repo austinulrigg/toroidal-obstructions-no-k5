@@ -16,6 +16,7 @@ Each module checks one group of items, and its opening comment lists what it che
 | `items_coverings.py` | E4, E12 |
 | `items_enumerations_a.py` | E5, E8, E9, E10, E13–E18 |
 | `items_enumerations_b.py` | E19–E29 |
+| `items_three_root_completions.py` | E30 |
 
 Where a verdict names only the edge whose deletion or contraction gives a nontoroidal proper minor, the nontoroidality of that minor comes from the genus computation in the folder `genus`, and the checker counts these minors. The DRAT proofs of E3, E4 and E12 are checked with drat-trim. The checker finds drat-trim through the environment variable `DRAT_TRIM` or on the PATH, and otherwise compiles it from `tools/drat-trim.c` with the C compiler `cc` the first time it is needed. Without drat-trim it reports these proofs as not checked.
 

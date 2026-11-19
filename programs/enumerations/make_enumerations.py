@@ -2,10 +2,10 @@
 
     python make_enumerations.py OUTPUT_FOLDER [E1 E2 ...] [--E4-covering-of-data]
 
-For each item named (all of E1, ..., E29 if none is named) this runs its
-program generate_E<k>.py, which writes its records to OUTPUT_FOLDER/work/E<k>,
-and then writes the files of the item to OUTPUT_FOLDER/enumerations/E<k>
-(package.py). A program that has already finished in OUTPUT_FOLDER/work/E<k>
+For each item named (all of E1, ..., E30 if none is named) this runs its
+program generate_E<k>.py. E30 writes directly to OUTPUT_FOLDER/enumerations/E30.
+For E1 through E29 the generator writes records to OUTPUT_FOLDER/work/E<k>,
+and package.py writes the files of the item to OUTPUT_FOLDER/enumerations/E<k>. A program that has already finished in OUTPUT_FOLDER/work/E<k>
 is not run again; delete that folder to run it again. An interrupted program
 that keeps a file progress.jsonl continues where it stopped (E3, E4 and E12
 keep their own files for this).
@@ -27,7 +27,7 @@ import common
 import package
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ITEMS = ['E%d' % k for k in range(1, 30)]
+ITEMS = ['E%d' % k for k in range(1, 31)]
 
 
 def finished(work):
@@ -81,6 +81,11 @@ def main():
     print('data folder (for O1):', common.DATA)
     print('processes:', common.workers())
     for label in items:
+        if label == 'E30':
+            destination = os.path.join(out, 'enumerations', label)
+            run(label, out)
+            print('E30: written to %s' % destination, flush=True)
+            continue
         work = os.path.join(out, 'work', label)
         t0 = time.time()
         if finished(work):

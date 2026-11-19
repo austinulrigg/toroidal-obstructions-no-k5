@@ -1,6 +1,6 @@
 # Programs
 
-These are the programs that make the supplemental data of the paper. `rotation_tables` makes the rotation tables R1–R11, `enumerations` makes the enumerations E1–E29, `new_obstructions` makes N1, and `topological_search` makes TO1 and TO2, the search for the topological obstructions in the proof of Theorem 8.1. Each program writes its files in the same layout as the folder `supplemental_data`, so that what it writes can be compared with that folder file by file.
+These are the programs that make the supplemental data of the paper. `rotation_tables` makes the rotation tables R1–R11, `enumerations` makes the enumerations E1–E30, `new_obstructions` makes N1, and `topological_search` makes TO1 and TO2, the search for the topological obstructions in the proof of Theorem 8.1. Each program writes its files in the same layout as the folder `supplemental_data`, so that what it writes can be compared with that folder file by file.
 
 ## Setting up
 
@@ -22,7 +22,9 @@ E4 and E12 also check their DRAT proofs with drat-trim, found in the same way as
 
 `topological_search/topological_search.py` starts from T1, ..., T74, splits vertices in every way and writes TO1.json and TO2.json. `topological_search/compare.py` compares them with the data folder up to isomorphism: the same 381 topological obstructions and the same 7,006 graphs with the same verdicts. The witnesses (branch sets and embeddings) may differ from those of the data folder, since the search may find other valid ones.
 
-`enumerations/make_enumerations.py` runs the program `generate_E<k>.py` of each enumeration, which writes its own records to `OUTPUT_FOLDER/work/E<k>`, and then writes the files of the item to `OUTPUT_FOLDER/enumerations/E<k>` (with `package.py`). The docstring at the top of each `generate_E<k>.py` says what it enumerates, where the paper uses it and how it classifies each graph. The other modules of the folder are shared: `enumeration.py` builds the bridges of Construction 3.18 and classifies whole graphs, `joint_test.py` is the test of Lemma 4.3, `covering.py` is the covering used by E4 and E12, and so on, each with its own docstring.
+For E1–E29, `enumerations/make_enumerations.py` runs the program `generate_E<k>.py` of each enumeration, which writes its own records to `OUTPUT_FOLDER/work/E<k>`, and then writes the files of the item to `OUTPUT_FOLDER/enumerations/E<k>` (with `package.py`). The docstring at the top of each `generate_E<k>.py` says what it enumerates, where the paper uses it and how it classifies each graph. The other modules of the folder are shared: `enumeration.py` builds the bridges of Construction 3.18 and classifies whole graphs, `joint_test.py` is the test of Lemma 4.3, `covering.py` is the covering used by E4 and E12, and so on, each with its own docstring.
+
+For E30, run `python programs/enumerations/make_enumerations.py OUTPUT_FOLDER E30` from the top folder of the repository. This runs PAGE on the 24 completions of T(z), S(x;y) and Q(x;y,z) and writes the four data files directly to `OUTPUT_FOLDER/enumerations/E30`.
 
 `new_obstructions/make_N1.py` rebuilds N1 from the bundled website evidence and preserves the original N1.1–N1.13 certificates. It recomputes connectivity, nauty canonical forms and invariant comparisons with the full Myrvold topological collection. Run `python programs/new_obstructions/make_N1.py OUTPUT_FOLDER`. Add `--recompute` to repeat the genus computations with multi_genus for all 120 graphs, every edge deletion, every edge contraction of the 22 minor obstructions, and one nontoroidal contraction for each of the remaining 98 graphs. Add `--page` to also repeat PAGE on the 120 graphs. The imported witnesses are deterministic, so the default output can be compared byte for byte with the recorded N1.json.
 
@@ -48,7 +50,7 @@ python make_enumerations.py ~/regenerated --E4-covering-of-data
 python ../compare_files.py ../../supplemental_data ~/regenerated enumerations
 ```
 
-Some enumerations can be run alone by naming them, as in `python make_enumerations.py ~/regenerated E3 E11`. The enumerations use all cores but one; the environment variable `ENUM_WORKERS` sets another number of processes. If a run is interrupted, running the same command again continues it: most of the programs keep their progress in their folder `~/regenerated/work/E<k>` and continue where they stopped, and a few start their item again. A program that has finished is not run again; to run it again, delete its folder `~/regenerated/work/E<k>`.
+Some enumerations can be run alone by naming them, as in `python make_enumerations.py ~/regenerated E3 E11`. The enumerations use all cores but one; the environment variable `ENUM_WORKERS` sets another number of processes. If a run is interrupted, running the same command again continues it: most of the programs keep their progress in their folder `~/regenerated/work/E<k>` and continue where they stopped, and a few start their item again. For E1–E29, rerun a finished item by deleting its folder `~/regenerated/work/E<k>`.
 
 On a recent Mac, the rotation tables take about twenty minutes (R8 about a quarter of an hour), the topological search a few minutes, and the enumerations three to four hours in all; E20, E25, E8, E4 and E21 take the longest.
 

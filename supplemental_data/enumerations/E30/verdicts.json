@@ -1,0 +1,1502 @@
+[
+ {
+  "id": "T0",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [
+   [
+    "z",
+    "u"
+   ]
+  ],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "p": [
+     "u",
+     "y",
+     "x"
+    ],
+    "q": [
+     "u",
+     "x",
+     "y"
+    ],
+    "u": [
+     "p",
+     "q",
+     "z"
+    ],
+    "x": [
+     "p",
+     "q"
+    ],
+    "y": [
+     "p",
+     "q"
+    ],
+    "z": [
+     "u"
+    ]
+   }
+  }
+ },
+ {
+  "id": "T1",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [
+   [
+    "z",
+    "u"
+   ]
+  ],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "p": [
+     "u",
+     "y",
+     "x"
+    ],
+    "q": [
+     "u",
+     "x",
+     "y"
+    ],
+    "u": [
+     "p",
+     "q",
+     "z"
+    ],
+    "x": [
+     "p",
+     "y",
+     "q"
+    ],
+    "y": [
+     "p",
+     "q",
+     "x"
+    ],
+    "z": [
+     "u"
+    ]
+   }
+  }
+ },
+ {
+  "id": "T2",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "p": [
+     "u",
+     "y",
+     "x"
+    ],
+    "q": [
+     "u",
+     "x",
+     "y"
+    ],
+    "u": [
+     "p",
+     "z",
+     "q"
+    ],
+    "x": [
+     "p",
+     "q",
+     "z"
+    ],
+    "y": [
+     "p",
+     "q"
+    ],
+    "z": [
+     "u",
+     "x"
+    ]
+   }
+  }
+ },
+ {
+  "id": "T3",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "p": [
+     "u",
+     "y",
+     "x"
+    ],
+    "q": [
+     "u",
+     "x",
+     "y"
+    ],
+    "u": [
+     "p",
+     "z",
+     "q"
+    ],
+    "x": [
+     "p",
+     "y",
+     "q",
+     "z"
+    ],
+    "y": [
+     "p",
+     "q",
+     "x"
+    ],
+    "z": [
+     "u",
+     "x"
+    ]
+   }
+  }
+ },
+ {
+  "id": "T4",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "p": [
+     "u",
+     "x",
+     "y"
+    ],
+    "q": [
+     "u",
+     "y",
+     "x"
+    ],
+    "u": [
+     "p",
+     "z",
+     "q"
+    ],
+    "x": [
+     "p",
+     "q"
+    ],
+    "y": [
+     "p",
+     "q",
+     "z"
+    ],
+    "z": [
+     "u",
+     "y"
+    ]
+   }
+  }
+ },
+ {
+  "id": "T5",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "p": [
+     "u",
+     "x",
+     "y"
+    ],
+    "q": [
+     "u",
+     "y",
+     "x"
+    ],
+    "u": [
+     "p",
+     "z",
+     "q"
+    ],
+    "x": [
+     "p",
+     "q",
+     "y"
+    ],
+    "y": [
+     "p",
+     "x",
+     "q",
+     "z"
+    ],
+    "z": [
+     "u",
+     "y"
+    ]
+   }
+  }
+ },
+ {
+  "id": "T6",
+  "genus": 1,
+  "planar": false,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 1,
+   "rotation": {
+    "p": [
+     "u",
+     "x",
+     "y"
+    ],
+    "q": [
+     "u",
+     "x",
+     "y"
+    ],
+    "u": [
+     "p",
+     "q",
+     "z"
+    ],
+    "x": [
+     "p",
+     "q",
+     "z"
+    ],
+    "y": [
+     "p",
+     "q",
+     "z"
+    ],
+    "z": [
+     "u",
+     "x",
+     "y"
+    ]
+   }
+  },
+  "kuratowski": {
+   "type": "Kuratowski subgraph",
+   "edges": [
+    [
+     "p",
+     "u"
+    ],
+    [
+     "p",
+     "x"
+    ],
+    [
+     "p",
+     "y"
+    ],
+    [
+     "q",
+     "u"
+    ],
+    [
+     "q",
+     "x"
+    ],
+    [
+     "q",
+     "y"
+    ],
+    [
+     "u",
+     "z"
+    ],
+    [
+     "x",
+     "z"
+    ],
+    [
+     "y",
+     "z"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "T7",
+  "genus": 1,
+  "planar": false,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 1,
+   "rotation": {
+    "p": [
+     "u",
+     "y",
+     "x"
+    ],
+    "q": [
+     "u",
+     "y",
+     "x"
+    ],
+    "u": [
+     "p",
+     "z",
+     "q"
+    ],
+    "x": [
+     "p",
+     "y",
+     "z",
+     "q"
+    ],
+    "y": [
+     "p",
+     "z",
+     "q",
+     "x"
+    ],
+    "z": [
+     "u",
+     "y",
+     "x"
+    ]
+   }
+  },
+  "kuratowski": {
+   "type": "Kuratowski subgraph",
+   "edges": [
+    [
+     "p",
+     "u"
+    ],
+    [
+     "p",
+     "x"
+    ],
+    [
+     "p",
+     "y"
+    ],
+    [
+     "q",
+     "u"
+    ],
+    [
+     "q",
+     "x"
+    ],
+    [
+     "q",
+     "y"
+    ],
+    [
+     "u",
+     "z"
+    ],
+    [
+     "x",
+     "z"
+    ],
+    [
+     "y",
+     "z"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "S0",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [
+   [
+    "z",
+    "f"
+   ]
+  ],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "f": [
+     "u",
+     "x",
+     "z"
+    ],
+    "p": [
+     "u",
+     "x",
+     "y"
+    ],
+    "q": [
+     "u",
+     "y",
+     "x"
+    ],
+    "u": [
+     "f",
+     "p",
+     "q"
+    ],
+    "x": [
+     "f",
+     "q",
+     "p"
+    ],
+    "y": [
+     "p",
+     "q"
+    ],
+    "z": [
+     "f"
+    ]
+   }
+  }
+ },
+ {
+  "id": "S1",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [
+   [
+    "z",
+    "f"
+   ]
+  ],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "f": [
+     "u",
+     "x",
+     "z"
+    ],
+    "p": [
+     "u",
+     "x",
+     "y"
+    ],
+    "q": [
+     "u",
+     "y",
+     "x"
+    ],
+    "u": [
+     "f",
+     "p",
+     "q"
+    ],
+    "x": [
+     "f",
+     "q",
+     "y",
+     "p"
+    ],
+    "y": [
+     "p",
+     "x",
+     "q"
+    ],
+    "z": [
+     "f"
+    ]
+   }
+  }
+ },
+ {
+  "id": "S2",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "f": [
+     "u",
+     "z",
+     "x"
+    ],
+    "p": [
+     "u",
+     "y",
+     "x"
+    ],
+    "q": [
+     "u",
+     "x",
+     "y"
+    ],
+    "u": [
+     "f",
+     "q",
+     "p"
+    ],
+    "x": [
+     "f",
+     "z",
+     "p",
+     "q"
+    ],
+    "y": [
+     "p",
+     "q"
+    ],
+    "z": [
+     "f",
+     "x"
+    ]
+   }
+  }
+ },
+ {
+  "id": "S3",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "f": [
+     "u",
+     "x",
+     "z"
+    ],
+    "p": [
+     "u",
+     "x",
+     "y"
+    ],
+    "q": [
+     "u",
+     "y",
+     "x"
+    ],
+    "u": [
+     "f",
+     "p",
+     "q"
+    ],
+    "x": [
+     "f",
+     "q",
+     "y",
+     "p",
+     "z"
+    ],
+    "y": [
+     "p",
+     "x",
+     "q"
+    ],
+    "z": [
+     "f",
+     "x"
+    ]
+   }
+  }
+ },
+ {
+  "id": "S4",
+  "genus": 1,
+  "planar": false,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 1,
+   "rotation": {
+    "f": [
+     "u",
+     "x",
+     "z"
+    ],
+    "p": [
+     "u",
+     "x",
+     "y"
+    ],
+    "q": [
+     "u",
+     "x",
+     "y"
+    ],
+    "u": [
+     "f",
+     "p",
+     "q"
+    ],
+    "x": [
+     "f",
+     "p",
+     "q"
+    ],
+    "y": [
+     "p",
+     "q",
+     "z"
+    ],
+    "z": [
+     "f",
+     "y"
+    ]
+   }
+  },
+  "kuratowski": {
+   "type": "Kuratowski subgraph",
+   "edges": [
+    [
+     "f",
+     "u"
+    ],
+    [
+     "f",
+     "x"
+    ],
+    [
+     "f",
+     "z"
+    ],
+    [
+     "p",
+     "u"
+    ],
+    [
+     "p",
+     "x"
+    ],
+    [
+     "p",
+     "y"
+    ],
+    [
+     "q",
+     "u"
+    ],
+    [
+     "q",
+     "x"
+    ],
+    [
+     "q",
+     "y"
+    ],
+    [
+     "y",
+     "z"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "S5",
+  "genus": 1,
+  "planar": false,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 1,
+   "rotation": {
+    "f": [
+     "u",
+     "x",
+     "z"
+    ],
+    "p": [
+     "u",
+     "x",
+     "y"
+    ],
+    "q": [
+     "u",
+     "x",
+     "y"
+    ],
+    "u": [
+     "f",
+     "p",
+     "q"
+    ],
+    "x": [
+     "f",
+     "p",
+     "q",
+     "y"
+    ],
+    "y": [
+     "p",
+     "q",
+     "z",
+     "x"
+    ],
+    "z": [
+     "f",
+     "y"
+    ]
+   }
+  },
+  "kuratowski": {
+   "type": "Kuratowski subgraph",
+   "edges": [
+    [
+     "f",
+     "u"
+    ],
+    [
+     "f",
+     "x"
+    ],
+    [
+     "f",
+     "z"
+    ],
+    [
+     "p",
+     "u"
+    ],
+    [
+     "p",
+     "x"
+    ],
+    [
+     "p",
+     "y"
+    ],
+    [
+     "q",
+     "u"
+    ],
+    [
+     "q",
+     "x"
+    ],
+    [
+     "q",
+     "y"
+    ],
+    [
+     "y",
+     "z"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "S6",
+  "genus": 1,
+  "planar": false,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 1,
+   "rotation": {
+    "f": [
+     "u",
+     "z",
+     "x"
+    ],
+    "p": [
+     "u",
+     "x",
+     "y"
+    ],
+    "q": [
+     "u",
+     "x",
+     "y"
+    ],
+    "u": [
+     "f",
+     "p",
+     "q"
+    ],
+    "x": [
+     "f",
+     "q",
+     "z",
+     "p"
+    ],
+    "y": [
+     "p",
+     "q",
+     "z"
+    ],
+    "z": [
+     "f",
+     "x",
+     "y"
+    ]
+   }
+  },
+  "kuratowski": {
+   "type": "Kuratowski subgraph",
+   "edges": [
+    [
+     "f",
+     "u"
+    ],
+    [
+     "f",
+     "z"
+    ],
+    [
+     "p",
+     "u"
+    ],
+    [
+     "p",
+     "x"
+    ],
+    [
+     "p",
+     "y"
+    ],
+    [
+     "q",
+     "u"
+    ],
+    [
+     "q",
+     "x"
+    ],
+    [
+     "q",
+     "y"
+    ],
+    [
+     "x",
+     "z"
+    ],
+    [
+     "y",
+     "z"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "S7",
+  "genus": 1,
+  "planar": false,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 1,
+   "rotation": {
+    "f": [
+     "u",
+     "x",
+     "z"
+    ],
+    "p": [
+     "u",
+     "y",
+     "x"
+    ],
+    "q": [
+     "u",
+     "y",
+     "x"
+    ],
+    "u": [
+     "f",
+     "q",
+     "p"
+    ],
+    "x": [
+     "f",
+     "p",
+     "y",
+     "z",
+     "q"
+    ],
+    "y": [
+     "p",
+     "z",
+     "q",
+     "x"
+    ],
+    "z": [
+     "f",
+     "y",
+     "x"
+    ]
+   }
+  },
+  "kuratowski": {
+   "type": "Kuratowski subgraph",
+   "edges": [
+    [
+     "f",
+     "u"
+    ],
+    [
+     "f",
+     "z"
+    ],
+    [
+     "p",
+     "u"
+    ],
+    [
+     "p",
+     "x"
+    ],
+    [
+     "p",
+     "y"
+    ],
+    [
+     "q",
+     "u"
+    ],
+    [
+     "q",
+     "x"
+    ],
+    [
+     "q",
+     "y"
+    ],
+    [
+     "x",
+     "z"
+    ],
+    [
+     "y",
+     "z"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "Q0",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [
+   [
+    "y",
+    "u"
+   ],
+   [
+    "z",
+    "v"
+   ]
+  ],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "p": [
+     "u",
+     "x",
+     "v"
+    ],
+    "q": [
+     "u",
+     "v",
+     "x"
+    ],
+    "u": [
+     "p",
+     "q",
+     "y"
+    ],
+    "v": [
+     "p",
+     "q",
+     "z"
+    ],
+    "x": [
+     "p",
+     "q"
+    ],
+    "z": [
+     "v"
+    ],
+    "y": [
+     "u"
+    ]
+   }
+  }
+ },
+ {
+  "id": "Q1",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [
+   [
+    "z",
+    "v"
+   ]
+  ],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "p": [
+     "u",
+     "v",
+     "x"
+    ],
+    "q": [
+     "u",
+     "x",
+     "v"
+    ],
+    "u": [
+     "p",
+     "y",
+     "q"
+    ],
+    "v": [
+     "p",
+     "q",
+     "z"
+    ],
+    "x": [
+     "p",
+     "q",
+     "y"
+    ],
+    "y": [
+     "u",
+     "x"
+    ],
+    "z": [
+     "v"
+    ]
+   }
+  }
+ },
+ {
+  "id": "Q2",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [
+   [
+    "y",
+    "u"
+   ]
+  ],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "p": [
+     "u",
+     "x",
+     "v"
+    ],
+    "q": [
+     "u",
+     "v",
+     "x"
+    ],
+    "u": [
+     "p",
+     "q",
+     "y"
+    ],
+    "v": [
+     "p",
+     "z",
+     "q"
+    ],
+    "x": [
+     "p",
+     "q",
+     "z"
+    ],
+    "z": [
+     "v",
+     "x"
+    ],
+    "y": [
+     "u"
+    ]
+   }
+  }
+ },
+ {
+  "id": "Q3",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "p": [
+     "u",
+     "v",
+     "x"
+    ],
+    "q": [
+     "u",
+     "x",
+     "v"
+    ],
+    "u": [
+     "p",
+     "y",
+     "q"
+    ],
+    "v": [
+     "p",
+     "q",
+     "z"
+    ],
+    "x": [
+     "p",
+     "z",
+     "q",
+     "y"
+    ],
+    "y": [
+     "u",
+     "x"
+    ],
+    "z": [
+     "v",
+     "x"
+    ]
+   }
+  }
+ },
+ {
+  "id": "Q4",
+  "genus": 0,
+  "planar": true,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 0,
+   "rotation": {
+    "p": [
+     "u",
+     "x",
+     "v"
+    ],
+    "q": [
+     "u",
+     "v",
+     "x"
+    ],
+    "u": [
+     "p",
+     "y",
+     "q"
+    ],
+    "v": [
+     "p",
+     "q",
+     "z"
+    ],
+    "x": [
+     "p",
+     "q"
+    ],
+    "y": [
+     "u",
+     "z"
+    ],
+    "z": [
+     "v",
+     "y"
+    ]
+   }
+  }
+ },
+ {
+  "id": "Q5",
+  "genus": 1,
+  "planar": false,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 1,
+   "rotation": {
+    "p": [
+     "u",
+     "v",
+     "x"
+    ],
+    "q": [
+     "u",
+     "v",
+     "x"
+    ],
+    "u": [
+     "p",
+     "q",
+     "y"
+    ],
+    "v": [
+     "p",
+     "q",
+     "z"
+    ],
+    "x": [
+     "p",
+     "q",
+     "y"
+    ],
+    "y": [
+     "u",
+     "z",
+     "x"
+    ],
+    "z": [
+     "v",
+     "y"
+    ]
+   }
+  },
+  "kuratowski": {
+   "type": "Kuratowski subgraph",
+   "edges": [
+    [
+     "p",
+     "u"
+    ],
+    [
+     "p",
+     "v"
+    ],
+    [
+     "p",
+     "x"
+    ],
+    [
+     "q",
+     "u"
+    ],
+    [
+     "q",
+     "v"
+    ],
+    [
+     "q",
+     "x"
+    ],
+    [
+     "u",
+     "y"
+    ],
+    [
+     "v",
+     "z"
+    ],
+    [
+     "x",
+     "y"
+    ],
+    [
+     "y",
+     "z"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "Q6",
+  "genus": 1,
+  "planar": false,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 1,
+   "rotation": {
+    "p": [
+     "u",
+     "v",
+     "x"
+    ],
+    "q": [
+     "u",
+     "v",
+     "x"
+    ],
+    "u": [
+     "p",
+     "y",
+     "q"
+    ],
+    "v": [
+     "p",
+     "z",
+     "q"
+    ],
+    "x": [
+     "p",
+     "z",
+     "q"
+    ],
+    "y": [
+     "u",
+     "z"
+    ],
+    "z": [
+     "v",
+     "x",
+     "y"
+    ]
+   }
+  },
+  "kuratowski": {
+   "type": "Kuratowski subgraph",
+   "edges": [
+    [
+     "p",
+     "u"
+    ],
+    [
+     "p",
+     "v"
+    ],
+    [
+     "p",
+     "x"
+    ],
+    [
+     "q",
+     "u"
+    ],
+    [
+     "q",
+     "v"
+    ],
+    [
+     "q",
+     "x"
+    ],
+    [
+     "u",
+     "y"
+    ],
+    [
+     "v",
+     "z"
+    ],
+    [
+     "x",
+     "z"
+    ],
+    [
+     "y",
+     "z"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "Q7",
+  "genus": 1,
+  "planar": false,
+  "pendant_edges_removed_for_PAGE": [],
+  "embedding": {
+   "type": "embedding",
+   "genus": 1,
+   "rotation": {
+    "p": [
+     "u",
+     "v",
+     "x"
+    ],
+    "q": [
+     "u",
+     "v",
+     "x"
+    ],
+    "u": [
+     "p",
+     "y",
+     "q"
+    ],
+    "v": [
+     "p",
+     "z",
+     "q"
+    ],
+    "x": [
+     "p",
+     "z",
+     "q",
+     "y"
+    ],
+    "y": [
+     "u",
+     "x",
+     "z"
+    ],
+    "z": [
+     "v",
+     "x",
+     "y"
+    ]
+   }
+  },
+  "kuratowski": {
+   "type": "Kuratowski subgraph",
+   "edges": [
+    [
+     "p",
+     "u"
+    ],
+    [
+     "p",
+     "v"
+    ],
+    [
+     "p",
+     "x"
+    ],
+    [
+     "q",
+     "u"
+    ],
+    [
+     "q",
+     "v"
+    ],
+    [
+     "q",
+     "x"
+    ],
+    [
+     "u",
+     "y"
+    ],
+    [
+     "v",
+     "z"
+    ],
+    [
+     "x",
+     "z"
+    ],
+    [
+     "y",
+     "z"
+    ]
+   ]
+  }
+ }
+]
