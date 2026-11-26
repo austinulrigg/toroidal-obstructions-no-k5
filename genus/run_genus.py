@@ -1,34 +1,7 @@
-"""The genus computations of the paper, with PAGE and multi_genus.
+"""Compute the genera of T1–T74 with PAGE and multi_genus and of the
+enumeration graphs with multi_genus. Write the results and timings to results/.
 
     python run_genus.py
-
-Two programs run at the same time.
-
-  multi_genus runs on one core (it is a single-threaded program). It computes
-  the genus of T1, ..., T74 one at a time, and then the genus of every
-  nontoroidal graph of the enumerations, in one run of multi_genus per
-  enumeration.
-
-  PAGE runs on the other cores (its own threads, set by the environment
-  variable THREADS; PAGE uses at most 8). It computes the genus of T1, ...,
-  T74 one at a time.
-
-The obstructions are T1, ..., T74 (obstructions.txt, the graph6 strings of
-item O1). The nontoroidal graphs of the enumerations are those the
-enumerations use, up to isomorphism (enumeration_graphs.txt;
-enumeration_graph_uses.json.gz gives the candidates that use each one;
-build_inputs.py makes both from the supplemental data).
-
-The genus that a program reports is checked against the embedding it
-returns: the faces of that rotation system are traced and Euler's formula
-gives its genus. The disconnected graph T25 is computed component by
-component; the genus of a graph is the sum of the genera of its components
-(Battle, Harary, Kodama and Youngs, 1962).
-
-The results are written to the folder results/: obstructions.csv,
-enumeration_graphs.csv, enumeration_graphs_genus.txt.gz (the genus of each
-nontoroidal graph of the enumerations), TABLES.md (both tables in Markdown)
-and run_info.json (the machine and the programs used).
 """
 import argparse
 import csv
@@ -165,29 +138,29 @@ def write_tables(t1, t2, mg, pg, info, wall):
 
     allg = Counter(gen[i] for i, _ in t2)
     L = ['# Genus computations', '',
-         'Computed by `run_genus.py` on %s (%s, %d cores) with Python %s and graph-genus %s. multi_genus ran on '
-         'one core and PAGE with %d thread%s, at the same time. The whole run took %.0f seconds.'
-         % (info.get('processor') or info['machine'], info['system'], info['cores'], info['python'],
-            info['graph-genus'], pg['threads'], '' if pg['threads'] == 1 else 's', wall), '',
-         '## The obstructions T1, ..., T74', '',
-         'Both programs find genus two for every one. A time is the wall-clock time of one call of '
-         '`graph_genus.embed`, including the start of the program. T25 is two disjoint copies of K3,3 and is '
-         'computed component by component.', '',
-         '| # | v | e | genus | time (s) | MG time (s) |', '|---|---|---|---|---|---|']
+         'PAGE and `multi_genus` ran concurrently on %s (%d cores) with Python %s and graph-genus %s. '
+         'The run took %.0f seconds with PAGE set to `THREADS=%d`. '
+         '[Machine and software versions](run_info.json).'
+         % (info.get('processor') or info['machine'], info['cores'], info['python'], info['graph-genus'],
+            wall, pg['threads']), '',
+         '## The 74 obstructions', '',
+         'Both programs give genus two for each graph. Times include program startup. '
+         'For $T_{25}$ the genus and time are summed over its two components.', '',
+         '| Graph | Vertices | Edges | Genus | PAGE (s) | `multi_genus` (s) |',
+         '|---|---|---|---|---|---|']
     for r in rows1:
         g = str(r[3]) if r[3] == r[5] else '%s (PAGE) / %s (multi_genus)' % (r[3], r[5])
         L.append('| %s | %d | %d | %s | %s | %s |' % (r[0], r[1], r[2], g, r[4], r[6]))
-    L += ['', '## The nontoroidal graphs of the enumerations', '',
-          'One row per enumeration of the supplemental data. Its graphs are counted up to isomorphism, and a '
-          'graph used by several enumerations is counted in each. The graphs are listed in '
-          '`enumeration_graphs.txt`, `enumeration_graph_uses.json.gz` gives the candidates that use each one, and '
-          '`results/enumeration_graphs_genus.txt.gz` gives the genus of each. A time is the wall-clock time of one '
-          'run of multi_genus on all the graphs of the row.', '',
-          '| E | graphs | smallest genus | largest genus | MG time (s) |', '|---|---|---|---|---|']
+    L += ['', '## Nontoroidal graphs used in the enumerations', '',
+          'Each row counts graphs up to isomorphism within that enumeration. A graph used in several '
+          'enumerations appears in each count. The time is for one run of `multi_genus` on all graphs in the row.', '',
+          '| Enumeration | Graphs | Smallest genus | Largest genus | `multi_genus` (s) |',
+          '|---|---|---|---|---|']
     for r in rows2:
         L.append('| %s | %d | %d | %d | %s |' % tuple(r))
-    L += ['', 'In all, %d graphs up to isomorphism: %s.' % (len(t2), ', '.join(
-        '%d of genus %d' % (n, g) for g, n in sorted(allg.items())))]
+    distribution = ' and '.join(f'{n:,} have genus {g}' for g, n in sorted(allg.items()))
+    L += ['', f'Of the {len(t2):,} graphs up to isomorphism, {distribution}. '
+          '[Genus by graph index](enumeration_graphs_genus.txt.gz).']
     (RESULTS / 'TABLES.md').write_text('\n'.join(L) + '\n')
     save_json(RESULTS / 'run_info.json', dict(info, seconds=round(wall, 1), PAGE_threads=pg['threads']), indent=1)
 

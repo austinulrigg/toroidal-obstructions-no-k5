@@ -1,23 +1,12 @@
-"""Run the enumerations and write them in the layout of the data folder.
+"""Generate the enumerations E1-E30, or the named items.
 
     python make_enumerations.py OUTPUT_FOLDER [E1 E2 ...] [--E4-covering-of-data]
 
-For each item named (all of E1, ..., E30 if none is named) this runs its
-program generate_E<k>.py. E30 writes directly to OUTPUT_FOLDER/enumerations/E30.
-For E1 through E29 the generator writes records to OUTPUT_FOLDER/work/E<k>,
-and package.py writes the files of the item to OUTPUT_FOLDER/enumerations/E<k>. A program that has already finished in OUTPUT_FOLDER/work/E<k>
-is not run again; delete that folder to run it again. An interrupted program
-that keeps a file progress.jsonl continues where it stopped (E3, E4 and E12
-keep their own files for this).
-
-E4 runs its covering with several processes, and which graphs it records
-depends on the order in which they finish; with --E4-covering-of-data,
-generate_E4.py takes the covering recorded in the data folder instead and
-redoes everything after it, which reproduces the data folder.
-
-The output can be compared with the data folder by
-    python ../compare_files.py ../../supplemental_data OUTPUT_FOLDER enumerations
-"""
+Each generator writes its item to OUTPUT_FOLDER/enumerations. E1-E29 keep
+working records under OUTPUT_FOLDER/work and skip completed computations.
+With --E4-covering-of-data, E4 uses the published covering and recomputes
+its DRAT proof, embeddings and classifications. Without the option, E4
+searches for a covering."""
 import os
 import subprocess
 import sys

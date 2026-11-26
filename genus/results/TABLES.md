@@ -1,12 +1,12 @@
 # Genus computations
 
-Computed by `run_genus.py` on Apple M4 Pro (macOS-26.5.1-arm64-arm-64bit-Mach-O, 14 cores) with Python 3.14.6 and graph-genus 0.1.3. multi_genus ran on one core and PAGE with 13 threads, at the same time. The whole run took 39 seconds.
+PAGE and `multi_genus` ran concurrently on Apple M4 Pro (14 cores) with Python 3.14.6 and graph-genus 0.1.3. The run took 39 seconds with PAGE set to `THREADS=13`. [Machine and software versions](run_info.json).
 
-## The obstructions T1, ..., T74
+## The 74 obstructions
 
-Both programs find genus two for every one. A time is the wall-clock time of one call of `graph_genus.embed`, including the start of the program. T25 is two disjoint copies of K3,3 and is computed component by component.
+Both programs give genus two for each graph. Times include program startup. For $T_{25}$ the genus and time are summed over its two components.
 
-| # | v | e | genus | time (s) | MG time (s) |
+| Graph | Vertices | Edges | Genus | PAGE (s) | `multi_genus` (s) |
 |---|---|---|---|---|---|
 | T1 | 10 | 21 | 2 | 0.218 | 0.216 |
 | T2 | 11 | 22 | 2 | 0.008 | 0.006 |
@@ -83,11 +83,11 @@ Both programs find genus two for every one. A time is the wall-clock time of one
 | T73 | 14 | 25 | 2 | 0.016 | 0.002 |
 | T74 | 14 | 27 | 2 | 0.005 | 0.002 |
 
-## The nontoroidal graphs of the enumerations
+## Nontoroidal graphs used in the enumerations
 
-One row per enumeration of the supplemental data. Its graphs are counted up to isomorphism, and a graph used by several enumerations is counted in each. The graphs are listed in `enumeration_graphs.txt`, `enumeration_graph_uses.json.gz` gives the candidates that use each one, and `results/enumeration_graphs_genus.txt.gz` gives the genus of each. A time is the wall-clock time of one run of multi_genus on all the graphs of the row.
+Each row counts graphs up to isomorphism within that enumeration. A graph used in several enumerations appears in each count. The time is for one run of `multi_genus` on all graphs in the row.
 
-| E | graphs | smallest genus | largest genus | MG time (s) |
+| Enumeration | Graphs | Smallest genus | Largest genus | `multi_genus` (s) |
 |---|---|---|---|---|
 | E2 | 3 | 2 | 2 | 0.023 |
 | E4 | 22330 | 2 | 2 | 3.061 |
@@ -115,4 +115,4 @@ One row per enumeration of the supplemental data. Its graphs are counted up to i
 | E28 | 903 | 2 | 2 | 0.043 |
 | E29 | 341 | 2 | 2 | 0.090 |
 
-In all, 311739 graphs up to isomorphism: 311352 of genus 2, 387 of genus 3.
+Of the 311,739 graphs up to isomorphism, 311,352 have genus 2 and 387 have genus 3. [Genus by graph index](enumeration_graphs_genus.txt.gz).

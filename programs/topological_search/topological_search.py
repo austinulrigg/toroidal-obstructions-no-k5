@@ -1,38 +1,14 @@
-"""The search in the proof of Theorem 8.1: the topological obstructions for the
-torus with no K5 minor.
+"""Generate TO1 and TO2 for Theorem 8.1.
 
-Start from T1, ..., T74 (item O1). Split every vertex of every graph found so
-far in every way: the vertex v keeps its first neighbour and at least one
-more, a new vertex gets at least two of the others, and v and the new vertex
-are joined. Each split, up to isomorphism, gets one verdict:
+Starting from T1, ..., T74 in O1, split each vertex in every way that leaves
+at least two of its original neighbors on either side. Keep one graph per
+isomorphism class. A graph with a K5 minor is recorded with its branch sets.
+If an edge deletion contains some T_i as a minor, record the edge and the
+minor model. For each remaining graph, record a certificate that it has no
+K5 minor and a torus embedding of every edge deletion, then split it in turn.
 
-  K5 minor       five branch sets (found by a SAT solver, which also shows
-                 that the other graphs have no K5 minor);
-  an edge deletion has a T_i minor
-                 some G - e is nontoroidal; the program reduces G - e to a
-                 minor that is a minor-order obstruction, which has no K5
-                 minor and so is some T_i, and records its branch sets;
-  kept           G has no K5 minor (a clique-sum of planar graphs and copies
-                 of V8 along cliques of at most three vertices) and every
-                 G - e is toroidal (a rotation system of genus at most one).
-                 A kept graph is nontoroidal, since contracting its new edge
-                 gives the graph it was split from, so it is a topological
-                 obstruction; it is split in turn.
-
-The search stops when a round keeps no new graph. TO1.json lists T1, ..., T74
-and the kept graphs, TO2.json every split with its verdict, in the format of
-the data folder. Whether a graph is toroidal is decided with multi_genus
-(option l1, which stops once the genus is known to exceed one), and the torus
-embeddings are found with PAGE, both from the package graph-genus; the
-witnesses written are checked by the checker without any genus computation.
-
-Usage:
-    python topological_search.py ../../supplemental_data OUTPUT_FOLDER [--workers N]
-
-The graphs T1, ..., T74 are read from no_K5_obstructions/O1.json of the data
-folder. Then compare the result with the data folder:
-    python compare.py ../../supplemental_data OUTPUT_FOLDER
-"""
+TO1 lists the topological obstructions. TO2 records each split and its verdict.
+The search uses multi_genus to test toroidality and PAGE to find embeddings."""
 import argparse
 import json
 import os
@@ -494,13 +470,11 @@ def classify_g6(s):
 
 WHAT1 = ('The 381 topological obstructions for the torus with no K5 minor (Theorem 8.1), as graph6 strings. The 74 '
          'that are T1,...,T74 are named.')
-WHAT2 = ('The search in the proof of Theorem 8.1. Every split of every graph in TO1 is one of these 7,006 graphs up to '
-         'isomorphism, and each of them is a split of a graph in TO1. Each graph is given as produced by its split: '
-         'the vertex split, the new vertex, and the neighbours moved to it; contracting the edge between them gives '
-         'the graph it was split from. Verdicts: kept (a certificate that it has no K5 minor, made of planar pieces '
-         'and copies of V8 glued along cliques of order at most three, and a torus embedding of every edge deletion), '
-         'K5 minor (branch sets), or an edge deletion containing some T_i as a minor (the edge and a minor model, '
-         'vertex numbers of T_i as in O1). No genus computation is used.')
+WHAT2 = ('The 7,006 graphs obtained by splitting vertices of the graphs in TO1, up to isomorphism. '
+         'Each record names the parent, the vertex split, the new vertex and the neighbors moved to it. '
+         'For a retained graph, the witness gives a certificate that it has no K5 minor and a torus embedding of every edge deletion. '
+         'For each other graph, it gives K5 branch sets or an edge whose deletion contains T_i as a minor, with a minor model using the labels of O1. '
+         'The checker verifies these witnesses without a genus computation.')
 
 
 def main():

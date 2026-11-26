@@ -1,65 +1,58 @@
-# Programs
+# Generating the supplemental data
 
-These are the programs that make the supplemental data of the paper. `rotation_tables` makes the rotation tables R1–R12, `enumerations` makes the enumerations E1–E30, `new_obstructions` makes N1, and `topological_search` makes TO1 and TO2, the search for the topological obstructions in the proof of Theorem 8.1. Each program writes its files in the same layout as the folder `supplemental_data`, so that what it writes can be compared with that folder file by file.
+The programs below generate the rotation tables R1–R12, the enumerations E1–E30, the split search TO1–TO2 and the catalogue N1. Run the commands from the root of the repository.
 
-## Setting up
+## Setup
 
-The programs need Python 3.11 or later and three packages: graph-genus 0.1.3 (which brings the genus programs PAGE and multi_genus), networkx 3.6.1 and python-sat 1.9.dev17. Some outputs depend on the exact version of a package (for example, which Kuratowski subgraph networkx returns), so `requirements.txt` in this folder fixes all three. In a terminal, in the top folder of the repository, run
+Use Python 3.11 or later. The package versions in [requirements.txt](requirements.txt) are those used for the published data. The version of NetworkX can affect which Kuratowski subdivision is returned.
 
-```
+```sh
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r programs/requirements.txt
+python -m pip install -r programs/requirements.txt
 ```
 
-The first line makes a virtual environment, a private folder `.venv` for the packages; it is needed only once. The second line switches the terminal to it, and is needed in every new terminal window.
+The package `graph-genus` includes PAGE and `multi_genus`. N1 also requires nauty's `labelg` (or `nauty-labelg`) on the search path, or its path in `LABELG`. E4 and E12 use `drat-trim` to check their DRAT proofs. The programs look for it in `DRAT_TRIM` or on the search path, then try to compile [drat-trim.c](../tools/drat-trim.c) with `cc`. If it is unavailable, they still write the proofs and report that they were not checked.
 
-E4 and E12 also check their DRAT proofs with drat-trim, found in the same way as by the checker: through the environment variable `DRAT_TRIM`, or on the PATH, or by compiling `tools/drat-trim.c` the first time it is needed (this needs a C compiler, which on a Mac comes with the Xcode command line tools; without drat-trim the proofs are written but not checked).
+## Rotation tables and enumerations
 
-## The folders
+Use an empty output folder for a new run. The following commands regenerate all tables and enumerations and compare them with the published files.
 
-`rotation_tables/make_rotation_tables.py` runs through every rotation system of the graphs of each table and writes R1–R12 to `OUTPUT_FOLDER/rotations`. A statement of the paper about a table that fails stops the program.
+```sh
+out="$HOME/regenerated"
+python programs/rotation_tables/make_rotation_tables.py "$out"
+python programs/compare_files.py supplemental_data "$out" rotations
 
-`topological_search/topological_search.py` starts from T1, ..., T74, splits vertices in every way and writes TO1.json and TO2.json. `topological_search/compare.py` compares them with the data folder up to isomorphism: the same 381 topological obstructions and the same 7,006 graphs with the same verdicts. The witnesses (branch sets and embeddings) may differ from those of the data folder, since the search may find other valid ones.
-
-For E1–E29, `enumerations/make_enumerations.py` runs the program `generate_E<k>.py` of each enumeration, which writes its own records to `OUTPUT_FOLDER/work/E<k>`, and then writes the files of the item to `OUTPUT_FOLDER/enumerations/E<k>` (with `package.py`). The docstring at the top of each `generate_E<k>.py` says what it enumerates, where the paper uses it and how it classifies each graph. The other modules of the folder are shared: `enumeration.py` builds the bridges of Construction 3.18 and classifies whole graphs, `joint_test.py` is the test of Lemma 4.3, `covering.py` is the covering used by E4 and E12, and so on, each with its own docstring.
-
-For E30, run `python programs/enumerations/make_enumerations.py OUTPUT_FOLDER E30` from the top folder of the repository. This runs PAGE on the 24 completions of T(z), S(x;y) and Q(x;y,z) and writes the four data files directly to `OUTPUT_FOLDER/enumerations/E30`.
-
-`new_obstructions/make_N1.py` rebuilds N1 from the bundled website evidence and preserves the original N1.1–N1.13 certificates. It recomputes connectivity, nauty canonical forms and invariant comparisons with the full Myrvold topological collection. Run `python programs/new_obstructions/make_N1.py OUTPUT_FOLDER`. Add `--recompute` to repeat the genus computations with multi_genus for all 120 graphs, every edge deletion, every edge contraction of the 22 minor obstructions, and one nontoroidal contraction for each of the remaining 98 graphs. Add `--page` to also repeat PAGE on the 120 graphs. The imported witnesses are deterministic, so the default output can be compared byte for byte with the recorded N1.json.
-
-`compare_files.py` compares the files of an output folder with the data folder: first byte for byte, then, for JSON files whose bytes differ, by content, so that a difference in formatting alone is reported as such. For a file whose content differs, it counts the places that differ and says whether they all lie in rotation systems (see the last section).
-
-`paper_text.json` supplies the passages quoted in the rotation tables and enumerations that use it. R7, E14 and E23 retain passages from earlier proofs. The [guide to the paper's supplemental references](../PAPER-REFERENCES.md) gives their context and the locations of the current citations.
-
-## Running everything
-
-From the top folder of the repository, with the virtual environment active, and with `~/regenerated` as the output folder (any empty folder will do):
-
-```
-cd programs/rotation_tables
-python make_rotation_tables.py ~/regenerated
-python ../compare_files.py ../../supplemental_data ~/regenerated rotations
-
-cd ../topological_search
-python topological_search.py ../../supplemental_data ~/regenerated/topological
-python compare.py ../../supplemental_data ~/regenerated/topological
-
-cd ../enumerations
-python make_enumerations.py ~/regenerated --E4-covering-of-data
-python ../compare_files.py ../../supplemental_data ~/regenerated enumerations
+python programs/enumerations/make_enumerations.py "$out" --E4-covering-of-data
+python programs/compare_files.py supplemental_data "$out" enumerations
 ```
 
-Some enumerations can be run alone by naming them, as in `python make_enumerations.py ~/regenerated E3 E11`. The enumerations use all cores but one; the environment variable `ENUM_WORKERS` sets another number of processes. If a run is interrupted, running the same command again continues it: most of the programs keep their progress in their folder `~/regenerated/work/E<k>` and continue where they stopped, and a few start their item again. For E1–E29, rerun a finished item by deleting its folder `~/regenerated/work/E<k>`.
+To run individual items, give their labels after the output folder, for example `R1 R5` or `E3 E11`. For each rotation system, the generator computes the genus and records the attachments on each facial walk in boundary order. It then checks the claims listed in the table. The paper passages used by the generators are in [paper_text.json](paper_text.json). [Supplemental references in the paper](../PAPER-REFERENCES.md) identifies the items used in earlier proofs.
 
-On a recent Mac, the rotation tables take about twenty minutes (R8 about a quarter of an hour), the topological search a few minutes, and the enumerations three to four hours in all; E20, E25, E8, E4 and E21 take the longest.
+Each enumeration has a `generate_E<k>.py` file describing its construction and tests. E1–E29 keep their working files in `$out/work/E<k>` and write their results to `$out/enumerations/E<k>`. Rerunning the command skips completed items. Most interrupted items resume from their saved records. To repeat a completed item, use a fresh output folder or remove its working folder. Parallel enumerations use one fewer worker than the number of cores by default. Set `ENUM_WORKERS` to choose the number. E30 runs PAGE on the 24 attachment-edge completions of T(z), S(x;y) and Q(x;y,z) and writes its results directly to `$out/enumerations/E30`.
 
-## What the comparison shows
+E4 can find different coverings depending on which parallel search finishes first. The option `--E4-covering-of-data` uses the published covering and recomputes its DRAT proof, torus embeddings and graph classifications. Omit the option in a fresh run to find a covering independently. The [genus computations](../genus/README.md) refer to the published covering.
 
-The programs fix every choice that could vary from one run to another (the seeds of the random searches, the order of sets, and which of several isomorphisms or minor models is written), so that a run writes the files of the data folder again, and `compare_files.py` names every file that differs. There are two exceptions.
+`compare_files.py` compares files byte for byte, then compares the contents of JSON files that differ, ignoring formatting and running times. PAGE or `multi_genus` can return a different embedding of the same graph. The program reports differences confined to rotation systems separately. To check regenerated witnesses, replace the corresponding files in a copy of `supplemental_data`, remove `SHA256SUMS.txt` from that copy and run the [checker](../checker/README.md) on it with `--items`.
 
-E4 covers its family of graphs with several processes at once, and which graphs it records depends on the order in which the processes finish. A run without the option `--E4-covering-of-data` therefore records a different, equally valid, family of graphs, and the genus computations in the folder `genus` do not cover the nontoroidal graphs of that family. With the option, `generate_E4.py` reads the graphs recorded in the data folder instead of covering anew, and does everything after the covering again: the DRAT proof, the torus embeddings and the classification of every recorded graph.
+## Topological obstructions
 
-The torus embeddings (rotation systems of genus at most one) of the toroidal graphs can differ from those of the data folder. PAGE, which finds most of them, searches with several threads at once, and for a few graphs the embedding found first changes from run to run; multi_genus, which finds those of E4, can return different embeddings of the same graph on different computers. Every such embedding is valid, and a comparison that reports differences only in the rotation systems of toroidal records has found nothing else.
+```sh
+python programs/topological_search/topological_search.py supplemental_data "$out/no_K5_topological_obstructions"
+python programs/topological_search/compare.py supplemental_data "$out/no_K5_topological_obstructions"
+```
 
-The checker in the folder `checker` checks the files of the data folder. It can also check a regenerated item: copy the item's folder into a copy of `supplemental_data`, delete that copy's `SHA256SUMS.txt` (the checker then skips the checksums) and run the checker on the copy with `--items`.
+Starting from T1, …, T74 in O1, the search splits vertices as in Theorem 8.1. The comparison matches the 381 obstructions in TO1 and the 7,006 graphs in TO2 up to isomorphism and compares the verdict for each graph in TO2. Different runs can give different branch sets or embeddings for the same verdict.
+
+On the Mac used for the reported runs, the rotation tables took about 20 minutes, the split search a few minutes and the enumerations three to four hours.
+
+## The additional obstructions in N1
+
+```sh
+python programs/new_obstructions/make_N1.py "$out"
+cmp supplemental_data/new_obstructions/N1.json "$out/new_obstructions/N1.json"
+```
+
+The program builds N1 from the published website records and retains the original certificates for N1.1–N1.13. It computes canonical forms and lists the entries of the Myrvold–Woodcock collection with matching graph invariants.
+
+With `--recompute`, `multi_genus` computes the genus of all 120 graphs, every edge deletion, every edge contraction of the 22 minor obstructions, and one nontoroidal contraction for each of the other 98 graphs. With `--page`, it performs the same checks and also runs PAGE on the 120 graphs. Both options write the original witnesses.

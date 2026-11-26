@@ -1,15 +1,9 @@
-"""Compare the output of topological_search.py with items TO1 and TO2 of the
-data folder:
+"""Compare the regenerated TO1 and TO2 with the supplemental data.
 
     python compare.py ../../supplemental_data OUTPUT_FOLDER
 
-The graphs are compared up to isomorphism: the same 381 topological
-obstructions (with the same graphs named T1, ..., T74), and the same 7,006
-graphs of the search, each with the same verdict. The witnesses may differ
-(the search may find other branch sets or embeddings); the checker checks
-those of the data folder, and the program's own can be checked by placing its
-TO1.json and TO2.json in a copy of the data folder.
-"""
+Match the graphs up to isomorphism, the names T1, ..., T74 in TO1, and the
+verdicts and counts in TO2. The supplement checker verifies the witnesses."""
 import json
 import os
 import sys

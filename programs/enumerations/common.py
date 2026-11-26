@@ -1,11 +1,9 @@
 """Settings shared by the enumeration programs.
 
-The data folder is ../../supplemental_data (the folder of the repository), or
-the folder named by the environment variable SUPPLEMENTAL_DATA. The programs
-read from it only the graphs T1, ..., T74 (item O1) and the passages of the
-paper quoted in the input files (../paper_text.json). The number of processes
-used to classify graphs is the number of cores less one, or the value of the
-environment variable ENUM_WORKERS.
+SUPPLEMENTAL_DATA selects the data folder (default: supplemental_data at
+the repository root). It supplies the graphs T1, ..., T74 in O1 and the
+published covering when E4 reuses it. Quoted passages are read from
+programs/paper_text.json. ENUM_WORKERS sets the worker count.
 """
 import json
 import os

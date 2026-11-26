@@ -1,25 +1,28 @@
 # Genus computations
 
-This folder holds the genus computations cited in Appendix A of the paper. They concern two lists of graphs.
+PAGE and `multi_genus` both give genus two for each of the 74 obstructions in [O1](../supplemental_data/no_K5_obstructions/O1.json). The graphs are listed in [obstructions.txt](obstructions.txt), and [O2](../supplemental_data/no_K5_obstructions/O2.json) gives a genus-two embedding of each. The [tables](results/TABLES.md) give the results and running times.
 
-The obstructions are the 74 graphs T1, ..., T74 of the paper. The file `obstructions.txt` gives each one as its graph6 string, copied from item O1 of the supplemental data. Each of them has genus two. Item O2 gives an embedding of genus two for each, and the computations here show that none has genus one or zero.
+## Graphs used in the enumerations
 
-The nontoroidal graphs of the enumerations are the nontoroidal graphs that the enumerations of the supplemental data use without another certificate of nontoroidality. These are the one-edge minors given by a verdict "proper nontoroidal minor" whose witness names only the deleted or contracted edge (including three in E2 whose recorded reason is this computation, and those of the whole graphs recorded in E7), the recorded nontoroidal graphs of the coverings E4 and E12, and the combinations of E19, and its auxiliary combinations, whose nontoroidal status excludes larger combinations. There are 814,514 such graphs counted with repetition and 311,739 up to isomorphism. `enumeration_graphs.txt` lists the graphs up to isomorphism, by index, with the canonical graph6 string of each (computed with nauty's `labelg`), its numbers of vertices and edges, and its number of uses. `enumeration_graph_uses.json.gz` gives every use: the enumeration, the candidate and how the graph is obtained from it. `inputs_summary.json` gives the counts by enumeration. `build_inputs.py` makes these files from the supplemental data folder.
+The enumerations use `multi_genus` to establish nontoroidality in three cases.
 
-## The programs
+- An edge deletion or contraction gives a proper nontoroidal minor, and the witness gives only the operation or refers to the genus computation. This includes the three genus checks in E2 and the minors of the whole graphs in E7.
+- E4 and E12 use recorded nontoroidal graphs to exclude combinations containing them.
+- E19 uses nontoroidal combinations, including auxiliary combinations, to exclude larger ones.
 
-PAGE (Metzger and Ulrigg, Discrete Mathematics 349, 2026) and multi_genus (Brinkmann, Ars Mathematica Contemporanea 22, 2022) both compute the genus of a graph exactly, and each also returns an embedding of that genus. They are used here as bundled with the Python package graph-genus 0.1.3 (https://github.com/SanderGi/Genus), whose sources for them are `PAGE/page.c` and `MultiGenus/multi_genus.c` of that repository.
+These cases give 814,514 uses of 311,739 graphs up to isomorphism. The [graph list](enumeration_graphs.txt) gives each graph's index, canonical graph6 string, numbers of vertices and edges, and number of uses. The [list of uses](enumeration_graph_uses.json.gz) identifies the enumeration, candidate and graph operation where applicable. The [input counts](inputs_summary.json) are grouped by enumeration. The [genus of each graph](results/enumeration_graphs_genus.txt.gz) is listed by index.
 
-`run_genus.py` runs the two programs at the same time. multi_genus is single-threaded and runs on one core: it computes the genus of T1, ..., T74 one at a time, and then the genus of every nontoroidal graph of the enumerations, in one run of multi_genus per enumeration. PAGE runs on the other cores with its own threads (the environment variable THREADS, set to the number of cores minus one; PAGE uses at most eight): it computes the genus of T1, ..., T74 one at a time. PAGE is not run on the nontoroidal graphs of the enumerations.
+## Repeating the computations
 
-Each genus a program reports is checked against the embedding it returns: the faces of that rotation system are traced and Euler's formula gives its genus. T25 is two disjoint copies of K3,3; both programs need connected graphs, so it is computed component by component, using that the genus of a graph is the sum of the genera of its components (Battle, Harary, Kodama and Youngs, 1962).
+From this folder, with Python 3.8 or later, run
 
-## Running it
-
-With Python 3.8 or later and the package graph-genus 0.1.3 installed (`pip install graph-genus==0.1.3`), run, in this folder,
-
-```
+```sh
+python -m pip install graph-genus==0.1.3
 python run_genus.py
 ```
 
-It takes a few minutes. At the end it checks that both programs give genus two for every T_i and that multi_genus gives genus at least two for every nontoroidal graph of the enumerations, and it writes the folder `results`: `TABLES.md` (both tables), `obstructions.csv`, `enumeration_graphs.csv`, `enumeration_graphs_genus.txt.gz` (the genus of each nontoroidal graph of the enumerations, by index) and `run_info.json` (the machine and the versions used).
+The [graph-genus package](https://github.com/SanderGi/Genus) supplies PAGE (Metzger and Ulrigg, 2026) and `multi_genus` (Brinkmann, 2022). Both compute the minimum orientable genus. The script checks each returned rotation against the input graph and computes its genus by Euler's formula. For $T_{25}$, the disjoint union of two $K_{3,3}$ graphs, it adds the genera of the two components.
+
+The programs run concurrently. After the 74 obstructions, `multi_genus` processes one batch per enumeration. The [results folder](results/) contains both tables in CSV format and the [machine and software versions](results/run_info.json).
+
+The input lists are included. To rebuild them from O1 and E1–E29, run `python build_inputs.py ../supplemental_data` from this folder with nauty's `labelg` on the path, or set `LABELG` to its executable.

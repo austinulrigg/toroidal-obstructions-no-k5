@@ -1,20 +1,11 @@
-"""Check every witness of the supplemental data, using only the files of the
-data folder.
+"""Check the graphs, witnesses and counts in the supplemental data.
 
     python check_supplement.py ../supplemental_data
     python check_supplement.py ../supplemental_data --items O2,E10,R8
 
-The program first compares every file of the folder with its SHA-256 checksum
-in SHA256SUMS.txt. It then reads each item, rebuilds every graph from its
-record, and checks every witness by its kind (witnesses.py), together with the
-structure of each item that its module describes. It also checks that each
-item's summary agrees with its records, and the DRAT proofs of E3, E4 and E12
-with drat-trim (found on the PATH, or given by the environment variable
-DRAT_TRIM; without it those proofs are reported as not checked).
-
-It prints one line per item and ends with "all checks passed" or with the
-list of failures. Exit status 0 means that every check passed.
-"""
+If SHA256SUMS.txt is present, the checker verifies all files before checking
+the selected items. Each item reports its result, including any DRAT proof
+skipped because drat-trim was unavailable."""
 import argparse
 import hashlib
 import importlib
@@ -87,7 +78,7 @@ def check_checksums(root):
 def main():
     if not __debug__:
         raise SystemExit('Run this checker without the option -O: its checks use assert statements.')
-    ap = argparse.ArgumentParser(description='Check every witness of the supplemental data.')
+    ap = argparse.ArgumentParser(description='Check the graphs, witnesses and counts in the supplemental data.')
     ap.add_argument('root', help='the supplemental data folder')
     ap.add_argument('--items', help='comma-separated items to check (default: all)')
     a = ap.parse_args()

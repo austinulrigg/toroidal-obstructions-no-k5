@@ -1,26 +1,9 @@
-"""Build the lists of graphs for the genus computations from the supplemental data.
+"""Rebuild the genus inputs from O1 and E1–E29.
 
-    python build_inputs.py "/path/to/Supplemental Data"
+    python build_inputs.py ../supplemental_data
 
-The obstructions are T1, ..., T74, with the graph6 strings of item O1.
-
-The nontoroidal graphs of the enumerations are the nontoroidal graphs the
-enumerations use whose nontoroidality is not certified inside the
-supplemental data:
-  * the one-edge minors given by a verdict "proper nontoroidal minor" whose
-    witness names only the edge deleted or contracted (in E2, also the three
-    whose recorded reason is the genus computation), including those of the
-    whole graphs recorded in E7;
-  * the recorded nontoroidal graphs of the coverings E4 and E12;
-  * the combinations of E19, and its auxiliary combinations, whose
-    nontoroidal status is used to exclude larger combinations.
-Each graph is rebuilt from the files of the item, isomorphic copies are
-merged by the canonical form of nauty's labelg (path in the environment
-variable LABELG, or labelg on the PATH), and every use is recorded.
-
-Writes obstructions.txt, enumeration_graphs.txt (index, canonical graph6,
-vertices, edges, number of uses), enumeration_graph_uses.json.gz and
-inputs_summary.json in this folder.
+The enumeration graphs are indexed by their canonical graph6 strings from
+nauty's labelg. Each index records every candidate that uses the graph.
 """
 import gzip
 import json
@@ -127,7 +110,8 @@ def main(data):
                                               *w['edge'])
         return u
 
-    for item in sorted(os.listdir(E), key=lambda s: int(s[1:])):
+    for number in range(1, 30):
+        item = f'E{number}'
         d = os.path.join(E, item)
         cands = {c['id']: c for c in load(os.path.join(d, 'candidates.json'))['candidates']}
         verds = load(os.path.join(d, 'verdicts.json'))['verdicts']

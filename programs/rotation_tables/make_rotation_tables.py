@@ -1,20 +1,12 @@
-"""The rotation tables R1-R12 (folder rotations of the data folder).
+"""Generate the rotation tables R1-R12.
 
-For each graph of a table, every rotation system is run through: its facial
-walks are traced, its genus computed, and the attachment sequence of each
-facial walk recorded (rotlib.py). The rows, and every statement the text makes
-about the table, are written in the format of the data folder; a statement
-that fails stops the program. The passages of the paper quoted in each file
-are read from ../paper_text.json.
+    python make_rotation_tables.py OUTPUT_FOLDER
+    python make_rotation_tables.py OUTPUT_FOLDER R1 R5
 
-Usage:
-    python make_rotation_tables.py OUTPUT_FOLDER            (all twelve tables)
-    python make_rotation_tables.py OUTPUT_FOLDER R1 R5      (some of them)
-
-The files are written to OUTPUT_FOLDER/rotations. R4 takes a few minutes and
-R8 about a quarter of an hour. Then compare them with the data folder:
-    python ../compare_files.py ../../supplemental_data OUTPUT_FOLDER rotations
-"""
+For each rotation system, trace the facial walks, compute the genus and
+record the attachments in boundary order. Check the claims listed in each
+table and write the tables to OUTPUT_FOLDER/rotations. The quoted passages
+are in ../paper_text.json. R7 accompanies an earlier proof of Lemma 6.14."""
 import gzip
 import itertools
 import json
@@ -25,7 +17,7 @@ from collections import Counter, defaultdict
 
 from rotlib import *
 from rgraphs import *
-from make_R12 import generate as build_R12
+from make_R12 import HOW_TO_READ, generate as build_R12
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = None                         # set by main()
@@ -57,21 +49,6 @@ def write(relpath, obj):
         with open(path, 'wb') as f:
             f.write(data)
     return path, len(data), os.path.getsize(path)
-
-
-HOW_TO_READ = (
-    "For each graph: 'cyclic orders' lists, for every vertex, all cyclic orders of its neighbours, each starting "
-    "with its alphabetically first neighbour (the other neighbours follow in every possible order, in lexicographic "
-    "order). Rotation system number i (counting from 0) takes at each vertex the cyclic order whose position is the "
-    "corresponding digit of i, written in the mixed radix given by the numbers of cyclic orders in the order of "
-    "'vertices', the last vertex varying fastest (the order of Python's itertools.product). Facial walks are traced "
-    "by the rule used throughout the supplement: after the dart u->v comes v->w, where w follows u in the cyclic "
-    "order at v. The genus is (2 - V + E - F)/2. The attachment sequence of a facial walk lists the attachments it "
-    "passes through, in walk order, one entry per passage; it is written from its lexicographically least cyclic "
-    "shift, keeping the direction of the walk, and the faces of a row are sorted. Since many rotation systems give "
-    "the same row, the distinct rows are listed once under 'distinct rows' and 'rows' gives, for every rotation "
-    "system in order, the position of its row in that list. 'Up to cyclic shift and reversal' in the claims means "
-    "the least sequence among all cyclic shifts of the sequence and of its reverse.")
 
 
 def S(m):

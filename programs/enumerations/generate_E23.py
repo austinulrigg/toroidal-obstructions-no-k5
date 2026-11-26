@@ -1,24 +1,19 @@
-"""E23: another bridge with all three two-edge completions nonplanar (Lemma 6.14).
+"""E23: the second bridge C in an earlier proof of Lemma 6.14.
 
-The program's names: p1, p2 are the twins on abc and q1, q2 those on ade.
-A component W has neighbourhood {a, c, d, e}, contracted to a vertex w.
-For another bridge C on each triple, the proof gives an exterior and a
-completion of C that must be planar if G is toroidal:
+Here p1, p2 are the twins on {a, b, c}, and q1, q2 are the twins on {a, d, e}.
+Contract the component on {a, c, d, e} to w. For each attachment triple of C,
+Construction 3.18 uses the added edges shown below.
 
-    C on   G                    completion that must be planar
-    abd    Psi_3 + w + C        C + ab + ad
-    ade    Psi_3 + w + C + bd   C + ad + ae
-    acd    Psi_3 + w + C + bd   C + ac + ad
-    bcd    Psi_3 + w + C        C + bc + bd + cd
+    Triple    Graph                 Completion
+    abd       Psi_3 + w + C         C + ab + ad
+    ade       Psi_3 + w + C + bd    C + ad + ae
+    acd       Psi_3 + w + C + bd    C + ac + ad
+    bcd       Psi_3 + w + C         C + bc + bd + cd
 
-(C on abc is excluded in the proof by the two-cut {a, c}.) C is a part of
-Construction 3.18 with the triple as attachments and the added edges of
-the table. Every graph is classified (enumeration.classify); the data
-folder keeps the case C on abd, which the proof cites. The proof finds no
-obstruction here.
+The generator classifies the graphs for all four triples. The published
+data in E23 contain the abd case. The current proof uses R10.
 
-Run as: python generate_E23.py FOLDER
-"""
+    python generate_E23.py FOLDER"""
 import json
 import sys
 

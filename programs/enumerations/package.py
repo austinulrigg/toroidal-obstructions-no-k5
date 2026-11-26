@@ -1815,12 +1815,10 @@ def package_E3(work, out):
 
 
 COVER_INPUT = {
-    'what this shows': 'Every assembly allowed by the base clauses either lies inside a recorded toroidal graph, so '
-                       'it is toroidal, or contains a recorded nontoroidal graph. An obstruction of the case '
-                       'therefore equals a recorded nontoroidal graph in the family, and the verdicts of those give '
-                       'the stated list.',
-    'not in this item': 'The recorded nontoroidal graphs come with no certificate of nontoroidality here; their genus '
-                        'computations are part of the table of genus computations cited in Appendix A.'}
+    'what this shows': 'Each allowed assembly is a subgraph of a recorded toroidal graph or contains a recorded '
+                       'nontoroidal graph. By minor minimality, each obstruction in the case is one of the '
+                       'recorded nontoroidal graphs.',
+    'not in this item': 'The genus computations in genus/ certify the recorded nontoroidal graphs (Appendix A).'}
 
 
 def form_name(form, roles, R):

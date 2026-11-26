@@ -1,18 +1,12 @@
-"""Compare files written by a program with the data folder.
+"""Compare regenerated files with the corresponding supplemental data.
 
     python compare_files.py DATA_FOLDER OUTPUT_FOLDER [SUBFOLDER ...]
 
-Every file under OUTPUT_FOLDER/SUBFOLDER (all of OUTPUT_FOLDER if no subfolder
-is given) is compared with the file of the same name in DATA_FOLDER: first
-byte for byte, then, if the bytes differ, as JSON content (a .json.gz file is
-read decompressed), so that a difference in formatting alone is reported as
-such. The order of the keys of a JSON object is formatting, and so are values
-under the key "seconds" (running times, which differ from run to run). For a
-file whose content differs, the places where it differs are counted, and the
-report says whether they all lie in rotation systems (the torus embeddings of
-toroidal graphs, which can differ from run to run; see README.md). Files of
-the data folder that the output lacks are listed too.
-"""
+Compare files byte for byte, then compare the contents of JSON files that
+differ (including compressed JSON). Key order, formatting and values under
+the key "seconds" do not affect the result. Report differences confined to
+rotation systems separately. Missing, extra or otherwise different files
+give a nonzero exit status."""
 import gzip
 import json
 import os

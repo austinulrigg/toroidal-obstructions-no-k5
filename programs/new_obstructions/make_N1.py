@@ -1,18 +1,13 @@
-"""Rebuild N1 from the bundled website evidence, preserving N1.1-N1.13.
+"""Generate N1 from the 120 published website records.
 
-    python programs/new_obstructions/make_N1.py OUTPUT_FOLDER
-    python programs/new_obstructions/make_N1.py OUTPUT_FOLDER --recompute
-    python programs/new_obstructions/make_N1.py OUTPUT_FOLDER --page
+    python programs/new_obstructions/make_N1.py OUTPUT_FOLDER [--recompute | --page]
 
-The default imports the 120 published records in N1_sources.json.gz and
-recomputes connectivity, nauty canonical forms and invariant comparisons with
-the full Myrvold topological collection. The checker validates the imported
-embeddings, K5 models, graph operations and recorded exact-search inputs and
-outputs. With --recompute, multi_genus reruns the exact genus computation for
-every graph, every deletion, every contraction of a minor obstruction, and
-one nontoroidal contraction for each remaining graph. --page additionally
-reruns PAGE on the 120 graphs. All runs write the same imported witnesses.
-"""
+Retain the original N1.1-N1.13 records, compute canonical forms with nauty
+and compare graph invariants with the Myrvold-Woodcock topological collection.
+With --recompute, multi_genus computes the genus of each graph, each edge
+deletion, every edge contraction of a minor obstruction, and one nontoroidal
+contraction of each remaining graph. With --page, also run PAGE on the 120
+graphs. All three runs write the published witnesses."""
 import json
 import os
 import shutil

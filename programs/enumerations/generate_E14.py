@@ -1,22 +1,17 @@
-"""E14: a cut {a, c, w} with b and d in different components, D missing a (Proposition 5.27).
+"""E14: the case D = {d} with edge dw in an earlier proof of Proposition 5.27.
 
-The program's names: p, q are the twins on {a, c, w} (p', q' in the paper),
-t0, t1 the twins on abc and t2, t3 those on abd; U is the paper's H_b, on
-the attachments b, c, w, and r is the paper's x, the vertex formed by
-contracting cw. As in the proof, D = {d} with the edge dw, U + cw is
-planar, and Lemma 2.7 makes (U + cw + bc)/cw nonplanar.
+Here p, q are the twins on {a, c, w}, t0, t1 those on {a, b, c} and t2, t3
+those on {a, b, d}. The bridge U has attachments b, c, w. Contracting cw
+in U + cw + bc gives a nonplanar graph with b adjacent to the merged vertex r.
 
-Construction 3.18 with attachments b, r and the added edge br, which the
-retained K3,3 subdivision must use. Each edge at r is assigned back to c
-or to w in every possible way, and c or w without an interior neighbour
-gets one, in every possible way. The bridges are compared up to
-isomorphism fixing b, c, w. G = Psi_2 + p, q on acw + U + dw, and every G
-is classified (enumeration.classify). Each candidate also records whether
-U + cw is planar and U + cw + bw, U + cw + bc are nonplanar, the case of
-the proof. The proof finds no obstruction here.
+Construction 3.18 on b, r gives the candidates with br in the retained K3,3
+subdivision. Assign each edge at r back to c or w. If either vertex has no
+interior neighbor, try each possible neighbor there. Compare the bridges up
+to isomorphism fixing b, c, w. For each one, classify the graph obtained by
+adding Psi_2, the twins on {a, c, w} and dw. Record whether U + cw is planar
+and both U + cw + bw and U + cw + bc are nonplanar.
 
-Run as: python generate_E14.py FOLDER
-"""
+    python generate_E14.py FOLDER"""
 import itertools
 import json
 import sys
