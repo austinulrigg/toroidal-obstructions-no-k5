@@ -4,7 +4,7 @@
  "paper text": [
   {
    "where": "Proposition 5.24 (proof)",
-   "text": "As in Proposition~\\ref{r2:ab-cut-outcome}, discard any form having a proper allowed minor that preserves its neighborhood, the required connectivity and which completions in its row are planar. For each row, combine the retained forms of $B_1,B_2$ with all permitted original edges, and restore $p',q'$ at $X$ and $\\Psi_2$ at $a,b,c,d$. The checks in~\\supp{E13} exclude all $1{,}229$ resulting candidates. Thus the two-component case gives no obstruction, and the one-component and three-component cases give precisely the six graphs in the statement.\n\\end{proof}"
+   "text": "As in Proposition~\\ref{r2:ab-cut-outcome}, we discard a form\nif a single allowed deletion or contraction preserves its neighborhood\nin $X$, the required connectivity and the planarity conditions in its row.\nCombining the remaining forms of $B_1,B_2$ with the permitted\noriginal edges, $p',q'$ with neighborhood $X$, and $\\Psi_2$\ngives $1{,}229$ candidates up to isomorphism. Each is toroidal, has a\n$K_5$ minor, has a cut of at most two vertices, or has a proper\nnontoroidal minor~\\supp{E13}."
   }
  ],
  "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with {a,b,d}; p', q' have neighbourhood X = {a,u,v}. Interior vertices of D_1 start with R and those of D_2 with D.",

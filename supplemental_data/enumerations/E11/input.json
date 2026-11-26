@@ -4,7 +4,7 @@
  "paper text": [
   {
    "where": "Lemma 5.17 (proof)",
-   "text": "If $m=1$, then $D$ is the star with center $x_1$ and leaves $b,c,d$. The center is adjacent to both $u,v$, or to one of them while one of $b,c,d$ is adjacent to the other. If $m=2$, the degrees of $x_1,x_2$ in $D$ sum to four, so both have degree two. Their neighborhoods in $\\{b,c,d\\}$ meet in one vertex and together contain all three. Thus $D$ is the path $g_1x_1g_2x_2g_3$ for some ordering $g_1,g_2,g_3$ of $b,c,d$. The vertices $x_1,x_2$ are adjacent to different vertices of $\\{u,v\\}$, or both are adjacent to one and one of $b,c,d$ is adjacent to the other. These choices give the $31$ forms checked in~\\supp{E11}, leaving exactly $\\mathfrak T_{40},\\mathfrak T_{53},\\mathfrak T_{56},\\mathfrak T_{73}$.\n\\end{proof}"
+   "text": "For each of the three choices of $g_2$, there are two ways to join\n$x_1,x_2$ to different vertices of $\\{u,v\\}$. If both are adjacent\nto the same vertex, we have two choices for that vertex and three\nchoices for the attachment in $\\{b,c,d\\}$ adjacent to the other.\nThis gives $3(2+2\\cdot3)=24$ path forms. Together with the seven\nstars, these are the $31$ forms checked in~\\supp{E11}, leaving\nexactly $\\mathfrak T_{40},\\mathfrak T_{53},\\mathfrak T_{56},\\mathfrak T_{73}$."
   }
  ],
  "vertex names": "Psi_2 with twins p, q on {a, b, c} and r, z on {a, b, d}, as in Section 5. The bridge B has attachments a, b, c, d and contains u, v and the twins p', q' with neighbourhood X = {a, u, v}. The vertices of M are m (star) or m1, m2 (path g1 m1 g2 m2 g3).",

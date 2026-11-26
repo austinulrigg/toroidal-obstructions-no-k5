@@ -1,9 +1,9 @@
 {
  "item": "E14",
- "where": "Proposition 5.27",
+ "where": "Proposition 5.27 (earlier proof)",
  "paper text": [
   {
-   "where": "Proposition 5.27 (proof)",
+   "where": "Proposition 5.27 (earlier proof)",
    "text": "The triangle completion of $B_b$ is three-connected by Lemma~\\ref{lem:triangle-completion}, since $D_b-b$ is a component of $G-\\{b,c,w\\}$. It is a minor of $G$, using the internally disjoint paths $bpc$, $bqap'w$ and $cq'w$ for $bc,bw,cw$, so it has no $K_5$ minor. While $D_b$ keeps its neighbors at $c,w$, the four tests depend on $B_b$ only through $B_b+cw+bw$ and $B_b+cw+bc$. Replacing $B_b$ by a proper allowed minor gives an allowed minor of $B$, since its interior stays adjacent to $w$, the vertices $a,c$ keep $p',q'$, and $d$ keeps $w$. By minimality, no such minor keeps both completions nonplanar. Lemma~\\ref{core:two-cap-critical}, with $c,w,b$ as $x,y,z$, therefore makes $B_b$ either $Q(b;c,w)$ or one of the two four-cycle forms. The enumeration~\\supp{E14} applies Construction~\\ref{common:marked-construction} after identifying $c,w$ to a vertex $x$, with attachments $b,x$ and added edge $bx$. It then splits $x$ back into $c,w$, assigning each original edge at $x$ to one of them and adding an edge to an interior vertex at whichever has no interior neighbor. With $\\Psi_2$, $p',q'$ and $dw$, the three forms above are among its $24$ candidates. Each has a cut of at most two vertices or a proper nontoroidal minor."
   }
  ],

@@ -500,7 +500,7 @@ def build_R4():
                 {'pairs containing c and d': sorted(pairs_cd), 'walks with three attachments or both c, d':
                  single_bad},
                 set(planar) == {six} and not single_bad and
-                pairs_cd == {'ac | bd', 'ad | bc', 'ac | ad', 'bc | bd'}, where='Lemmas 5.30 and 5.32'))
+                pairs_cd == {'ac | bd', 'ad | bc', 'ac | ad', 'bc | bd'}, where='Lemmas 5.30, 5.32 and 6.20'))
             claims.append(claim(
                 'There are 576 rotations of Psi_2; 80 of genus one have a facial walk containing both c and d, and in '
                 'every face of these rotations containing at least three attachment labels, no two labels alternate '
@@ -515,7 +515,7 @@ def build_R4():
                 tests['abcad']['edges of H'] == ['ab', 'ac', 'ad', 'bc'] and
                 tests['abdbc']['edges of H'] == ['ab', 'ac', 'bc', 'bd'] and
                 tests['acbd']['edges of H'] == ['ac', 'ad', 'bc', 'bd'], where='Lemma 5.3'))
-    return {'item': 'R4', 'where': 'Lemma 5.3 (proof), Lemma 5.29 (proof), Lemma 5.30 (proof) and Lemma 5.32 (proof)',
+    return {'item': 'R4', 'where': 'Lemmas 5.3, 5.29, 5.30, 5.32 and 6.20 (proofs)',
             'paper text': paper_passages('R4', before=12, after=10),
             'what': 'Every rotation system of Psi_2 with n_c vertices of neighbourhood {a,b,c} (p, q, and p3 when '
                     'n_c = 3) and n_d of neighbourhood {a,b,d} (r, z, and r3 when n_d = 3), for (n_c, n_d) = (2, 2), '
@@ -629,7 +629,7 @@ def build_R7():
                      'walks containing a, b, d, retaining a, b, d': counter_dict(st['abd']),
                      'the same walks retaining a, b, c, d, e': counter_dict(st['raw'])},
                     by_genus.get(0, 0) == 0 and set(st['abd']) == {'abad'})]
-    return {'item': 'R7', 'where': 'Lemma 6.14 (proof)', 'paper text': paper_passages('R7', before=8, after=4),
+    return {'item': 'R7', 'where': 'Lemma 6.14 (earlier proof)', 'paper text': paper_passages('R7', before=8, after=4),
             'what': 'Every rotation system of Psi_3 + w with N(w) = {a,c,d,e}. Attachments a, b, c, d, e; twins and '
                     'w omitted. The claim retains a, b, d, the attachments of B_1.',
             'how to read': HOW_TO_READ, 'graphs': [rec], 'claims': claims}
@@ -770,7 +770,7 @@ def build_R10():
     claims = [claim('Enumerating all rotations of each exterior gives no planar rotations. The genus-one facial walks '
                     'containing a, b, d have sequence abad, with abd also possible for the {a,c,d} exterior.',
                     comp, ok)]
-    return {'item': 'R10', 'where': 'Lemma 6.19 (proof)', 'paper text': paper_passages('R10', before=8, after=6),
+    return {'item': 'R10', 'where': 'Lemmas 6.14 and 6.19 (proofs)', 'paper text': paper_passages('R10', before=8, after=6),
             'what': 'Every rotation system of the exteriors Psi_3 + ce + v with N(v) = {a,b,c}, {a,d,e}, {a,c,d}, '
                     'and Psi_3 + v with N(v) = {c,d,e}. Attachments a, b, c, d, e; twins and v omitted.',
             'how to read': HOW_TO_READ, 'graphs': graphs, 'claims': claims}

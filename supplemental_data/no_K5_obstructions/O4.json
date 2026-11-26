@@ -1,6 +1,6 @@
 {
  "item": "O4",
- "what": "The Myrvold-Woodcock collection of torus obstructions, and the comparison with T1,...,T74. Each line of the collection is n followed by the upper triangle of the adjacency matrix, row by row; entries are numbered from 1. For each of T1,...,T73, the entry it equals and an isomorphism from T_i (vertex numbers as in O1) onto that entry. T74 is not in the collection.",
+ "what": "The Myrvold-Woodcock collection of torus obstructions, and the comparison with T1,...,T74. Each line of the collection is n followed by the upper triangle of the adjacency matrix, row by row; entries are numbered from 1. For each of T1,...,T73, an isomorphism from T_i (vertex numbers as in O1) onto its entry in the collection. T74 is not in the collection.",
  "collection": {
   "entries": 17535,
   "lines": [

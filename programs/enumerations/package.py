@@ -26,9 +26,9 @@ WHERE = {
     'E4': 'Proposition 4.24', 'E5': 'Proposition 4.25', 'E6': 'Proposition 4.28',
     'E7': 'Lemma 4.29 and Proposition 4.30', 'E8': 'Proposition 5.9', 'E9': 'Lemma 5.8',
     'E10': 'Proposition 5.16', 'E11': 'Lemma 5.17', 'E12': 'Proposition 5.24',
-    'E13': 'Proposition 5.24, the case of two components', 'E14': 'Proposition 5.27', 'E15': 'Proposition 5.27',
+    'E13': 'Proposition 5.24, the case of two components', 'E14': 'Proposition 5.27 (earlier proof)', 'E15': 'Proposition 5.27',
     'E16': 'Lemma 5.26', 'E17': 'Lemma 5.28', 'E18': 'Lemma 5.30', 'E19': 'Proposition 5.33',
-    'E20': 'Proposition 6.8', 'E21': 'Lemma 6.11', 'E22': 'Proposition 6.13', 'E23': 'Lemma 6.14',
+    'E20': 'Proposition 6.8', 'E21': 'Lemma 6.11', 'E22': 'Proposition 6.13', 'E23': 'Lemma 6.14 (earlier proof)',
     'E24': 'Lemma 6.15', 'E25': 'Proposition 6.16', 'E26': 'Lemma 6.18', 'E27': 'Lemma 6.19',
     'E28': 'Lemma 6.19', 'E29': 'Proposition 6.25',
 }
@@ -416,6 +416,10 @@ def package_whole(label, work, out):
             k: rel_spec({kk: vv for kk, vv in v.items() if kk != 'kind'}, R) for k, v in conditions.items()}
     if lattice is not None:
         inp['lattice'] = rel_spec(lattice, R)
+        # The auxiliary rotations and isomorphisms also use vertices as dictionary keys.
+        for raw, named in zip(lattice['auxiliary'], inp['lattice']['auxiliary']):
+            vertex_names = {v: R.v(v) for v in raw['graph']['vertices']}
+            named['outcome'] = remap_outcome(raw['outcome'], vertex_names)
     summary = {'item': label, 'where': WHERE[label], 'candidates': len(cands), 'verdicts': verdict_counts(verdicts),
                'isomorphic to T_i (copies)': dict(sorted(isos.items(), key=lambda kv: by_num(kv[0]))),
                'graphs T_i not excluded by a hypothesis of the case': remaining}
@@ -489,10 +493,10 @@ SWAP = {'E6': {'sx': 'tx', 'tx': 'sx', 'sy': 'ty', 'ty': 'sy'},
 FACTS = {
     'path completion nonplanar': (
         'the path completion B + s_y s_x + s_x t_x + t_x t_y is nonplanar',
-        'The proof chooses the planar path completion: "Some path completion of B is planar, say B ∪ s_y s_x t_x t_y."'),
+        'The labels are chosen so that the path completion B ∪ s_y s_x t_x t_y is planar.'),
     'disjoint sx-ty and sy-tx paths': (
         'B has disjoint s_x-t_y and s_y-t_x paths',
-        'The proof shows: "Also, B has no disjoint s_x–t_y and s_y–t_x paths."'),
+        'Lemma 4.7 excludes vertex-disjoint s_x–t_y and s_y–t_x paths in B.'),
     'degree-three vertex with adjacent neighbors (Lemma 3.4(a))': (
         'an interior vertex of degree three has two adjacent neighbours',
         'Lemma 3.4(a); the edges added in the test graph are edges of G.'),
@@ -501,7 +505,7 @@ FACTS = {
         'Three-connectivity of B ∪ K_4[attachments], used with Construction 3.18.'),
     'U + ac + bd nonplanar': (
         'B + ac + bd is nonplanar',
-        'The proof shows: "The graph B + ac + bd is planar."'),
+        'Lemma 4.29 shows that B + ac + bd is planar.'),
     'U + K4[abcd] has a cut of order at most two': (
         'B plus all edges among a, b, c, d has a cut of at most two vertices',
         'Three-connectivity of B ∪ K_4[{a,b,c,d}], used with Construction 3.18.'),

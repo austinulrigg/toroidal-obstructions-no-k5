@@ -2,7 +2,7 @@
 
 This repository accompanies the paper "Toroidal Obstructions with No K5 Minor" by Austin Ulrigg. It holds the supplemental data of the paper, the genus computations of its Appendix A, the programs that make the data, and a checker for the data.
 
-The folder `supplemental_data` holds every item the paper cites: O1–O4, W1–W16, R1–R12, E1–E30, TO1, TO2 and N1, each under its own name in the subfolder given by its letters. N1 includes the 120 topological obstructions in the website release of November 11, 2026 that are absent from Myrvold’s collection, including 22 minor obstructions. Its `README.md` describes the files and the kinds of witness they contain, and `SHA256SUMS.txt` gives the SHA-256 checksum of every file.
+The [guide to the paper's supplemental references](PAPER-REFERENCES.md) gives the place in the paper where each item is used and links to its data. The folder `supplemental_data` contains O1–O4, W1–W16, R1–R12, E1–E30, TO1, TO2 and N1. N1 includes the 120 topological obstructions in the website release of November 11, 2026 that are absent from the Myrvold–Woodcock collection of 250,815 topological obstructions. Of these 120 graphs, 22 are minor obstructions. The [data guide](supplemental_data/README.md) describes the files and witnesses, and [SHA256SUMS.txt](supplemental_data/SHA256SUMS.txt) gives their checksums.
 
 The folder `genus` holds the genus computations. Both PAGE and multi_genus compute the genus of the 74 obstructions T1, ..., T74. multi_genus computes the genus of the 311,739 nontoroidal graphs, up to isomorphism, that the enumerations use without another certificate. The results, with the running times, are in `genus/results/TABLES.md`, and `genus/README.md` says how to run the computation again.
 

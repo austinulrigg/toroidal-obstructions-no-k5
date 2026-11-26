@@ -4,7 +4,7 @@
  "paper text": [
   {
    "where": "Proposition 4.25 (proof)",
-   "text": "Finally, apply Construction~\\ref{common:marked-construction}\nwith the six choices of $H_{\\mathrm{ext}}$, the added edges\n$ac,bd$, and the required subdivision edges and planar\ncompletions established above. This lists every possible $B$.\nRestoring the twin subgraphs $J_1\\cup J_2$, the edges $cf,ed$,\nand the chosen exterior configuration gives the $1{,}586$ candidates for\n$G$. The checks in~\\supp{E5} leave only\n$G\\cong\\mathfrak T_{21}$ or $G\\cong\\mathfrak T_{63}$.\n\\end{proof}"
+   "text": "Apply Construction~\\ref{common:marked-construction} to each of\nthe six choices of $H_0$, using the required subdivision edges\nand planarity conditions above. Adding $J_1\\cup J_2$, the edges\n$cf,ed$, and the chosen additions to each candidate for $B$ gives\n$1{,}586$ candidates for $G$. Each has a $K_5$ minor, a cut of at\nmost two vertices, or a proper nontoroidal minor, except for\n$\\mathfrak T_{21}$ and $\\mathfrak T_{63}$~\\supp{E5}."
   }
  ],
  "vertex names": "Section 4.7, type (c): a = s1, b = t1, c = s2, d = t3, e = s3, f = t2; twins p, q with neighbourhood {a,c,e} and r, z with {b,d,f}.",

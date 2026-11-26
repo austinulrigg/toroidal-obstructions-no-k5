@@ -12,6 +12,7 @@ Each module checks one group of items, and its opening comment lists what it che
 | `items_new_obstructions.py` | expanded N1 with 120 graphs |
 | `items_witnesses.py` | W1–W16 |
 | `items_rotations.py` | R1–R11 |
+| `items_rotation_R12.py` | R12 |
 | `items_bridges.py` | E1, E2, E3, E6, E7, E11 |
 | `items_coverings.py` | E4, E12 |
 | `items_enumerations_a.py` | E5, E8, E9, E10, E13–E18 |

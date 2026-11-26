@@ -92,10 +92,9 @@ files and O1 (for the graphs T1, ..., T74) are read. For every item:
     or an isomorphism onto Ti always has it. The auxiliary combinations are
     all stars, outside the domain, recorded once and not among the candidates,
     and each graph is rebuilt from its forms; a 'nontoroidal' status is
-    witnessed by an isomorphism onto the named Ti (the recorded map, or one
-    found by search when the map does not name the vertices of the graph) or
-    left to the genus computations; their other recorded outcomes are checked where
-    they name only vertices of their graph. Then every combination of the
+    witnessed by the recorded isomorphism onto the named Ti or left to the
+    genus computations; their other recorded outcomes are checked on the
+    named graph. Then every combination of the
     domain is visited, smaller combinations first: each one not recorded must
     contain a smaller combination (fewer forms, or the same forms without cd)
     with status 'violation' or 'nontoroidal', as the text's argument requires;
@@ -637,9 +636,8 @@ def find_isomorphism(G, H, fixed=()):
 
 
 def e19_auxiliary(inp, forms, cat, rec_keys, cand_ids):
-    """The stars-only combinations recorded for the exclusions. Returns, for
-    each, its key and flags, and notes on witnesses that could not be read."""
-    out, unreadable, searched = [], [], 0
+    """Check the stars-only combinations recorded for the exclusions and return their keys and flags."""
+    out = []
     seen = set()
     for a in inp['lattice']['auxiliary']:
         aid = a.get('id')
@@ -662,7 +660,7 @@ def e19_auxiliary(inp, forms, cat, rec_keys, cand_ids):
             need(status in ('nontoroidal', 'toroidal, no violation'), 'status', status, 'has no fact to check')
             o = a['outcome']
             k = o.get('outcome')
-            readable, iso_ok = True, False
+            iso_ok = False
             if k == 'cut of order at most two':
                 check_cut(adj, o['cut'])
             elif k == 'proper nontoroidal minor':
@@ -676,30 +674,18 @@ def e19_auxiliary(inp, forms, cat, rec_keys, cand_ids):
                 for p in o['embedding']:
                     rot.update(p['rotation'])
                     g += p['genus']
-                if set(rot) == set(adj):
-                    check_embedding(adj, {'type': 'embedding', 'genus': g, 'rotation': rot}, at_most=1)
-                else:
-                    readable = False
+                check_embedding(adj, {'type': 'embedding', 'genus': g, 'rotation': rot}, at_most=1)
             elif k == 'catalogue graph':
                 need(status == 'nontoroidal', 'an isomorphism onto Ti with status', status)
                 need(o['catalogue'] in cat, 'unknown graph', o['catalogue'])
                 T = cat[o['catalogue']]
-                if set(o['map']) == set(adj):
-                    check_iso(adj, T, {x: as_vertex_of(T, y) for x, y in o['map'].items()})
-                else:
-                    readable = False
-                    need(find_isomorphism(adj, T) is not None, 'the graph is not isomorphic to', o['catalogue'])
+                check_iso(adj, T, {x: as_vertex_of(T, y) for x, y in o['map'].items()})
                 iso_ok = True
             else:
                 raise CheckFailed('unknown outcome %s' % k)
-            return key, status, iso_ok, readable, k
-        key, status, iso_ok, readable, k = guarded('E19 auxiliary combination %s' % aid, one)
-        if not readable:
-            unreadable.append((aid, k))
-            if k == 'catalogue graph':
-                searched += 1
-        out.append((key, status, iso_ok))
-    return out, unreadable, searched
+            return key, status, iso_ok
+        out.append(guarded('E19 auxiliary combination %s' % aid, one))
+    return out
 
 
 def e19_lattice(inp, forms, cat, t):
@@ -734,7 +720,7 @@ def e19_lattice(inp, forms, cat, t):
             flags[cd][c] |= BAD | NT | REC | (WIT if witnessed else 0)
     rec_keys = {(r[2], r[1]) for r in t.e19_rows}
     cand_ids = {r[0] for r in t.e19_rows}
-    aux, unreadable, searched = e19_auxiliary(inp, forms, cat, rec_keys, cand_ids)
+    aux = e19_auxiliary(inp, forms, cat, rec_keys, cand_ids)
     aux_nt = aux_nt_wit = 0
     for (cd, ms), status, iso_ok in aux:
         if status == 'nontoroidal':
@@ -817,12 +803,6 @@ def e19_lattice(inp, forms, cat, t):
                       fmt(cnt['recorded, already excluded']), hit[0]))
     t.notes.append('nontoroidal statuses left to the genus computations: %d of %d recorded, %d of %d auxiliary'
                    % (rec_nt - rec_nt_wit, rec_nt, aux_nt - aux_nt_wit, aux_nt))
-    if unreadable:
-        kinds = Counter(k for _, k in unreadable)
-        t.notes.append('%d auxiliary witnesses name vertices not in their graph (%s; first %s): the %d isomorphisms '
-                       'onto Ti were found again by search, the torus embeddings belong to combinations not used '
-                       'for exclusions' % (len(unreadable), ', '.join('%d %s' % (n, k) for k, n in sorted(kinds.items())),
-                                            unreadable[0][0], searched))
 
 
 # ---------------------------------------------------------------- E29

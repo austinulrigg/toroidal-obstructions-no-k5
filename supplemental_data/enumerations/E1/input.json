@@ -4,7 +4,7 @@
  "paper text": [
   {
    "where": "Lemma 4.10 (proof)",
-   "text": "Therefore replacing $H_1$ by $H_1'$ gives a nontoroidal graph. Corollary~\\ref{common:reduced-forms}, with attachments $A$ and added edges $E$, gives the $26{,}633$ possible forms of $H_1$. Adjoining $H_2$ to each gives all possible $G$, and \\supp{E1} excludes them all. Hence no bridge contains such a path.\n\\end{proof}"
+   "text": "Thus replacing $H_1$ by $H_1'$ gives a nontoroidal graph.\nBy Corollary~\\ref{common:reduced-forms}, $H_1$ is among the\ncandidates with attachment set $A$ and added edges $E$.\nOf the $26{,}633$ candidates, $14$ are excluded because they have no\nvertex-disjoint $s_1$--$t_1$ and $s_2$--$t_2$ paths. For every other\ncandidate, adjoining $H_2$ gives a graph with a $K_5$ minor, a cut\nof at most two vertices, or a proper nontoroidal minor~\\supp{E1}.\nHence no bridge contains such a path."
   }
  ],
  "vertex names": "Psi_1 as in Section 4: twins p, q on {s1, s2, s3} and r, z on {t1, t2, t3}. Interior vertices of B are i0, i1, ...",

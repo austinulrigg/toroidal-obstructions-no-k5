@@ -4,11 +4,11 @@
  "paper text": [
   {
    "where": "Lemma 4.29 (proof)",
-   "text": "It remains to determine $B$. Shortening the paths $apc,brd$\nto $ac,bd$ and retaining $P_x=cd$ gives $K$ as a minor of\n$G$, so $K$ has no $K_5$ minor. It is nonplanar, and every\n$K_{3,3}$ subdivision in it\nuses $cd$, since $K-cd=B+ac+bd$ is planar. Let $H_0$ be the\npath $a-c-d-b$. The graph\n$B_0\\cup H_0$ is planar after every single allowed operation,\nas shown above. Corollary~\\ref{common:reduced-forms} now lists the $2{,}104$\npossible forms of $B$, with $cd$ required in the retained subdivision.\nThe enumeration~\\supp{E7} keeps those for which $B+ac+bd$\nis planar, every single allowed operation makes $B+ac+cd+bd$\nplanar, $B\\cup K_4[A]$ is three-connected, and neither $K$\nnor the minor $\\Psi_1\\cup B$ with $P_w$ shortened to $ef$\nhas a $K_5$ minor. Nine labeled bridges remain. Up to\ninterchanging $A_1,A_2$, these are the five displayed forms.\n\\end{proof}"
+   "text": "The paths $apc,brd$ and the edge $cd$ give $B\\cup H_0$ as a minor\nof $G$, so it has no $K_5$ minor. Every $K_{3,3}$ subdivision in it\nuses $cd$, since $B+ac+bd$ is planar. Corollary~\\ref{common:reduced-forms}\nwith $cd$ required gives $2{,}104$ candidates. Here $B\\cup K_4[A]$\nis three-connected, $L$ has no $K_5$ minor, and no degree-three\ninterior vertex is adjacent to both ends of $cd$ by\nLemma~\\ref{lem:independent-neighborhood}(a). With the planarity\nconditions above, the checks in~\\supp{E7} leave nine labeled\nbridges, giving the five displayed forms up to interchanging $A_1,A_2$."
   },
   {
    "where": "Proposition 4.30 (proof)",
-   "text": "\\begin{proposition}\\label{dis:type-b-reduction}\nIf $G$ has a bridge of type (b) with at least two interior vertices, then $G\\cong\\mathfrak{T}_{66}$, or the twins and paths can be chosen as at the start of this section so that one of the following holds.\n\\begin{enumerate}[label=\\textup{(\\roman*)}]\n\\item All three paths are edges.\n\\item There is a bridge of type (c) with at least two interior vertices.\n\\item Every bridge with nonempty interior has three attachments.\n\\end{enumerate}\n\\end{proposition}\n\\begin{proof}\nLet $B$ be such a bridge. After interchanging $A_1,A_2$ if\nnecessary, Lemma~\\ref{dis:type-b-forms} gives $P_x=cd$ and\nmakes $B$ one of $B_1,\\ldots,B_5$. In case (i) of that lemma,\nthe check in~\\supp{E7} gives $G\\cong\\mathfrak T_{66}$. We may therefore\nassume case (ii): every other $(J_1\\cup J_2)$-bridge attaches\nwithin $\\{c,d,e,f\\}$, and the simple-face test for\n$(P_m;s_x,t_x)$ is nonplanar. In particular, $af,eb$ are\nabsent. Write $H_{\\mathrm{simp}}$ for this test. It consists\nof $P_w$, $cd$, the other bridges, and the added edges $ce,df$.\nWe consider the five possible forms of $B$."
+   "text": "In case (i) of Lemma~\\ref{dis:type-b-forms}, the nine labeled bridges\nand the two choices of added edge give $18$ graphs. Sixteen have a\nproper nontoroidal minor and the other two are isomorphic to\n$\\mathfrak T_{66}$~\\supp{E7}. Suppose (ii) holds. Replacing $ce,df$\nin the nonplanar simple-face test by $cqe,dzf$ gives a connected\nnonplanar subgraph $S$ of $G-aq$. In a torus embedding of this proper\nminor, every face of $S$ is a disk by Lemma~\\ref{lem:torus-complement}."
   }
  ],
  "attachments": [
@@ -157,7 +157,7 @@
    },
    {
     "fact": "B + ac + bd is nonplanar",
-    "why it excludes the bridge": "The proof shows: \"The graph B + ac + bd is planar.\""
+    "why it excludes the bridge": "Lemma 4.29 shows that B + ac + bd is planar."
    },
    {
     "fact": "B plus all edges among a, b, c, d has a cut of at most two vertices",

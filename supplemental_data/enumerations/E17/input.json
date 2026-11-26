@@ -4,7 +4,7 @@
  "paper text": [
   {
    "where": "Lemma 5.28 (proof)",
-   "text": "Suppose first that every triangle completion is planar. By Lemma~\\ref{lem:flat-replacement}, every component outside $\\Psi_2$ is a single vertex. Thus $G$ is determined by the numbers of vertices with neighborhoods $\\{a,b,c\\}$, $\\{a,b,d\\}$, $\\{a,c,d\\}$ and $\\{b,c,d\\}$, together with the presence or absence of $cd$. At least two vertices have each of the first two neighborhoods, and the four counts sum to at most nine. These give the $252$ choices checked in~\\supp{E17}. Every graph except $\\mathfrak T_9,\\mathfrak T_{10},\\mathfrak T_{16}$ has a cut of at most two vertices, is toroidal, or has a proper nontoroidal minor. In all three remaining graphs, $cd$ is absent."
+   "text": "Suppose first that every triangle completion is planar. By Lemma~\\ref{lem:flat-replacement}, each component outside $\\Psi_2$ is a single vertex. There are at most five such vertices, each with neighborhood $\\{a,b,c\\}$, $\\{a,b,d\\}$, $\\{a,c,d\\}$ or $\\{b,c,d\\}$. There are $\\binom{9}{4}=126$ choices for how many have each neighborhood. With $cd$ present or absent, this gives the $252$ choices checked in~\\supp{E17}. Only $\\mathfrak T_9,\\mathfrak T_{10},\\mathfrak T_{16}$ remain, all with $cd$ absent."
   }
  ],
  "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ... Here the other vertices with a given neighbourhood are named by it, as abc2, abd2, acd0, bcd0, ....",

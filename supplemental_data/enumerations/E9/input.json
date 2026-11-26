@@ -4,7 +4,7 @@
  "paper text": [
   {
    "where": "Lemma 5.8 (proof)",
-   "text": "Construction~\\ref{common:marked-construction},\nwith attachments $x,c,d$ and added edges $xc,xd$,\nlists the reduced bridges before $x$ is separated.\nReplace each edge $xv$ by $av$ or $bv$ and add\nan edge to the interior at $a$ or $b$ if needed,\nconsidering every possible choice. This includes\nevery reduction above. Adjoin three vertices\nwith neighborhood $\\{a,b,c\\}$ and two with\nneighborhood $\\{a,b,d\\}$. The enumeration~\\supp{E9} gives $2{,}953$\ncandidates up to isomorphisms fixing the attachments.\nOf these, $2{,}159$ have a $K_5$ minor, $92$ have\na cut of at most two vertices, and $702$\nhave a proper nontoroidal minor. These exclude\nevery candidate, so $H$ cannot be planar.\n\\end{proof}"
+   "text": "Construction~\\ref{common:marked-construction} lists the reduced\nbridges on $x,c,d$. Splitting $x$ as above gives $2{,}953$ candidates\nfor $B$ up to isomorphisms fixing the four attachments. We add three\nvertices with neighborhood $\\{a,b,c\\}$ and two with neighborhood\n$\\{a,b,d\\}$ to each. Of the resulting graphs, $2{,}159$ have a $K_5$\nminor, $92$ have a cut of at most two vertices, and $702$ have a proper\nnontoroidal minor~\\supp{E9}. None can be $G$."
   }
  ],
  "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,b,d}, as in Section 5. Further vertices with these neighbourhoods are p3, ... and r3, .... Interior vertices of bridges are u0, u1, ...",

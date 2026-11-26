@@ -4,7 +4,7 @@
  "paper text": [
   {
    "where": "Proposition 5.24 (proof)",
-   "text": "Together with $p',q'$ and $\\Psi_2$, these choices give every possible $G$ in this case. The DRAT coverage check in~\\supp{E12} shows that each combination is a subgraph of a recorded toroidal graph or contains a recorded nontoroidal graph as a subgraph. Since $G$ is nontoroidal, it must contain one of the latter graphs, and by minimality it equals that graph. This leaves $\\mathfrak T_{51}$ and $\\mathfrak T_{72}$. In neither does any of $D_b-b,D_c-c,D_d-d$ consist of two single vertices."
+   "text": "Together with $p',q'$ and $\\Psi_2$, these choices give the family\nin~\\supp{E12}. The coverage check shows that each graph in this\nfamily is a subgraph of a recorded toroidal graph or contains a\nrecorded nontoroidal graph. Since $G$ is nontoroidal, it contains\none of the latter, and minimality gives equality. Among the recorded\ngraphs in this family, only $\\mathfrak T_{51}$ and $\\mathfrak T_{72}$\nremain. In both, each\n$D_g-g$ is empty or connected. Together with the one-component\ncase, these give the six graphs in the statement."
   }
  ],
  "the base graph": {

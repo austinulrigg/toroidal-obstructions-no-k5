@@ -25,9 +25,19 @@ HOW_TO_READ = (
     "system in order, the position of its row in that list. 'Up to cyclic shift and reversal' in the claims means "
     "the least sequence among all cyclic shifts of the sequence and of its reverse.")
 
-PAPER_TEXT = r"""We consider all possible embeddings of $H_2$ and a closed regular neighborhood $\mathcal N$ of it. Enumerating the rotations of $H_2$ and tracing their boundary walks gives the following~\supp{R12}. If $\mathcal N$ has genus one, no boundary walk contains all four attachments, and every complementary region is then a disk by Lemma~\ref{lem:torus-complement}, a contradiction.
+PAPER_TEXT = r"""Let $\mathcal N$ be a closed regular neighborhood of $H_2$ in the
+torus. Its genus is zero or one. In either case, no boundary walk
+contains all four attachments~\supp{R12}. The face containing
+$H_1'-A$ must therefore have at least two boundary walks. By
+Lemma~\ref{lem:torus-complement}, this face is an annulus and
+$\mathcal N$ has genus zero.
 
-If $\mathcal N$ has genus zero, no boundary walk contains all four attachments, and exactly one pair contains all four between them. Their attachment sequences are $s_1,s_2$ and $t_1,t_2$, with each attachment appearing once. Lemma~\ref{lem:torus-complement} therefore puts $H_1'-A$ in the annulus bounded by these walks, with all four attachments on its boundary. By Lemma~\ref{lem:annulus-embedding}, $H_1'+E$ is planar, a contradiction."""
+In each genus-zero rotation, exactly one pair of boundary walks
+contains all four attachments between them. One meets $s_1,s_2$
+and the other meets $t_1,t_2$, each attachment appearing once~\supp{R12}.
+Cap the two boundary circles with disks and draw $s_1s_2$ in one
+disk and $t_1t_2$ in the other. This gives a sphere embedding of
+$H_1'+E$, contradicting its nonplanarity."""
 
 
 def canonical(sequence):

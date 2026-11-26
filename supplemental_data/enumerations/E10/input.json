@@ -4,11 +4,7 @@
  "paper text": [
   {
    "where": "Proposition 5.16 (proof)",
-   "text": "\\begin{proposition}\\label{r2:ab-cut-outcome}\nIf $X=\\{a,b,w\\}$, then $G$ is isomorphic to one of $\\mathfrak T_{56},\\mathfrak T_{72},\\mathfrak T_{73}$.\n\\end{proposition}\n\\begin{proof}\nWe distinguish whether $c,d$ lie in different components of $B-X$ or in the same component. Lemmas~\\ref{r2:ab-cut-apart} and~\\ref{r2:ab-cut-same} give the possible forms of $D_c$, $D_d$ and $D_1$. For each form, discard it if a proper reduction preserves its neighborhood in $X$, the required connectivity and the planarity conditions established for that case. The check in~\\supp{E10} leaves $33$ forms for $D_c$, the same forms for $D_d$ after relabeling, and $54$ forms for $D_1$."
-  },
-  {
-   "where": "Proposition 5.16 (proof)",
-   "text": "If $c,d$ lie apart, take one retained form for $D_c$ and one for $D_d$. If exactly one component avoids $c,d$, include one of the eleven bridges of Lemma~\\ref{r2:ab-cut-single} and a permitted subset of $\\{aw,bw\\}$. If two components avoid $c,d$, include the two single vertices adjacent to all of $X$. In this case $aw,bw$ are absent by Lemma~\\ref{lem:independent-neighborhood}(a). If $c,d$ lie together, take one retained form for $D_1$ and include those same two single vertices. Keeping the combinations for which $B$ is planar leaves $1{,}471$ candidates. Of these, the obstruction check in~\\supp{E10} leaves only $\\mathfrak T_{56},\\mathfrak T_{72},\\mathfrak T_{73}$, each with exactly one component of $B-X$ avoiding $c,d$.\n\\end{proof}"
+   "text": "If $c,d$ lie apart, take one retained form for $D_c$ and one for $D_d$. If exactly one component avoids $c,d$, include one of the eleven bridges of Lemma~\\ref{r2:ab-cut-single} and a permitted subset of $\\{aw,bw\\}$. If two components avoid $c,d$, include the two single vertices adjacent to all of $X$. In this case $aw,bw$ are absent by Lemma~\\ref{lem:independent-neighborhood}(a). If $c,d$ lie together, take one retained form for $D_1$ and include those same two single vertices. These choices give $12{,}645$ graphs up to isomorphism, of which $1{,}471$ have $B$ planar. Among these the checks in~\\supp{E10} leave only $\\mathfrak T_{56},\\mathfrak T_{72},\\mathfrak T_{73}$. In each, exactly one component of $B-X$ avoids $c,d$."
   }
  ],
  "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with {a,b,d}. X = {a,b,w}. Interior vertices: U* in B_0, C* in D_c, D* in D_d, R* in D_1, k1, k2 the two singleton components.",

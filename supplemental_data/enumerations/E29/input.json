@@ -4,7 +4,11 @@
  "paper text": [
   {
    "where": "Proposition 6.25 (proof)",
-   "text": "For $n_c=n_e=2$, the construction gives $31{,}063$ candidates up to\nisomorphism fixing $a,b,c,d,e$. By\nLemma~\\ref{lem:independent-neighborhood}(a), we exclude any candidate\nhaving a degree-three vertex with two adjacent neighbors. We also\nexclude any candidate for which some choice of the four twins gives a\nbridge with four or five attachments. Both exclusions still apply when\n$n_c$ or $n_e$ increases, since each new vertex is adjacent only to\nvertices among $a,b,c,d,e$. In the first exclusion, the recorded\ndegree-three vertex lies outside these five, so it keeps the same\nthree neighbors. In the second, the four twins used in the check also\nlie outside these five, so they still define the same copy of $\\Psi_3$.\nThe old component lies in a component outside this copy that still\nhas all four or five original attachments.\n\nThis leaves $193$ candidates for $n_c=n_e=2$, giving $965$ cases\nover the five choices of $(n_c,n_e)$. Of these, $172$ are toroidal\nand $782$ have a proper nontoroidal minor. The remaining $11$ are\ncopies of the five graphs in the statement~\\supp{E29}.\n\\end{proof}"
+   "text": "For $n_c=n_e=2$, the construction gives $31{,}063$ candidates.\nOf these, $26{,}502$ have a degree-three vertex with two adjacent\nneighbors, contrary to Lemma~\\ref{lem:independent-neighborhood}(a).\nIn a further $4{,}368$, some choice of the four twins gives a bridge\nwith four or five attachments~\\supp{E29}. In each exclusion the\nrecorded degree-three vertex or the four chosen twins lie outside\n$\\{a,b,c,d,e\\}$, so adding vertices on the original triples preserves\ntheir neighborhoods. In the second case, the component containing\nthe old component outside the same $\\Psi_3$ still has all its\noriginal attachments."
+  },
+  {
+   "where": "Proposition 6.25 (proof)",
+   "text": "The $193$ remaining candidates give $965$ cases over the five choices\nof $(n_c,n_e)$. Of these, $172$ are toroidal and $782$ have a proper\nnontoroidal minor. The other $11$ give the five graphs in the\nstatement up to isomorphism~\\supp{E29}."
   }
  ],
  "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ... Vertices of the forms are B<k>_<x>; added single vertices are v_<neighbourhood>.",

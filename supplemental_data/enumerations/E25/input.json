@@ -4,7 +4,7 @@
  "paper text": [
   {
    "where": "Proposition 6.16 (proof)",
-   "text": "Construction~\\ref{common:marked-construction}, using $E'$ and requiring $de$ when $B+ac+E$ is planar, therefore includes every possibility. The two choices of $E$ and the two cases for $B+ac+E$ give $66{,}384$ candidates. Every resulting graph is toroidal, has a $K_5$ minor or a proper nontoroidal minor, or is isomorphic to one of thirteen graphs $\\mathfrak T_i$~\\supp{E25}. Nine have twin triples meeting in zero or two vertices, leaving $\\mathfrak T_{14},\\mathfrak T_{37},\\mathfrak T_{41},\\mathfrak T_{59}$.\n\\end{proof}"
+   "text": "Construction~\\ref{common:marked-construction} with added edges $E'$\nnow includes every possibility, with $de$ required on the subdivision\nwhen $F$ is planar. The two choices of $E$ and the two cases for $F$\ngive $66{,}384$ candidates. After excluding toroidal graphs and those\nwith a $K_5$ minor or a proper nontoroidal minor, sixteen candidates\nremain, isomorphic to thirteen of the $\\mathfrak T_i$~\\supp{E25}.\nIn nine of the thirteen, two twin triples are disjoint or meet in\ntwo vertices, leaving\n$\\mathfrak T_{14},\\mathfrak T_{37},\\mathfrak T_{41},\\mathfrak T_{59}$."
   }
  ],
  "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",

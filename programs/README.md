@@ -1,6 +1,6 @@
 # Programs
 
-These are the programs that make the supplemental data of the paper. `rotation_tables` makes the rotation tables R1–R11, `enumerations` makes the enumerations E1–E30, `new_obstructions` makes N1, and `topological_search` makes TO1 and TO2, the search for the topological obstructions in the proof of Theorem 8.1. Each program writes its files in the same layout as the folder `supplemental_data`, so that what it writes can be compared with that folder file by file.
+These are the programs that make the supplemental data of the paper. `rotation_tables` makes the rotation tables R1–R12, `enumerations` makes the enumerations E1–E30, `new_obstructions` makes N1, and `topological_search` makes TO1 and TO2, the search for the topological obstructions in the proof of Theorem 8.1. Each program writes its files in the same layout as the folder `supplemental_data`, so that what it writes can be compared with that folder file by file.
 
 ## Setting up
 
@@ -18,7 +18,7 @@ E4 and E12 also check their DRAT proofs with drat-trim, found in the same way as
 
 ## The folders
 
-`rotation_tables/make_rotation_tables.py` runs through every rotation system of the graphs of each table and writes R1–R11 to `OUTPUT_FOLDER/rotations`. A statement of the paper about a table that fails stops the program.
+`rotation_tables/make_rotation_tables.py` runs through every rotation system of the graphs of each table and writes R1–R12 to `OUTPUT_FOLDER/rotations`. A statement of the paper about a table that fails stops the program.
 
 `topological_search/topological_search.py` starts from T1, ..., T74, splits vertices in every way and writes TO1.json and TO2.json. `topological_search/compare.py` compares them with the data folder up to isomorphism: the same 381 topological obstructions and the same 7,006 graphs with the same verdicts. The witnesses (branch sets and embeddings) may differ from those of the data folder, since the search may find other valid ones.
 
@@ -30,7 +30,7 @@ For E30, run `python programs/enumerations/make_enumerations.py OUTPUT_FOLDER E3
 
 `compare_files.py` compares the files of an output folder with the data folder: first byte for byte, then, for JSON files whose bytes differ, by content, so that a difference in formatting alone is reported as such. For a file whose content differs, it counts the places that differ and says whether they all lie in rotation systems (see the last section).
 
-`paper_text.json` holds the passages of the paper that the files of the items quote.
+`paper_text.json` supplies the passages quoted in the rotation tables and enumerations that use it. R7, E14 and E23 retain passages from earlier proofs. The [guide to the paper's supplemental references](../PAPER-REFERENCES.md) gives their context and the locations of the current citations.
 
 ## Running everything
 

@@ -1,6 +1,6 @@
 {
  "item": "O2",
- "what": "For each of T1,...,T74 (vertex numbers as in O1): a genus-two embedding; a certificate that it has no K5 minor; a torus embedding of every G-e and of every G/e; its connectivity; its twin triples; and the case of the proof of Theorem 1.1 that lists it. An embedding is a rotation system (the cyclic order of the neighbours at each vertex) with its genus. For G/e with e=[u,v], v is merged into u. The genus lower bound (genus at least two) is the genus computation on GitHub.",
+ "what": "For each of T1,...,T74 (vertex numbers as in O1): a genus-two embedding; a certificate that it has no K5 minor; a torus embedding of every G-e and of every G/e; its connectivity; its twin triples; and the case of the proof of Theorem 1.1 that lists it. An embedding is a rotation system (the cyclic order of the neighbours at each vertex) with its genus. For G/e with e=[u,v], v is merged into u. The exact genus computations by PAGE and multi_genus are recorded in genus/results/obstructions.csv. For T25 the genus is the sum of the genera of its two components.",
  "graphs": [
   {
    "name": "T1",

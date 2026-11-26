@@ -4,15 +4,15 @@
  "paper text": [
   {
    "where": "Lemma 4.8 (proof)",
-   "text": "Suppose (a) holds, and let $B$ be the unique $\\Psi_1$-bridge, whose interior must lie entirely in one facial disk $F$. In~\\supp{R2} we record the cyclic sequences of attachment appearances, including repeated appearances, for all possible faces $F$ containing all four attachments in all possible toroidal embeddings of $\\Psi_1/s_3t_3$. Up to cyclic shift and reversal, all such sequences also occur around a face in some torus embedding of $\\Psi_1$, with the exception of $a,b,c,d$. For those other sequences, the Jordan--Schoenflies theorem allows us to transfer the drawing of $B$ and obtain a toroidal embedding of $H$."
+   "text": "In (a), the unique bridge $B$ lies in a facial disk $F$ whose boundary\ncontains $a,b,c,d$. With the exception of $abcd$, every attachment\nsequence of such a face of $\\Psi_1/s_3t_3$ also occurs for $\\Psi_1$,\nup to cyclic shift and reversal~\\supp{R2}. When the sequences agree,\na homeomorphism of the two disks matching the boundary appearances\ncarries the drawing of $B$ to the corresponding face of $\\Psi_1$."
   },
   {
    "where": "Lemma 4.8 (proof)",
-   "text": "For case (b), we may use the same argument, restricting to the case where attachment $d$ is unused. Read the facial boundary walks in~\\supp{R2} for $\\Psi_1/s_3t_3$ and $\\Psi_1$, recording only appearances of $a,b,c$. Every such sequence containing $a,b,c$ for the contracted graph also occurs for $\\Psi_1$. In particular, the order $a,b,c$ occurs in the simple face with order $a,b,d,c$ by leaving $d$ unused. Transferring the drawing of the bridge to the corresponding face therefore gives a torus embedding of $H$. This completes both (a) and (b)."
+   "text": "In (b), the bridge uses only $a,b,c$. Omitting $d$ from the\nfacial walks gives the same sequences containing $a,b,c$ for\n$\\Psi_1/s_3t_3$ and $\\Psi_1$, up to cyclic shift and reversal~\\supp{R2}.\nThus the bridge can be drawn in the corresponding face of $\\Psi_1$."
   },
   {
    "where": "Lemma 4.8 (proof)",
-   "text": "If the region is an annulus, the boundary attachment sequences are $a,c\\mid b$, $a,c\\mid b,d$, $a\\mid b$ or $a\\mid b,d$. Each also occurs for $\\Psi_1$ by~\\supp{R2}, so Lemma~\\ref{lem:annulus-embedding} lets us insert $H_1$ and obtain a torus embedding of $H$.\n\nIf it is a disk, the sequences are $a,b$, $a,b,c$, $a,b,d$, $a,b,c,d$ or $a,c,d,b,d,c$. For $\\Psi_1$, take the disk drawings of its two simple faces and identify only their boundary copies of $P_1$. The resulting disk has the last sequence. It also gives $a,b,c$ and $a,b,d$ by using the appearances after $b$, so only $a,b,c,d$ with all four attachments remains to be considered."
+   "text": "The regions along $P_1$ in the two graphs are compared in~\\supp{R2}.\nIf the region is an annulus, its boundary sequences are $ac\\mid b$,\n$ac\\mid bd$, $a\\mid b$ or $a\\mid bd$. All four occur for $\\Psi_1$, so\nLemma~\\ref{lem:annulus-embedding} gives a torus embedding of $H$.\n\nIf the region is a disk, its sequence is $ab$, $abc$, $abd$, $abcd$\nor $acdbdc$. The sequences $ab$ and $acdbdc$ also occur for $\\Psi_1$.\nIn the disk with sequence $acdbdc$, the appearances after $b$ give\neither $abc$ or $abd$ by using just $c$ or just $d$. Thus only $abcd$\nwith all four attachments remains."
   }
  ],
  "what": "Every rotation system of Psi_1/s3t3, with P_1, P_2 the edges ab, cd (a = s1, b = t1, c = s2, d = t2) and the edge s3t3 contracted into s3. Attachments a, b, c, d; twins and s3 omitted.",

@@ -4,7 +4,7 @@
  "paper text": [
   {
    "where": "Lemma 6.18 (proof)",
-   "text": "By Lemma~\\ref{r1:three-attachment-setup}, $ce$ is an edge or is supplied by a component outside $\\Psi_3$. Since $e$ is not an attachment of $B$, we may shorten the resulting $c$--$e$ path to $ce$ and retain $(\\Psi_3\\cup B)+ce$ as a minor of $G$. The same embedding test applies after replacing $B$ by any allowed minor $B'$, so this minor remains nontoroidal whenever $B'+bc$ is nonplanar. By minimality and Corollary~\\ref{common:reduced-forms}, $B$ is among the $563$ forms in~\\supp{E26} with added edge $bc$. Every resulting graph has a proper nontoroidal minor except one copy of $\\mathfrak T_{41}$, for which $B+bd+cd$ is planar. This contradicts our assumption.\n\\end{proof}"
+   "text": "The same argument applies to any allowed minor $B'$ of $B$ for which\n$B'+bc$ is nonplanar. By Corollary~\\ref{common:reduced-forms}, it suffices to consider the\n$563$ candidates with attachments $b,c,d$ and added edge $bc$.\nOf these, $562$ have a proper nontoroidal minor. The remaining graph\nis isomorphic to $\\mathfrak T_{41}$ and has $B+bd+cd$ planar~\\supp{E26},\ncontrary to the choice of $B$."
   }
  ],
  "vertex names": "Psi_3: twins p, q with neighbourhood {a,b,c} and r, z with neighbourhood {a,d,e}, as in Section 6. Further vertices with neighbourhood {a,b,c} are p3, p4, and with {a,d,e} r3, r4. Interior vertices of bridges are u0, u1, ...",

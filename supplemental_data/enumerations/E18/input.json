@@ -4,7 +4,7 @@
  "paper text": [
   {
    "where": "Lemma 5.30 (proof)",
-   "text": "Construction~\\ref{common:marked-construction} lists these bridge forms with $E=\\varnothing$ or $E=\\{xy\\}$, over all choices of $x,y$. Keep the forms whose three two-edge completions are nonplanar and combine each with $\\Psi_2$ and the star at $v$. There are two choices for the attachment triple of $B$ and three remaining choices for $N(v)$. These give the $5{,}934$ graphs checked in~\\supp{E18}. Each has a cut of at most two vertices, a $K_5$ minor, or a proper nontoroidal minor. Each possibility contradicts a defining property of $G$.\n\\end{proof}"
+   "text": "The retained minor is therefore nontoroidal, so by minimality it is $G$. For each of the two possible attachment triples of $B'$, Construction~\\ref{common:marked-construction} gives $869$ nonplanar and $120$ planar bridge forms with all three two-edge completions nonplanar. There are three remaining choices for $N(v)$. Each of the resulting $2\\cdot3(869+120)=5{,}934$ graphs has a cut of at most two vertices, a $K_5$ minor, or a proper nontoroidal minor~\\supp{E18}."
   }
  ],
  "vertex names": "Psi_2: twins p, q with neighbourhood {a,b,c} and r, z with {a,b,d}; v is the contracted other component. Interior vertices of U are u0, u1, ....",

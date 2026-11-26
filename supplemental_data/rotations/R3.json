@@ -4,7 +4,7 @@
  "paper text": [
   {
    "where": "Proposition 4.25 (proof)",
-   "text": "We establish the final restrictions before enumerating the\npossible forms. Suppose neither $h_b$ nor $bc$ occurs. Contract\n$cf$ and take a torus embedding of this proper minor. Identify\nthe two boundary copies of $P_1$ in its incident facial disks,\nkeeping all other boundary appearances distinct. The path\n$P_1$ now lies inside the resulting region apart from its ends.\nThe rotation calculation~\\supp{R3} gives three possible regions:\nan annulus with attachment sequence $ac\\mid bd$, or a disk with\nattachment sequence\n\\[\na,c,b,d,c\\qquad\\text{or}\\qquad a,c,b,c,d,c.\n\\]\nEvery $\\Psi_1$-bridge inside $B$ meets the interior of $P_1$,\nso lies in this region. No other face contains both $a,d$,\nso any present $h_a$ or $ad$ lies there as well. Thus the\nregion contains $B\\cup H_{\\mathrm{ext}}$."
+   "text": "Suppose neither $h_b$ nor $bc$ is present. Take a torus embedding\nof $G/cf$ and identify the two boundary copies of $P_1$ in its\nincident facial disks, keeping all other boundary appearances\ndistinct. The resulting region contains $P_1$ and every bridge\nmeeting its interior, hence all of $B$. Among the regions along\n$P_1$ in $\\Psi_1/cf$, those whose boundary contains $c,d$ are an\nannulus with sequences $ac\\mid bd$ and disks with sequence $acbdc$\nor $acbcdc$. In each case no other face contains both $a,d$~\\supp{R3},\nso the region also contains $h_a$ or $ad$ if present."
   }
  ],
  "what": "Every rotation system of Psi_1/cf in the notation of Proposition 4.25 (a = s1, b = t1, c = s2, d = t3, e = s3, f = t2; the paths are the edges ab, cf, ed, and f is contracted into c). Attachments a, b, c, d; twins and e omitted.",

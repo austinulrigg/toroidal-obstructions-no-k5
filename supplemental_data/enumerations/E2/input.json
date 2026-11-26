@@ -4,7 +4,7 @@
  "paper text": [
   {
    "where": "Proposition 4.21 (proof)",
-   "text": "The graph $G$ has $K$ as a minor by retaining $B$, the edge $cd$,\nand shortening $apc,brd$ to $ac,bd$. Thus $K$ has no $K_5$ minor.\nBy the equivalence just proved, replacing $B$ by an allowed minor $B'$\ngives a nontoroidal graph whenever $B'+ac+cd+bd$ is nonplanar.\nCorollary~\\ref{common:reduced-forms}, with attachments $a,b,c,d$ and\nadded edges $ac,cd,bd$, therefore lists all $15{,}626$ candidate forms\nof $B$. Adjoining $\\Psi_1$ and $af$ to each candidate gives a graph\nwith a $K_5$ minor or a proper nontoroidal minor~\\supp{E2}, a\ncontradiction. Therefore $B$ does have a disk drawing in the order $a,b,d,c$, and Lemma~\\ref{dis:four-root-isolation} implies $D$ is a single vertex.\n\\end{proof}"
+   "text": "Taking $B'=B$ shows that $B+ac+cd+bd$ is nonplanar. It is a minor\nof $G$, obtained by retaining $B$ and $cd$ and shortening $apc$\nand $brd$ to $ac$ and $bd$, so it has no $K_5$ minor. By the\nequivalence, Corollary~\\ref{common:reduced-forms} puts $B$ among\nthe candidates with attachments $a,b,c,d$ and added edges\n$ac,cd,bd$. For each of the $15{,}626$ candidates, the graph\n$(\\Psi_1\\cup B)+af$ has an edge whose deletion or contraction is\nnontoroidal~\\supp{E2}, a contradiction. Thus $B$ has a disk drawing\nin the order $a,b,d,c$, and Lemma~\\ref{dis:four-root-isolation}\ngives that $D$ is a single vertex."
   }
  ],
  "vertex names": "a = s1, b = t1, c = s2, d = t2, e = s3, f = t3; twins p, q on {a, c, e} and r, z on {b, d, f}; the paths are the edges ab, cd, ef. Interior vertices of B are i0, i1, ...",
