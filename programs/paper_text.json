@@ -34,7 +34,7 @@
  "E5": [
   {
    "where": "Proposition 4.25 (proof)",
-   "text": "Apply Construction~\\ref{common:marked-construction} to each of\nthe six choices of $H_0$, using the required subdivision edges\nand planarity conditions above. Adding $J_1\\cup J_2$, the edges\n$cf,ed$, and the chosen additions to each candidate for $B$ gives\n$1{,}586$ candidates for $G$. Each has a $K_5$ minor, a cut of at\nmost two vertices, or a proper nontoroidal minor, except for\n$\\mathfrak T_{21}$ and $\\mathfrak T_{63}$~\\supp{E5}."
+   "text": "For each of the six choices of $H_0$, we require the subdivision in\nConstruction~\\ref{common:marked-construction} to contain the edges\nidentified above for that choice. Adding $J_1\\cup J_2$, the edges\n$cf,ed$, and the chosen additions to each candidate for $B$ gives\n$1{,}586$ candidates for $G$. Each has a $K_5$ minor, a cut of at\nmost two vertices, or a proper nontoroidal minor, except for\n$\\mathfrak T_{21}$ and $\\mathfrak T_{63}$~\\supp{E5}."
   }
  ],
  "E6": [
@@ -258,7 +258,7 @@
  "R8": [
   {
    "where": "Lemma 6.15 (proof)",
-   "text": "Indeed, the rotation tables in~\\supp{R8} give the boundary sequences for all twelve choices of $G-\\operatorname{Int}(B)$. For each disk face meeting all four attachments, Lemma~\\ref{cor:boundary-completions} gives the test by joining consecutive distinct attachments in its boundary sequence. Only the first row with $n_e=2$ admits a genus-zero rotation. No single boundary walk then meets all four attachments, and the only annular pair that does is $ac\\mid de$, giving the test $B+ac+de$ by Lemma~\\ref{lem:annulus-embedding}. Keeping the inclusion-minimal edge sets gives the table."
+   "text": "Indeed, the rotation tables in~\\supp{R8} give the boundary sequences for all twelve choices of $G-\\operatorname{Int}(B)$. For each disk face meeting all four attachments, Lemma~\\ref{cor:boundary-completions} gives the test by joining consecutive distinct attachments in its boundary sequence. Only the first row with $n_e=2$ admits a genus-zero rotation. No single boundary walk then meets all four attachments. The only\npair of boundary sequences that together contain all four is\n$ac\\mid de$, giving the test $B+ac+de$ by\nLemma~\\ref{lem:annulus-embedding}. Keeping the inclusion-minimal edge sets gives the table."
   }
  ],
  "R9": [

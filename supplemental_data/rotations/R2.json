@@ -5008,7 +5008,7 @@
    "holds": true
   },
   {
-   "statement": "Comparison with Psi_1 (the table R1, with a = s1, b = t1, c = s2, d = t2): the faces meeting at least three of a, b, c, d and the regions glued along P_1 = ab, over all torus rotations, up to cyclic shift and reversal, with the number of torus rotations in which each occurs.",
+   "statement": "Comparison with Psi_1 (the table R1, with a = s1, b = t1, c = s2, d = t2): the faces meeting at least three of a, b, c, d and the regions glued along P_1 = ab, over all torus rotations, up to cyclic shift and reversal. For each face sequence, we count the facial walks with that sequence over all genus-one rotations. Each rotation contributes one region along P_1.",
    "computed": {
     "Psi_1/s3t3": {
      "faces": {
@@ -5080,7 +5080,7 @@
   {
    "statement": "In (a) and (b), a simple face of Psi_1 has order a,b,d,c.",
    "computed": {
-    "faces of Psi_1 with sequence abdc (torus rotations)": 32
+    "facial walks of Psi_1 with sequence abdc": 32
    },
    "holds": true
   },

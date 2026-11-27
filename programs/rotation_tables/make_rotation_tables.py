@@ -311,7 +311,8 @@ def build_R2():
     claims.append(claim(
         'Comparison with Psi_1 (the table R1, with a = s1, b = t1, c = s2, d = t2): the faces meeting at least three '
         'of a, b, c, d and the regions glued along P_1 = ab, over all torus rotations, up to cyclic shift and '
-        'reversal, with the number of torus rotations in which each occurs.',
+        'reversal. For each face sequence, we count the facial walks with that sequence over all genus-one '
+        'rotations. Each rotation contributes one region along P_1.',
         {'Psi_1/s3t3': {'faces': counter_dict(f_new), 'regions along ab': counter_dict(r_new)},
          'Psi_1': {'faces': counter_dict(f_psi), 'regions along ab': counter_dict(r_psi)}}, True))
     ok = all(p == canon('abcd') or is_three_restriction(p) for p in map(tuple, new_all)) and \
@@ -322,7 +323,7 @@ def build_R2():
         {'faces of Psi_1/s3t3 not occurring for Psi_1': new_faces,
          'regions along ab of Psi_1/s3t3 not occurring for Psi_1': new_regions}, ok))
     claims.append(claim('In (a) and (b), a simple face of Psi_1 has order a,b,d,c.',
-                        {'faces of Psi_1 with sequence abdc (torus rotations)': f_psi.get(fmt(canon('abdc')), 0)},
+                        {'facial walks of Psi_1 with sequence abdc': f_psi.get(fmt(canon('abdc')), 0)},
                         f_psi.get(fmt(canon('abdc')), 0) > 0))
     claims.append(claim('In (c), gluing the two simple facial disks of Psi_1 along P_1 gives a disk with attachment '
                         'sequence a,c,d,b,d,c.',
@@ -436,7 +437,8 @@ def build_R4():
             '%s: the genus-one attachment sequences meeting all four attachments, up to cyclic shift and reversal, '
             'with H obtained by joining consecutive attachments; each H is a cycle, a triangle with a pendant edge '
             'or a three-edge star, and the sequence is a facial walk of H.' % key,
-            {'sequences (torus rotations in which they occur)': counter_dict(st['disk']), 'H': tests},
+            {'number of facial walks with each sequence over all genus-one rotations': counter_dict(st['disk']),
+             'H': tests},
             all(t['H'] in ('cycle', 'triangle with a pendant edge', 'three-edge star') for t in tests.values())
             and ((nc, nd) not in want_disk or disk == want_disk[(nc, nd)]), where='Lemma 5.3'))
         if (nc, nd) == (2, 2):

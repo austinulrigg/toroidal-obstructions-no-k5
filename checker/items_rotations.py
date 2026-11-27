@@ -363,6 +363,7 @@ def check_R2():
                     'regions along ab of Psi_1/s3t3 not occurring for Psi_1': new_r}
     for p in new_f + new_r:
         assert 'annulus' not in p and (p == 'abcd' or (len(p) == 3 and len(set(p)) == 3))
+    assert c[3] == {'facial walks of Psi_1 with sequence abdc': fo['abdc']}
     assert fo['abdc'] > 0 and ro['acdbdc'] > 0
     return 'R2 ok'
 
@@ -418,7 +419,7 @@ def check_R4():
     (n22, b22, s22), (n32, b32, s32), (n33, b33, s33) = out
     seqs = [cl for cl in c if 'genus-one attachment sequences meeting all four' in cl['statement']]
     for cl, (_, by, st) in zip(seqs, out):
-        assert cl['computed']['sequences (torus rotations in which they occur)'] == cdict(st['disk'])
+        assert cl['computed']['number of facial walks with each sequence over all genus-one rotations'] == cdict(st['disk'])
         assert cl['computed']['H'] == tests(sorted(st['disk']))
         assert all(t['H'] in ('cycle', 'triangle with a pendant edge', 'three-edge star')
                    for t in cl['computed']['H'].values())
